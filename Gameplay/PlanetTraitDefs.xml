@@ -386,55 +386,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldAverage</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldAverage</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldAverage</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldBad</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldBad</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldBad</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldWorse</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldWorse</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>ArborealWorldGood</PreferredDistribution>
+      <PreferredDistribution>ArborealWorldDead</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>PopulationCap</EffectType>
