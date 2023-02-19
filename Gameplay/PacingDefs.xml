@@ -15,7 +15,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>-0.5</Value>
+				<Value>-0.3</Value>
 			</Stats>
 		</Pacing>
 
@@ -28,7 +28,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>-0.25</Value>
+				<Value>-0.15</Value>
 			</Stats>
 		</Pacing>
 
@@ -45,7 +45,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>0.25</Value>
+				<Value>0.15</Value>
 			</Stats>
 		</Pacing>
 
@@ -58,7 +58,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>0.5</Value>
+				<Value>0.3</Value>
 			</Stats>
 		</Pacing>
 
@@ -76,7 +76,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>-0.75</Value>
+				<Value>-0.3</Value>
 			</Stats>
 		</Pacing>
 
@@ -89,7 +89,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>-0.5</Value>
+				<Value>-0.15</Value>
 			</Stats>
 		</Pacing>
 
@@ -107,7 +107,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>0.25</Value>
+				<Value>0.15</Value>
 			</Stats>
 		</Pacing>
 
@@ -120,7 +120,7 @@
 					<TargetType>Colony</TargetType>
 				</Target>
 				<BonusType>Multiplier</BonusType>
-				<Value>0.5</Value>
+				<Value>0.3</Value>
 			</Stats>
 		</Pacing>
 

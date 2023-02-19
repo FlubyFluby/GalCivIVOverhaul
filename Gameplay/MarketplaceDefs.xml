@@ -19,31 +19,31 @@ xsi:noNamespaceSchemaLocation="../Schema/MarketplaceDefs.xsd">
 
     <Resources>
       <UniqueID>Durantium</UniqueID>
-      <BaseCost>50</BaseCost>
+      <BaseCost>65</BaseCost>
       <Image>Durantium_Thumb.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>Promethion</UniqueID>
-      <BaseCost>140</BaseCost>
+      <BaseCost>60</BaseCost>
       <Image>Promethion_Thumb.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>Thulium</UniqueID>
-      <BaseCost>80</BaseCost>
+      <BaseCost>70</BaseCost>
       <Image>Thulium_Thumb.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>Elerium</UniqueID>
-      <BaseCost>90</BaseCost>
+      <BaseCost>80</BaseCost>
       <Image>Elerium_Thumb.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>Antimatter</UniqueID>
-      <BaseCost>120</BaseCost>
+      <BaseCost>75</BaseCost>
       <Image>Antimatter_Thumb.png</Image>
     </Resources>
 
@@ -73,19 +73,19 @@ xsi:noNamespaceSchemaLocation="../Schema/MarketplaceDefs.xsd">
 
     <Resources>
       <UniqueID>TechapodHive</UniqueID>
-      <BaseCost>100</BaseCost>
+      <BaseCost>250</BaseCost>
       <Image>TechapodHive.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>ArtocarpusViriles</UniqueID>
-      <BaseCost>160</BaseCost>
+      <BaseCost>200</BaseCost>
       <Image>ArtocarpusViriles.png</Image>
     </Resources>
 
     <Resources>
       <UniqueID>MonsatiumDeposit</UniqueID>
-      <BaseCost>40</BaseCost>
+      <BaseCost>100</BaseCost>
       <Image>MonsatiumDeposit.png</Image>
     </Resources>
 
@@ -97,7 +97,7 @@ xsi:noNamespaceSchemaLocation="../Schema/MarketplaceDefs.xsd">
 
     <Resources>
       <UniqueID>XanthiumDeposit</UniqueID>
-      <BaseCost>75</BaseCost>
+      <BaseCost>100</BaseCost>
       <Image>XanthiumDeposit.png</Image>
     </Resources>
 

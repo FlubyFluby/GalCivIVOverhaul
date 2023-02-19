@@ -3,6 +3,20 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/FactionCommanderShipSetDef.xsd">
 
+<CommanderShipSet>
+  <InternalName>CommanderShipSet_Minions</InternalName>
+  <DisplayName>CommandShipSet_Minions</DisplayName>
+  <Description>Why wouldn't Minions deserve a little of everything?</Description>
+  <CommanderShipClass>Commander_Baratak1</CommanderShipClass>
+  <CommanderShipClass>Commander_Drengin3</CommanderShipClass>
+  <CommanderShipClass>Commander_Drengin4</CommanderShipClass>
+  <CommanderShipClass>Commander_AfterDeath</CommanderShipClass>
+  <CommanderShipClass>Commander_Festron7</CommanderShipClass>
+  <CommanderShipClass>Commander_Arcean6</CommanderShipClass>
+  <CommanderShipClass>Commander_Onyx7</CommanderShipClass>
+  <CommanderShipClass>Commander_Resistance7</CommanderShipClass>
+</CommanderShipSet>
+
   <CommanderShipSet>
     <InternalName>CommanderShipSet_Altarian</InternalName>
     <DisplayName>CommandShipSet_Altarian_Name</DisplayName>

@@ -2996,6 +2996,48 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <Value>1</Value>
       </Modifier>
     </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardSpecificTech</Action>
+        <StringParam>Tech_SubspaceScanning</StringParam>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardSpecificTech</Action>
+        <StringParam>Tech_SubspaceStreaming</StringParam>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <PerformAction>
+        <Action>ShowStartingPositions</Action>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>GiveArtifactPower</Action>
+        <ValueParam>3</ValueParam>
+        <StringParam>FOWReveal</StringParam>
+      </PerformAction>
+    </Triggers>
   </RaceTrait>
 
   <RaceTrait>
@@ -3468,6 +3510,50 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <PerformAction>
         <Action>AwardStartingShip</Action>
         <StringParam>ColonyBlueprint</StringParam>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>GeneralStartingFleet</InternalName>
+    <DisplayName>GeneralStartingFleet_Name</DisplayName>
+    <DisplayNameShort>GeneralStartingFleet_ShortName</DisplayNameShort>
+    <Description>GeneralStartingFleet_Dec</Description>
+    <IsStartingShips>1</IsStartingShips>
+    <Triggers>
+      <OnEvent>OnInitialShips</OnEvent>
+      <Scope>Global</Scope>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardStartingShip</Action>
+        <StringParam>ColonyBlueprint</StringParam>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnInitialShips</OnEvent>
+      <Scope>Global</Scope>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardStartingShip</Action>
+        <StringParam>ColonyBlueprint</StringParam>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnInitialShips</OnEvent>
+      <Scope>Global</Scope>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardStartingShip</Action>
+        <StringParam>ConstructorBlueprint</StringParam>
       </PerformAction>
     </Triggers>
   </RaceTrait>

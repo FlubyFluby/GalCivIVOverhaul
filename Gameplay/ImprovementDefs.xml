@@ -65,7 +65,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <Value>0.1</Value>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>PopulationCap</EffectType>
@@ -203,8 +203,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>45</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -217,8 +217,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Target>
           <TargetType>Faction</TargetType>
         </Target>
-        <BonusType>Flat</BonusType>
-        <Value>100</Value>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.05</Value>
       </Modifier>
     </Triggers>
     <Triggers>
@@ -231,10 +231,60 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Target>
           <TargetType>Colony</TargetType>
         </Target>
-        <BonusType>Flat</BonusType>
+        <BonusType>Multiplier</BonusType>
         <Value>0.01</Value>
       </Modifier>
       <SourceDisplayName>StripMine_Name</SourceDisplayName>
+    </Triggers>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PlanetaryAdaption</Option>
+      </Techs>
+    </Prerequ>
+  </Improvement>
+  <Improvement>
+    <InternalName>CleanEnvironment</InternalName>
+    <DisplayName>CleanEnvironment_Name</DisplayName>
+    <ShortDescription>CleanEnvironment_ShortDec</ShortDescription>
+    <Description>StripMine_Dec</Description>
+    <Icon>GC3_Mining.png</Icon>
+    <BuildIcon>GC3_Mining_Build.png</BuildIcon>
+    <ListIcon>GC3_Mining_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.075</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ArtocarpusVirilesCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Pollution</EffectType>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.1</Value>
+      </Modifier>
+      <SourceDisplayName>CleanEnvironment_Name</SourceDisplayName>
     </Triggers>
     <Prerequ>
       <Techs>
@@ -268,8 +318,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Stats>
       <EffectType>SensorRange</EffectType>
@@ -277,15 +327,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
     </Stats>
     <Stats>
       <EffectType>Crime</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
+      <BonusType>Multiplier</BonusType>
       <Value>0.1</Value>
     </Stats>
     <Triggers>
@@ -324,7 +375,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -362,27 +413,30 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.3</Value>
+      <Value>0.15</Value>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.3</Value>
+      <Value>0.05</Value>
     </Stats>
     <Stats>
       <EffectType>Pollution</EffectType>
+      <Scope>Local</Scope>
       <Target>
-        <TargetType>Colony</TargetType>
+        <TargetType>Planet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <Value>0.5</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -416,19 +470,21 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Triggers>
     <LevelEffectStats>
       <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <Value>0.075</Value>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <Value>0.015</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -470,19 +526,21 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>FoodIncome</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
     </Stats>
     <Stats>
       <EffectType>Tourism</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -529,19 +587,21 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Triggers>
     <LevelEffectStats>
       <EffectType>FoodIncome</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.01</Value>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>Tourism</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.03</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.005</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -589,11 +649,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.2</Value>
+      <Value>0.1</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -612,11 +673,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Triggers>
     <LevelEffectStats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>0.01</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -665,11 +727,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.2</Value>
+      <Value>0.125</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -688,11 +751,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Triggers>
     <LevelEffectStats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>0.012</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -736,15 +800,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>5</Value>
+      <Value>25</Value>
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.2</Value>
+      <Value>0.15</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -763,11 +828,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Triggers>
     <LevelEffectStats>
       <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>0.015</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -822,19 +888,30 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Unit</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-0.03</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.05</Value>
     </Stats>
     <Stats>
       <EffectType>Crime</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-0.1</Value>
+      <Value>-0.15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.1</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -852,12 +929,31 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Modifier>
     </Triggers>
     <LevelEffectStats>
-      <EffectType>Research</EffectType>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>-0.005</Value>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Crime</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.015</Value>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.01</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -880,7 +976,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>DiplomaticDistrict_Icon.png</ListIcon>
     <ImprovementType>Research</ImprovementType>
     <PlacementType>ResearchHub</PlacementType>
-    <IsPlayerWonder>true</IsPlayerWonder>
+    <IsPlayerWonder>false</IsPlayerWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -891,12 +987,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>100</Value>
     </Stats>
     <Stats>
-      <EffectType>ControlPerTurn</EffectType>
+      <EffectType>CanDetectCloak</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.25</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -914,16 +1010,17 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Modifier>
     </Triggers>
     <LevelEffectStats>
-      <EffectType>Research</EffectType>
+      <EffectType>CanDetectCloak</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.03</Value>
+      <Value>0.025</Value>
     </LevelEffectStats>
     <NeighborBonuses>
-      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
-      <NeighborBonusValue>2</NeighborBonusValue>
+      <GiveBonusToNeighborType>Resistance</GiveBonusToNeighborType>
+      <NeighborBonusValue>5</NeighborBonusValue>
     </NeighborBonuses>
     <Prerequ>
       <Techs>
@@ -960,8 +1057,26 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>0.1</Value>
     </Stats>
+    <Stats>
+      <EffectType>ControlPerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.01</Value>
+    </Stats>
     <LevelEffectStats>
-      <EffectType>ColonyGrossIncome</EffectType>
+      <EffectType>ControlPerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.001</Value>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>ControlPerTurn</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -969,12 +1084,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>0.01</Value>
     </LevelEffectStats>
     <NeighborBonuses>
-      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>2</NeighborBonusValue>
     </NeighborBonuses>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>2</NeighborBonusValue>
     </NeighborBonuses>
     <Prerequ>
       <Techs>
@@ -1004,7 +1119,95 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>200</Value>
     </Stats>
     <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.15</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>IdeologyOpportunity</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Modifier>
+    </Triggers>
+    <LevelEffectStats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.015</Value>
+    </LevelEffectStats>
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>3</NeighborBonusValue>
+    </NeighborBonuses>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfFinance</Option>
+      </Techs>
+    </Prerequ>
+  </Improvement>
+
+  <Improvement>
+    <InternalName>Bank</InternalName>
+    <DisplayName>Bank_Name</DisplayName>
+    <ShortDescription>Bank_ShortDec</ShortDescription>
+    <Description>Bank_Dec</Description>
+    <Icon>Icon_003.png</Icon>
+    <BuildIcon>Icon_003_Build.png</BuildIcon>
+    <ListIcon>Icon_003_Icon.png</ListIcon>
+    <ImprovementType>Wealth</ImprovementType>
+    <PlacementType>WealthHub</PlacementType>
+    <IsColonyUnique>true</IsColonyUnique>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>75</Value>
+    </Stats>
+    <Stats>
       <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
@@ -1017,7 +1220,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>5</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -1040,7 +1243,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -1052,7 +1255,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Techs>
     </Prerequ>
   </Improvement>
-
+<!--Untouched -->
   <Improvement>
     <InternalName>Starport</InternalName>
     <DisplayName>Starport_Name</DisplayName>
@@ -1134,6 +1337,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+  <!--Untouched -->
   <Improvement>
     <InternalName>ColonialGenerator</InternalName>
     <DisplayName>ColonialGenerator_Name</DisplayName>
@@ -1314,8 +1518,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -1354,7 +1558,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Techs>
     </Prerequ>
   </Improvement>
-
+<!-- Untouched -->
   <Improvement>
     <InternalName>IndustrialCenter</InternalName>
     <DisplayName>IndustrialCenter_Name</DisplayName>
@@ -1429,6 +1633,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>SupplyDepot</InternalName>
     <DisplayName>SupplyDepot_Name</DisplayName>
@@ -1491,6 +1696,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Preclusions>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>FusionPowerPlant</InternalName>
     <DisplayName>FusionPowerPlant_Name</DisplayName>
@@ -1570,6 +1776,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>SingularityPowerPlant</InternalName>
     <DisplayName>SingularityPowerPlant_Name</DisplayName>
@@ -1676,6 +1883,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>ManufacturingCapital</InternalName>
     <DisplayName>ManufacturingCapital_Name</DisplayName>
@@ -1778,6 +1986,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>Wonder_ElonsLift</InternalName>
     <DisplayName>Wonder_ElonsLift_Name</DisplayName>
@@ -1857,6 +2066,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+<!-- Untouched -->
   <Improvement>
     <InternalName>Wonder_BeaconOfBabylon</InternalName>
     <DisplayName>Wonder_BeaconOfBabylon_Name</DisplayName>
@@ -1944,6 +2154,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Prerequ>
   </Improvement>
 
+  <!-- Untouched -->
   <Improvement>
     <InternalName>TechnologicalCapital</InternalName>
     <DisplayName>TechnologicalCapital_Name</DisplayName>
@@ -2043,6 +2254,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Preclusions>
   </Improvement>
 
+  <!-- Untouched -->
   <Improvement>
     <InternalName>VirtualWorld</InternalName>
     <DisplayName>VirtualWorld_Name</DisplayName>
@@ -2053,7 +2265,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>TorianResearchCommune_Icon.png</ListIcon>
     <ImprovementType>Approval</ImprovementType>
     <PlacementType>ResearchHub</PlacementType>
-    <IsIndestructible>true</IsIndestructible>
+    <IsIndestructible>false</IsIndestructible>
     <IsGalacticWonder>true</IsGalacticWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
@@ -2137,7 +2349,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>Icon_012_Icon.png</ListIcon>
     <ImprovementType>Research</ImprovementType>
     <PlacementType>ResearchHub</PlacementType>
-    <IsIndestructible>true</IsIndestructible>
+    <IsIndestructible>false</IsIndestructible>
     <IsGalacticWonder>true</IsGalacticWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
@@ -2157,12 +2369,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>5</Value>
     </Stats>
     <Stats>
-      <EffectType>Research</EffectType>
+      <EffectType>SensorRange</EffectType>
+      <Scope>Global</Scope>
       <Target>
-        <TargetType>Colony</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -2200,10 +2413,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Action>ShowStartingPositions</Action>
       </PerformAction>
     </Triggers>
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
-      <NeighborBonusValue>3</NeighborBonusValue>
-    </NeighborBonuses>
+    <LevelEffectStats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Fleet</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.015</Value>
+    </LevelEffectStats>
     <Prerequ>
       <Techs>
         <Option>Tech_SubspaceScanning</Option>
@@ -2226,7 +2443,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>Icon_006_Icon.png</ListIcon>
     <ImprovementType>Food</ImprovementType>
     <PlacementType>FoodHub</PlacementType>
-    <IsIndestructible>true</IsIndestructible>
+    <IsIndestructible>false</IsIndestructible>
     <IsGalacticWonder>true</IsGalacticWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
@@ -2247,11 +2464,109 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>FoodIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>IdeologyCompassion</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Modifier>
+    </Triggers>
+    <LevelEffectStats>
+      <EffectType>FoodIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.015</Value>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.01</Value>
+    </LevelEffectStats>
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>3</NeighborBonusValue>
+    </NeighborBonuses>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Planetology</Option>
+      </Techs>
+    </Prerequ>
+    <Preclusions>
+      <RaceTrait>
+        <Option>SyntheticLife</Option>
+      </RaceTrait>
+    </Preclusions>
+    <BlockedPlanetFeature>Terrain_Desert</BlockedPlanetFeature>
+    <BlockedPlanetFeature>Terrain_Mountains</BlockedPlanetFeature>
+  </Improvement>
+
+  <Improvement>
+    <InternalName>Farming Guild</InternalName>
+    <DisplayName>FarmingGuild_Name</DisplayName>
+    <ShortDescription>FarmingGuild_ShortDec</ShortDescription>
+    <Description>FarmingGuild_Dec</Description>
+    <Icon>Icon_006.png</Icon>
+    <BuildIcon>Icon_006_Build.png</BuildIcon>
+    <ListIcon>Icon_006_Icon.png</ListIcon>
+    <ImprovementType>Food</ImprovementType>
+    <PlacementType>FoodHub</PlacementType>
+    <IsIndestructible>false</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>75</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>-500</Value>
+    </Stats>
+    <Stats>
+      <EffectType>FoodIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>5</Value>
+      <Value>3</Value>
     </Stats>
     <Stats>
       <EffectType>Growth</EffectType>
@@ -2259,7 +2574,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.25</Value>
+      <Value>0.05</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -2282,11 +2597,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>0.34</Value>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.005</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-      <NeighborBonusValue>3</NeighborBonusValue>
+      <NeighborBonusValue>1</NeighborBonusValue>
     </NeighborBonuses>
     <Prerequ>
       <Techs>
@@ -2301,6 +2625,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <BlockedPlanetFeature>Terrain_Desert</BlockedPlanetFeature>
     <BlockedPlanetFeature>Terrain_Mountains</BlockedPlanetFeature>
   </Improvement>
+
 
   <Improvement>
     <InternalName>ColonialClinic</InternalName>
@@ -2323,6 +2648,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>87</Value>
     </Stats>
     <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-500</Value>
+    </Stats>
+    <Stats>
       <EffectType>Maintenance</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -2336,7 +2669,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>5</Value>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>Growth</EffectType>
@@ -2751,7 +3084,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>SoilEnhancement_Icon.png</ListIcon>
     <ImprovementType>Terraforming</ImprovementType>
     <PlacementType>Terraforming</PlacementType>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsColonyUnique>false</IsColonyUnique>
     <IsNoImprovement>true</IsNoImprovement>
     <NeighborCountMin>3</NeighborCountMin>
     <Stats>
@@ -2762,6 +3095,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>60</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-150</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -2780,9 +3121,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>SoilEnhancement_Icon.png</ListIcon>
     <ImprovementType>Terraforming</ImprovementType>
     <PlacementType>Terraforming</PlacementType>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsColonyUnique>false</IsColonyUnique>
     <IsNoImprovement>true</IsNoImprovement>
-    <NeighborCountMin>3</NeighborCountMin>
+    <NeighborCountMin>1</NeighborCountMin>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -2790,7 +3131,15 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>80</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-600</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -2809,9 +3158,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>SoilEnhancement_Icon.png</ListIcon>
     <ImprovementType>Terraforming</ImprovementType>
     <PlacementType>Terraforming</PlacementType>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsColonyUnique>false</IsColonyUnique>
     <IsNoImprovement>true</IsNoImprovement>
-    <NeighborCountMin>3</NeighborCountMin>
+    <NeighborCountMin>2</NeighborCountMin>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -2820,6 +3169,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>90</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-300</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -2838,7 +3195,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>TerraformingPlant_Icon.png</ListIcon>
     <ImprovementType>Terraforming</ImprovementType>
     <PlacementType>Terraforming</PlacementType>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsColonyUnique>false</IsColonyUnique>
     <IsNoImprovement>true</IsNoImprovement>
     <NeighborCountMin>4</NeighborCountMin>
     <Stats>
@@ -2849,6 +3206,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>120</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Credits</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-75</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -2867,9 +3232,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>HabitatImprovementPlant_Icon.png</ListIcon>
     <ImprovementType>Terraforming</ImprovementType>
     <PlacementType>Terraforming</PlacementType>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsColonyUnique>false</IsColonyUnique>
     <IsNoImprovement>true</IsNoImprovement>
-    <NeighborCountMin>3</NeighborCountMin>
+    <NeighborCountMin>5</NeighborCountMin>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
