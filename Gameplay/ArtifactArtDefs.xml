@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ArtifactArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ArtifactArtDefs.xsd">
+
+  <ArtDefine>
+    <InternalName>DefaultArtifactArt</InternalName>
+    <MaterialID1>Ship_Material_01</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+    <SubMaterialID1>Default_Surface_01</SubMaterialID1>
+    <SubMaterialID2>Default_Surface_04</SubMaterialID2>
+    <AppearanceID>Appearance_Artifact</AppearanceID>
+		<Icon>Artifact_Stat_Icon</Icon>
+		<StrategicIcon>Resource</StrategicIcon>
+		<StrategicIconColorDefine>BrightRed</StrategicIconColorDefine>
+    <ParticleEffectScript>TheRelicParticleEffect</ParticleEffectScript>
+    <ObjectGfxConfig>TheRelic_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+</ArtifactArtList>

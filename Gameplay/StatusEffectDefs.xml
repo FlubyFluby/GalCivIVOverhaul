@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StatusEffectList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StatusEffectDefs.xsd">
+
+	<StatusEffect>
+		<InternalName>RebellionStatus</InternalName>
+		<DisplayName>REBELLION_STATUS_NAME</DisplayName>
+		<Modifier>
+			<EffectType>ColonyGrossIncome</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.50</Value>
+		</Modifier>
+	</StatusEffect>
+
+	<StatusEffect>
+		<InternalName>ReductionWaveEmitterStatus</InternalName>
+		<DisplayName>REDUCTION_WAVE_EMITTER_STATUS_NAME</DisplayName>		
+		<Modifier>
+			<EffectType>Research</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.33</Value>
+		</Modifier>
+		<Modifier>
+			<EffectType>Manufacturing</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.33</Value>
+		</Modifier>
+	</StatusEffect>
+
+	<StatusEffect>
+		<InternalName>PlanetarySubjugationBombStatus</InternalName>
+		<DisplayName>PLANETARY_SUBJUGATION_BOMB_STATUS_NAME</DisplayName>
+		<Modifier>
+			<EffectType>Manufacturing</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>0.33</Value>
+		</Modifier>
+		<Modifier>
+			<EffectType>ColonyGrossIncome</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>0.33</Value>
+		</Modifier>
+		<Modifier>
+			<EffectType>Research</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.33</Value>
+		</Modifier>
+		<Modifier>
+			<EffectType>InfluencePerTurn</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.33</Value>
+		</Modifier>
+	</StatusEffect>
+
+  <StatusEffect>
+    <InternalName>PlanetConqueredStatus_Bombardment</InternalName>
+    <DisplayName>PLANET_CONQUERED_STATUS_NAME</DisplayName>
+    <TurnCount>50</TurnCount>
+    <Modifier>
+      <EffectType>Approval</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.50</Value>
+    </Modifier>
+  </StatusEffect>
+
+	<StatusEffect>
+		<InternalName>Quest_GA_ThePlague_GrowthPenalty</InternalName>
+		<DisplayName>Quest_GA_ThePlague_GrowthPenalty_Label</DisplayName>
+		<TurnCount>0</TurnCount>
+		<Modifier>
+			<EffectType>Growth</EffectType>
+			<Scope>Global</Scope>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Multiplier</BonusType>
+			<Value>-0.25</Value>
+		</Modifier>
+	</StatusEffect>
+	
+</StatusEffectList>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AdvisorRecommendations
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AdvisorRecommendationDefs.xsd">
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_LowTreasurey</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_LOW_TREASURY</Suggestion>
+    <Action>OpenScreen</Action>
+    <ActionParam>PolicyWnd</ActionParam>
+    <Qualifiers>
+      <Target>PlayerFaction</Target>
+      <Qualifier>
+        <StringParam>Credits</StringParam>
+        <ValueParam>100</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>1</TargetScoreMod>
+      </Qualifier>
+      <Qualifier>
+        <StringParam>CreditsPerTurn</StringParam>
+        <ValueParam>0</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>-1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_LowMaxApproval</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_LOW_APPROVAL</Suggestion>
+    <Action>NoAction</Action>
+    <Qualifiers>
+      <Target>PlayerFaction</Target>
+      <Qualifier>
+        <StringParam>Approval</StringParam>
+        <ValueParam>0.4</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+  
+  <AdvisorRecommendation>
+    <InternalName>Advisor_ConvertCoreWorld</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>AdvisorRecommendation_ConvertCoreWorld</Suggestion>
+    <Action>SelectTarget</Action>
+    <Qualifiers>
+      <Target>UnmanagedColony</Target>
+      <Qualifier>
+        <StringParam>PlanetClass</StringParam>
+        <ValueParam>12</ValueParam>
+        <Condition>GreaterThanOrEqual</Condition>
+        <TargetScoreMod>1</TargetScoreMod>
+      </Qualifier>
+      <Qualifier>
+        <StringParam>SponsorDecay</StringParam>
+        <ValueParam>0.3</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>-1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_ColonizePlanet</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>AdvisorRecommendation_ColonizePlanet</Suggestion>
+    <Action>SelectTarget</Action>
+    <Qualifiers>
+      <Target>UncolonizedPlanet</Target>
+      <Qualifier>
+        <StringParam>UsablePlanetClass</StringParam>
+        <ValueParam>6</ValueParam>
+        <Condition>GreaterThanOrEqual</Condition>
+        <TargetScoreMod>1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_LowDiploWarning</InternalName>
+    <Type>Culture</Type>
+    <Suggestion>AdvisorRecommendation_LowDiploWarning</Suggestion>
+    <Action>OpenScreen</Action>
+    <ActionParam>DiplomacyWnd</ActionParam>
+    <Qualifiers>
+      <Target>ForeignFaction</Target>
+      <Qualifier>
+        <StringParam>DiplomacyScore</StringParam>
+        <ValueParam>-1</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>-1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_LowApprovalWarning</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>AdvisorRecommendation_LowApprovalWarning</Suggestion>
+    <Action>OpenScreen</Action>
+    <ActionParam>PlanetWnd</ActionParam>
+    <Qualifiers>
+      <Target>ManagedColony</Target>
+      <Qualifier>
+        <StringParam>Approval</StringParam>
+        <ValueParam>0.5</ValueParam>
+        <Condition>LessThan</Condition>
+        <TargetScoreMod>-1</TargetScoreMod>
+      </Qualifier>
+    </Qualifiers>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_EnemiesInOurZOC</InternalName>
+    <Type>Military</Type>
+    <Suggestion>AdvisorRecommendation_EnemiesInOurZOC</Suggestion>
+    <Action>SelectTarget</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_RecruitLeaders</InternalName>
+    <Type>Culture</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_RECRUIT_LEADERS</Suggestion>
+    <Action>NoAction</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_ExecOrder</InternalName>
+    <Type>Culture</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_EXECUTIVE_ORDERS</Suggestion>
+    <Action>Special</Action>
+    <ActionParam>ShowExecOrders</ActionParam>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_LowFood</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_LOW_FOOD</Suggestion>
+    <Action>NoAction</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_SurveyAnomalies</InternalName>
+    <Type>Research</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_SURVEY_ANOMALIES</Suggestion>
+    <Action>NoAction</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_ColonizePlanetWithShip</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_COLONIZE_PLANET</Suggestion>
+    <Action>SelectTarget</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_ConstructShip</InternalName>
+    <Type>Military</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_CONSTRUCT_SHIP</Suggestion>
+    <Action>OpenScreen</Action>
+    <ActionParam>ShipyardWnd</ActionParam>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_EnactPolicy</InternalName>
+    <Type>Culture</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_ENACT_POLICY</Suggestion>
+    <Action>OpenScreen</Action>
+    <ActionParam>PolicyWnd</ActionParam>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_AssignCommander</InternalName>
+    <Type>Military</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_COMMANDER_SHIP</Suggestion>
+    <Action>Special</Action>
+    <ActionParam>GoToAssignCommander</ActionParam>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_UpgradeShip</InternalName>
+    <Type>Military</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_SHIP_UPGRADES</Suggestion>
+    <Action>SelectTarget</Action>
+  </AdvisorRecommendation>
+
+  <AdvisorRecommendation>
+    <InternalName>Advisor_AssignGovernor</InternalName>
+    <Type>Economic</Type>
+    <Suggestion>SUMMARY_RECOMMENDATION_ASSIGN_GOVERNOR</Suggestion>
+    <Action>SelectTarget</Action>
+  </AdvisorRecommendation>
+  
+</AdvisorRecommendations>

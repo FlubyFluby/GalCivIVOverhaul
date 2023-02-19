@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ExecutiveOrderList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
+
+  <ExecutiveOrder>
+    <InternalName>EO_GalacticFestival</InternalName>
+    <ArtifactPowerDef>GalacticFestival</ArtifactPowerDef>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>50</CooldownTurns>
+    <CooldownModCounterName>EO_GalacticFestival_CooldownMod</CooldownModCounterName>
+    <Target>AllColonies</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_XenoEntertainment</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+<!--  <ExecutiveOrder>
+    <InternalName>EO_NationalHoliday</InternalName>
+    <ArtifactPowerDef>EO_NationalHoliday</ArtifactPowerDef>
+    <ControlCost>8</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>50</CooldownTurns>
+    <Target>AllColonies</Target>
+  </ExecutiveOrder> -->
+
+  <ExecutiveOrder>
+    <InternalName>EO_InviteLeaders</InternalName>
+    <ArtifactPowerDef>InviteLeaders</ArtifactPowerDef>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>50</CooldownTurns>
+    <CooldownModCounterName>EO_InviteLeaders_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_LeadershipRecruiting</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_MartialLaw</InternalName>
+    <ArtifactPowerDef>MartialLaw</ArtifactPowerDef>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>200</CooldownTurns>
+    <CooldownModCounterName>EO_MartialLaw_CooldownMod</CooldownModCounterName>
+    <Target>AllColonies</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PlanetaryDefenses</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_ForcedOvertime</InternalName>
+    <ArtifactPowerDef>ForcedOvertime</ArtifactPowerDef>
+    <ControlCost>100</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>30</CooldownTurns>
+    <CooldownModCounterName>EO_ForcedOvertime_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_OrbitalMining</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_IllicitDeals</InternalName>
+    <ArtifactPowerDef>IllicitDeals</ArtifactPowerDef>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>50</CooldownTurns>
+    <CooldownModCounterName>EO_IllicitDeals_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PoliticalCapital</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_ExhortGovernors</InternalName>
+    <ArtifactPowerDef>ExhortGovernors</ArtifactPowerDef>
+    <ControlCost>30</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>25</CooldownTurns>
+    <CooldownModCounterName>EO_ExhortGovernors_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PoliticalCapital</Option>
+      </Techs>
+      <HasNumNonSovereignGovernors>1</HasNumNonSovereignGovernors>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_DraftColonists</InternalName>
+    <ArtifactPowerDef>DraftColonists</ArtifactPowerDef>
+    <ControlCost>33</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>8</CooldownTurns>
+    <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_DraftCivilianShips</InternalName>
+    <ArtifactPowerDef>DraftCivilianShips</ArtifactPowerDef>
+    <ControlCost>100</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>20</CooldownTurns>
+    <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PlanetaryMobilization</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_ColonialSupplies</InternalName>
+    <ArtifactPowerDef>ColonialSupplies</ArtifactPowerDef>
+    <ControlCost>30</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>50</CooldownTurns>
+    <CooldownModCounterName>EO_ColonialSupplies_CooldownMod</CooldownModCounterName>
+    <Target>AllUngovernedColonies</Target>    
+    <Prerequ>
+      <Techs>
+        <Option>Tech_CentralizedAdministration</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_PressureScientists</InternalName>
+    <ArtifactPowerDef>PressureScientists</ArtifactPowerDef>
+    <ControlCost>40</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>5</CooldownTurns>
+    <CooldownModCounterName>EO_PressureScientists_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_XenoResearch</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_TelescopeTakeover</InternalName>
+    <ArtifactPowerDef>TelescopeTakeover</ArtifactPowerDef>
+    <ControlCost>15</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>30</CooldownTurns>
+    <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_PrintMoney</InternalName>
+    <ArtifactPowerDef>PrintMoney</ArtifactPowerDef>
+    <ControlCost>60</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>15</CooldownTurns>
+    <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_ExploitNaturalResources</InternalName>
+    <ArtifactPowerDef>ExploitNature</ArtifactPowerDef>
+    <ControlCost>50</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>10</CooldownTurns>
+    <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Planetology</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_GoodWillTour</InternalName>
+    <ArtifactPowerDef>GoodWillTour</ArtifactPowerDef>
+    <ControlCost>30</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>40</CooldownTurns>
+    <CooldownModCounterName>EO_GoodWillTour_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Diplomacy</Option>
+      </Techs>
+      <MinNumFactionsAtPeaceWith>2</MinNumFactionsAtPeaceWith>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_OrbitalDefenseDrones</InternalName>
+    <ArtifactPowerDef>DefenseSentinels_Artifact</ArtifactPowerDef>
+    <ControlCost>35</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>10</CooldownTurns>
+    <CooldownModCounterName>EO_OrbitalDefenseDrones_CooldownMod</CooldownModCounterName>
+    <Target>Player</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_SpaceDoctrine</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_ImpressForeignFleet</InternalName>
+    <ArtifactPowerDef>ImpressForeignFleet</ArtifactPowerDef>
+    <ControlCost>100</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>5</CooldownTurns>
+    <CooldownModCounterName>EO_ImpressForeignFleet_CooldownMod</CooldownModCounterName>
+    <Target>None</Target>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PreferredLending</Option>
+      </Techs>
+    </Prerequ>
+  </ExecutiveOrder>
+
+  <ExecutiveOrder>
+    <InternalName>EO_EnlistPirateFleet</InternalName>
+    <ArtifactPowerDef>EnlistPirateFleet</ArtifactPowerDef>
+    <ControlCost>15</ControlCost>
+    <CreditsCost>0</CreditsCost>
+    <CooldownTurns>0</CooldownTurns>
+    <CooldownModCounterName>EO_EnlistPirateFleet_CooldownMod</CooldownModCounterName>
+    <Target>None</Target>
+    <Prerequ>
+      <RaceTrait>
+        <Option>CrimelordAbility</Option>
+      </RaceTrait>
+    </Prerequ>
+  </ExecutiveOrder>
+
+	<ExecutiveOrder>
+		<InternalName>EO_EnlistPirateWorld</InternalName>
+		<ArtifactPowerDef>EnlistPirateWorld</ArtifactPowerDef>
+		<ControlCost>30</ControlCost>
+		<CreditsCost>0</CreditsCost>
+		<CooldownTurns>0</CooldownTurns>
+		<CooldownModCounterName>EO_EnlistPirateWorld_CooldownMod</CooldownModCounterName>
+		<Target>None</Target>
+		<Prerequ>
+			<RaceTrait>
+				<Option>CrimelordAbility</Option>
+			</RaceTrait>
+		</Prerequ>
+	</ExecutiveOrder>
+
+</ExecutiveOrderList>

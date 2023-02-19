@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipDefs.xml -->
+
+   <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>PirateAttacker</InternalName>
+    <DisplayName>PirateCutter_Name</DisplayName>
+    <ThumbnailOverride>Pirate_Cutter_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Pirate_Cutter_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <ShipHull>Tiny</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>Lasers</ShipComponents>
+    <ShipComponents>Lasers</ShipComponents>
+  </Ship>
+ 
+  <!--**************************Seem to be unused*******************************************-->
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>FreeFrigate</InternalName>
+    <DisplayName>TerranAllianceFrigate_Name</DisplayName>
+    <ThumbnailOverride>Drengin_Frigate_02T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Drengin_Frigate_02T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Frigate</StrategicIcon>
+    <ShipHull>Medium</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>HullPlating</ShipComponents>
+    <ShipComponents>HullPlating</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+  </Ship>
+
+  <!--**************************Seem to be unused*******************************************-->
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostCutter</InternalName>
+    <DisplayName>TerranAllianceCutter_Name</DisplayName>
+    <ThumbnailOverride>Lost_Cutter_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Cutter_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>Deflectors</ShipComponents>
+    <ShipComponents>Lasers</ShipComponents>
+    <ShipComponents>Lasers</ShipComponents>
+  </Ship>
+
+	<!-- Begin Ship -->
+	<Ship>
+		<InternalName>TestCarrier</InternalName>
+		<DisplayName>TerranAllianceCarrier_Name</DisplayName>
+		<ThumbnailOverride>TerranAlliance_Carrier_01T.PNG</ThumbnailOverride>
+		<ObjectGfxConfig>TerranAlliance_Carrier_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Carrier</StrategicIcon>
+		<ShipHull>Medium</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>CarrierModule</ShipComponents>
+	</Ship>
+
+	<!-- Begin Ship -->
+	<Ship>
+		<InternalName>TestAvatar</InternalName>
+		<DisplayName>TerranAllianceAvatar_Name</DisplayName>
+		<ThumbnailOverride>TerranAlliance_Avatar_01T.png</ThumbnailOverride>
+		<ObjectGfxConfig>TerranAlliance_Avatar_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Avatar</StrategicIcon>
+		<ShipHull>Huge</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>DoomRay</ShipComponents>	
+		<ShipComponents>BarrierFields</ShipComponents>
+		<ShipComponents>DroneSentries</ShipComponents>
+		<ShipComponents>DurantiumComposite</ShipComponents>
+	</Ship>
+
+	<Ship>
+		<InternalName>TestFestronAvatar</InternalName>
+		<DisplayName>FestronAvatar_Name</DisplayName>
+		<ThumbnailOverride>Festron_Avatar_01T.png</ThumbnailOverride>
+		<ObjectGfxConfig>Festron_Avatar_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Avatar</StrategicIcon>
+		<ShipHull>Huge</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>DoomRay</ShipComponents>	
+		<ShipComponents>BarrierFields</ShipComponents>
+		<ShipComponents>DroneSentries</ShipComponents>
+		<ShipComponents>DurantiumComposite</ShipComponents>
+	</Ship>
+
+	<!-- Begin Ship -->
+	<Ship>
+		<InternalName>TestFortress</InternalName>
+		<DisplayName>TerranAllianceFortress_Name</DisplayName>
+		<ThumbnailOverride>TerranAlliance_Fortress_01T.png</ThumbnailOverride>
+		<ObjectGfxConfig>TerranAlliance_Fortress_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Fortress</StrategicIcon>
+		<ShipHull>Huge</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+	</Ship>
+
+	<Ship>
+		<InternalName>TestFestronFortress</InternalName>
+		<DisplayName>FestronFortress_Name</DisplayName>
+		<ThumbnailOverride>Festron_Fortress_01T.png</ThumbnailOverride>
+		<ObjectGfxConfig>Festron_Fortress_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Fortress</StrategicIcon>
+		<ShipHull>Huge</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+		<ShipComponents>NightmareTorpedoes</ShipComponents>	
+	</Ship>
+
+	<!-- Begin Ship -->
+	<Ship>
+		<InternalName>TestGunboat</InternalName>
+		<DisplayName>TerranAllianceGunboat_Name</DisplayName>
+		<ThumbnailOverride>TerranAlliance_Gunboat_01T.PNG</ThumbnailOverride>
+		<ObjectGfxConfig>TerranAlliance_Gunboat_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Gunboat</StrategicIcon>
+		<ShipHull>Small</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>PulseCannon</ShipComponents>	
+		<ShipComponents>ECM</ShipComponents>
+	</Ship>
+	<Ship>
+		<InternalName>TestFestronGunboat</InternalName>
+		<DisplayName>FestronGunboat_Name</DisplayName>
+		<ThumbnailOverride>Festron_Gunboat_01T.PNG</ThumbnailOverride>
+		<ObjectGfxConfig>Festron_Gunboat_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Gunboat</StrategicIcon>
+		<ShipHull>Small</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>PulseCannon</ShipComponents>	
+		<ShipComponents>ECM</ShipComponents>
+	</Ship>
+
+	<!-- Begin Ship -->
+	<Ship>
+		<InternalName>TestDefender</InternalName>
+		<DisplayName>TerranAllianceDefender_Name</DisplayName>
+		<ThumbnailOverride>TerranAlliance_Defender_01T.PNG</ThumbnailOverride>
+		<ObjectGfxConfig>TerranAlliance_Defender_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Defender</StrategicIcon>
+		<ShipHull>Small</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>Harpoon</ShipComponents>	
+		<ShipComponents>Harpoon</ShipComponents>	
+	</Ship>
+
+	<Ship>
+		<InternalName>TestFestronDefender</InternalName>
+		<DisplayName>FestronDefender_Name</DisplayName>
+		<ThumbnailOverride>Festron_Defender_01T.PNG</ThumbnailOverride>
+		<ObjectGfxConfig>Festron_Defender_01T.objgfxcfg</ObjectGfxConfig>
+		<StrategicIcon>Defender</StrategicIcon>
+		<ShipHull>Small</ShipHull>
+		<CanBeBuilt>false</CanBeBuilt>
+		<Style>Iridium</Style>
+		<ShipComponents>Harpoon</ShipComponents>	
+		<ShipComponents>Harpoon</ShipComponents>	
+	</Ship>
+
+  <!-- Begin Ship -->
+  <Ship>
+    <InternalName>LostDefender</InternalName>
+    <DisplayName>TerranAllianceDefender_Name</DisplayName>
+    <ThumbnailOverride>Lost_Defender_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Defender_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Defender</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>Chaff</ShipComponents>
+    <ShipComponents>Stinger</ShipComponents>
+    <ShipComponents>Stinger</ShipComponents>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostGunboat</InternalName>
+    <DisplayName>TerranAllianceGunboat_Name</DisplayName>
+    <ThumbnailOverride>Lost_Gunboat_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Gunboat_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Gunboat</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>HullPlating</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+    <ShipComponents>Cannon</ShipComponents>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostScout</InternalName>
+    <DisplayName>TerranAllianceProbe_Name</DisplayName>
+    <ThumbnailOverride>Lost_Scout_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Scout_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Scout</StrategicIcon>
+    <ShipHull>Tiny</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostColony</InternalName>
+    <DisplayName>TerranAllianceColony_Name</DisplayName>
+    <ThumbnailOverride>Lost_Colony_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Colony_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>ColonyShip</StrategicIcon>
+    <ShipHull>Cargo</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>ColonyModule</ShipComponents>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostConstructor</InternalName>
+    <DisplayName>TerranAllianceConstructor_Name</DisplayName>
+    <ThumbnailOverride>Lost_Constructor_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Constructor_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Constructor</StrategicIcon>
+    <ShipHull>Cargo</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>ConstructorModule</ShipComponents>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>LostSurvey</InternalName>
+    <DisplayName>TerranAllianceSurvey_Name</DisplayName>
+    <ThumbnailOverride>Lost_Survey_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Survey_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SurveyShip</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+    <ShipComponents>SurveyModule</ShipComponents>
+  </Ship>
+ 
+  <!-- Begin Ship -->
+ 
+  <Ship>
+    <InternalName>CapturedScout</InternalName>
+    <DisplayName>TerranAllianceProbe_Name</DisplayName>
+    <ThumbnailOverride>Lost_Survey_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Lost_Survey_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SurveyShip</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Style>Iridium</Style>
+  </Ship>
+
+  <Ship>
+    <InternalName>PrecursorAnomalyDrone</InternalName>
+    <DisplayName>PirateAttacker_Name</DisplayName>
+    <ThumbnailOverride>Precursor_Anomaly_Drone_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Precursor_Anomaly_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <ShipHull>Tiny</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>ParticleBeam</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>LargePrecursorAnomalyDrone</InternalName>
+    <DisplayName>PirateAttacker_Name</DisplayName>
+    <ThumbnailOverride>Precursor_Anomaly_Drone_01.png</ThumbnailOverride>
+    <ObjectGfxConfig>Precursor_Anomaly_01.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <ShipHull>Large</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>ParticleBeam</ShipComponents>
+    <ShipComponents>ParticleBeam</ShipComponents>
+    <ShipComponents>ParticleBeam</ShipComponents>
+    <ShipComponents>ParticleBeam</ShipComponents>
+    <ShipComponents>ParticleBeam</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_PrecursorTiny</InternalName>
+    <DisplayName>ResistanceBomber_Name</DisplayName>
+    <ThumbnailOverride>Peacekeeper_Tiny_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Peacekeeper_Tiny_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Bomber</StrategicIcon>
+    <ShipHull>Tiny</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_SENTINEL</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>Harpoon</ShipComponents>
+    <ShipComponents>TitaniumPlating</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_PrecursorSmall</InternalName>
+    <DisplayName>TerranAllianceDefender_Name</DisplayName>
+    <ThumbnailOverride>Peacekeeper_Small_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Peacekeeper_Small_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Defender</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_SENTINEL</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>Phoenix</ShipComponents>
+    <ShipComponents>Phoenix</ShipComponents>
+    <ShipComponents>TitaniumPlating</ShipComponents>
+    <ShipComponents>Component_HitPoints</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_PrecursorMedium</InternalName>
+    <DisplayName>PirateRanger_Name</DisplayName>
+    <ThumbnailOverride>Peacekeeper_Medium_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Peacekeeper_Medium_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Ranger</StrategicIcon>
+    <ShipHull>Medium</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_SENTINEL</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>PhotonicWarhead</ShipComponents>
+    <ShipComponents>PhotonicWarhead</ShipComponents>
+    <ShipComponents>PhotonicWarhead</ShipComponents>
+    <ShipComponents>DurantiumComposite</ShipComponents>
+    <ShipComponents>ECM</ShipComponents>
+    <ShipComponents>Component_HitPoints</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_PrecursorLarge</InternalName>
+    <DisplayName>TerranAllianceDestroyer_Name</DisplayName>
+    <ThumbnailOverride>Peacekeeper_Large_01T.PNG</ThumbnailOverride>
+    <ObjectGfxConfig>Peacekeeper_Large_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Destroyer</StrategicIcon>
+    <ShipHull>Large</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_SENTINEL</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>TritonTorpedoes</ShipComponents>
+    <ShipComponents>TritonTorpedoes</ShipComponents>
+    <ShipComponents>TritonTorpedoes</ShipComponents>
+    <ShipComponents>Component_HitPoints</ShipComponents>
+    <ShipComponents>KanviumLaminate</ShipComponents>
+    <ShipComponents>ForceFields</ShipComponents>
+    <ShipComponents>DroneSentries</ShipComponents>
+    <ShipComponents>DroneSentries</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_PrecursorHuge</InternalName>
+    <DisplayName>TerranAllianceFortress_Name</DisplayName>
+    <ThumbnailOverride>Peacekeeper_Huge_01T.PNG</ThumbnailOverride>
+    <ObjectGfxConfig>Peacekeeper_Huge_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>Fortress</StrategicIcon>
+    <ShipHull>Huge</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_SENTINEL</Faction>
+    <Style>Iridium</Style>
+    <ShipComponents>NightmareTorpedoes</ShipComponents>
+    <ShipComponents>NightmareTorpedoes</ShipComponents>
+    <ShipComponents>NightmareTorpedoes</ShipComponents>
+    <ShipComponents>NightmareTorpedoes</ShipComponents>
+    <ShipComponents>Component_HitPoints</ShipComponents>
+    <ShipComponents>ZeroPointArmor</ShipComponents>
+    <ShipComponents>ArreonMissileDefense</ShipComponents>
+    <ShipComponents>InvulnerabilityField</ShipComponents>
+    <ShipComponents>ZeroPointArmor</ShipComponents>
+    <ShipComponents>ArreonMissileDefense</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_DreadLordTiny</InternalName>
+    <DisplayName>PirateSpaceMonsterTiny_Name</DisplayName>
+    <ThumbnailOverride>Monster_Tiny_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Dreadlord_Tiny_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SpaceMonster</StrategicIcon>
+    <ShipHull>Tiny</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Pirate</Style>
+    <ShipComponents>Cannon</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_DreadLordSmall</InternalName>
+    <DisplayName>PirateSpaceMonsterSmall_Name</DisplayName>
+    <ThumbnailOverride>Monster_Small_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Dreadlord_Small_Anim_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SpaceMonster</StrategicIcon>
+    <ShipHull>Small</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Pirate</Style>
+    <ShipComponents>PulseCannon</ShipComponents>
+    <ShipComponents>PulseCannon</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_DreadLordMedium</InternalName>
+    <DisplayName>PirateSpaceMonsterMedium_Name</DisplayName>
+    <ThumbnailOverride>Monster_Medium_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Dreadlord_Medium_Anim_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SpaceMonster</StrategicIcon>
+    <ShipHull>Medium</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Pirate</Style>
+    <ShipComponents>MassDriver</ShipComponents>
+    <ShipComponents>MassDriver</ShipComponents>
+    <ShipComponents>DurantiumComposite</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_DreadLordLarge</InternalName>
+    <DisplayName>PirateSpaceMonsterLarge_Name</DisplayName>
+    <ThumbnailOverride>Monster_Large_01T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Dreadlord_Large_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SpaceMonster</StrategicIcon>
+    <ShipHull>Large</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Pirate</Style>
+    <ShipComponents>VulcanicDriver</ShipComponents>
+    <ShipComponents>VulcanicDriver</ShipComponents>
+    <ShipComponents>VulcanicDriver</ShipComponents>
+    <ShipComponents>KanviumLaminate</ShipComponents>
+    <ShipComponents>KanviumLaminate</ShipComponents>
+  </Ship>
+
+  <Ship>
+    <InternalName>Ship_DreadLordHuge</InternalName>
+    <DisplayName>PirateSpaceMonsterHuge_Name</DisplayName>
+    <ThumbnailOverride>Monster_Huge_02T.png</ThumbnailOverride>
+    <ObjectGfxConfig>Dreadlord_Huge_01T.objgfxcfg</ObjectGfxConfig>
+    <StrategicIcon>SpaceMonster</StrategicIcon>
+    <ShipHull>Huge</ShipHull>
+    <CanBeBuilt>false</CanBeBuilt>
+    <Faction>FACTION_PIRATES</Faction>
+    <Style>Pirate</Style>
+    <ShipComponents>QuantumDriver</ShipComponents>
+    <ShipComponents>QuantumDriver</ShipComponents>
+    <ShipComponents>QuantumDriver</ShipComponents>
+    <ShipComponents>ZeroPointArmor</ShipComponents>
+    <ShipComponents>ArreonMissileDefense</ShipComponents>
+    <ShipComponents>InvulnerabilityField</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>NightmareTorpedoes</ShipComponents>
+  </Ship>
+ 
+</ShipList>

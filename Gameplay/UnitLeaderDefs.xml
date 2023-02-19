@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UnitLeaderList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UnitLeaderDefs.xsd">
+
+  <UnitLeader>
+    <InternalName>MinisterExploration</InternalName>
+    <DisplayName>MinisterExploration_Name</DisplayName>
+    <Description>MinisterExploration_Dec</Description>
+    <Logo>Minister_Exploration.png</Logo>
+    <LogoColor>ColorDef_Minster_Exploration</LogoColor>
+    <Background>Citizen_BG_Citizen.png</Background>
+<!--    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfExploration</Option>
+      </Techs>
+    </Prerequ> -->
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterTechnology</InternalName>
+    <DisplayName>MinisterTechnology_Name</DisplayName>
+    <Description>MinisterTechnology_Dec</Description>
+    <Logo>Minister_Technology.png</Logo>
+    <LogoColor>ColorDef_Minster_Technology</LogoColor>
+    <Background>Citizen_BG_Scientist2.png</Background>
+<!--    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfTechnology</Option>
+      </Techs>
+    </Prerequ> -->
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterColony</InternalName>
+    <DisplayName>MinisterColony_Name</DisplayName>
+    <Description>MinisterColony_Dec</Description>
+    <Logo>Minister_Colonization.png</Logo>
+    <LogoColor>ColorDef_Minster_Colony</LogoColor>
+    <Background>Citizen_BG_Farmer3.png</Background>
+<!--    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfColonization</Option>
+      </Techs>
+    </Prerequ> -->
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterTourism</InternalName>
+    <DisplayName>MinisterTourism_Name</DisplayName>
+    <Description>MinisterTourism_Dec</Description>
+    <Logo>Minister_Finance.png</Logo>
+    <LogoColor>ColorDef_Minster_Culture</LogoColor>
+    <Background>Citizen_BG_Entrepreneur.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfTourism</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterCulture</InternalName>
+    <DisplayName>MinisterCulture_Name</DisplayName>
+    <Description>MinisterCulture_Dec</Description>
+    <Logo>Minister_Culture.png</Logo>
+    <LogoColor>ColorDef_Minster_Culture</LogoColor>
+    <Background>Citizen_BG_Celebrity.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfCulture</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterBiology</InternalName>
+    <DisplayName>MinisterBiology_Name</DisplayName>
+    <Description>MinisterBiology_Dec</Description>
+    <Logo>Minister_Health.png</Logo>
+    <LogoColor>ColorDef_Minster_Health</LogoColor>
+    <Background>Citizen_BG_Cleric.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfHealth</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterCrime</InternalName>
+    <DisplayName>MinisterCrime_Name</DisplayName>
+    <Description>MinisterCrime_Dec</Description>
+    <Logo>Minister_Crime.png</Logo>
+    <LogoColor>ColorDef_Minster_Crime</LogoColor>
+    <Background>Citizen_BG_Legion.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfJustice</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterProduction</InternalName>
+    <DisplayName>MinisterProduction_Name</DisplayName>
+    <Description>MinisterProduction_Dec</Description>
+    <Logo>Minister_Production.png</Logo>
+    <LogoColor>ColorDef_Minster_Exploration</LogoColor>
+    <Background>Citizen_BG_Engineer.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_ManufacturingCapitals</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterFinance</InternalName>
+    <DisplayName>MinisterFinance_Name</DisplayName>
+    <Description>MinisterFinance_Dec</Description>
+    <Logo>Minister_Finance.png</Logo>
+    <LogoColor>ColorDef_Minster_Finance</LogoColor>
+    <Background>Citizen_BG_Entrepreneur.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfFinance</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+  <UnitLeader>
+    <InternalName>MinisterDefense</InternalName>
+    <DisplayName>MinisterDefense_Name</DisplayName>
+    <Description>MinisterDefense_Dec</Description>
+    <Logo>Minister_Defense.png</Logo>
+    <LogoColor>ColorDef_Minster_Defense</LogoColor>
+    <Background>Citizen_BG_Legion.png</Background>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_MinistryOfDefense</Option>
+      </Techs>
+    </Prerequ>
+  </UnitLeader>
+
+</UnitLeaderList>

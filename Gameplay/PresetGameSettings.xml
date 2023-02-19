@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PresetGameSettingsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PresetGameSettings.xsd">
+
+	<GameSetting>
+		<InternalName>Default</InternalName>
+		<SinglePlayer>0</SinglePlayer>
+   		<GameMode>Sandbox</GameMode>
+		<DefaultOpponentIntelligence>Easy</DefaultOpponentIntelligence>
+
+		<Player>
+			<CivilizationName>FACTION_TERRAN</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_DRENGIN</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_YOR</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_TORIAN</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_FESTRON</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_ALTARIAN</CivilizationName>
+		</Player>
+
+		<GalaxyAIDifficulty>Easy</GalaxyAIDifficulty>
+		<MinorRaceFrequency>Occasional</MinorRaceFrequency>
+		<HostileEntitiesFrequency>Occasional</HostileEntitiesFrequency>
+		<GalacticEventFrequency>Occasional</GalacticEventFrequency>
+		<MegaEventFrequency>Regular</MegaEventFrequency>
+		<CrisisFrequency>Regular</CrisisFrequency>
+		<UPFrequency>Regular</UPFrequency>
+		<TechResearchRate>Normal</TechResearchRate>
+		<GamePacing>Normal</GamePacing>
+		<TurnSpeed>NoLimit</TurnSpeed>
+
+		<VictoryConditions>
+			<Conquest>true</Conquest>
+			<Research>false</Research>
+			<Alliance>true</Alliance>
+			<Influence>true</Influence>
+			<Ascension>false</Ascension>
+			<TurnLimit>true</TurnLimit>
+			<UnitedPlanets>false</UnitedPlanets>
+			<Prestige>true</Prestige>
+		</VictoryConditions>
+
+		<AdvancedSettings>
+			<BlindExploration>false</BlindExploration>
+			<TechBrokering>false</TechBrokering>
+			<TechTrading>false</TechTrading>
+			<AllowSurrender>false</AllowSurrender>
+			<TransferColoniesOnSurrender>true</TransferColoniesOnSurrender>
+			<NoFOWInTerritory>true</NoFOWInTerritory>
+		</AdvancedSettings>
+	</GameSetting>
+
+	<GameSetting>
+		<InternalName>Multiplayer</InternalName>
+
+		<SinglePlayer>0</SinglePlayer>
+
+    		<GameMode>Arena</GameMode>
+		<DefaultOpponentIntelligence>Normal</DefaultOpponentIntelligence>
+		<Player>
+			<CivilizationName>FACTION_TERRAN</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_DRENGIN</CivilizationName>
+		</Player>
+		<Player>
+			<CivilizationName>FACTION_ALTARIAN</CivilizationName>
+		</Player>
+
+		<GalaxyAIDifficulty>Easy</GalaxyAIDifficulty>
+
+		<MinorRaceFrequency>Uncommon</MinorRaceFrequency>
+		<HostileEntitiesFrequency>None</HostileEntitiesFrequency>
+		<GalacticEventFrequency>Occasional</GalacticEventFrequency>
+		<MegaEventFrequency>Regular</MegaEventFrequency>
+		<CrisisFrequency>Regular</CrisisFrequency>
+		<UPFrequency>Regular</UPFrequency>
+
+		<TechResearchRate>Normal</TechResearchRate>
+		<GamePacing>Normal</GamePacing>
+    <TurnSpeed>NoLimit</TurnSpeed>
+    
+		<VictoryConditions>
+			<Conquest>true</Conquest>
+			<Research>false</Research>
+			<Alliance>false</Alliance>
+			<Influence>false</Influence>
+			<Ascension>false</Ascension>
+			<TurnLimit>false</TurnLimit>
+			<UnitedPlanets>false</UnitedPlanets>
+			<Prestige>true</Prestige>
+		</VictoryConditions>
+
+		<AdvancedSettings>
+			<BlindExploration>false</BlindExploration>
+			<TechBrokering>false</TechBrokering>
+			<TechTrading>false</TechTrading>
+			<AllowSurrender>false</AllowSurrender>
+			<TransferColoniesOnSurrender>true</TransferColoniesOnSurrender>
+			<NoFOWInTerritory>true</NoFOWInTerritory>
+		</AdvancedSettings>
+	</GameSetting>
+
+</PresetGameSettingsList>

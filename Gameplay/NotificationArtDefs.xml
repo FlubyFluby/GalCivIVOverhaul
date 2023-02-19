@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<NotificationArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/NotificationArtDefs.xsd">
+
+  <NotificationArt>
+    <UniqueID>ChooseResearch</UniqueID>
+    <Icon>Turn_Icon_ChooseResearch.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>ColonyIdle</UniqueID>
+    <Icon>Turn_Icon_ColonyIdle.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>FleetIdle</UniqueID>
+    <Icon>Turn_Icon_FleetIdle.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>SpendCulture</UniqueID>
+    <Icon>Turn_Icon_SpendCulture.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>ShipyardUnanchored</UniqueID>
+    <Icon>Turn_Icon_ShipyardUnanchored.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>ShipyardIdle</UniqueID>
+    <Icon>Turn_Icon_ShipyardIdel.png</Icon>
+  </NotificationArt>
+  
+  <NotificationArt>
+    <UniqueID>ShipyardOrphaned</UniqueID>
+    <Icon>Turn_Icon_ShipyardOrphaned.png</Icon>
+  </NotificationArt>
+  
+  <NotificationArt>
+    <UniqueID>StarbaseUpgradePoints</UniqueID>
+    <Icon>Turn_Icon_StarbaseUpgradePoints.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>AIInitiatedTrade</UniqueID>
+    <Icon>Turn_Icon_AIInitiatedTrade.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>PendingMovement</UniqueID>
+    <Icon>Turn_Icon_PendingMovement.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>NewUnit</UniqueID>
+    <Icon>Turn_Icon_NewUnit.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>NewAgent</UniqueID>
+    <Icon>Turn_Icon_NewAgent.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>NewLeader</UniqueID>
+    <Icon>Turn_Icon_NewLeader.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>LostUnit</UniqueID>
+    <Icon>Turn_Icon_LostUnit.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>SelectGovernment</UniqueID>
+    <Icon>Turn_Icon_SelectGovernment.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>EmptyPolicySlot</UniqueID>
+    <Icon>Turn_Icon_SelectGovernment.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+	<UniqueID>UnderSiege</UniqueID>
+	<Icon>Turn_Icon_Siege.png</Icon>
+  </NotificationArt>
+
+  <NotificationArt>
+    <UniqueID>GameEvent</UniqueID>
+    <Icon>Turn_Icon_EventAction.png</Icon>
+  </NotificationArt>
+
+</NotificationArtList>

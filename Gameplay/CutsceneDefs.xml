@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CutsceneList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CutsceneDefs.xsd">
+	
+	<Cutscene>
+		<InternalName>FirstColony</InternalName>
+		<DisplayName>FIRST_COLONY_NAME</DisplayName>
+		<Description>FIRST_COLONY_DESC</Description>
+    <Movie>Event_Colony.bk2</Movie>
+  </Cutscene>
+
+	<Cutscene>
+		<InternalName>FirstGovernmentUpgrade</InternalName>
+		<DisplayName>FIRST_GOVERNMENT_UPGRADE_NAME</DisplayName>
+		<Description>FIRST_GOVERNMENT_UPGRADE_DESC</Description>
+		<Movie>Event_CityShot.bk2</Movie>
+	</Cutscene>
+
+	<Cutscene>
+		<InternalName>FirstDurantium</InternalName>
+		<DisplayName>FIRST_DURANTIUM_NAME</DisplayName>
+		<Description>FIRST_DURANTIUM_DESC</Description>
+    <Movie>Event_Durantium.bk2</Movie>
+	</Cutscene>
+  
+	<Cutscene>
+		<InternalName>FirstElerium</InternalName>
+		<DisplayName>FIRST_ELERIUM_NAME</DisplayName>
+		<Description>FIRST_ELERIUM_DESC</Description>
+		<Movie>Event_Elerium.bk2</Movie>
+	</Cutscene>
+  
+	<Cutscene>
+		<InternalName>FirstPromethion</InternalName>
+		<DisplayName>FIRST_PROMETHION_NAME</DisplayName>
+		<Description>FIRST_PROMETHION_DESC</Description>
+    <Movie>Event_Promethion.bk2</Movie>
+	</Cutscene>
+  
+	<Cutscene>
+		<InternalName>FirstThulium</InternalName>
+		<DisplayName>FIRST_THULIUM_NAME</DisplayName>
+		<Description>FIRST_THULIUM_DESC</Description>
+    <Movie>Event_Thulium.bk2</Movie>
+	</Cutscene>
+  
+	<Cutscene>
+		<InternalName>FirstAntimatter</InternalName>
+		<DisplayName>FIRST_ANTIMATTER_NAME</DisplayName>
+		<Description>FIRST_ANTIMATTER_DESC</Description>
+    <Movie>Event_Antimatter.bk2</Movie>
+	</Cutscene>
+   
+	<Cutscene>
+		<InternalName>FirstTradeRoute</InternalName>
+		<DisplayName>FIRST_TRADE_ROUTE_NAME</DisplayName>
+		<Description>FIRST_TRADE_ROUTE_DESC</Description>
+    <Movie>Event_FrieghterTrade.bk2</Movie>
+	</Cutscene>
+  
+	<Cutscene>
+		<InternalName>FirstStarbase</InternalName>
+		<DisplayName>FIRST_STARBASE_NAME</DisplayName>
+		<Description>FIRST_STARBASE_DESC</Description>
+    <Movie>Event_Starbase.bk2</Movie>
+	</Cutscene>
+
+	<Cutscene>
+		<InternalName>FirstAnomaly</InternalName>
+		<DisplayName>FIRST_ANOMALY_NAME</DisplayName>
+		<Description>FIRST_ANOMALY_DESC</Description>
+		<Movie>Event_FirstAnomaly.bk2</Movie>
+	</Cutscene> 
+
+	<Cutscene>
+		<InternalName>FirstSubspaceStreamTravel</InternalName>
+		<DisplayName>FIRST_SUBSPACE_STREAM_TRAVEL_NAME</DisplayName>
+		<Description>FIRST_SUBSPACE_STREAM_TRAVEL_DESC</Description>
+		<Movie>Event_SubspaceStream.bk2</Movie>
+	</Cutscene>
+
+	<Cutscene>
+		<InternalName>FirstInvasion</InternalName>
+		<DisplayName>FIRST_INVASION_NAME</DisplayName>
+		<Description>FIRST_INVASION_DESC</Description>
+		<Movie>Event_InvasionPods.bk2</Movie>
+	</Cutscene>
+
+	<Cutscene>
+		<InternalName>FirstPrecursorRelic</InternalName>
+		<DisplayName>FIRST_PRECURSOR_RELIC_NAME</DisplayName>
+		<Description>FIRST_PRECURSOR_RELIC_DESC</Description>
+		<Movie>Event_Precursor_Relic.bk2</Movie>
+	</Cutscene>
+
+</CutsceneList>

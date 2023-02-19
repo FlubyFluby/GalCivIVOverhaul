@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<FlavorTextSupportedTagsDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Schema/FlavorTextSupportedTagDefs.xsd">
+
+  <FlavorTextSupportedTagDef>
+    <Tag>BUILDVERSIONSTRING</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>PLAYERFACTION</Tag>
+    <Description>GAMETAG_DESCRIPTION_PLAYERFACTION</Description>
+    <IsSupported>All</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>PLAYERFACTIONLONG</Tag>
+    <Description>GAMETAG_DESCRIPTION_PLAYERFACTIONLONG</Description>
+    <IsSupported>All</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>PLAYERRACE</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>LEADERNAME</Tag>
+    <Description>GAMETAG_DESCRIPTION_LEADERNAME</Description>
+    <IsSupported>All</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>TURNSTOCOMPLETE</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>PROJECTNAME</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>VICTORYCONDITION</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>VICTORSLIST</Tag>
+    <IsSupported>None</IsSupported>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>PLANETNAME</Tag>
+    <Description>GAMETAG_DESCRIPTION_PLANETNAME</Description>
+    <IsSupported>Some</IsSupported>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HOMEWORLD_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HOMEWORLD_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HOMEWORLD_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHPLANETQUALITY_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHPLANETQUALITY_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHPLANETQUALITY_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_MIDPLANETQUALITY_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_MIDPLANETQUALITY_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_MIDPLANETQUALITY_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_LOWPLANETQUALITY_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_LOWPLANETQUALITY_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_LOWPLANETQUALITY_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHEMPIRECULTURE_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHEMPIRECULTURE_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHEMPIRECULTURE_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHALIENCULTURE_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHALIENCULTURE_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_HIGHALIENCULTURE_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_PLANETISDEFENDED_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_PLANETISDEFENDED_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_PLANETISDEFENDED_LOWMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CROWDED_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CROWDED_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CROWDED_LOWMORALE</SupportedByFlavorTextDef>
+
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>AMOUNT</Tag>
+    <Description>GAMETAG_DESCRIPTION_AMOUNT</Description>
+    <IsSupported>Some</IsSupported>
+    <SupportedByFlavorTextDef>DEMAND_CREDITS_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITS_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITS_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITS_RESPONSE_REJECT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITSPERTURN_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITSPERTURN_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITSPERTURN_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_CREDITSPERTURN_RESPONSE_REJECT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_HELPME_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_HELPME_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_HELPME_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_CREDITS_HELPME_RESPONSE_REJECT</SupportedByFlavorTextDef>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>TECHNAME</Tag>
+    <Description>GAMETAG_DESCRIPTION_TECHNAME</Description>
+    <IsSupported>Some</IsSupported>
+    <SupportedByFlavorTextDef>DEMAND_TECH_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_TECH_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_TECH_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_HELPME_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_HELPME_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_HELPME_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>REQUEST_TECH_HELPME_RESPONSE_REJECT</SupportedByFlavorTextDef>
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>OBJECTNAME</Tag>
+    <Description>GAMETAG_DESCRIPTION_OBJECTNAME</Description>
+    <IsSupported>Some</IsSupported>
+    <SupportedByFlavorTextDef>DEMAND_STARBASE_REMOVAL_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_STARBASE_REMOVAL_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_STARBASE_REMOVAL_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_STARBASE_REMOVAL_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_STARBASE_REMOVAL_RESPONSE_REJECT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_ASCENSION_STARBASE_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_ASCENSION_STARBASE_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_ASCENSION_STARBASE_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_ASCENSION_STARBASE_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>DEMAND_ASCENSION_STARBASE_RESPONSE_REJECT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>OFFER_ASCENSION_STARBASE_TRADE_MAIN</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>OFFER_ASCENSION_STARBASE_TRADE_RESPONSE_ACCEPT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>OFFER_ASCENSION_STARBASE_TRADE_RESPONSE_ACCEPT_COUNTER</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>OFFER_ASCENSION_STARBASE_TRADE_RESPONSE_REJECT</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>OFFER_ASCENSION_STARBASE_TRADE_RESPONSE_REJECT_COUNTER</SupportedByFlavorTextDef>
+
+  </FlavorTextSupportedTagDef>
+
+  <FlavorTextSupportedTagDef>
+    <Tag>WORKERNAME</Tag>
+    <Description>GAMETAG_DESCRIPTION_WORKERNAME</Description>
+    <IsSupported>Some</IsSupported>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CITIZENONPLANET_WORKER_HIGHMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CITIZENONPLANET_WORKER_MIDMORALE</SupportedByFlavorTextDef>
+    <SupportedByFlavorTextDef>WORDONTHESTREET_CITIZENONPLANET_WORKER_LOWMORALE</SupportedByFlavorTextDef>
+  </FlavorTextSupportedTagDef>
+  
+</FlavorTextSupportedTagsDefs>

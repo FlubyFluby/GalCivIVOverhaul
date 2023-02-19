@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AssetTable
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
+
+	<Asset>
+		<Tag>MAIN_MENU_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>OPTIONS_SCREEN_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MULTIPLAYER_SCREEN_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LEADERBOARDS_SCREEN_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CIVILIZATION_SETUP_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GALAXY_SETTINGS_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GAME_SETTINGS_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SAVE_LOAD_SCREEN_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LOADING_SCREEN_MUSIC</Tag>
+		<Filename>GC4_MainMenu.mp3</Filename>
+	</Asset>
+
+  
+</AssetTable>

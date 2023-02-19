@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PacingList
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../Schema/PacingDefs.xsd">
+
+	<PacingGroup>
+		<InternalName>GamePacingOptions</InternalName>
+
+		<Pacing>
+			<PacingType>VerySlow</PacingType>
+			<Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.5</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Slow</PacingType>
+			<Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.25</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Normal</PacingType>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Fast</PacingType>
+			<Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.25</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>VeryFast</PacingType>
+			<Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.5</Value>
+			</Stats>
+		</Pacing>
+
+	</PacingGroup>
+
+	<PacingGroup>
+		<InternalName>ResearchRateOptions</InternalName>
+
+		<Pacing>
+			<PacingType>VerySlow</PacingType>
+			<Stats>
+				<EffectType>Research</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.75</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Slow</PacingType>
+			<Stats>
+				<EffectType>Research</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.5</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Normal</PacingType>
+
+		</Pacing>
+
+		<Pacing>
+			<PacingType>Fast</PacingType>
+			<Stats>
+				<EffectType>Research</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.25</Value>
+			</Stats>
+		</Pacing>
+
+		<Pacing>
+			<PacingType>VeryFast</PacingType>
+			<Stats>
+				<EffectType>Research</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.5</Value>
+			</Stats>
+		</Pacing>
+
+	</PacingGroup>
+
+</PacingList>

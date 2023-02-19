@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/ColorDefs.xsd">
+<!-- Created with GC4_Art_and_Color_Editor.xlsm -->
+<!-- GC4_ColorDefs.xml -->
+ 
+  <!-- Basic Colors -->
+ 
+  <Color>
+    <InternalName>Temp_BrightRed</InternalName>
+    <Red>255</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>MineralsStatOrange</InternalName>
+    <Red>205</Red>
+    <Green>105</Green>
+    <Blue>50</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>WealthStatGold</InternalName>
+    <Red>190</Red>
+    <Green>155</Green>
+    <Blue>15</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>FertilityStatGreen</InternalName>
+    <Red>50</Red>
+    <Green>155</Green>
+    <Blue>100</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TechStatBlue</InternalName>
+    <Red>90</Red>
+    <Green>185</Green>
+    <Blue>230</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetGridHot</InternalName>
+    <Red>207</Red>
+    <Green>130</Green>
+    <Blue>54</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetGridDark</InternalName>
+    <Red>80</Red>
+    <Green>115</Green>
+    <Blue>185</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>ShipyardGridHot</InternalName>
+    <Red>9</Red>
+    <Green>93</Green>
+    <Blue>143</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>ShipyardGridDark</InternalName>
+    <Red>17</Red>
+    <Green>37</Green>
+    <Blue>56</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>ShipyardGridMedium</InternalName>
+    <Red>0</Red>
+    <Green>65</Green>
+    <Blue>100</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetGridDisabled</InternalName>
+    <Red>32</Red>
+    <Green>35</Green>
+    <Blue>50</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetSelectionRing</InternalName>
+    <Red>80</Red>
+    <Green>185</Green>
+    <Blue>115</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>ClusterSelectionIndicator</InternalName>
+    <Red>150</Red>
+    <Green>60</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetGridSelected</InternalName>
+    <Red>250</Red>
+    <Green>170</Green>
+    <Blue>60</Blue>
+  </Color>
+ 
+  <!-- UI Defaults -->
+ 
+  <Color>
+    <InternalName>Temp_TechDisabled</InternalName>
+    <Red>80</Red>
+    <Green>80</Green>
+    <Blue>80</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>IdeologyQuadRed</InternalName>
+    <Red>255</Red>
+    <Green>2</Green>
+    <Blue>61</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>IdeologyQuadYellow</InternalName>
+    <Red>254</Red>
+    <Green>230</Green>
+    <Blue>5</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>IdeologyQuadBlue</InternalName>
+    <Red>155</Red>
+    <Green>237</Green>
+    <Blue>255</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>IdeologyQuadPurple</InternalName>
+    <Red>177</Red>
+    <Green>128</Green>
+    <Blue>239</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>OrbitLineColor</InternalName>
+    <Red>80</Red>
+    <Green>115</Green>
+    <Blue>185</Blue>
+    <Alpha>50</Alpha>
+  </Color>
+ 
+  <Color>
+    <InternalName>ClusterBorderColorA</InternalName>
+    <Red>100</Red>
+    <Green>120</Green>
+    <Blue>140</Blue>
+    <Alpha>4</Alpha>
+  </Color>
+ 
+  <Color>
+    <InternalName>ClusterBorderColorB</InternalName>
+    <Red>30</Red>
+    <Green>30</Green>
+    <Blue>30</Blue>
+    <Alpha>12</Alpha>
+  </Color>
+ 
+  <Color>
+    <InternalName>PopSortBlue</InternalName>
+    <Red>23</Red>
+    <Green>126</Green>
+    <Blue>158</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PlanetSortGreen</InternalName>
+    <Red>31</Red>
+    <Green>112</Green>
+    <Blue>31</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>AnomalySortPurple</InternalName>
+    <Red>112</Red>
+    <Green>70</Green>
+    <Blue>166</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>ResourceSortOrange</InternalName>
+    <Red>186</Red>
+    <Green>75</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>PirateSortRed</InternalName>
+    <Red>124</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <!-- Ideology Axis Colors -->
+ 
+  <Color>
+    <InternalName>LibertyIdeologyColor</InternalName>
+    <Red>27</Red>
+    <Green>169</Green>
+    <Blue>152</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>OpportunityIdeologyColor</InternalName>
+    <Red>149</Red>
+    <Green>117</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TraditionIdeologyColor</InternalName>
+    <Red>173</Red>
+    <Green>62</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>CompassionIdeologyColor</InternalName>
+    <Red>2</Red>
+    <Green>170</Green>
+    <Blue>130</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TransparencyIdeologyColor</InternalName>
+    <Red>23</Red>
+    <Green>115</Green>
+    <Blue>8</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>DiversityIdeologyColor</InternalName>
+    <Red>255</Red>
+    <Green>61</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>FocusIdeologyColor</InternalName>
+    <Red>68</Red>
+    <Green>57</Green>
+    <Blue>197</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>AuthorityIdeologyColor</InternalName>
+    <Red>137</Red>
+    <Green>24</Green>
+    <Blue>24</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>EqualityIdeologyColor</InternalName>
+    <Red>5</Red>
+    <Green>104</Green>
+    <Blue>3</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>InnovationIdeologyColor</InternalName>
+    <Red>11</Red>
+    <Green>101</Green>
+    <Blue>154</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>CrueltyIdeologyColor</InternalName>
+    <Red>144</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>SecrecyIdeologyColor</InternalName>
+    <Red>186</Red>
+    <Green>11</Green>
+    <Blue>11</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>HarmonyIdeologyColor</InternalName>
+    <Red>76</Red>
+    <Green>24</Green>
+    <Blue>142</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>CalmIdeologyColor</InternalName>
+    <Red>161</Red>
+    <Green>11</Green>
+    <Blue>146</Blue>
+  </Color>
+ 
+  <!-- Focus Buttons -->
+ 
+  <Color>
+    <InternalName>Production_Default</InternalName>
+    <Red>186</Red>
+    <Green>75</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Production_Bright</InternalName>
+    <Red>254</Red>
+    <Green>138</Green>
+    <Blue>59</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Production_Text</InternalName>
+    <Red>255</Red>
+    <Green>217</Green>
+    <Blue>191</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Warfare_Default</InternalName>
+    <Red>137</Red>
+    <Green>24</Green>
+    <Blue>24</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Warfare_Bright</InternalName>
+    <Red>237</Red>
+    <Green>24</Green>
+    <Blue>24</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Warfare_Text</InternalName>
+    <Red>255</Red>
+    <Green>190</Green>
+    <Blue>190</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Governance_Default</InternalName>
+    <Red>93</Red>
+    <Green>40</Green>
+    <Blue>160</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Governance_Bright</InternalName>
+    <Red>168</Red>
+    <Green>100</Green>
+    <Blue>255</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Governance_Text</InternalName>
+    <Red>225</Red>
+    <Green>206</Green>
+    <Blue>248</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Colony_Default</InternalName>
+    <Red>56</Red>
+    <Green>123</Green>
+    <Blue>56</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Colony_Bright</InternalName>
+    <Red>59</Red>
+    <Green>183</Green>
+    <Blue>59</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>Colony_Text</InternalName>
+    <Red>185</Red>
+    <Green>252</Green>
+    <Blue>185</Blue>
+  </Color>
+ 
+  <!-- Tax Colors -->
+ 
+  <Color>
+    <InternalName>TaxLow_Dark</InternalName>
+    <Red>24</Red>
+    <Green>55</Green>
+    <Blue>24</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxLow_Bright</InternalName>
+    <Red>56</Red>
+    <Green>165</Green>
+    <Blue>56</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxNormal_Dark</InternalName>
+    <Red>18</Red>
+    <Green>48</Green>
+    <Blue>61</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxNormal_Bright</InternalName>
+    <Red>34</Red>
+    <Green>155</Green>
+    <Blue>207</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxMedium_Dark</InternalName>
+    <Red>98</Red>
+    <Green>71</Green>
+    <Blue>1</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxMedium_Bright</InternalName>
+    <Red>232</Red>
+    <Green>167</Green>
+    <Blue>1</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxHigh_Dark</InternalName>
+    <Red>64</Red>
+    <Green>24</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxHigh_Bright</InternalName>
+    <Red>220</Red>
+    <Green>80</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxMax_Dark</InternalName>
+    <Red>68</Red>
+    <Green>1</Green>
+    <Blue>1</Blue>
+  </Color>
+ 
+  <Color>
+    <InternalName>TaxMax_Bright</InternalName>
+    <Red>209</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+  </Color>
+ 
+</ColorList>

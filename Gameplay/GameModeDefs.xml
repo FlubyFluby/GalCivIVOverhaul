@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GameModesList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GameModeDefs.xsd">
+
+  <GameMode>
+    <UniqueID>Sandbox</UniqueID>
+    <DisplayName>GameMode_Sandbox_Name</DisplayName>
+    <Description>GameMode_Sandbox_Desc</Description>
+    <AllowedInSP>true</AllowedInSP>
+    <AllowedInMP>true</AllowedInMP>
+    <AllowAIPlayers>true</AllowAIPlayers>
+    <AllowHostiles>true</AllowHostiles>
+    <AllowMinors>true</AllowMinors>
+    <EnableAgendas>false</EnableAgendas>
+  </GameMode>
+
+  <GameMode>
+    <UniqueID>Arena</UniqueID>
+    <DisplayName>GameMode_Arena_Name</DisplayName>
+    <Description>GameMode_Arena_Desc</Description>
+    <AllowedInSP>false</AllowedInSP>
+    <AllowedInMP>true</AllowedInMP>
+    <AllowAIPlayers>false</AllowAIPlayers>
+    <AllowHostiles>true</AllowHostiles>
+    <AllowMinors>false</AllowMinors>
+    <EnableAgendas>false</EnableAgendas>
+  </GameMode>
+
+  <GameMode>
+    <UniqueID>Agenda</UniqueID>
+    <DisplayName>GameMode_Agenda_Name</DisplayName>
+    <Description>GameMode_Agenda_Desc</Description>
+    <AllowedInSP>false</AllowedInSP>
+    <AllowedInMP>false</AllowedInMP>
+    <AllowAIPlayers>true</AllowAIPlayers>
+    <AllowHostiles>true</AllowHostiles>
+    <AllowMinors>true</AllowMinors>
+    <EnableAgendas>true</EnableAgendas>
+    <HideAgendas>false</HideAgendas>
+  </GameMode>
+
+  <GameMode>
+    <UniqueID>HiddenAgenda</UniqueID>
+    <DisplayName>GameMode_HiddenAgenda_Name</DisplayName>
+    <Description>GameMode_HiddenAgenda_Desc</Description>
+    <AllowedInSP>false</AllowedInSP>
+    <AllowedInMP>false</AllowedInMP>
+    <AllowAIPlayers>true</AllowAIPlayers>
+    <AllowHostiles>true</AllowHostiles>
+    <AllowMinors>true</AllowMinors>
+    <EnableAgendas>true</EnableAgendas>
+    <HideAgendas>true</HideAgendas>
+  </GameMode>
+
+  <GameMode>
+    <UniqueID>Survival</UniqueID>
+    <DisplayName>GameMode_Survival_Name</DisplayName>
+    <Description>GameMode_Survival_Desc</Description>
+    <AllowedInSP>false</AllowedInSP>
+    <AllowedInMP>true</AllowedInMP>
+    <AllowAIPlayers>true</AllowAIPlayers>
+    <AllowHostiles>true</AllowHostiles>
+    <AllowMinors>true</AllowMinors>
+    <RequireAIPlayers>true</RequireAIPlayers>
+    <EnableAgendas>false</EnableAgendas>
+
+    <Modifiers>
+        <EffectType>ShipRange</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+          <TargetQualifier>AIOnly</TargetQualifier>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>1.0</Value>
+    </Modifiers>
+
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+        <TargetQualifier>AIOnly</TargetQualifier>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>MaxManufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.01</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.01</Value>
+      </Modifier>
+      <SourceDisplayName>GameMode_Survival_Name</SourceDisplayName>
+    </Triggers>
+
+    <!-- constant AI-only bonuses -->
+    <!--<Modifiers>
+        <EffectType>FoodIncome</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+          <TargetQualifier>AIOnly</TargetQualifier>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>10</Value>
+    </Modifiers>-->
+
+    <!-- make the AI harder every turn -->
+    <!--<Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+        <TargetQualifier>AIOnly</TargetQualifier>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Manufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.05</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.03</Value>
+      </Modifier>
+      <SourceDisplayName>GameMode_Survival_Name</SourceDisplayName>
+    </Triggers>-->
+  </GameMode>
+	
+</GameModesList>

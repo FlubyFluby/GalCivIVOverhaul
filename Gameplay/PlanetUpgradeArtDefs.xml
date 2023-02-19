@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetUpgradeArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetUpgradeArtDefs.xsd">
+<!-- Created with the Gal Civ 4 Editor -->
+<!-- PlanetArtDefs.xml -->
+ 
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_MoistureGen</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_MoistureGen_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_OrbitalFactory</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_OrbitalFactory_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_OrbitalPrison</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_OrbitalPrison_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>10.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_PlanetaryBeacon</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_PlanetaryBeacon_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_PrecursorElevator</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_TidalControl_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_ThermalCore</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_ThermalCore_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_TidalControl</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_TidalControl_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_OrbitalShield</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_OrbitalShield_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_Accelerator</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_Accelerator_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_Satellites</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_Satellites_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+
+  <ArtDefine>
+    <InternalName>PlanetUpgrade_OrbOfDraginol</InternalName>
+    <ObjectGfxConfigFile>PlanetUpgrade_OrbOfDraginol_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.8</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceDef>Steel</ObjectGfxConfigAppearanceDef>
+  </ArtDefine>
+
+
+
+
+
+</PlanetUpgradeArtList>

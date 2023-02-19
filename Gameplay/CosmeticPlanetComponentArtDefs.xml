@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipComponentArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipComponentArtDefs.xsd">
+
+   <!-- Planets -->
+  <ShipComponentArt>
+    <InternalName>PlanetEarth_01</InternalName>
+    <Icon>Earth_Part_Thumb.png</Icon>
+    <ObjectGfxConfig>PlanetEarth_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>MoonEarth_01</InternalName>
+    <Icon>MoonEarth_01.png</Icon>
+    <ObjectGfxConfig>MoonEarth_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetMercury_01</InternalName>
+		<Icon>PlanetMercury_01.png</Icon>
+		<ObjectGfxConfig>PlanetMercury_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetVenus_01</InternalName>
+		<Icon>PlanetVenus_01.png</Icon>
+		<ObjectGfxConfig>PlanetVenus_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetMars_01</InternalName>
+		<Icon>PlanetMars_01.png</Icon>
+		<ObjectGfxConfig>PlanetMars_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetJupiter_01</InternalName>
+		<Icon>PlanetJupiter_01.png</Icon>
+		<ObjectGfxConfig>PlanetJupiter_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetSaturn_01</InternalName>
+		<Icon>PlanetSaturn_01.png</Icon>
+		<ObjectGfxConfig>PlanetSaturn_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetNeptune_01</InternalName>
+		<Icon>PlanetNeptune_01.png</Icon>
+		<ObjectGfxConfig>PlanetNeptune_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetUranus_01</InternalName>
+		<Icon>PlanetUranus_01.png</Icon>
+		<ObjectGfxConfig>PlanetUranus_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetEris_01</InternalName>
+		<Icon>PlanetEris_01.png</Icon>
+		<ObjectGfxConfig>PlanetEris_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetCeres_01</InternalName>
+		<Icon>PlanetCeres_01.png</Icon>
+		<ObjectGfxConfig>PlanetCeres_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetHaumea_01</InternalName>
+		<Icon>PlanetHaumea_01.png</Icon>
+		<ObjectGfxConfig>PlanetHaumea_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>PlanetMakeMake_01</InternalName>
+		<Icon>PlanetMakeMake_01.png</Icon>
+		<ObjectGfxConfig>PlanetMakeMake_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetFrozen_01</InternalName>
+    <Icon>PlanetFrozen_01.png</Icon>
+    <ObjectGfxConfig>PlanetFrozen_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetBarren_01</InternalName>
+    <Icon>PlanetBarren_01.png</Icon>
+    <ObjectGfxConfig>PlanetBarren_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetDesert_01</InternalName>
+    <Icon>PlanetDesert_01.png</Icon>
+    <ObjectGfxConfig>PlanetDesert_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetHabitable_01</InternalName>
+    <Icon>PlanetHabitable_01.png</Icon>
+    <ObjectGfxConfig>PlanetHabitable_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+  
+  <ShipComponentArt>
+    <InternalName>PlanetJungle_01</InternalName>
+    <Icon>PlanetJungle_01.png</Icon>
+    <ObjectGfxConfig>PlanetJungle_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetMountain_01</InternalName>
+    <Icon>PlanetMountain_01.png</Icon>
+    <ObjectGfxConfig>PlanetMountain_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetOceanic_01</InternalName>
+    <Icon>PlanetOceanic_01.png</Icon>
+    <ObjectGfxConfig>PlanetOceanic_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetToxic_01</InternalName>
+    <Icon>PlanetToxic_01.png</Icon>
+    <ObjectGfxConfig>PlanetToxic_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetTropical_01</InternalName>
+    <Icon>PlanetTropical_01.png</Icon>
+    <ObjectGfxConfig>PlanetTropical_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetArboreal_01</InternalName>
+    <Icon>PlanetArboreal_01.png</Icon>
+    <ObjectGfxConfig>PlanetArboreal_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetBombarded_01</InternalName>
+    <Icon>PlanetBombarded_01.png</Icon>
+    <ObjectGfxConfig>PlanetBombarded_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetCorrosive_01</InternalName>
+    <Icon>PlanetCorrosive_01.png</Icon>
+    <ObjectGfxConfig>PlanetCorrosive_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetVolcanic_01</InternalName>
+    <Icon>PlanetEarth_01.png</Icon>
+    <ObjectGfxConfig>PlanetVolcanic_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetRadioactive_01</InternalName>
+    <Icon>PlanetEarth_01.png</Icon>
+    <ObjectGfxConfig>PlanetRadioactive_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetLowGravity_01</InternalName>
+    <Icon>MoonEarth_01.png</Icon>
+    <ObjectGfxConfig>PlanetLowGravity_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetThinAtmosphere_01</InternalName>
+    <Icon>MoonEarth_01.png</Icon>
+    <ObjectGfxConfig>PlanetThinAtmosphere_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetArtemis_01</InternalName>
+    <Icon>MoonEarth_01.png</Icon>
+    <ObjectGfxConfig>PlanetArtemis_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetPrecursorRed_01_ArtDef</InternalName>
+    <Icon>PlanetIcon_PrecursorWorld_Red.png</Icon>
+    <ObjectGfxConfig>PlanetPrecursorWorldRed_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetPrecursorBlue_01_ArtDef</InternalName>
+    <Icon>PlanetIcon_PrecursorWorld_Blue.png</Icon>
+    <ObjectGfxConfig>PlanetPrecursorWorldBlue_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetPrecursorBrown_01_ArtDef</InternalName>
+    <Icon>PlanetIcon_PrecursorWorld_Brown.png</Icon>
+    <ObjectGfxConfig>PlanetPrecursorWorldBrown_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>PlanetPrecursorPurple_01_ArtDef</InternalName>
+    <Icon>PlanetIcon_PrecursorWorld_Purple.png</Icon>
+    <ObjectGfxConfig>PlanetPrecursorWorldPurple_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+  
+  <!--
+  <ShipComponentArt>
+    <InternalName>PLANETNAME_01</InternalName>
+    <Icon>PlanetEarth_01.png</Icon>
+    <ObjectGfxConfig>PLANETNAME_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+  -->
+  
+  <!-- Atmospheres -->
+	<ShipComponentArt>
+		<InternalName>Atmosphere_01</InternalName>
+		<Icon>PlanetEarth_01.png</Icon>
+		<ObjectGfxConfig>PlanetEarth_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>2</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Atmosphere_02</InternalName>
+		<Icon>PlanetVenus_01.png</Icon>
+		<ObjectGfxConfig>PlanetVenus_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+  <!-- Planet Shields -->
+  <ShipComponentArt>
+    <InternalName>PlanetShieldObject_01_ArtDef</InternalName>
+    <Icon>PlanetVenus_01.png</Icon>
+    <ObjectGfxConfig>PlanetShieldObject_01.objgfxcfg</ObjectGfxConfig>
+    <ScaleMod>1</ScaleMod>
+  </ShipComponentArt>
+
+  <!-- Rings -->
+	<ShipComponentArt>
+		<InternalName>Large_Ring_01</InternalName>
+		<Icon>LargeRing_01.png</Icon>
+		<ObjectGfxConfig>LargeRing_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Small_Ring_01</InternalName>
+		<Icon>SmallRing_01.png</Icon>
+		<ObjectGfxConfig>SmallRing_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Medium_Ring_01</InternalName>
+		<Icon>MediumRing_01.png</Icon>
+		<ObjectGfxConfig>MediumRing_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Thin_Ring_01</InternalName>
+		<Icon>ThinRing_01.png</Icon>
+		<ObjectGfxConfig>ThinRing_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Large_Ring_02</InternalName>
+		<Icon>LargeRing_02.png</Icon>
+		<ObjectGfxConfig>LargeRing_02.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Medium_Ring_02</InternalName>
+		<Icon>MediumRing_02.png</Icon>
+		<ObjectGfxConfig>MediumRing_02.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Small_Ring_02</InternalName>
+		<Icon>SmallRing_02.png</Icon>
+		<ObjectGfxConfig>SmallRing_02.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Thin_Ring_02</InternalName>
+		<Icon>ThinRing_02.png</Icon>
+		<ObjectGfxConfig>ThinRing_02.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Large_Ring_03</InternalName>
+		<Icon>LargeRing_03.png</Icon>
+		<ObjectGfxConfig>LargeRing_03.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Medium_Ring_03</InternalName>
+		<Icon>MediumRing_03.png</Icon>
+		<ObjectGfxConfig>MediumRing_03.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Small_Ring_03</InternalName>
+		<Icon>SmallRing_03.png</Icon>
+		<ObjectGfxConfig>SmallRing_03.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Thin_Ring_03</InternalName>
+		<Icon>ThinRing_03.png</Icon>
+		<ObjectGfxConfig>ThinRing_03.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Large_Ring_04</InternalName>
+		<Icon>LargeRing_04.png</Icon>
+		<ObjectGfxConfig>LargeRing_04.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Medium_Ring_04</InternalName>
+		<Icon>MediumRing_04.png</Icon>
+		<ObjectGfxConfig>MediumRing_04.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Small_Ring_04</InternalName>
+		<Icon>SmallRing_04.png</Icon>
+		<ObjectGfxConfig>SmallRing_04.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+	<ShipComponentArt>
+		<InternalName>Thin_Ring_04</InternalName>
+		<Icon>ThinRing_04.png</Icon>
+		<ObjectGfxConfig>ThinRing_04.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+  <!-- Misc -->
+	<ShipComponentArt>
+		<InternalName>Test_Axis</InternalName>
+		<Icon>PlanetEarth_01.png</Icon>
+		<ObjectGfxConfig>TestAxis_01.objgfxcfg</ObjectGfxConfig>
+		<ScaleMod>1</ScaleMod>
+	</ShipComponentArt>
+
+
+</ShipComponentArtList>

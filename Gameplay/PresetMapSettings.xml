@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PresetMapSettingsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PresetMapSettings.xsd">
+
+	<MapSetting>
+		<InternalName>Default</InternalName>
+   		<Style>Scattered</Style>
+		<Size>Small</Size>
+		<MaxClusterSize>Huge</MaxClusterSize>
+		<PlayerStartingClusterSize>Medium</PlayerStartingClusterSize>
+		<StartNearOtherPlayers>StartNearAIPlayer</StartNearOtherPlayers>
+		<StarFrequency>Occasional</StarFrequency>
+		<PlanetFrequency>Common</PlanetFrequency>
+		<HabitablePlanetFrequency>Occasional</HabitablePlanetFrequency>
+		<ExtremePlanetFrequency>Occasional</ExtremePlanetFrequency>
+		<AsteroidFrequency>Occasional</AsteroidFrequency>
+		<ResourceFrequency>Occasional</ResourceFrequency>
+		<BlackHoleFrequency>Occasional</BlackHoleFrequency>
+		<AnomalyFrequency>Occasional</AnomalyFrequency>
+		<NebulaFrequency>Occasional</NebulaFrequency>
+		<PrecursorRelicFrequency>Occasional</PrecursorRelicFrequency>
+		<AscensionGateFrequency>Occasional</AscensionGateFrequency>
+		<PirateBaseFrequency>Occasional</PirateBaseFrequency>
+	</MapSetting>
+
+	<MapSetting>
+		<InternalName>Multiplayer</InternalName>
+		<Style>Clustered</Style>
+		<Size>Tiny</Size>
+		<MaxClusterSize>Huge</MaxClusterSize>
+		<PlayerStartingClusterSize>Large</PlayerStartingClusterSize>
+		<StartNearOtherPlayers>StartNearAIPlayer</StartNearOtherPlayers>
+		<StarFrequency>Abundant</StarFrequency>
+		<PlanetFrequency>Abundant</PlanetFrequency>
+		<HabitablePlanetFrequency>Abundant</HabitablePlanetFrequency>
+		<ExtremePlanetFrequency>Occasional</ExtremePlanetFrequency>
+		<AsteroidFrequency>Abundant</AsteroidFrequency>
+		<ResourceFrequency>Abundant</ResourceFrequency>
+		<BlackHoleFrequency>Common</BlackHoleFrequency>
+		<AnomalyFrequency>Abundant</AnomalyFrequency>
+		<NebulaFrequency>Common</NebulaFrequency>
+		<PrecursorRelicFrequency>Occasional</PrecursorRelicFrequency>
+		<AscensionGateFrequency>Occasional</AscensionGateFrequency>
+		<PirateBaseFrequency>Occasional</PirateBaseFrequency>
+		<MapConfigDef>SingleCluster</MapConfigDef>
+	</MapSetting>
+
+</PresetMapSettingsList>

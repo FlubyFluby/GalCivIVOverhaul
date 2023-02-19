@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GalCivGraphicsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalCivGraphicsDefs.xsd">
+
+	<GalCivGraphics>
+		<InternalName>GalCivGraphics</InternalName>
+		<GelUISaturation>.5</GelUISaturation>
+		<GelUIBrightness>1</GelUIBrightness>
+		<SelectionCursorRotationSpeedLayer0>0.0</SelectionCursorRotationSpeedLayer0>
+		<SelectionCursorRotationSpeedLayer1>-0.1</SelectionCursorRotationSpeedLayer1>
+		<SelectionCursorRotationSpeedLayer2>0.05</SelectionCursorRotationSpeedLayer2>
+		<SelectionCursorRotationSpeedLayer3>0.9</SelectionCursorRotationSpeedLayer3>
+		<SelectionCursorFadeTime>.15</SelectionCursorFadeTime>
+		<SelectionCursorFadeSize>0.35</SelectionCursorFadeSize>
+		<GridAlphaDefault>0.35</GridAlphaDefault>
+		<GridAlphaSector>0.35</GridAlphaSector>
+		<GridIntensity>1.0</GridIntensity>    
+		<DefaultStarboxDef>DefaultStarbox</DefaultStarboxDef>
+		<ShipDesignStarboxDef>ShipDesignStarbox</ShipDesignStarboxDef>
+		<DefaultCameraView0>
+			<RotationX>40.00</RotationX>
+			<RotationY>270.0</RotationY>
+			<Zoom>1000.0</Zoom>
+		</DefaultCameraView0>
+		<DefaultCameraView1>
+			<RotationX>60.0</RotationX>
+			<RotationY>270.0</RotationY>
+			<Zoom>1000.0</Zoom>
+		</DefaultCameraView1>
+		<DefaultCameraView2>
+			<RotationX>40.00</RotationX>
+			<RotationY>270.0</RotationY>
+			<Zoom>2000.0</Zoom>
+		</DefaultCameraView2>
+		<DefaultCameraView3>
+			<RotationX>60.97</RotationX>
+			<RotationY>270.0</RotationY>
+			<Zoom>3000.0</Zoom>
+		</DefaultCameraView3>
+		<DefaultCameraView4>
+			<RotationX>90.0</RotationX>
+			<RotationY>270.0</RotationY>
+			<Zoom>2000.0</Zoom>
+		</DefaultCameraView4>
+		<DefaultCameraMinTilt>0.43</DefaultCameraMinTilt>
+		<DefaultCameraMaxTilt>1.4</DefaultCameraMaxTilt>
+    <MainMapCameraNearestZoom>0.9995</MainMapCameraNearestZoom>
+    <MainMapCameraMaxZoomWithoutTech>24000.0</MainMapCameraMaxZoomWithoutTech>
+    <MainMapCameraFullZoomFlag>CanDetectSubspaceStreams</MainMapCameraFullZoomFlag>
+    <MainMapCameraNearest>20.0</MainMapCameraNearest>
+    <MainMapCameraNear>100.0</MainMapCameraNear>
+    <MainMapCameraFar>1000000.0</MainMapCameraFar>
+    <MainMapGalaxyViewCameraHeight>34000.0</MainMapGalaxyViewCameraHeight>
+    <MainMapGalaxyViewCameraFadeSize>7500.0</MainMapGalaxyViewCameraFadeSize>
+    <MainMapGalaxyViewClusterMaxHeight>100000.0</MainMapGalaxyViewClusterMaxHeight>
+    <MainMapGalaxyViewClusterFadeSize>7500.0</MainMapGalaxyViewClusterFadeSize>
+    <MainMapGalaxyViewBackgroundColor>GalaxyBackground</MainMapGalaxyViewBackgroundColor>
+    
+    <MainMapGalaxySwirlData>
+      <RotationSpeed>0.0</RotationSpeed>
+      <Texture>Galaxy1B.png</Texture>
+      <Transparency>0.9</Transparency>
+      <BlendType>AlphaBlend</BlendType>
+    </MainMapGalaxySwirlData>
+
+    <MainMapGalaxySwirlData>
+      <RotationSpeed>0.0</RotationSpeed>
+      <Texture>CenterFlare.png</Texture>
+      <Transparency>0.95</Transparency>
+      <BlendType>AlphaBlend</BlendType>
+    </MainMapGalaxySwirlData>
+
+    <MainMapGalaxySwirlData>
+      <RotationSpeed>0.0</RotationSpeed>
+      <Texture>GalaxyDif 2.png</Texture>
+      <Transparency>0.1</Transparency>
+      <BlendType>AlphaBlend</BlendType>
+    </MainMapGalaxySwirlData>
+    
+    <MainMapGalaxySwirlOffsetSize>100</MainMapGalaxySwirlOffsetSize>
+    <MainMapGalaxySwirlScaleMod>1.4</MainMapGalaxySwirlScaleMod>
+
+    <MainMapHUDCameraHeight>25000.0</MainMapHUDCameraHeight>
+    <MainMapPlanetHUDLargeDist>3000.0</MainMapPlanetHUDLargeDist>
+    <MainMapPlanetHUDSmallDist>10000.0</MainMapPlanetHUDSmallDist>
+    <MainMapPlanetHUDCullDist>50000.0</MainMapPlanetHUDCullDist>
+    <MainMapPlanetHUDWidth>376</MainMapPlanetHUDWidth>
+    <MainMapPlanetHUDHeight>64</MainMapPlanetHUDHeight>
+
+    <TiltOnZoomMinZoom>900.0</TiltOnZoomMinZoom>
+    <TiltOnZoomMaxZoom>3000.0</TiltOnZoomMaxZoom>
+    <TiltOnZoomMinTilt>0.663</TiltOnZoomMinTilt>
+    <TiltOnZoomMaxTilt>1.4</TiltOnZoomMaxTilt>
+
+    <DefaultObjectViewRotationX>0.4</DefaultObjectViewRotationX>
+
+    <ShipyardObjectViewRotationX>0.6</ShipyardObjectViewRotationX>
+    <ShipyardObjectViewRotationZ>-0.1</ShipyardObjectViewRotationZ>
+    <ShipyardObjectViewOffsetX>0</ShipyardObjectViewOffsetX>
+    <ShipyardObjectViewOffsetY>0</ShipyardObjectViewOffsetY>
+    <ShipyardObjectViewCameraVertOffset>-8.0</ShipyardObjectViewCameraVertOffset>
+    <ShipDesignObjectViewRotationX>0.4</ShipDesignObjectViewRotationX>
+    <ShipDesignObjectViewRotationZ>-0.3</ShipDesignObjectViewRotationZ>
+    <ShipDesignObjectViewOffsetX>0</ShipDesignObjectViewOffsetX>
+    <ShipDesignObjectViewOffsetY>0</ShipDesignObjectViewOffsetY>
+
+    <ShipStyleObjectViewRotationX>0.4</ShipStyleObjectViewRotationX>
+    <ShipStyleObjectViewRotationZ>-0.3</ShipStyleObjectViewRotationZ>
+    <ShipStyleObjectViewOffsetX>0</ShipStyleObjectViewOffsetX>
+    <ShipStyleObjectViewOffsetY>0</ShipStyleObjectViewOffsetY>
+
+    <ObjectViewDistanceMod>1.0</ObjectViewDistanceMod>
+    <ObjectViewBoundBoxBuffer>0.1</ObjectViewBoundBoxBuffer>
+
+    <FleetDetailsViewRotationX>0.915</FleetDetailsViewRotationX>
+    <FleetDetailsViewDistanceMod>1.0</FleetDetailsViewDistanceMod>
+    <FleetDetailsViewBoundBoxBuffer>0.0</FleetDetailsViewBoundBoxBuffer>
+    <FleetDetailsViewCenteringMod>-0.14</FleetDetailsViewCenteringMod>
+	<FleetDetailsViewMinZoom>100.0</FleetDetailsViewMinZoom>
+	<FleetDetailsViewMaxZoom>1500.0</FleetDetailsViewMaxZoom>
+		
+    <PlanetDetailsPlanetAnimationSpeed>0.25</PlanetDetailsPlanetAnimationSpeed>
+    <PlanetDetailsViewDistanceMod>0.4</PlanetDetailsViewDistanceMod>
+    <PlanetDetailsPanMod>0</PlanetDetailsPanMod>
+    <PlanetDetailsHologramColor>PlanetHologramColor</PlanetDetailsHologramColor>
+    <PlanetDetailsHologramColorBlend>0.5</PlanetDetailsHologramColorBlend>
+    <PlanetDetailsHologramTextureScale>30</PlanetDetailsHologramTextureScale>
+    <PlanetDetailsHologramTextureVerticalSpeed>0.05</PlanetDetailsHologramTextureVerticalSpeed>
+    <PlanetDetailsHologramTextureIntensity>1</PlanetDetailsHologramTextureIntensity>
+    <PlanetDetailsHologramTextureVerticalWarp>2</PlanetDetailsHologramTextureVerticalWarp>
+    <PlanetDetailsHologramTextureHorizontalWarp>1</PlanetDetailsHologramTextureHorizontalWarp>
+    <PlanetDetailsHologramNoiseTextureIntensity>0.05</PlanetDetailsHologramNoiseTextureIntensity>
+    <PlanetDetailsHologramFresnelColor>PlanetHologramFresnelColor</PlanetDetailsHologramFresnelColor>
+    <PlanetDetailsHologramFresnelSize>20</PlanetDetailsHologramFresnelSize>
+    <PlanetDetailsHologramFresnelIntensity>0.25</PlanetDetailsHologramFresnelIntensity>
+    <PlanetDetailsHologramStaticSpeed>1</PlanetDetailsHologramStaticSpeed>
+    <PlanetDetailsHologramStaticIntensity>1</PlanetDetailsHologramStaticIntensity>
+    <PlanetDetailsHologramTransparency>0.9</PlanetDetailsHologramTransparency>
+
+    <StrategicIconTextureAtlasWidth>8.0</StrategicIconTextureAtlasWidth>
+    <StrategicIconTextureAtlasHeight>8.0</StrategicIconTextureAtlasHeight>
+    <GalaxyIndicatorTextureAtlasWidth>8.0</GalaxyIndicatorTextureAtlasWidth>
+    <GalaxyIndicatorTextureAtlasHeight>8.0</GalaxyIndicatorTextureAtlasHeight>
+    <StrategicIconDistanceInputHeightLowMin>0</StrategicIconDistanceInputHeightLowMin>
+    <StrategicIconDistanceInputHeightLowMax>8000</StrategicIconDistanceInputHeightLowMax>
+    <StrategicIconDistanceInputHeightDistance>10</StrategicIconDistanceInputHeightDistance>
+    <StrategicIconDistanceThresholdLowMin>100</StrategicIconDistanceThresholdLowMin>
+    <StrategicIconDistanceThresholdLowMax>12000</StrategicIconDistanceThresholdLowMax>
+    <StrategicIconDistanceThresholdDistance>-100</StrategicIconDistanceThresholdDistance> <!-- this is set to negative so that it causes the values to end up the correct way for the math to be happy -->
+    <StrategicIconTransitionLength>0.25</StrategicIconTransitionLength>
+    <StrategicIconTransitionCurveElbow>1</StrategicIconTransitionCurveElbow>
+
+    <!--Use 1080p resolution when tuning these "SceenSize" values.-->
+    <StrategicIconScreenSizeNear>64.0</StrategicIconScreenSizeNear>
+    <StrategicIconScreenSizeFar>18.0</StrategicIconScreenSizeFar>
+
+    <GalacticIndicatorSizeNear>128</GalacticIndicatorSizeNear>
+    <GalacticIndicatorSizeFar>64</GalacticIndicatorSizeFar>
+    
+    <InfluenceLineSize>.75</InfluenceLineSize>
+    <InfluenceLineOffset>1.0</InfluenceLineOffset>
+    <InfluenceBlurSize>5.0</InfluenceBlurSize>
+    <InfluenceBlurOffset>1</InfluenceBlurOffset>
+    <InfluenceBackgroundColor>InfluenceBackground</InfluenceBackgroundColor>
+    <SectorInfluenceBackgroundColor>SectorInfluenceBackground</SectorInfluenceBackgroundColor>
+    <BlackHoleBorderArtDef>BLACK_HOLE_BORDER</BlackHoleBorderArtDef>
+    <AreaEffectBorderArtDef>AREA_OF_EFFECT_BORDER</AreaEffectBorderArtDef>
+    <FOWBorderAnimationSpeed>0.2</FOWBorderAnimationSpeed>
+    <FOWBorderNumFrames>8</FOWBorderNumFrames>
+    <FOWBorderSegmentsPerFrame>4</FOWBorderSegmentsPerFrame>
+    <FOWBorderAlpha>0.8</FOWBorderAlpha>
+    <FOWBorderWidth>30.0</FOWBorderWidth>
+    <FOWBorderOffset>-15</FOWBorderOffset>
+    <FOWBorderMinAngle>-.1</FOWBorderMinAngle>
+    <FOWBorderMaxAngle>4.712</FOWBorderMaxAngle>
+    <FOWBorderMagnitude>4.5</FOWBorderMagnitude>
+    <FOWBorderVariance>4.5</FOWBorderVariance>
+    <FOWBorderColor>FOWBorderColor</FOWBorderColor>
+    <FOWUnexploredTransparency>0.0</FOWUnexploredTransparency>
+    <FOWExposedTransparency>0.0</FOWExposedTransparency>
+    <FOWIntensity>5.0</FOWIntensity>
+    <FOWBorderIntensity>5.0</FOWBorderIntensity>
+    <RangeLineColorDefine>Grey</RangeLineColorDefine>
+    <RangeLineAlpha>0.1</RangeLineAlpha>
+    <RangeLineIntensity>1.1</RangeLineIntensity>
+    <RangeLineWidth>24</RangeLineWidth>
+    <RangeLineOffset>-30</RangeLineOffset>
+    <AreaEffectLineAlpha>0.5</AreaEffectLineAlpha>
+
+    <GizmoTranslateControlSize>1.0</GizmoTranslateControlSize>
+    <GizmoTranslateControlDistance>5.0</GizmoTranslateControlDistance>
+    <GizmoScaleControlSize>1.0</GizmoScaleControlSize>
+    <GizmoScaleControlDistance>5.0</GizmoScaleControlDistance>
+    <GizmoRotateControlSize>0.15</GizmoRotateControlSize>
+    <GizmoRotateControlRadius>4.0</GizmoRotateControlRadius>
+    <GizmoMirrorPlaneTilingU>2.0</GizmoMirrorPlaneTilingU>
+    <GizmoMirrorPlaneTilingV>2.0</GizmoMirrorPlaneTilingV>
+    <HardPointSize>1.0</HardPointSize>
+    <ShipDesignMinTranslateX>-50.0</ShipDesignMinTranslateX>
+    <ShipDesignMinTranslateY>-50.0</ShipDesignMinTranslateY>
+    <ShipDesignMinTranslateZ>-50.0</ShipDesignMinTranslateZ>
+    <ShipDesignMaxTranslateX>50.0</ShipDesignMaxTranslateX>
+    <ShipDesignMaxTranslateY>50.0</ShipDesignMaxTranslateY>
+    <ShipDesignMaxTranslateZ>50.0</ShipDesignMaxTranslateZ>
+    <ShipDesignMinScaleX>0.1</ShipDesignMinScaleX>
+    <ShipDesignMinScaleY>0.1</ShipDesignMinScaleY>
+    <ShipDesignMinScaleZ>0.1</ShipDesignMinScaleZ>
+    <ShipDesignMaxScaleX>5</ShipDesignMaxScaleX>
+    <ShipDesignMaxScaleY>5</ShipDesignMaxScaleY>
+    <ShipDesignMaxScaleZ>5</ShipDesignMaxScaleZ>
+    <ShipDesignSelectedTintColor>ShipDesignTintSelected</ShipDesignSelectedTintColor>
+    <ShipDesignUnselectedTintColor>ShipDesignTintUnselected</ShipDesignUnselectedTintColor>
+    <ShipDesignHighlightedTintColor>ShipDesignTintHighlighted</ShipDesignHighlightedTintColor>
+    <ShipDesignOutlineThreshold>0.2</ShipDesignOutlineThreshold>
+    <ShipDesignOutlineMinSize>0.5</ShipDesignOutlineMinSize>
+    <ShipDesignOutlineMaxSize>1.0</ShipDesignOutlineMaxSize>
+    <ShipDesignDesiredBoundBoxSize>90</ShipDesignDesiredBoundBoxSize>
+    <ShipyardHullScaleTiny>0.26</ShipyardHullScaleTiny>
+    <ShipyardHullScaleSmall>0.36</ShipyardHullScaleSmall>
+    <ShipyardHullScaleMedium>0.6</ShipyardHullScaleMedium>
+    <ShipyardHullScaleLarge>0.8</ShipyardHullScaleLarge>
+    <ShipyardHullScaleHuge>1.0</ShipyardHullScaleHuge>
+    <ShipyardHullScaleCargo>0.8</ShipyardHullScaleCargo>
+    <ParticleSmoothHideDeadZone>1.0</ParticleSmoothHideDeadZone>
+    <ParticleSmoothHideRamp>2.0</ParticleSmoothHideRamp>
+    <ParticleGlobalColorIntensityMultiplier>1.0</ParticleGlobalColorIntensityMultiplier>
+    <PlanetHaloScale>2.33</PlanetHaloScale>
+    <PlanetHaloScaleFarMod>1.1</PlanetHaloScaleFarMod>
+    <PlanetHaloScaleNearDistance>600</PlanetHaloScaleNearDistance>
+    <PlanetHaloScaleFarDistance>4000</PlanetHaloScaleFarDistance>
+
+    <PlanetSurfaceUsedBorderColor>PlanetSurfaceUsedBorderColor</PlanetSurfaceUsedBorderColor>
+    <PlanetSurfaceUsableBorderColor>PlanetSurfaceUsableBorderColor</PlanetSurfaceUsableBorderColor>
+    <PlanetSurfaceTerraformUsableBorderColor>PlanetSurfaceTerraformUsableBorderColor</PlanetSurfaceTerraformUsableBorderColor>
+    <PlanetSurfaceSelectedColor>PlanetSurfaceSelectedColor</PlanetSurfaceSelectedColor>
+    <PlanetSurfaceDestroyedIcon>Destroyed_Improvement.png</PlanetSurfaceDestroyedIcon>
+
+    <PlanetSurfaceBorderWidth>0.02</PlanetSurfaceBorderWidth>
+    <PlanetSurfaceBorderFalloff>0.06</PlanetSurfaceBorderFalloff>
+    <PlanetSurfaceSelectedBorderWidth>0.03</PlanetSurfaceSelectedBorderWidth>
+    <PlanetSurfaceSelectedBorderOffset>0.15</PlanetSurfaceSelectedBorderOffset>
+    <PlanetSurfaceSelectedBorderFalloff>0.05</PlanetSurfaceSelectedBorderFalloff>
+    <PlanetSurfaceSelectedBorderCornerDistance>0.18</PlanetSurfaceSelectedBorderCornerDistance>
+    <PlanetSurfaceLineThickness>0.02</PlanetSurfaceLineThickness>
+
+    <PlanetUpgradeGFXAnimSpeed>1.0</PlanetUpgradeGFXAnimSpeed>
+    
+    <HullSizeTiny>0.4</HullSizeTiny>
+    <HullSizeSmall>0.5</HullSizeSmall>
+    <HullSizeMedium>0.7</HullSizeMedium>
+    <HullSizeLarge>0.9</HullSizeLarge>
+    <HullSizeHuge>1.0</HullSizeHuge>
+    <HullSizeCargo>0.9</HullSizeCargo>
+
+    <HullSizeTinyFormation>0.3</HullSizeTinyFormation>
+    <HullSizeSmallFormation>0.5</HullSizeSmallFormation>
+    <HullSizeMediumFormation>0.7</HullSizeMediumFormation>
+    <HullSizeLargeFormation>0.9</HullSizeLargeFormation>
+    <HullSizeHugeFormation>1.0</HullSizeHugeFormation>
+    <HullSizeCargoFormation>0.9</HullSizeCargoFormation>
+
+    <MainMapZoomedInScaleTiny>14.0</MainMapZoomedInScaleTiny>
+    <MainMapZoomedInScaleSmall>20.0</MainMapZoomedInScaleSmall>
+    <MainMapZoomedInScaleMedium>26.0</MainMapZoomedInScaleMedium>
+    <MainMapZoomedInScaleLarge>35.0</MainMapZoomedInScaleLarge>
+    <MainMapZoomedInScaleHuge>50.0</MainMapZoomedInScaleHuge>
+    <MainMapZoomedInScaleCargo>28.0</MainMapZoomedInScaleCargo>
+		
+    <MainMapZoomedInShipBufferDist>4.0</MainMapZoomedInShipBufferDist>
+    <MainMapShipTransitionFadeInIncrement>4.0</MainMapShipTransitionFadeInIncrement>
+    <MainMapShipTransitionFadeOutIncrement>8.0</MainMapShipTransitionFadeOutIncrement>
+    <MainMapShipTransitionCameraDist>1000</MainMapShipTransitionCameraDist>
+    <MainMapShipTransitionCameraHeight>500</MainMapShipTransitionCameraHeight>
+
+    <MainMapZoomedIn_XBuffer>4.0</MainMapZoomedIn_XBuffer>
+    <MainMapZoomedIn_YBuffer>4.0</MainMapZoomedIn_YBuffer>
+    <MainMapZoomedIn_ZBuffer>10.0</MainMapZoomedIn_ZBuffer>
+    <MainMapZoomedIn_MaxX>75.0</MainMapZoomedIn_MaxX>
+    <MainMapZoomedIn_MaxZ>75.0</MainMapZoomedIn_MaxZ>
+
+    <MainMapFullBattleTimePerTurn>0.75</MainMapFullBattleTimePerTurn>
+
+    <GalaxyViewNebulaFadeTime>1.0</GalaxyViewNebulaFadeTime>
+
+    <FleetDetailsViewScaleTiny>30.0</FleetDetailsViewScaleTiny>
+    <FleetDetailsViewScaleSmall>50.0</FleetDetailsViewScaleSmall>
+    <FleetDetailsViewScaleMedium>115.0</FleetDetailsViewScaleMedium>
+    <FleetDetailsViewScaleLarge>170.0</FleetDetailsViewScaleLarge>
+    <FleetDetailsViewScaleHuge>240.0</FleetDetailsViewScaleHuge>
+    <FleetDetailsViewScaleCargo>160.0</FleetDetailsViewScaleCargo>
+
+
+    <BattleViewerLocalObjectTileRadius>3</BattleViewerLocalObjectTileRadius>
+    
+    <BattleViewerScaleTiny>25.0</BattleViewerScaleTiny>
+    <BattleViewerScaleSmall>50.0</BattleViewerScaleSmall>
+    <BattleViewerScaleMedium>100.0</BattleViewerScaleMedium>
+    <BattleViewerScaleLarge>200.0</BattleViewerScaleLarge>
+    <!-- 210 -->
+    <BattleViewerScaleHuge>300.0</BattleViewerScaleHuge>
+    <!-- 500 -->
+    <BattleViewerScaleCargo>200.0</BattleViewerScaleCargo>
+    <BattleViewerScaleShipyard>9</BattleViewerScaleShipyard>
+    <BattleViewerScaleStarbase>9</BattleViewerScaleStarbase>
+    <BattleViewerScalePlanet>100.0</BattleViewerScalePlanet>
+    <BattleViewerFollowCameraRotationX>1.25</BattleViewerFollowCameraRotationX>
+    <BattleViewerFollowCameraRotationZ>1.57</BattleViewerFollowCameraRotationZ>
+
+    <BattleViewerOrbitalCameraSecondsPerOrbit>14.0</BattleViewerOrbitalCameraSecondsPerOrbit>
+    <BattleViewerOrbitalCameraOrbitRadiusMultiplier>4.0</BattleViewerOrbitalCameraOrbitRadiusMultiplier>
+    <BattleViewerOrbitalCameraOrbitDisplacement>75.0</BattleViewerOrbitalCameraOrbitDisplacement>
+
+    <BattleViewerTargetCameraRotationX>0.0</BattleViewerTargetCameraRotationX>
+    <BattleViewerTargetCameraRotationZ>0.0</BattleViewerTargetCameraRotationZ>
+    <BattleViewerTargetCameraOffsetMultiplier>
+      <X>0.18</X>
+      <Y>0.18</Y>
+      <Z>0.0</Z>
+    </BattleViewerTargetCameraOffsetMultiplier>
+
+    <BattleViewerFormationSpacingTiny>20.0</BattleViewerFormationSpacingTiny>
+    <BattleViewerFormationSpacingSmall>40.0</BattleViewerFormationSpacingSmall>
+    <BattleViewerFormationSpacingMedium>70.0</BattleViewerFormationSpacingMedium>
+    <BattleViewerFormationSpacingLarge>90.0</BattleViewerFormationSpacingLarge>
+    <BattleViewerFormationSpacingHuge>90.0</BattleViewerFormationSpacingHuge>
+    <BattleViewerFormationSpacingCargo>90.0</BattleViewerFormationSpacingCargo>
+
+    <BattleViewerFormationMaxWidth>200.0</BattleViewerFormationMaxWidth>
+    <BattleViewerFormationVerticalStep>170.0</BattleViewerFormationVerticalStep>
+
+    <BattleViewerPlanetAnimationSpeed>0.15</BattleViewerPlanetAnimationSpeed>
+
+    <BattleViewerFleeSpeedMult>4</BattleViewerFleeSpeedMult>
+    <BattleViewerFleeAccelMult>8</BattleViewerFleeAccelMult>
+    <BattleViewerFleeWaitTurns>3</BattleViewerFleeWaitTurns>
+
+    <BattleViewerSuicidePathInertiaFactor>0.3</BattleViewerSuicidePathInertiaFactor>
+    <BattleViewerSuicidePathEndPathTimeBias>0.4</BattleViewerSuicidePathEndPathTimeBias>
+    <BattleViewerTitleBattleRatingThreshold>10000.0</BattleViewerTitleBattleRatingThreshold>
+
+
+    <InvasionViewerTurnDuration>0.5</InvasionViewerTurnDuration>
+
+    <InvasionViewerPlanetSize>500.0</InvasionViewerPlanetSize>
+    <InvasionViewerPlanetRotationSpeed>0.01</InvasionViewerPlanetRotationSpeed>
+    <InvasionViewerPlanetPosition>
+      <X>0.0</X>
+      <Y>-350.0</Y>
+      <Z>1000.0</Z>
+    </InvasionViewerPlanetPosition>
+
+    <InvasionViewerShipPosition>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+    </InvasionViewerShipPosition>
+
+    <InvasionViewerShipRotationY>3.30</InvasionViewerShipRotationY>
+    <InvasionViewerLightDistance>10000.0</InvasionViewerLightDistance>
+
+    <InvasionViewerCameraPosition>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>-10.0</Z>
+    </InvasionViewerCameraPosition>
+
+    <InvasionViewerCameraDirection>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+    </InvasionViewerCameraDirection>
+
+    <InvasionViewerScaleTiny>20.0</InvasionViewerScaleTiny>
+    <InvasionViewerScaleSmall>35.0</InvasionViewerScaleSmall>
+    <InvasionViewerScaleMedium>80.0</InvasionViewerScaleMedium>
+    <InvasionViewerScaleLarge>100.0</InvasionViewerScaleLarge>
+    <InvasionViewerScaleHuge>120.0</InvasionViewerScaleHuge>
+    <InvasionViewerScaleCargo>80.0</InvasionViewerScaleCargo>
+
+    <InvasionViewerSwarmColorMod>1.0</InvasionViewerSwarmColorMod>
+    <InvasionViewerDotsPerSoldier>6.0</InvasionViewerDotsPerSoldier>
+
+    <InvasionViewerTileBattleScreenShakeMagnitude>5</InvasionViewerTileBattleScreenShakeMagnitude>
+    <InvasionViewerTileBattleScreenShakeCount>40</InvasionViewerTileBattleScreenShakeCount>
+    <InvasionViewerDestroyTileScreenShakeMagnitude>5</InvasionViewerDestroyTileScreenShakeMagnitude>
+    <InvasionViewerDestroyTileScreenShakeCount>10</InvasionViewerDestroyTileScreenShakeCount>
+
+    <InvasionViewerUnitBattleTime>2.5</InvasionViewerUnitBattleTime>
+    <InvasionViewerUnitMoveTime>2.5</InvasionViewerUnitMoveTime>
+    <InvasionViewerParticleMaxVelocity>1.0</InvasionViewerParticleMaxVelocity>
+    <InvasionViewerParticleMaxVelocityInFormation>0.5</InvasionViewerParticleMaxVelocityInFormation>
+
+    <ForwardFormationLinealOffset>0</ForwardFormationLinealOffset>
+    <MiddleFormationLinealOffset>40</MiddleFormationLinealOffset>
+    <RearFormationLinealOffset>80</RearFormationLinealOffset>
+    <HypergateSize>0.5</HypergateSize>
+    <ShipyardSize>0.60</ShipyardSize>
+    <ShipyardContentsSize>0.45</ShipyardContentsSize>
+    <ShipHoverSpeed>1.0</ShipHoverSpeed>
+    <ShipHoverMagnitude>1.0</ShipHoverMagnitude>
+    <AsteroidParticleEffect>AsteroidParticleEffect</AsteroidParticleEffect>
+    <RadialIconScreenMinDist>30</RadialIconScreenMinDist>
+    <RadialIconScreenMaxDist>4000</RadialIconScreenMaxDist>
+    <RadialIconScreenSizeNear>48</RadialIconScreenSizeNear>
+    <RadialIconScreenSizeFar>8</RadialIconScreenSizeFar>
+    <RadialIconRadiusFudgeMultiplier>0.145</RadialIconRadiusFudgeMultiplier>
+    <RadialIconRadiusFudgeMultiplier_Shipyard>0.2</RadialIconRadiusFudgeMultiplier_Shipyard>
+    <RadialIconRadiusFudgeMultiplier_Starbase>0.2</RadialIconRadiusFudgeMultiplier_Starbase>
+    <PlanetThumbnailLightDistanceMod>100000.0</PlanetThumbnailLightDistanceMod>
+    <SubsurfaceTextureScaleMod>1.0</SubsurfaceTextureScaleMod>
+    <SubsurfaceViewScaleModFleetDetails>50</SubsurfaceViewScaleModFleetDetails>
+    <SubsurfaceViewScaleModDesignerLanding>1</SubsurfaceViewScaleModDesignerLanding>
+    <RallyPointObjGfxConfig>RallyPointIndicator.objgfxcfg</RallyPointObjGfxConfig>
+    <RallyPointParticleScript>RallyPointParticleEffect</RallyPointParticleScript>
+    <RallyPointPreviewParticleScript>RallyPointParticleEffect</RallyPointPreviewParticleScript>
+    
+    <CampaignWaypointObjGfxConfig>Campaign_Waypoint.objgfxcfg</CampaignWaypointObjGfxConfig>
+    <UPSlideAnimationSpeed>4.0</UPSlideAnimationSpeed>
+    <UPLeaderDisplayAlpha>0.96</UPLeaderDisplayAlpha>
+    <ShipEngineAnimationNumFrames>4</ShipEngineAnimationNumFrames>
+    <ShipEngineAnimationSpeed>2.0</ShipEngineAnimationSpeed>
+    <ShipEngineAnimationFlickerSpeed>20.0</ShipEngineAnimationFlickerSpeed>
+    <ShipEngineAnimationRandomFlickerMin>0.2</ShipEngineAnimationRandomFlickerMin>
+    <ShipEngineAnimationRandomFlickerMax>1.0</ShipEngineAnimationRandomFlickerMax>
+    <WaterMarkMaxAlpha>0.2</WaterMarkMaxAlpha>
+    <InfluenceFillMaxAlpha>2.0</InfluenceFillMaxAlpha>
+
+    <ClusterOwnerIconAlpha>0.8</ClusterOwnerIconAlpha>
+    <ClusterOwnerIconSize>400</ClusterOwnerIconSize>
+    <ClusterOwnerIconYOffset>0</ClusterOwnerIconYOffset>
+    <ClusterOwnerIconTint>White</ClusterOwnerIconTint>
+
+    <ClusterPowerBarArcRadiusOffset>300</ClusterPowerBarArcRadiusOffset>
+    <ClusterPowerBarArcSize>80</ClusterPowerBarArcSize>
+    <ClusterPowerBarThickness>200</ClusterPowerBarThickness>
+    <ClusterPowrBarRotation>-45</ClusterPowrBarRotation>
+    <ClusterPowerBarBorderThickness>80</ClusterPowerBarBorderThickness>
+    
+    <InfluenceCirclesMinLineThickness>8</InfluenceCirclesMinLineThickness>
+    <InfluenceCirclesMaxLineThickness>400</InfluenceCirclesMaxLineThickness>
+    <InfluenceCirclesMinFadeSize>200</InfluenceCirclesMinFadeSize>
+    <InfluenceCirclesMaxFadeSize>600</InfluenceCirclesMaxFadeSize>
+
+    <GalaxySlipstreamWidth>100</GalaxySlipstreamWidth>
+    
+    <ColonyShipGfxPriority>10000</ColonyShipGfxPriority>
+    <MercenaryShipGfxPriority>10001</MercenaryShipGfxPriority>
+    <CommanderShipGfxPriority>10002</CommanderShipGfxPriority>
+    <TransportShipGfxPriority>10000</TransportShipGfxPriority>
+    <ConstructionShipGfxPriority>10000</ConstructionShipGfxPriority>
+    <SurveyShipGfxPriority>10000</SurveyShipGfxPriority>
+    <TradeShipGfxPriority>10000</TradeShipGfxPriority>
+    <MercShipViewRotationSpeed>15</MercShipViewRotationSpeed>
+
+    <!-- Battle Viewer -->
+
+    <!-- Attractor Data: Tiny -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2500.0</AttractorMagnitude>
+      <AttractorRange>50.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1000.0</AttractorMagnitude>
+      <AttractorRange>70.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>100.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>150.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Tiny</ShipHullSizeAttractee>
+      <AttractorMagnitude>-70000.0</AttractorMagnitude>
+      <AttractorRange>200.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Small -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1500.0</AttractorMagnitude>
+      <AttractorRange>50.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1500.0</AttractorMagnitude>
+      <AttractorRange>70.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>500.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2200.0</AttractorMagnitude>
+      <AttractorRange>550.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-3000.0</AttractorMagnitude>
+      <AttractorRange>650.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-3000.0</AttractorMagnitude>
+      <AttractorRange>650.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Small</ShipHullSizeAttractee>
+      <AttractorMagnitude>-70000.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Medium -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1000.0</AttractorMagnitude>
+      <AttractorRange>120.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>120.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2500.0</AttractorMagnitude>
+      <AttractorRange>150.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-3000.0</AttractorMagnitude>
+      <AttractorRange>500.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>500.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Medium</ShipHullSizeAttractee>
+      <AttractorMagnitude>-50000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Large -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1000.0</AttractorMagnitude>
+      <AttractorRange>200.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1000.0</AttractorMagnitude>
+      <AttractorRange>200.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-1500.0</AttractorMagnitude>
+      <AttractorRange>200.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4500.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4500.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4500.0</AttractorMagnitude>
+      <AttractorRange>350.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Large</ShipHullSizeAttractee>
+      <AttractorMagnitude>-50000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Huge -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-100.0</AttractorMagnitude>
+      <AttractorRange>220.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-100.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-300.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>500.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>700.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Huge</ShipHullSizeAttractee>
+      <AttractorMagnitude>-50000.0</AttractorMagnitude>
+      <AttractorRange>800.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Cargo -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-200.0</AttractorMagnitude>
+      <AttractorRange>50.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-400.0</AttractorMagnitude>
+      <AttractorRange>150.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2500.0</AttractorMagnitude>
+      <AttractorRange>400.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>400.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-5000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-2000.0</AttractorMagnitude>
+      <AttractorRange>700.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Cargo</ShipHullSizeAttractee>
+      <AttractorMagnitude>-50000.0</AttractorMagnitude>
+      <AttractorRange>800.0</AttractorRange>
+    </AttractorData>
+
+    <!-- Attractor Data: Starbase -->
+    <AttractorData>
+      <ShipHullSizeAttractor>Tiny</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-4000.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Small</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-3000.0</AttractorMagnitude>
+      <AttractorRange>300.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Medium</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-6000000.0</AttractorMagnitude>
+      <AttractorRange>400.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Large</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-6000000.0</AttractorMagnitude>
+      <AttractorRange>400.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Huge</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-60000000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Cargo</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-60000000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+    <AttractorData>
+      <ShipHullSizeAttractor>Starbase</ShipHullSizeAttractor>
+      <ShipHullSizeAttractee>Starbase</ShipHullSizeAttractee>
+      <AttractorMagnitude>-60000000.0</AttractorMagnitude>
+      <AttractorRange>600.0</AttractorRange>
+    </AttractorData>
+
+    <AttractorMagnitudeDefense>20000.0</AttractorMagnitudeDefense>
+
+    <TacticalBattlePlanetOffsetFactor>2.0</TacticalBattlePlanetOffsetFactor>
+    <TacticalBattleStarbaseOffsetFactor>0.3</TacticalBattleStarbaseOffsetFactor>
+    <TacticalBattleShipyardOffsetFactor>0.3</TacticalBattleShipyardOffsetFactor>
+
+    <MinVolleyStaggerTime>0.0</MinVolleyStaggerTime>
+    <MaxVolleyStaggerTime>1.0</MaxVolleyStaggerTime>
+
+    <BattleGfxMovementTimePerBattleTurn>2</BattleGfxMovementTimePerBattleTurn>
+    <BattleGfxMovementEndBattleTimeBuffer>60.0</BattleGfxMovementEndBattleTimeBuffer>
+    <BattleGfxMovementShipPathEndTimeBuffer>10.0</BattleGfxMovementShipPathEndTimeBuffer>
+
+    <BattleGfxMovementShipSimulationTimeIncrement>0.5</BattleGfxMovementShipSimulationTimeIncrement>
+
+    <BattleGfxMovementTargetRadiusBufferCargo>500.0</BattleGfxMovementTargetRadiusBufferCargo>
+    <BattleGfxMovementTargetRadiusBufferHuge>500.0</BattleGfxMovementTargetRadiusBufferHuge>
+    <BattleGfxMovementTargetRadiusBufferLarge>400.0</BattleGfxMovementTargetRadiusBufferLarge>
+    <BattleGfxMovementTargetRadiusBufferMedium>120.0</BattleGfxMovementTargetRadiusBufferMedium>
+    <BattleGfxMovementTargetRadiusBufferSmall>80.0</BattleGfxMovementTargetRadiusBufferSmall>
+    <BattleGfxMovementTargetRadiusBufferTiny>50.0</BattleGfxMovementTargetRadiusBufferTiny>
+
+    <BattleGfxMovementRotationSpeedCargo>8.0</BattleGfxMovementRotationSpeedCargo>
+    <BattleGfxMovementRotationSpeedHuge>8.0</BattleGfxMovementRotationSpeedHuge>
+    <BattleGfxMovementRotationSpeedLarge>9.0</BattleGfxMovementRotationSpeedLarge>
+    <BattleGfxMovementRotationSpeedMedium>40.0</BattleGfxMovementRotationSpeedMedium>
+    <BattleGfxMovementRotationSpeedSmall>40.0</BattleGfxMovementRotationSpeedSmall>
+    <BattleGfxMovementRotationSpeedTiny>120.0</BattleGfxMovementRotationSpeedTiny>
+
+    <BattleGfxMovementTimeUntilReadyToTurnCargo>3.0</BattleGfxMovementTimeUntilReadyToTurnCargo>
+    <BattleGfxMovementTimeUntilReadyToTurnHuge>3.0</BattleGfxMovementTimeUntilReadyToTurnHuge>
+    <BattleGfxMovementTimeUntilReadyToTurnLarge>3.0</BattleGfxMovementTimeUntilReadyToTurnLarge>
+    <BattleGfxMovementTimeUntilReadyToTurnMedium>3.0</BattleGfxMovementTimeUntilReadyToTurnMedium>
+    <BattleGfxMovementTimeUntilReadyToTurnSmall>2.5</BattleGfxMovementTimeUntilReadyToTurnSmall>
+    <BattleGfxMovementTimeUntilReadyToTurnTiny>0.5</BattleGfxMovementTimeUntilReadyToTurnTiny>
+
+    <BattleGfxMovementPathSmoothingCargo>0.5</BattleGfxMovementPathSmoothingCargo>
+    <BattleGfxMovementPathSmoothingHuge>0.5</BattleGfxMovementPathSmoothingHuge>
+    <BattleGfxMovementPathSmoothingLarge>0.5</BattleGfxMovementPathSmoothingLarge>
+    <BattleGfxMovementPathSmoothingMedium>0.5</BattleGfxMovementPathSmoothingMedium>
+    <BattleGfxMovementPathSmoothingSmall>1.0</BattleGfxMovementPathSmoothingSmall>
+    <BattleGfxMovementPathSmoothingTiny>1.0</BattleGfxMovementPathSmoothingTiny>
+
+    <BattleGfxMovementTurnThresholdCargo>2</BattleGfxMovementTurnThresholdCargo>
+    <BattleGfxMovementTurnThresholdHuge>2</BattleGfxMovementTurnThresholdHuge>
+    <BattleGfxMovementTurnThresholdLarge>2</BattleGfxMovementTurnThresholdLarge>
+    <BattleGfxMovementTurnThresholdMedium>2</BattleGfxMovementTurnThresholdMedium>
+    <BattleGfxMovementTurnThresholdSmall>2</BattleGfxMovementTurnThresholdSmall>
+    <BattleGfxMovementTurnThresholdTiny>2</BattleGfxMovementTurnThresholdTiny>
+
+    <BattleGfxMovementFiringRadiusCargo>1600.0</BattleGfxMovementFiringRadiusCargo>
+    <BattleGfxMovementFiringRadiusHuge>1600.0</BattleGfxMovementFiringRadiusHuge>
+    <BattleGfxMovementFiringRadiusLarge>1300.0</BattleGfxMovementFiringRadiusLarge>
+    <BattleGfxMovementFiringRadiusMedium>900.0</BattleGfxMovementFiringRadiusMedium>
+    <BattleGfxMovementFiringRadiusSmall>40.0</BattleGfxMovementFiringRadiusSmall>
+    <BattleGfxMovementFiringRadiusTiny>30.0</BattleGfxMovementFiringRadiusTiny>
+
+    <BattleGfxMovementSpeedMultCargo>0.6</BattleGfxMovementSpeedMultCargo>
+    <BattleGfxMovementSpeedMultHuge>0.6</BattleGfxMovementSpeedMultHuge>
+    <BattleGfxMovementSpeedMultLarge>0.7</BattleGfxMovementSpeedMultLarge>
+    <BattleGfxMovementSpeedMultMedium>1.0</BattleGfxMovementSpeedMultMedium>
+    <BattleGfxMovementSpeedMultSmall>1.1</BattleGfxMovementSpeedMultSmall>
+    <BattleGfxMovementSpeedMultTiny>1.2</BattleGfxMovementSpeedMultTiny>
+
+    <BattleGfxMovementMaxDistanceBetweenShips>1250.0</BattleGfxMovementMaxDistanceBetweenShips>
+
+    <CinematicCameraMinTime>3.0</CinematicCameraMinTime>
+
+    <TopDownCameraDampingFactor>0.01</TopDownCameraDampingFactor>
+
+    <TopDownCameraBoundsBuffer>100.0</TopDownCameraBoundsBuffer>
+
+    <FreeCamDampening>0.9</FreeCamDampening>
+    <FreeCamMaxSpeed>50.0</FreeCamMaxSpeed>
+    <FreeCamAcceleration>200.0</FreeCamAcceleration>
+
+   
+    <TopDownCameraVignetteEnabled>false</TopDownCameraVignetteEnabled>
+    <FreeCameraVignetteEnabled>false</FreeCameraVignetteEnabled>
+    <FollowCameraVignetteEnabled>false</FollowCameraVignetteEnabled>
+    <OrbitalCameraVignetteEnabled>false</OrbitalCameraVignetteEnabled>
+    <TargetCameraVignetteEnabled>false</TargetCameraVignetteEnabled>
+
+	<CameraListenerZoomWeight>0.3</CameraListenerZoomWeight>
+		
+    <BattleGfxMinMissileMissTime>2.0</BattleGfxMinMissileMissTime>
+    <BattleGfxMaxMissileMissTime>5.0</BattleGfxMaxMissileMissTime>
+
+    <BattleGfxMinMissileMissFactor>1.2</BattleGfxMinMissileMissFactor>
+    <BattleGfxMaxMissileMissFactor>2.2</BattleGfxMaxMissileMissFactor>
+
+    <BattleGfxMinBeamMissOffset>1.0</BattleGfxMinBeamMissOffset>
+    <BattleGfxMaxBeamMissOffset>2.0</BattleGfxMaxBeamMissOffset>
+    <BattleGfxMaxBeamMissLength>1000.0</BattleGfxMaxBeamMissLength>
+
+    <BattleGfxMinProjectileMissTimeOffset>0.5</BattleGfxMinProjectileMissTimeOffset>
+    <BattleGfxMaxProjectileMissTimeOffset>1.0</BattleGfxMaxProjectileMissTimeOffset>
+
+    <BattleGfxMissileShipBoundsExtension>50.0</BattleGfxMissileShipBoundsExtension>
+
+    <BattleGfxTitleToShowTitle>5.0</BattleGfxTitleToShowTitle>
+    <BattleGfxTimeBeforeFirstShot>1.0</BattleGfxTimeBeforeFirstShot>
+
+    <BattleGfxWeaponFireAtCargo>1</BattleGfxWeaponFireAtCargo>
+    <BattleGfxWeaponFireAtHuge>1</BattleGfxWeaponFireAtHuge>
+    <BattleGfxWeaponFireAtLarge>1</BattleGfxWeaponFireAtLarge>
+    <BattleGfxWeaponFireAtMedium>1</BattleGfxWeaponFireAtMedium>
+    <BattleGfxWeaponFireAtSmall>1</BattleGfxWeaponFireAtSmall>
+    <BattleGfxWeaponFireAtTiny>1</BattleGfxWeaponFireAtTiny>
+
+    <BattleGfxCollisionDamping>0.8</BattleGfxCollisionDamping>
+
+    <BattleGfxDroneSentryConfig>DroneSentry</BattleGfxDroneSentryConfig>
+
+    <FormationVerticalVariance>250.0</FormationVerticalVariance>
+    <ShipVerticalVariance>50.0</ShipVerticalVariance>
+
+    <MinNumExplosionsTiny>1</MinNumExplosionsTiny>
+    <MaxNumExplosionsTiny>2</MaxNumExplosionsTiny>
+    <MinNumExplosionsSmall>2</MinNumExplosionsSmall>
+    <MaxNumExplosionsSmall>3</MaxNumExplosionsSmall>
+    <MinNumExplosionsMedium>4</MinNumExplosionsMedium>
+    <MaxNumExplosionsMedium>6</MaxNumExplosionsMedium>
+    <MinNumExplosionsLarge>18</MinNumExplosionsLarge>
+    <MaxNumExplosionsLarge>20</MaxNumExplosionsLarge>
+    <MinNumExplosionsHuge>18</MinNumExplosionsHuge>
+    <MaxNumExplosionsHuge>20</MaxNumExplosionsHuge>
+    <MinNumExplosionsCargo>6</MinNumExplosionsCargo>
+    <MaxNumExplosionsCargo>8</MaxNumExplosionsCargo>
+
+    <MainMapDeathFXTiny>TinyMainMapDestroy</MainMapDeathFXTiny>
+    <MainMapDeathFXSmall>SmallMainMapDestroy</MainMapDeathFXSmall>
+    <MainMapDeathFXMedium>MediumMainMapDestroy_Fast</MainMapDeathFXMedium>
+    <MainMapDeathFXLarge>LargeMainMapDestroy</MainMapDeathFXLarge>
+    <MainMapDeathFXHuge>HugeMainMapDestroy</MainMapDeathFXHuge>
+    <MainMapDeathFXCargo>CargoMainMapDestroy</MainMapDeathFXCargo>
+
+    <BattleViewerDeathFXTiny>TinyBattleViewerDestroy</BattleViewerDeathFXTiny>
+    <BattleViewerDeathFXSmall>SmallBattleViewerDestroy</BattleViewerDeathFXSmall>
+    <BattleViewerDeathFXMedium>MediumBattleViewerDestroy</BattleViewerDeathFXMedium>
+    <BattleViewerDeathFXLarge>LargeBattleViewerDestroy</BattleViewerDeathFXLarge>
+    <BattleViewerDeathFXHuge>HugeBattleViewerDestroy</BattleViewerDeathFXHuge>
+    <BattleViewerDeathFXCargo>CargoBattleViewerDestroy</BattleViewerDeathFXCargo>
+
+    <BattleViewerSuicideDeathFXTiny>TinyBattleViewerDestroy_Suicide</BattleViewerSuicideDeathFXTiny>
+    <BattleViewerSuicideDeathFXSmall>SmallBattleViewerDestroy_Suicide</BattleViewerSuicideDeathFXSmall>
+    <BattleViewerSuicideDeathFXMedium>MediumBattleViewerDestroy</BattleViewerSuicideDeathFXMedium>
+    <BattleViewerSuicideDeathFXLarge>LargeBattleViewerDestroy</BattleViewerSuicideDeathFXLarge>
+    <BattleViewerSuicideDeathFXHuge>HugeBattleViewerDestroy</BattleViewerSuicideDeathFXHuge>
+    <BattleViewerSuicideDeathFXCargo>CargoBattleViewerDestroy</BattleViewerSuicideDeathFXCargo>
+
+    <DiplomacyViewPlanetRotationSpeedMultiplier>2.0</DiplomacyViewPlanetRotationSpeedMultiplier>
+    <DiplomacyViewPlanetRadius>12</DiplomacyViewPlanetRadius>
+    <DiplomacyViewMinorPlanetRadiusMod>0.75</DiplomacyViewMinorPlanetRadiusMod>
+    <DiplomacyViewObjectMarkerScale>0.25</DiplomacyViewObjectMarkerScale>
+    <DiplomacyViewPlanetMarkerHoverHeight>8</DiplomacyViewPlanetMarkerHoverHeight>
+    <DiplomacyViewCameraMaxTries>1000</DiplomacyViewCameraMaxTries>
+    <DiplomacyViewCameraTryDistanceStep>10</DiplomacyViewCameraTryDistanceStep>
+    <DiplomacyViewCameraBoundBoxPadding>20</DiplomacyViewCameraBoundBoxPadding>
+    <DiplomacyViewCameraStartingDistance>20</DiplomacyViewCameraStartingDistance>
+    <DiplomacyViewCameraVerticalCenter>0.5</DiplomacyViewCameraVerticalCenter>
+    <DiplomacyViewCameraVerticalCenterTopDown>0.45</DiplomacyViewCameraVerticalCenterTopDown>
+    <DiplomacyViewCameraAngleInDegrees>40</DiplomacyViewCameraAngleInDegrees>
+    <DiplomacyViewCameraFOVInDegrees>20</DiplomacyViewCameraFOVInDegrees>
+    <DiplomacyViewRingRadiusStep>50</DiplomacyViewRingRadiusStep>
+    <DiplomacyViewLinearSpaceSeparation>40</DiplomacyViewLinearSpaceSeparation>
+    <DiplomacyViewIconRadiusMod>0.1</DiplomacyViewIconRadiusMod>
+    <DiplomacyViewIconScaleMod>1.8</DiplomacyViewIconScaleMod>
+    <DiplomacyViewDiscGap>6</DiplomacyViewDiscGap>
+    <DiplomacyViewDiscSegments>400</DiplomacyViewDiscSegments>
+    <DiplomacyReportViewPlanetHorizontalScreenAlignment>-0.6</DiplomacyReportViewPlanetHorizontalScreenAlignment>
+    <DiplomacyReportViewCameraDistance>40</DiplomacyReportViewCameraDistance>
+    <DiplomacyViewRingThickness>0.6</DiplomacyViewRingThickness>
+    <DiplomacyViewLineThickness>0.6</DiplomacyViewLineThickness>
+    <DiplomacyViewLineEndcapSize>2.7</DiplomacyViewLineEndcapSize>
+    <DiplomacyViewTerminalRingRadius>4</DiplomacyViewTerminalRingRadius>
+    <DiplomacyViewTerminalRingLineSeparationInDegrees>40</DiplomacyViewTerminalRingLineSeparationInDegrees>
+    <DiplomacyViewPlanetMarkerSelectedAlpha>2.0</DiplomacyViewPlanetMarkerSelectedAlpha>
+    <DiplomacyViewPlanetMarkerDeselecAlpha>1.0</DiplomacyViewPlanetMarkerDeselecAlpha>
+    <DiplomacyViewCameraMovementDuration>0.8</DiplomacyViewCameraMovementDuration>
+    <DiplomacyViewLightPositionRadius>1000</DiplomacyViewLightPositionRadius>
+    <DiplomacyViewRingIntensity>4.0</DiplomacyViewRingIntensity>
+    <DiplomacyViewLineIntensity>1.0</DiplomacyViewLineIntensity>
+    <DiplomacyViewLeaderAlpha>0.9</DiplomacyViewLeaderAlpha>
+    <DiplomacyViewFactionNameHeight>20</DiplomacyViewFactionNameHeight>
+    <DiplomacyViewLeaderWidth>20.0</DiplomacyViewLeaderWidth>
+    <DiplomacyViewLeaderHeight>17.0</DiplomacyViewLeaderHeight>
+    <DiplomacyViewNameBoxHeight>2.0</DiplomacyViewNameBoxHeight>
+    <DiplomacyViewBufferBorderSize>36.0</DiplomacyViewBufferBorderSize>
+    <DiplomacyViewLogoWidth>7.0</DiplomacyViewLogoWidth>
+    <DiplomacyViewLogoHeight>7.0</DiplomacyViewLogoHeight>
+
+    <EngineTrailMaxNumControlPoints>100</EngineTrailMaxNumControlPoints>
+    <EngineTrailEmitDistanceInterval>1</EngineTrailEmitDistanceInterval>
+    <EngineTrailWidth>1.5</EngineTrailWidth>
+    <EngineTrailLifespan>1.0</EngineTrailLifespan>
+    <EngineTrailMaxIntensityChangePerSegment>0.15</EngineTrailMaxIntensityChangePerSegment>
+    <EngineTrailBaseIntensity>0.3</EngineTrailBaseIntensity>
+    <EngineTrailBattleLifespan>3.0</EngineTrailBattleLifespan>
+
+    <MaxNumDamageFXTiny>2</MaxNumDamageFXTiny>
+    <MaxNumDamageFXSmall>5</MaxNumDamageFXSmall>
+    <MaxNumDamageFXMedium>6</MaxNumDamageFXMedium>
+    <MaxNumDamageFXLarge>8</MaxNumDamageFXLarge>
+    <MaxNumDamageFXHuge>10</MaxNumDamageFXHuge>
+    <MaxNumDamageFXCargo>10</MaxNumDamageFXCargo>
+
+    <OrbitingShipsMinRotationSpeed>10.0</OrbitingShipsMinRotationSpeed>
+    <OrbitingShipsMaxRotationSpeed>30.0</OrbitingShipsMaxRotationSpeed>
+    <OrbitingShipsMinRotationX>-45.0</OrbitingShipsMinRotationX>
+    <OrbitingShipsMaxRotationX>45.0</OrbitingShipsMaxRotationX>
+    <OrbitingShipsMinOrbitRadiusBuffer>5.0</OrbitingShipsMinOrbitRadiusBuffer>
+    <OrbitingShipsMaxOrbitRadiusBuffer>12.0</OrbitingShipsMaxOrbitRadiusBuffer>
+    <OrbitingShipsScaleTiny>0.05</OrbitingShipsScaleTiny>
+    <OrbitingShipsScaleSmall>0.06</OrbitingShipsScaleSmall>
+    <OrbitingShipsScaleMedium>0.08</OrbitingShipsScaleMedium>
+    <OrbitingShipsScaleLarge>0.09</OrbitingShipsScaleLarge>
+    <OrbitingShipsScaleHuge>0.1</OrbitingShipsScaleHuge>
+    <OrbitingShipsScaleCargo>0.09</OrbitingShipsScaleCargo>
+    <OrbitingShipsLODDistance>500.0</OrbitingShipsLODDistance>
+
+    <OrbitLineThickness>2</OrbitLineThickness>
+    <OrbitLineFadeSize>10</OrbitLineFadeSize>
+    <OrbitLineArcSize>750</OrbitLineArcSize>
+    <OrbitLineLODMinDistance>6000</OrbitLineLODMinDistance>
+    <OrbitLineLODMaxDistance>12000</OrbitLineLODMaxDistance>
+    <OrbitLineAlphaFadeStartDist>900</OrbitLineAlphaFadeStartDist>
+    <OrbitLineAlphaFadeEndDist>1200</OrbitLineAlphaFadeEndDist>
+    <CircleLineMaxDistanceBetweenPoints>10</CircleLineMaxDistanceBetweenPoints>
+
+    <UIGfxIntensity>1.00</UIGfxIntensity>
+
+    <ShipyardProjectHullSize>Medium</ShipyardProjectHullSize>
+    <ShipyardProjectGraphic>ShippingCrate.objgfxcfg</ShipyardProjectGraphic>
+
+    <ElectionColorFillDuration>0.5</ElectionColorFillDuration>
+    <ElectionColorFillDelayMin>0.0</ElectionColorFillDelayMin>
+    <ElectionColorFillDelayMax>2.0</ElectionColorFillDelayMax>
+    <ElectionColorFillNumLoops>0</ElectionColorFillNumLoops>
+
+		<ClusterBorderThicknessA>5</ClusterBorderThicknessA>
+    <ClusterBorderThicknessB>500</ClusterBorderThicknessB>
+		<ClusterBorderColorA>ClusterBorderColorA</ClusterBorderColorA>
+    <ClusterBorderColorB>ClusterBorderColorB</ClusterBorderColorB>
+    <ClusterBorderAlphaFadeStartDist>1900000.0</ClusterBorderAlphaFadeStartDist>
+    <ClusterBorderAlphaFadeEndDist>1950000.0</ClusterBorderAlphaFadeEndDist>    
+
+    <FOWOverlayTextureOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </FOWOverlayTextureOffset>
+    <FOWOverlayTextureScale>
+      <X>1</X>
+      <Y>1</Y>
+    </FOWOverlayTextureScale>
+
+    <FOWOverlayTextureIntensity>1.0</FOWOverlayTextureIntensity>
+    <FOWOverlayLODMin>2500</FOWOverlayLODMin>
+    <FOWOverlayLODMax>46000</FOWOverlayLODMax>
+    <FOWDesaturationIntensity>1</FOWDesaturationIntensity>
+    <FOWEmptySpaceTintIntensity>1.0</FOWEmptySpaceTintIntensity>
+
+    <ClusterMapEntryVerticalPosMod>0.75</ClusterMapEntryVerticalPosMod>
+    <ClusterMapEntryVerticalShiftMod>0.15</ClusterMapEntryVerticalShiftMod>
+    <ClusterMapEntryBorderThickness>4</ClusterMapEntryBorderThickness>
+    <ClusterMapEntryBorderColor>UIDefaultHot</ClusterMapEntryBorderColor>
+    <ClusterMapEntryStretchMod>0.85</ClusterMapEntryStretchMod>
+    <ClusterMapEntryRotation>-15</ClusterMapEntryRotation>
+
+    <AreaEffectCircleLineThickness>2</AreaEffectCircleLineThickness>
+    <AreaEffectLineAlphaFadeStartDist>900</AreaEffectLineAlphaFadeStartDist>
+    <AreaEffectLineAlphaFadeEndDist>1200</AreaEffectLineAlphaFadeEndDist>
+    <AreaEffectCircleSizeAdjust>3</AreaEffectCircleSizeAdjust>
+
+    <DefaultTextHotspotColor>UIDefaultHighlight</DefaultTextHotspotColor>
+    <DefaultWarningTextColor>BrightRed</DefaultWarningTextColor>
+
+    <ShipDesignThumbnailRotationX>0.805398</ShipDesignThumbnailRotationX>
+    <ShipDesignThumbnailRotationZ>-0.905398</ShipDesignThumbnailRotationZ>
+
+    <!--Default, side angle-->
+    <ShipDesignScreenshotViews>
+      <RotationX>0.805398</RotationX>
+      <RotationY>-0.905398</RotationY>
+      <Zoom>0</Zoom>
+    </ShipDesignScreenshotViews>
+
+    <!--Side view-->
+    <ShipDesignScreenshotViews>
+      <RotationX>0.015001</RotationX>
+      <RotationY>6.275723</RotationY>
+      <Zoom>0</Zoom>
+    </ShipDesignScreenshotViews>
+
+    <!--Top Down-->
+    <ShipDesignScreenshotViews>
+      <RotationX>0.734999</RotationX>
+      <RotationY>4.675721</RotationY>
+      <Zoom>0</Zoom>
+    </ShipDesignScreenshotViews>
+    
+    <!-- Head On-->
+
+    <ShipDesignScreenshotViews>
+      <RotationX>0.106018</RotationX>
+      <RotationY>4.725718</RotationY>
+      <Zoom>0</Zoom>
+    </ShipDesignScreenshotViews>
+    
+    <FleetEntryNumShipsCapLarge>6</FleetEntryNumShipsCapLarge>
+    <FleetEntryNumShipsCapMedium>9</FleetEntryNumShipsCapMedium>
+    
+    <TradeScreenIconAlpha>0.4</TradeScreenIconAlpha>
+
+    <MainMapSiegeAttackerWeaponFXSet>
+      <EmissionFX></EmissionFX>
+      <ProjectionFX>InvasionFX</ProjectionFX>
+      <HitFX>InvasionFX_Hit</HitFX>
+      <!-- not being used yet anyways-->
+      <!-- <DeflectionFX/> -->
+      <!-- <MissFX/> -->
+    </MainMapSiegeAttackerWeaponFXSet>
+    <MainMapSiegeFX_ShotsPerVolley>3</MainMapSiegeFX_ShotsPerVolley>
+
+    <!-- Survey Ship Main-Map Effects -->
+    <MainMapSurveyWeaponFXSet>
+      <EmissionFX>SurveyEffect_Emission</EmissionFX>
+      <ProjectionFX>SurveyWeaponEffect</ProjectionFX>
+      <HitFX>SurveyEffectHit</HitFX>
+    </MainMapSurveyWeaponFXSet>
+    <MainMapSurveyFX_ShotsPerVolley>1</MainMapSurveyFX_ShotsPerVolley>
+
+    <MissileVolleyFallbackWeaponSequence>
+      <EmissionFX>MissileSparrow_Emission</EmissionFX>
+      <ProjectionFX>MissileSparrow</ProjectionFX>
+      <HitFX>MissileSparrow_Hit</HitFX>
+      <DeflectionFX>MissileSparrow_Deflection</DeflectionFX>
+    </MissileVolleyFallbackWeaponSequence>
+
+    <MapMarkerAtlasWidth>8</MapMarkerAtlasWidth>
+    <MapMarkerAtlasHeight>8</MapMarkerAtlasHeight>
+    
+  </GalCivGraphics>
+
+</GalCivGraphicsList>

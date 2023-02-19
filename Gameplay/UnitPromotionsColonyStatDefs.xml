@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UnitStatsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UnitStatsDefs.xsd">
+<!-- Created with the Crusade editor -->
+<!-- UnitPromotionsColonyStatDefs.xml -->
+ 
+  <UnitColonyStats>
+    <UnitType>Minister</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Mobster</UnitType>
+    <Stat>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stat>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>SupremeGeneral</UnitType>
+    <Stat>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <LevelEffectStats>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.01</Value>
+    </LevelEffectStats>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Admiral</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Navigator</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Invader</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Privateer</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Exterminator</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Martyr</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Infiltrator</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Ambassador</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Ambassador</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>DiplomatRecall</UnitType>
+  </UnitColonyStats>
+
+  <UnitColonyStats>
+    <UnitType>Saboteur</UnitType>
+  </UnitColonyStats>
+
+</UnitStatsList>

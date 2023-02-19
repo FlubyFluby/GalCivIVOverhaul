@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ModifierTargetTypeDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ModifierTargetTypeDisplayDefs.xsd">
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Faction</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Faction</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Planet</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Planet</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Colony</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Colony</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Starbase</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Starbase</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Shipyard</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Shipyard</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Ship</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Ship</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Fleet</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Fleet</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>AllShipsInFleet</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_AllShipsInFleet</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Improvement</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Improvement</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Tile</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Tile</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>StrategicResource</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_StrategicResource</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>StarbaseModule</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_StarbaseModule</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>TradeRoute</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_TradeRoute</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>TradeRoutePath</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_TradeRoutePath</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Asteroid</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Asteroid</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Unit</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Unit</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Hyperlane</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Hyperlane</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Hypergate</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Hypergate</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>DeadPlanet</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_DeadPlanet</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+	
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>SecondaryPlayer</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_SecondaryPlayer</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+	
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Policy</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Policy</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>EnemyFleet</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_EnemyFleet</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>EmptyGalacticTile</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_EmptyGalacticTile</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+  
+	<ModifierTargetTypeDisplayDef>
+		<UniqueID>Thinktank</UniqueID>
+		<DisplayName>MODIFIERTARGETNAME_Thinktank</DisplayName>
+	</ModifierTargetTypeDisplayDef>
+	
+
+</ModifierTargetTypeDisplayDefs>

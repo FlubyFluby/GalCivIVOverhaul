@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
+
+<!-- Homeworlds -->
+	<Planet>
+		<InternalName>PlanetEarth</InternalName>
+		<DisplayName>EarthName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>		
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<ArtDefine>EarthArt</ArtDefine>
+		<LayoutAtlas>EARTH_ATLAS</LayoutAtlas>
+		<LayoutAtlasIndex>0</LayoutAtlasIndex>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetDrengi</InternalName>
+		<DisplayName>DrengiName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>29</PlanetClass>
+		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>5</Minerals>
+			<Technology>3</Technology>
+			<Wealth>3</Wealth>
+			<Fertility>10</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetAltaria</InternalName>
+		<DisplayName>AltariaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>30</PlanetClass>
+		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>4</Technology>
+			<Wealth>3</Wealth>
+			<Fertility>13</Fertility>
+			<PlanetInfluence>12</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetIridia</InternalName>
+		<DisplayName>IridiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>29</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>8</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+  
+	<Planet>
+		<InternalName>PlanetIconia</InternalName>
+		<DisplayName>IconiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>25</PlanetClass>
+		<PlanetTrait>BarrenWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>5</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+    <Planet>
+		<InternalName>PlanetKryseth</InternalName>
+		<DisplayName>KrysethName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>26</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>4</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>10</Fertility>
+			<PlanetInfluence>16</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>PlanetNewIconia</InternalName>
+		<DisplayName>NewIconiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>25</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+		</Planet>
+
+	<Planet>
+		<InternalName>Planet_Arcea</InternalName>
+		<DisplayName>Planet_Arcea_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>6</Minerals>
+			<Technology>2</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>16</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>    
+		<InternalName>Planet_Abarkooh</InternalName>
+		<DisplayName>Abarkooh_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>30</PlanetClass>
+		<PlanetTrait>ArborealWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Caridea</InternalName>
+		<DisplayName>Planet_Caridea_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Toria</InternalName>
+		<DisplayName>Planet_Toria_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>25</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>18</Fertility>
+			<PlanetInfluence>12</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Brachyura</InternalName>
+		<DisplayName>Planet_Brachyura_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>29</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>    
+		<InternalName>PlanetOnyx</InternalName>
+		<DisplayName>Onyx_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>26</PlanetClass>
+		<PlanetTrait>MountainousWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+
+	<Planet>
+		<InternalName>PlanetSlyne</InternalName>
+		<DisplayName>Slyne_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>26</PlanetClass>
+		<PlanetTrait>MountainousWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>    
+		<InternalName>Planet_Arnor</InternalName>
+		<DisplayName>Planet_Arnor_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>32</PlanetClass>
+		<PlanetTrait>BombardedWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>10</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+    <Planet>
+		<InternalName>PlanetFen</InternalName>
+		<DisplayName>PlanetFenName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>24</PlanetClass>
+		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>5</Minerals>
+			<Technology>2</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>18</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Dratha</InternalName>
+		<DisplayName>Planet_Dratha_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>
+		<PlanetTrait>JungleWorld</PlanetTrait>
+		<ArtDefine>DrathWorldArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>3</Technology>
+			<Wealth>5</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>    
+		<InternalName>PlanetRefuge</InternalName>
+		<DisplayName>Refuge_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>5</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>12</Fertility>
+			<PlanetInfluence>9</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>    
+		<InternalName>PlanetSavvot</InternalName>
+		<DisplayName>Savvot_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>25</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>3</Technology>
+			<Wealth>9</Wealth>
+			<Fertility>9</Fertility>
+			<PlanetInfluence>4</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+<!-- End Homeworlds -->
+
+	<Planet>
+		<InternalName>PlanetNeptune</InternalName>
+		<DisplayName>PLANET_NEPTUNE_NAME</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>NeptuneArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetUranus</InternalName>
+		<DisplayName>PLANET_URANUS_NAME</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>UranusArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetVenus</InternalName>
+		<DisplayName>PLANET_VENUS_NAME</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>VenusArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetMercury</InternalName>
+		<DisplayName>MERCURY_NAME</DisplayName>
+		<PlanetType>Dead</PlanetType>		
+		<PlanetClass>0</PlanetClass>		
+		<ArtDefine>MercuryArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetMars</InternalName>
+		<DisplayName>MarsName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<ColonizationEventOverride>Event_ColonizeMars</ColonizationEventOverride>
+		<ArtDefine>MarsArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>0</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>PlanetJupiter</InternalName>
+		<DisplayName>JupiterName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>JupiterArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+  <Planet>
+		<InternalName>PlanetSaturn</InternalName>
+		<DisplayName>SaturnName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetArtemis</InternalName>
+		<DisplayName>ArtemisName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>2</PlanetClass>
+		<PlanetTrait>LowGravityWorld</PlanetTrait>
+		<ColonizationEventOverride>Event_ColonizeArtemis</ColonizationEventOverride>
+		<ArtDefine>ArtemisArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+  <Planet>
+    <InternalName>PlanetKona</InternalName>
+    <DisplayName>Kona_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>4</PlanetClass>
+	<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>0</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>2</Fertility>
+<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetRathor</InternalName>
+    <DisplayName>Rathor_Name</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetGrathis</InternalName>
+    <DisplayName>Grathis_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>2</PlanetClass>
+    <PlanetTrait>BombardedWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+	<Planet>
+		<InternalName>PlanetMawhar</InternalName>
+		<DisplayName>Mawhar_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>2</PlanetClass>
+		<PlanetTrait>BombardedWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+  
+  <!--Altaris System-->
+  <Planet>
+    <InternalName>PlanetWisp</InternalName>
+    <DisplayName>Wisp_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>4</PlanetClass>
+	<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>4</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetEpas</InternalName>
+    <DisplayName>Epas_Name</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetImoth</InternalName>
+    <DisplayName>Imoth_Name</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetPo</InternalName>
+    <DisplayName>Po_Name</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <!--Icos System-->
+	<Planet>
+		<InternalName>PlanetIconia2</InternalName>
+		<DisplayName>Iconia2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetIconia3</InternalName>
+		<DisplayName>Iconia3Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>BarrenWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>2</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetIconia4</InternalName>
+		<DisplayName>Iconia4Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>3</PlanetClass>
+		<PlanetTrait>BarrenWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+		<Planet>
+			<InternalName>PlanetNewIconia2</InternalName>
+			<DisplayName>NewIconiaName2</DisplayName>
+			<PlanetType>Habitable</PlanetType>
+			<PlanetClass>3</PlanetClass>
+			<PlanetTrait>DesertWorld</PlanetTrait>
+			<PlanetClassDistribution>
+				<Minerals>3</Minerals>
+				<Technology>1</Technology>
+				<Wealth>1</Wealth>
+				<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+			</PlanetClassDistribution>
+	</Planet>
+	
+		<Planet>
+		<InternalName>PlanetNewIconia3</InternalName>
+		<DisplayName>NewIconiaName3</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+			</PlanetClassDistribution>
+	</Planet>
+			
+	<Planet>
+		<InternalName>PlanetNewIconia4</InternalName>
+		<DisplayName>NewIconiaName4</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<!--Thalis System-->
+	
+	<Planet>
+		<InternalName>PlanetThala</InternalName>
+		<DisplayName>ThalaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>19</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>5</Minerals>
+			<Technology>5</Technology>
+			<Wealth>5</Wealth>
+			<Fertility>8</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>PlanetRemorse</InternalName>
+		<DisplayName>RemorseName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+		<Planet>
+		<InternalName>PlanetSarrow</InternalName>
+		<DisplayName>SarrowName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+			
+	<Planet>
+		<InternalName>PlanetRegret</InternalName>
+		<DisplayName>RegretName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+  <!--Iridii System-->
+  <Planet>
+    <InternalName>PlanetVallus</InternalName>
+    <DisplayName>Vallus_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>3</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>2</Technology>
+			<Wealth>6</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetGold</InternalName>
+    <DisplayName>Gold_Name</DisplayName>
+    <PlanetType>GasGiant</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>PlanetSilver</InternalName>
+    <DisplayName>Silver_Name</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+  </Planet>
+  
+	<Planet>
+		<InternalName>PlanetKrysethAlpha</InternalName>
+		<DisplayName>PlanetKrysethAlphaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>2</PlanetClass>
+		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>3</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetKrysethBeta</InternalName>
+		<DisplayName>PlanetKrysethBetaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>2</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>1</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetSkoll</InternalName>
+		<DisplayName>PlanetSkollName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>1</PlanetClass>
+		<PlanetTrait>MountainousWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>1</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetHati</InternalName>
+		<DisplayName>PlanetHatiName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>JungleWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>8</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetErine</InternalName>
+		<DisplayName>PlanetErineName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>0</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>2</Fertility>
+			<PlanetInfluence>3</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetEidden</InternalName>
+		<DisplayName>PlanetEiddenName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Arb</InternalName>
+		<DisplayName>PlanetArbName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>14</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>4</Technology>
+			<Wealth>3</Wealth>
+			<Fertility>12</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+		
+	<Planet>
+		<InternalName>PlanetPebble</InternalName>
+		<DisplayName>PebbleName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<!-- Custom faction starter planets -->
+	<Planet>
+		<InternalName>StarterPlanet_Serene</InternalName>
+		<DisplayName>StarterPlanetSereneName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>26</PlanetClass>
+		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>4</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>18</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetDust</InternalName>
+		<DisplayName>PlanetDustName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>2</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>1</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>Planet_Hammer</InternalName>
+		<DisplayName>Planet_Hammer_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>12</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>1</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Anvil</InternalName>
+		<DisplayName>Planet_Anvil_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Spark</InternalName>
+		<DisplayName>Planet_Spark_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Emery</InternalName>
+		<DisplayName>Planet_Emery_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>1</Technology>
+			<Wealth>2</Wealth>
+			<Fertility>6</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+   
+	<Planet>
+		<InternalName>Planet_Pearl</InternalName>
+		<DisplayName>Planet_Pearl_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>2</Technology>
+			<Wealth>3</Wealth>
+			<Fertility>2</Fertility>
+			<PlanetInfluence>2</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+ 
+	<Planet>
+		<InternalName>Planet_Deep</InternalName>
+		<DisplayName>Planet_Deep_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>2</Technology>
+			<Wealth>2</Wealth>
+			<Fertility>8</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Addy</InternalName>
+		<DisplayName>Planet_Addy_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>6</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Shoal</InternalName>
+		<DisplayName>Planet_Shoal_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Reef</InternalName>
+		<DisplayName>Planet_Reef_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+   
+	<Planet>
+		<InternalName>Planet_Scarab</InternalName>
+		<DisplayName>Planet_Scarab_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>2</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+ 
+	<Planet>
+		<InternalName>Planet_Nekhen</InternalName>
+		<DisplayName>Planet_Nekhen_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>AquaticWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>6</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>4</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+  
+	<Planet>
+		<InternalName>Planet_AlphaCentauri</InternalName>
+		<DisplayName>Planet_AlphaCentauri_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>6</Minerals>
+			<Technology>0</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>1</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+  
+	<Planet>
+		<InternalName>Planet_Proxima</InternalName>
+		<DisplayName>Planet_Proxima_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>0</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>8</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+  
+	<Planet>
+		<InternalName>Planet_Haven</InternalName>
+		<DisplayName>Planet_Haven_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>31</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>5</Minerals>
+			<Technology>4</Technology>
+			<Wealth>4</Wealth>
+			<Fertility>16</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Aven</InternalName>
+		<DisplayName>Planet_Aven_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>28</PlanetClass>
+		<PlanetTrait>ArborealWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>4</Minerals>
+			<Technology>4</Technology>
+			<Wealth>5</Wealth>
+			<Fertility>16</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetSardonyx</InternalName>
+		<DisplayName>Sardonyx_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>	
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetStone</InternalName>
+		<DisplayName>Stone_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>MountainousWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>2</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetIta</InternalName>
+		<DisplayName>Ita_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>FrozenWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>3</Minerals>
+			<Technology>2</Technology>
+			<Wealth>2</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetRaz</InternalName>
+		<DisplayName>Raz_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetShade</InternalName>
+		<DisplayName>Shade_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetRoot</InternalName>
+		<DisplayName>Root_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetShield</InternalName>
+		<DisplayName>Shield_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>MountainousWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>0</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetCole</InternalName>
+		<DisplayName>Cole_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>1</Minerals>
+			<Technology>0</Technology>
+			<Wealth>2</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetTwilight</InternalName>
+		<DisplayName>Twilight_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>1</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Ranagoh3</InternalName>
+		<DisplayName>Planet_Ranagoh3_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Ranagoh4</InternalName>
+		<DisplayName>Planet_Ranagoh4_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+	<Planet>
+		<InternalName>Planet_Ranagoh5</InternalName>
+		<DisplayName>Planet_Ranagoh5_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+<!-- Drath-->
+	<Planet>
+		<InternalName>Planet_Dratha2</InternalName>
+		<DisplayName>Planet_Dratha2_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>Planet_Dratha3</InternalName>
+		<DisplayName>Planet_Dratha3_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>2</PlanetClass>
+    <PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>2</Minerals>
+			<Technology>1</Technology>
+			<Wealth>1</Wealth>
+			<Fertility>1</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>Planet_Dratha4</InternalName>
+		<DisplayName>Planet_Dratha4_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>2</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+			<PlanetInfluence>3</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+	
+	<Planet>
+		<InternalName>Planet_Dratha5</InternalName>
+		<DisplayName>Planet_Dratha5_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetClassDistribution>
+			<Minerals>0</Minerals>
+			<Technology>0</Technology>
+			<Wealth>0</Wealth>
+			<Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+		</PlanetClassDistribution>
+	</Planet>
+
+  <Planet>
+    <InternalName>Planet_Durantium</InternalName>
+    <DisplayName>DURANTIUM_RESOURCE_LABEL</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+    <StrategicResource>DurantiumResource</StrategicResource>
+    <PlanetClassDistribution>
+      <Minerals>0</Minerals>
+      <Technology>0</Technology>
+      <Wealth>0</Wealth>
+      <Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+    </PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>Planet_Thulium</InternalName>
+    <DisplayName>THULIUM_RESOURCE_LABEL</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+    <StrategicResource>ThuliumResource</StrategicResource>
+    <PlanetClassDistribution>
+      <Minerals>0</Minerals>
+      <Technology>0</Technology>
+      <Wealth>0</Wealth>
+      <Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+    </PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>Planet_Promethion</InternalName>
+    <DisplayName>PROMETHION_RESOURCE_LABEL</DisplayName>
+    <PlanetType>Dead</PlanetType>
+    <PlanetClass>0</PlanetClass>
+    <StrategicResource>PromethionResource</StrategicResource>
+    <PlanetClassDistribution>
+      <Minerals>0</Minerals>
+      <Technology>0</Technology>
+      <Wealth>0</Wealth>
+      <Fertility>0</Fertility>
+<PlanetInfluence>0</PlanetInfluence>
+    </PlanetClassDistribution>
+  </Planet>
+
+  <!-- Quest Specific Planets -->
+  <Planet>
+    <InternalName>QuestPlanetDef_ShardOfTheMithrilar</InternalName>
+    <DisplayName>Planet_ShardOfTheMithrilar_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>24</PlanetClass>
+    <PlanetTrait>ShardOfTheMithrilar</PlanetTrait>
+    <ArtDefine>ThuliumMoon</ArtDefine>
+    <PlanetClassDistribution>
+      <Minerals>9</Minerals>
+      <Technology>9</Technology>
+      <Wealth>9</Wealth>
+      <Fertility>9</Fertility>
+      <PlanetInfluence>9</PlanetInfluence>
+    </PlanetClassDistribution>
+  </Planet>
+
+  <Planet>
+    <InternalName>QuestPlanetDef_MakerWorld</InternalName>
+    <DisplayName>Planet_MakerWorld_Name</DisplayName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetClass>32</PlanetClass>
+    <PlanetTrait>MakerWorld</PlanetTrait>
+    <ArtDefine>ThuliumMoon</ArtDefine>
+    <PlanetClassDistribution>
+      <Minerals>3</Minerals>
+      <Technology>5</Technology>
+      <Wealth>0</Wealth>
+      <Fertility>0</Fertility>
+      <PlanetInfluence>9</PlanetInfluence>
+    </PlanetClassDistribution>
+  </Planet>
+
+</PlanetList>

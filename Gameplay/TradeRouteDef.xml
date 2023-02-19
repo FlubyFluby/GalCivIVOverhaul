@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TradeRouteList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TradeRouteDef.xsd">
+
+  <TradeRouteDef>
+    <InternalName>BasicTradeRoute</InternalName>
+    <DisplayName>BASIC_TRADEROUTE</DisplayName>
+    <ModTargetType>Basic</ModTargetType>
+    <PlanetIncomePercentage>0.03</PlanetIncomePercentage>
+    <PerTileBonus>0.020</PerTileBonus>
+    <PerTileBonus_Min>1</PerTileBonus_Min>
+    <PerTileBonus_Max>250</PerTileBonus_Max>
+    <PerTurnBonus>0.1</PerTurnBonus>
+    <PerTurnBonus_Min>1</PerTurnBonus_Min>
+    <PerTurnBonus_Max>5</PerTurnBonus_Max>    
+    <Bonus>
+      <EffectType>Approval</EffectType>
+        <Target>
+          <TargetType>Colony</TargetType>
+          <TargetQualifier>EitherPartnerIsEntrepreneur</TargetQualifier>
+        </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Bonus>
+    
+  </TradeRouteDef>
+
+  <TradeRouteDef>
+    <InternalName>LuxuryTradeRoute</InternalName>
+    <DisplayName>LUXURY_TRADEROUTE</DisplayName>
+    <ModTargetType>Luxury</ModTargetType>
+    <PlanetIncomePercentage>0.10</PlanetIncomePercentage>
+    <PerTileBonus>0.05</PerTileBonus>
+    <PerTileBonus_Min>1</PerTileBonus_Min>
+    <PerTileBonus_Max>250</PerTileBonus_Max>
+    <PerTurnBonus>0.1</PerTurnBonus>
+    <PerTurnBonus_Min>1</PerTurnBonus_Min>
+    <PerTurnBonus_Max>250</PerTurnBonus_Max>
+    <Bonus>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Bonus>
+    <Bonus>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Bonus>
+    <Bonus>
+      <EffectType>Approval</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <TargetQualifier>EitherPartnerIsEntrepreneur</TargetQualifier>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Bonus>
+
+  </TradeRouteDef>
+
+  <TradeRouteDef>
+    <InternalName>SlaveTradeRoute</InternalName>
+    <DisplayName>SLAVE_TRADEROUTE</DisplayName>
+    <ModTargetType>Slave</ModTargetType>
+    <PlanetIncomePercentage>0.05</PlanetIncomePercentage>
+    <PerTileBonus>0.010</PerTileBonus>
+    <PerTileBonus_Min>1</PerTileBonus_Min>
+    <PerTileBonus_Max>250</PerTileBonus_Max>
+    <PerTurnBonus>0.1</PerTurnBonus>
+    <PerTurnBonus_Min>1</PerTurnBonus_Min>
+    <PerTurnBonus_Max>250</PerTurnBonus_Max>
+    <Bonus>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.02</Value>
+    </Bonus>
+    <Bonus>
+      <EffectType>Approval</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <TargetQualifier>EitherPartnerIsEntrepreneur</TargetQualifier>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.25</Value>
+    </Bonus>
+
+  </TradeRouteDef>
+
+  
+
+</TradeRouteList>

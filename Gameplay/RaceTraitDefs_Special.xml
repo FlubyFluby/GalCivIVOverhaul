@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RaceTraitList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
+ 
+  <RaceTrait>
+    <InternalName>Trait_UnlimitedRange</InternalName>
+    <DisplayName>Trait_UnlimitedRange_Name</DisplayName>
+    <DisplayNameShort>Trait_UnlimitedRange_Name</DisplayNameShort>
+    <Description>Trait_UnlimitedRange_Dec</Description>
+    <Mod>
+      <EffectType>UnlimitedRange</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_PirateGold</InternalName>
+    <DisplayName>Trait_PirateGold_Name</DisplayName>
+    <DisplayNameShort>Trait_PirateGold_Name</DisplayNameShort>
+    <Description>Trait_PirateGold_Dec</Description>
+    <Mod>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_PirateSmarts</InternalName>
+    <DisplayName>Trait_PirateSmarts_Name</DisplayName>
+    <DisplayNameShort>Trait_PirateSmarts_Name</DisplayNameShort>
+    <Description>Trait_PirateSmarts_Dec</Description>
+    <Mod>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_Pirates</InternalName>
+    <DisplayName>Trait_Pirates_Name</DisplayName>
+    <DisplayNameShort>Trait_Pirates_Name</DisplayNameShort>
+    <Description>Trait_Pirates_Dec</Description>
+    <Mod>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Mod>
+
+    <Mod>
+      <EffectType>HitPointsCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.5</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_Sentinels</InternalName>
+    <DisplayName>Trait_Sentinels_Name</DisplayName>
+    <DisplayNameShort>Trait_Sentinels_Name</DisplayNameShort>
+    <Description>Trait_Sentinels_Dec</Description>
+    <Mod>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_SpaceMonsters</InternalName>
+    <DisplayName>Trait_SpaceMonsters_Name</DisplayName>
+    <DisplayNameShort>Trait_SpaceMonsters_Name</DisplayNameShort>
+    <Description>Trait_SpaceMonsters_Dec</Description>
+    <Mod>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_DreadLords</InternalName>
+    <DisplayName>Trait_DreadLords_Name</DisplayName>
+    <DisplayNameShort>Trait_DreadLords_Name</DisplayNameShort>
+    <Description>Trait_DreadLords_Dec</Description>
+    <Mod>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Trait_PirateMoves</InternalName>
+    <DisplayName>Trait_PirateMoves_Name</DisplayName>
+    <DisplayNameShort>Trait_PirateMoves_Name</DisplayNameShort>
+    <Description>Trait_PirateMoves_Dec</Description>
+    <Mod>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.5</Value>
+    </Mod>
+  </RaceTrait>
+
+</RaceTraitList>

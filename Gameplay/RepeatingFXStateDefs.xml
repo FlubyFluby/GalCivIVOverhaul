@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RepeatingFXStateList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RepeatingFXStateDef.xsd">
+ 
+  <RepeatingFXStateDef>
+    <InternalName>MainMapSurveying</InternalName>
+    <InitFXConfigDef>MainMapSurveyingInitFX</InitFXConfigDef>
+    <RepeatingFXConfigDef>MainMapSurveyingFX</RepeatingFXConfigDef>
+    <Interval>0.4</Interval>
+  </RepeatingFXStateDef>
+  
+  <RepeatingFXStateDef>
+    <InternalName>MainMapSiege</InternalName>
+    <InitFXConfigDef>MainMapSiegeInitFX</InitFXConfigDef>
+    <RepeatingFXConfigDef>MainMapSiegeFX</RepeatingFXConfigDef>
+    <Interval>2.5</Interval>
+  </RepeatingFXStateDef>
+  
+</RepeatingFXStateList>

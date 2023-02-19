@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipComponentArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipComponentArtDefs.xsd">
+  
+   <ShipComponentArt>
+    <InternalName>RelicsModel_01</InternalName>
+    <Icon>gfx/NoImage.png</Icon>
+    <ObjectGfxConfig>RelicsModel_01.objgfxcfg</ObjectGfxConfig>    
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>RelicsModel_02</InternalName>
+    <Icon>gfx/NoImage.png</Icon>
+    <ObjectGfxConfig>RelicsModel_02.objgfxcfg</ObjectGfxConfig>     
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>RelicsModel_03</InternalName>
+    <Icon>gfx/NoImage.png</Icon>
+    <ObjectGfxConfig>RelicsModel_03.objgfxcfg</ObjectGfxConfig>    
+  </ShipComponentArt>
+
+  <ShipComponentArt>
+    <InternalName>RelicsModel_04</InternalName>
+    <Icon>gfx/NoImage.png</Icon>
+    <ObjectGfxConfig>RelicsModel_04.objgfxcfg</ObjectGfxConfig>    
+  </ShipComponentArt>
+  
+</ShipComponentArtList>

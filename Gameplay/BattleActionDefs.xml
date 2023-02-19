@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<BattleActionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BattleActionDefs.xsd">
+
+  <BattleAction>
+    <InternalName>SingleMissileVolley</InternalName>
+    <BattleActionType>SingleAttackerVolley</BattleActionType>
+
+    <DamageType>Missile</DamageType>
+    <FXConfig>MainMapFX_MissileVolley</FXConfig>
+    <FXConfigLastElementName>MainMapFX_MissileVolley_WaitForExplosions</FXConfigLastElementName>
+    <FallbackWeaponSequenceGraphicsDefTag>MissileVolleyFallbackWeaponSequence</FallbackWeaponSequenceGraphicsDefTag>
+
+  </BattleAction>
+
+  <BattleAction>
+    <InternalName>Action_AntimatterBomb</InternalName>
+    <BattleActionType>SingleAttackerVolley</BattleActionType>
+
+    <DamageType>Missile</DamageType>
+    <FXConfig>MainMapFX_MissileVolley</FXConfig>
+    <FXConfigLastElementName>MainMapFX_MissileVolley_WaitForExplosions</FXConfigLastElementName>
+    <FallbackWeaponSequenceGraphicsDefTag>MissileVolleyFallbackWeaponSequence</FallbackWeaponSequenceGraphicsDefTag>
+
+  </BattleAction>
+
+</BattleActionList>

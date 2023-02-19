@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissileSparrow</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissileSparrow_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>500.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissileSparrow_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissileSparrowParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapFullBattleUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+
+				<!--<FXElement>
+    <InternalName>MissileSparrow_EngineOffset</InternalName>
+    <Type>Transform</Type>
+    <KeyValueVec3>
+      <Key>MinTranslate</Key>
+      <Value>
+        <X>0.0</X>
+        <Y>0.0</Y>
+        <Z>-120.0</Z>
+      </Value>
+    </KeyValueVec3>
+    <KeyValueVec3>
+      <Key>MaxTranslate</Key>
+      <Value>
+        <X>0.0</X>
+        <Y>0.0</Y>
+        <Z>-120.0</Z>
+      </Value>
+    </KeyValueVec3>
+  </FXElement>-->
+
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissileSparrow_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_01.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapFullBattleUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissileSparrow_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissileSparrow_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissileStinger</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissileStinger_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>550.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissileStinger_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissileStingerParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+				<Key>MainMapFullBattleUniformScale</Key>
+					<Value>0.5</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissileStinger_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_02.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapFullBattleUniformScale</Key>
+					<Value>0.5</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissileStinger_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissileStinger_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissileHarpoon</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissileHarpoon_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissileHarpoon_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissileHarpoonParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissileHarpoon_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_03.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissileHarpoon_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissileHarpoon_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissilePhotonicWarhead_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>850.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissilePhotonicWarhead_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissilePhotonicWarheadParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissilePhotonicWarhead_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_04.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissilePhotonicWarhead_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissilePhotonicWarhead_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissilePhotonTorpedo_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>800.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissilePhotonTorpedo_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissilePhotonTorpedoParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissilePhotonTorpedo_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_05.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissilePhotonTorpedo_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissilePhotonTorpedo_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>MissileNightmareTorpedo_Missile</InternalName>
+			<Type>Missile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileSpeed</Key>
+				<Value>950.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMissileCurviness</Key>
+				<Value>35.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileSpeed</Key>
+				<Value>100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMissileCurviness</Key>
+				<Value>5.0</Value>
+			</KeyValueDecimal>
+
+			<!-- Engine Particle -->
+			<FXElement>
+				<InternalName>MissileNightmareTorpedo_EngineParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>MissileNightmareTorpedoParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>1</Value>
+				</KeyValueBool>
+			</FXElement>
+
+			<!-- Missile Geometry -->
+			<FXElement>
+				<InternalName>MissileNightmareTorpedo_Model</InternalName>
+				<Type>ObjectGfxConfig</Type>
+				<FadeIn>0.1</FadeIn>
+				<FadeOut>0.1</FadeOut>
+
+				<KeyValueString>
+					<Key>ObjectGfxConfigName</Key>
+					<Value>MissileModel_06.objgfxcfg</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID1</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>MaterialID2</Key>
+					<Value>Ship_Material_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID1</Key>
+					<Value>Default_Surface_01</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>SubMaterialID2</Key>
+					<Value>Default_Surface_04</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>AppearanceID</Key>
+					<Value>Missile_Appearance</Value>
+				</KeyValueString>
+
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>2</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>MissileNightmareTorpedo_Spin</InternalName>
+					<Type>Transform</Type>
+					<KeyValueVec3>
+						<Key>MinRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxRotateSpeed</Key>
+						<Value>
+							<X>0.0</X>
+							<Y>0.0</Y>
+							<Z>180.0</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+        <FXElement>
+          <InternalName>MissileNightmareTorpedo_Trail</InternalName>
+          <Type>Trail</Type>
+          <KeyValueDecimal>
+            <Key>TrailIntensity</Key>
+            <Value>1.0</Value>
+          </KeyValueDecimal>
+          <KeyValueVec3>
+            <Key>TrailColor</Key>
+            <Value>
+              <X>178</X>
+              <Y>178</Y>
+              <Z>178</Z>
+            </Value>
+          </KeyValueVec3>
+        </FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissileSparrow_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_SPARROW_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissileSparrow_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissileSparrow_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissileStinger_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_STINGER_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissileStinger_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissileStinger_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissileHarpoon_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_HARPOON_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissileHarpoon_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissileHarpoon_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_PHOTONIC_TORPEDOES_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissilePhotonicWarhead_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissilePhotonicWarhead_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_PHOTON_TORPEDOES_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissilePhotonTorpedo_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissilePhotonTorpedo_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.08</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_NIGHTMARE_TORPEDOES_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_Emission</InternalName>
+		<Type>Composite</Type>
+		<!--<FXElementRef>MissileNightmareTorpedo_EmissionParticle</FXElementRef>-->
+		<FXElementRef>MissileNightmareTorpedo_EmissionFoley</FXElementRef>
+	</FXElement>
+
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissileSparrow_Deflection</InternalName>
+		<Type>Particle</Type>
+		<Wait>-2.0</Wait>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueString>
+			<Key>TargetObject</Key>
+			<Value>AttackingProjectile</Value>
+		</KeyValueString>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissileStinger_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissileHarpoon_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissileSparrow_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_SPARROW_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileSparrow_HitFoley</FXElementRef>
+		<FXElementRef>MissileSparrow_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissileStinger_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_STINGER_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileStinger_HitFoley</FXElementRef>
+		<FXElementRef>MissileStinger_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissileHarpoon_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_HARPOON_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileHarpoon_HitFoley</FXElementRef>
+		<FXElementRef>MissileHarpoon_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissilePhotonicWarhead_HitFoley</FXElementRef>
+		<FXElementRef>MissilePhotonicWarhead_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissilePhotonTorpedo_HitFoley</FXElementRef>
+		<FXElementRef>MissilePhotonTorpedo_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileNightmareTorpedo_HitFoley</FXElementRef>
+		<FXElementRef>MissileNightmareTorpedo_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissileSparrow_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileSparrow_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileSparrow_MissFoley</FXElementRef>
+		<FXElementRef>MissileSparrow_MissParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissileStinger_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileStinger_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileStinger_MissFoley</FXElementRef>
+		<FXElementRef>MissileStinger_MissParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissileHarpoon_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileHarpoon_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileHarpoon_MissFoley</FXElementRef>
+		<FXElementRef>MissileHarpoon_MissParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonicWarhead_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissilePhotonicWarhead_MissFoley</FXElementRef>
+		<FXElementRef>MissilePhotonicWarhead_MissParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissilePhotonTorpedo_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissilePhotonTorpedo_MissFoley</FXElementRef>
+		<FXElementRef>MissilePhotonTorpedo_MissParticle</FXElementRef>
+	</FXElement>
+
+	<!--Miss FX-->
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_MissParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>MissileGenericMissEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_MissFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MissileNightmareTorpedo_Miss</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MissileNightmareTorpedo_MissFoley</FXElementRef>
+		<FXElementRef>MissileNightmareTorpedo_MissParticle</FXElementRef>
+	</FXElement>
+
+</FXElementList>

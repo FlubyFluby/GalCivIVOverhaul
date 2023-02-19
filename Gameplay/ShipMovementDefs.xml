@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipMovementList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipMovementDefs.xsd">
+	
+	<ShipMovement>
+		<InternalName>NormalShipMovement</InternalName>
+		<DisplayName>ShipMovementName</DisplayName>
+    <TauSharpnessFactor>60</TauSharpnessFactor> 
+    <TauShiftFactor>1.2</TauShiftFactor>
+    <RollFactor>0.15</RollFactor>
+    <RollShiftFactor>0.02</RollShiftFactor>
+    <MaxRollAngle>1.57</MaxRollAngle>
+    <FleetSpeedPercentFactor>200</FleetSpeedPercentFactor>
+  </ShipMovement>
+	
+</ShipMovementList>

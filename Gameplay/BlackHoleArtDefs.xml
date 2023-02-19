@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BlackHoleArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BlackHoleArtDefs.xsd">
+
+	<ArtDefine>
+		<InternalName>BlackHoleArt</InternalName>
+		<Radius>23</Radius>
+    <ModelFile>gfx/Planet_Mesh_01.fbx</ModelFile>
+		<EffectFile>gfx/fx/sm4/compiled/ModelNode4.fxo</EffectFile>
+		<SurfaceTextureFile>gfx/PlanetGfx/BlackHole.dds</SurfaceTextureFile>
+		<InnerHaloBias>0</InnerHaloBias>
+		<InnerHaloColor>
+			<Red>0</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>0</Alpha>
+		</InnerHaloColor>
+		<StrategicIcon>BlackHole</StrategicIcon>
+		<StrategicIconColorDefine>UIDefault</StrategicIconColorDefine>
+		<ParticleEffectScript>BlackHoleJetEffect</ParticleEffectScript>
+		<UnderFogParticleEffectScript>BlackHoleDiskEffect</UnderFogParticleEffectScript>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>LargeBlackHoleArt</InternalName>
+		<Radius>23</Radius>
+		<ModelFile>gfx/Planet_Mesh_01.fbx</ModelFile>
+		<EffectFile>gfx/fx/sm4/compiled/ModelNode4.fxo</EffectFile>
+		<SurfaceTextureFile>gfx/PlanetGfx/BlackHole.dds</SurfaceTextureFile>
+		<InnerHaloBias>0</InnerHaloBias>
+		<InnerHaloColor>
+			<Red>0</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>0</Alpha>
+		</InnerHaloColor>
+		<StrategicIcon>LargeBlackHole</StrategicIcon>
+		<StrategicIconColorDefine>UIDefault</StrategicIconColorDefine>
+		<ParticleEffectScript>BlackHoleJetEffect</ParticleEffectScript>
+		<UnderFogParticleEffectScript>LargeBlackHoleDiskEffect</UnderFogParticleEffectScript>
+	</ArtDefine>
+
+</BlackHoleArtList>

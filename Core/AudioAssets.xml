@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AssetTable
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
+
+	<Asset>
+		<Tag>SILENCE_MUSIC</Tag>
+		<Filename>Silence.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_SCREEN_MUSIC</Tag>
+		<Filename>GC4_Mithrilar.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GOVERN_SCREEN_MUSIC</Tag>
+    <Filename>OrbitalMechanics.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RESEARCH_SCREEN_MUSIC</Tag>
+		<Filename>NewResearchDiscovered.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CULTURE_SCREEN_MUSIC</Tag>
+		<Filename>Ideology_Screen_Theme_01c.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DIPLOMACY_SCREEN_MUSIC</Tag>
+    <Filename>InvasionSong_FinalLoop01_stereo.mp3</Filename>
+	</Asset>
+  
+  <Asset>
+		<Tag>DESIGNER_LANDING_SCREEN_MUSIC</Tag>
+    <Filename>Volumes_and_Volumes.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DESIGNER_LANDING_SCREEN_MUSIC</Tag>
+    <Filename>OrbitalMechanics.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DESIGNER_LANDING_SCREEN_MUSIC</Tag>
+    <Filename>MidGame03.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DESIGNER_LANDING_SCREEN_MUSIC</Tag>
+    <Filename>GC4_Pragmatic_Loop.mp3</Filename>
+	</Asset>
+
+
+	<Asset>
+		<Tag>SHIPYARD_SCREEN_MUSIC</Tag>
+    <Filename>ShipyardScreenLoop.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>END_CREDITS_MUSIC</Tag>
+		<Filename>GC4_Finality.mp3</Filename>
+	</Asset>
+
+  	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC_1</Tag>
+    <Filename>PlanetScreenMusic_1.mp3</Filename>
+	</Asset>
+  
+  	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC_2</Tag>
+    <Filename>PlanetScreenMusic_2.mp3</Filename>
+	</Asset>
+  
+  	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC_3</Tag>
+    <Filename>PlanetScreenMusic_3.mp3</Filename>
+	</Asset>
+
+    	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC_4</Tag>
+    <Filename>PlanetScreenMusic_4.mp3</Filename>
+	</Asset>
+  
+    	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC_5</Tag>
+    <Filename>PlanetScreenMusic_5.mp3</Filename>
+	</Asset>
+  
+	<Asset>
+		<Tag>FLEET_SCREEN_MUSIC</Tag>
+    <Filename>Technology Screen Mockup Ver. 2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DEFEAT_EVENT</Tag>
+		<Filename>Defeat.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_CONQUEST_EVENT</Tag>
+    <Filename>GC4_Victory.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_CULTURE_EVENT</Tag>
+		<Filename>Victory_Culture.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_RESEARCH_EVENT</Tag>
+		<Filename>GC4_Victory.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_ALLIANCE_EVENT</Tag>
+		<Filename>United_Planets.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_ASCENSION_EVENT</Tag>
+		<Filename>EndCredits.mp3</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>VICTORY_PRESTIGE_EVENT</Tag>
+    <Filename>EndCredits.mp3</Filename>
+  </Asset>
+  
+	<Asset>
+		<Tag>VICTORY_TURNLIMIT_EVENT</Tag>
+		<Filename>GC4_Mithrilar.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNITED_PLANETS_EVENT</Tag>
+		<Filename>EventMusic2.mp3</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>FIRST_COLONY_EVENT</Tag>
+		<Filename>First_Colony.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FIRST_STARBASE_EVENT</Tag>
+    <Filename>First_Starbase.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>STARBASE_SCREEN_MUSIC</Tag>
+		<Filename>Technology Screen Mockup Ver. 1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NEW_RESEARCH_DISCOVERED_EVENT</Tag>
+		<Filename>NewResearchDiscovered.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_ONE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_TWO_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_THREE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_FOUR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ANOMALY_EVENT</Tag>
+    <Filename>EventMusic4.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>void_exploration.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>orbital_travel.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>Continuum_sentinels.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>Mors_coronalis.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_5</Tag>
+		<Filename>legacy_of_the_architects.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_6</Tag>
+		<Filename>GC4_EarlyGame01_Loop.mp3</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_7</Tag>
+    <Filename>Space01_New01.mp3</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_8</Tag>
+    <Filename>thalan_oracles.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_9</Tag>
+    <Filename>GC4_EarlyGame01_Loop.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_10</Tag>
+    <Filename>EarlyGame03b.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_11</Tag>
+    <Filename>EarlyGame03b.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_12</Tag>
+    <Filename>fragments_of_space.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_14</Tag>
+    <Filename>GC4_Benevolant_EarlyLoop.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EARLY_GAME_AMBIENT_MUSIC_15</Tag>
+    <Filename>GC4_Pragmatic_Loop.mp3</Filename>
+  </Asset>
+
+
+
+  <Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>void_exploration.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>lost_signals.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>thalan_oracles.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>ship_graveyard.mp3</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_5</Tag>
+    <Filename>voces_solis.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_6</Tag>
+    <Filename>war_approaching.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_7</Tag>
+    <Filename>Continuum_sentinels.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_8</Tag>
+    <Filename>MidGame_GCTheme01.mp3</Filename>
+  </Asset>
+
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_9</Tag>
+    <Filename>dust_of_the_astrals.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_10</Tag>
+    <Filename>fragments_of_space.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_11</Tag>
+    <Filename>approaching_elysium.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_12</Tag>
+    <Filename>legacy_of_the_architects.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_13</Tag>
+    <Filename>Mimot_Theme.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_14</Tag>
+    <Filename>Altarians_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MID_GAME_AMBIENT_MUSIC_15</Tag>
+    <Filename>MidGame_GCTheme01.mp3</Filename>
+  </Asset>
+
+
+
+
+  <Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_1</Tag>
+    <Filename>Mors_coronalis.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>rise_of_a_new_galaxy.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_11a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>GC4_LateGame1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_5</Tag>
+		<Filename>Xeloxi_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_6</Tag>
+		<Filename>terran_harbingers.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_7</Tag>
+		<Filename>GC4_LateGame1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_8</Tag>
+		<Filename>Volumes_and_Volumes.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_9</Tag>
+		<Filename>thalan_oracles.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_10</Tag>
+		<Filename>Slyne_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_11</Tag>
+		<Filename>OrbitalMechanics.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_12</Tag>
+		<Filename>whipers_from_dark_matter.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_13</Tag>
+		<Filename>Manti_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_14</Tag>
+		<Filename>LateGame_Winning01.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_15</Tag>
+		<Filename>GC4_R_Baratak_theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_16</Tag>
+		<Filename>GalCiv3_Ambient13_01a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_17</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_10a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_18</Tag>
+		<Filename>GalCiv3_Ambient_06a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_19</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_09a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_20</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_12a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_21</Tag>
+		<Filename>caelum_irae.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_22</Tag>
+		<Filename>the_nightbringers.mp3</Filename>
+	</Asset>
+  
+	<Asset>
+		<Tag>WINNING_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>.</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LOSING_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>TRAIN_UNIT_BUTTON_SFX</Tag>
+    <Filename>UI/CITIZENS/TRAIN_CITIZEN</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LOSING_LATE_GAME_AMBIENT_MUSIC_1</Tag>
+    <Filename>LateGame_Losing01.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>WINNING_LATE_GAME_AMBIENT_MUSIC_1</Tag>
+    <Filename>LateGame_Winning01.mp3</Filename>
+  </Asset>
+	<Asset>
+		<Tag>GALACTIC_EVENT_MUSIC</Tag>
+		<Filename>EventMusic1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>COLONIZE_EVENT_MUSIC</Tag>
+		<Filename>EventMusic1.mp3</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>CRISIS_EVENT_MUSIC</Tag>
+    <Filename>InvasionSong_FinalLoop01_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CRISIS_WIN_MUSIC</Tag>
+    <Filename>InvasionSong_FinalYouWin_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CRISIS_LOSE_MUSIC</Tag>
+    <Filename>InvasionSong_YouLose01_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GNN_GOOD_MUSIC</Tag>
+    <Filename>GNN_Good01.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GNN_BAD_MUSIC</Tag>
+    <Filename>GNN_Bad01.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GOVERNMENT_GOOD</Tag>
+    <Filename>Galactic Liberation.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GOVERNMENT_INSURRECTION</Tag>
+    <Filename>BattleScreen02.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>FX_TEST_TAG</Tag>
+    <Filename>GalCiv3_Ambient_LateGame_12a.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MERC_SCREEN_MUSIC</Tag>
+    <Filename>Bazaar_Loop01.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SCREEN_INTRO</Tag>
+    <Filename>InvasionIntro01_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SCREEN_LOOP</Tag>
+    <Filename>InvasionSong_FinalLoop01_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SCREEN_VICTORY</Tag>
+    <Filename>InvasionSong_FinalYouWin_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SCREEN_DEFEAT</Tag>
+    <Filename>InvasionSong_YouLose01_stereo.mp3</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>BARATAK_THEME</Tag>
+    <Filename>GC4_R_Baratak_Theme.mp3</Filename>
+  </Asset>
+
+  <Asset>
+	<Tag>FESTRON_THEME</Tag>
+	<Filename>Festron_Theme.mp3</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>MIMOT_THEME</Tag>
+		<Filename>Mimot_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>XELOXI_THEME</Tag>
+		<Filename>Xeloxi_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MANTI_THEME</Tag>
+		<Filename>Manti_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NAVIGATORS_THEME</Tag>
+		<Filename>Navigators_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TERRAN_THEME</Tag>
+		<Filename>Terran_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRENGIN_THEME</Tag>
+		<Filename>Drengin_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ALTARIAN_THEME</Tag>
+		<Filename>Altarian_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>IRIDIUM_THEME</Tag>
+		<Filename>Iridium_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KRYNN_THEME</Tag>
+		<Filename>Krynn_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YOR_THEME</Tag>
+		<Filename>Yor_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ICONIAN_THEME</Tag>
+		<Filename>Iconian_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TORIAN_THEME</Tag>
+		<Filename>Torian_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ARCEAN_THEME</Tag>
+		<Filename>Arcean_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SLYNE_THEME</Tag>
+		<Filename>Slyne_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ONYXHIVE_THEME</Tag>
+		<Filename>OnyxHive_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRATH_THEME</Tag>
+		<Filename>Drath_Theme.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TRANDALS_THEME</Tag>
+		<Filename>SCO_FreeTrandals_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TYWOM_THEME</Tag>
+		<Filename>SCO_Tywom_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SCRYVE_THEME</Tag>
+		<Filename>SCO_Scryve_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PHAMYSHT_THEME</Tag>
+		<Filename>SCO_Phamysht_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THALAN_THEME</Tag>
+		<Filename>GC3_Thalans_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SNATHI_THEME</Tag>
+		<Filename>GC3_Snathi_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KORATH_THEME</Tag>
+		<Filename>GC3_Korath_Peace.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GENERIC_BATTLE_THEME</Tag>
+		<Filename>Terran_Theme_Old.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BUILD_MINE_EVENT_MUSIC</Tag>
+		<Filename>Volumes_and_Volumes.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LEADER_SCREEN_MUSIC</Tag>
+		<Filename>Leader_Screen_Theme_Loop_01a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC</Tag>
+		<Filename>Planet_Screen_Theme_Loop.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>INVASION_VICTORY_MUSIC</Tag>
+		<Filename>Invasion_Victory_Fanfare_01.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RESISTANCE_THEME</Tag>
+		<Filename>Terran_Resistance_01.mp3</Filename>
+	</Asset>
+
+</AssetTable>

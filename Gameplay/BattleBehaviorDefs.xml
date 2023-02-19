@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<BattleBehaviorList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BattleBehaviorDefs.xsd">
+
+
+	<BattleBehavior>
+		<InternalName>Interceptor</InternalName>
+		<DisplayName>Interceptor</DisplayName>
+		<Description>Tooltip_Interceptor</Description>   
+		<StartingPos>3200</StartingPos>
+		<RadialStartingPos>1500</RadialStartingPos>
+		<ManeuverType>Attacker</ManeuverType>
+		
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Assault</InternalName>
+		<DisplayName>Assault</DisplayName>
+		<Description>Tooltip_Assault</Description>
+		<StartingPos>3100</StartingPos>
+		<RadialStartingPos>1600</RadialStartingPos>
+		<ManeuverType>Attacker</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Escort</InternalName>
+		<DisplayName>Escort</DisplayName>
+		<Description>Tooltip_Escort</Description>   
+		<StartingPos>3000</StartingPos>
+		<RadialStartingPos>1500</RadialStartingPos>
+		<ManeuverType>Attacker</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Capital</InternalName>
+		<DisplayName>Capital</DisplayName>
+		<Description>Tooltip_Capital</Description>   
+		<StartingPos>2400</StartingPos>
+		<RadialStartingPos>1700</RadialStartingPos>
+		<ManeuverType>Attacker</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Guardian</InternalName>
+		<DisplayName>Guardian</DisplayName>
+		<Description>Tooltip_Guardian</Description>   
+		<StartingPos>2900</StartingPos>
+		<RadialStartingPos>1900</RadialStartingPos>
+		<ManeuverType>Defender</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Support</InternalName>
+		<DisplayName>Support</DisplayName>
+		<Description>Tooltip_Support</Description>   
+		<StartingPos>2750</StartingPos>
+		<RadialStartingPos>1900</RadialStartingPos>
+		<ManeuverType>Stationary</ManeuverType>
+		
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Starbase</InternalName>
+		<DisplayName>Starbase</DisplayName>
+		<Description>Tooltip_Support</Description>  
+		<StartingPos>2400</StartingPos>
+		<RadialStartingPos>1900</RadialStartingPos>   
+		<ManeuverType>Stationary</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Upgrading</InternalName>
+		<DisplayName>Upgrading</DisplayName>
+		<Description>Tooltip_Upgrading</Description>   
+		<StartingPos>2750</StartingPos>
+		<RadialStartingPos>1400</RadialStartingPos>
+		<ManeuverType>Stationary</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+	<BattleBehavior>
+		<InternalName>Flee</InternalName>
+		<DisplayName>2500</DisplayName>
+		<Description>Tooltip_Flee</Description>
+		<StartingPos>2000</StartingPos>
+		<RadialStartingPos>2000</RadialStartingPos>   
+		<ManeuverType>Flee</ManeuverType>
+
+		<AttackTarget>Escort</AttackTarget>
+		<AttackTarget>Capital</AttackTarget>
+		<AttackTarget>Assault</AttackTarget>
+		<AttackTarget>Interceptor</AttackTarget>
+		<AttackTarget>Guardian</AttackTarget>
+		<AttackTarget>Support</AttackTarget>
+		<AttackTarget>Starbase</AttackTarget>
+		<AttackTarget>Upgrading</AttackTarget>
+	</BattleBehavior>
+
+</BattleBehaviorList>

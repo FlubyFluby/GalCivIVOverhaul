@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalCivMapList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
+
+
+
+  <GalCivMap>
+    <PlanetLikelihoodInAsteroidLane>0.20</PlanetLikelihoodInAsteroidLane>
+    <BinaryStarLikelihood>0.01</BinaryStarLikelihood>
+    <PlanetTraitLikelihood>1.0</PlanetTraitLikelihood>
+    <StormcloudLikelihood>0.2</StormcloudLikelihood>
+    <NebulaPlacementBuffer>2</NebulaPlacementBuffer>
+
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>1</MinPlanetClass>
+      <MaxPlanetClass>2</MaxPlanetClass>
+      <Weight>50</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>3</MinPlanetClass>
+      <MaxPlanetClass>6</MaxPlanetClass>
+      <Weight>1</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>7</MinPlanetClass>
+      <MaxPlanetClass>8</MaxPlanetClass>
+      <Weight>1</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>9</MinPlanetClass>
+      <MaxPlanetClass>10</MaxPlanetClass>
+      <Weight>5</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>11</MinPlanetClass>
+      <MaxPlanetClass>20</MaxPlanetClass>
+      <Weight>5</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>26</MinPlanetClass>
+      <MaxPlanetClass>26</MaxPlanetClass>
+      <Weight>5</Weight>
+    </DefaultPlanetClassSelect>
+
+    <MapObjectFrequency>
+      <ObjectType>Stars</ObjectType>
+      <Exponent>1</Exponent>
+      <FrequencyMultiplier>5</FrequencyMultiplier>
+      <FrequencyConst>0</FrequencyConst>
+      <FrequencyExponent>1</FrequencyExponent>
+      <MaxCount>2000</MaxCount>
+      <MinCount>12</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>Planets</ObjectType>
+      <FrequencyMultiplier>1.2</FrequencyMultiplier>
+      <MaxCount>5000</MaxCount>
+      <MinCount>60</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>Asteroids</ObjectType>
+      <FrequencyMultiplier>0.7</FrequencyMultiplier>
+      <MaxCount>2000</MaxCount>
+      <MinCount>32</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>Anomalies</ObjectType>
+      <FrequencyMultiplier>18</FrequencyMultiplier>
+      <MaxCount>2000</MaxCount>
+      <MinCount>32</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>AscensionGates</ObjectType>
+      <FrequencyMultiplier>0.3</FrequencyMultiplier>
+      <MaxCount>200</MaxCount>
+      <MinCount>5</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>Relics</ObjectType>
+      <FrequencyMultiplier>0.4</FrequencyMultiplier>
+      <MaxCount>200</MaxCount>
+      <MinCount>5</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>Nebulas</ObjectType>
+      <FrequencyMultiplier>0.2</FrequencyMultiplier>
+      <MaxCount>200</MaxCount>
+      <MinCount>5</MinCount>
+    </MapObjectFrequency>
+
+    <MapObjectFrequency>
+      <ObjectType>BlackHoles</ObjectType>
+      <FrequencyMultiplier>0.2</FrequencyMultiplier>
+      <MaxCount>200</MaxCount>
+      <MinCount>5</MinCount>
+    </MapObjectFrequency>
+
+    <MinStarSystemOrbitRadius>4</MinStarSystemOrbitRadius>
+    <MinDistanceBetweenStarSystems>3</MinDistanceBetweenStarSystems>
+    <MinDistanceBetweenStarClusters>50</MinDistanceBetweenStarClusters>
+    <GoodNeighborPlanetClass>20</GoodNeighborPlanetClass>
+    <NumAnomaliesToSpawnNearStartingLocations>6</NumAnomaliesToSpawnNearStartingLocations>
+    <MapBorderSize>0</MapBorderSize>
+
+    <MinNebula>1</MinNebula>
+    <MinBlackHole>1</MinBlackHole>
+    <MinAnomaly>1</MinAnomaly>
+    <DeadWorldResource>ThuliumResource</DeadWorldResource>
+    <GasGiantResource>PromethionResource</GasGiantResource>
+    <AsteroidResource>DurantiumResource</AsteroidResource>
+    <BlackholeResource>AntimatterResource</BlackholeResource>
+    <NebulaResource>EleriumResource</NebulaResource>
+    <StarSystemTemplateGroup>SystemTemplate</StarSystemTemplateGroup>
+    <DefaultBlackhole>BlackHole</DefaultBlackhole>
+    <DefaultNebulaGroup>NebulaGroup</DefaultNebulaGroup>
+    <DefaultStormGroup>StormGroup</DefaultStormGroup>
+
+    <PlayerStartSpacingWideMod>0.3</PlayerStartSpacingWideMod>
+    <PlayerStartSpacingNarrowMod>0.1</PlayerStartSpacingNarrowMod>
+    <BlackholeSpacingMod>0.20</BlackholeSpacingMod>
+    <AscensionGateSpacingMod>0.40</AscensionGateSpacingMod>
+    <RelicSpacingMod>0.40</RelicSpacingMod>
+    <PirateBaseSpacingMod>0.35</PirateBaseSpacingMod>
+    <PlayerStartToPirateMinRadiusMod>0.3</PlayerStartToPirateMinRadiusMod>
+    <ReduceStarSystemBoundarySize>0</ReduceStarSystemBoundarySize>
+    <PirateBaseTightenRadius>1</PirateBaseTightenRadius>
+
+    <MercenaryBaseSpacingMod>0.40</MercenaryBaseSpacingMod>
+    <MercenaryBaseSpacingMin>8</MercenaryBaseSpacingMin>
+    <MercenaryBaseSpacingMax>12</MercenaryBaseSpacingMax>
+    <MercenaryBasePlacementMaxRadius>4</MercenaryBasePlacementMaxRadius>
+    <MercenaryBaseBlockingPlacementProximityMod>0.66</MercenaryBaseBlockingPlacementProximityMod>
+    <HabitablePlanetChanceDivisor>1</HabitablePlanetChanceDivisor>
+  </GalCivMap>
+
+</GalCivMapList>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalaxyList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalaxyDefs.xsd">
+
+	<Galaxy>
+    <UniqueID>Spiral</UniqueID>
+		<HasSMB>true</HasSMB>
+    <MaskFile>Spiral_Galaxy_1.dds</MaskFile>
+    <MaskFile>Spiral_Galaxy_2.dds</MaskFile>
+	</Galaxy>
+
+	<Galaxy>
+    <UniqueID>Globular</UniqueID>
+		<HasSMB>true</HasSMB>
+    <StarDistributionExp>0.80</StarDistributionExp>    
+	</Galaxy>
+
+	<Galaxy>
+    <UniqueID>Clustered</UniqueID>
+		<HasSMB>true</HasSMB>
+    <StarDistributionExp>0.50</StarDistributionExp>
+	</Galaxy>
+
+	<Galaxy>
+    <UniqueID>Scattered</UniqueID>
+		<HasSMB>true</HasSMB>
+    <StarDistributionMod>0.66</StarDistributionMod>
+	</Galaxy>
+
+</GalaxyList>

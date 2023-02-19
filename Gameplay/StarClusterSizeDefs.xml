@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StarClusterSizeDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
+
+  <StarClusterSizeDef>
+    <UniqueID>Tiny</UniqueID>
+    <MinRadius>32</MinRadius>
+    <MaxRadius>32</MaxRadius>
+    <MinDistanceFromCluster>30</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>32</MaxDistanceFromCluster>
+    <MinNumBranches>1</MinNumBranches>
+    <MaxNumBranches>1</MaxNumBranches>
+    <MaxNumConnections>1</MaxNumConnections>
+    <MaxNumStartingLocations>2</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
+    <MaxPirateBases>2</MaxPirateBases>
+    <MaxSpaceMonsterBases>2</MaxSpaceMonsterBases>
+    <MaxSentinelBases>2</MaxSentinelBases>
+  </StarClusterSizeDef>
+
+  <StarClusterSizeDef>
+    <UniqueID>Small</UniqueID>
+    <MinRadius>42</MinRadius>
+    <MaxRadius>42</MaxRadius>
+    <MinDistanceFromCluster>50</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>90</MaxDistanceFromCluster>
+    <MinNumBranches>2</MinNumBranches>
+    <MaxNumBranches>4</MaxNumBranches>
+    <MaxNumConnections>5</MaxNumConnections>
+    <MaxNumStartingLocations>2</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>1</MinPlayersStartingInCluster>
+    <MaxPirateBases>4</MaxPirateBases>
+    <MaxSpaceMonsterBases>4</MaxSpaceMonsterBases>
+    <MaxSentinelBases>4</MaxSentinelBases>
+  </StarClusterSizeDef>
+
+  <StarClusterSizeDef>
+    <UniqueID>Medium</UniqueID>
+    <MinRadius>64</MinRadius>
+    <MaxRadius>64</MaxRadius>
+    <MinDistanceFromCluster>64</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>90</MaxDistanceFromCluster>
+    <MinNumBranches>2</MinNumBranches>
+    <MaxNumBranches>4</MaxNumBranches>
+    <MaxNumConnections>5</MaxNumConnections>
+    <MaxNumStartingLocations>3</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>2</MinPlayersStartingInCluster>
+    <MaxPirateBases>8</MaxPirateBases>
+    <MaxSpaceMonsterBases>8</MaxSpaceMonsterBases>
+    <MaxSentinelBases>8</MaxSentinelBases>
+  </StarClusterSizeDef>
+
+  <StarClusterSizeDef>
+    <UniqueID>Large</UniqueID>
+    <MinRadius>72</MinRadius>
+    <MaxRadius>72</MaxRadius>
+    <MinDistanceFromCluster>240</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>350</MaxDistanceFromCluster>
+    <MinNumBranches>2</MinNumBranches>
+    <MaxNumBranches>4</MaxNumBranches>
+    <MaxNumConnections>5</MaxNumConnections>
+    <MaxNumStartingLocations>4</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>3</MinPlayersStartingInCluster>
+    <MaxPirateBases>12</MaxPirateBases>
+    <MaxSpaceMonsterBases>12</MaxSpaceMonsterBases>
+    <MaxSentinelBases>12</MaxSentinelBases>
+  </StarClusterSizeDef>
+
+  <StarClusterSizeDef>
+    <UniqueID>Huge</UniqueID>
+    <MinRadius>96</MinRadius>
+    <MaxRadius>100</MaxRadius>
+    <MinDistanceFromCluster>340</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>350</MaxDistanceFromCluster>
+    <MinNumBranches>4</MinNumBranches>
+    <MaxNumBranches>4</MaxNumBranches>
+    <MaxNumConnections>5</MaxNumConnections>
+    <MaxNumStartingLocations>5</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>3</MinPlayersStartingInCluster>
+    <MaxPirateBases>16</MaxPirateBases>
+    <MaxSpaceMonsterBases>16</MaxSpaceMonsterBases>
+    <MaxSentinelBases>16</MaxSentinelBases>
+  </StarClusterSizeDef>
+
+
+</StarClusterSizeDefList>

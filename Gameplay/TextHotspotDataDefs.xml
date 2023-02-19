@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextHotspotDataDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TextHotspotDataDefs.xsd">
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Administration</InternalName>
+    <Title>STATNAME_Administration</Title>
+    <Text>STATDESCRIPTION_Administration</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Anomaly</InternalName>
+    <Title>Concept_Anomaly_Name</Title>
+    <Text>Concept_Anomaly_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Antimatter</InternalName>
+    <Title>STATNAME_Antimatter</Title>
+    <Text>ANTIMATTER_RESOURCE_DESCRIPTION</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Approval</InternalName>
+    <Title>STATNAME_Approval</Title>
+    <Text>STATDEC_Approval</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArborealWorld</InternalName>
+    <Title>ArborealWorld_Name</Title>
+    <Text>ArborealWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Aquatic</InternalName>
+    <Title>AmphibiousAbility_Name</Title>
+    <Text>AmphibiousAbility_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_AquaticWorld</InternalName>
+    <Title>AquaticWorld_Name</Title>
+    <Text>AquaticWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArmorRating</InternalName>
+    <Title>STATNAME_ArmorRating</Title>
+    <Text>Concept_ArmorRating_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactResearchCharge</InternalName>
+    <Title>ResearchCharge_Name</Title>
+    <Text>ResearchCharge_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactSocialConstruction</InternalName>
+    <Title>SocialConstruction_Name</Title>
+    <Text>SocialConstruction_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactMilitaryConstruction</InternalName>
+    <Title>MilitaryConstruction_Name</Title>
+    <Text>MilitaryConstruction_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetClass</InternalName>
+    <Title>PlanetClass_Name</Title>
+    <Text>PlanetClass_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetInfluence</InternalName>
+    <Title>PlanetInfluence_Name</Title>
+    <Text>PlanetInfluence_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetPollution</InternalName>
+    <Title>PlanetPollution_Name</Title>
+    <Text>PlanetInfluence_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetRepair</InternalName>
+    <Title>FleetRepair_Name</Title>
+    <Text>FleetRepair_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetResetMoves</InternalName>
+    <Title>FleetResetMoves_Name</Title>
+    <Text>FleetResetMoves_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetAttack</InternalName>
+    <Title>FleetAttack_Name</Title>
+    <Text>FleetAttack_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetExp</InternalName>
+    <Title>FleetExp_Name</Title>
+    <Text>FleetExp_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetDefense</InternalName>
+    <Title>FleetDefense_Name</Title>
+    <Text>FleetDefense_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetHitpoints</InternalName>
+    <Title>FleetHitpoints_Name</Title>
+    <Text>FleetHitpoints_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactWormhole</InternalName>
+    <Title>Wormhole_Name</Title>
+    <Text>Wormhole_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFOWReveal</InternalName>
+    <Title>FOWReveal_Name</Title>
+    <Text>FOWReveal_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactFleetDamage</InternalName>
+    <Title>FleetDamage_Name</Title>
+    <Text>FleetDamage_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactSpawnOverlord</InternalName>
+    <Title>SpawnOverlord_Name</Title>
+    <Text>SpawnOverlord_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactCagedMonster</InternalName>
+    <Title>CagedMonster_Name</Title>
+    <Text>CagedMonster_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactSpaceMonster</InternalName>
+    <Title>SpaceMonster_Name</Title>
+    <Text>SpaceMonster_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetPopulation</InternalName>
+    <Title>PlanetPopulation_Name</Title>
+    <Text>PlanetPopulation_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactGlobalApproval</InternalName>
+    <Title>GlobalApproval_Name</Title>
+    <Text>GlobalApproval_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetResistance</InternalName>
+    <Title>PlanetResistance_Name</Title>
+    <Text>PlanetResistance_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactConvertDeadWorld</InternalName>
+    <Title>ConvertDeadWorld_Name</Title>
+    <Text>ConvertDeadWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ArtifactPlanetCrime</InternalName>
+    <Title>PlanetCrime_Name</Title>
+    <Text>PlanetCrime_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_AsteroidMiner</InternalName>
+    <Title>Concept_AsteroidMiner_Name</Title>
+    <Text>Concept_AsteroidMiner_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_BarrenWorld</InternalName>
+    <Title>BarrenWorld_Name</Title>
+    <Text>BarrenWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Bazaar</InternalName>
+    <Title>Concept_Bazaar_Name</Title>
+    <Text>Concept_Bazaar_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_BeamWeapon</InternalName>
+    <Title>STATNAME_BeamWeapon</Title>
+    <Text>Concept_BeamWeapon_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_BombardedWorld</InternalName>
+    <Title>BombardedWorld_Name</Title>
+    <Text>BombardedWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyDecay</InternalName>
+    <Title>STATNAME_ColonySponsorDecayMod</Title>
+    <Text>STATDESC_ColonySponsorDecayMod</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyGrossIncome</InternalName>
+    <Title>STATNAME_ColonyGrossIncome</Title>
+    <Text>STATDEC_ColonyGrossIncome</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade</InternalName>
+    <Title>Concept_ColonyUpgrade_Name</Title>
+    <Text>Concept_ColonyUpgrade_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_PrecursorBeacon</InternalName>
+    <Title>ColonyUpgrade_PrecursorBeacon_Name</Title>
+    <Text>ColonyUpgrade_PrecursorBeacon_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_PrecursorElevator</InternalName>
+    <Title>ColonyUpgrade_PrecursorElevator_Name</Title>
+    <Text>ColonyUpgrade_PrecursorElevator_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_OrbitalFactory</InternalName>
+    <Title>ColonyUpgrade_OrbitalFactory_Name</Title>
+    <Text>ColonyUpgrade_OrbitalFactory_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_MoistureGenerator</InternalName>
+    <Title>ColonyUpgrade_MoistureGenerator_Name</Title>
+    <Text>ColonyUpgrade_MoistureGenerator_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_ThermalCore</InternalName>
+    <Title>ColonyUpgrade_ThermalCore_Name</Title>
+    <Text>ColonyUpgrade_ThermalCore_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_TidalControl</InternalName>
+    <Title>ColonyUpgrade_TidalControl_Name</Title>
+    <Text>ColonyUpgrade_TidalControl_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ColonyUpgrade_PrisonWorld</InternalName>
+    <Title>ColonyUpgrade_PrisonWorld_Name</Title>
+    <Text>ColonyUpgrade_PrisonWorld_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Commander</InternalName>
+    <Title>Unit_Commander_Name</Title>
+    <Text>Unit_Commander_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Constructor</InternalName>
+    <Title>Concept_Constructor_Name</Title>
+    <Text>Concept_Constructor_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Control</InternalName>
+    <Title>STATNAME_Control</Title>
+    <Text>STATDESC_Control</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_CoreWorld</InternalName>
+    <Title>Concept_CoreWorld_Name</Title>
+    <Text>Concept_CoreWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Credit</InternalName>
+    <Title>Concept_Credit_Name</Title>
+    <Text>Concept_Credit_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Crime</InternalName>
+    <Title>STATNAME_Crime</Title>
+    <Text>STATDESC_Crime</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_CulturePoint</InternalName>
+    <Title>Concept_CulturePoint_Name</Title>
+    <Text>Concept_CulturePoint_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Decay</InternalName>
+    <Title>STATNAME_ColonySponsorDecayMod</Title>
+    <Text>STATDESC_ColonySponsorDecayMod</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_DesertWorld</InternalName>
+    <Title>DesertWorld_Name</Title>
+    <Text>DesertWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Diligence</InternalName>
+    <Title>STATNAME_Diligence</Title>
+    <Text>STATDESC_Diligence</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Diplomacy</InternalName>
+    <Title>STATNAME_Diplomacy</Title>
+    <Text>STATDESC_Diplomacy</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Diplomat</InternalName>
+    <Title>Leaders_Diplomats_Title</Title>
+    <Text>Leaders_Diplomats_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_DiplomaticCapital</InternalName>
+    <Title>STATNAME_DiplomaticCapital</Title>
+    <Text>STATDESC_DiplomaticCapital</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_DivineEmpath</InternalName>
+    <Title>Unit_Cleric_Name</Title>
+    <Text>Unit_Cleric_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Durantium</InternalName>
+    <Title>STATNAME_Durantium</Title>
+    <Text>DURANTIUM_RESOURCE_DESCRIPTION</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Elerium</InternalName>
+    <Title>STATNAME_Elerium</Title>
+    <Text>ELERIUM_RESOURCE_DESCRIPTION</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Emporium</InternalName>
+    <Title>Concept_Emporium_Name</Title>
+    <Text>Concept_Emporium_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ExecutiveOrders</InternalName>
+    <Title>Concept_ExecutiveOrders_Name</Title>
+    <Text>Concept_ExecutiveOrders_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Expectations</InternalName>
+    <Title>STATNAME_Expectations</Title>
+    <Text>STATDESC_Expectations</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Farmer</InternalName>
+    <Title>Unit_Farmer_Name</Title>
+    <Text>Unit_Farmer_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Food</InternalName>
+    <Title>STATNAME_Food</Title>
+    <Text>STATDEC_Food</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Freighter</InternalName>
+    <Title>Concept_Freighter_Name</Title>
+    <Text>Concept_Freighter_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Government</InternalName>
+    <Title>Concept_Government_Name</Title>
+    <Text>Concept_Government_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Governor</InternalName>
+    <Title>Unit_Governor_Name</Title>
+    <Text>Unit_Governor_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Growth</InternalName>
+    <Title>STATNAME_Growth</Title>
+    <Text>STATDEC_Growth</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_HitPoints</InternalName>
+    <Title>STATNAME_HitPoints</Title>
+    <Text>STATDEC_HitPoints</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_HullSize</InternalName>
+    <Title>Concept_HullSize_Name</Title>
+    <Text>Concept_HullSize_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology</InternalName>
+    <Title>Concept_Ideology_Name</Title>
+    <Text>Concept_Ideology_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Improvement</InternalName>
+    <Title>Concept_Improvement_Name</Title>
+    <Text>Concept_Improvement_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Influence</InternalName>
+    <Title>STATNAME_Influence</Title>
+    <Text>STATDEC_Influence</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Intelligence</InternalName>
+    <Title>STATNAME_Intelligence</Title>
+    <Text>STATDESC_Intelligence</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Intimidation</InternalName>
+    <Title>STATNAME_Intimidation</Title>
+    <Text>STATDESC_Intimidation</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_JungleWorld</InternalName>
+    <Title>JungleWorld_Name</Title>
+    <Text>JungleWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_KineticWeapon</InternalName>
+    <Title>STATNAME_KineticWeapon</Title>
+    <Text>Concept_KineticWeapon_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Logistics</InternalName>
+    <Title>STATNAME_Logistics</Title>
+    <Text>STATDESC_Logistics</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_LowGravityWorld</InternalName>
+    <Title>LowGravityWorld_Name</Title>
+    <Text>LowGravityWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Loyalty</InternalName>
+    <Title>STATNAME_Loyalty</Title>
+    <Text>STATDESC_Loyalty</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Manufacturing</InternalName>
+    <Title>STATNAME_Manufacturing</Title>
+    <Text>STATDESCRIPTION_Manufacturing</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Military</InternalName>
+    <Title>STATNAME_Military</Title>
+    <Text>STATDEC_Military</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Minister</InternalName>
+    <Title>Leader_Ministers_Title</Title>
+    <Text>Concept_Minister_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_MissileWeapon</InternalName>
+    <Title>STATNAME_MissileWeapon</Title>
+    <Text>Concept_MissileWeapon_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_NaturalLeague</InternalName>
+    <Title>Concept_NaturalLeague_Name</Title>
+    <Text>Concept_NaturalLeague_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_MountainousWorld</InternalName>
+    <Title>MountainousWorld_Name</Title>
+    <Text>MountainousWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_MovesCap</InternalName>
+    <Title>STATNAME_MovesCap</Title>
+    <Text>STATDESC_MovesCap</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_NaturalResources</InternalName>
+    <Title>Concept_NaturalResources_Name</Title>
+    <Text>Concept_NaturalResources_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_OnyxHiveGrowth</InternalName>
+    <Title>Concept_OnyxHiveGrowth_Name</Title>
+    <Text>Concept_OnyxHiveGrowth_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ParadiseWorld</InternalName>
+    <Title>ParadiseWorld_Name</Title>
+    <Text>ParadiseWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_PlanetaryDefense</InternalName>
+    <Title>STATNAME_PlanetaryDefense</Title>
+    <Text>STATDEC_PlanetaryDefense</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_PointDefense</InternalName>
+    <Title>STATNAME_PointDefense</Title>
+    <Text>Concept_PointDefense_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_PolicySlot</InternalName>
+    <Title>STATNAME_MaxEnactedPolicies</Title>
+    <Text>STATDESC_MaxEnactedPolicies</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Pollution</InternalName>
+    <Title>STATNAME_Pollution</Title>
+    <Text>STATDESC_Pollution</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Population</InternalName>
+    <Title>STATNAME_Population</Title>
+    <Text>STATDESC_Population</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Prestige</InternalName>
+    <Title>Concept_Prestige_Name</Title>
+    <Text>Concept_Prestige_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Promethion</InternalName>
+    <Title>STATNAME_Promethion</Title>
+    <Text>PROMETHION_RESOURCE_DESCRIPTION</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_PromethionBorn</InternalName>
+    <Title>Concept_PromethionBorn_Name</Title>
+    <Text>Concept_PromethionBorn_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Prototype</InternalName>
+    <Title>Concept_Prototype_Name</Title>
+    <Text>Concept_Prototype_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Research</InternalName>
+    <Title>STATNAME_Research</Title>
+    <Text>STATDEC_Research</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Resistance</InternalName>
+    <Title>STATNAME_ResistanceBonus</Title>
+    <Text>STATDEC_ResistanceBonus</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Resolve</InternalName>
+    <Title>STATNAME_Resolve</Title>
+    <Text>STATDESC_Resolve</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ScanPlanet</InternalName>
+    <Title>Project_ScanPlanet_Name</Title>
+    <Text>Project_ScanPlanet_ShortDec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_SeizeGoods</InternalName>
+    <Title>SEIZE_GOODS_LABEL</Title>
+    <Text>SEIZE_GOODS_DEC</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_SensorRange</InternalName>
+    <Title>STATNAME_SensorRange</Title>
+    <Text>STATDESC_SensorRange</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ShieldStrength</InternalName>
+    <Title>STATNAME_ShieldStrength</Title>
+    <Text>Concept_ShieldStrength_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ShipRange</InternalName>
+    <Title>STATNAME_ShipRange</Title>
+    <Text>STATDESC_ShipRange</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ShipUpgrade</InternalName>
+    <Title>Concept_ShipUpgrade_Name</Title>
+    <Text>Concept_ShipUpgrade_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Siege</InternalName>
+    <Title>Concept_Siege_Name</Title>
+    <Text>Concept_Siege_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Social</InternalName>
+    <Title>STATNAME_Social</Title>
+    <Text>STATDESC_Social</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Soldier</InternalName>
+    <Title>Unit_Soldier_Name</Title>
+    <Text>Unit_Soldier_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Soldiering</InternalName>
+    <Title>STATNAME_Soldiering</Title>
+    <Text>STATDEC_Soldiering</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_StrategicResource</InternalName>
+    <Title>Concept_StrategicResource_Name</Title>
+    <Text>Concept_StrategicResource_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_SurveyShip</InternalName>
+    <Title>Concept_SurveyShip_Name</Title>
+    <Text>Concept_SurveyShip_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Taxes</InternalName>
+    <Title>Concept_Taxes_Name</Title>
+    <Text>Concept_Taxes_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_TerrestrialWorld</InternalName>
+    <Title>TerrestrialWorld_Name</Title>
+    <Text>TerrestrialWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_ThinAtmosphereWorld</InternalName>
+    <Title>ThinAtmosphereWorld_Name</Title>
+    <Text>ThinAtmosphereWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Thulium</InternalName>
+    <Title>STATNAME_Thulium</Title>
+    <Text>THULIUM_RESOURCE_DESCRIPTION</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Tourism</InternalName>
+    <Title>STATNAME_Tourism</Title>
+    <Text>STATDEC_Tourism</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_TradeLicensesMax</InternalName>
+    <Title>STATNAME_TradeLicensesMax</Title>
+    <Text>STATDEC_TradeLicensesMax</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Trader</InternalName>
+    <Title>Unit_Entrepreneur_Name</Title>
+    <Text>Unit_Entrepreneur_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_TropicalWorld</InternalName>
+    <Title>TropicalWorld_Name</Title>
+    <Text>TropicalWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_UnitedPlanets</InternalName>
+    <Title>Concept_UnitedPlanets_Name</Title>
+    <Text>Concept_UnitedPlanets_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_DroneCarrier</InternalName>
+    <Title>Upgrade_DroneCarrier_Name</Title>
+    <Text>Upgrade_DroneCarrier_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_FleetMoves</InternalName>
+    <Title>Upgrade_FleetMoves_Name</Title>
+    <Text>Upgrade_FleetMoves_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_ImmuneNebula</InternalName>
+    <Title>Upgrade_ImmuneNebula_Name</Title>
+    <Text>Upgrade_ImmuneNebula_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_Jamming</InternalName>
+    <Title>Upgrade_Jamming_Name</Title>
+    <Text>Upgrade_Jamming_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_ShipKineticAttack</InternalName>
+    <Title>Upgrade_ShipKineticAttack_Name</Title>
+    <Text>Upgrade_ShipKineticAttack_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_WeaponCooldown</InternalName>
+    <Title>Upgrade_WeaponCooldown_Name</Title>
+    <Text>Upgrade_WeaponCooldown_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Upgrade_WeaponRange</InternalName>
+    <Title>Upgrade_WeaponRange_Name</Title>
+    <Text>Upgrade_WeaponRange_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_VolcanicWorld</InternalName>
+    <Title>VolcanicWorld_Name</Title>
+    <Text>VolcanicWorld_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Warforged</InternalName>
+    <Title>Concept_Warforged_Name</Title>
+    <Text>Concept_Warforged_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Week</InternalName>
+    <Title>Concept_Week_Name</Title>
+    <Text>Concept_Week_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+	<InternalName>HS_Leaders</InternalName>
+	<Title>Concept_Leaders_Name</Title>
+	<Text>Concept_Leaders_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_IdeologyAwareness</InternalName>
+    <Title>Concept_IdeologyAwareness_Name</Title>
+    <Text>Concept_IdeologyAwareness_Dec</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Liberty</InternalName>
+    <Title>STATNAME_IdeologyLiberty</Title>
+    <Text>STATDESC_IdeologyLiberty</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Authority</InternalName>
+    <Title>STATNAME_IdeologyAuthority</Title>
+    <Text>STATDESC_IdeologyAuthority</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Opportunity</InternalName>
+    <Title>STATNAME_IdeologyOpportunity</Title>
+    <Text>STATDESC_IdeologyOpportunity</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Equality</InternalName>
+    <Title>STATNAME_IdeologyEquality</Title>
+    <Text>STATDESC_IdeologyEquality</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Tradition</InternalName>
+    <Title>STATNAME_IdeologyTradition</Title>
+    <Text>STATDESC_IdeologyTradition</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Innovation</InternalName>
+    <Title>STATNAME_IdeologyInnovation</Title>
+    <Text>STATDESC_IdeologyInnovation</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Compassion</InternalName>
+    <Title>STATNAME_IdeologyCompassion</Title>
+    <Text>STATDESC_IdeologyCompassion</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Cruelty</InternalName>
+    <Title>STATNAME_IdeologyCruelty</Title>
+    <Text>STATDESC_IdeologyCruelty</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Transparency</InternalName>
+    <Title>STATNAME_IdeologyTransparency</Title>
+    <Text>STATDESC_IdeologyTransparency</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Secrecy</InternalName>
+    <Title>STATNAME_IdeologySecrecy</Title>
+    <Text>STATDESC_IdeologySecrecy</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Diversity</InternalName>
+    <Title>STATNAME_IdeologyDiversity</Title>
+    <Text>STATDESC_IdeologyDiversity</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Harmony</InternalName>
+    <Title>STATNAME_IdeologyHarmony</Title>
+    <Text>STATDESC_IdeologyHarmony</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Focus</InternalName>
+    <Title>STATNAME_IdeologyFocus</Title>
+    <Text>STATDESC_IdeologyFocus</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>HS_Ideology_Calm</InternalName>
+    <Title>STATNAME_IdeologyCalm</Title>
+    <Text>STATDESC_IdeologyCalm</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>TT_PlanetInput</InternalName>
+    <Title>PLANETINPUTLABEL</Title>
+    <Text>PLANETINPUT_DEC</Text>
+  </TextHotspotDataDef>
+
+  <TextHotspotDataDef>
+    <InternalName>TT_PlanetYields</InternalName>
+    <Title>PLANETYIELDSLABLE</Title>
+    <Text>PLANETYIELDS_DEC</Text>
+  </TextHotspotDataDef>
+
+</TextHotspotDataDefList>

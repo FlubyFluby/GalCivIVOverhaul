@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- CreditsSequenceText.XML -->
+  <StringTable>
+    <Label>EndGameCredits_256_Text</Label>
+    <String>Galactic Civilizations IV
+(c) 2021 Stardock Entertainment</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_8_Text</Label>
+    <String>[ICON=Bullet] Creative Director [ICON=Bullet] 
+Brad Wardell
+
+[ICON=Bullet] Lead Designer [ICON=Bullet] 
+Derek Paxton
+
+[ICON=Bullet] Producer [ICON=Bullet] 
+Chad Farris
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_9_Text</Label>
+    <String>[ICON=Bullet] Lead Developer [ICON=Bullet]
+Cari Begle Kelly
+	
+[ICON=Bullet] Developers [ICON=Bullet]
+Jason Balazovich
+Jesse Brindle 
+Nathan Hanish
+Christopher McLaughlin
+Sarah Trombley
+Brad Wardell
+</String>
+  </StringTable> 
+  
+  <StringTable>
+    <Label>EndGameCredits_10_Text</Label>
+    <String>[ICON=Bullet] Artists [ICON=Bullet]
+Paul Boyer
+Jared Harris
+
+
+[ICON=Bullet] Ship Designers [ICON=Bullet]
+Rand Johnson
+Terry Boyd
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_12_Text</Label>
+    <String>[ICON=Bullet] Cinematics [ICON=Bullet]
+Chaminda Nissanka
+Cristian Scubli
+John Seru
+  </String>
+    </StringTable>
+  <StringTable>
+    <Label>EndGameCredits_13_Text</Label>
+    <String>[ICON=Bullet] Writing [ICON=Bullet]
+Chris Bucholz
+Brad Wardell
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_14_Text</Label>
+    <String>[ICON=Bullet] Music [ICON=Bullet]
+Sean Beeson
+Mason Fisher
+Rebecca House
+Riku Nuottajarvi
+Dan Nicholson 
+
+[ICON=Bullet] Lyrics [ICON=Bullet]
+Rebecca House
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_15_Text</Label>
+    <String>[ICON=Bullet] Marketing/PR [ICON=Bullet]
+Kristy Eason
+Henry Pailing
+Jillian Santos
+Kathleen Spangler
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_16_Text</Label>
+    <String>[ICON=Bullet] Director of Live Services [ICON=Bullet]
+Ron Burke
+	
+	[ICON=Bullet] Live Services Engineers [ICON=Bullet]
+Pat Ford
+Matthew Grey
+</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_17_Text</Label>
+    <String>[ICON=Bullet] Biz [ICON=Bullet]
+Brian Clair
+Chris Kowal
+
+
+[ICON=Bullet] Quality Assurance/Support [ICON=Bullet]
+Ken Janeczko
+Jeff Sanders
+Devin Swanner</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EndGameCredits_18_Text</Label>
+    <String>[ICON=Bullet] Special Thanks [ICON=Bullet]
+GalamSabag, Scott 'Seilore' Hesse, Eric Clark,
+Greg Lafrenz, Caboose Corsair, Sycloness,
+Xandrette, John Garth, Phil 'Kodiak' Cowin,
+tid242, Michael Brandeberry, DivineWrath,
+Dray Prescot, Dan Lapine, aerez4546,
+Commander4X, Scifi1950, Caden,
+gypsy2299, RedPhoenix, Dahrkstar,
+GGrad, Michael 'Pbhead' Kidd, Basilisk83,
+Old-Spider, N1Starfighter71854, DwayneC
+</String>
+  </StringTable>
+   
+  <StringTable>
+    <Label>EndGameCredits_55_Text</Label>
+    <String>
+      Third-Party Content License Credits
+
+      StackWalker
+      Copyright (c) 2005-2017, Jochen Kalmbach
+      All rights reserved.
+
+      Uses Bink Video. Copyright (c) 1997-2017 by RAD Game Tools, Inc.
+
+      Uses Miles Sound System. Copyright (c) 1991-2017 by RAD Game Tools, Inc.
+
+      Bank Gothic is a trademark of MyFonts and may be registered in certain jurisdictions.
+
+      Portions of this software are copyright (c) 2017 The FreeType Project (www.freetype.org).
+      All rights reserved.
+    </String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>EndGameCredits_56_Text</Label>
+    <String>Galactic Civilizations is a registered trademark of Stardock Entertainment. All rights reserved.</String>
+  </StringTable>
+  
+
+  <StringTable>
+    <Label>EndGameCredits_Empty_Text</Label>
+    <String>   </String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>_Empty_Text</Label>
+    <String>   </String>
+  </StringTable>
+ 
+</StringTableList>

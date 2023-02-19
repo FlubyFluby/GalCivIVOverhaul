@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CommanderShipSetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionCommanderShipSetDef.xsd">
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Altarian</InternalName>
+    <DisplayName>CommandShipSet_Altarian_Name</DisplayName>
+    <Description>CommandShipSet_Altarian_Dec</Description>
+    <CommanderShipClass>Commander_Altarian1</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian2</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian3</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian4</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian5</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian6</CommanderShipClass>
+    <CommanderShipClass>Commander_Altarian7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Arcean</InternalName>
+    <DisplayName>CommandShipSet_Arcean_Name</DisplayName>
+    <Description>CommandShipSet_Arcean_Dec</Description>
+    <CommanderShipClass>Commander_Arcean1</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean2</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean3</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean4</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean5</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean6</CommanderShipClass>
+    <CommanderShipClass>Commander_Arcean7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Baratak</InternalName>
+    <DisplayName>CommandShipSet_Baratak_Name</DisplayName>
+    <Description>CommandShipSet_Baratak_Dec</Description>
+    <CommanderShipClass>Commander_Baratak1</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak2</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak3</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak4</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak5</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak6</CommanderShipClass>
+    <CommanderShipClass>Commander_Baratak7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Drath</InternalName>
+    <DisplayName>CommandShipSet_Drath_Name</DisplayName>
+    <Description>CommandShipSet_Drath_Dec</Description>
+    <CommanderShipClass>Commander_Drath1</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath2</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath3</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath4</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath5</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath6</CommanderShipClass>
+    <CommanderShipClass>Commander_Drath7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Drengin</InternalName>
+    <DisplayName>CommandShipSet_Drengin_Name</DisplayName>
+    <Description>CommandShipSet_Drengin_Dec</Description>
+    <CommanderShipClass>Commander_Drengin1</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin2</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin3</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin4</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin5</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin6</CommanderShipClass>
+    <CommanderShipClass>Commander_Drengin7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Festron</InternalName>
+    <DisplayName>CommandShipSet_Festron_Name</DisplayName>
+    <Description>CommandShipSet_Festron_Dec</Description>
+    <CommanderShipClass>Commander_Festron1</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron2</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron3</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron4</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron5</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron6</CommanderShipClass>
+    <CommanderShipClass>Commander_Festron7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Iconian</InternalName>
+    <DisplayName>CommandShipSet_Iconian_Name</DisplayName>
+    <Description>CommandShipSet_Iconian_Dec</Description>
+    <CommanderShipClass>Commander_Iconian1</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian2</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian3</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian4</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian5</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian6</CommanderShipClass>
+    <CommanderShipClass>Commander_Iconian7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Iridium</InternalName>
+    <DisplayName>CommandShipSet_Iridium_Name</DisplayName>
+    <Description>CommandShipSet_Iridium_Dec</Description>
+    <CommanderShipClass>Commander_Iridium1</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium2</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium3</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium4</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium5</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium6</CommanderShipClass>
+    <CommanderShipClass>Commander_Iridium7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Krynn</InternalName>
+    <DisplayName>CommandShipSet_Krynn_Name</DisplayName>
+    <Description>CommandShipSet_Krynn_Dec</Description>
+    <CommanderShipClass>Commander_Krynn1</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn2</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn3</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn4</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn5</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn6</CommanderShipClass>
+    <CommanderShipClass>Commander_Krynn7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Manti</InternalName>
+    <DisplayName>CommandShipSet_Manti_Name</DisplayName>
+    <Description>CommandShipSet_Manti_Dec</Description>
+    <CommanderShipClass>Commander_Manti1</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti2</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti3</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti4</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti5</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti6</CommanderShipClass>
+    <CommanderShipClass>Commander_Manti7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Mimot</InternalName>
+    <DisplayName>CommandShipSet_Mimot_Name</DisplayName>
+    <Description>CommandShipSet_Mimot_Dec</Description>
+    <CommanderShipClass>Commander_Wisp</CommanderShipClass>
+    <CommanderShipClass>Commander_Appeleur</CommanderShipClass>
+    <CommanderShipClass>Commander_Puca</CommanderShipClass>
+    <CommanderShipClass>Commander_Loireag</CommanderShipClass>
+    <CommanderShipClass>Commander_Harpazein</CommanderShipClass>
+    <CommanderShipClass>Commander_Dullahan</CommanderShipClass>
+    <CommanderShipClass>Commander_Gruff</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Navigators</InternalName>
+    <DisplayName>CommandShipSet_Navigators_Name</DisplayName>
+    <Description>CommandShipSet_Navigators_Dec</Description>
+    <CommanderShipClass>Commander_Navigator1</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator2</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator3</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator4</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator5</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator6</CommanderShipClass>
+    <CommanderShipClass>Commander_Navigator7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Onyx</InternalName>
+    <DisplayName>CommandShipSet_Onyx_Name</DisplayName>
+    <Description>CommandShipSet_Onyx_Dec</Description>
+    <CommanderShipClass>Commander_Onyx1</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx2</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx3</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx4</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx5</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx6</CommanderShipClass>
+    <CommanderShipClass>Commander_Onyx7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Resistance</InternalName>
+    <DisplayName>CommandShipSet_Resistance_Name</DisplayName>
+    <Description>CommandShipSet_Resistance_Dec</Description>
+    <CommanderShipClass>Commander_Resistance1</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance2</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance3</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance4</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance5</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance6</CommanderShipClass>
+    <CommanderShipClass>Commander_Resistance7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Terran</InternalName>
+    <DisplayName>CommandShipSet_Terran_Name</DisplayName>
+    <Description>CommandShipSet_Terran_Dec</Description>
+    <CommanderShipClass>Commander_Victory</CommanderShipClass>
+    <CommanderShipClass>Commander_Curiosity</CommanderShipClass>
+    <CommanderShipClass>Commander_Perserverance</CommanderShipClass>
+    <CommanderShipClass>Commander_Gaze</CommanderShipClass>
+    <CommanderShipClass>Commander_HivebaseOne</CommanderShipClass>
+    <CommanderShipClass>Commander_Apex</CommanderShipClass>
+    <CommanderShipClass>Commander_Sickle</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Torian</InternalName>
+    <DisplayName>CommandShipSet_Torian_Name</DisplayName>
+    <Description>CommandShipSet_Torian_Dec</Description>
+    <CommanderShipClass>Commander_Torian1</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian2</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian3</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian4</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian5</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian6</CommanderShipClass>
+    <CommanderShipClass>Commander_Torian7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Xeloxi</InternalName>
+    <DisplayName>CommandShipSet_Xeloxi_Name</DisplayName>
+    <Description>CommandShipSet_Xeloxi_Dec</Description>
+    <CommanderShipClass>Commander_Xeloxi1</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi2</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi3</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi4</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi5</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi6</CommanderShipClass>
+    <CommanderShipClass>Commander_Xeloxi7</CommanderShipClass>
+  </CommanderShipSet>
+
+  <CommanderShipSet>
+    <InternalName>CommanderShipSet_Yor</InternalName>
+    <DisplayName>CommandShipSet_Yor_Name</DisplayName>
+    <Description>CommandShipSet_Yor_Dec</Description>
+    <CommanderShipClass>Commander_EndlessZeros</CommanderShipClass>
+    <CommanderShipClass>Commander_VoidInTime</CommanderShipClass>
+    <CommanderShipClass>Commander_SufferingWithin</CommanderShipClass>
+    <CommanderShipClass>Commander_BeforeCreation</CommanderShipClass>
+    <CommanderShipClass>Commander_AfterDeath</CommanderShipClass>
+    <CommanderShipClass>Commander_InfiniteResolve</CommanderShipClass>
+    <CommanderShipClass>Commander_Nameless</CommanderShipClass>
+  </CommanderShipSet>
+
+</CommanderShipSetList>

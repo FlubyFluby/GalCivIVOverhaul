@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- Main Map Battle Sequence -->
+
+  <FXElement>
+    <InternalName>MainMapBattleStationFX</InternalName>
+    <Type>Composite</Type>
+
+	<!--<FXElement>
+      <InternalName>MainMapBattleStationFX_Music</InternalName>
+      <Type>Music</Type>
+      <FadeOut>2</FadeOut>
+      <KeyValueString>
+        <Key>AssetTag</Key>
+        <Value>FX_TEST_TAG</Value>
+      </KeyValueString>
+    </FXElement>-->
+    
+    <FXElement>
+      <InternalName>MainMapBattleStationFX_Sequence</InternalName>
+      <Type>Sequence</Type>
+      <FXElement>
+        <InternalName>MainMapBattleStationFX_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleStationFX_FadeOut_Station</InternalName>
+        <Type>Transparency</Type>
+        <FadeOut>0.15</FadeOut>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>DefendingStation</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>TargetTransparency</Key>
+          <Value>0.85</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleStationFX_Composite</InternalName>
+        <Type>Composite</Type>
+                
+          <FXElement>
+          <InternalName>MainMapBattleStationFX_AttackerVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>DamageType</Key>
+            <Value>AttackerDamageType</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>HitCode</Key>
+            <Value>AttackerHitCode</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+        </FXElement>
+
+        <FXElement>
+          <InternalName>MainMapBattleStationFX_DefenderVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>DamageType</Key>
+            <Value>DefenderDamageType</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>HitCode</Key>
+            <Value>DefenderHitCode</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>DefendingAttackMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+        </FXElement>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleStationFX_FinalFadeComposite</InternalName>
+        <Type>Composite</Type>
+
+        <FXElement>
+          <InternalName>MainMapBattleStationFX_FadeIn_Station</InternalName>
+          <Type>Transparency</Type>
+          <FadeIn>0.5</FadeIn>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingStation</Value>
+          </KeyValueString>
+        </FXElement>
+
+        <FXElement>
+          <InternalName>MainMapBattleStationFX_FadeOut_Defender</InternalName>
+          <Type>Transparency</Type>
+          <FadeOut>0.1</FadeOut>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueBool>
+            <Key>AffectAllSiblings</Key>
+            <Value>true</Value>
+          </KeyValueBool>
+        </FXElement>
+
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleStationFX_WaitForExplosions</InternalName>
+        <Type>Runnable</Type>
+      </FXElement>
+      
+    </FXElement>
+
+  </FXElement>
+  
+</FXElementList>

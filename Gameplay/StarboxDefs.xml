@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StarboxTypes
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarboxDefs.xsd">
+
+  <Starbox>
+    <InternalName>DefaultStarbox</InternalName>
+    <FadeOutInGalaxyView>true</FadeOutInGalaxyView>
+    
+    <NumStars>12000</NumStars>
+    <MinStarRange>0</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Hemisphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>10</MinPointSize>
+    <MaxPointSize>50</MaxPointSize>
+
+    <NumRandomNebula>20</NumRandomNebula>
+    <NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+    <NebulaFillRatio>10.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.25</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+    
+    <MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+    <MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+    <MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+    <MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+    <MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+    <MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+    
+    <MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+    <MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+    <MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+    <MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+    <MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+    <MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>0</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>0.2</RandomBackdropFillRatio>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>1000</MinForegroundRange>
+    <MaxForegroundRange>5000</MaxForegroundRange>
+
+    <RandomVFX>ShootingStarFX</RandomVFX>
+    <MinInterRandomVFXWait>10</MinInterRandomVFXWait>
+    <MaxInterRandomVFXWait>30</MaxInterRandomVFXWait>
+    <MinRandomVFXScaleFactor>0.03</MinRandomVFXScaleFactor>
+    <MaxRandomVFXScaleFactor>0.08</MaxRandomVFXScaleFactor>
+
+    <MinStarIntensity>0.6</MinStarIntensity>
+    <MaxStarIntensity>3.0</MaxStarIntensity>
+    <MinNebulaIntensity>1.5</MinNebulaIntensity>
+    <MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.25</MinBackdropIntensity>
+    <MaxBackdropIntensity>2.0</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>3.0</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.25</MinForegroundIntensity>
+    <MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+  <Starbox>
+    <InternalName>ShipDesignStarbox</InternalName>
+    <NumStars>12000</NumStars>
+    <MinStarRange>0</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Hemisphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>10</MinPointSize>
+    <MaxPointSize>50</MaxPointSize>
+
+    <NumRandomNebula>20</NumRandomNebula>
+    <NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+    <NebulaFillRatio>10.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.25</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+    <MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+    <MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+    <MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+    <MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+    <MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+    <MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+    <MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+    <MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+    <MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+    <MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+    <MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+    <MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>0</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>0.2</RandomBackdropFillRatio>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>1000</MinForegroundRange>
+    <MaxForegroundRange>5000</MaxForegroundRange>
+
+    <RandomVFX>ShootingStarFX</RandomVFX>
+    <MinInterRandomVFXWait>10</MinInterRandomVFXWait>
+    <MaxInterRandomVFXWait>30</MaxInterRandomVFXWait>
+    <MinRandomVFXScaleFactor>0.03</MinRandomVFXScaleFactor>
+    <MaxRandomVFXScaleFactor>0.08</MaxRandomVFXScaleFactor>
+
+    <MinStarIntensity>0.6</MinStarIntensity>
+    <MaxStarIntensity>3.0</MaxStarIntensity>
+    <MinNebulaIntensity>1.5</MinNebulaIntensity>
+    <MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.25</MinBackdropIntensity>
+    <MaxBackdropIntensity>2.0</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>3.0</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.25</MinForegroundIntensity>
+    <MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+	<Starbox>
+		<InternalName>CustomFactionStarbox</InternalName>
+		<NumStars>10000</NumStars>
+		<MinStarRange>0</MinStarRange>
+		<MaxStarRange>15000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+
+		<MinStarIntensity>0.5</MinStarIntensity>
+		<MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+		<MinBackdropIntensity>0.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>0.0</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>2.5</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>3.5</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>0.0</MinForegroundIntensity>
+		<MaxForegroundIntensity>0.0</MaxForegroundIntensity>
+
+	</Starbox>
+
+  <Starbox>
+    <InternalName>BattleViewerStarbox_Vacant_01</InternalName>
+    <NumStars>27000</NumStars>
+    <MinStarRange>10000</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Sphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>15</MinPointSize>
+    <MaxPointSize>25</MaxPointSize>
+    <NumRandomNebula>20</NumRandomNebula>
+    <NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+    <NebulaFillRatio>10.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.25</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+    
+    <MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+    <MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+    <MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+    <MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+    <MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+    <MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+    
+    <MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+    <MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+    <MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+    <MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+    <MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+    <MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>12</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.20</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>10.0</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.875</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.20</MaxBackdropOpacity>
+    <RandomBackdropTexture>Gfx/Space/invasion01.png</RandomBackdropTexture>
+    <RandomBackdropTexture>Gfx/Space/Nebula2.png</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource07.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>10000</MaxForegroundRange>
+
+    <MinStarIntensity>1.0</MinStarIntensity>
+    <MaxStarIntensity>2.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.7</MinNebulaIntensity>
+		<MaxNebulaIntensity>3.0</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.0</MinBackdropIntensity>
+    <MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>1.5</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>1.5</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.25</MinForegroundIntensity>
+    <MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+    <!--<AtCameraEffect>BattlefieldDebrisCloud_AroundCamera1</AtCameraEffect>-->
+
+    <!--<DynamicEffectPlacement>
+      <EffectName>BattlefieldDebrisCloud_Red_1</EffectName>
+      <MinCount>1</MinCount>
+      <MaxCount>1</MaxCount>
+      <InnerRadius>0</InnerRadius>
+      <OuterRadius>0</OuterRadius>
+    </DynamicEffectPlacement>-->
+
+  </Starbox>
+
+  <Starbox>
+    <InternalName>BattleViewerStarbox_Vacant_02</InternalName>
+    <NumStars>17000</NumStars>
+    <MinStarRange>10000</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Sphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>10</MinPointSize>
+    <MaxPointSize>15</MaxPointSize>
+    <NumRandomNebula>20</NumRandomNebula>
+    <NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+    <NebulaFillRatio>10.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.25</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+    
+    <MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+    <MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+    <MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+    <MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+    <MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+    <MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+    
+    <MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+    <MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+    <MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+    <MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+    <MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+    <MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>13</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.20</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>9.0</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.875</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.20</MaxBackdropOpacity>
+    <RandomBackdropTexture>Gfx/Space/invasion03.png</RandomBackdropTexture>
+    <RandomBackdropTexture>Gfx/Space/gasCloud02.png</RandomBackdropTexture>
+    <RandomBackdropTexture>Temp/Gfx/Space/radiationCloud01.dds</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource03.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>10000</MaxForegroundRange>
+
+    <MinStarIntensity>1.0</MinStarIntensity>
+    <MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.1</MinBackdropIntensity>
+    <MaxBackdropIntensity>1.4</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>1.4</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>1.4</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.25</MinForegroundIntensity>
+    <MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+    <!--<AtCameraEffect>BattlefieldDebrisCloud_AroundCamera1_Blue</AtCameraEffect>-->
+
+    <DynamicEffectPlacement>
+      <EffectName>BattlefieldDebrisCloud_Blue_1</EffectName>
+      <MinCount>1</MinCount>
+      <MaxCount>1</MaxCount>
+      <InnerRadius>0</InnerRadius>
+      <OuterRadius>0</OuterRadius>
+    </DynamicEffectPlacement>
+
+  </Starbox>
+
+	<!--Deep Space and stars, light red nebula.-->
+  <Starbox>
+    <InternalName>BattleViewerStarbox_Vacant_03</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>10000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>2</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+		<NumRandomBackdrops>10</NumRandomBackdrops>
+		<RandomBackdropMaxMinRatio>1.20</RandomBackdropMaxMinRatio>
+		<RandomBackdropFillRatio>10.0</RandomBackdropFillRatio>
+		<MinBackdropOpacity>0.55</MinBackdropOpacity>
+		<MaxBackdropOpacity>1.00</MaxBackdropOpacity>
+		<RandomBackdropTexture>Gfx/Space/invasion01.png</RandomBackdropTexture>
+		<RandomBackdropTexture>Gfx/Space/Nebula2.png</RandomBackdropTexture>
+		<BackdropTextureWithLightSource>gfx/space/lightSource08.png</BackdropTextureWithLightSource>
+
+		<NumRandomForegrounds>0</NumRandomForegrounds>
+		<MinForegroundSize>100</MinForegroundSize>
+		<MaxForegroundSize>500</MaxForegroundSize>
+		<RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+		<MinForegroundRange>20000</MinForegroundRange>
+		<MaxForegroundRange>20000</MaxForegroundRange>
+
+		<MinStarIntensity>1.0</MinStarIntensity>
+		<MaxStarIntensity>3.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.7</MinNebulaIntensity>
+		<MaxNebulaIntensity>3.0</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.1</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.1</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+    <!--<AtCameraEffect>BattlefieldDebrisCloud_AroundCamera1_Blue</AtCameraEffect>
+
+    <DynamicEffectPlacement>
+      <EffectName>BattlefieldDebrisCloud_Blue_1</EffectName>
+      <MinCount>1</MinCount>
+      <MaxCount>1</MaxCount>
+      <InnerRadius>0</InnerRadius>
+      <OuterRadius>0</OuterRadius>
+    </DynamicEffectPlacement>-->
+
+  </Starbox>
+
+	<Starbox>
+		<InternalName>BattleViewerStarbox_Hypergate_01</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>10000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>2</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+		
+		<NumRandomBackdrops>50</NumRandomBackdrops>
+		<RandomBackdropMaxMinRatio>1.25</RandomBackdropMaxMinRatio>
+		<RandomBackdropFillRatio>10.0</RandomBackdropFillRatio>
+		<MinBackdropOpacity>0.25</MinBackdropOpacity>
+		<MaxBackdropOpacity>0.75</MaxBackdropOpacity>
+		<RandomBackdropTexture>gfx/space/Nebula-4B.png</RandomBackdropTexture>
+		<RandomBackdropTexture>gfx/space/invasion03.png</RandomBackdropTexture>
+		<RandomBackdropTexture>gfx/space/Nebula-2B.png</RandomBackdropTexture>
+		<BackdropTextureWithLightSource>gfx/space/lightSource05.png</BackdropTextureWithLightSource>
+
+		<NumRandomForegrounds>0</NumRandomForegrounds>
+		<MinForegroundSize>3500</MinForegroundSize>
+		<MaxForegroundSize>5500</MaxForegroundSize>
+		<RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+		<MinForegroundRange>5000</MinForegroundRange>
+		<MaxForegroundRange>30000</MaxForegroundRange>
+
+		<MinStarIntensity>1.0</MinStarIntensity>
+		<MaxStarIntensity>3.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.7</MinNebulaIntensity>
+		<MaxNebulaIntensity>3.0</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.1</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.1</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+		
+	</Starbox>
+	
+  <Starbox>
+    <InternalName>BattleViewerStarbox_Asteroids_01</InternalName>
+    <NumStars>7000</NumStars>
+    <MinStarRange>10000</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Sphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>15</MinPointSize>
+    <MaxPointSize>25</MaxPointSize>
+
+    <NumRandomNebula>50</NumRandomNebula>
+    <NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+    <NebulaFillRatio>5.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.25</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.75</MaxNebulaOpacity>
+		<RandomNebulaTexture>gfx/space/asteroidFieldCloud01.png</RandomNebulaTexture>
+
+    <NumRandomBackdrops>65</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.5</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>8.5</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.0</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.0</MaxBackdropOpacity>
+    <RandomBackdropTexture>gfx/space/asteroidFieldCloud01.png</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource02.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>10</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>1000</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>30000</MaxForegroundRange>
+
+		<MinStarIntensity>1.0</MinStarIntensity>
+		<MaxStarIntensity>2.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.0</MinNebulaIntensity>
+		<MaxNebulaIntensity>1.2</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.5</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.5</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+		<DynamicEffectPlacement>
+			<EffectName>BattleAsteroidParticleEffect</EffectName>
+			<MinCount>100</MinCount>
+			<MaxCount>200</MaxCount>
+			<InnerRadius>4000</InnerRadius>
+			<OuterRadius>7000</OuterRadius>
+		</DynamicEffectPlacement>
+		
+		<DynamicObjectPlacement>
+			<ObjectGfxConfig>Battle_Asteroids_02.objgfxcfg</ObjectGfxConfig>
+			<Material1>Asteroid_Material_01</Material1>
+			<Material2>Durantium_Material_01</Material2>
+			<Surface1>Default_Surface_01</Surface1>
+			<Surface2>Default_Surface_04</Surface2>
+			<Appearance>Appearance_Asteroid</Appearance>
+			<MinCount>300</MinCount>
+			<MaxCount>500</MaxCount>
+			<InnerRadius>5000</InnerRadius>
+			<OuterRadius>15000</OuterRadius>
+			<MinScale>10</MinScale>
+			<MaxScale>15</MaxScale>
+		</DynamicObjectPlacement>
+
+  </Starbox>
+
+	<!--Nebula - Storm-->
+  <Starbox>
+    <InternalName>BattleViewerStarbox_StormCloud_01</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>24000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>2</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>225</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.5</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>12.0</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.35</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.0</MaxBackdropOpacity>
+    <RandomBackdropTexture>gfx/space/stormCloud01.png</RandomBackdropTexture>
+		<RandomBackdropTexture>gfx/space/nebula1.png</RandomBackdropTexture>
+    <RandomBackdropTexture>gfx/space/nebula7.png</RandomBackdropTexture>
+		<RandomBackdropTexture>gfx/space/asteroidFieldCloud01.png</RandomBackdropTexture>
+		<BackdropTextureWithLightSource>gfx/space/lightSource01.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>50</MinForegroundSize>
+    <MaxForegroundSize>250</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>30000</MaxForegroundRange>
+
+		<MinStarIntensity>1.0</MinStarIntensity>
+		<MaxStarIntensity>3.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.7</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.0</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.1</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.1</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+  <!--Nebula Radation-->
+  <Starbox>
+    <InternalName>BattleViewerStarbox_RadiationCloud_01</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>24000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>10</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/radiationCloud01.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/radiationCloud02.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+		<NumRandomBackdrops>155</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.2</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>11.0</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.0</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.0</MaxBackdropOpacity>
+    <RandomBackdropTexture>gfx/space/radiationCloud01.png</RandomBackdropTexture>
+    <RandomBackdropTexture>gfx/space/radiationCloud02.png</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource03.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>50</MinForegroundSize>
+    <MaxForegroundSize>250</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>30000</MaxForegroundRange>
+
+		<MinStarIntensity>1.0</MinStarIntensity>
+		<MaxStarIntensity>3.0</MaxStarIntensity>
+		<MinNebulaIntensity>0.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>1.0</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.1</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.1</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+	
+	<!--Normal Nebula-->
+  <Starbox>
+    <InternalName>BattleViewerStarbox_NebulaCloud_01</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>20000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>2</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+		
+    <NumRandomBackdrops>235</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.25</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>9.5</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.7</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.0</MaxBackdropOpacity>
+    <RandomBackdropTexture>gfx/space/nebulaCloud01.png</RandomBackdropTexture>
+    <RandomBackdropTexture>gfx/space/nebulaCloud02.png</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource04.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>50</MinForegroundSize>
+    <MaxForegroundSize>250</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>30000</MaxForegroundRange>
+
+    <MinStarIntensity>0.5</MinStarIntensity>
+    <MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.7</MinNebulaIntensity>
+		<MaxNebulaIntensity>3.0</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.0</MinBackdropIntensity>
+		<MaxBackdropIntensity>1.2</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>1.5</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>1.5</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+	<!--Nebula GasCloud-->
+  <Starbox>
+    <InternalName>BattleViewerStarbox_GasCloud_01</InternalName>
+		<NumStars>15000</NumStars>
+		<MinStarRange>24000</MinStarRange>
+		<MaxStarRange>25000</MaxStarRange>
+		<LayoutStyle>Sphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>15</MinPointSize>
+		<MaxPointSize>25</MaxPointSize>
+		<NumRandomNebula>10</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>10.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/invasion03.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+    <NumRandomBackdrops>50</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1.25</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>10.0</RandomBackdropFillRatio>
+    <MinBackdropOpacity>0.25</MinBackdropOpacity>
+    <MaxBackdropOpacity>1.0</MaxBackdropOpacity>
+    <RandomBackdropTexture>gfx/space/gasCloud01.png</RandomBackdropTexture>
+    <RandomBackdropTexture>gfx/space/gasCloud02.png</RandomBackdropTexture>
+    <BackdropTextureWithLightSource>gfx/space/lightSource05.png</BackdropTextureWithLightSource>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>3500</MinForegroundSize>
+    <MaxForegroundSize>5500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>5000</MinForegroundRange>
+    <MaxForegroundRange>30000</MaxForegroundRange>
+
+    <MinStarIntensity>0.5</MinStarIntensity>
+    <MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.0</MinBackdropIntensity>
+    <MaxBackdropIntensity>1.0</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>1.0</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>1.0</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.0</MinForegroundIntensity>
+    <MaxForegroundIntensity>1.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+	<!--Not Used-->
+  <Starbox>
+    <InternalName>InvasionViewerStarbox</InternalName>
+    <NumStars>7000</NumStars>
+    <MinStarRange>10000</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Sphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>15</MinPointSize>
+    <MaxPointSize>25</MaxPointSize>
+
+    <NumRandomNebula>25</NumRandomNebula>
+    <NebulaMaxMinRatio>1.2</NebulaMaxMinRatio>
+    <NebulaFillRatio>6.5</NebulaFillRatio>
+    <MinNebulaOpacity>0.2</MinNebulaOpacity>
+    <MaxNebulaOpacity>1.0</MaxNebulaOpacity>
+    <RandomNebulaTexture>Temp/Gfx/Space/invasion01.png</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/invasion02.png</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/invasion03.png</RandomNebulaTexture>
+
+    <NumRandomBackdrops>0</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>1</RandomBackdropFillRatio>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>10</MinForegroundSize>
+    <MaxForegroundSize>50</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>2000</MinForegroundRange>
+    <MaxForegroundRange>10000</MaxForegroundRange>
+
+    <MinStarIntensity>0.5</MinStarIntensity>
+    <MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.0</MinBackdropIntensity>
+    <MaxBackdropIntensity>1.0</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>2.0</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.0</MinForegroundIntensity>
+    <MaxForegroundIntensity>1.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+  <Starbox>
+    <InternalName>DiplomacyViewStarbox</InternalName>
+    <NumStars>6000</NumStars>
+    <MinStarRange>0</MinStarRange>
+    <MaxStarRange>15000</MaxStarRange>
+    <LayoutStyle>Hemisphere</LayoutStyle>
+
+    <CameraDistanceBegin>20000</CameraDistanceBegin>
+    <CameraDistanceEnd>40000</CameraDistanceEnd>
+    <CameraHeightBegin>7500</CameraHeightBegin>
+    <CameraHeightEnd>10000</CameraHeightEnd>
+
+    <StarColor>StarColor1</StarColor>
+    <StarColor>StarColor2</StarColor>
+    <StarColor>StarColor3</StarColor>
+    <StarColor>StarColor4</StarColor>
+    <StarColor>StarColor5</StarColor>
+    <StarColor>StarColor6</StarColor>
+    <StarColor>StarColor7</StarColor>
+
+    <StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star1.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+    <StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+    <MinPointSize>15</MinPointSize>
+    <MaxPointSize>25</MaxPointSize>
+
+    <NumRandomNebula>10</NumRandomNebula>
+    <NebulaMaxMinRatio>2</NebulaMaxMinRatio>
+    <NebulaFillRatio>1.0</NebulaFillRatio>
+    <MinNebulaOpacity>0.05</MinNebulaOpacity>
+    <MaxNebulaOpacity>0.2</MaxNebulaOpacity>
+
+
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula0.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula1.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula2.dds</RandomNebulaTexture>
+    <RandomNebulaTexture>Temp/Gfx/Space/Nebula1.dds</RandomNebulaTexture>
+
+    <NumRandomBackdrops>0</NumRandomBackdrops>
+    <RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+    <RandomBackdropFillRatio>1</RandomBackdropFillRatio>
+
+    <NumRandomForegrounds>0</NumRandomForegrounds>
+    <MinForegroundSize>100</MinForegroundSize>
+    <MaxForegroundSize>500</MaxForegroundSize>
+    <RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+    <RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+    <MinForegroundRange>1000</MinForegroundRange>
+    <MaxForegroundRange>5000</MaxForegroundRange>
+
+    <RandomVFX>ShootingStarFX</RandomVFX>
+    <MinInterRandomVFXWait>10</MinInterRandomVFXWait>
+    <MaxInterRandomVFXWait>30</MaxInterRandomVFXWait>
+    <MinRandomVFXScaleFactor>0.02</MinRandomVFXScaleFactor>
+    <MaxRandomVFXScaleFactor>0.08</MaxRandomVFXScaleFactor>
+
+    <MinStarIntensity>0.5</MinStarIntensity>
+    <MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+    <MinBackdropIntensity>1.25</MinBackdropIntensity>
+    <MaxBackdropIntensity>2.0</MaxBackdropIntensity>
+    <MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+    <MaxBackdropWithLightSourceIntensity>2.0</MaxBackdropWithLightSourceIntensity>
+    <MinForegroundIntensity>1.25</MinForegroundIntensity>
+    <MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+  <Starbox>
+    <InternalName>FleetDetailsStarbox</InternalName>
+		<NumStars>5000</NumStars>
+		<MinStarRange>0</MinStarRange>
+		<MaxStarRange>15000</MaxStarRange>
+		<LayoutStyle>Hemisphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>10</MinPointSize>
+		<MaxPointSize>50</MaxPointSize>
+
+		<NumRandomNebula>20</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>20.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+		<NumRandomBackdrops>0</NumRandomBackdrops>
+		<RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+		<RandomBackdropFillRatio>0.2</RandomBackdropFillRatio>
+
+		<NumRandomForegrounds>0</NumRandomForegrounds>
+		<MinForegroundSize>100</MinForegroundSize>
+		<MaxForegroundSize>500</MaxForegroundSize>
+		<RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+		<MinForegroundRange>1000</MinForegroundRange>
+		<MaxForegroundRange>5000</MaxForegroundRange>
+
+		<RandomVFX>ShootingStarFX</RandomVFX>
+		<MinInterRandomVFXWait>10</MinInterRandomVFXWait>
+		<MaxInterRandomVFXWait>30</MaxInterRandomVFXWait>
+		<MinRandomVFXScaleFactor>0.03</MinRandomVFXScaleFactor>
+		<MaxRandomVFXScaleFactor>0.08</MaxRandomVFXScaleFactor>
+
+		<MinStarIntensity>0.6</MinStarIntensity>
+		<MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.25</MinBackdropIntensity>
+		<MaxBackdropIntensity>2.0</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>2.0</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+
+  </Starbox>
+
+  <Starbox>
+    <InternalName>StarbaseStarbox</InternalName>
+		<NumStars>5000</NumStars>
+		<MinStarRange>0</MinStarRange>
+		<MaxStarRange>15000</MaxStarRange>
+		<LayoutStyle>Hemisphere</LayoutStyle>
+
+		<CameraDistanceBegin>20000</CameraDistanceBegin>
+		<CameraDistanceEnd>40000</CameraDistanceEnd>
+		<CameraHeightBegin>7500</CameraHeightBegin>
+		<CameraHeightEnd>10000</CameraHeightEnd>
+
+		<StarColor>StarColor1</StarColor>
+		<StarColor>StarColor2</StarColor>
+		<StarColor>StarColor3</StarColor>
+		<StarColor>StarColor4</StarColor>
+		<StarColor>StarColor5</StarColor>
+		<StarColor>StarColor6</StarColor>
+		<StarColor>StarColor7</StarColor>
+
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star0.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star2.png</StarTexture>
+		<StarTexture>Temp/Gfx/Space/Star3.png</StarTexture>
+
+		<MinPointSize>10</MinPointSize>
+		<MaxPointSize>50</MaxPointSize>
+
+		<NumRandomNebula>20</NumRandomNebula>
+		<NebulaMaxMinRatio>2.0</NebulaMaxMinRatio>
+		<NebulaFillRatio>20.0</NebulaFillRatio>
+		<MinNebulaOpacity>0.25</MinNebulaOpacity>
+		<MaxNebulaOpacity>0.7</MaxNebulaOpacity>
+
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-1B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-2B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-3B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-4B.dds</RandomNebulaTexture>
+		<RandomNebulaTexture>Temp/Gfx/Space/Nebula-5B.dds</RandomNebulaTexture>
+
+		<MinStarFlickerTimeFactor>10</MinStarFlickerTimeFactor>
+		<MaxStarFlickerTimeFactor>20</MaxStarFlickerTimeFactor>
+		<MinStarFlickerTimePhase>0</MinStarFlickerTimePhase>
+		<MaxStarFlickerTimePhase>5</MaxStarFlickerTimePhase>
+		<MinStarFlickerIntensityFactor>0.2</MinStarFlickerIntensityFactor>
+		<MaxStarFlickerIntensityFactor>0.6</MaxStarFlickerIntensityFactor>
+
+		<MinShimmerSawtoothCount>1</MinShimmerSawtoothCount>
+		<MaxShimmerSawtoothCount>10</MaxShimmerSawtoothCount>
+		<MinShimmerTimeFactor>50</MinShimmerTimeFactor>
+		<MaxShimmerTimeFactor>100</MaxShimmerTimeFactor>
+		<MinShimmerScaleFactor>.01</MinShimmerScaleFactor>
+		<MaxShimmerScaleFactor>.05</MaxShimmerScaleFactor>
+
+		<NumRandomBackdrops>0</NumRandomBackdrops>
+		<RandomBackdropMaxMinRatio>1</RandomBackdropMaxMinRatio>
+		<RandomBackdropFillRatio>0.2</RandomBackdropFillRatio>
+
+		<NumRandomForegrounds>0</NumRandomForegrounds>
+		<MinForegroundSize>100</MinForegroundSize>
+		<MaxForegroundSize>500</MaxForegroundSize>
+		<RandomForegroundTexture>gfx/space/asteroids01.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids02.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids03.png</RandomForegroundTexture>
+		<RandomForegroundTexture>gfx/space/asteroids04.png</RandomForegroundTexture>
+		<MinForegroundRange>1000</MinForegroundRange>
+		<MaxForegroundRange>5000</MaxForegroundRange>
+
+		<RandomVFX>ShootingStarFX</RandomVFX>
+		<MinInterRandomVFXWait>10</MinInterRandomVFXWait>
+		<MaxInterRandomVFXWait>30</MaxInterRandomVFXWait>
+		<MinRandomVFXScaleFactor>0.03</MinRandomVFXScaleFactor>
+		<MaxRandomVFXScaleFactor>0.08</MaxRandomVFXScaleFactor>
+
+		<MinStarIntensity>0.6</MinStarIntensity>
+		<MaxStarIntensity>1.0</MaxStarIntensity>
+		<MinNebulaIntensity>1.5</MinNebulaIntensity>
+		<MaxNebulaIntensity>2.5</MaxNebulaIntensity>
+		<MinBackdropIntensity>1.25</MinBackdropIntensity>
+		<MaxBackdropIntensity>2.0</MaxBackdropIntensity>
+		<MinBackdropWithLightSourceIntensity>2.0</MinBackdropWithLightSourceIntensity>
+		<MaxBackdropWithLightSourceIntensity>2.0</MaxBackdropWithLightSourceIntensity>
+		<MinForegroundIntensity>1.25</MinForegroundIntensity>
+		<MaxForegroundIntensity>2.0</MaxForegroundIntensity>
+		
+  </Starbox>
+
+</StarboxTypes>

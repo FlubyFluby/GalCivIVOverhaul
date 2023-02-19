@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<DiplomacyDisplayDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomacyDisplayDefs.xsd">
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Loves</InternalName>
+    <RelationsRange>
+      <RangeMin>10</RangeMin>
+      <NoMax>true</NoMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_LOVES</DisplayName>
+    <ColorDef>DiplomacyLovesColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Admires</InternalName>
+    <RelationsRange>
+      <RangeMin>7</RangeMin>
+      <RangeMax>9</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_ADMIRES</DisplayName>
+    <ColorDef>DiplomacyAdmiresColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Likes</InternalName>
+    <RelationsRange>
+      <RangeMin>4</RangeMin>
+      <RangeMax>6</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_LIKES</DisplayName>
+    <ColorDef>DiplomacyLikesColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Trusts</InternalName>
+    <RelationsRange>
+      <RangeMin>1</RangeMin>
+      <RangeMax>3</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_TRUSTS</DisplayName>
+    <ColorDef>DiplomacyTrustsColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Apathetic</InternalName>
+    <RelationsRange>
+      <RangeMin>0</RangeMin>
+      <RangeMax>0</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_NEUTRAL</DisplayName>
+    <ColorDef>DiplomacyApatheticColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Distrusts</InternalName>
+    <RelationsRange>
+      <RangeMin>-3</RangeMin>
+      <RangeMax>-1</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_DISTRUSTS</DisplayName>
+    <ColorDef>DiplomacyDistrustsColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Dislikes</InternalName>
+    <RelationsRange>
+      <RangeMin>-6</RangeMin>
+      <RangeMax>-4</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_DISLIKES</DisplayName>
+    <ColorDef>DiplomacyDislikesColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Hostile</InternalName>
+    <RelationsRange>
+      <RangeMin>-9</RangeMin>
+      <RangeMax>-7</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_HOSTILE</DisplayName>
+    <ColorDef>DiplomacyHostileColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+  <DiplomacyDisplayDef>
+    <InternalName>DiplomacyDisplay_Hates</InternalName>
+    <RelationsRange>
+      <NoMin>true</NoMin>
+      <RangeMax>-10</RangeMax>
+    </RelationsRange>
+    <DisplayName>DIPLOMACY_HATES</DisplayName>
+    <ColorDef>DiplomacyHatesColor</ColorDef>
+  </DiplomacyDisplayDef>
+
+</DiplomacyDisplayDefList>

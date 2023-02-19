@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AnomalyArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AnomalyArtDefs.xsd">
+
+  <ArtDefine>
+    <InternalName>ArtifactAnomalyArt</InternalName>
+    <MaterialID1>Ship_Material_01</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+    <SubMaterialID1>Default_Surface_01</SubMaterialID1>
+    <SubMaterialID2>Default_Surface_04</SubMaterialID2>
+    <AppearanceID>Appearance_Anomaly</AppearanceID>
+    <ParticleEffectScript>AnomalyParticleEffect_Basic</ParticleEffectScript>
+    <StrategicIcon>AnomalyArtifact</StrategicIcon>
+    <ColorDef>White</ColorDef>
+    <UIIconFilename>Anomaly_Artifact.png</UIIconFilename>
+    <ObjectGfxConfig>Temp_Anomaly_Artifact_Alpha_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>CapsuleAnomalyArt</InternalName>
+		<MaterialID1>Ship_Material_01</MaterialID1>
+		<MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Anomaly</AppearanceID>
+    <ParticleEffectScript>AnomalyParticleEffect_Basic</ParticleEffectScript>
+    <StrategicIcon>AnomalyCapsule</StrategicIcon>
+    <ColorDef>White</ColorDef>
+    <UIIconFilename>Anomaly_Capsule.png</UIIconFilename>
+    <ObjectGfxConfig>Temp_Anomaly_Capsules_Alpha_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>GraveyardAnomalyArt</InternalName>
+    <MaterialID1>Ship_Material_01</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+    <SubMaterialID1>Default_Surface_01</SubMaterialID1>
+    <SubMaterialID2>Default_Surface_04</SubMaterialID2>
+    <AppearanceID>Appearance_Anomaly</AppearanceID>
+    <ParticleEffectScript>AnomalyParticleEffect_Warning</ParticleEffectScript>
+    <StrategicIcon>AnomalyShipGraveyard</StrategicIcon>
+    <ColorDef>Yellow</ColorDef>
+    <UIIconFilename>Anomaly_Graveyard.png</UIIconFilename>
+    <ObjectGfxConfig>Temp_Anomaly_Graveyard_Alpha_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+  
+    <ArtDefine>
+    <InternalName>SpaceJunkAnomalyArt</InternalName>
+		<MaterialID1>Ship_Material_01</MaterialID1>
+		<MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Anomaly</AppearanceID>
+    <ParticleEffectScript>AnomalyParticleEffect_Basic</ParticleEffectScript>
+      <StrategicIcon>AnomalySpaceJunk</StrategicIcon>
+      <ColorDef>White</ColorDef>
+    <UIIconFilename>Anomaly_Junk.png</UIIconFilename>
+    <ObjectGfxConfig>Temp_Anomaly_SpaceJunk_Alpha_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+  
+    <ArtDefine>
+    <InternalName>WormholeAnomalyArt</InternalName>
+      <MaterialID1>Ship_Material_01</MaterialID1>
+      <MaterialID2>Ship_Material_02</MaterialID2>
+      <SubMaterialID1>Default_Surface_01</SubMaterialID1>
+      <SubMaterialID2>Default_Surface_04</SubMaterialID2>
+      <AppearanceID>Relic_Appearance</AppearanceID>
+      <ParticleEffectScript>WormholeEffect</ParticleEffectScript>
+      <StrategicIcon>AnomalyWormhole</StrategicIcon>
+      <ColorDef>White</ColorDef>
+    <UIIconFilename>GC3_Alpha_Resourse_Icon.png</UIIconFilename>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PrecursorAnomalyArt</InternalName>
+    <MaterialID1>Ship_Material_01</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+    <SubMaterialID1>Default_Surface_01</SubMaterialID1>
+    <SubMaterialID2>Default_Surface_04</SubMaterialID2>
+    <AppearanceID>Steel</AppearanceID>
+    <ParticleEffectScript>PrecursorAnomalyParticleEffect</ParticleEffectScript>
+    <StrategicIcon>AnomalyPrecursor</StrategicIcon>
+    <ColorDef>BrightRed</ColorDef>
+    <UIIconFilename>Anomaly_Precursor.png</UIIconFilename>
+    <ObjectGfxConfig>Precursor_Anomaly_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+</AnomalyArtList>

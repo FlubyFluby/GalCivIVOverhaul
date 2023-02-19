@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetTerrains
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetTerrainDef.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- PlanetTerrainDef.xml -->
+ 
+<!-- Planet Terrain --> 
+ 
+  <PlanetTerrain>
+    <InternalName>PrairieLand</InternalName>
+    <DisplayName>PrairieLand_Name</DisplayName>
+    <Description>PrairieLand_Dec</Description>
+    <Image>Event_Forest.png</Image>
+    <Color>BrightGreen</Color>
+  </PlanetTerrain>
+ 
+<!-- Planet Terrain --> 
+ 
+  <PlanetTerrain>
+    <InternalName>GrasslandTerrain</InternalName>
+    <DisplayName>GrasslandTerrain_Name</DisplayName>
+    <Description>GrasslandTerrain_Dec</Description>
+    <Image>Terrain_Grassland_Thumb.png</Image>
+    <Color>BrightGreen</Color>
+    <Bonus>
+      <EffectType>Level</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+        <ImprovementType>Population</ImprovementType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Bonus>
+  </PlanetTerrain>
+ 
+<!-- Planet Terrain --> 
+ 
+  <PlanetTerrain>
+    <InternalName>MountainousTerrain</InternalName>
+    <DisplayName>MountainousTerrain_Name</DisplayName>
+    <Description>MountainousTerrain_Dec</Description>
+    <Image>Terrain_Mountainous_Thumb.png</Image>
+    <Color>BrightGreen</Color>
+    <Bonus>
+      <EffectType>Level</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+        <ImprovementType>Wealth</ImprovementType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Bonus>
+  </PlanetTerrain>
+ 
+<!-- Planet Terrain --> 
+ 
+  <PlanetTerrain>
+    <InternalName>AridTerrain</InternalName>
+    <DisplayName>AridTerrain_Name</DisplayName>
+    <Description>AridTerrain_Dec</Description>
+    <Image>Terrain_Arid_Thumb.png</Image>
+    <Color>BrightGreen</Color>
+    <Bonus>
+      <EffectType>Level</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+        <ImprovementType>Research</ImprovementType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Bonus>
+  </PlanetTerrain>
+ 
+<!-- Planet Terrain --> 
+ 
+  <PlanetTerrain>
+    <InternalName>WetlandTerrain</InternalName>
+    <DisplayName>WetlandTerrain_Name</DisplayName>
+    <Description>WetlandTerrain_Dec</Description>
+    <Image>Terrain_Wetland_Thumb.png</Image>
+    <Color>BrightGreen</Color>
+    <Bonus>
+      <EffectType>Level</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+        <ImprovementType>Population</ImprovementType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Bonus>
+  </PlanetTerrain>
+ 
+</PlanetTerrains>

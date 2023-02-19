@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+	<!-- Kinetic Weapon Sequence - Kinetic Cannon -->
+	<FXElement>
+		<InternalName>KineticCannon</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticCannon_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticCannon_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticCannonParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.5</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Kinetic Weapon Sequence - Railgun -->
+	<FXElement>
+		<InternalName>KineticRailgun</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticRailgun_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<Wait>1.0</Wait>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticRailgun_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticRailgunParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Kinetic Weapon Sequence - Pulse Cannon -->
+	<FXElement>
+		<InternalName>KineticPulseCannon</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticPulseCannon_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<Wait>1.75</Wait>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticPulseCannon_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticPulseCannonParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Kinetic Weapon Sequences - Graviton Driver -->
+	<FXElement>
+		<InternalName>KineticGravitonDriver</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticGravitonDriver_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<Wait>1.75</Wait>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticGravitonDriver_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticGravitonDriverParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Kinetic Weapon Sequences - Quantum Driver -->
+	<FXElement>
+		<InternalName>KineticQuantumDriver</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticQuantumDriver_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticQuantumDriver_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticQuantumDriverParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.8</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>0.8</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Kinetic Weapon Sequences - Singularity Driver-->
+	<FXElement>
+		<InternalName>KineticSingularityDriver</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>KineticSingularityDriver_Projectile</InternalName>
+			<Type>Projectile</Type>
+			<Wait>1.8</Wait>
+			<KeyValueDecimal>
+				<Key>BattleViewerProjectileSpeed</Key>
+				<Value>700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapProjectileSpeed</Key>
+				<Value>175.0</Value>
+			</KeyValueDecimal>
+
+			<FXElement>
+				<InternalName>KineticSingularityDriver_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>KineticSingularityDriverParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+  <!-- Kinetic Weapon Sequence - Invasion FX -->
+    <FXElement>
+      <InternalName>InvasionFX</InternalName>
+      <Type>Composite</Type>
+
+      <!-- projectile vFX-->
+      <FXElement>
+        <InternalName>InvasionFX_Projectile</InternalName>
+        <Type>Projectile</Type>
+        <KeyValueDecimal>
+          <Key>BattleViewerProjectileSpeed</Key>
+          <Value>1.0</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>MainMapProjectileSpeed</Key>
+          <Value>25.0</Value>
+        </KeyValueDecimal>
+
+        <FXElement>
+          <InternalName>InvasionFX_Particle</InternalName>
+          <Type>Particle</Type>
+          <KeyValueString>
+            <Key>Script</Key>
+            <Value>InvasionFXParticleEffect</Value>
+          </KeyValueString>
+          <KeyValueDecimal>
+            <Key>MainMapUniformScale</Key>
+            <Value>0.3</Value>
+          </KeyValueDecimal>
+          <KeyValueDecimal>
+            <Key>Intensity</Key>
+            <Value>3.0</Value>
+          </KeyValueDecimal>
+          <KeyValueBool>
+            <Key>IgnoreParentScale</Key>
+            <Value>true</Value>
+          </KeyValueBool>
+          <KeyValueBool>
+            <Key>PointParticleYDownParentZ</Key>
+            <Value>true</Value>
+          </KeyValueBool>
+        </FXElement>
+      </FXElement>
+
+      <FXElementRef>MapInvasion_FireWeapon01_Foley</FXElementRef>
+      <FXElementRef>MapInvasion_Small_Explosion01_Foley</FXElementRef>
+    
+    </FXElement>
+
+  <!-- Invasion FX - Explosions 
+  <FXElement>
+    <InternalName>InvasionFX_Hit</InternalName>
+    <Type>Composite</Type>
+    -->
+  
+    <!-- Explosion vFX -->
+    <FXElement>
+      <InternalName>InvasionFX_Hit</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>InvasionExplosionParticleEffect</Value>
+      </KeyValueString>
+
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerUniformScale</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueBool>
+        <Key>IgnoreParentScale</Key>
+        <Value>true</Value>
+      </KeyValueBool>
+
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+    </FXElement>
+
+    <!-- sFX -->
+  <!--
+    <FXElementRef>MapInvasion_FireWeapon01_Foley</FXElementRef>
+    
+  </FXElement>
+  -->
+  
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticCannon_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticCannonEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticCannon_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_CANNON_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticCannon_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticCannon_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticCannon_EmissionFoley</FXElementRef>
+	</FXElement>
+  
+  <!-- Invasion Foley -->
+	<FXElement>
+		<InternalName>MapInvasion_FireWeapon01_Foley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MAP_INVASION_FIRE_WEAPON_01</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+  <FXElement>
+    <InternalName>MapInvasion_Small_Explosion01_Foley</InternalName>
+    <Type>Foley</Type>
+    <KeyValueString>
+      <Key>Sfx</Key>
+      <Value>MAP_INVASION_SMALL_EXPLOSION_01</Value>
+    </KeyValueString>
+    <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+  </FXElement>
+
+  <!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticRailgun_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticRailgunEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticRailgun_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<!-- Synced with the wait period on KineticRailgun_Projectile -->
+		<Wait>1.0</Wait>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_RAILGUN_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticRailgun_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticRailgun_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticRailgun_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticPulseCannon_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticPulseCannonEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticPulseCannon_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<!-- Synced with the wait period on KineticPulseCannon_Projectile -->
+		<Wait>1.75</Wait>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVERPULSE_CANNON_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticPulseCannon_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticPulseCannon_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticPulseCannon_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticGravitonDriver_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGravitonDriverEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticGravitonDriver_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<!-- Synced with the wait period on KineticGravitonDriver_Projectile -->
+		<Wait>1.75</Wait>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_GRAVITON_DRIVER_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticGravitonDriver_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticGravitonDriver_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticGravitonDriver_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticQuantumDriver_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticQuantumDriverEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticQuantumDriver_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_QUANTUM_DRIVER_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticQuantumDriver_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticQuantumDriver_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticQuantumDriver_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>KineticSingularityDriver_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticSingularityDriverEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticSingularityDriver_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<!-- Synced with the wait period on KineticSingularityDriver_Projectile -->
+		<Wait>1.8</Wait>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_SINGULARITY_DRIVER_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticSingularityDriver_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticSingularityDriver_EmissionParticle</FXElementRef>
+		<FXElementRef>KineticSingularityDriver_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticCannon_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticRailgun_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticPulseCannon_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticGravitonDriver_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticQuantumDriver_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>KineticSingularityDriver_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>KineticGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Hit FX -->
+	<FXElement>
+		<InternalName>KineticCannon_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticCannon_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_CANNON_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticCannon_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticCannon_HitFoley</FXElementRef>
+		<FXElementRef>KineticCannon_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>KineticRailgun_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticRailgun_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_RAILGUN_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticRailgun_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticRailgun_HitFoley</FXElementRef>
+		<FXElementRef>KineticRailgun_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>KineticPulseCannon_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticPulseCannon_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_PULSE_CANNON_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticPulseCannon_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticPulseCannon_HitFoley</FXElementRef>
+		<FXElementRef>KineticPulseCannon_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>KineticGravitonDriver_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticGravitonDriver_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_CANNON_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticGravitonDriver_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticGravitonDriver_HitFoley</FXElementRef>
+		<FXElementRef>KineticGravitonDriver_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>KineticQuantumDriver_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticQuantumDriver_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_QUANTUM_DRIVER_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticQuantumDriver_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticQuantumDriver_HitFoley</FXElementRef>
+		<FXElementRef>KineticQuantumDriver_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>KineticSingularityDriver_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticSingularityDriver_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MASS_DRIVER_SINGULARITY_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>KineticSingularity_DriverHit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>KineticSingularityDriver_HitFoley</FXElementRef>
+		<FXElementRef>KineticSingularityDriver_HitParticle</FXElementRef>
+	</FXElement>
+
+</FXElementList>

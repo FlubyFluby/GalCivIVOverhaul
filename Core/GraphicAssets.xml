@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AssetTable
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
+
+	<!-- Compute Shader Files -->
+
+	<Asset>
+		<Tag>COMPUTE_SHADER_FILE_BRIGHT_PASS_HORZ_BLUR</Tag>
+		<Filename>gfx\shaders\BrightPassHorzBlur4.cso</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>COMPUTE_SHADER_FILE_HORZ_BLUR</Tag>
+		<Filename>gfx\shaders\HorzBlur4.cso</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>COMPUTE_SHADER_FILE_VERT_BLUR</Tag>
+		<Filename>gfx\shaders\VertBlur4.cso</Filename>
+	</Asset>
+
+	<!-- Effect Files -->
+	<Asset>
+		<Tag>SHIP_EFFECT_FILE</Tag>
+		<Filename>ship4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHIP_BATCH_EFFECT_FILE</Tag>
+		<Filename>shipBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BLACK_HOLE_EFFECT_FILE</Tag>
+		<Filename>ModelNode4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>STAR_EFFECT_FILE</Tag>
+		<Filename>Star4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_EFFECT_FILE</Tag>
+		<Filename>Planet4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ASTEROID_EFFECT_FILE</Tag>
+		<Filename>ship4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>INFLUENCE_LINE_EFFECT_FILE</Tag>
+		<Filename>Influence4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>INFLUENCE_CIRCLE_EFFECT_FILE</Tag>
+    <Filename>InfluenceCircles4.fxo</Filename>
+  </Asset>
+  
+	<Asset>
+		<Tag>RANGE_LINE_EFFECT_FILE</Tag>
+		<Filename>Range4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RANGE_CIRCLES_EFFECT_FILE</Tag>
+    <Filename>RangeCircles4.fxo</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>PATH_LINE_EFFECT_FILE</Tag>
+		<Filename>PathLine4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>CIRCLE_LINE_EFFECT_FILE</Tag>
+    <Filename>CircleLine4.fxo</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>FOW_EFFECT_FILE</Tag>
+		<Filename>FOW4.fxo</Filename>
+	</Asset>
+  
+  <Asset>
+    <Tag>FOW_BACKGROUND_EFFECT_FILE</Tag>
+    <Filename>FOWBackground4.fxo</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>FOW_CLUSTER_EFFECT_FILE</Tag>
+    <Filename>FOWCluster4.fxo</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>MOUSE_HIGHLIGHT_EFFECT_FILE</Tag>
+		<Filename>MouseHighlight4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>END_PATH_EFFECT_FILE</Tag>
+		<Filename>Path4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MODEL_NODE_EFFECT_FILE</Tag>
+		<Filename>ModelNode4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MAP_BORDER_EFFECT_FILE</Tag>
+		<Filename>MapBorder4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>MAP_BORDER_TRIM_EFFECT_FILE</Tag>
+    <Filename>MapBorderTrim4.fxo</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>TURN_DISTANCE_EFFECT_FILE</Tag>
+		<Filename>TurnDistance4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>HARD_POINT_EFFECT_FILE</Tag>
+		<Filename>HardPointBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MODEL_BATCH_EFFECT_FILE</Tag>
+		<Filename>ModelBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>QUAD_BATCH_EFFECT_FILE</Tag>
+		<Filename>QuadBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BINK_QUAD_BATCH_EFFECT_FILE</Tag>
+		<Filename>BinkQuadBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BINK_EFFECT_FILE</Tag>
+		<Filename>Bink4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GIZMO_EFFECT_FILE</Tag>
+		<Filename>Gizmo4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GRAPH_EFFECT_FILE</Tag>
+		<Filename>Graph4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PARTICLE_EFFECT_FILE</Tag>
+		<Filename>Particle4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SIMPLE_POLY_EFFECT_FILE</Tag>
+		<Filename>SimplePoly4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_SURFACE_EFFECT_FILE</Tag>
+		<Filename>PlanetSurface4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>AOE_EFFECT_FILE</Tag>
+		<Filename>AOE4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LEAN_MAP_EFFECT_FILE</Tag>
+		<Filename>LeanMap4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BEAM_BATCH_EFFECT_FILE</Tag>
+		<Filename>BeamBatch4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GENERIC_LINE_EFFECT_FILE</Tag>
+		<Filename>GenericLine4.fxo</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DIPLOMACY_VIEW_EFFECT_FILE</Tag>
+		<Filename>DiplomacyView4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>MOON_EFFECT_FILE</Tag>
+    <Filename>Moon4.fxo</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>TRAIL_EFFECT_FILE</Tag>
+		<Filename>Trail4.fxo</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RING_EFFECT_FILE</Tag>
+    <Filename>Ring4.fxo</Filename>
+  </Asset>
+
+	<!-- Map Textures -->
+
+	<Asset>
+		<Tag>RESOURCE_PATH_LINE_TEXTURE</Tag>
+		<Filename>gfx/GC3_Asteroid_Path_Line_Arrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TRADE_PATH_LINE_TEXTURE</Tag>
+		<Filename>gfx/GC3_Economic_Path_Line.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHIPYARD_PATH_LINE_TEXTURE</Tag>
+		<Filename>gfx/GC3_Economic_Path_Line.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>HYPERGATE_PATH_LINE_TEXTURE</Tag>
+    <Filename>gfx/Hyperlane_Line.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ASTEROID_PATH_LINE_TEXTURE</Tag>
+    <Filename>gfx/GC3_Asteroid_Path_Line_Arrow.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>FLEET_PATH_LINE_TEXTURE</Tag>
+		<Filename>gfx/GC3_Path_Line_Arrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TURN_DISTANCE_TEXTURE</Tag>
+		<Filename>gfx/GC3_Move_Markers_1-10.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FOW_BORDER_TEXTURE</Tag>
+		<Filename>gfx/GC3_Fog_Wall.png</Filename>
+	</Asset>
+
+
+	<!-- Gradient Maps -->
+
+	<Asset>
+		<Tag>OBJECT_GRADIENT_MAP</Tag>
+		<Filename>GradientMap.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>OBJECT_LIGHT_GRADIENT_MAP</Tag>
+		<Filename>GradientMapLights.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>WEAPON_GRADIENT_MAP</Tag>
+		<Filename>GradientMapWeapons.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DEFENSE_GRADIENT_MAP</Tag>
+		<Filename>GradientMapWeapons.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>PLANET_RING_GRADIENT_MAP</Tag>
+    <Filename>GradientMap.png</Filename>    
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_PLANET_GRADIENT</Tag>
+    <Filename>gfx/planets/Invasion_Gradient.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_PLANET_BASE_GRADIENT</Tag>
+    <Filename>gfx/planets/Invasion_Base_Gradient.png</Filename>
+  </Asset>
+
+	<!-- Default, Environment Maps, everything but battles-->
+  <!--<Asset>
+    <Tag>ENVIRONMENT_MAP_RADIANCE</Tag>
+    <Filename>gfx/SpaceMap2.dds</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ENVIRONMENT_MAP_IRRADIANCE</Tag>
+    <Filename>gfx/SpaceMap2_Irradiance.dds</Filename>
+  </Asset>-->
+
+	<Asset>
+		<Tag>ENVIRONMENT_MAP_RADIANCE</Tag>
+		<Filename>gfx/Spacemap_03_1K.dds</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ENVIRONMENT_MAP_IRRADIANCE</Tag>
+		<Filename>gfx/Spacemap_03_Irradiance_Shadow.dds</Filename>
+	</Asset>
+	
+	<!-- FOW Graphics -->
+	<Asset>
+		<Tag>FOW_MASK_TEXTURE</Tag>
+		<Filename>gfx/Fog_Mask.dds</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FOW_BORDER_TEXTURE</Tag>
+		<Filename>gfx/GC3_Fog_Wall.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>FOW_OVERLAY_TEXTURE</Tag>
+    <Filename>gfx/HexGrid.png</Filename>
+  </Asset>
+
+	<!-- Selection Cursor Graphics -->
+	<Asset>
+		<Tag>SELECTION_CURSOR_LAYER_0</Tag>
+		<Filename>gfx/Selection_Main.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SELECTION_CURSOR_LAYER_1</Tag>
+		<Filename>gfx/Selection_Main_Ticks_Large.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SELECTION_CURSOR_LAYER_2</Tag>
+		<Filename>gfx/Selection_Main_Ticks_Small.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SELECTION_CURSOR_LAYER_3</Tag>
+		<Filename>gfx/Selection_Moves_Overlay.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DIPLOMACY_LINE_ENDCAP</Tag>
+		<Filename>Line_Endcap.png</Filename>
+	</Asset>
+
+	<!-- Ship Designer -->
+	<Asset>
+		<Tag>HARD_POINT_MODEL</Tag>
+		<Filename>gfx/gizmo/cone_01.sdf</Filename>
+	</Asset>
+
+	<!-- Gizmos -->
+	<Asset>
+		<Tag>GIZMO_MODEL_TRANSLATE</Tag>
+		<Filename>gfx/gizmo/cone_01.sdf</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GIZMO_MODEL_SCALE</Tag>
+		<Filename>gfx/gizmo/cube_01.sdf</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MIRROR_PLANE_GIZMO_TEXTURE</Tag>
+		<Filename>gfx/gizmo/slice_grid.png</Filename>
+	</Asset>
+
+	<!-- Movies -->
+
+	<Asset>
+		<Tag>MOVIE_INTRO</Tag>
+		<Filename>Intro_Movie.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TITLE_BG</Tag>
+    	<Filename>MainMenu.bk2</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>TITLE_LOGO</Tag>
+		<Filename>homescreen_logo.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GALAXY_SPIRAL_MOVIE</Tag>
+		<Filename>galaxySpiral.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LOADING_BG</Tag>
+    	<Filename>GC4-LoadingBG.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LOADING_FG</Tag>
+		<Filename>galaxySpiral.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_HALO_TEXTURE</Tag>
+		<Filename>gfx/PlanetGfx/PlanetHalo.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>PLANET_HALO_EFFECT_TEXTURE</Tag>
+    <Filename>gfx/PlanetGfx/PlanetHaloEffect.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>QUIT_CONFIRM_IMAGE</Tag>
+		<Filename>Quit_Game_Image.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>DELETE_SHIP_DESIGN_CONFIRM_IMAGE</Tag>
+    <Filename>Quit_Game_Image.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>BATTLE_ENCOUNTER_CONFIRM_IMAGE</Tag>
+    <Filename>Battle.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>STARTING_NEW_TURN_ICON</Tag>
+    <Filename>GC4_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>PLAYER_REVIEW_CONFIRM_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>GRAPHICS_CONFIRM_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>COLONIZE_CONFIRM_IMAGE</Tag>
+		<Filename>Colonize_Planet_Icon.png</Filename>
+	</Asset>
+
+	<!-- Planet HUD -->
+	<Asset>
+		<Tag>BUILDING_IMPROVEMENT_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Building_Improvement_Icon.dds</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BUILDING_SHIP_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Building_Ship_Icon.dds</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CAPITAL_ICON</Tag>
+		<Filename>GC3_CivilizationCapital_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>REBELLING_ICON</Tag>
+		<Filename>GC3_Rebelling_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GALACTIC_CAPITAL_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Galactic_Capital_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PROJECT_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Project_Icon.dds</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DEFENDED_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Defended_Icon.dds</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>INSTACK_ICON</Tag>
+    <Filename>Stack_Hud_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+		<Tag>UPGRADING_ICON</Tag>
+		<Filename>Upgrade_Hud_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UPGRADE_AVAILABLE_ICON</Tag>
+		<Filename>GC3_Upgrade_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MERCENARY_ICON</Tag>
+		<Filename>Merc_Hud.dds</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>GOV_SHIP_ICON</Tag>
+    <Filename>Gov_Hud_Icon.dds</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>SURVEYING_HUD_ICON</Tag>
+    <Filename>Survey_Hud_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>SIEGE_HUD_ICON</Tag>
+    <Filename>Siege_Hud_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>REPAIRING_HUD_ICON</Tag>
+    <Filename>Upgrade_Hud_Icon.png</Filename>
+  </Asset>
+  
+	<!-- General -->
+
+	<Asset>
+		<Tag>APPROVAL_HAPPY_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Approval_Content_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>APPROVAL_CONTENT_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Approval_Happy_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>APPROVAL_SAD_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Approval_Sad_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NEGATIVE_TREASURY_ICON</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RAINBOW_GRADIENT</Tag>
+    <Filename>color_pick_rainbow.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>HYPERLANE_LINE_ENDCAP</Tag>
+    <Filename>Line_Endcap.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Quest_Inline_Icon</Tag>
+		<Filename>Quest_Inline_Icon.png</Filename>
+	</Asset>
+
+	
+
+	<!-- Planet tooltip -->
+
+	<Asset>
+		<Tag>PLANETCLASS_DEAD_ICON</Tag>
+		<Filename>gfx/Icons/GC3_Dead_Planet_Icon.png</Filename>
+	</Asset>
+	<Asset>
+		<Tag>PLANETCLASS_COLONIZABLE_ICON</Tag>
+		<Filename>gfx/Icons/GC3_ColonizablePlanet_Icon.png</Filename>
+	</Asset>
+	<Asset>
+		<Tag>PLANETCLASS_GOOD_ICON</Tag>
+		<Filename>gfx/Icons/GC3_GoodPlanet_Icon.png</Filename>
+	</Asset>
+	<Asset>
+		<Tag>PLANETCLASS_GREAT_ICON</Tag>
+		<Filename>gfx/Icons/GC3_GreatPlanet_Icon.png</Filename>
+	</Asset>
+	<Asset>
+		<Tag>PLANETCLASS_FANTASTIC_ICON</Tag>
+		<Filename>gfx/Icons/GC3_FantasticPlanet_Icon.png</Filename>
+	</Asset>
+	<Asset>
+		<Tag>PLANETCLASS_PERFECT_ICON</Tag>
+		<Filename>gfx/Icons/GC3_PerfectPlanet_Icon.png</Filename>
+	</Asset>
+
+	<!-- Strategic Icons -->
+
+	<Asset>
+		<Tag>STRATEGIC_ICON_TEXTURE</Tag>
+		<Filename>GC3_Strategic_Icons.dds</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>GALAXY_INDICATOR_TEXTURE</Tag>
+    <Filename>GC4_Galaxy_Indicators.dds</Filename>
+  </Asset>
+
+	<!-- Mini Map -->
+
+	<Asset>
+		<Tag>MINI_MAP_ICON_TEXTURE</Tag>
+		<Filename>GC3_Mini_Map_Atlas.png</Filename>
+	</Asset>
+
+	<!-- Invasion UI -->
+
+	<Asset>
+		<Tag>INVASION_ATTACKER_SUCCESS_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>INVASION_ATTACKER_FAILURE_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>INVASION_DEFENDER_SUCCESS_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>INVASION_DEFENDER_FAILURE_IMAGE</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<!-- Designer Landing UI -->
+
+	<Asset>
+		<Tag>DESIGNER_LANDING_NEW_DESIGN_ENTRY_THUMBNAIL</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<!-- Shipyard UI -->
+
+	<Asset>
+		<Tag>SHIPYARD_IDLE_ENTRY_THUMBNAIL</Tag>
+		<Filename>GC4_Icon.png</Filename>
+	</Asset>
+
+	<!-- Tech/Culture Unlock Icons -->
+
+	<Asset>
+		<Tag>UNLOCK_ICON_IMPROVEMENT</Tag>
+		<Filename>GC3_S_Component_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_SHIP_COMPONENT</Tag>
+		<Filename>GC3_S_Improvment_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_STARBASE_MODULE</Tag>
+		<Filename>GC3_S_Module_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TECH_BONUS</Tag>
+		<Filename>GC3_S_Bonus_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TRADE_LICENSE</Tag>
+		<Filename>GC3_S_Trade_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TECH</Tag>
+		<Filename>GC3_S_Trade_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_PLANETARY_PROJECT</Tag>
+		<Filename>GC3_S_Trade_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_SHIP_DESIGN_UPGRADE</Tag>
+		<Filename>GC3_S_Trade_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TREATY</Tag>
+		<Filename>GC3_Treaty_Obligations_Stat_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>UNLOCK_ICON_GOVERNOR</Tag>
+    <Filename>GC3_Treaty_Obligations_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UNLOCK_ICON_PRECURSOR</Tag>
+    <Filename>GC3_S_Sponsors_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TECH_STAR_EMPTY</Tag>
+		<Filename>GC3_S_Unlock_Star_Empty.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNLOCK_ICON_TECH_STAR_FULL</Tag>
+		<Filename>GC3_S_Unlock_Star_Filled.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>UNLOCK_ICON_EXECUTIVE_ORDER</Tag>
+    <Filename>GC3_S_Unlock_Star_Empty.png</Filename>
+  </Asset>
+  
+	<!-- Planet Wnd -->
+
+	<Asset>
+		<Tag>PLANET_TILE_NO_FEATURE_ICON</Tag>
+		<Filename>Event_Forest.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_1</Tag>
+		<Filename>GC3_Level_1_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_2</Tag>
+		<Filename>GC3_Level_2_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_3</Tag>
+		<Filename>GC3_Level_3_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_4</Tag>
+		<Filename>GC3_Level_4_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_5</Tag>
+		<Filename>GC3_Level_5_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_6</Tag>
+		<Filename>GC3_Level_6_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_7</Tag>
+		<Filename>GC3_Level_7_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_8</Tag>
+		<Filename>GC3_Level_8_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_9</Tag>
+		<Filename>GC3_Level_9_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_10</Tag>
+		<Filename>GC3_Level_10_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_11</Tag>
+		<Filename>GC3_Level_11_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_12</Tag>
+		<Filename>GC3_Level_12_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_13</Tag>
+		<Filename>GC3_Level_13_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_14</Tag>
+		<Filename>GC3_Level_14_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_LEVEL_15</Tag>
+		<Filename>GC3_Level_15_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_BONUS_1</Tag>
+		<Filename>GC3_Bonus_1.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_BONUS_2</Tag>
+		<Filename>GC3_Bonus_2.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_BONUS_3</Tag>
+		<Filename>GC3_Bonus_3.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_BONUS_4</Tag>
+		<Filename>GC3_Bonus_4.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_TILE_BONUS_5</Tag>
+		<Filename>GC3_Bonus_5.png</Filename>
+	</Asset>
+
+	<!-- Domestic Command Wnd -->
+
+	<Asset>
+		<Tag>RALLY_POINT_CATEGORY_ICON</Tag>
+		<Filename>GC3_RallyPointt_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>STARBASE_CATEGORY_ICON</Tag>
+		<Filename>GC3_Starbase_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_CATEGORY_ICON</Tag>
+		<Filename>GC3_Planet_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHIPYARD_CATEGORY_ICON</Tag>
+		<Filename>GC3_Starport_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NOTHING_ENTRY_ICON</Tag>
+		<Filename>GC4_S_Delete_Button_Icon.png</Filename>
+	</Asset>
+
+
+	<Asset>
+		<Tag>UNITED_PLANETS_DISPLAY_FRAME_MOVIE</Tag>
+		<Filename>Large_Frame.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNITED_PLANETS_DISPLAY_PROJECTOR_MOVIE</Tag>
+		<Filename>Large_Beam.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNITED_PLANETS_DISPLAY_CLOUT_BAR_IMAGE</Tag>
+		<Filename>GC3_S_Clout_Bar.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>WAR_ICON_IMAGE</Tag>
+		<Filename>War_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>WAR_ICON_STATUS_BAR_IMAGE</Tag>
+    <Filename>Slider_War_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>ALLY_ICON_IMAGE</Tag>
+		<Filename>Ally_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>ALLY_ICON_STATUS_BAR_IMAGE</Tag>
+    <Filename>Slider_Ally_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>MOOD_ANGRY_SLOW</Tag>
+		<Filename>gfx/Icons/oneredarrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MOOD_ANGRY_MEDIUM</Tag>
+		<Filename>gfx/Icons/tworedarrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MOOD_ANGRY_FAST</Tag>
+		<Filename>gfx/Icons/threeredarrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MOOD_HAPPY_SLOW</Tag>
+		<Filename>gfx/Icons/onegreenarrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MOOD_HAPPY_MEDIUM</Tag>
+		<Filename>gfx/Icons/twogreenarrow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MOOD_HAPPY_FAST</Tag>
+		<Filename>gfx/Icons/threegreenarrow.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>INVASION_REPORT_VICTORY</Tag>
+    <Filename>GC3_Report_Victory.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_REPORT_DEFEAT</Tag>
+    <Filename>GC3_Report_Defeat.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>INVASION_POPULATION_ICON</Tag>
+    <Filename>GC3_L_Pop_Graph_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_INVADER_CASUALTIES_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>  
+
+  <Asset>
+    <Tag>INVASION_DEFENDER_CASUALTIES_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SURVIVING_POPULATION_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_SECTORS_LOST_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_IMPROVEMENTS_LOST_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_PLANET_BASE_LAYER</Tag>
+    <Filename>gfx/planets/Invasion_Base.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_VICTORY</Tag>
+    <Filename>GC3_Report_Victory.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_DEFEAT</Tag>
+    <Filename>GC3_Report_Defeat.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_DEFEAT</Tag>
+    <Filename>Defeat.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_CONQUEST_DEFAULT</Tag>
+    <Filename>Conquest_Victory.bk2</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>END_GAME_MOVIE_CULTURE_VICTORY</Tag>
+    <Filename>Victory.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_TECH_VICTORY</Tag>
+    <Filename>Victory.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_DIPLOMACY_VICTORY</Tag>
+    <Filename>Event_CityShot.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_ASCENSION_VICTORY</Tag>
+    <Filename>Victory.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>END_GAME_MOVIE_PRESTIGE_VICTORY</Tag>
+    <Filename>Victory.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RANDOM_PLAYER_LOGO</Tag>
+    <Filename>Random_Faction_Logo.png</Filename>
+  </Asset>
+	
+	<Asset>
+		<Tag>Notifications_Inline_Icon</Tag>
+		<Filename>Notifications_Inline_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Quest_Active</Tag>
+		<Filename>Quest_Active.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Quest_Done</Tag>
+		<Filename>Quest_Done.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>DEFAULT_PLAYER_LOGO</Tag>
+    <Filename>RaceLogo_default.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>GENERIC_COMPONENT_THUMBNAIL</Tag>
+    <Filename>GenericComponentThumbnail.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GENERIC_CAN_TRADE_ICON</Tag>
+    <Filename>Trade_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GOVERNPLANET_DIRECTCONTROL_ICON</Tag>
+    <Filename>GC3_Governor_Manual_Spending.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>BAZAAR_BG</Tag>
+		<Filename>Bazaar_BG.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BAZAAR_FG_APPROACH</Tag>
+		<Filename>Bazaar_FG_Approach.bk2</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>BAZAAR_FG_IDLE</Tag>
+		<Filename>Bazaar_FG_Idle.bk2</Filename>
+	</Asset>
+
+    <Asset>
+        <Tag>TECH_SPECIALIZATION_ICON</Tag>
+        <Filename>Tech_Specialization.png</Filename>
+    </Asset>
+
+	<Asset>
+		<Tag>CrimeIcon32</Tag>
+		<Filename>Crime_Icon_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ControlIcon32</Tag>
+		<Filename>Control_Icon_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ControlPollution32</Tag>
+		<Filename>Control_Pollution_32.png</Filename>
+	</Asset>
+	
+	<!-- Water marks -->
+
+  <Asset>
+    <Tag>WATER_MARK_BATCH_EFFECT_FILE</Tag>
+    <Filename>WaterMarkBatch4.fxo</Filename>
+  </Asset>
+
+  <!-- Fleet Details-->
+
+  <Asset>
+    <Tag>FLEET_DETAILS_CALL_OUT_DOT</Tag>
+    <Filename>Callout_Dot.png</Filename>
+  </Asset>
+
+  <!-- Misc -->
+
+  <Asset>
+    <Tag>DOMESTIC_WND_LEADER_MASK</Tag>
+    <Filename>GovernMask.dds</Filename>
+  </Asset>
+
+  <!-- Planet HUD -->
+
+  <Asset>
+    <Tag>WORD_ON_THE_STREET_BG</Tag>
+    <Filename>WordOnTheStreetBG.png</Filename>
+  </Asset>
+
+  <!-- Diplomacy -->
+
+  <Asset>
+    <Tag>DIPLOMACY_LEADER_BACKGROUND_MOVIE</Tag>
+    <Filename>DiplomacyWnd_CivEntry_BG.bk2</Filename>
+
+  </Asset>
+
+  <Asset>
+    <Tag>DIPLOMACY_LEADER_FOREGROUND_MOVIE</Tag>
+    <!--<Filename>Invasion_Scanlines.bk2</Filename>-->
+    <Filename>DiplomacyWnd_CivEntry_FG.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_EXPLOSION_0</Tag>
+    <Filename>Invasion_Explosion1.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_EXPLOSION_1</Tag>
+    <Filename>Invasion_Explosion2.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_EXPLOSION_2</Tag>
+    <Filename>Invasion_Explosion3.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_EXPLOSION_3</Tag>
+    <Filename>Invasion_Explosion4.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_HEX_SELECTION</Tag>
+    <Filename>Invasion_HexSelectionGlow.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_LANDING</Tag>
+    <Filename></Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_MOVIE_LEGION</Tag>
+    <Filename>Invasion_TroopIcon.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_LEGION_ICON</Tag>
+    <Filename>GC3_Invasion_LegionIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_AVAILABLE_TILE</Tag>
+    <Filename>GC3_Invasion_LandingIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_AVAILABLE_TILE_BONUS</Tag>
+    <Filename>GC3_Invasion_LandingIcon_Bonus.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_DESTROY_TILE_1</Tag>
+    <Filename>Invasion_Explosion1.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_DESTROY_TILE_2</Tag>
+    <Filename>Invasion_Explosion2.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_DESTROY_TILE_3</Tag>
+    <Filename>Invasion_Explosion3.bk2</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>INVASION_DESTROYED_TILE_IMAGE</Tag>
+    <Filename>Destroyed_Improvement.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_STYLE_DEFAULT_ICON</Tag>
+    <Filename>InvasionTactic_Conventional_Unknown.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>INVASION_TILES_DESTROYED_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>INVASION_TILES_CAPTURED_ICON</Tag>
+    <Filename>gfx/Icons/GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <!-- Misc -->
+
+  <Asset>
+    <Tag>TITLE_INTRO_BG</Tag>
+    <Filename>homescreen_intro.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>HOLOGRAM_TEXTURE</Tag>
+    <Filename>ScanlineTexture.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>HOLOGRAM_NOISE_TEXTURE</Tag>
+    <Filename>noise_01.png</Filename>
+  </Asset>
+
+
+  <!-- Planet HUD -->
+  
+  <Asset>
+    <Tag>AGENTS_ATTACKING_ICON</Tag>
+    <Filename>gfx/Icons/Hud/Spy_HUD_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>COMMANDER_ICON</Tag>
+    <Filename>gfx/Icons/Citizens/Citizen_Commander.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LEGION_ICON</Tag>
+    <Filename>gfx/Icons/Stats/Invading_Legion.png</Filename>
+  </Asset>
+  
+  <!-- Stars -->
+
+  <Asset>
+    <Tag>STAR_NOISE_TEXTURE</Tag>
+    <Filename>gfx/NoiseTexture.dds</Filename>
+  </Asset>
+
+
+	<!-- Planet Feature Stat Icons -->
+
+	<Asset>
+		<Tag>AncientRuins_Name_Icon</Tag>
+		<Filename>Feature_AncientRuins.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>AncientWonder_Name_Icon</Tag>
+		<Filename>Feature_AncientWonder.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Auroras_Name_Icon</Tag>
+		<Filename>Feature_Auroras.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Cataract_Name_Icon</Tag>
+		<Filename>Feature_Cataract.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FloatingMountains_Name_Icon</Tag>
+		<Filename>Feature_FloatingMountains.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FluorescentForest_Name_Icon</Tag>
+		<Filename>FluorescentForest.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GeothermalSprings_Name_Icon</Tag>
+		<Filename>Feature_GeothermalSprings.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GiantMushrooms_Name_Icon</Tag>
+		<Filename>Feature_GiantMushrooms.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GoldFields_Name_Icon</Tag>
+		<Filename>Feature_GoldFields.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Haven_Name_Icon</Tag>
+		<Filename>Feature_Haven.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ImpactCrater_Name_Icon</Tag>
+		<Filename>Feature_ImpactCrater.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>IsolatedBiome_Name_Icon</Tag>
+		<Filename>Feature_IsolatedBiome.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MineralRich_Name_Icon</Tag>
+		<Filename>Feature_MineralRich.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NaturalWonder_Name_Icon</Tag>
+		<Filename>Feature_NaturalWonder.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Paradise_Name_Icon</Tag>
+		<Filename>Feature_Paradise.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PermanentRainbow_Name_Icon</Tag>
+		<Filename>Feature_PermanentRainbow.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planetfall_Name_Icon</Tag>
+		<Filename>Feature_Planetfall.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PreciousMetals_Name_Icon</Tag>
+		<Filename>Feature_PreciousMetals.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RareEarth_Name_Icon</Tag>
+		<Filename>Feature_RareEarth.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RareStones_Name_Icon</Tag>
+		<Filename>Feature_RareStones.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RestorativeHerbs_Name_Icon</Tag>
+		<Filename>Feature_RestorativeHerbs.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Caverns_Name_Icon</Tag>
+		<Filename>Terrain_Caverns.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Desert_Name_Icon</Tag>
+		<Filename>Terrain_Desert.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Floodplain_Name_Icon</Tag>
+		<Filename>Terrain_Floodplain.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Forest_Name_Icon</Tag>
+		<Filename>Terrain_Forests.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_FrozenLakes_Name_Icon</Tag>
+		<Filename>Terrain_FrozenLakes.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Grassland_Name_Icon</Tag>
+		<Filename>Terrain_Grassland.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Lakes_Name_Icon</Tag>
+		<Filename>Terrain_Lakes.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Mountains_Name_Icon</Tag>
+		<Filename>Terrain_Mountains.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Ravine_Name_Icon</Tag>
+		<Filename>Terrain_Ravine.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Plains_Name_Icon</Tag>
+		<Filename>Terrain_Plains.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Tundra_Name_Icon</Tag>
+		<Filename>Terrain_Tundra.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_VolcanicRifts_Name_Icon</Tag>
+		<Filename>Terrain_VolcanicRifts.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Wasteland_Name_Icon</Tag>
+		<Filename>Terrain_Wasteland.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Terrain_Wetland_Name_Icon</Tag>
+		<Filename>Terrain_Wetland.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ThrivingReef_Name_Icon</Tag>
+		<Filename>Feature_ThrivingReef.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UndergroundRelics_Name_Icon</Tag>
+		<Filename>Feature_UndergroundRelics.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnstableMaterials_Name_Icon</Tag>
+		<Filename>Feature_UnstableMaterials.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VaporMines_Name_Icon</Tag>
+		<Filename>Feature_VaporMines.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>AddUpgrade_Icon</Tag>
+    <Filename>AddUpgrade_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Random_Civ_Thumbnail</Tag>
+    <Filename>Portrait_Random_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Custom_Civ_Thumbnail</Tag>
+    <Filename>Customize_Race_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Tech_Uncommon_Icon</Tag>
+		<Filename>Library_Filter_08.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Tech_Common_Icon</Tag>
+		<Filename>Library_Filter_07.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Tech_Rare_Icon</Tag>
+		<Filename>Library_Filter_09.png</Filename>
+	</Asset>
+	
+  <Asset>
+	<Tag>Event_FirstAnomaly_Movie</Tag>
+	<Filename>Event_FirstAnomaly.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GenericAdvisorBotApproach</Tag>
+    <Filename>SmallNewsBot_Approach.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GenericAdvisorBot</Tag>
+    <Filename>SmallNewsBot_Idle.bk2</Filename>
+  </Asset>
+
+	<Asset>
+	<Tag>Game_Name_Sort_Icon</Tag>
+	<Filename>Game_Name_Sort_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Host_Name_Sort_Icon</Tag>
+		<Filename>Host_Name_Sort_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Galaxy_Name_Sort_Icon</Tag>
+		<Filename>Galaxy_Name_Sort_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Players_Sort_Icon</Tag>
+		<Filename>Players_Sort_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Lock_Sort_Icon</Tag>
+		<Filename>Lock_Sort_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>MapMarkerIconAtlas</Tag>
+    <Filename>GC3_Strategic_Icons.dds</Filename>
+  </Asset>
+
+
+  <Asset>
+    <Tag>ItemRatingIcon</Tag>
+    <Filename>GC4_S_Item_Rating_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ItemDownvoteIcon</Tag>
+    <Filename>GC4_S_Item_Rating_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Map_Size_Random</Tag>
+		<Filename>Temp_Galaxy_Image.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Map_Size_Tiny</Tag>
+		<Filename>Map_Size_Singular.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Map_Size_Small</Tag>
+		<Filename>Map_Size_Binary.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Map_Size_Medium</Tag>
+		<Filename>Map_Size_Few.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Map_Size_Huge</Tag>
+		<Filename>Map_Size_Several.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Map_Size_Immense</Tag>
+		<Filename>Map_Size_Galactic.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Random</Tag>
+		<Filename>Temp_Planet_Image.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Rare</Tag>
+		<Filename>Planets_Rare.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Uncommon</Tag>
+		<Filename>Planets_Uncommon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Occasional</Tag>
+		<Filename>Planets_Occasional.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Common</Tag>
+		<Filename>Planets_Common.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Planets_Abundant</Tag>
+		<Filename>Planets_Abundant.png</Filename>
+	</Asset>
+	
+</AssetTable>

@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!--Shield Defense FX-->
+  <FXElement>
+    <InternalName>GenericShieldDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>GenericShieldDefense_Shield</InternalName>
+      <Type>Shield</Type>
+			<Duration>1.0</Duration>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>Shield_Texture_01.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>TextureTilingU</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>TextureTilingV</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>5.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Transparency</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MaxRadius</Key>
+				<Value>12</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>13</Value>
+			</KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+  </FXElement>
+
+  <!--Deflector Defense FX-->
+  <FXElement>
+    <InternalName>DeflectorDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>DeflectorShield</InternalName>
+      <Type>Shield</Type>
+      <Duration>1.0</Duration>
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Shield_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>20.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>20.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>5.5</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.5</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MaxRadius</Key>
+        <Value>12</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>13</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+  </FXElement>
+
+  <!--Shield Generator Defense FX-->
+  <FXElement>
+    <InternalName>ShieldGeneratorDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ShieldGeneratorShield</InternalName>
+      <Type>Shield</Type>
+      <Duration>2.0</Duration>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>Shield_Texture_01.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>TextureTilingU</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>TextureTilingV</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>5.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Transparency</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MaxRadius</Key>
+				<Value>12</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>13</Value>
+			</KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Barrier Fields Defense FX-->
+  <FXElement>
+    <InternalName>BarrierFieldDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>BarrierFieldShield</InternalName>
+      <Type>Shield</Type>
+			<Duration>1.0</Duration>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>Shield_Texture_01.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>TextureTilingU</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>TextureTilingV</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>5.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Transparency</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MaxRadius</Key>
+				<Value>12</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>13</Value>
+			</KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Force Field Defense FX-->
+  <FXElement>
+    <InternalName>ForceFieldDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ForceFieldShield</InternalName>
+      <Type>Shield</Type>
+			<Duration>1.0</Duration>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>Shield_Texture_01.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>TextureTilingU</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>TextureTilingV</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>5.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Transparency</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MaxRadius</Key>
+				<Value>12</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>13</Value>
+			</KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Invulnerability Field Defense FX-->
+  <FXElement>
+    <InternalName>InvulnerabilityFieldDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>InvulnerabilityFieldShield</InternalName>
+      <Type>Shield</Type>
+			<Duration>1.0</Duration>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>Shield_Texture_01.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>TextureTilingU</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>TextureTilingV</Key>
+				<Value>20.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>5.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Transparency</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MaxRadius</Key>
+				<Value>12</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>13</Value>
+			</KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Point Defense FX-->
+
+  <FXElement>
+    <InternalName>GenericPointDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>0.95</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>GenericPointDefense_Beam</InternalName>
+      <Type>Beam</Type>
+
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>AttackingProjectile</Value>
+      </KeyValueString>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Laser_Test_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapEmitSpeed</Key>
+        <Value>1000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapMaxBeamLength</Key>
+        <Value>250.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapBlendCenter</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerEmitSpeed</Key>
+        <Value>8000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerMaxBeamLength</Key>
+        <Value>1500.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerBlendCenter</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Width</Key>
+        <Value>2.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>2.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>DiffuseTextureSpan</Key>
+        <Value>12.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFrameCount</Key>
+        <Value>4</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFPS</Key>
+        <Value>12</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>0</Value>
+      </KeyValueInt>
+
+      <KeyValueDictionaryRef>SourceObjectTargetMobileObject</KeyValueDictionaryRef>
+
+    </FXElement>
+  </FXElement>
+
+
+  <FXElement>
+    <InternalName>DroneSentryPointDefense</InternalName>
+    <Type>Drone</Type>
+
+    <!--Target incoming projectile-->
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+        
+    <KeyValueDecimal>
+      <Key>BattleViewerProjectileSpeed</Key>
+      <Value>300.0</Value>
+    </KeyValueDecimal>
+    <KeyValueDecimal>
+      <Key>MainMapProjectileSpeed</Key>
+      <Value>175.0</Value>
+    </KeyValueDecimal>
+
+    <KeyValueDictionaryRef>SourceObjectTargetMobileObject</KeyValueDictionaryRef>
+  </FXElement>
+
+
+  <FXElement>
+    <InternalName>ArreonMissileDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>0.25</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ArreonMissileDefense_Missile</InternalName>
+      <Type>Missile</Type>
+
+      <!--Target incoming projectile-->
+
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>AttackingProjectile</Value>
+      </KeyValueString>
+
+      <!--Interceptor speed-->
+      <KeyValueDecimal>
+        <Key>BattleViewerMissileSpeed</Key>
+        <Value>400.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerMissileCurviness</Key>
+        <Value>35.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapMissileSpeed</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapMissileCurviness</Key>
+        <Value>0.1</Value>
+      </KeyValueDecimal>
+
+      <KeyValueDictionaryRef>SourceObjectTargetMobileObject</KeyValueDictionaryRef>
+
+      <FXElement>
+        <InternalName>ArreonMissileDefense_MissileParticle</InternalName>
+        <Type>Particle</Type>
+        <KeyValueString>
+          <Key>Script</Key>
+          <Value>PhotonTorpedoWeaponEffect</Value>
+        </KeyValueString>
+        <KeyValueVec3>
+          <Key>MinScale</Key>
+          <Value>
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+          </Value>
+        </KeyValueVec3>
+        <KeyValueVec3>
+          <Key>MaxScale</Key>
+          <Value>
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+          </Value>
+        </KeyValueVec3>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>ArreonMissileDefense_MissileParticle_Trail</InternalName>
+        <Type>Particle</Type>
+        <KeyValueString>
+          <Key>Script</Key>
+          <Value>PhotonTorpedo_Trail_WeaponEffect</Value>
+        </KeyValueString>
+        <KeyValueVec3>
+          <Key>MinScale</Key>
+          <Value>
+            <X>0.2</X>
+            <Y>0.2</Y>
+            <Z>0.2</Z>
+          </Value>
+        </KeyValueVec3>
+        <KeyValueVec3>
+          <Key>MaxScale</Key>
+          <Value>
+            <X>0.2</X>
+            <Y>0.2</Y>
+            <Z>0.2</Z>
+          </Value>
+        </KeyValueVec3>
+      </FXElement>
+
+    </FXElement>
+  </FXElement>
+
+
+  <FXElement>
+    <InternalName>ChaffPointDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>0.95</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ChaffPointDefense_Projectile</InternalName>
+      <Type>Projectile</Type>
+
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>AttackingProjectile</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>BattleViewerProjectileSpeed</Key>
+        <Value>300.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapProjectileSpeed</Key>
+        <Value>175.0</Value>
+      </KeyValueDecimal>
+
+      <!--<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>-->
+      <KeyValueDictionaryRef>SourceObjectTargetMobileObject</KeyValueDictionaryRef>
+
+      <FXElement>
+        <InternalName>ChaffPointDefense_Particle</InternalName>
+        <Type>Particle</Type>
+        <KeyValueString>
+          <Key>Script</Key>
+          <Value>KineticCannonParticleEffect</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>MainMapUniformScale</Key>
+          <Value>0.5</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>BattleViewerUniformScale</Key>
+          <Value>1.0</Value>
+        </KeyValueDecimal>
+        <KeyValueBool>
+          <Key>IgnoreParentScale</Key>
+          <Value>true</Value>
+        </KeyValueBool>
+        <KeyValueBool>
+          <Key>PointParticleYDownParentZ</Key>
+          <Value>true</Value>
+        </KeyValueBool>
+      </FXElement>
+
+    </FXElement>
+  </FXElement>
+  
+  <!--ECM Defense FX-->
+
+  <FXElement>
+    <InternalName>ECMPointDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>0.95</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ECMPointDefense_Particle</InternalName>
+      <Type>Particle</Type>
+
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ShockwaveParticleEffect</Value>
+      </KeyValueString>
+      <KeyValueVec3>
+        <Key>MinScale</Key>
+        <Value>
+          <X>2</X>
+          <Y>2</Y>
+          <Z>2</Z>
+        </Value>
+      </KeyValueVec3>
+      <KeyValueVec3>
+        <Key>MaxScale</Key>
+        <Value>
+          <X>2</X>
+          <Y>2</Y>
+          <Z>2</Z>
+        </Value>
+      </KeyValueVec3>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+  </FXElement>
+
+  <!--Armor Defense FX-->
+  <FXElement>
+    <InternalName>GenericArmorDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>GenericArmorDefense_Armor</InternalName>
+      <Type>Armor</Type>
+      <Duration>2.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>2.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>2.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>20</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+  </FXElement>
+
+  <!--Hull Plating Defense FX-->
+  <FXElement>
+    <InternalName>HullPlatingDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>HullPlatingArmor</InternalName>
+      <Type>Armor</Type>
+      <Duration>1.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>6.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.2</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>2.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>5.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Titanium Plating Defense FX-->
+  <FXElement>
+    <InternalName>TitaniumPlatingDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>TitaniumPlatingArmor</InternalName>
+      <Type>Armor</Type>
+      <Duration>1.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>7.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.2</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>3.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>6.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Durantium Composite Defense FX-->
+  <FXElement>
+    <InternalName>DurantiumCompositeDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>DurantiumCompositeArmor</InternalName>
+      <Type>Armor</Type>
+      <Duration>1.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>8.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.2</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>4.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>7.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Kanvium Laminate Defense FX-->
+  <FXElement>
+    <InternalName>KanviumLaminateDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+
+    <FXElement>
+      <InternalName>KanviumLaminateArmor</InternalName>
+      <Type>Armor</Type>
+      <Duration>1.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>9.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.2</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>5.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>8.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+  <!--Zero Point Armor Defense FX-->
+  <FXElement>
+    <InternalName>ZeroPointArmorDefense</InternalName>
+    <Type>DynamicWait</Type>
+
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>DynamicWaitType</Key>
+      <Value>PercentTargetStrikeDuration</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>DynamicWaitPercent</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+
+    <FXElement>
+      <InternalName>ZeroPointArmorArmor</InternalName>
+      <Type>Armor</Type>
+      <Duration>1.0</Duration>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>Armor_Texture_01.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>TextureTilingU</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>TextureTilingV</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>10.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Transparency</Key>
+        <Value>0.2</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleWidth</Key>
+        <Value>6.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>RippleMaxRadius</Key>
+        <Value>9.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>14</Value>
+      </KeyValueInt>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+</FXElementList>

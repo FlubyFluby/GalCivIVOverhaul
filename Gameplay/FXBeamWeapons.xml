@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+	<!-- Beam Weapon Sequences -->
+  <FXElement>
+    <InternalName>BeamLaesrBasic</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>BeamLaserBasic_Beam</InternalName>
+      <Type>Beam</Type>
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>BeamLaserSimple.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapEmitSpeed</Key>
+        <Value>1000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapMaxBeamLength</Key>
+        <Value>250.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapBlendCenter</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerEmitSpeed</Key>
+        <Value>4000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerMaxBeamLength</Key>
+        <Value>500.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerBlendCenter</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>4.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>7.5</Value>
+			</KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>DiffuseTextureSpan</Key>
+        <Value>12.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFrameCount</Key>
+        <Value>4</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFPS</Key>
+        <Value>12</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>0</Value>
+      </KeyValueInt>
+
+      <KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+      <!-- Particle following beam -->
+      <!--<FXElement>
+				<InternalName>BeamLaser_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamLaserParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+    </FXElement>
+
+  </FXElement>
+
+
+  <FXElement>
+		<InternalName>BeamLaser</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamLaser_Beam</InternalName>
+			<Type>Beam</Type>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamLaser.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>250.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>250.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>1000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>250.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>2.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>12.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>12</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>0</Value>
+			</KeyValueInt>
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamLaser_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamLaserParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>BeamParticle</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamParticle_Beam</InternalName>
+			<Type>Beam</Type>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamLaser.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>500.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>300.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>4000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>600.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>3.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>1.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>11.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>24</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>0</Value>
+			</KeyValueInt>
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamParticle_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamParticleParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>BeamDisrupter</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamDisrupter_Beam</InternalName>
+			<Type>Beam</Type>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamDisrupter.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>1000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>350.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>4000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>1100.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>4.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>7.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>40.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>10</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamDisrupter_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamDisrupterParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>BeamPlasma</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamPlasma_Beam</InternalName>
+			<Type>Beam</Type>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamPlasma.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>1000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>400.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>4000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>1400.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>4.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>10.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>60.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>12</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>2</Value>
+			</KeyValueInt>
+
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamPlasma_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamPlasmaParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>BeamPhasor</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamPhasor_Beam</InternalName>
+			<Type>Beam</Type>
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamDisrupter.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>1000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>450.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>4000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>1700.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>6.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>7.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>80.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>12</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>1</Value>
+			</KeyValueInt>
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamPhasor_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamPhasorParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>BeamDoomray</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>BeamDoomray_Beam</InternalName>
+			<Type>Beam</Type>
+
+			<KeyValueString>
+				<Key>DiffuseTexture</Key>
+				<Value>BeamPlasma.dds</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapEmitSpeed</Key>
+				<Value>1000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapMaxBeamLength</Key>
+				<Value>500.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerEmitSpeed</Key>
+				<Value>4000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerMaxBeamLength</Key>
+				<Value>2000.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerBlendCenter</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Width</Key>
+				<Value>6.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>Intensity</Key>
+				<Value>10.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>DiffuseTextureSpan</Key>
+				<Value>64.0</Value>
+			</KeyValueDecimal>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFrameCount</Key>
+				<Value>4</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseTextureAnimationFPS</Key>
+				<Value>12</Value>
+			</KeyValueInt>
+			<KeyValueInt>
+				<Key>DiffuseGradientRow</Key>
+				<Value>5</Value>
+			</KeyValueInt>
+
+			<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+			<!-- Particle following beam -->
+			<!--<FXElement>
+				<InternalName>BeamDoomray_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamDoomrayParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+		</FXElement>
+
+	</FXElement>
+
+
+
+
+
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamLaser_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.125</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamLaserEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamLaser_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_LASERS_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamLaser_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamLaser_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamLaser_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamParticle_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.2</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamParticleEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamParticle_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_PARTICLE_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamParticle_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamParticle_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamParticle_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamDisrupter_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.275</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamDisrupterEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDisrupter_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_DISRUPTERS_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDisrupter_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamDisrupter_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamDisrupter_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamPlasma_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.35</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamPlasmaEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPlasma_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_PLASMA_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPlasma_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamPlasma_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamPlasma_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamPhasor_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.425</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamPhasorEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPhasor_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_PHASORS_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPhasor_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamPhasor_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamPhasor_EmissionFoley</FXElementRef>
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>BeamDoomray_EmissionParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>1.0</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamDoomrayEmissionEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>0.45</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDoomray_EmissionFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_DOOM_RAY_FIRE</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDoomray_Emission</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamDoomray_EmissionParticle</FXElementRef>
+		<FXElementRef>BeamDoomray_EmissionFoley</FXElementRef>
+	</FXElement>
+
+
+
+
+
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamLaser_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamParticle_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamPlasma_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamPlazmaDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamDisrupter_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamPhasor_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamGenericDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>BeamDoomray_Deflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamDoomRayDeflectEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.75</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+
+
+
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamLaser_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.125</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamLaserHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamLaser_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_LASERS_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamLaser_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamLaser_HitFoley</FXElementRef>
+		<FXElementRef>BeamLaser_HitParticle</FXElementRef>
+	</FXElement>
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamParticle_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.2</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamParticleHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamParticle_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_LASERS_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamParticle_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamParticle_HitFoley</FXElementRef>
+		<FXElementRef>BeamParticle_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamDisrupter_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.275</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamDisrupterHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDisrupter_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_DISRUPTORS_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDisrupter_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamDisrupter_HitFoley</FXElementRef>
+		<FXElementRef>BeamDisrupter_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamPlasma_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.35</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamPlasmaHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPlasma_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_PLASMA_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPlasma_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamPlasma_HitFoley</FXElementRef>
+		<FXElementRef>BeamPlasma_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamPhasor_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.425</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamPhasorHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPhasor_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_PHASORS_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamPhasor_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamPhasor_HitFoley</FXElementRef>
+		<FXElementRef>BeamPhasor_HitParticle</FXElementRef>
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>BeamDoomray_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<Duration>0.5</Duration>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BeamDoomrayHitEffect</Value>
+		</KeyValueString>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>0.5</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+		<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDoomray_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>BEAM_DOOM_RAY_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<FXElement>
+		<InternalName>BeamDoomray_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>BeamDoomray_HitFoley</FXElementRef>
+		<FXElementRef>BeamDoomray_HitParticle</FXElementRef>
+	</FXElement>
+
+</FXElementList>

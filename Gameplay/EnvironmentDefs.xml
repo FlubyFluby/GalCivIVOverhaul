@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<EnvironmentList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/EnvironmentDefs.xsd">
+
+	<!-- VACANT ENVIRONMENTS -->
+
+	<Environment>
+		<InternalName>Environment_Vacant_01</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_01</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Vacant_02</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!--Black Hole-->
+	<Environment>
+		<InternalName>Environment_Vacant_03</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_03</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_03</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_03</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_06_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_06_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Vacant_04</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_02</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_04</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Vacant_05</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_HYPERGATE_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Hypergate_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_05</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Vacant_06</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_HYPERGATE_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Hypergate_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_01</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Vacant_07</InternalName>
+		<EnvironmentType>Vacant</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Hypergate_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- PLANET ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Planet_01</InternalName>
+		<EnvironmentType>Planet</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Planet_01</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Planet_02</InternalName>
+		<EnvironmentType>Planet</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_HYPERGATE_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_03</StarboxDef>
+		<BattlefieldDef>Battlefield_Planet_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Planet_03</InternalName>
+		<EnvironmentType>Planet</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_HYPERGATE_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Hypergate_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Planet_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- ASTEROID ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Asteroid_01</InternalName>
+		<EnvironmentType>Asteroid</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_ASTEROIDS_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Asteroids_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Asteroid_01</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_06_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_06_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- NEBULA ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Nebula_01</InternalName>
+		<EnvironmentType>Nebula</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_NEBULA_CLOUD_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_NebulaCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_05</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Nebula_02</InternalName>
+		<EnvironmentType>Nebula</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_NEBULA_CLOUD_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_NebulaCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- NEBULA STORM ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Nebula_03</InternalName>
+		<EnvironmentType>NebulaStorm</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_StormCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_06_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_06_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Nebula_04</InternalName>
+		<EnvironmentType>NebulaStorm</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_StormCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_04</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_06_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_06_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- NEBULA GAS CLOUD ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Nebula_05</InternalName>
+		<EnvironmentType>NebulaGas</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_GasCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Nebula_06</InternalName>
+		<EnvironmentType>NebulaGas</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_GasCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_05</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+
+	<!-- NEBULA RADIATION STORM ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Nebula_07</InternalName>
+		<EnvironmentType>NebulaRadiationStorm</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_RadiationCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_11_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_11_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Nebula_08</InternalName>
+		<EnvironmentType>NebulaRadiationStorm</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_RadiationCloud_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_05</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_11_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_11_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- SHIPYARD ENVIRONMENTS -->
+	
+	<Environment>
+		<InternalName>Environment_Shipyard_01</InternalName>
+		<EnvironmentType>Shipyard</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_02</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+	
+	<Environment>
+		<InternalName>Environment_Shipyard_02</InternalName>
+		<EnvironmentType>Shipyard</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_02</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_04</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+
+	<!-- STARBASE ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Starbase_01</InternalName>
+		<EnvironmentType>Starbase</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_02</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_02</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<Environment>
+		<InternalName>Environment_Starbase_02</InternalName>
+		<EnvironmentType>Starbase</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_VACANT_02</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Vacant_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Vacant_04</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_10_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_10_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+	<!-- HYPERGATE ENVIRONMENTS -->
+	<Environment>
+		<InternalName>Environment_Hypergate_01</InternalName>
+		<EnvironmentType>Hypergate</EnvironmentType>
+		<SceneLightingDef>BATTLE_VIEWER_LIGHTING_HYPERGATE_01</SceneLightingDef>
+		<!--<SceneLightingTopDownDef>BATTLE_VIEWER_LIGHTING_TOPDOWN_01</SceneLightingTopDownDef>-->
+		<StarboxDef>BattleViewerStarbox_Hypergate_01</StarboxDef>
+		<BattlefieldDef>Battlefield_Hypergate_01</BattlefieldDef>
+		<EnvironmentRadianceMap>Spacemap_05_1K.dds</EnvironmentRadianceMap>
+		<EnvironmentIrradianceMap>Spacemap_05_Irradiance_Shadow.dds</EnvironmentIrradianceMap>
+	</Environment>
+
+
+</EnvironmentList>

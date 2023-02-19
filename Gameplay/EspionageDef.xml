@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<EspionageList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/EspionageDef.xsd">
+
+  <Espionage>
+    <Level>None</Level>
+    <Threshold>0</Threshold>
+    <Description>ESPIONAGE_LEVEL_DESC_NONE</Description>
+  </Espionage>
+
+  <Espionage>
+    <Level>Low</Level>
+    <Threshold>5</Threshold>
+    <Description>ESPIONAGE_LEVEL_DESC_LOW</Description>
+  </Espionage>
+
+  <Espionage>
+    <Level>Medium</Level>
+    <Threshold>10</Threshold>
+    <Description>ESPIONAGE_LEVEL_DESC_MEDIUM</Description>
+  </Espionage>
+
+  <Espionage>
+    <Level>High</Level>
+    <Threshold>20</Threshold>
+    <Description>ESPIONAGE_LEVEL_DESC_HIGH</Description>
+  </Espionage>
+  
+  <Espionage>
+    <Level>Ultra</Level>
+    <Threshold>50</Threshold>
+    <Description>ESPIONAGE_LEVEL_DESC_ULTRA</Description>
+  </Espionage>
+
+
+</EspionageList>

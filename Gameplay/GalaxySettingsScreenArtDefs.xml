@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalaxySettingsScreenArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalaxySettingsScreenArtDefs.xsd">
+
+	
+	<ArtDefine>
+		<GalaxySize>Tiny</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>700.0</GalaxyZoom>
+    <GalaxyMinZoom>700.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>RandomGalaxyTinyParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Tiny</GalaxySize>
+		<GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>1800.0</GalaxyZoom>
+    <GalaxyMinZoom>600.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>SpiralGalaxyTinyParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Tiny</GalaxySize>
+		<GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>1900.0</GalaxyZoom>
+    <GalaxyMinZoom>600.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyTinyParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Tiny</GalaxySize>
+    <GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>1800.0</GalaxyZoom>
+    <GalaxyMinZoom>600.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>TightClusterGalaxyTinyParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Tiny</GalaxySize>
+		<GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>950.0</GalaxyZoom>
+    <GalaxyMinZoom>600.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2100.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxyTinyParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+
+
+
+
+
+
+
+
+
+	<ArtDefine>
+		<GalaxySize>Small</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>650.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>750.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxySmallParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Small</GalaxySize>
+    <GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>1580.0</GalaxyZoom>
+    <GalaxyMinZoom>500.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1650.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>SpiralGalaxySmallParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Small</GalaxySize>
+		<GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>1650.0</GalaxyZoom>
+    <GalaxyMinZoom>500.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>LooseClusterGalaxySmallParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Small</GalaxySize>
+		<GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>1580.0</GalaxyZoom>
+    <GalaxyMinZoom>500.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>TightClusterGalaxySmallParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Small</GalaxySize>
+		<GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>900.0</GalaxyZoom>
+    <GalaxyMinZoom>500.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxySmallParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+
+
+
+
+
+
+
+
+
+
+	<ArtDefine>
+		<GalaxySize>Medium</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>550.0</GalaxyZoom>
+    <GalaxyMinZoom>550.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>650.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxyMediumParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Medium</GalaxySize>
+    <GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>1100.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>SpiralGalaxyMediumParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Medium</GalaxySize>
+    <GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>1000.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyMediumParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Medium</GalaxySize>
+    <GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>1100.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>TightClusterGalaxyMediumParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Medium</GalaxySize>
+    <GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>850.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxyMediumParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+
+
+
+
+
+
+
+
+
+<!--	<ArtDefine>
+		<GalaxySize>Large</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>450.0</GalaxyZoom>
+    <GalaxyMinZoom>450.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>550.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxyLargeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Large</GalaxySize>
+    <GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>750.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>SpiralGalaxyLargeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Large</GalaxySize>
+    <GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>750.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1200.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyLargeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Large</GalaxySize>
+    <GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>750.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1800.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>TightClusterGalaxyLargeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Large</GalaxySize>
+    <GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>750.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1200.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxyLargeParticleEffect</ParticleEffectScript>
+	</ArtDefine> -->
+
+
+
+
+
+
+
+
+
+	<ArtDefine>
+		<GalaxySize>Huge</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>400.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>550.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxyHugeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Huge</GalaxySize>
+    <GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>300.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>SpiralGalaxyHugeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Huge</GalaxySize>
+    <GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>300.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1200.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyHugeParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Huge</GalaxySize>
+    <GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>300.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>TightClusterGalaxyHugeParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Huge</GalaxySize>
+		<GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>300.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1200.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxyHugeParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+  
+  <!-- 'Gigantic' Sized Maps -->
+<!--	<ArtDefine>
+		<GalaxySize>Gigantic</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>350.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>450.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxyGiganticParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Gigantic</GalaxySize>
+    <GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>600.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>SpiralGalaxyGiganticParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Gigantic</GalaxySize>
+		<GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1400.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyGiganticParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Gigantic</GalaxySize>
+    <GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>650.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>TightClusterGalaxyGiganticParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Gigantic</GalaxySize>
+		<GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>700.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1400.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+		<ParticleEffectScript>ScatteredGalaxyGiganticParticleEffect</ParticleEffectScript>
+	</ArtDefine> -->
+
+
+  <!-- 'Immense' Sized Maps -->
+	<ArtDefine>
+		<GalaxySize>Immense</GalaxySize>
+		<GalaxyType>Random</GalaxyType>
+    <GalaxyZoom>325.0</GalaxyZoom>
+    <GalaxyMinZoom>350.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>450.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>RandomGalaxyImmenseParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Immense</GalaxySize>
+		<GalaxyType>Spiral</GalaxyType>
+    <GalaxyZoom>600.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>SpiralGalaxyImmenseParticleEffect</ParticleEffectScript>
+  </ArtDefine>
+
+  <ArtDefine>
+    <GalaxySize>Immense</GalaxySize>
+    <GalaxyType>Globular</GalaxyType>
+    <GalaxyZoom>600.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1400.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>LooseClusterGalaxyImmenseParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Immense</GalaxySize>
+		<GalaxyType>Clustered</GalaxyType>
+    <GalaxyZoom>600.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>2000.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>TightClusterGalaxyImmenseParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+	<ArtDefine>
+		<GalaxySize>Immense</GalaxySize>
+		<GalaxyType>Scattered</GalaxyType>
+    <GalaxyZoom>600.0</GalaxyZoom>
+    <GalaxyMinZoom>400.0</GalaxyMinZoom>
+    <GalaxyMaxZoom>1400.0</GalaxyMaxZoom>
+    <GalaxyMinTilt>35</GalaxyMinTilt>
+    <GalaxyMaxTilt>65</GalaxyMaxTilt>
+    <GalaxyRotationSpeed>2</GalaxyRotationSpeed>
+    <ParticleEffectScript>ScatteredGalaxyImmenseParticleEffect</ParticleEffectScript>
+	</ArtDefine>
+
+
+	<!-- Need to have an entry for every permutation of (GalaxySize + GalaxyType) -->
+
+</GalaxySettingsScreenArtList>

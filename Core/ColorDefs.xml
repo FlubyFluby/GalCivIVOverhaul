@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/ColorDefs.xsd">
+	<!-- Created with the Gal Civ 3 UIAssetEditor -->
+	<!-- ColorDefs.xml -->
+
+	<!-- Basic Colors -->
+
+	<Color>
+		<InternalName>BrightRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>BrightGreen</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>BrightBlue</InternalName>
+		<Red>0</Red>
+		<Green>0</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Red</InternalName>
+		<Red>128</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Blue</InternalName>
+		<Red>0</Red>
+		<Green>0</Green>
+		<Blue>128</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Yellow</InternalName>
+		<Red>255</Red>
+		<Green>242</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Orange</InternalName>
+		<Red>255</Red>
+		<Green>128</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Black</InternalName>
+		<Red>0</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DarkGray</InternalName>
+		<Red>64</Red>
+		<Green>64</Green>
+		<Blue>64</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>LightGray</InternalName>
+		<Red>158</Red>
+		<Green>158</Green>
+		<Blue>158</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ExtraLightGray</InternalName>
+		<Red>190</Red>
+		<Green>190</Green>
+		<Blue>190</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>White</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>LightRed</InternalName>
+		<Red>255</Red>
+		<Green>128</Green>
+		<Blue>128</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Cyan</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>LightBlue</InternalName>
+		<Red>141</Red>
+		<Green>193</Green>
+		<Blue>233</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Green</InternalName>
+		<Red>0</Red>
+		<Green>193</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<!-- UI Defaults -->
+
+	<Color>
+		<InternalName>TechDisabled</InternalName>
+		<Red>80</Red>
+		<Green>80</Green>
+		<Blue>80</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ShipDesignEnabled</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ShipDesignDisabled</InternalName>
+		<Red>80</Red>
+		<Green>80</Green>
+		<Blue>80</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefault</InternalName>
+		<Red>42</Red>
+		<Green>80</Green>
+		<Blue>130</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultBack</InternalName>
+		<Red>21</Red>
+		<Green>40</Green>
+		<Blue>66</Blue>
+	</Color>
+	
+	<Color>
+		<InternalName>UIDefaultDisabled</InternalName>
+		<Red>21</Red>
+		<Green>40</Green>
+		<Blue>66</Blue>
+	</Color>
+
+
+	<Color>
+		<InternalName>UIDefaultBright</InternalName>
+		<Red>48</Red>
+		<Green>99</Green>
+		<Blue>165</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultHot</InternalName>
+		<Red>75</Red>
+		<Green>160</Green>
+		<Blue>225</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultHighlight</InternalName>
+		<Red>214</Red>
+		<Green>155</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultText</InternalName>
+		<Red>200</Red>
+		<Green>228</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultButton</InternalName>
+		<Red>71</Red>
+		<Green>46</Green>
+		<Blue>28</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultButtonBright</InternalName>
+		<Red>110</Red>
+		<Green>50</Green>
+		<Blue>7</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultButtonHot</InternalName>
+		<Red>214</Red>
+		<Green>155</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UIDefaultButtonText</InternalName>
+		<Red>255</Red>
+		<Green>239</Green>
+		<Blue>195</Blue>
+	</Color>
+
+  <Color>
+    <InternalName>UIBetaString</InternalName>
+    <Red>255</Red>
+    <Green>255</Green>
+    <Blue>255</Blue>
+    <Alpha>150</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>UIDefault_Red</InternalName>
+    <Red>224</Red>
+    <Green>67</Green>
+    <Blue>47</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>UIDefaultBright_Red</InternalName>
+    <Red>255</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>UIDefaultHot_Red</InternalName>
+    <Red>255</Red>
+    <Green>150</Green>
+    <Blue>0</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>UIDefaultHighlight_Red</InternalName>
+    <Red>226</Red>
+    <Green>90</Green>
+    <Blue>0</Blue>
+  </Color>
+  
+	<Color>
+		<InternalName>Pink</InternalName>
+		<Red>200</Red>
+		<Green>0</Green>
+		<Blue>200</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Purple</InternalName>
+		<Red>96</Red>
+		<Green>0</Green>
+		<Blue>96</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>Grey</InternalName>
+		<Red>120</Red>
+		<Green>120</Green>
+		<Blue>120</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>NeutralGrey</InternalName>
+		<Red>120</Red>
+		<Green>120</Green>
+		<Blue>120</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TradeGold</InternalName>
+		<Red>255</Red>
+		<Green>190</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>UPBlue</InternalName>
+		<Red>130</Red>
+		<Green>180</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AllianceGreen</InternalName>
+		<Red>50</Red>
+		<Green>205</Green>
+		<Blue>105</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>WarRed</InternalName>
+		<Red>250</Red>
+		<Green>10</Green>
+		<Blue>10</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DarkRed</InternalName>
+		<Red>90</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DarkCyan</InternalName>
+		<Red>0</Red>
+		<Green>90</Green>
+		<Blue>90</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DarkGreen</InternalName>
+		<Red>0</Red>
+		<Green>90</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DarkOrange</InternalName>
+		<Red>90</Red>
+		<Green>40</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<!-- Terran Colors -->
+
+	<Color>
+		<InternalName>TerranRaceBlue</InternalName>
+		<Red>0</Red>
+		<Green>147</Green>
+		<Blue>217</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranMapBlue</InternalName>
+		<Red>0</Red>
+		<Green>147</Green>
+		<Blue>217</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranUIBlue</InternalName>
+		<Red>0</Red>
+		<Green>172</Green>
+		<Blue>234</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranUIDefault</InternalName>
+		<Red>105</Red>
+		<Green>100</Green>
+		<Blue>85</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranUIDefaultHot</InternalName>
+		<Red>185</Red>
+		<Green>175</Green>
+		<Blue>145</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranFOWUnexplored</InternalName>
+		<Red>255</Red>
+		<Green>15</Green>
+		<Blue>20</Blue>
+		<Alpha>255</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>TerranShipyardGridHot</InternalName>
+		<Red>9</Red>
+		<Green>93</Green>
+		<Blue>143</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranShipyardGridMedium</InternalName>
+		<Red>0</Red>
+		<Green>65</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TerranShipyardGridDark</InternalName>
+		<Red>17</Red>
+		<Green>37</Green>
+		<Blue>56</Blue>
+	</Color>
+
+	<!-- Drengin Colors -->
+
+	<Color>
+		<InternalName>DrenginRaceRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginMapRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginUIRed</InternalName>
+		<Red>240</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginUIDefault</InternalName>
+		<Red>155</Red>
+		<Green>75</Green>
+		<Blue>75</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginUIDefaultHot</InternalName>
+		<Red>240</Red>
+		<Green>200</Green>
+		<Blue>150</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>20</Green>
+		<Blue>20</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginShipyardGridHot</InternalName>
+		<Red>140</Red>
+		<Green>35</Green>
+		<Blue>35</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginShipyardGridMedium</InternalName>
+		<Red>100</Red>
+		<Green>30</Green>
+		<Blue>30</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrenginShipyardGridDark</InternalName>
+		<Red>25</Red>
+		<Green>10</Green>
+		<Blue>10</Blue>
+	</Color>
+
+	<!-- Altarian Colors -->
+
+	<Color>
+		<InternalName>AltarianRaceCyan</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianMapCyan</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianUICyan</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianUIDefault</InternalName>
+		<Red>55</Red>
+		<Green>130</Green>
+		<Blue>145</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianUIDefaultHot</InternalName>
+		<Red>100</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianFOWUnexplored</InternalName>
+		<Red>15</Red>
+		<Green>31</Green>
+		<Blue>35</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianShipyardGridHot</InternalName>
+		<Red>40</Red>
+		<Green>100</Green>
+		<Blue>115</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianShipyardGridMedium</InternalName>
+		<Red>30</Red>
+		<Green>75</Green>
+		<Blue>85</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AltarianShipyardGridDark</InternalName>
+		<Red>12</Red>
+		<Green>27</Green>
+		<Blue>33</Blue>
+	</Color>
+
+	<!-- Iridium Colors -->
+
+	<Color>
+		<InternalName>IridiumGold</InternalName>
+		<Red>255</Red>
+		<Green>175</Green>
+		<Blue>72</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumUIDefault</InternalName>
+		<Red>150</Red>
+		<Green>135</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumUIDefaultHot</InternalName>
+		<Red>255</Red>
+		<Green>242</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>31</Green>
+		<Blue>25</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumShipyardGridHot</InternalName>
+		<Red>120</Red>
+		<Green>110</Green>
+		<Blue>90</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumShipyardGridMedium</InternalName>
+		<Red>75</Red>
+		<Green>67</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IridiumShipyardGridDark</InternalName>
+		<Red>30</Red>
+		<Green>28</Green>
+		<Blue>20</Blue>
+	</Color>
+
+	<!-- Arcean Colors -->
+
+	<Color>
+		<InternalName>ArceanGold</InternalName>
+		<Red>253</Red>
+		<Green>228</Green>
+		<Blue>95</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanUIDefault</InternalName>
+		<Red>160</Red>
+		<Green>140</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanUIDefaultHot</InternalName>
+		<Red>245</Red>
+		<Green>224</Green>
+		<Blue>140</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>165</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>31</Green>
+		<Blue>25</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanShipyardGridHot</InternalName>
+		<Red>150</Red>
+		<Green>135</Green>
+		<Blue>90</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanShipyardGridMedium</InternalName>
+		<Red>75</Red>
+		<Green>67</Green>
+		<Blue>35</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArceanShipyardGridDark</InternalName>
+		<Red>37</Red>
+		<Green>33</Green>
+		<Blue>17</Blue>
+	</Color>
+
+	<!-- Torian Colors -->
+
+	<Color>
+		<InternalName>TorianGreen</InternalName>
+		<Red>100</Red>
+		<Green>250</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianUIDefault</InternalName>
+		<Red>50</Red>
+		<Green>100</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianUIDefaultHot</InternalName>
+		<Red>245</Red>
+		<Green>224</Green>
+		<Blue>140</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>165</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>31</Green>
+		<Blue>25</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianShipyardGridHot</InternalName>
+		<Red>45</Red>
+		<Green>100</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianShipyardGridMedium</InternalName>
+		<Red>25</Red>
+		<Green>50</Green>
+		<Blue>25</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TorianShipyardGridDark</InternalName>
+		<Red>12</Red>
+		<Green>25</Green>
+		<Blue>12</Blue>
+	</Color>
+
+	<!-- Krynn Colors -->
+
+	<Color>
+		<InternalName>KrynnUIDefault</InternalName>
+		<Red>135</Red>
+		<Green>75</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnUIDefaultHot</InternalName>
+		<Red>255</Red>
+		<Green>152</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnFOWUnexplored</InternalName>
+		<Red>30</Red>
+		<Green>20</Green>
+		<Blue>15</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnShipyardGridHot</InternalName>
+		<Red>110</Red>
+		<Green>70</Green>
+		<Blue>40</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnShipyardGridMedium</InternalName>
+		<Red>67</Red>
+		<Green>37</Green>
+		<Blue>25</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KrynnShipyardGridDark</InternalName>
+		<Red>30</Red>
+		<Green>15</Green>
+		<Blue>13</Blue>
+	</Color>
+
+	<!-- Yor Colors -->
+
+	<Color>
+		<InternalName>YorRacePurple</InternalName>
+		<Red>153</Red>
+		<Green>0</Green>
+		<Blue>204</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorMapPurple</InternalName>
+		<Red>153</Red>
+		<Green>0</Green>
+		<Blue>204</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorUIPurple</InternalName>
+		<Red>153</Red>
+		<Green>0</Green>
+		<Blue>204</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorUIDefault</InternalName>
+		<Red>135</Red>
+		<Green>115</Green>
+		<Blue>144</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorUIDefaultHot</InternalName>
+		<Red>200</Red>
+		<Green>150</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorUIDefaultHighlight</InternalName>
+		<Red>205</Red>
+		<Green>255</Green>
+		<Blue>135</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>30</Green>
+		<Blue>40</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorShipyardGridHot</InternalName>
+		<Red>114</Red>
+		<Green>104</Green>
+		<Blue>134</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorShipyardGridMedium</InternalName>
+		<Red>57</Red>
+		<Green>52</Green>
+		<Blue>67</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>YorShipyardGridDark</InternalName>
+		<Red>26</Red>
+		<Green>26</Green>
+		<Blue>33</Blue>
+	</Color>
+
+	<!-- Iconian Colors -->
+
+	<Color>
+		<InternalName>IconianRaceBlue</InternalName>
+		<Red>200</Red>
+		<Green>245</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianUIDefault</InternalName>
+		<Red>100</Red>
+		<Green>125</Green>
+		<Blue>132</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianUIDefaultHot</InternalName>
+		<Red>200</Red>
+		<Green>240</Green>
+		<Blue>250</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianUIDefaultHighlight</InternalName>
+		<Red>0</Red>
+		<Green>240</Green>
+		<Blue>240</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>30</Green>
+		<Blue>40</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianShipyardGridHot</InternalName>
+		<Red>90</Red>
+		<Green>120</Green>
+		<Blue>128</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianShipyardGridMedium</InternalName>
+		<Red>45</Red>
+		<Green>60</Green>
+		<Blue>64</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>IconianShipyardGridDark</InternalName>
+		<Red>22</Red>
+		<Green>30</Green>
+		<Blue>32</Blue>
+	</Color>
+
+  <!-- Xeloxi Colors -->
+
+  <Color>
+    <InternalName>XeloxiRaceGreen</InternalName>
+    <Red>65</Red>
+    <Green>190</Green>
+    <Blue>65</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>XeloxiUIDefault</InternalName>
+    <Red>95</Red>
+    <Green>110</Green>
+    <Blue>95</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>XeloxiShipyardGridHot</InternalName>
+    <Red>90</Red>
+    <Green>105</Green>
+    <Blue>90</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>XeloxiShipyardGridMedium</InternalName>
+    <Red>45</Red>
+    <Green>52</Green>
+    <Blue>45</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>XeloxiShipyardGridDark</InternalName>
+    <Red>22</Red>
+    <Green>26</Green>
+    <Blue>23</Blue>
+  </Color>
+
+  <!-- Baratak Colors -->
+
+  <Color>
+    <InternalName>BaratakRaceGreen</InternalName>
+    <Red>220</Red>
+    <Green>245</Green>
+    <Blue>150</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>BaratakUIDefault</InternalName>
+    <Red>115</Red>
+    <Green>135</Green>
+    <Blue>65</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>BaratakShipyardGridHot</InternalName>
+    <Red>110</Red>
+    <Green>130</Green>
+    <Blue>60</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>BaratakShipyardGridMedium</InternalName>
+    <Red>55</Red>
+    <Green>115</Green>
+    <Blue>30</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>BaratakShipyardGridDark</InternalName>
+    <Red>22</Red>
+    <Green>57</Green>
+    <Blue>15</Blue>
+  </Color>
+
+  <!-- Snathi Colors -->
+
+	<Color>
+		<InternalName>SnathiRaceGreen</InternalName>
+		<Red>220</Red>
+		<Green>245</Green>
+		<Blue>150</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiUIDefault</InternalName>
+		<Red>115</Red>
+		<Green>135</Green>
+		<Blue>65</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiUIDefaultHot</InternalName>
+		<Red>220</Red>
+		<Green>245</Green>
+		<Blue>150</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiFOWUnexplored</InternalName>
+		<Red>35</Red>
+		<Green>30</Green>
+		<Blue>40</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiShipyardGridHot</InternalName>
+		<Red>110</Red>
+		<Green>130</Green>
+		<Blue>60</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiShipyardGridMedium</InternalName>
+		<Red>55</Red>
+		<Green>115</Green>
+		<Blue>30</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SnathiShipyardGridDark</InternalName>
+		<Red>22</Red>
+		<Green>57</Green>
+		<Blue>15</Blue>
+	</Color>
+
+  <!-- Mimot Colors -->
+
+  <Color>
+    <InternalName>MimotRaceBlue</InternalName>
+    <Red>120</Red>
+    <Green>150</Green>
+    <Blue>250</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MimotUIDefault</InternalName>
+    <Red>100</Red>
+    <Green>130</Green>
+    <Blue>180</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MimotShipyardGridHot</InternalName>
+    <Red>95</Red>
+    <Green>125</Green>
+    <Blue>175</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MimotShipyardGridMedium</InternalName>
+    <Red>48</Red>
+    <Green>57</Green>
+    <Blue>50</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MimotShipyardGridDark</InternalName>
+    <Red>24</Red>
+    <Green>28</Green>
+    <Blue>25</Blue>
+  </Color>
+
+  <!-- Resistance Colors -->
+
+	<Color>
+		<InternalName>ResistanceRaceBlue</InternalName>
+		<Red>120</Red>
+		<Green>150</Green>
+		<Blue>250</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceUIDefault</InternalName>
+		<Red>100</Red>
+		<Green>130</Green>
+		<Blue>180</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceUIDefaultHot</InternalName>
+		<Red>180</Red>
+		<Green>200</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceFOWUnexplored</InternalName>
+		<Red>25</Red>
+		<Green>25</Green>
+		<Blue>30</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceShipyardGridHot</InternalName>
+		<Red>95</Red>
+		<Green>125</Green>
+		<Blue>175</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceShipyardGridMedium</InternalName>
+		<Red>48</Red>
+		<Green>57</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResistanceShipyardGridDark</InternalName>
+		<Red>24</Red>
+		<Green>28</Green>
+		<Blue>25</Blue>
+	</Color>
+
+
+  <!-- Navigator Colors -->
+
+  <Color>
+    <InternalName>NavigatorRaceGreen</InternalName>
+    <Red>100</Red>
+    <Green>145</Green>
+    <Blue>70</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>NavigatorUIDefault</InternalName>
+    <Red>158</Red>
+    <Green>163</Green>
+    <Blue>158</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>NavigatorShipyardGridHot</InternalName>
+    <Red>154</Red>
+    <Green>160</Green>
+    <Blue>154</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>NavigatorShipyardGridMedium</InternalName>
+    <Red>75</Red>
+    <Green>80</Green>
+    <Blue>75</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>NavigatorShipyardGridDark</InternalName>
+    <Red>36</Red>
+    <Green>40</Green>
+    <Blue>46</Blue>
+  </Color>
+
+  <!-- MantiColors -->
+    
+  <Color>
+    <InternalName>MantiRaceBlue</InternalName>
+    <Red>20</Red>
+    <Green>128</Green>
+    <Blue>128</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MantiUIDefault</InternalName>
+    <Red>55</Red>
+    <Green>130</Green>
+    <Blue>145</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MantiShipyardGridHot</InternalName>
+		<Red>40</Red>
+		<Green>100</Green>
+		<Blue>115</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MantiShipyardGridMedium</InternalName>
+		<Red>30</Red>
+		<Green>75</Green>
+		<Blue>85</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>MantiShipyardGridDark</InternalName>
+		<Red>12</Red>
+		<Green>27</Green>
+		<Blue>33</Blue>
+  </Color>
+
+  <!-- SlyneColors -->
+
+	<Color>
+		<InternalName>SlyneRaceGreen</InternalName>
+		<Red>100</Red>
+		<Green>145</Green>
+		<Blue>70</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneUIDefault</InternalName>
+		<Red>158</Red>
+		<Green>163</Green>
+		<Blue>158</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneUIDefaultHot</InternalName>
+		<Red>205</Red>
+		<Green>210</Green>
+		<Blue>205</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>172</Green>
+		<Blue>105</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneShipyardGridHot</InternalName>
+		<Red>154</Red>
+		<Green>160</Green>
+		<Blue>154</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneShipyardGridMedium</InternalName>
+		<Red>75</Red>
+		<Green>80</Green>
+		<Blue>75</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>SlyneShipyardGridDark</InternalName>
+		<Red>36</Red>
+		<Green>40</Green>
+		<Blue>46</Blue>
+	</Color>
+
+	<!-- Onyx Colors -->
+
+	<Color>
+		<InternalName>OnyxRaceRust</InternalName>
+		<Red>200</Red>
+		<Green>110</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxUIDefault</InternalName>
+		<Red>140</Red>
+		<Green>70</Green>
+		<Blue>70</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxUIDefaultHot</InternalName>
+		<Red>200</Red>
+		<Green>110</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>205</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxShipyardGridHot</InternalName>
+		<Red>135</Red>
+		<Green>66</Green>
+		<Blue>66</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxShipyardGridMedium</InternalName>
+		<Red>67</Red>
+		<Green>33</Green>
+		<Blue>33</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>OnyxShipyardGridDark</InternalName>
+		<Red>34</Red>
+		<Green>31</Green>
+		<Blue>31</Blue>
+	</Color>
+
+	<!-- KorathColors -->
+
+	<Color>
+		<InternalName>KorathRaceGrey</InternalName>
+		<Red>192</Red>
+		<Green>192</Green>
+		<Blue>49</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathUIDefault</InternalName>
+		<Red>139</Red>
+		<Green>124</Green>
+		<Blue>125</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathUIDefaultHot</InternalName>
+		<Red>235</Red>
+		<Green>110</Green>
+		<Blue>112</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathShipyardGridHot</InternalName>
+		<Red>134</Red>
+		<Green>120</Green>
+		<Blue>120</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathShipyardGridMedium</InternalName>
+		<Red>67</Red>
+		<Green>60</Green>
+		<Blue>60</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>KorathShipyardGridDark</InternalName>
+		<Red>33</Red>
+		<Green>30</Green>
+		<Blue>30</Blue>
+	</Color>
+
+  <!-- Festron Colors -->
+
+  <Color>
+    <InternalName>FestronRacePink</InternalName>
+    <Red>225</Red>
+    <Green>90</Green>
+    <Blue>155</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FestronUIDefault</InternalName>
+    <Red>232</Red>
+    <Green>152</Green>
+    <Blue>49</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FestronShipyardGridHot</InternalName>
+    <Red>225</Red>
+    <Green>145</Green>
+    <Blue>44</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FestronShipyardGridMedium</InternalName>
+    <Red>112</Red>
+    <Green>72</Green>
+    <Blue>22</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FestronShipyardGridDark</InternalName>
+    <Red>56</Red>
+    <Green>36</Green>
+    <Blue>11</Blue>
+  </Color>
+
+  <!-- DrathColors -->
+
+	<Color>
+		<InternalName>DrathRaceGold</InternalName>
+		<Red>184</Red>
+		<Green>110</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathUIDefault</InternalName>
+		<Red>232</Red>
+		<Green>152</Green>
+		<Blue>49</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathUIDefaultHot</InternalName>
+		<Red>192</Red>
+		<Green>132</Green>
+		<Blue>43</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathUIDefaultHighlight</InternalName>
+		<Red>255</Red>
+		<Green>154</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathShipyardGridHot</InternalName>
+		<Red>225</Red>
+		<Green>145</Green>
+		<Blue>44</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathShipyardGridMedium</InternalName>
+		<Red>112</Red>
+		<Green>72</Green>
+		<Blue>22</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DrathShipyardGridDark</InternalName>
+		<Red>56</Red>
+		<Green>36</Green>
+		<Blue>11</Blue>
+	</Color>
+
+	<!-- Pirate Colors -->
+
+	<Color>
+		<InternalName>PirateRaceColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PirateMapColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PirateUIColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MinorYellow</InternalName>
+		<Red>220</Red>
+		<Green>216</Green>
+		<Blue>119</Blue>
+	</Color>
+
+	<!-- Resource Colors -->
+
+	<Color>
+		<InternalName>EleriumBlue</InternalName>
+		<Red>0</Red>
+		<Green>204</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AntiMatterYellow</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DurantiumRed</InternalName>
+		<Red>209</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PromethionOrange</InternalName>
+		<Red>255</Red>
+		<Green>102</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ThuliumBlue</InternalName>
+		<Red>153</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DurantiumColor</InternalName>
+		<Red>175</Red>
+		<Green>26</Green>
+		<Blue>26</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AntiMatterColor</InternalName>
+		<Red>172</Red>
+		<Green>129</Green>
+		<Blue>24</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PromethionColor</InternalName>
+		<Red>180</Red>
+		<Green>100</Green>
+		<Blue>18</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ThuliumColor</InternalName>
+		<Red>72</Red>
+		<Green>140</Green>
+		<Blue>140</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AsteroidsColor</InternalName>
+		<Red>142</Red>
+		<Green>133</Green>
+		<Blue>114</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>EleriumColor</InternalName>
+		<Red>79</Red>
+		<Green>109</Green>
+		<Blue>198</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>EconomicRelicGold</InternalName>
+		<Red>207</Red>
+		<Green>143</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ControlRelicRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ManufacturingRelicOrange</InternalName>
+		<Red>207</Red>
+		<Green>83</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResearchRelicBlue</InternalName>
+		<Red>0</Red>
+		<Green>135</Green>
+		<Blue>169</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MoraleRelicGreen</InternalName>
+		<Red>38</Red>
+		<Green>150</Green>
+		<Blue>38</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>AscensionGateBlue</InternalName>
+		<Red>166</Red>
+		<Green>166</Green>
+		<Blue>207</Blue>
+	</Color>
+
+	<!-- Tech Colors -->
+
+	<Color>
+		<InternalName>TechRed</InternalName>
+		<Red>223</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechOrange</InternalName>
+		<Red>255</Red>
+		<Green>102</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechGold</InternalName>
+		<Red>215</Red>
+		<Green>144</Green>
+		<Blue>42</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechYellow</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechLemon</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>153</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechPurple</InternalName>
+		<Red>179</Red>
+		<Green>39</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechGreen</InternalName>
+		<Red>0</Red>
+		<Green>220</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechTeal</InternalName>
+		<Red>125</Red>
+		<Green>255</Green>
+		<Blue>174</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechBlue</InternalName>
+		<Red>0</Red>
+		<Green>184</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>TechCyan</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CultureRelicCyan</InternalName>
+		<Red>125</Red>
+		<Green>207</Green>
+		<Blue>207</Blue>
+	</Color>
+
+	<!-- Stat Colors -->
+
+	<Color>
+		<InternalName>ProductionOrange</InternalName>
+		<Red>255</Red>
+		<Green>102</Green>
+		<Blue>51</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ReseachBlue</InternalName>
+		<Red>102</Red>
+		<Green>154</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CultureBlue</InternalName>
+		<Red>153</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CreditsGold</InternalName>
+		<Red>204</Red>
+		<Green>153</Green>
+		<Blue>51</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PopulationGreen</InternalName>
+		<Red>51</Red>
+		<Green>204</Green>
+		<Blue>153</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ApprovalGreen</InternalName>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ApprovalYellow</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ApprovalRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CreditsDefaultColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CreditsNegativeColor</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CreditsLosingColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>CreditsRecoveringColor</InternalName>
+		<Red>255</Red>
+		<Green>102</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>VictoryProgressLowColor</InternalName>
+		<Red>255</Red>
+		<Green>128</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>VictoryProgressMediumColor</InternalName>
+		<Red>255</Red>
+		<Green>242</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>VictoryProgressHighColor</InternalName>
+		<Red>0</Red>
+		<Green>128</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<!-- Planet Surface UI Colors -->
+
+	<Color>
+		<InternalName>PlanetSurfaceUsedBorderColor</InternalName>
+		<Red>0</Red>
+		<Green>70</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetSurfaceUsableBorderColor</InternalName>
+		<Red>0</Red>
+		<Green>200</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetSurfaceTerraformUsableBorderColor</InternalName>
+		<Red>230</Red>
+		<Green>230</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetSurfaceSelectedColor</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<!-- Diplomacy Colors -->
+
+	<Color>
+		<InternalName>DiplomacyLovesColor</InternalName>
+		<Red>147</Red>
+		<Green>196</Green>
+		<Blue>125</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyAdmiresColor</InternalName>
+		<Red>162</Red>
+		<Green>196</Green>
+		<Blue>201</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyLikesColor</InternalName>
+		<Red>208</Red>
+		<Green>224</Green>
+		<Blue>227</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyTrustsColor</InternalName>
+		<Red>207</Red>
+		<Green>226</Green>
+		<Blue>243</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyApatheticColor</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyDistrustsColor</InternalName>
+		<Red>255</Red>
+		<Green>242</Green>
+		<Blue>204</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyDislikesColor</InternalName>
+		<Red>255</Red>
+		<Green>100</Green>
+		<Blue>100</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyHostileColor</InternalName>
+		<Red>249</Red>
+		<Green>203</Green>
+		<Blue>156</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DiplomacyHatesColor</InternalName>
+		<Red>224</Red>
+		<Green>102</Green>
+		<Blue>102</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>NeutralColor</InternalName>
+		<Red>110</Red>
+		<Green>110</Green>
+		<Blue>110</Blue>
+	</Color>
+
+  <Color>
+    <InternalName>AtmosphereColor</InternalName>
+    <Red>160</Red>
+    <Green>160</Green>
+    <Blue>160</Blue>
+  </Color>
+
+	<Color>
+		<InternalName>DesignerNormalCapacityColor</InternalName>
+		<Red>255</Red>
+		<Green>204</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ShipDesignTintSelected</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ShipDesignTintUnselected</InternalName>
+		<Red>128</Red>
+		<Green>128</Green>
+		<Blue>128</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ShipDesignTintHighlighted</InternalName>
+		<Red>235</Red>
+		<Green>235</Green>
+		<Blue>235</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>DesignerMaxCapacityColor</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ResourceListNegativeColor</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>BattleViewerTargeted</InternalName>
+		<Red>200</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<!-- Planet Class Colors -->
+
+	<Color>
+		<InternalName>PlanetClassDead</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetClassColonizable</InternalName>
+		<Red>196</Red>
+		<Green>196</Green>
+		<Blue>244</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetClassGood</InternalName>
+		<Red>195</Red>
+		<Green>146</Green>
+		<Blue>48</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetClassGreat</InternalName>
+		<Red>254</Red>
+		<Green>207</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetClassFantastic</InternalName>
+		<Red>0</Red>
+		<Green>204</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PlanetClassPerfect</InternalName>
+		<Red>50</Red>
+		<Green>204</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PrecursorWorldStrategicIconColor</InternalName>
+		<Red>225</Red>
+		<Green>180</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>LockedExtremeWorldStrategicIconColor</InternalName>
+		<Red>255</Red>
+		<Green>180</Green>
+		<Blue>180</Blue>
+	</Color>
+	
+	<!-- Mercenary Tiers -->
+
+	<Color>
+		<InternalName>MercenaryTiers1</InternalName>
+		<Red>106</Red>
+		<Green>218</Green>
+		<Blue>106</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MercenaryTiersCannotAfford1</InternalName>
+		<Red>160</Red>
+		<Green>180</Green>
+		<Blue>170</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MercenaryTiers2</InternalName>
+		<Red>95</Red>
+		<Green>194</Green>
+		<Blue>216</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MercenaryTiersCannotAfford2</InternalName>
+		<Red>138</Red>
+		<Green>146</Green>
+		<Blue>148</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MercenaryTiers3</InternalName>
+		<Red>197</Red>
+		<Green>117</Green>
+		<Blue>117</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MercenaryTiersCannotAfford3</InternalName>
+		<Red>170</Red>
+		<Green>156</Green>
+		<Blue>156</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>FOWUnexplored</InternalName>
+		<Red>27</Red>
+		<Green>37</Green>
+		<Blue>27</Blue>
+		<Alpha>255</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>FOWExposed</InternalName>
+		<Red>20</Red>
+		<Green>25</Green>
+		<Blue>25</Blue>
+		<Alpha>255</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>FOWBorderColor</InternalName>
+		<Red>10</Red>
+		<Green>15</Green>
+		<Blue>20</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>NebulaIconColor</InternalName>
+		<Red>97</Red>
+		<Green>112</Green>
+		<Blue>104</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>StormIconColor</InternalName>
+		<Red>117</Red>
+		<Green>99</Green>
+		<Blue>104</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>FOWGridColor</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+		<Alpha>0</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>FOWStarColor</InternalName>
+		<Red>100</Red>
+		<Green>110</Green>
+		<Blue>125</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>FOWFadeColor</InternalName>
+		<Red>30</Red>
+		<Green>35</Green>
+		<Blue>40</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>FOWNonCluster</InternalName>
+		<Red>30</Red>
+		<Green>25</Green>
+		<Blue>25</Blue>
+	</Color>
+
+  <Color>
+    <InternalName>FOWStarColor_Yellow</InternalName>
+    <Red>151</Red>
+    <Green>153</Green>
+    <Blue>114</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FOWStarColor_Orange</InternalName>
+    <Red>184</Red>
+    <Green>146</Green>
+    <Blue>94</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FOWStarColor_Red</InternalName>
+    <Red>174</Red>
+    <Green>90</Green>
+    <Blue>80</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FOWStarColor_Blue</InternalName>
+    <Red>80</Red>
+    <Green>150</Green>
+    <Blue>181</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FOWStarColor_Purple</InternalName>
+    <Red>149</Red>
+    <Green>117</Green>
+    <Blue>164</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>FOWStarColor_White</InternalName>
+    <Red>100</Red>
+    <Green>110</Green>
+    <Blue>125</Blue>
+  </Color>
+  
+  <Color>
+    <InternalName>GalaxyBackground</InternalName>
+    <Red>3</Red>
+    <Green>0</Green>
+    <Blue>3</Blue>
+    <Alpha>225</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>PlanetHologramColor</InternalName>
+    <Red>50</Red>
+    <Green>50</Green>
+    <Blue>250</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>PlanetHologramFresnelColor</InternalName>
+    <Red>200</Red>
+    <Green>200</Green>
+    <Blue>250</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+	<!-- Artifact Colors -->
+
+	<Color>
+		<InternalName>ArtifactMilitaryRed</InternalName>
+		<Red>255</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArtifactResearchBlue</InternalName>
+		<Red>0</Red>
+		<Green>92</Green>
+		<Blue>180</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArtifactManufacturingGold</InternalName>
+		<Red>255</Red>
+		<Green>150</Green>
+		<Blue>50</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArtifactMovesBlue</InternalName>
+		<Red>120</Red>
+		<Green>153</Green>
+		<Blue>255</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArtifactWormholePurple</InternalName>
+		<Red>153</Red>
+		<Green>0</Green>
+		<Blue>204</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>ArtifactPopulationGreen</InternalName>
+		<Red>0</Red>
+		<Green>153</Green>
+		<Blue>51</Blue>
+	</Color>
+
+  <Color>
+    <InternalName>SlipstreamLineGalaxyColor</InternalName>
+    <Red>20</Red>
+    <Green>25</Green>
+    <Blue>35</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>SlipstreamLineClusterColor</InternalName>
+    <Red>150</Red>
+    <Green>200</Green>
+    <Blue>255</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>SlipstreamLineEdgeGalaxyColor</InternalName>
+    <Red>200</Red>
+    <Green>255</Green>
+    <Blue>255</Blue>
+  </Color>
+
+	<!-- Star Sprite Colors -->
+
+	<Color>
+		<InternalName>StarColor5</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Alpha>180</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor6</InternalName>
+		<Red>210</Red>
+		<Green>210</Green>
+		<Blue>210</Blue>
+		<Alpha>100</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor1</InternalName>
+		<Red>230</Red>
+		<Green>230</Green>
+		<Blue>230</Blue>
+		<Alpha>180</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor2</InternalName>
+		<Red>250</Red>
+		<Green>250</Green>
+		<Blue>254</Blue>
+		<Alpha>100</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor3</InternalName>
+		<Red>230</Red>
+		<Green>230</Green>
+		<Blue>230</Blue>
+		<Alpha>180</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor4</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Alpha>100</Alpha>
+	</Color>
+
+	<Color>
+		<InternalName>StarColor7</InternalName>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Alpha>150</Alpha>
+	</Color>
+
+	<!-- Ideology Colors -->
+
+	<Color>
+		<InternalName>BenevolentBlue</InternalName>
+		<Red>150</Red>
+		<Green>240</Green>
+		<Blue>240</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>PragmaticGold</InternalName>
+		<Red>204</Red>
+		<Green>153</Green>
+		<Blue>51</Blue>
+	</Color>
+
+	<Color>
+		<InternalName>MalevolentRed</InternalName>
+		<Red>198</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+		<Alpha>0</Alpha>
+	</Color>
+
+  <!-- Minister Icon Colors -->
+  <Color>
+    <InternalName>ColorDef_Minster_Exploration</InternalName>
+    <Red>144</Red>
+    <Green>10</Green>
+    <Blue>245</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Technology</InternalName>
+    <Red>10</Red>
+    <Green>188</Green>
+    <Blue>249</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Colony</InternalName>
+    <Red>23</Red>
+    <Green>190</Green>
+    <Blue>55</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Culture</InternalName>
+    <Red>23</Red>
+    <Green>190</Green>
+    <Blue>55</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Health</InternalName>
+    <Red>144</Red>
+    <Green>10</Green>
+    <Blue>245</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Crime</InternalName>
+    <Red>144</Red>
+    <Green>10</Green>
+    <Blue>245</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Finance</InternalName>
+    <Red>10</Red>
+    <Green>188</Green>
+    <Blue>249</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Defense</InternalName>
+    <Red>249</Red>
+    <Green>40</Green>
+    <Blue>40</Blue>
+    <Alpha>235</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_DisabledOption</InternalName>
+    <Red>45</Red>
+    <Green>54</Green>
+    <Blue>62</Blue>
+    <Alpha>200</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_Minster_Unassigned</InternalName>
+    <Red>77</Red>
+    <Green>111</Green>
+    <Blue>131</Blue>
+    <Alpha>200</Alpha>
+  </Color>
+
+  <!-- Districts -->
+  <Color>
+    <InternalName>ColorDef_District_Food</InternalName>
+    <Red>0</Red>
+    <Green>172</Green>
+    <Blue>0</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Wealth</InternalName>
+    <Red>215</Red>
+    <Green>157</Green>
+    <Blue>0</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Approval</InternalName>
+    <Red>190</Red>
+    <Green>67</Green>
+    <Blue>255</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Population</InternalName>
+    <Red>43</Red>
+    <Green>97</Green>
+    <Blue>39</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Influence</InternalName>
+    <Red>0</Red>
+    <Green>173</Green>
+    <Blue>178</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Manufacturing</InternalName>
+    <Red>199</Red>
+    <Green>69</Green>
+    <Blue>0</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>ColorDef_District_Research</InternalName>
+    <Red>6</Red>
+    <Green>153</Green>
+    <Blue>231</Blue>
+  </Color>
+
+  <Color>
+    <InternalName>InfluenceBackground</InternalName>
+    <Red>0</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+    <Alpha>100</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>SectorInfluenceBackground</InternalName>
+    <Red>0</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+    <Alpha>100</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>Mods_Category_Tint_Ship</InternalName>
+    <Red>255</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>Mods_Category_Tint_ShipStyleSet</InternalName>
+    <Red>0</Red>
+    <Green>168</Green>
+    <Blue>37</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>Mods_Category_Tint_Civilization</InternalName>
+    <Red>0</Red>
+    <Green>255</Green>
+    <Blue>198</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>Mods_Category_Tint_Mod</InternalName>
+    <Red>214</Red>
+    <Green>155</Green>
+    <Blue>0</Blue>
+    <Alpha>255</Alpha>
+  </Color>
+
+  <Color>
+    <InternalName>Mods_Category_Tint_MyMods</InternalName>
+		<Red>75</Red>
+		<Green>160</Green>
+		<Blue>225</Blue>
+  </Color>
+</ColorList>

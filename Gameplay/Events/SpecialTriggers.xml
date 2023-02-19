@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<EventTriggerList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/EventTriggerListDef.xsd">
+ 
+<EventTriggerListDef>
+ 
+  <InternalName>SpecialEventTriggers</InternalName>
+ 
+  <Trigger> <!--Arcean get a Culture Point the first time they man a command ship-->
+    <OnEvent>OnCommandShipCreated</OnEvent>
+    <ConditionalEffect>
+      <If>
+        <Criterion>
+          <Target>
+            <TargetType>Faction</TargetType>
+          </Target>
+          <PrereqCheck>
+            <RaceTrait>
+              <Option>LoyalAbility</Option>
+            </RaceTrait>
+          </PrereqCheck>
+        </Criterion>
+      </If>
+      <IfConditionalEffect>
+        <If>
+          <Criterion>
+            <Target>
+              <TargetType>Faction</TargetType>
+            </Target>
+            <PrereqCheck>
+              <Counter>
+                <Option>
+                  <CounterName>LoyalCommanderUnassign_Counter</CounterName>
+                  <Condition>LessThan</Condition>
+                  <Threshold>1</Threshold>
+                </Option>
+              </Counter>
+            </PrereqCheck>
+          </Criterion>
+        </If>
+        <IfEffect>
+          <Target>
+            <TargetType>Faction</TargetType>
+          </Target>
+          <Lifetime>Instant</Lifetime>
+          <Modifier>
+            <EffectType>CulturePoints</EffectType>
+            <Target>
+              <TargetType>Faction</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>1</Value>
+          </Modifier>
+        </IfEffect>
+      </IfConditionalEffect>
+    </ConditionalEffect>
+  </Trigger>
+  
+  <Trigger> <!--Arcean get a Culture Point the first time they man a command ship-->
+    <OnEvent>OnCommandShipCreated</OnEvent>
+    <ConditionalEffect>
+      <If>
+        <Criterion>
+          <Target>
+            <TargetType>Faction</TargetType>
+          </Target>
+          <PrereqCheck>
+            <Counter>
+              <Option>
+                <CounterName>LoyalCommanderUnassign_Counter</CounterName>
+                <Condition>GreaterThan</Condition>
+                <Threshold>0</Threshold>
+              </Option>
+            </Counter>
+          </PrereqCheck>
+        </Criterion>
+      </If>
+      <IfEffect>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <PerformAction>
+          <Action>ModifyCounter</Action>
+		  <ValueParam>-1</ValueParam>
+          <StringParam>LoyalCommanderUnassign_Counter</StringParam>
+        </PerformAction>
+      </IfEffect>
+    </ConditionalEffect>
+  </Trigger>
+
+  <Trigger> <!--Arcean get a Culture Point the first time they man a command ship-->
+    <OnEvent>OnCommandShipUnassigned</OnEvent>
+    <Target>
+      <TargetType>Faction</TargetType>
+    </Target>
+    <PerformAction>
+      <Action>ModifyCounter</Action>
+	  <ValueParam>1</ValueParam>
+      <StringParam>LoyalCommanderUnassign_Counter</StringParam>
+    </PerformAction>
+  </Trigger>
+ 
+ </EventTriggerListDef>
+
+</EventTriggerList>

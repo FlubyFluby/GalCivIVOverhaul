@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<ConversationTopicDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
+
+  <ConversationTopicDef>
+    <InternalName>Conversation_ColonyLimitWarning</InternalName>
+    <TopicID>ColonyLimitWarning</TopicID>
+    <ConversationDef>
+      <FlavorText>COLONY_LIMIT_WARNING</FlavorText>
+      <Response>
+        <InternalName>ColonyLimitWarning_Response_1</InternalName>
+        <ResponseFlavorText>COLONY_LIMIT_WARNING_RESPONSE_GOVERNMENT</ResponseFlavorText>
+        <ListenerTrigger>
+          <OnEvent>OnConversationResponse</OnEvent>
+          <PerformAction>
+            <Action>UnhideScreen</Action>
+            <StringParam>CabinetWnd</StringParam>
+          </PerformAction>
+        </ListenerTrigger>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+  <ConversationTopicDef>
+    <InternalName>Conversation_ColonyLimitWarningTech</InternalName>
+    <TopicID>ColonyLimitWarningTech</TopicID>
+    <ConversationDef>
+      <FlavorText>COLONY_LIMIT_WARNING_TECH</FlavorText>
+      <Response>
+        <InternalName>ColonyLimitWarningTech_Response_1</InternalName>
+        <ResponseFlavorText>COLONY_LIMIT_WARNING_TECH_RESPONSE_TECH</ResponseFlavorText>
+        <ListenerTrigger>
+          <OnEvent>OnConversationResponse</OnEvent>
+          <PerformAction>
+            <Action>UnhideScreen</Action>
+            <StringParam>ResearchContainerWnd</StringParam>
+          </PerformAction>
+        </ListenerTrigger>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+</ConversationTopicDefs>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<RelativePowerDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RelativePowerDefs.xsd">
+
+  <RelativePowerDisplayDef>
+    <UniqueID>SpeakerMuchStronger</UniqueID>
+    <Range>
+      <RangeMin>3.0</RangeMin>
+      <NoMax>true</NoMax>
+    </Range>
+    <DisplayName>RELATIVE_POWER_MUCHSTRONGER_LABEL</DisplayName>
+    <ColorDef>BrightRed</ColorDef>
+  </RelativePowerDisplayDef>
+
+  <RelativePowerDisplayDef>
+    <UniqueID>SpeakerStronger</UniqueID>
+    <Range>
+      <RangeMin>1.5</RangeMin>
+      <RangeMax>3.0</RangeMax>
+    </Range>
+    <DisplayName>RELATIVE_POWER_STRONGER_LABEL</DisplayName>
+    <ColorDef>LightRed</ColorDef>
+  </RelativePowerDisplayDef>
+
+  <RelativePowerDisplayDef>
+    <UniqueID>SpeakerEqual</UniqueID>
+    <Range>
+      <RangeMin>0.66</RangeMin>
+      <RangeMax>1.5</RangeMax>
+    </Range>
+    <DisplayName>RELATIVE_POWER_EQUAL_LABEL</DisplayName>
+    <ColorDef>White</ColorDef>
+  </RelativePowerDisplayDef>
+
+  <RelativePowerDisplayDef>
+    <UniqueID>SpeakerWeaker</UniqueID>
+    <Range>
+      <RangeMin>0.33</RangeMin>
+      <RangeMax>0.66</RangeMax>
+    </Range>
+    <DisplayName>RELATIVE_POWER_WEAKER_LABEL</DisplayName>
+    <ColorDef>ExtraLightGray</ColorDef>
+  </RelativePowerDisplayDef>
+
+  <RelativePowerDisplayDef>
+    <UniqueID>SpeakerMuchWeaker</UniqueID>
+    <Range>
+      <NoMin>true</NoMin>
+      <RangeMax>0.33</RangeMax>
+    </Range>
+    <DisplayName>RELATIVE_POWER_MUCHWEAKER_LABEL</DisplayName>
+    <ColorDef>LightGray</ColorDef>
+  </RelativePowerDisplayDef>
+
+
+</RelativePowerDisplayDefs>

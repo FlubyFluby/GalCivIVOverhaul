@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechAgeList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TechAgeDefs.xsd">
+	
+  <!-- Currently each tech = 1 point. Each tree has arround 420 techs -->
+
+  <TechAge>
+    <InternalName>AgeOfExpansion</InternalName>
+    <DisplayName>AGE_OF_EXPANSION</DisplayName>
+    <RequiredTechPoints>0</RequiredTechPoints>
+  </TechAge>
+
+  <TechAge>
+    <InternalName>AgeOfWar</InternalName>
+    <DisplayName>AGE_OF_WAR</DisplayName>
+		<!-- Must unlock 12 techs to get to age of war-->
+    <RequiredTechPoints>12</RequiredTechPoints>
+  </TechAge>
+
+  <TechAge>
+    <InternalName>AgeOfAscension</InternalName>
+    <DisplayName>AGE_OF_ASCENSION</DisplayName>
+		<!-- Must unlock 84 techs to get to Age Of Ascension-->
+    <RequiredTechPoints>84</RequiredTechPoints>
+  </TechAge>
+
+  <TechAge>
+    <InternalName>AgeOfVictory</InternalName>
+    <DisplayName>AGE_OF_ASCENSION</DisplayName>
+		<!-- Must unlock 128 techs to get to Age Of Victory-->
+    <RequiredTechPoints>128</RequiredTechPoints>
+  </TechAge>
+
+</TechAgeList>

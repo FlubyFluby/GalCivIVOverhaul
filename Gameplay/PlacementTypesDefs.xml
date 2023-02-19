@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlacementImpList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlacementTypesDefs.xsd">
+
+  <PlacementImp>
+    <UniqueID>Special</UniqueID>
+    <HubImprovement>false</HubImprovement>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Terraforming</UniqueID>
+    <HubImprovement>false</HubImprovement>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Manufacturing</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Manufacturing</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ManufacturingHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Manufacturing</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ManufacturingUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+  <PreferredNeighbor>Manufacturing</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ManufacturingAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Manufacturing</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Research</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Research</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ResearchHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Research</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ResearchUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Research</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ResearchAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Research</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Wealth</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Wealth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>WealthHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Wealth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>WealthUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Wealth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>WealthAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Wealth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Trade</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Trade</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TradeHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Trade</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TradeUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Trade</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TradeAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Trade</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Influence</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Influence</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>InfluenceHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Influence</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>InfluenceUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Influence</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>InfluenceAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Influence</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Food</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Food</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>FoodHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Food</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>FoodUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Food</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>FoodAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Food</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Growth</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Growth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>GrowthHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Growth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>GrowthUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Growth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>GrowthAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Growth</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Approval</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Approval</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ApprovalHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Approval</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ApprovalUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Approval</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>ApprovalAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Approval</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Diplomatic</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Diplomatic</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DiplomaticHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Diplomatic</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DiplomaticUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Diplomatic</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DiplomaticAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Diplomatic</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Tourism</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Tourism</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TourismHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Tourism</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TourismUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Tourism</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>TourismAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Tourism</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Military</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Military</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>MilitaryHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Military</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>MilitaryUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Military</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>MilitaryAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Military</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>Defense</UniqueID>
+    <HubImprovement>false</HubImprovement>
+    <PreferredNeighbor>Defense</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DefenseHub</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Defense</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DefenseUnique</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Defense</PreferredNeighbor>
+  </PlacementImp>
+
+  <PlacementImp>
+    <UniqueID>DefenseAchievement</UniqueID>
+    <HubImprovement>true</HubImprovement>
+    <PreferredNeighbor>Defense</PreferredNeighbor>
+  </PlacementImp>
+
+</PlacementImpList>

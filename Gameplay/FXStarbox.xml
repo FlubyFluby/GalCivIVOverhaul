@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- Starbox visual fx -->
+
+  <FXElement>
+    <InternalName>ShootingStarFX</InternalName>
+    <Type>Particle</Type>
+    <KeyValueString>
+      <Key>Script</Key>
+      <Value>ShootingStarParticleEffect</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>NodeByID</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+    
+  </FXElement>
+  
+</FXElementList>

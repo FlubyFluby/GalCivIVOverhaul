@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalCivAIList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalCivAIDefs.xsd">
+  <GalCivAI>
+		
+		<!--Rally Point Planning--> 
+    <MaxRallyPointFleetMeetupDistance>10</MaxRallyPointFleetMeetupDistance>
+    <NewRallyPointFleetMeetupRange>2</NewRallyPointFleetMeetupRange>
+    <MaxRallyPointInvasionPrepDistance>12</MaxRallyPointInvasionPrepDistance>
+    <NewRallyPointInvasionPrepRange>6</NewRallyPointInvasionPrepRange>
+		
+		<!--Threat assessment-->
+    <BattleRatingWeaponMod>1.0</BattleRatingWeaponMod>
+    <BattleRatingDefenseMod>0.3</BattleRatingDefenseMod>
+    <BattleRatingHitPointsMod>20</BattleRatingHitPointsMod> 
+    <DangerPathCheckRadius>3</DangerPathCheckRadius>
+    <DangerBellCurveTargetDivisor>3</DangerBellCurveTargetDivisor>
+		<SendFleetsOnWarPathChance>0.90</SendFleetsOnWarPathChance>
+    <WartimeFocusSectorRadius>9</WartimeFocusSectorRadius> <!-- Increase with map size -->
+    <WatimeFocusSectorTargetBonus>16</WatimeFocusSectorTargetBonus>
+    <MinShipCountWeightMod>12</MinShipCountWeightMod>
+    <PlanetInDangerDefenseShipMod>2</PlanetInDangerDefenseShipMod>
+    <PlanetInDangerAttackShipMod>3</PlanetInDangerAttackShipMod>
+		
+		<!--Idle ship management-->
+    <IdleReturnHomeCount>0</IdleReturnHomeCount>
+    <IdleConsiderForRetireCount>50</IdleConsiderForRetireCount>
+		
+		<!--Difficulty Settings-->		
+    <DifficultyRule>
+      <Difficulty>Beginner</Difficulty>
+      <AttackingFleetPowerComparedToHuman>0.75</AttackingFleetPowerComparedToHuman>
+		  <FreeWarTechChance>0.00</FreeWarTechChance>
+		
+		  <Stats>
+        <EffectType>MaxManufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-.5</Value>
+      </Stats>
+      
+    </DifficultyRule>
+	
+  	<DifficultyRule>
+      <Difficulty>Easy</Difficulty>
+      <AttackingFleetPowerComparedToHuman>0.90</AttackingFleetPowerComparedToHuman>
+      <FreeWarTechChance>0.00</FreeWarTechChance>
+
+      <Stats>
+        <EffectType>MaxManufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-.25</Value>
+      </Stats>
+    
+    </DifficultyRule>
+		
+    <DifficultyRule>
+      <Difficulty>Normal</Difficulty>
+    </DifficultyRule>	
+		
+    <DifficultyRule>
+      <Difficulty>Bright</Difficulty>
+      <AttackingFleetPowerComparedToHuman>1.1</AttackingFleetPowerComparedToHuman>
+
+      <Stats>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>                                
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <Value>1000</Value>
+      </Stats>    
+
+
+      <Stats>
+        <EffectType>LogisticsCap</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>2</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>MovesCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Stats>
+
+
+      <Stats>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.10</Value>
+      </Stats>
+    
+      <Stats>
+        <EffectType>MaxManufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.1</Value>
+      </Stats>
+
+			<Stats>
+				<EffectType>Maintenance</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Ship</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.25</Value>
+			</Stats>
+
+      <Stats>
+        <EffectType>CreditsPerTurn</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.10</Value>
+      </Stats>
+
+    </DifficultyRule>		
+		
+    <DifficultyRule>
+      <Difficulty>Genius</Difficulty>
+      <AttackingFleetPowerComparedToHuman>1.2</AttackingFleetPowerComparedToHuman>     
+      <AISideTradeModifier>0.30</AISideTradeModifier>
+      <HumanSideTradeModifier>-0.10</HumanSideTradeModifier>
+
+      <Stats>
+        <EffectType>LogisticsCap</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>4</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>                                
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <Value>1000</Value>
+      </Stats>   
+
+
+      <Stats>
+        <EffectType>Durantium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>                                
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <Value>5</Value>
+      </Stats>     
+
+      <Stats>
+        <EffectType>Elerium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Thulium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Antimatter</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Durantium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
+      </Stats>
+      
+      <Stats>
+        <EffectType>MovesCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>MovesCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.33</Value>
+      </Stats>
+
+			<Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.20</Value>
+			</Stats>
+
+      <Stats>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.20</Value>
+      </Stats>
+
+			<Stats>
+				<EffectType>Maintenance</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Improvement</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.50</Value>
+			</Stats>
+
+			<Stats>
+				<EffectType>Maintenance</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Ship</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.50</Value>
+			</Stats>
+
+			<Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Ship</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.20</Value>
+			</Stats>
+
+      <Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Starbase</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>1.0</Value>
+			</Stats>
+
+      <Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Shipyard</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>1.00</Value>
+			</Stats>
+
+      <Stats>
+        <EffectType>CreditsPerTurn</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.33</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Maintenance</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+          <TargetQualifier>IsStationed</TargetQualifier>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.5</Value>
+      </Stats>
+    
+    </DifficultyRule>	
+	
+	<DifficultyRule>
+      <Difficulty>Incredible</Difficulty>
+      <CreditBonus>
+        <MinCreditsBeforeBonus>10000</MinCreditsBeforeBonus>
+        <TryRandomCreditBonusOnTurnInterval>5</TryRandomCreditBonusOnTurnInterval>
+        <ChanceToAwardCredits>0.50</ChanceToAwardCredits>
+        <RandomCreditsMin>1000</RandomCreditsMin>
+        <RandomCreditsMax>2000</RandomCreditsMax>
+      </CreditBonus>
+      <AttackingFleetPowerComparedToHuman>2.0</AttackingFleetPowerComparedToHuman>
+      <FreeWarTechChance>0.20</FreeWarTechChance>      
+      <FreeIdeologyPointsChance>.25</FreeIdeologyPointsChance>
+      <FreeIdeologyPointsAward>15</FreeIdeologyPointsAward>
+      <AISideTradeModifier>0.40</AISideTradeModifier>
+      <HumanSideTradeModifier>-0.15</HumanSideTradeModifier>
+      <Stats>
+        <EffectType>LogisticsCap</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>10</Value>
+      </Stats>
+
+    <Stats>
+      <EffectType>Durantium</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>25</Value>
+    </Stats>
+   
+    <Stats>
+      <EffectType>Elerium</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Thulium</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Antimatter</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Durantium</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Durantium</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+    
+      <Stats>
+        <EffectType>MaxManufacturing</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.5</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.33</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Maintenance</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Improvement</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.50</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Maintenance</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.50</Value>
+      </Stats>
+
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.50</Value>
+    </Stats>
+
+      <Stats>
+        <EffectType>HitPointsCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.30</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>HitPointsCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Starbase</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.50</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>HitPointsCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Shipyard</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>1.25</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>CreditsPerTurn</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>1.0</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Maintenance</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+          <TargetQualifier>IsStationed</TargetQualifier>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.75</Value>
+      </Stats>
+
+    </DifficultyRule>
+				
+    <DifficultyRule>
+      <Difficulty>Godlike</Difficulty>
+      <CreditBonus>
+        <MinCreditsBeforeBonus>1000</MinCreditsBeforeBonus>
+        <TryRandomCreditBonusOnTurnInterval>10</TryRandomCreditBonusOnTurnInterval>
+        <ChanceToAwardCredits>0.50</ChanceToAwardCredits>
+        <RandomCreditsMin>1000</RandomCreditsMin>
+        <RandomCreditsMax>2000</RandomCreditsMax>
+      </CreditBonus>  
+      <AttackingFleetPowerComparedToHuman>2.0</AttackingFleetPowerComparedToHuman>
+      <FreeWarTechChance>0.40</FreeWarTechChance>
+			<FreeIdeologyPointsChance>.4</FreeIdeologyPointsChance>
+			<FreeIdeologyPointsAward>20</FreeIdeologyPointsAward>
+      <HumanSideTradeModifier>-0.20</HumanSideTradeModifier>
+
+      <Stats>
+        <EffectType>Durantium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <Value>100</Value>
+      </Stats>
+     
+      <Stats>
+        <EffectType>MovesCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>MovesCap</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Elerium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Thulium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Antimatter</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Durantium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2</Value>
+      </Stats>
+      <Stats>
+        <EffectType>Durantium</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>Research</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>2.0</Value>
+      </Stats>
+
+      <Stats>
+        <EffectType>CreditsPerTurn</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>3.00</Value>
+      </Stats>
+
+      <Stats>
+				<EffectType>MaxManufacturing</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Colony</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>3.0</Value>
+			</Stats>
+
+			<Stats>
+				<EffectType>Maintenance</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Improvement</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.5</Value>
+			</Stats>			
+
+      <Stats>
+				<EffectType>Maintenance</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Ship</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>-0.5</Value>
+			</Stats>
+
+      <Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Ship</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>2</Value>
+			</Stats>
+			<Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Starbase</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>0.5</Value>
+			</Stats>
+			<Stats>
+				<EffectType>HitPointsCap</EffectType>
+				<Scope>Global</Scope>
+				<Target>
+					<TargetType>Shipyard</TargetType>
+				</Target>
+				<BonusType>Multiplier</BonusType>
+				<Value>1.5</Value>
+			</Stats>
+      <Stats>
+        <EffectType>Maintenance</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Ship</TargetType>
+          <TargetQualifier>IsStationed</TargetQualifier>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-1.00</Value>
+      </Stats>
+
+    </DifficultyRule>
+		
+		<!--AI research time value-->
+    <ResearchCostDivisor>3.5</ResearchCostDivisor>
+
+		<!--Planet Management-->
+    <PlanetTraitStatSamplingFlatBonus>20</PlanetTraitStatSamplingFlatBonus>
+    <GovernorWorstAcceptedScore>100</GovernorWorstAcceptedScore>
+
+		<!--Base treaty values-->
+    <BaseOpenBoardersTreatyValue>100</BaseOpenBoardersTreatyValue>
+    <OpenBoardersXenophobicValueMod>5</OpenBoardersXenophobicValueMod>
+		<!--<OpenBoardersTraderValueMod>(EagertoTrade).5</OpenBoarderTraderValueMod>-->
+		
+    <BaseExplorationTreatyValue>1000</BaseExplorationTreatyValue>
+    <ExplorationXenophobicValueMod>5</ExplorationXenophobicValueMod>
+		<!--<ExplorationExpansionistValueMod>(EagertoTrade).5</ExplorationExpansionistValueMod>-->
+		
+    <BaseEmbargoTreatyValue>2000</BaseEmbargoTreatyValue>
+		<!--<EmbargoTraderValueMod>(ReluctantToTrade)5</EmbargoTraderValueMod>-->
+		
+    <BaseDeclareWarOnThirdTreatyValue>3000</BaseDeclareWarOnThirdTreatyValue>
+		<!--<DeclareWarOnThirdPeacefulValueMod>(ReluctantToTrade)5</DeclareWarOnThirdPeacefulValueMod>-->
+		<!--<DeclareWarOnThirdAggressiveValueMod>(EagertoTrade).5</DeclareWarOnThirdAggressiveValueMod>-->
+		
+    <BaseCulturalTreatyValue>3000</BaseCulturalTreatyValue>
+		<!--<CulturalTreatyNeutralValueMod>(VeryReluctantToTrade)10</CulturalTreatyNeutralValueMod>-->
+		<!--<CulturalTreatyMercilessValueMod>(AlmostImposibleToGet)25</CulturalTreatyMercilessValueMod>-->
+		
+    <BaseFreeTradeTreatyValue>1000</BaseFreeTradeTreatyValue>
+		<!--<FreeTradeBenevolentValueMod>(ReluctantToTrade)5</FreeTradeBenevolentValueMod>-->
+		<!--<FreeTradeMercilessValueMod>(ReluctantToTrade)5</FreeTradeMercilessValueMod>-->
+		
+    <BaseSlaveTreatyValue>1000</BaseSlaveTreatyValue>
+		<!--<SlaveTreatyNeutralValueMod>(VeryReluctantToTrade)10</SlaveTreatyNeutralValueMod>-->
+		<!--<SlaveTreatyBenevolentValueMod>(AlmostImposibleToGet)25</SlaveTreatyBenevolentValueMod>-->
+		
+		<PeaceTreatyModValue>10</PeaceTreatyModValue>	
+		
+		<NegativePeaceTreatyRelationModValue>30</NegativePeaceTreatyRelationModValue>
+    <PositivePeaceTreatyRelationModValue>1</PositivePeaceTreatyRelationModValue>
+    <AllianceModValue>1</AllianceModValue>
+    <NegativeAllianceRelationModValue>100</NegativeAllianceRelationModValue>
+    <PositiveAllianceRelationModValue>100</PositiveAllianceRelationModValue>
+    <NonAggressionModValue>1</NonAggressionModValue>
+    <NegativeNonAggressionRelationModValue>100</NegativeNonAggressionRelationModValue>
+    <PositiveNonAggressionRelationModValue>0</PositiveNonAggressionRelationModValue>
+    <NegativeEmbargoRelationModValue>100</NegativeEmbargoRelationModValue>
+    <PositiveEmbargoRelationModValue>100</PositiveEmbargoRelationModValue>
+    <NegativeDeclareWarOnThirdRelationModValue>300</NegativeDeclareWarOnThirdRelationModValue>
+    <PositiveDeclareWarOnThirdRelationModValue>300</PositiveDeclareWarOnThirdRelationModValue>
+		
+		<!--Base asset values-->
+		<DurationalCreditsModValue>50</DurationalCreditsModValue>
+    <DiplomaticCapitalModValue>5</DiplomaticCapitalModValue>
+    <BaseColonyTradeValue>700</BaseColonyTradeValue>
+    <ColonyProductionPointsMod>3.5</ColonyProductionPointsMod>
+    <ColonyNumBuildingsMod>15</ColonyNumBuildingsMod>
+    
+    <BaseStarbaseTradeValue>1000</BaseStarbaseTradeValue>
+    <ConstructionPointValue>250</ConstructionPointValue>
+    <PairedStarbaseResourceValue>1500</PairedStarbaseResourceValue>
+    <PairedAscensionGateValue>1000</PairedAscensionGateValue>
+    <SweetenThePotAscVictoryBuyPairedAscensionGateValue>1000</SweetenThePotAscVictoryBuyPairedAscensionGateValue>
+    
+    <MyOwnColonyCostModValue>40</MyOwnColonyCostModValue>
+    <PredictionCultureFlipNumTurns>100</PredictionCultureFlipNumTurns>
+    <MyShipTradeCostModValue>5.0</MyShipTradeCostModValue>
+    <TheirShipTradeCostModValue>1.0</TheirShipTradeCostModValue>
+    <TechTradeCostModValue>10.0</TechTradeCostModValue>
+    <TechTradeLeadupCostModValue>2.5</TechTradeLeadupCostModValue>
+    <ExclusiveTechLeadupValue>100</ExclusiveTechLeadupValue>
+    
+		<EleriumTradeModValue>200</EleriumTradeModValue>
+    <DurantiumTradeModValue>200</DurantiumTradeModValue>
+    <AntimatterTradeModValue>200</AntimatterTradeModValue>
+    <PromethionTradeModValue>200</PromethionTradeModValue>
+    <ThuliumTradeModValue>200</ThuliumTradeModValue>
+		
+		<!--AI Behavior modifiers-->
+    <YouCantFoolMeGrudgeModValue>-100</YouCantFoolMeGrudgeModValue>
+    <MinRelationScoreBeforeDeclareWar>-1</MinRelationScoreBeforeDeclareWar>
+    <MinRelationScoreBeforePreparingForWar>0</MinRelationScoreBeforePreparingForWar>
+    <FactionPowerModWhenCheckingForWar>1.25</FactionPowerModWhenCheckingForWar>
+    <BattlePowerModWhenCheckingForDanger>0.9</BattlePowerModWhenCheckingForDanger>
+    <WarEnduranceModForInvasionWin>1</WarEnduranceModForInvasionWin>
+    <WarEnduranceModForInvasionLoss>1.75</WarEnduranceModForInvasionLoss>
+    <WarEnduranceGainedFromFleetVictory>2</WarEnduranceGainedFromFleetVictory>
+    <WarEnduranceGainedFromFleetSurvival>1</WarEnduranceGainedFromFleetSurvival>
+    <WarEnduranceLostFromFleetLoss>2</WarEnduranceLostFromFleetLoss>
+    <FactionPowerRatioBeforeAskingForPeace>0.4</FactionPowerRatioBeforeAskingForPeace>
+    <FactionPowerRatioBeforeSurrender>0.125</FactionPowerRatioBeforeSurrender>
+    <PopulationRatioBeforeSurrender>0.125</PopulationRatioBeforeSurrender>
+    <TurnBeforeSurrender>100</TurnBeforeSurrender>
+    <TurnsIntoWarBeforeSurrender>5</TurnsIntoWarBeforeSurrender>
+    <NumPlanetsLostToInvasionBeforeSurrender>20</NumPlanetsLostToInvasionBeforeSurrender>
+    <MinRelationRequiredToGiveStuffToFriendDuringSurrender>1</MinRelationRequiredToGiveStuffToFriendDuringSurrender>
+    <WarTargetDistanceMultiplier>1800</WarTargetDistanceMultiplier>
+    <AIToAITradeEvalLeeway>0.13</AIToAITradeEvalLeeway>
+    <AIToAITradeEvalLeewayTechTrade>10.0</AIToAITradeEvalLeewayTechTrade>
+		
+		<!--UP Decision Modifier-->
+    <UPVoteRandomRange>10</UPVoteRandomRange>
+		<UPMinDislikeToDefy>10</UPMinDislikeToDefy>
+    <UPDefyChancePerDislike>0.1</UPDefyChancePerDislike>
+    <DiplomaticVoteInfluence>
+      <VoteInfluece>-10</VoteInfluece>
+      <Range>
+        <NoMin>1</NoMin>
+        <RangeMin>-10</RangeMin>
+        <RangeMax>-7</RangeMax>
+      </Range>
+    </DiplomaticVoteInfluence>
+		<DiplomaticVoteInfluence>
+			<VoteInfluece>-5</VoteInfluece>
+			<Range>
+				<RangeMin>-7</RangeMin>
+				<RangeMax>-4</RangeMax>
+			</Range>
+		</DiplomaticVoteInfluence>
+		<DiplomaticVoteInfluence>
+		<VoteInfluece>-2</VoteInfluece>
+			<Range>
+				<RangeMin>-4</RangeMin>
+				<RangeMax>-2</RangeMax>
+			</Range>
+		</DiplomaticVoteInfluence>
+    <DiplomaticVoteInfluence>
+      <VoteInfluece>2</VoteInfluece>
+      <Range>
+        <RangeMin>2</RangeMin>
+        <RangeMax>4</RangeMax>
+      </Range>
+    </DiplomaticVoteInfluence>
+		<DiplomaticVoteInfluence>
+		<VoteInfluece>5</VoteInfluece>
+      <Range>
+        <RangeMin>4</RangeMin>
+        <RangeMax>7</RangeMax>
+      </Range>
+    </DiplomaticVoteInfluence>
+    <DiplomaticVoteInfluence>
+    <VoteInfluece>10</VoteInfluece>
+      <Range>
+        <RangeMin>7</RangeMin>
+        <RangeMax>10</RangeMax>
+        <NoMax>1</NoMax>
+      </Range>
+    </DiplomaticVoteInfluence>
+		 
+		<!--Starbase construction preferences--> 
+    <ConstructorResourceNeededMod>2</ConstructorResourceNeededMod>
+
+    <ConstructorTargetPlanetQualityMod>3</ConstructorTargetPlanetQualityMod>
+    <ConstructorTargetResourceQualityMod>5</ConstructorTargetResourceQualityMod>
+    <ConstructorTargetAscensionCrystalMod>2</ConstructorTargetAscensionCrystalMod>
+    <ConstructorTargetAscensionVictoryDesiredMod>2</ConstructorTargetAscensionVictoryDesiredMod>
+    <ConstructorTargetRelicMod>2</ConstructorTargetRelicMod>
+		
+    <StarbaseMilitaryRingName>MilitaryRingModule</StarbaseMilitaryRingName>
+    <StarbaseCultureRingName>CultureRingModule</StarbaseCultureRingName>
+    <StarbaseEconomicRingName>EconomicRingModule</StarbaseEconomicRingName>
+    <StarbaseMiningRingName>CultureRingModule</StarbaseMiningRingName>
+    <StarbaseModulesProjectName>Industry_Modules</StarbaseModulesProjectName>
+
+    <DefaultPlanetStarbasetWeight>
+      <Type>Generic</Type>
+      <Weight>0</Weight>
+    </DefaultPlanetStarbasetWeight>
+    
+    <DefaultPlanetStarbasetWeight>
+      <Type>Military</Type>
+      <Weight>2</Weight>
+    </DefaultPlanetStarbasetWeight>
+
+    <DefaultPlanetStarbasetWeight>
+      <Type>Culture</Type>
+      <Weight>1</Weight>
+    </DefaultPlanetStarbasetWeight>
+
+    <DefaultPlanetStarbasetWeight>
+      <Type>Economic</Type>
+      <Weight>3</Weight>
+    </DefaultPlanetStarbasetWeight>
+
+    <DefaultPlanetStarbasetWeight>
+      <Type>Mining</Type>
+      <Weight>2</Weight>
+    </DefaultPlanetStarbasetWeight>
+    
+		<!--Conversation weights-->
+    <ConversationWeight>
+      <Type>WarnMilitaryBuildup</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>DemandCredits</Type>
+      <Weight>3</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>DemandCreditsPerTurn</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>DemandTech</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>RequestCredits</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>RequestTech</Type>
+      <Weight>3</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>RequestCreditsHelpMe</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>RequestTechHelpMe</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>RequestWarHelpMe</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>PayCreditsForDeclareWarOnOther</Type>
+      <Weight>3</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>PayTechForDeclareWarOnOther</Type>
+      <Weight>3</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>GiveCredits</Type>
+      <Weight>2</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>GiveTech</Type>
+      <Weight>2</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>WarnMilitaryBuildup</Type>
+      <Weight>2</Weight>
+    </ConversationWeight>    
+    <ConversationWeight>
+      <Type>DemandStarbaseRemoval</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>DemandAscensionStarbase</Type>
+      <Weight>15</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>OfferAscensionStarbaseTrade</Type>
+      <Weight>1</Weight>
+    </ConversationWeight>    
+    <ConversationWeight>
+      <Type>GeneratedTrade</Type>
+      <Weight>20</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>GeneralConversation</Type>
+      <Weight>12</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>WarnDangerousPlayer</Type>
+      <Weight>5</Weight>
+    </ConversationWeight>
+    <ConversationWeight>
+      <Type>HelpFriendlyPlayer</Type>
+      <Weight>10</Weight>
+    </ConversationWeight>
+		
+		<!--Spending Preferences--> 
+    <SlidersBreakEvenSearchSmallestJump>0.001</SlidersBreakEvenSearchSmallestJump>
+    <SlidersBreakEvenNetCreditsMinTarget>0</SlidersBreakEvenNetCreditsMinTarget>
+    <SlidersBreakEvenNetCreditsMaxTarget>2</SlidersBreakEvenNetCreditsMaxTarget>
+
+		<!--Ideological choice bias--> 
+    <PickEventOptionWithPersonalityChance>0.85</PickEventOptionWithPersonalityChance>
+		
+		<!--Base relations levels-->
+    <RelationsAtwar>-10</RelationsAtwar>
+    <RelationsHostile>-8</RelationsHostile>
+    <RelationsDislike>-6</RelationsDislike>
+    <RelationsUnfriendly>-4</RelationsUnfriendly>
+    <RelationsCool>-2</RelationsCool>
+    <RelationsNeutral>0</RelationsNeutral>
+    <RelationsWarm>2</RelationsWarm>
+    <RelationsFriendly>4</RelationsFriendly>
+    <RelationsClose>6</RelationsClose>
+    <RelationsAlly>8</RelationsAlly>
+    <RelationsTeam>10</RelationsTeam>
+
+		<!--Ideological evaluation--> 
+    <MoralVeryGood>100</MoralVeryGood>
+    <MoralGood>75</MoralGood>
+    <MoralGoodThreshold>60</MoralGoodThreshold>
+    <MoralNeutral>50</MoralNeutral>
+    <MoralEvilThreshold>40</MoralEvilThreshold>
+    <MoralEvil>25</MoralEvil>
+    <MoralVeryEvil>0</MoralVeryEvil>
+		
+		<!--Player interaction-->
+    <AIContactHumanCooldown>8</AIContactHumanCooldown>
+    <AIContactHumanRandomRangeMin>3</AIContactHumanRandomRangeMin>
+    <AIContactHumanRandomRange>3</AIContactHumanRandomRange>
+    <AIContactHumanForPeaceCooldown>12</AIContactHumanForPeaceCooldown>
+    <AIContactHumanForPeaceRandomRange>10</AIContactHumanForPeaceRandomRange>
+    <AIContactAskForAidMilitaryPowerMult>2.0</AIContactAskForAidMilitaryPowerMult>
+	
+    <AskForCreditsPercentOfTreasury>0.10</AskForCreditsPercentOfTreasury>
+    <AskForCreditsMin>70</AskForCreditsMin>
+    <AskForCreditsDivideValueForDuration>8</AskForCreditsDivideValueForDuration>
+    <MinNumShipsOwnedBeforeConsiderTradingShips>50</MinNumShipsOwnedBeforeConsiderTradingShips>
+    <MinNumShipsOwnedBeforeConsiderGivingShipsToFriend>15</MinNumShipsOwnedBeforeConsiderGivingShipsToFriend>
+    <AskForStrategicResourcePercentOfNet>0.20</AskForStrategicResourcePercentOfNet>
+    <MinAskForStrategicResource>1</MinAskForStrategicResource>
+    <NeverTradeAwayLastNumStrategicResource>1</NeverTradeAwayLastNumStrategicResource>
+    <AskForTradeResourcePercentOfNet>0.20</AskForTradeResourcePercentOfNet>
+    <MinAskForTradeResource>1</MinAskForTradeResource>
+    <NeverTradeAwayLastNumTradeResource>1</NeverTradeAwayLastNumTradeResource>
+    
+    <GrudgeAddedPerDeclareWar>0.25</GrudgeAddedPerDeclareWar>
+    <RecentWarGrudgeTurnThreshold>25</RecentWarGrudgeTurnThreshold>
+    <GrudgeAddedPerRecentDeclareWar>1.0</GrudgeAddedPerRecentDeclareWar>
+    <GrudgeAddedPerDeclareWarThatBrokeTreaties>1.5</GrudgeAddedPerDeclareWarThatBrokeTreaties>
+    
+    <AcceptPeaceFromAIEvenThoughIDontWantItChance>0.30</AcceptPeaceFromAIEvenThoughIDontWantItChance>
+
+    <PlanetClassDefenseImportanceMod>20</PlanetClassDefenseImportanceMod>
+    <StarbaseDefenseImportance>5</StarbaseDefenseImportance>
+    <ShipyardDefenseImportance>15</ShipyardDefenseImportance>
+    <ThreatenedPlanetDefenseImportance>1500</ThreatenedPlanetDefenseImportance>
+    <ThreatenedPlanetTransportDefenseImportance>3000</ThreatenedPlanetTransportDefenseImportance>
+
+    <DiplomacyHistoryIncreasePerTurn>1</DiplomacyHistoryIncreasePerTurn>
+    <DiplomacyScoreDeltaDivisor>10</DiplomacyScoreDeltaDivisor>
+    <DiplomacyScoreDeltaMin>-2</DiplomacyScoreDeltaMin>
+    <DiplomacyScoreDeltaMax>2</DiplomacyScoreDeltaMax>
+    <SetExpressedRelationScoreAfterWar>-3</SetExpressedRelationScoreAfterWar>
+
+    <BasicVictoryGoal>
+      <VictoryCondition>Conquest</VictoryCondition>
+      <PersonalityTypeWeight>
+        <PersonalityType>Aggressive</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Cruel</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Peaceful</PersonalityType>
+        <Weight>-0.25</Weight>
+      </PersonalityTypeWeight>
+    </BasicVictoryGoal>
+    <BasicVictoryGoal>
+      <VictoryCondition>Influence</VictoryCondition>
+      <PersonalityTypeWeight>
+        <PersonalityType>Expansionist</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Greedy</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+    </BasicVictoryGoal>
+    <BasicVictoryGoal>
+      <VictoryCondition>Research</VictoryCondition>
+      <PersonalityTypeWeight>
+        <PersonalityType>Scientific</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Xenophobic</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+    </BasicVictoryGoal>
+    <BasicVictoryGoal>
+      <VictoryCondition>Ascension</VictoryCondition>
+      <PersonalityTypeWeight>
+        <PersonalityType>Spiritual</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Opportunistic</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+    </BasicVictoryGoal>
+    <BasicVictoryGoal>
+      <VictoryCondition>Alliance</VictoryCondition>
+      <PersonalityTypeWeight>
+        <PersonalityType>Peaceful</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Trader</PersonalityType>
+        <Weight>0.25</Weight>
+      </PersonalityTypeWeight>
+      <PersonalityTypeWeight>
+        <PersonalityType>Aggressive</PersonalityType>
+        <Weight>-0.25</Weight>
+      </PersonalityTypeWeight>
+    </BasicVictoryGoal>
+
+    <TradeValuePositiveRelationMod>0.02</TradeValuePositiveRelationMod>
+    <TradeValueNegativeRelationMod>0.05</TradeValueNegativeRelationMod>
+    <AITradeItemCountPriceHike>0.25</AITradeItemCountPriceHike>
+    <AITradeNumObjectsWithoutHike>1</AITradeNumObjectsWithoutHike>
+
+    <PlanetThreatenedDistance>5</PlanetThreatenedDistance>
+
+    <MinImprovementLevelReplacementImmunity>3</MinImprovementLevelReplacementImmunity>
+
+    <HomeworldGovernor>AIHomeworld</HomeworldGovernor>
+    <ManufacturingGovernor>AIManufacturing</ManufacturingGovernor>
+    <ResearchGovernor>AIResearch</ResearchGovernor>
+    <WealthGovernor>AIWealth</WealthGovernor>
+
+    <NumPlanetStarbasesBeforeBuildingResourceStarbase>1</NumPlanetStarbasesBeforeBuildingResourceStarbase>
+    <NumNonManufacturingWorldBeforeBuildingAnother>3</NumNonManufacturingWorldBeforeBuildingAnother>
+    <MinPlanetClassForManufacturingWorld>4</MinPlanetClassForManufacturingWorld>
+    <MaxColonyShipsBuiltAtOnce>3</MaxColonyShipsBuiltAtOnce>
+
+    <MinPerceptPlanetFilledGovAssignment>0.20</MinPerceptPlanetFilledGovAssignment>
+    <MinNumBuildingCountGovAssignment>2</MinNumBuildingCountGovAssignment>
+    <MinMultiplierBonusPlanetTraitGovAssignment>0.26</MinMultiplierBonusPlanetTraitGovAssignment>
+    <MinFlatBonusPlanetTraitGovAssignment>30</MinFlatBonusPlanetTraitGovAssignment>
+
+    <MaxWealthSliderBeforeConsiderNegativeNetToBeInDebt>0.75</MaxWealthSliderBeforeConsiderNegativeNetToBeInDebt>
+    <PercentOfPlayerShipsToDecomissionWhenOverBudget>0.05</PercentOfPlayerShipsToDecomissionWhenOverBudget>
+
+    <MaxPrebuiltTransportsPerManufactingHub>2</MaxPrebuiltTransportsPerManufactingHub>
+    <AssaultPatrolBattleRatingMod>0.5</AssaultPatrolBattleRatingMod>
+
+    <ChooseWeaponTechTag>WEAPON_TECH</ChooseWeaponTechTag>
+    <ChooseDefenseTechTag>DEFENSE_TECH</ChooseDefenseTechTag>
+    <ChooseWeightedTechTag>WEIGHTED_TECH</ChooseWeightedTechTag>
+
+    <WeaponTechTag>Weapon</WeaponTechTag>
+    <DefenseTechTag>Defense</DefenseTechTag>
+    <PlanetaryInvasionTechName>Tech_PlanetaryInvasion</PlanetaryInvasionTechName>
+
+    <MinRelationsToAcceptGetOffMyLawn>-6</MinRelationsToAcceptGetOffMyLawn>
+
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>2.5</PowerRatio>
+      <LikelyhoodContribution>0.50</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>2</PowerRatio>
+      <LikelyhoodContribution>0.45</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>1.5</PowerRatio>
+      <LikelyhoodContribution>0.40</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>1.1</PowerRatio>
+      <LikelyhoodContribution>0.30</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>1</PowerRatio>
+      <LikelyhoodContribution>0.20</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>0.8</PowerRatio>
+      <LikelyhoodContribution>0.10</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>0.6</PowerRatio>
+      <LikelyhoodContribution>0.05</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>0.4</PowerRatio>
+      <LikelyhoodContribution>0</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    <DemandTributeAcceptancePowerRatio>
+      <PowerRatio>0.2</PowerRatio>
+      <LikelyhoodContribution>0</LikelyhoodContribution>
+    </DemandTributeAcceptancePowerRatio>
+    
+    <DemandTributeAcceptanceRelations>
+      <Relations>10</Relations>
+      <LikelyhoodContribution>0.50</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>8</Relations>
+      <LikelyhoodContribution>0.45</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>6</Relations>
+      <LikelyhoodContribution>0.40</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>4</Relations>
+      <LikelyhoodContribution>0.30</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>2</Relations>
+      <LikelyhoodContribution>0.20</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>0</Relations>
+      <LikelyhoodContribution>0.15</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>-2</Relations>
+      <LikelyhoodContribution>0.10</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>-4</Relations>
+      <LikelyhoodContribution>0.05</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>-6</Relations>
+      <LikelyhoodContribution>0</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>-8</Relations>
+      <LikelyhoodContribution>0</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+    <DemandTributeAcceptanceRelations>
+      <Relations>-10</Relations>
+      <LikelyhoodContribution>0</LikelyhoodContribution>
+    </DemandTributeAcceptanceRelations>
+
+    <OfferForeignAidAcceptanceRelations>
+      <Relations>-4</Relations>
+      <LikelyhoodContribution>1.00</LikelyhoodContribution>
+    </OfferForeignAidAcceptanceRelations>
+    <OfferForeignAidAcceptanceRelations>
+      <Relations>-6</Relations>
+      <LikelyhoodContribution>0.80</LikelyhoodContribution>
+    </OfferForeignAidAcceptanceRelations>
+    <OfferForeignAidAcceptanceRelations>
+      <Relations>-8</Relations>
+      <LikelyhoodContribution>0.60</LikelyhoodContribution>
+    </OfferForeignAidAcceptanceRelations>
+    <OfferForeignAidAcceptanceRelations>
+      <Relations>-10</Relations>
+      <LikelyhoodContribution>0.50</LikelyhoodContribution>
+    </OfferForeignAidAcceptanceRelations>
+
+    <TechTradingSpecialTagRelationMin>1</TechTradingSpecialTagRelationMin>
+    <TechTradingSpecialTag>Weapon</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Hull</TechTradingSpecialTag>
+    <TechTradingSpecialTag>BiggerHulls</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Carrier</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Logistics</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Invasion</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Shields</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Point</TechTradingSpecialTag>
+    <TechTradingSpecialTag>Armor</TechTradingSpecialTag>
+
+
+    <TradingModifier>
+      <Relations>10</Relations>
+      <AISideModifier>-0.25</AISideModifier>
+      <HumanSideModifier>0.25</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>9</Relations>
+      <AISideModifier>-0.10</AISideModifier>
+      <HumanSideModifier>0.10</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>8</Relations>
+      <AISideModifier>-0.05</AISideModifier>
+      <HumanSideModifier>0.05</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>6</Relations>
+      <AISideModifier>0</AISideModifier>
+      <HumanSideModifier>0</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>4</Relations>
+      <AISideModifier>0.05</AISideModifier>
+      <HumanSideModifier>-0.05</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>2</Relations>
+      <AISideModifier>0.10</AISideModifier>
+      <HumanSideModifier>-0.10</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>0</Relations>
+      <AISideModifier>0.15</AISideModifier>
+      <HumanSideModifier>-0.15</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>-2</Relations>
+      <AISideModifier>0.20</AISideModifier>
+      <HumanSideModifier>-0.20</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>-4</Relations>
+      <AISideModifier>0.25</AISideModifier>
+      <HumanSideModifier>-0.25</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>-6</Relations>
+      <AISideModifier>0.5</AISideModifier>
+      <HumanSideModifier>-0.35</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>-8</Relations>
+      <AISideModifier>0.75</AISideModifier>
+      <HumanSideModifier>-0.50</HumanSideModifier>
+    </TradingModifier>
+    <TradingModifier>
+      <Relations>-10</Relations>
+      <AISideModifier>1.00</AISideModifier>
+      <HumanSideModifier>-0.75</HumanSideModifier>
+    </TradingModifier>
+
+    <AsteroidBaseProductionConsideredGood>1</AsteroidBaseProductionConsideredGood>
+    <AsteroidBaseProductionConsideredMediocre>0.66</AsteroidBaseProductionConsideredMediocre>
+    <AsteroidBaseProductionConsideredBad>0.25</AsteroidBaseProductionConsideredBad>
+    <MoneyBufferWhenToBuyGoodAsteroidBase>0</MoneyBufferWhenToBuyGoodAsteroidBase>
+    <MoneyBufferWhenToBuyMediocreAsteroidBase>2000</MoneyBufferWhenToBuyMediocreAsteroidBase>
+    <MoneyBufferWhenToBuyBadAsteroidBase>5000</MoneyBufferWhenToBuyBadAsteroidBase>
+
+    <AIUnitRequirements>
+      <UniqueID>Commander</UniqueID>
+      <DesiredStats>
+        <StatType>Resolve</StatType>
+        <MinValue>8</MinValue>
+      </DesiredStats>
+      <DesiredStats>
+        <StatType>Intelligence</StatType>
+        <MinValue>1</MinValue>
+      </DesiredStats>
+      <DesiredStats>
+        <StatType>Diligence</StatType>
+        <MinValue>5</MinValue>
+        <OrOtherStatsTotal>10</OrOtherStatsTotal>
+      </DesiredStats>
+    </AIUnitRequirements>
+
+    <AIUnitRequirements>
+      <UniqueID>UnassignedLeader</UniqueID>
+      <DesiredStats>
+        <StatType>Resolve</StatType>
+        <MinValue>8</MinValue>
+      </DesiredStats>
+      <DesiredStats>
+        <StatType>Intelligence</StatType>
+        <MinValue>8</MinValue>
+      </DesiredStats>
+      <DesiredStats>
+        <StatType>Diligence</StatType>
+        <MinValue>8</MinValue>
+      </DesiredStats>
+      <DesiredStats>
+        <StatType>Social</StatType>
+        <MinValue>8</MinValue>
+      </DesiredStats>
+    </AIUnitRequirements>
+
+    <MinLeaderOptionsBeforeInviteLeadersEO>4</MinLeaderOptionsBeforeInviteLeadersEO>
+
+    <PlanetImprovementThresholds>
+      <MaxPlanetClassTier1>15</MaxPlanetClassTier1>
+      <ApprovalTooLow>0.6</ApprovalTooLow>
+      <HighApproval>0.85</HighApproval>
+      <MaxApprovalBuildingsTier1>3</MaxApprovalBuildingsTier1>
+      <MaxApprovalBuildingsTier2>5</MaxApprovalBuildingsTier2>
+      <MaxInfluenceBuildingsTier1>1</MaxInfluenceBuildingsTier1>
+      <MaxInfluenceBuildingsTier2>1</MaxInfluenceBuildingsTier2>
+      <MaxResistanceBuildingsWithoutBonusTier1>0</MaxResistanceBuildingsWithoutBonusTier1>
+      <MaxMilitaryBuildingsWithoutBonusTier1>0</MaxMilitaryBuildingsWithoutBonusTier1>
+      <MaxResistanceBuildingsWithoutBonusTier2>1</MaxResistanceBuildingsWithoutBonusTier2>
+      <MaxMilitaryBuildingsWithoutBonusTier2>1</MaxMilitaryBuildingsWithoutBonusTier2>
+    </PlanetImprovementThresholds>
+
+    <SupplyShipDestinationParams>
+      <NumImprovements>2</NumImprovements>
+      <TurnsOwned>10</TurnsOwned>
+      <TargetThreshold>5</TargetThreshold>
+    </SupplyShipDestinationParams>
+
+    <ShipyardShipBuildParams>
+      <CloseDistanceToGoodPlanet>40</CloseDistanceToGoodPlanet>
+    </ShipyardShipBuildParams>
+
+    <MinPopulationToLoadShip>4</MinPopulationToLoadShip>
+
+    <RandIntToGetFreeLeader>100</RandIntToGetFreeLeader>
+    <RollToGetFreeLeader>80</RollToGetFreeLeader>
+    <FreeLeaderCooldown>10</FreeLeaderCooldown>
+    <DesireHireLeaderPerTurnCount>7</DesireHireLeaderPerTurnCount>
+
+    <MinTurnsBeforeBuildMissionShip>20</MinTurnsBeforeBuildMissionShip>
+    <MaxTurnsPreferredForMissionShip>12</MaxTurnsPreferredForMissionShip>
+    
+  </GalCivAI>
+</GalCivAIList>

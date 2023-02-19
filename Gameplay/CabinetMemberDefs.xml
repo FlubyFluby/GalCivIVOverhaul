@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UnitSpecializationList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UnitSpecializationDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- CabinetMemberDefs.xml -->
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_ColonyGrossIncome</InternalName>
+    <DisplayName>Advisor_ColonyGrossIncome_DisplayName</DisplayName>
+    <Description>Advisor_ColonyGrossIncome_Description</Description>
+    <DisplayType>Advisor_ColonyGrossIncome_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_ColonyGrossIncome</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_Growth</InternalName>
+    <DisplayName>Advisor_Growth_DisplayName</DisplayName>
+    <Description>Advisor_Growth_Description</Description>
+    <DisplayType>Advisor_Growth_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_Growth</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_Influence</InternalName>
+    <DisplayName>Advisor_Influence_DisplayName</DisplayName>
+    <Description>Advisor_Influence_Description</Description>
+    <DisplayType>Advisor_Influence_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_Influence</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_Research</InternalName>
+    <DisplayName>Advisor_Research_DisplayName</DisplayName>
+    <Description>Advisor_Research_Description</Description>
+    <DisplayType>Advisor_Research_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_Research</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_MaxManufacturing</InternalName>
+    <DisplayName>Advisor_MaxManufacturing_DisplayName</DisplayName>
+    <Description>Advisor_MaxManufacturing_Description</Description>
+    <DisplayType>Advisor_MaxManufacturing_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_MaxManufacturing</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_Manufacturing</InternalName>
+    <DisplayName>Advisor_Manufacturing_DisplayName</DisplayName>
+    <Description>Advisor_Manufacturing_Description</Description>
+    <DisplayType>Advisor_Manufacturing_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Manufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_Manufacturing</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Advisor_Military</InternalName>
+    <DisplayName>Advisor_Military_DisplayName</DisplayName>
+    <Description>Advisor_Military_Description</Description>
+    <DisplayType>Advisor_Military_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Advisor_Military</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_ColonyGrossIncome</InternalName>
+    <DisplayName>Minister_ColonyGrossIncome_DisplayName</DisplayName>
+    <Description>Minister_ColonyGrossIncome_Description</Description>
+    <DisplayType>Minister_ColonyGrossIncome_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_ColonyGrossIncome</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Diplomacy</InternalName>
+    <DisplayName>Minister_Diplomacy_DisplayName</DisplayName>
+    <Description>Minister_Diplomacy_Description</Description>
+    <DisplayType>Minister_Diplomacy_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Diplomacy</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_DiplomacyTradeRouteWeight</InternalName>
+    <DisplayName>Minister_DiplomacyTradeRouteWeight_DisplayName</DisplayName>
+    <Description>Minister_DiplomacyTradeRouteWeight_Description</Description>
+    <DisplayType>Minister_DiplomacyTradeRouteWeight_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>DiplomacyTradeRouteWeight</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_DiplomacyTradeRouteWeight</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_GoodsAndServices</InternalName>
+    <DisplayName>Minister_GoodsAndServices_DisplayName</DisplayName>
+    <Description>Minister_GoodsAndServices_Description</Description>
+    <DisplayType>Minister_GoodsAndServices_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>.10</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_GoodsAndServices</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Growth</InternalName>
+    <DisplayName>Minister_Growth_DisplayName</DisplayName>
+    <Description>Minister_Growth_Description</Description>
+    <DisplayType>Minister_Growth_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Growth</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Influence</InternalName>
+    <DisplayName>Minister_Influence_DisplayName</DisplayName>
+    <Description>Minister_Influence_Description</Description>
+    <DisplayType>Minister_Influence_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Influence</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_MaxManufacturing</InternalName>
+    <DisplayName>Minister_MaxManufacturing_DisplayName</DisplayName>
+    <Description>Minister_MaxManufacturing_Description</Description>
+    <DisplayType>Minister_MaxManufacturing_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_MaxManufacturing</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Military</InternalName>
+    <DisplayName>Minister_Military_DisplayName</DisplayName>
+    <Description>Minister_Military_Description</Description>
+    <DisplayType>Minister_Military_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Military</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_MovesCap</InternalName>
+    <DisplayName>Minister_MovesCap_DisplayName</DisplayName>
+    <Description>Minister_MovesCap_Description</Description>
+    <DisplayType>Minister_MovesCap_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_MovesCap</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Research</InternalName>
+    <DisplayName>Minister_Research_DisplayName</DisplayName>
+    <Description>Minister_Research_Description</Description>
+    <DisplayType>Minister_Research_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Research</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Resistance</InternalName>
+    <DisplayName>Minister_Resistance_DisplayName</DisplayName>
+    <Description>Minister_Resistance_Description</Description>
+    <DisplayType>Minister_Resistance_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ResistanceBonus</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Resistance</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_SensorPower</InternalName>
+    <DisplayName>Minister_SensorPower_DisplayName</DisplayName>
+    <Description>Minister_SensorPower_Description</Description>
+    <DisplayType>Minister_SensorPower_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>SensorPower</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_SensorPower</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Soldiering</InternalName>
+    <DisplayName>Minister_Soldiering_DisplayName</DisplayName>
+    <Description>Minister_Soldiering_Description</Description>
+    <DisplayType>Minister_Soldiering_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Soldiering</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Soldiering</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_Tourism</InternalName>
+    <DisplayName>Minister_Tourism_DisplayName</DisplayName>
+    <Description>Minister_Tourism_Description</Description>
+    <DisplayType>Minister_Tourism_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Tourism</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.01</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_Tourism</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Minister_TradeRoute</InternalName>
+    <DisplayName>Minister_TradeRoute_DisplayName</DisplayName>
+    <Description>Minister_TradeRoute_Description</Description>
+    <DisplayType>Minister_TradeRoute_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>TradeRouteValueRaw</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>TradeRoute</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Minister_TradeRoute</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_ColonyGrossIncome</InternalName>
+    <DisplayName>Secretary_ColonyGrossIncome_DisplayName</DisplayName>
+    <Description>Secretary_ColonyGrossIncome_Description</Description>
+    <DisplayType>Secretary_ColonyGrossIncome_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_ColonyGrossIncome</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_Diplomacy</InternalName>
+    <DisplayName>Secretary_Diplomacy_DisplayName</DisplayName>
+    <Description>Secretary_Diplomacy_Description</Description>
+    <DisplayType>Secretary_Diplomacy_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_Diplomacy</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_FoodIncome</InternalName>
+    <DisplayName>Secretary_FoodIncome_DisplayName</DisplayName>
+    <Description>Secretary_FoodIncome_Description</Description>
+    <DisplayType>Secretary_FoodIncome_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>FoodIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_FoodIncome</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_GoodsAndServices</InternalName>
+    <DisplayName>Secretary_GoodsAndServices_DisplayName</DisplayName>
+    <Description>Secretary_GoodsAndServices_Description</Description>
+    <DisplayType>Secretary_GoodsAndServices_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_GoodsAndServices</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_Growth</InternalName>
+    <DisplayName>Secretary_Growth_DisplayName</DisplayName>
+    <Description>Secretary_Growth_Description</Description>
+    <DisplayType>Secretary_Growth_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Growth</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_Growth</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_Influence</InternalName>
+    <DisplayName>Secretary_Influence_DisplayName</DisplayName>
+    <Description>Secretary_Influence_Description</Description>
+    <DisplayType>Secretary_Influence_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_Influence</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_MaxManufacturing</InternalName>
+    <DisplayName>Secretary_MaxManufacturing_DisplayName</DisplayName>
+    <Description>Secretary_MaxManufacturing_Description</Description>
+    <DisplayType>Secretary_MaxManufacturing_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_MaxManufacturing</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_MovesCap</InternalName>
+    <DisplayName>Secretary_MovesCap_DisplayName</DisplayName>
+    <Description>Secretary_MovesCap_Description</Description>
+    <DisplayType>Secretary_MovesCap_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_MovesCap</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_Research</InternalName>
+    <DisplayName>Secretary_Research_DisplayName</DisplayName>
+    <Description>Secretary_Research_Description</Description>
+    <DisplayType>Secretary_Research_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_Research</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_Resistance</InternalName>
+    <DisplayName>Secretary_Resistance_DisplayName</DisplayName>
+    <Description>Secretary_Resistance_Description</Description>
+    <DisplayType>Secretary_Resistance_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ResistanceBonus</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_Resistance</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Secretary_ShipRange</InternalName>
+    <DisplayName>Secretary_ShipRange_DisplayName</DisplayName>
+    <Description>Secretary_ShipRange_Description</Description>
+    <DisplayType>Secretary_ShipRange_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ShipRange</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Secretary_ShipRange</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Advocate</InternalName>
+    <DisplayName>Special_Advocate_DisplayName</DisplayName>
+    <Description>Special_Advocate_Description</Description>
+    <DisplayType>Special_Advocate_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>DiplomacyNeutral</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Advocate</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Bliss</InternalName>
+    <DisplayName>Special_Bliss_DisplayName</DisplayName>
+    <Description>Special_Bliss_Description</Description>
+    <DisplayType>Special_Bliss_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Bliss</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_CoalitionManager</InternalName>
+    <DisplayName>Special_CoalitionManager_DisplayName</DisplayName>
+    <Description>Special_CoalitionManager_Description</Description>
+    <DisplayType>Special_CoalitionManager_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stat>
+    <Stat>
+      <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_CoalitionManager</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Cruel</InternalName>
+    <DisplayName>Special_Cruel_DisplayName</DisplayName>
+    <Description>Special_Cruel_Description</Description>
+    <DisplayType>Special_Cruel_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stat>
+    <Stat>
+      <EffectType>DiplomacyBenevolent</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-4</Value>
+    </Stat>
+    <Stat>
+      <EffectType>SensorPower</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Cruel</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Debt</InternalName>
+    <DisplayName>Special_Debt_DisplayName</DisplayName>
+    <Description>Special_Debt_Description</Description>
+    <DisplayType>Special_Debt_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Debt</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_DivineSoul</InternalName>
+    <DisplayName>Special_DivineSoul_DisplayName</DisplayName>
+    <Description>Special_DivineSoul_Description</Description>
+    <DisplayType>Special_DivineSoul_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stat>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_DivineSoul</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Fundamentalist</InternalName>
+    <DisplayName>Special_Fundamentalist_DisplayName</DisplayName>
+    <Description>Special_Fundamentalist_Description</Description>
+    <DisplayType>Special_Fundamentalist_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Fundamentalist</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Keeper</InternalName>
+    <DisplayName>Special_Keeper_DisplayName</DisplayName>
+    <Description>Special_Keeper_Description</Description>
+    <DisplayType>Special_Keeper_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-02.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.5</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Keeper</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_EconomicDirector</InternalName>
+    <DisplayName>Special_EconomicDirector_DisplayName</DisplayName>
+    <Description>Special_EconomicDirector_Description</Description>
+    <DisplayType>Special_EconomicDirector_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.75</Value>
+    </Stat>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_EconomicDirector</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Halee</InternalName>
+    <DisplayName>Special_Halee_DisplayName</DisplayName>
+    <Description>Special_Halee_Description</Description>
+    <DisplayType>Special_Halee_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>MaxManufacturing</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.25</Value>
+    </Stat>
+    <Stat>
+      <EffectType>LogisticsCap</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Halee</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Legion</InternalName>
+    <DisplayName>Special_Legion_DisplayName</DisplayName>
+    <Description>Special_Legion_Description</Description>
+    <DisplayType>Special_Legion_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>ShipRange</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stat>
+    <Stat>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Legion</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_LordProtector</InternalName>
+    <DisplayName>Special_LordProtector_DisplayName</DisplayName>
+    <Description>Special_LordProtector_Description</Description>
+    <DisplayType>Special_LordProtector_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Soldiering</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stat>
+    <Stat>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.5</Value>
+    </Stat>
+    <Stat>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_LordProtector</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Speaker1</InternalName>
+    <DisplayName>Special_Speaker1_DisplayName</DisplayName>
+    <Description>Special_Speaker1_Description</Description>
+    <DisplayType>Special_Speaker1_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Speaker1</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>Special_Speaker2</InternalName>
+    <DisplayName>Special_Speaker2_DisplayName</DisplayName>
+    <Description>Special_Speaker2_Description</Description>
+    <DisplayType>Special_Speaker2_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stat>
+    <Prerequ>
+      <Tag>
+        <Option>Special_Speaker2</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>CabinetMember_Crisis_Ambassador</InternalName>
+    <DisplayName>CabinetMember_Crisis_Ambassador_DisplayName</DisplayName>
+    <Description>CabinetMember_Crisis_Ambassador_Description</Description>
+    <DisplayType>CabinetMember_Crisis_Ambassador_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Stat>
+      <EffectType>DiplomacyBenevolent</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stat>
+    <Prerequ>
+        <EventChoice>CabinetMember_Crisis_Ambassador</EventChoice>
+      <Tag>
+        <Option>CabinetMember_Crisis</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>CabinetMember_Crisis_General</InternalName>
+    <DisplayName>CabinetMember_Crisis_General_DisplayName</DisplayName>
+    <Description>CabinetMember_Crisis_General_Description</Description>
+    <DisplayType>CabinetMember_Crisis_General_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Military</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Stat>
+      <EffectType>Soldiering</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.2</Value>
+    </Stat>
+    <Stat>
+      <EffectType>MovesCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+    <Prerequ>
+        <EventChoice>CabinetMember_Crisis_General</EventChoice>
+      <Tag>
+        <Option>CabinetMember_Crisis</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>CabinetMember_Crisis_Priest</InternalName>
+    <DisplayName>CabinetMember_Crisis_Priest_DisplayName</DisplayName>
+    <Description>CabinetMember_Crisis_Priest_Description</Description>
+    <DisplayType>CabinetMember_Crisis_Priest_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.25</Value>
+    </Stat>
+    <Stat>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+        <EventChoice>CabinetMember_Crisis_Priest</EventChoice>
+      <Tag>
+        <Option>CabinetMember_Crisis</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+<!-- Begin Cabinet Member -->
+ 
+  <UnitSpecialization>
+    <InternalName>CabinetMember_Crisis_Scientist</InternalName>
+    <DisplayName>CabinetMember_Crisis_Scientist_DisplayName</DisplayName>
+    <Description>CabinetMember_Crisis_Scientist_Description</Description>
+    <DisplayType>CabinetMember_Crisis_Scientist_DisplayType</DisplayType>
+    <GlobalType>GovernmentCabinetMember</GlobalType>
+    <Icon>Citizen_Leader.png</Icon>
+    <Image>Citizen_Portrait_Terrans-01.png</Image>
+    <Background>Citizen_BG_Leader.png</Background>
+    <Stat>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.25</Value>
+    </Stat>
+    <Stat>
+      <EffectType>SensorPower</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stat>
+    <Prerequ>
+        <EventChoice>CabinetMember_Crisis_Scientist</EventChoice>
+      <Tag>
+        <Option>CabinetMember_Crisis</Option>
+      </Tag>
+    </Prerequ>
+  </UnitSpecialization>
+ 
+</UnitSpecializationList>

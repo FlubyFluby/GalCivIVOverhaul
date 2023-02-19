@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipMissionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipMissionDefs.xsd">
+<!-- Created with the Crusade editor -->
+<!-- ShipMissionDefs.xml -->
+ 
+  <ShipMission>
+    <InternalName>ResearchMission_Mission</InternalName>
+    <ShipDisplayName>ResearchMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>14</MinSearchDistance>
+    <MaxSoftSearchDistance>32</MaxSoftSearchDistance>
+    <AnomalyInternalName>ResearchMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>CreditsMission_Mission</InternalName>
+    <ShipDisplayName>CreditsMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>35</MinSearchDistance>
+    <MaxSoftSearchDistance>60</MaxSoftSearchDistance>
+    <AnomalyInternalName>CreditsMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>ProductionMission_Mission</InternalName>
+    <ShipDisplayName>ProductionMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>15</MinSearchDistance>
+    <MaxSoftSearchDistance>40</MaxSoftSearchDistance>
+    <AnomalyInternalName>ProductionMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>ExoticResourcesMission_Mission</InternalName>
+    <ShipDisplayName>ExoticResourcesMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>15</MinSearchDistance>
+    <MaxSoftSearchDistance>40</MaxSoftSearchDistance>
+    <AnomalyInternalName>ExoticResourcesMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>ResourcesMission_Mission</InternalName>
+    <ShipDisplayName>ResourcesMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>15</MinSearchDistance>
+    <MaxSoftSearchDistance>40</MaxSoftSearchDistance>
+    <AnomalyInternalName>ResourcesMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>GemTrader_Mission</InternalName>
+    <ShipDisplayName>GemTrader_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>30</MaxSoftSearchDistance>
+    <AnomalyInternalName>GemTrader_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>Xylology_Mission</InternalName>
+    <ShipDisplayName>Xylology_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>50</MaxSoftSearchDistance>
+    <AnomalyInternalName>Xylology_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>Pilgrims_Mission</InternalName>
+    <ShipDisplayName>Pilgrims_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>50</MaxSoftSearchDistance>
+    <AnomalyInternalName>Pilgrims_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>HyperSilicateMission_Mission</InternalName>
+    <ShipDisplayName>HyperSilicateMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>30</MaxSoftSearchDistance>
+    <AnomalyInternalName>HyperSilicateMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>HeliosOreScavengeMission_Mission</InternalName>
+    <ShipDisplayName>HeliosOreScavengeMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>30</MaxSoftSearchDistance>
+    <AnomalyInternalName>HeliosOreScavengeMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>ArnorSpiceScavangersMission_Mission</InternalName>
+    <ShipDisplayName>ArnorSpiceScavangersMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>10</MinSearchDistance>
+    <MaxSoftSearchDistance>20</MaxSoftSearchDistance>
+    <AnomalyInternalName>ArnorSpiceScavangersMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>HeadhunterMission_Mission</InternalName>
+    <ShipDisplayName>HeadhunterMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>40</MinSearchDistance>
+    <MaxSoftSearchDistance>200</MaxSoftSearchDistance>
+    <AnomalyInternalName>HeadhunterMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+  <ShipMission>
+    <InternalName>SalvageCrewMission_Mission</InternalName>
+    <ShipDisplayName>SalvageCrewMission_Mission_ShipDisplayName</ShipDisplayName>
+    <MinSearchDistance>20</MinSearchDistance>
+    <MaxSoftSearchDistance>50</MaxSoftSearchDistance>
+    <AnomalyInternalName>SalvageCrewMission_RewardAnomaly</AnomalyInternalName>
+  </ShipMission>
+
+</ShipMissionList>

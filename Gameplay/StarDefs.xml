@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
+  
+  <!--Fixted Sytem Stars-->
+
+  <Star>
+    <InternalName>SolStar</InternalName>
+    <DisplayName>SolName</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>ProximaCentauriStar</InternalName>
+    <DisplayName>Proxima_Centauri_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>RedGiantType_Label</TypeDisplayName>
+    <ArtDefine>BrownDwarfArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>  
+
+  <Star>
+    <InternalName>DrengiaStar</InternalName>
+    <DisplayName>Drengia_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>AltarisStar</InternalName>
+    <DisplayName>Altaris_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>IridiiStar</InternalName>
+    <DisplayName>Iridii_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>OrangeStarType_Label</TypeDisplayName>
+    <ArtDefine>OrangeStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>KrysethStar</InternalName>
+    <DisplayName>KrysethName</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+    <ArtDefine>BlueStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+	<Star>
+		<InternalName>IcosStar</InternalName>
+		<DisplayName>IcosName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>BlueStar</Type>
+		<TypeDisplayName>PurpleStarType_Label</TypeDisplayName>
+		<ArtDefine>PurpleStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+	
+	<Star>
+		<InternalName>IconisStar</InternalName>
+		<DisplayName>IconisName</DisplayName>
+		<ObjectType>Star</ObjectType>		
+		<Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+		<ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<Star>
+		<InternalName>ThalisStar</InternalName>
+		<DisplayName>ThalisName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+		<ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<Star>
+		<InternalName>SnathosStar</InternalName>
+		<DisplayName>SnathosName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+		<ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+  
+  <Star>
+    <InternalName>AtholStar</InternalName>
+    <DisplayName>Planet_Athol_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>TorusStar</InternalName>
+    <DisplayName>Planet_Torus_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>SardStar</InternalName>
+    <DisplayName>Sard_Star_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>RedGiantArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>ValeStar</InternalName>
+    <DisplayName>Vale_Star_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+    <ArtDefine>BlueStarArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>OroloStar</InternalName>
+    <DisplayName>Orolo_Star_Name</DisplayName>
+    <ObjectType>Star</ObjectType>
+    <Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+    <ArtDefine>SunArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+
+	<!--Generic Stars-->
+  
+	<Star>
+		<InternalName>YellowStar</InternalName>
+		<ObjectType>Star</ObjectType>		
+		<Type>YellowStar</Type>
+    <TypeDisplayName>YellowStarType_Label</TypeDisplayName>
+		<ArtDefine>SunArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+  
+  <Star>
+    <InternalName>RedGiantStar</InternalName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>RedGiantStarType_Label</TypeDisplayName>
+    <ArtDefine>RedGiantArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+    <InternalName>BrownDwarfStar</InternalName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>BrownStarType_Label</TypeDisplayName>
+    <ArtDefine>BrownDwarfArt</ArtDefine>
+    <SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>  
+
+  <Star>
+    <InternalName>OrangeStar</InternalName>
+    <ObjectType>Star</ObjectType>
+    <Type>BlueStar</Type>
+    <TypeDisplayName>OrangeStarType_Label</TypeDisplayName>
+    <ArtDefine>OrangeStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+  </Star>
+
+  <Star>
+		<InternalName>WhiteStar</InternalName>
+		<ObjectType>Star</ObjectType>
+		<Type>WhiteStar</Type>
+    <TypeDisplayName>WhiteStarType_Label</TypeDisplayName>
+		<ArtDefine>WhiteDwarfArt</ArtDefine>
+	</Star>
+
+	<Star>
+		<InternalName>BlueStar</InternalName>
+		<ObjectType>Star</ObjectType>		
+		<Type>BlueStar</Type>
+    <TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+		<ArtDefine>BlueStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+	
+		<Star>
+		<InternalName>GreenStar</InternalName>
+		<ObjectType>Star</ObjectType>		
+		<Type>BlueStar</Type>
+    <TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+		<ArtDefine>GreenStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+	
+  
+  <Star>
+		<InternalName>PurpleStar</InternalName>
+		<ObjectType>Star</ObjectType>		
+		<Type>BlueStar</Type>
+    <TypeDisplayName>PurpleStarType_Label</TypeDisplayName>
+		<ArtDefine>PurpleStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+  
+	<Star>
+		<InternalName>KoraStar</InternalName>
+		<DisplayName>KoraStar_StarName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>BlueStar</Type>
+		<TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+		<ArtDefine>BlueStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<Star>  
+		<InternalName>DrathaStar</InternalName>
+		<DisplayName>DrathaStar_StarName</DisplayName>
+		<ObjectType>Star</ObjectType>
+        <Type>WhiteStar</Type>
+		<TypeDisplayName>BlueStarType_Label</TypeDisplayName>
+		<ArtDefine>GreenStarArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+</StarList>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StatValueFlavorList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StatValueFlavorDefs.xsd">
+
+  <!-- leaves on the first inclusive range found -->
+  
+  <StatValueFlavorDef>
+    <InternalName>WeaponRangeValueFlavor</InternalName>
+    <ValueFlavor>
+      <Range>
+        <RangeMin>1100</RangeMin>
+        <NoMax>true</NoMax>
+      </Range>
+      <String>STATFLAVOR_Range_Long</String>
+    </ValueFlavor>
+    <ValueFlavor>
+      <Range>
+        <RangeMin>800</RangeMin>
+        <RangeMax>1100</RangeMax>
+      </Range>
+      <String>STATFLAVOR_Range_Mid</String>
+    </ValueFlavor>
+    <ValueFlavor>
+      <Range>
+        <NoMin>true</NoMin>
+        <RangeMax>800</RangeMax>
+      </Range>
+      <String>STATFLAVOR_Range_Short</String>
+    </ValueFlavor>
+  </StatValueFlavorDef>
+
+  <StatValueFlavorDef>
+    <InternalName>WeaponCooldownValueFlavor</InternalName>
+    <ValueFlavor>
+      <Range>
+        <NoMin>true</NoMin>
+        <RangeMax>3</RangeMax>
+      </Range>
+      <String>STATFLAVOR_Cooldown_Fast</String>
+    </ValueFlavor>
+    <ValueFlavor>
+      <Range>
+        <RangeMin>3</RangeMin>
+        <RangeMax>5</RangeMax>
+      </Range>
+      <String>STATFLAVOR_Cooldown_Moderate</String>
+    </ValueFlavor>
+    <ValueFlavor>
+      <Range>
+        <RangeMin>7</RangeMin>
+        <NoMax>true</NoMax>
+      </Range>
+      <String>STATFLAVOR_Cooldown_Slow</String>
+    </ValueFlavor>
+  </StatValueFlavorDef>
+
+</StatValueFlavorList>

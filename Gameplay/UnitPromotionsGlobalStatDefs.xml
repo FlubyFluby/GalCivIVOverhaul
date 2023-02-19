@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UnitStatsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UnitStatsDefs.xsd">
+<!-- Created with the Crusade editor -->
+<!-- UnitPromotionsGlobalStatDefs.xml -->
+ 
+  <UnitGlobalStats>
+    <UnitType>Mobster</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>SupremeGeneral</UnitType>
+    <Stat>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.03</Value>
+    </Stat>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Admiral</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Navigator</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Invader</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Privateer</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Exterminator</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Martyr</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Infiltrator</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Ambassador</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Ambassador</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>DiplomatRecall</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Saboteur</UnitType>
+  </UnitGlobalStats>
+
+</UnitStatsList>

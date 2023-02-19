@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+  
+  <FXElement>
+    <InternalName>FXConvertWorld</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXConvertWorld_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>SporeGenocideEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+    
+    <FXElement>
+      <InternalName>FXConvertWorld_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXFleetDamage</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXFleetDamage_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ExplosionLargeParticleEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXFleetDamage_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXSpawn</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXSpawn_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ShockwaveParticleEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXSpawn_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+	
+<FXElement>
+    <InternalName>FXCreateShip</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXCreateShip_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>FXCreateShipParticleEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXCreateShip_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXScan</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXScan_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ScanEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>100</Value>
+      </KeyValueDecimal>
+      <KeyValueVec3>
+        <Key>MinScale</Key>
+        <Value>
+          <X>2000</X>
+          <Y>2000</Y>
+          <Z>2000</Z>
+        </Value>
+      </KeyValueVec3>
+      <KeyValueVec3>
+        <Key>MaxScale</Key>
+        <Value>
+          <X>2000</X>
+          <Y>2000</Y>
+          <Z>2000</Z>
+        </Value>
+      </KeyValueVec3>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXScan_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXWormhole</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXWormhole_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>WormholeTempEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXWormhole_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXDefenseBuff</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXDefenseBuff_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>SparkBuffEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXDefenseBuff_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXManufacturingBuff</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXManufacturingBuff_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ManufacturingBuffEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXManufacturingBuff_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXAttackBuff</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXAttackBuff_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>AttackEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXAttackBuff_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXInfluenceBuff</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXInfluenceBuff_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>InfluenceBuffEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXInfluenceBuff_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>FXBuff</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>FXBuff_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>BuffEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>FXBuff_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+
+</FXElementList>

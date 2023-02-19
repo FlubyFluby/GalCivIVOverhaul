@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<EncounterList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/EncounterDefs.xsd">
+
+	<Encounter>
+		<InternalName>PirateEncounter</InternalName>
+		<Ship>PirateAttacker</Ship>
+		<Ship>PirateAttacker</Ship>
+    <Ship>PirateAttacker</Ship>
+  </Encounter>
+
+  <Encounter>
+    <InternalName>PrecursorEncounter</InternalName>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>Ship_PrecursorHuge</Ship>
+  </Encounter>
+
+  <Encounter>
+    <InternalName>PirateSingleEncounter</InternalName>
+    <Ship>PirateAttacker</Ship>
+  </Encounter>
+  
+  <Encounter>
+    <InternalName>SpaceMonsterMediumEncounter</InternalName>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordSmall</Ship>
+    <Ship>Ship_DreadLordSmall</Ship>
+    <Ship>Ship_DreadLordMedium</Ship>
+  </Encounter>
+
+  <Encounter>
+    <InternalName>SpaceMonsterLargeEncounter</InternalName>
+    <Ship>Ship_DreadLordLarge</Ship>
+  </Encounter>
+
+  <Encounter>
+    <InternalName>QuestEncounterDef_ShardOfTheMithrilar_01</InternalName>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>PrecursorAnomalyDrone</Ship>
+    <Ship>LargePrecursorAnomalyDrone</Ship>
+  </Encounter>
+
+
+  <Encounter>
+    <InternalName>QuestEncounterDef_OrbOfDraginol_01</InternalName>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordTiny</Ship>
+    <Ship>Ship_DreadLordSmall</Ship>
+    <Ship>Ship_DreadLordSmall</Ship>
+    <Ship>Ship_DreadLordMedium</Ship>
+  </Encounter>
+
+  <Encounter>
+    <InternalName>QuestEncounterDef_MakerWorld_01</InternalName>
+    <Ship>Ship_PrecursorSmall</Ship>
+    <Ship>Ship_PrecursorSmall</Ship>
+    <Ship>Ship_PrecursorSmall</Ship>
+    <Ship>Ship_PrecursorSmall</Ship>
+    <Ship>Ship_PrecursorMedium</Ship>
+    <Ship>Ship_PrecursorMedium</Ship>
+    <Ship>Ship_PrecursorMedium</Ship>
+    <Ship>Ship_PrecursorLarge</Ship>
+    <Ship>Ship_PrecursorLarge</Ship>
+    <Ship>Ship_PrecursorHuge</Ship>
+  </Encounter>
+  
+</EncounterList>

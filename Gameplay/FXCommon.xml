@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectSourceMobileObject</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>VolleySourceMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOffset</Key>
+      <Value>VolleySourceLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOrientation</Key>
+      <Value>VolleySourceOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>SourceObjectSourceMobileObject</InternalName>
+    <KeyValueString>
+      <Key>SourceObject</Key>
+      <Value>VolleySourceMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOffset</Key>
+      <Value>VolleySourceLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOrientation</Key>
+      <Value>VolleySourceOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectSourceMobileObjectOrientToTarget</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>VolleySourceMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOffset</Key>
+      <Value>VolleySourceLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOrientation</Key>      
+      <Value>VolleySourceToTargetOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>SourceObjectSourceMobileObjectOrientToTarget</InternalName>
+    <KeyValueString>
+      <Key>SourceObject</Key>
+      <Value>VolleySourceMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOffset</Key>
+      <Value>VolleySourceLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOrientation</Key>
+      <Value>VolleySourceToTargetOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectTargetMobileObject</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>VolleyTargetMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOffset</Key>
+      <Value>VolleyTargetLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetOrientation</Key>
+      <Value>VolleyTargetOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectTargetMobileObjectOrigin</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>VolleyTargetMobileObject</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+  
+  <KeyValueDictionary>
+    <InternalName>SourceObjectTargetMobileObject</InternalName>
+    <KeyValueString>
+      <Key>SourceObject</Key>
+      <Value>VolleyTargetMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOffset</Key>
+      <Value>VolleyTargetLocationLocal</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceOrientation</Key>
+      <Value>VolleyTargetOrientationLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectTargetPointDefense</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>VolleyTargetMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>PointDefenseTransformLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>SourceObjectTargetPointDefense</InternalName>
+    <KeyValueString>
+      <Key>SourceObject</Key>
+      <Value>VolleyTargetMobileObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>SourceTransform</Key>
+      <Value>PointDefenseTransformLocal</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>TargetObjectAttackingProjectile</InternalName>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>AttackingProjectile</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+  <KeyValueDictionary>
+    <InternalName>DestructionTransparencyAffectAllSiblings</InternalName>
+    <KeyValueString>
+      <Key>AffectAllSiblings</Key>
+      <Value>DestroyFadeAllSiblings</Value>
+    </KeyValueString>
+  </KeyValueDictionary>
+
+</FXElementList>

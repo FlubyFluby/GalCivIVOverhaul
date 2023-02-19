@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FactionVoiceOverList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionVoiceOverDefs.xsd">
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_TERRAN</FactionDef>
+		<VOEvent>INTRO_TERRAN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_FESTRON</FactionDef>
+		<VOEvent>INTRO_FESTRON</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_NAVIGATORS</FactionDef>
+		<VOEvent>INTRO_NAVIGATORS</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_MIMOT</FactionDef>
+		<VOEvent>INTRO_MIMOT</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_XELOXI</FactionDef>
+		<VOEvent>INTRO_XELOXI</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_ARCEAN</FactionDef>
+		<VOEvent>INTRO_ARCEAN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_DRENGIN</FactionDef>
+		<VOEvent>INTRO_DRENGIN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_ALTARIAN</FactionDef>
+		<VOEvent>INTRO_ALTARIAN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_YOR</FactionDef>
+		<VOEvent>INTRO_YOR</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_TORIAN</FactionDef>
+		<VOEvent>INTRO_TORIAN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_MANTI</FactionDef>
+		<VOEvent>INTRO_MANTI</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_KRYNN</FactionDef>
+		<VOEvent>INTRO_KRYNN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_ICONIAN</FactionDef>
+		<VOEvent>INTRO_ICONIAN</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_DRATH</FactionDef>
+		<VOEvent>INTRO_DRATH</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_IRIDIUM</FactionDef>
+		<VOEvent>INTRO_IRIDIUM</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_ONYX_HIVE</FactionDef>
+		<VOEvent>INTRO_ONYX_HIVE</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_BARATAK</FactionDef>
+		<VOEvent>INTRO_BARATAK</VOEvent>
+	</FactionVoiceOverDef>
+
+	<FactionVoiceOverDef>
+		<FactionDef>FACTION_RESISTANCE</FactionDef>
+		<VOEvent>INTRO_RESISTANCE</VOEvent>
+	</FactionVoiceOverDef>
+
+</FactionVoiceOverList>

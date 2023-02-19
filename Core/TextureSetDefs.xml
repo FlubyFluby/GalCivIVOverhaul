@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GCTextureSetsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GCTextureSetDefs.xsd">
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_TerranTexture_A</InternalName>    
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>TerranTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>TerranTexture_A_Data.dds</DataMap>
+    <AppearanceMap>TerranTexture_A_Appearance.dds</AppearanceMap>
+		<EmissiveMap>TerranTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>TerranTexture_A_Normal.dds</NormalMap>  
+  </GCTextureSet>
+
+   <GCTextureSet>
+    <InternalName>GC3_TextureSet_UnitedEarthTexture_A</InternalName>    
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>UnitedEarthTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>UnitedEarthTexture_A_Data.dds</DataMap>
+    <AppearanceMap>UnitedEarthTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>UnitedEarthTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>UnitedEarthTexture_A_Normal.dds</NormalMap>      
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_LegacyTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>LegacyTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>LegacyTexture_A_Data.dds</DataMap>
+    <AppearanceMap>LegacyTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>LegacyTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>LegacyTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_AltarianTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>AltarianTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>AltarianTexture_A_Data.dds</DataMap>
+    <AppearanceMap>AltarianTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>AltarianTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>AltarianTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_DrenginTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>DrenginTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>DrenginTexture_A_Data.dds</DataMap>
+    <AppearanceMap>DrenginTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>DrenginTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>DrenginTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_IridiumTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>IridiumTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>IridiumTexture_A_Data.dds</DataMap>
+    <AppearanceMap>IridiumTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>IridiumTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>IridiumTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_KrynnTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>KrynnTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>KrynnTexture_A_Data.dds</DataMap>
+    <AppearanceMap>KrynnTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>KrynnTexture_A_Light.dds</EmissiveMap>    
+    <NormalMap>KrynnTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_YorTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>YorTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>YorTexture_A_Data.dds</DataMap>
+    <AppearanceMap>YorTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>YorTexture_A_Light.dds</EmissiveMap> 
+	  <NormalMap>YorTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_ThalanTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>ThalanTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>ThalanTexture_A_Data.dds</DataMap>
+    <AppearanceMap>ThalanTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>ThalanTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>ThalanTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_IconianTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>IconianTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>IconianTexture_A_Data.dds</DataMap>
+    <AppearanceMap>IconianTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>IconianTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>IconianTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_DreadlordsTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>DreadlordsTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>DreadlordsTexture_A_Data.dds</DataMap>
+    <AppearanceMap>DreadlordsTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>DreadlordsTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>DreadlordsTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+  
+  <!-- EXP_1 Mercenaries Faction Texture Sets -->    
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_ArceanTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>ArceanTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>ArceanTexture_A_Data.dds</DataMap>
+    <AppearanceMap>ArceanTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>ArceanTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>ArceanTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet> 
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_TorianTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>TorianTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>TorianTexture_A_Data.dds</DataMap>
+    <AppearanceMap>TorianTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>TorianTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>TorianTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_MercTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>MercTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>MercTexture_A_Data.dds</DataMap>
+    <AppearanceMap>MercTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>MercTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>MercTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+
+  <!-- EXP_2 Crusades Faction Texture Sets -->  
+    
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_OnyxTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>OnyxTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>OnyxTexture_A_Data.dds</DataMap>
+    <AppearanceMap>OnyxTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>OnyxTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>OnyxTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+	
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_FestronTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>FestronTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>FestronTexture_A_Data.dds</DataMap>
+    <AppearanceMap>FestronTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>FestronTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>FestronTexture_A_Normal.dds</NormalMap>    
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_ResistanceTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>ResistanceTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>ResistanceTexture_A_Data.dds</DataMap>
+    <AppearanceMap>ResistanceTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>ResistanceTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>ResistanceTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_AsteroidTexture_A</InternalName>  
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>AsteroidTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>AsteroidTexture_A_Data.dds</DataMap>
+    <AppearanceMap>AsteroidTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>AsteroidTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>AsteroidTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+	<GCTextureSet>
+		<InternalName>GC3_TextureSet_EarthPartsTexture_A</InternalName>
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>EarthPartsTexture_A_Diffuse.dds</DiffuseMap>
+		<DataMap>EarthPartsTexture_A_Data.dds</DataMap>
+		<AppearanceMap>EarthPartsTexture_A_Appearance.dds</AppearanceMap>
+		<EmissiveMap>EarthPartsTexture_A_Lights.dds</EmissiveMap>
+		<NormalMap>EarthPartsTexture_A_Normal.dds</NormalMap>
+	</GCTextureSet>
+
+  
+  <!-- MiscAssets -->
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_ThuliumTexture_A</InternalName>
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>ThuliumTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>ThuliumTexture_A_Data.dds</DataMap>
+    <AppearanceMap>ThuliumTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>ThuliumTexture_A_Light.dds</EmissiveMap>
+	  <NormalMap>ThuliumTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_PromethionTexture_A</InternalName>
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>PromethionTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>PromethionTexture_A_Data.dds</DataMap>
+    <AppearanceMap>PromethionTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>PromethionTexture_A_Light.dds</EmissiveMap>
+	  <NormalMap>PromethionTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <!-- DLC Faction Texture Sets -->
+
+  <!--<GCTextureSet>
+    <InternalName>GC3_TextureSet_PrecursorTexture_A</InternalName>
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>PrecursorTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>PrecursorTexture_A_Data.dds</DataMap>
+    <AppearanceMap>PrecursorTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>PrecursorTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>PrecursorTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>-->
+  
+  <!-- Weapons -->
+  
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_WeaponTexture_A</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>WeaponTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>WeaponTexture_A_Data.dds</DataMap>
+    <AppearanceMap>WeaponTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>WeaponTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>WeaponTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_WeaponTexture_B</InternalName>
+    <UVScale>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>WeaponTexture_B_Diffuse.dds</DiffuseMap>
+    <DataMap>WeaponTexture_B_Data.dds</DataMap>
+    <AppearanceMap>WeaponTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>WeaponTexture_B_Light.dds</EmissiveMap>
+    <NormalMap>WeaponTexture_B_Normal.dds</NormalMap>
+  </GCTextureSet>
+
+  <GCTextureSet>
+    <InternalName>GC3_TextureSet_MissileTexture_A</InternalName>
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>MissileTexture_A_Diffuse.dds</DiffuseMap>
+    <DataMap>MissileTexture_A_Data.dds</DataMap>
+    <AppearanceMap>MissileTexture_A_Appearance.dds</AppearanceMap>
+    <EmissiveMap>MissileTexture_A_Light.dds</EmissiveMap>
+    <NormalMap>MissileTexture_A_Normal.dds</NormalMap>
+  </GCTextureSet>
+  
+</GCTextureSetsList>

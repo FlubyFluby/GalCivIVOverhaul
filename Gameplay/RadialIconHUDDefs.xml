@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RadialIconHUDList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RadialIconHUDDefs.xsd">
+
+	<RadialIconHUD>
+		<InternalName>RadialIconHUD</InternalName>
+		<DisplayName>RADIAN_ICON_HUD</DisplayName>
+    <Value>Radial Icon HUD</Value>
+  </RadialIconHUD>
+
+</RadialIconHUDList>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ShipSFXList
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../Schema/Lib/ShipSFXDefs.xsd">
+
+	<ShipSFX>
+		<UniqueID>Escort</UniqueID>
+		<OnSelectedSFX>ESCORT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Assault</UniqueID>
+		<OnSelectedSFX>ASSAULT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Sentinel</UniqueID>
+		<OnSelectedSFX>SENTINEL_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Defender</UniqueID>
+		<OnSelectedSFX>DEFENDER_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Bomber</UniqueID>
+		<OnSelectedSFX>BOMBER_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Interceptor</UniqueID>
+		<OnSelectedSFX>INTERCEPTOR_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>CapitalShip</UniqueID>
+		<OnSelectedSFX>CAPITAL_SHIP_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Support</UniqueID>
+		<OnSelectedSFX>SUPPORT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Colony</UniqueID>
+		<OnSelectedSFX>COLONY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Constructor</UniqueID>
+		<OnSelectedSFX>CONSTRUCTOR_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Transport</UniqueID>
+		<OnSelectedSFX>TRANSPORT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Freighter</UniqueID>
+		<OnSelectedSFX>FREIGHTER_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Survey</UniqueID>
+		<OnSelectedSFX>SURVEY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>Scout</UniqueID>
+		<OnSelectedSFX>SCOUT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>UnitTransport</UniqueID>
+		<OnSelectedSFX>UNIT_TRANSPORT_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>CaravanShip</UniqueID>
+		<OnSelectedSFX>CARAVAN_SHIP_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtStarbase</UniqueID>
+		<OnSelectedSFX>STARBASE_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtCultureStarbase</UniqueID>
+		<OnSelectedSFX>STARBASE_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtMiningStarbase</UniqueID>
+		<OnSelectedSFX>STARBASE_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtArchLabStarbase</UniqueID>
+		<OnSelectedSFX>STARBASE_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtColony</UniqueID>
+		<OnSelectedSFX>COLONY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtMoneyColony</UniqueID>
+		<OnSelectedSFX>COLONY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtResearchColony</UniqueID>
+		<OnSelectedSFX>COLONY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>StationAtManufacturingColony</UniqueID>
+		<OnSelectedSFX>COLONY_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+	
+	<ShipSFX>
+		<UniqueID>SupplyShip</UniqueID>
+		<OnSelectedSFX>SUPPLY_SHIP_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>HypergateShip</UniqueID>
+		<OnSelectedSFX>HYPERGATE_SHIP_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+	<ShipSFX>
+		<UniqueID>MiningShip</UniqueID>
+		<OnSelectedSFX>MINING_SHIP_ONCLICK</OnSelectedSFX>
+	</ShipSFX>
+
+</ShipSFXList>

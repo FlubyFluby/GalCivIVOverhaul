@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FactionMoviesBGList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionMoviesBGDef.xsd">
+
+	<FactionMoviesBGDef>
+		<InternalName>YorMoviesBG</InternalName>
+		<BGMovie_Large>yor_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>yor_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>XeloxiMoviesBG</InternalName>
+		<BGMovie_Large>xeloxi_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>xeloxi_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>BaratakMoviesBG</InternalName>
+		<BGMovie_Large>baratak_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>baratak_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>MantiMoviesBG</InternalName>
+		<BGMovie_Large>manti_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>manti_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>FestronMoviesBG</InternalName>
+		<BGMovie_Large>festron_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>festron_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>NavigatorsMoviesBG</InternalName>
+		<BGMovie_Large>navigators_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>navigators_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+	
+	<FactionMoviesBGDef>
+		<InternalName>MimotMoviesBG</InternalName>
+		<BGMovie_Large>mimot_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>mimot_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>TerranMoviesBG</InternalName>
+		<BGMovie_Large>ter_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>New_ter_environment_small.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>ResistanceMoviesBG</InternalName>
+		<BGMovie_Large>jenna_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>jenna_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+  
+	<FactionMoviesBGDef>
+		<InternalName>DrenginMoviesBG</InternalName>
+		<BGMovie_Large>dre_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>New_dre_environment_small.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>AltarianMoviesBG</InternalName>
+		<BGMovie_Large>alt_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>alt_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>IridiumMoviesBG</InternalName>
+		<BGMovie_Large>iridium_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>New_iridium_environment_small.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>KrynnMoviesBG</InternalName>
+		<BGMovie_Large>krynn_background.bk2</BGMovie_Large>
+		<BGMovie_Small>New_krynn_background_small.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>IconianMoviesBG</InternalName>
+		<BGMovie_Large>iconian_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>iconian_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>	
+		<InternalName>TorianMoviesBG</InternalName>
+		<BGMovie_Large>Torian_Background_00.bk2</BGMovie_Large>
+		<BGMovie_Small>Torian_Background_Small.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>	
+		<InternalName>ArceanMoviesBG</InternalName>
+		<BGMovie_Large>Arcean_Background_00.bk2</BGMovie_Large>
+		<BGMovie_Small>Arcean_Background_00.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>	
+		<InternalName>OnyxHiveMoviesBG</InternalName>
+		<BGMovie_Large>onyx_environment.bk2</BGMovie_Large>
+		<BGMovie_Small>onyx_environment.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>	
+		<InternalName>OnyxHiveMoviesBG_Old</InternalName>
+		<BGMovie_Large>Onyx Hive BG.bk2</BGMovie_Large>
+		<BGMovie_Small>Onyx Hive BG.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>DrathMoviesBG</InternalName>
+		<BGMovie_Large>Drath-Background.bk2</BGMovie_Large>
+		<BGMovie_Small>Drath-Background.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>TrandalMoviesBG</InternalName>
+		<BGMovie_Large>FreeTrandalsBG.bk2</BGMovie_Large>
+		<BGMovie_Small>FreeTrandalsBG.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>TywomMoviesBG</InternalName>
+		<BGMovie_Large>TywomBG.bk2</BGMovie_Large>
+		<BGMovie_Small>TywomBG.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>SnathiMoviesBG</InternalName>
+		<BGMovie_Large>Snathy_Background_00.bk2</BGMovie_Large>
+		<BGMovie_Small>Snathy_Background_00.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>KorathMoviesBG</InternalName>
+		<BGMovie_Large>Korath-Background.bk2</BGMovie_Large>
+		<BGMovie_Small>Korath-Background.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>SlyneMoviesBG</InternalName>
+		<BGMovie_Large>Slyne_Background.bk2</BGMovie_Large>
+		<BGMovie_Small>Slyne_Background.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>ThalanMoviesBG</InternalName>
+		<BGMovie_Large>Thalan_Background.bk2</BGMovie_Large>
+		<BGMovie_Small>Thalan_Background.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>PhamyshtMoviesBG</InternalName>
+		<BGMovie_Large>PhamyshtBackground.bk2</BGMovie_Large>
+		<BGMovie_Small>PhamyshtBackground.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+	<FactionMoviesBGDef>
+		<InternalName>ScryveMoviesBG</InternalName>
+		<BGMovie_Large>ScryveBackground.bk2</BGMovie_Large>
+		<BGMovie_Small>ScryveBackground.bk2</BGMovie_Small>
+	</FactionMoviesBGDef>
+
+</FactionMoviesBGList>

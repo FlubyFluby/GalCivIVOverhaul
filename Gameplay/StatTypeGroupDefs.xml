@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalCivStatTypeGroups
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StatTypeGroupDefs.xsd">
+
+  <GalCivStatTypeGroupList>
+    
+    <AttackStats>
+      <Stat>BeamAttack</Stat>
+      <Stat>KineticAttack</Stat>
+      <Stat>MissileAttack</Stat>
+    </AttackStats>
+
+    <DefenseStats>
+      <Stat>ShieldStrength</Stat>
+      <Stat>ArmorRating</Stat>
+      <Stat>PointDefense</Stat>
+    </DefenseStats>
+
+    <ShipSpecialAbilities>
+      <Stat>CanDetectCloak</Stat>
+      <Stat>CanCloak</Stat>
+      <Stat>CanSurvey</Stat>
+      <Stat>CanUpgrade</Stat>
+      <Stat>CanColonize</Stat>
+      <Stat>CanInvade</Stat>
+      <Stat>CanConstruct</Stat>
+      <Stat>CanCreateTradeRoute</Stat>
+      <Stat>CanSupplySocial</Stat>
+      <Stat>CanSupplyMilitary</Stat>
+      <Stat>CanBuildHypergate</Stat>
+      <Stat>IsImmuneToRange</Stat>
+    </ShipSpecialAbilities>
+    
+    <ShipDesignerStats>
+      <Stat>ManufacturingCost</Stat>
+      <Stat>Maintenance</Stat>
+      <Stat>HitPointsCap</Stat>
+      <Stat>MovesCap</Stat>
+      <Stat>SensorRange</Stat>
+      <Stat>Logistics</Stat>
+    </ShipDesignerStats>
+
+    <FleetDetailsGeneralStats>
+      <Stat>MovesCap</Stat>
+      <Stat>TacticalSpeed</Stat>
+      <Stat>SensorRange</Stat>
+    </FleetDetailsGeneralStats>
+
+    <StrategicResources>
+      <Stat>EleriumIncome</Stat>
+      <Stat>DurantiumIncome</Stat>
+      <Stat>AntimatterIncome</Stat>
+      <Stat>PromethionIncome</Stat>
+      <Stat>ThuliumIncome</Stat>
+    </StrategicResources>
+
+    <StrategicResourceCosts>
+      <Stat>EleriumCost</Stat>
+      <Stat>DurantiumCost</Stat>
+      <Stat>AntimatterCost</Stat>
+      <Stat>PromethionCost</Stat>
+      <Stat>ThuliumCost</Stat>
+    </StrategicResourceCosts>
+
+    <BeamWeaponStats>
+      <Stat>BeamRange</Stat>
+      <Stat>BeamCooldown</Stat>
+      <Stat>BeamAccuracy</Stat>
+    </BeamWeaponStats>
+
+    <MissileWeaponStats>
+      <Stat>MissileRange</Stat>
+      <Stat>MissileCooldown</Stat>
+      <Stat>MissileAccuracy</Stat>
+    </MissileWeaponStats>
+
+    <KineticWeaponStats>
+      <Stat>KineticRange</Stat>
+      <Stat>KineticCooldown</Stat>
+      <Stat>KineticAccuracy</Stat>
+    </KineticWeaponStats>
+
+    <CalculatedUnitStats>
+      <Stat>Intelligence</Stat>
+      <Stat>Social</Stat>
+      <Stat>Diligence</Stat>
+      <Stat>Resolve</Stat>
+      <Stat>Expectations</Stat>
+      <Stat>Loyalty</Stat>
+    </CalculatedUnitStats>
+    
+    <PlanetaryCitizenAttributes>
+      <Stat>Intelligence</Stat>
+      <Stat>Social</Stat>
+      <Stat>Diligence</Stat>
+      <Stat>Resolve</Stat>
+      <Stat>Expectations</Stat>
+    </PlanetaryCitizenAttributes>
+    
+    <LeaderAttributes>
+      <Stat>Intelligence</Stat>
+      <Stat>Social</Stat>
+      <Stat>Diligence</Stat>
+      <Stat>Resolve</Stat>
+    </LeaderAttributes>
+    
+  </GalCivStatTypeGroupList>
+
+</GalCivStatTypeGroups>

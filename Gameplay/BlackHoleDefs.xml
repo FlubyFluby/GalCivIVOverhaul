@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<BlackHoleList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BlackHoleDefs.xsd">
+  
+	<BlackHole>
+		<InternalName>BlackHole</InternalName>
+		<DisplayName>BLACKHOLE_NAME</DisplayName>
+		<ObjectType>BlackHole</ObjectType>
+		<AreaEffectDisplayName>VortexName</AreaEffectDisplayName>
+		<AreaEffect>
+			<Type>Circle</Type>
+			<Radius>3</Radius>
+		</AreaEffect>
+		<ArtDefine>BlackHoleArt</ArtDefine>
+		<SFXDefine>BLACK_HOLE_AMBIENT</SFXDefine>
+	</BlackHole>
+
+	<BlackHole>
+		<InternalName>LargeBlackHole</InternalName>
+		<DisplayName>LARGE_BLACKHOLE_NAME</DisplayName>
+		<ObjectType>BlackHole</ObjectType>
+		<AreaEffectDisplayName>VortexName</AreaEffectDisplayName>
+		<AreaEffect>
+			<Type>Circle</Type>
+			<Radius>9</Radius>
+		</AreaEffect>
+		<ArtDefine>LargeBlackHoleArt</ArtDefine>
+		<SFXDefine>BLACK_HOLE_AMBIENT</SFXDefine>
+	</BlackHole>
+
+</BlackHoleList>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<DiplomacyMoodDisplayDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomacyMoodDisplayDefs.xsd">
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Overjoyed</InternalName>
+    <MoodRange>
+      <RangeMin>10</RangeMin>
+      <NoMax>true</NoMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_OVERJOYED</DisplayName>
+    <ColorDef>DiplomacyLovesColor</ColorDef>
+    <Icon>APPROVAL_HAPPY_ICON</Icon>
+    <DiplomacyMovieType>Happy</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Happy</InternalName>
+    <MoodRange>
+      <RangeMin>7</RangeMin>
+      <RangeMax>9</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_HAPPY</DisplayName>
+    <ColorDef>DiplomacyAdmiresColor</ColorDef>
+    <Icon>APPROVAL_HAPPY_ICON</Icon>
+    <DiplomacyMovieType>Happy</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Warm</InternalName>
+    <MoodRange>
+      <RangeMin>4</RangeMin>
+      <RangeMax>6</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_WARM</DisplayName>
+    <ColorDef>DiplomacyLikesColor</ColorDef>
+    <Icon>APPROVAL_HAPPY_ICON</Icon>
+    <DiplomacyMovieType>Happy</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Comfortable</InternalName>
+    <MoodRange>
+      <RangeMin>1</RangeMin>
+      <RangeMax>3</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_COMFORTABLE</DisplayName>
+    <ColorDef>DiplomacyTrustsColor</ColorDef>
+    <Icon>APPROVAL_CONTENT_ICON</Icon>
+    <DiplomacyMovieType>Neutral</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Ambivalent</InternalName>
+    <MoodRange>
+      <RangeMin>0</RangeMin>
+      <RangeMax>0</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_AMBIVALENT</DisplayName>
+    <ColorDef>DiplomacyApatheticColor</ColorDef>
+    <Icon>APPROVAL_CONTENT_ICON</Icon>
+    <DiplomacyMovieType>Neutral</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Annoyed</InternalName>
+    <MoodRange>
+      <RangeMin>-3</RangeMin>
+      <RangeMax>-1</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_ANNOYED</DisplayName>
+    <ColorDef>DiplomacyDistrustsColor</ColorDef>
+    <Icon>APPROVAL_CONTENT_ICON</Icon>
+    <DiplomacyMovieType>Neutral</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Cool</InternalName>
+    <MoodRange>
+      <RangeMin>-6</RangeMin>
+      <RangeMax>-4</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_COOL</DisplayName>
+    <ColorDef>DiplomacyDislikesColor</ColorDef>
+    <Icon>APPROVAL_SAD_ICON</Icon>
+    <DiplomacyMovieType>Angry</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Angry</InternalName>
+    <MoodRange>
+      <RangeMin>-9</RangeMin>
+      <RangeMax>-7</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_ANGRY</DisplayName>
+    <ColorDef>DiplomacyHostileColor</ColorDef>
+    <Icon>APPROVAL_SAD_ICON</Icon>
+    <DiplomacyMovieType>Angry</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+  <DiplomacyMoodDisplayDef>
+    <InternalName>DiplomacyDisplay_Furious</InternalName>
+    <MoodRange>
+      <NoMin>true</NoMin>
+      <RangeMax>-10</RangeMax>
+    </MoodRange>
+    <DisplayName>DIPLOMACY_MOOD_FURIOUS</DisplayName>
+    <ColorDef>DiplomacyHatesColor</ColorDef>
+    <Icon>APPROVAL_SAD_ICON</Icon>
+    <DiplomacyMovieType>Angry</DiplomacyMovieType>
+  </DiplomacyMoodDisplayDef>
+
+</DiplomacyMoodDisplayDefList>

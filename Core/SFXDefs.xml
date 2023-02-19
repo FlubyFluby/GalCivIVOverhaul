@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SFXDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/SFXDefs.xsd">
+
+	<!--Notes:
+			This mapping exists because Miles does not let us specify 3D sound parameters 
+			in the Studio project data. We can specify 3D parameters here.
+			Also, at some point, we will want to implement the <SoundFileOverride> tag so 
+			that the sound engine may play plain assets, useful to modders without access 
+			to Miles Studio.
+	-->
+
+	<!-- Map Object ambient sounds -->
+
+	<!-- Note: Ambient sounds are low-priority, compared to sounds that play once due to user action. -->
+	
+	<SFXDef>
+		<InternalName>STAR_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/STAR_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>DEAD_STAR_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/DEAD_STAR_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>NEBULA_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/NEBULA_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>DUST_CLOUD_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/DUST_CLOUD_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BLACK_HOLE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/BLACK_HOLE_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>STRATEGIC_RESOURCE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/STRATEGIC_RESOURCE_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>RELIC_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/RELIC_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>ASCENSION_GATE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/ASCENSION_GATE_AMBIENT</SoundEventName>
+		<MaxHearDistance>1800</MaxHearDistance>
+	</SFXDef>
+
+  <SFXDef>
+    <InternalName>ANOMALY_CAPSULE_AMBIENT</InternalName>
+    <SoundEventName>3D/3D_Objects/ASCENSION_GATE_AMBIENT</SoundEventName>
+    <MaxHearDistance>1800</MaxHearDistance>
+  </SFXDef>
+
+  <SFXDef>
+    <InternalName>ANOMALY_SHIPGRAVEYARD_AMBIENT</InternalName>
+    <SoundEventName>3D/3D_Objects/ASCENSION_GATE_AMBIENT</SoundEventName>
+    <MaxHearDistance>1800</MaxHearDistance>
+  </SFXDef>
+
+  <SFXDef>
+    <InternalName>ANOMALY_WORMHOLE_AMBIENT</InternalName>
+    <SoundEventName>3D/3D_Objects/ASCENSION_GATE_AMBIENT</SoundEventName>
+    <MaxHearDistance>1800</MaxHearDistance>
+  </SFXDef>
+
+  <SFXDef>
+    <InternalName>ANOMALY_GENERIC_AMBIENT</InternalName>
+    <SoundEventName>3D/3D_Objects/ANOMALY_GENERIC_AMBIENT</SoundEventName>
+    <MaxHearDistance>1800</MaxHearDistance>
+  </SFXDef>
+
+	<!-- Starbase ambient sounds -->
+
+	<SFXDef>
+		<InternalName>ALTARIAN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/ALTARIAN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>DRENGIN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/DRENGIN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+	
+	<SFXDef>
+		<InternalName>IRIDIUM_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/IRIDIUM_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>KRYNN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/KRYNN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>TERRAN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/TERRAN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>YOR_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/YOR_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>ICONIAN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/ICONIAN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>THALAN_STARBASE_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/THALAN_STARBASE_AMBIENT</SoundEventName>
+		<MaxHearDistance>900</MaxHearDistance>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>SHIPYARD_AMBIENT</InternalName>
+		<SoundEventName>3D/3D_Objects/SHIPYARD_AMBIENT</SoundEventName>
+		<MaxHearDistance>300</MaxHearDistance>
+	</SFXDef>
+
+    <SFXDef>
+        <InternalName>HYPERGATE_LOOP</InternalName>
+        <SoundEventName>3D/3D_Objects/HYPERGATE_LOOP</SoundEventName>
+        <MaxHearDistance>300</MaxHearDistance>
+    </SFXDef>
+
+
+    <!-- Explosions / Hits / Destruction -->
+
+  <SFXDef>
+    <InternalName>TEST_EXPLOSION</InternalName>
+    <SoundEventName>3D/3D_Impacts/TEST_EXPLOSION</SoundEventName>
+    <MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+  </SFXDef>
+
+	<SFXDef>
+		<InternalName>GENERIC_HIT</InternalName>
+		<SoundEventName>3D/3D_Impacts/GENERIC_HIT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>CARGO_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/CARGO_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>HUGE_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/HUGE_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>LARGE_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/LARGE_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MEDIUM_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/MEDIUM_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SMALL_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/SMALL_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>TINY_SHIP_DEATH</InternalName>
+		<SoundEventName>3D/3D_Destruction_Sounds/TINY_SHIP_DEATH</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+
+	<SFXDef>
+		<InternalName>BEAM_DISRUPTORS_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/BEAM_DISRUPTORS_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>BEAM_DOOM_RAY_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/BEAM_DOOM_RAY_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>BEAM_LASERS_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/BEAM_LASERS_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>BEAM_PHASORS_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/BEAM_PHASORS_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>BEAM_PLASMA_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/BEAM_PLASMA_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_CANNON_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MASS_DRIVER_CANNON_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MASS_DRIVER_PULSE_CANNON_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MASS_DRIVER_PULSE_CANNON_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MASS_DRIVER_QUANTUM_DRIVER_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MASS_DRIVER_QUANTUM_DRIVER_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MASS_DRIVER_RAILGUN_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MASS_DRIVER_RAILGUN_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MASS_DRIVER_SINGULARITY_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MASS_DRIVER_SINGULARITY_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_HARPOON_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MISSILE_HARPOON_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MISSILE_NIGHTMARE_TORPEDOES_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MISSILE_NIGHTMARE_TORPEDOES_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MISSILE_PHOTONIC_TORPEDOES_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MISSILE_PHOTONIC_TORPEDOES_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MISSILE_SPARROW_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MISSILE_SPARROW_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MISSILE_STINGER_IMPACT</InternalName>
+		<SoundEventName>3D/3D_Impacts/MISSILE_STINGER_IMPACT</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+  
+  <!-- Survey SFX -->
+  <SFXDef>
+    <InternalName>BEAM_SURVEY_SHIP_FIRE</InternalName>
+    <SoundEventName>3D/3D_Weapons/BEAM_SURVEY_SHIP_FIRE</SoundEventName>
+    <MaxHearDistance>1400</MaxHearDistance>
+    <HighPriority>true</HighPriority>
+  </SFXDef>
+  
+  <!-- Battle SFX -->
+
+	<SFXDef>
+		<InternalName>BEAM_LASERS_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_LASERS_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BEAM_PARTICLE_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_PARTICLE_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BEAM_DISRUPTERS_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_DISRUPTERS_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BEAM_PLASMA_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_PLASMA_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BEAM_PHASORS_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_PHASORS_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BEAM_DOOM_RAY_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/BEAM_DOOM_RAY_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_SPARROW_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_SPARROW_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_STINGER_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_STINGER_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_HARPOON_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_HARPOON_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_PHOTONIC_TORPEDOES_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_PHOTONIC_TORPEDOES_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_PHOTON_TORPEDOES_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_PHOTON_TORPEDOES_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MISSILE_NIGHTMARE_TORPEDOES_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MISSILE_NIGHTMARE_TORPEDOES_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_CANNON_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVER_CANNON_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVERPULSE_CANNON_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVERPULSE_CANNON_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_RAILGUN_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVER_RAILGUN_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_GRAVITON_DRIVER_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVER_GRAVITON_DRIVER_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_QUANTUM_DRIVER_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVER_QUANTUM_DRIVER_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MASS_DRIVER_SINGULARITY_DRIVER_FIRE</InternalName>
+		<SoundEventName>3D/3D_Weapons/MASS_DRIVER_SINGULARITY_DRIVER_FIRE</SoundEventName>
+		<MaxHearDistance>3000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>	
+  
+  <!-- main map invasion sounds -->
+  <SFXDef>
+		<InternalName>MAP_INVASION_FIRE_WEAPON_01</InternalName>
+		<SoundEventName>3D/3D_Invasion/StartMapInvasion_FireWeapon01</SoundEventName>
+		<MaxHearDistance>2000</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+  <SFXDef>
+    <InternalName>MAP_INVASION_SMALL_EXPLOSION_01</InternalName>
+    <SoundEventName>3D/3D_Invasion/StartMapInvasion_Small_Explosion01</SoundEventName>
+    <MaxHearDistance>2000</MaxHearDistance>
+    <HighPriority>true</HighPriority>
+  </SFXDef>
+  
+	<!-- Ship Movement sounds -->
+
+	<SFXDef>
+		<InternalName>TINY_IDLE</InternalName>
+		<SoundEventName>3D/3D_Ships/TINY_IDLE</SoundEventName>
+		<MaxHearDistance>1200</MaxHearDistance>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>TINY_TRAVEL</InternalName>
+		<SoundEventName>3D/3D_Ships/TINY_TRAVEL</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>TINY_THRUST_ON</InternalName>
+		<SoundEventName>3D/3D_Ships/TINY_THRUST_ON</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>TINY_TRAVEL_END</InternalName>
+		<SoundEventName>3D/3D_Ships/TINY_TRAVEL_END</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>SMALL_IDLE</InternalName>
+		<SoundEventName>3D/3D_Ships/SMALL_IDLE</SoundEventName>
+		<MaxHearDistance>1200</MaxHearDistance>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SMALL_TRAVEL</InternalName>
+		<SoundEventName>3D/3D_Ships/SMALL_TRAVEL</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SMALL_THRUST_ON</InternalName>
+		<SoundEventName>3D/3D_Ships/SMALL_THRUST_ON</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SMALL_TRAVEL_END</InternalName>
+		<SoundEventName>3D/3D_Ships/SMALL_TRAVEL_END</SoundEventName>
+		<MaxHearDistance>3500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>MEDIUM_IDLE</InternalName>
+		<SoundEventName>3D/3D_Ships/MEDIUM_IDLE</SoundEventName>
+		<MaxHearDistance>1200</MaxHearDistance>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MEDIUM_TRAVEL</InternalName>
+		<SoundEventName>3D/3D_Ships/MEDIUM_TRAVEL</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MEDIUM_THRUST_ON</InternalName>
+		<SoundEventName>3D/3D_Ships/MEDIUM_THRUST_ON</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MEDIUM_TRAVEL_END</InternalName>
+		<SoundEventName>3D/3D_Ships/MEDIUM_TRAVEL_END</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>LARGE_IDLE</InternalName>
+		<SoundEventName>3D/3D_Ships/LARGE_IDLE</SoundEventName>
+		<MaxHearDistance>1200</MaxHearDistance>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>LARGE_TRAVEL</InternalName>
+		<SoundEventName>3D/3D_Ships/LARGE_TRAVEL</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>LARGE_THRUST_ON</InternalName>
+		<SoundEventName>3D/3D_Ships/LARGE_THRUST_ON</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>LARGE_TRAVEL_END</InternalName>
+		<SoundEventName>3D/3D_Ships/LARGE_TRAVEL_END</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>HUGE_IDLE</InternalName>
+		<SoundEventName>3D/3D_Ships/HUGE_IDLE</SoundEventName>
+		<MaxHearDistance>1200</MaxHearDistance>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>HUGE_TRAVEL</InternalName>
+		<SoundEventName>3D/3D_Ships/HUGE_TRAVEL</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>HUGE_THRUST_ON</InternalName>
+		<SoundEventName>3D/3D_Ships/HUGE_THRUST_ON</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>HUGE_TRAVEL_END</InternalName>
+		<SoundEventName>3D/3D_Ships/HUGE_TRAVEL_END</SoundEventName>
+		<MaxHearDistance>4500</MaxHearDistance>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	
+	<!-- UI -->
+
+	<SFXDef>
+		<InternalName>BATTLE_VICTORY</InternalName>
+		<SoundEventName>UI/BATTLE_VICTORY</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>BATTLE_DEFEAT</InternalName>
+		<SoundEventName>UI/BATTLE_DEFEAT</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>ANCHOR</InternalName>
+		<SoundEventName>UI/ANCHOR</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>UNANCHOR</InternalName>
+		<SoundEventName>UI/UNANCHOR</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>GENERIC_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>ESCORT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>ASSAULT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SENTINEL_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>DEFENDER_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>BOMBER_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>INTERCEPTOR_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>CAPITAL_SHIP_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SUPPORT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>COLONY_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>CONSTRUCTOR_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>TRANSPORT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>FREIGHTER_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SURVEY_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SCOUT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>UNIT_TRANSPORT_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>CARAVAN_SHIP_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>STARBASE_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>SUPPLY_SHIP_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>HYPERGATE_SHIP_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+	<SFXDef>
+		<InternalName>MINING_SHIP_ONCLICK</InternalName>
+		<SoundEventName>UI/ONCLICK/FLEET_ONCLICK</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<!-- Faction VOs -->
+	
+	<SFXDef>
+		<InternalName>INTRO_TERRAN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Terran_Alliance</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_FESTRON</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Festron_Hunt</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_NAVIGATORS</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Navigators</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_MIMOT</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Mimot_Brotherhood</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_XELOXI</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Xeloxi</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_ARCEAN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Arcean_Republic</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_DRENGIN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Drengin_Empire</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_ALTARIAN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Altarian_Republic</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_YOR</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Yor_Singularity</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_TORIAN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Torian_Regime</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_MANTI</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Manti_Cluster</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_KRYNN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Krynn_Syndicate</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_ICONIAN</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Iconian_Refuge</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_DRATH</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Drath_Freehold</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_IRIDIUM</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Corporate_Sector</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_ONYX_HIVE</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Onyx_Hive</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_BARATAK</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Baratak_Grove</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+	<SFXDef>
+		<InternalName>INTRO_RESISTANCE</InternalName>
+		<SoundEventName>UI/Robot_Voice_Events/Terran_Resistance</SoundEventName>
+		<HighPriority>true</HighPriority>
+	</SFXDef>
+
+</SFXDefList>

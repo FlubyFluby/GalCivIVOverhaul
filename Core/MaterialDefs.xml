@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GCMaterialsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GCMaterialDefs.xsd">
+
+	<GCMaterial>
+		<InternalName>Ship_Material_01</InternalName>
+		<DisplayName>SHIP_MATERIAL_01_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>		<!--Desaturate or Super Saturate diffuse gradient colors. 
+																													0.0 = Greyscale,  
+																													1.0 = Native Colors, 
+																													1.0 > Super Saturates.-->
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>		<!--Running Lights-->
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>		<!--Windows-->
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>		<!--Engines-->
+		<RoughnessModifier>0.0</RoughnessModifier>		<!--Modify Roughness map.
+																										-1 = all smooth,
+																										 1 = all ruff, 
+																										-0.1 = smoother,
+																										 0.1 = rougher-->
+		<MetallicModifier>0.0</MetallicModifier>		<!--Override Metal Map.
+																										0 = Use texture map,
+																									 -1 = Override Non Metallic,  
+																										1	= Override all Metallic-->
+	</GCMaterial>
+
+
+	<GCMaterial>
+		<InternalName>Ship_Material_02</InternalName>
+		<DisplayName>SHIP_MATERIAL_02_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>-1.0</MetallicModifier>
+	</GCMaterial>
+
+  <GCMaterial>
+    <InternalName>Ship_Material_03</InternalName>
+    <DisplayName>SHIP_MATERIAL_03_NAME</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>1.0</MetallicModifier>
+  </GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_04</InternalName>
+		<DisplayName>SHIP_MATERIAL_04_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_05</InternalName>
+		<DisplayName>SHIP_MATERIAL_05_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_06</InternalName>
+		<DisplayName>SHIP_MATERIAL_06_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+    <InternalName>Ship_Material_Chrome</InternalName>
+    <DisplayName>SHIP_MATERIAL_Chrome</DisplayName>
+  	<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.20</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+  </GCMaterial>
+
+	<!--No Modificaton (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_07</InternalName>
+		<DisplayName>SHIP_MATERIAL_07_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--No Modificaton (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_08</InternalName>
+		<DisplayName>SHIP_MATERIAL_08_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--No Modificaton (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_09</InternalName>
+		<DisplayName>SHIP_MATERIAL_09_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--No Modificaton (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_10</InternalName>
+		<DisplayName>SHIP_MATERIAL_10_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--No Modificaton (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_11</InternalName>
+		<DisplayName>SHIP_MATERIAL_11_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Metallic (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_12</InternalName>
+		<DisplayName>SHIP_MATERIAL_12_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Metallic (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_13</InternalName>
+		<DisplayName>SHIP_MATERIAL_13_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Metallic (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_14</InternalName>
+		<DisplayName>SHIP_MATERIAL_14_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Metallic (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_15</InternalName>
+		<DisplayName>SHIP_MATERIAL_15_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Metallic (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_16</InternalName>
+		<DisplayName>SHIP_MATERIAL_16_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Low Reflectivity (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_17</InternalName>
+		<DisplayName>SHIP_MATERIAL_17_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Low Reflectivity (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_18</InternalName>
+		<DisplayName>SHIP_MATERIAL_18_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Low Reflectivity (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_19</InternalName>
+		<DisplayName>SHIP_MATERIAL_19_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Low Reflectivity (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_20</InternalName>
+		<DisplayName>SHIP_MATERIAL_20_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Low Reflectivity (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_21</InternalName>
+		<DisplayName>SHIP_MATERIAL_21_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Medium Reflectivity (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_22</InternalName>
+		<DisplayName>SHIP_MATERIAL_22_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Medium Reflectivity (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_23</InternalName>
+		<DisplayName>SHIP_MATERIAL_23_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Medium Reflectivity (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_24</InternalName>
+		<DisplayName>SHIP_MATERIAL_24_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Medium Reflectivity (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_25</InternalName>
+		<DisplayName>SHIP_MATERIAL_25_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Medium Reflectivity (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_26</InternalName>
+		<DisplayName>SHIP_MATERIAL_26_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--High Reflectivity (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_27</InternalName>
+		<DisplayName>SHIP_MATERIAL_27_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--High Reflectivity (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_28</InternalName>
+		<DisplayName>SHIP_MATERIAL_28_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--High Reflectivity (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_29</InternalName>
+		<DisplayName>SHIP_MATERIAL_29_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--High Reflectivity (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_30</InternalName>
+		<DisplayName>SHIP_MATERIAL_30_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--High Reflectivity (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_31</InternalName>
+		<DisplayName>SHIP_MATERIAL_31_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Chrome (Dim Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_32</InternalName>
+		<DisplayName>SHIP_MATERIAL_32_NAME</DisplayName>
+		<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.75</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.75</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.75</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Chrome (Standard Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_33</InternalName>
+		<DisplayName>SHIP_MATERIAL_33_NAME</DisplayName>
+		<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Chrome (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_34</InternalName>
+		<DisplayName>SHIP_MATERIAL_34_NAME</DisplayName>
+		<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Chrome (Blown Out Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_35</InternalName>
+		<DisplayName>SHIP_MATERIAL_35_NAME</DisplayName>
+		<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!--Chrome (No Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_36</InternalName>
+		<DisplayName>SHIP_MATERIAL_36_NAME</DisplayName>
+		<DiffuseSaturation>0.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_37</InternalName>
+		<DisplayName>SHIP_MATERIAL_37_NAME</DisplayName>
+		<DiffuseSaturation>0.75</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_38</InternalName>
+		<DisplayName>SHIP_MATERIAL_38_NAME</DisplayName>
+		<DiffuseSaturation>0.75</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>-1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_39</InternalName>
+		<DisplayName>SHIP_MATERIAL_39_NAME</DisplayName>
+		<DiffuseSaturation>0.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_40</InternalName>
+		<DisplayName>SHIP_MATERIAL_40_NAME</DisplayName>
+		<DiffuseSaturation>0.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_41</InternalName>
+		<DisplayName>SHIP_MATERIAL_41_NAME</DisplayName>
+		<DiffuseSaturation>0.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_42</InternalName>
+		<DisplayName>SHIP_MATERIAL_42_NAME</DisplayName>
+		<DiffuseSaturation>0.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_43</InternalName>
+		<DisplayName>SHIP_MATERIAL_43_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_44</InternalName>
+		<DisplayName>SHIP_MATERIAL_44_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>-1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_45</InternalName>
+		<DisplayName>SHIP_MATERIAL_45_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_46</InternalName>
+		<DisplayName>SHIP_MATERIAL_46_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.1</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_47</InternalName>
+		<DisplayName>SHIP_MATERIAL_47_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Ship_Material_48</InternalName>
+		<DisplayName>SHIP_MATERIAL_48_NAME</DisplayName>
+		<DiffuseSaturation>1.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.3</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+	<!-- Satruated-Chrome (Bright Lights)-->
+	<GCMaterial>
+		<InternalName>Ship_Material_49</InternalName>
+		<DisplayName>SHIP_MATERIAL_49_NAME</DisplayName>
+		<DiffuseSaturation>0.5</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>-0.2</RoughnessModifier>
+		<MetallicModifier>1.0</MetallicModifier>
+	</GCMaterial>
+
+
+
+	<GCMaterial>
+    <InternalName>Planet_Material_01</InternalName>
+    <DisplayName>PLANET_MATERIAL_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>
+
+	<GCMaterial>
+    <InternalName>Asteroid_Material_01</InternalName>
+    <DisplayName>ASTEROID_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Durantium_Material_01</InternalName>
+		<DisplayName>Durantium_Material_01_Name</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>7.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+	<GCMaterial>
+		<InternalName>Resource_Material_01</InternalName>
+		<DisplayName>Resource_MATERIAL_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.2</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>
+
+
+
+
+	<!--use Ship_Material_35-->
+	<!--<GCMaterial>
+		<InternalName>Mirror_Material_01</InternalName>
+		<DisplayName>MIRROR_MATERIAL_01_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>4.2</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--use Ship_Material_04-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_Steel</InternalName>
+    <DisplayName>SHIP_MATERIAL_Steel</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>2.3</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+    <RoughnessModifier>-0.24</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+
+	<!--Same as Ship_Material_01-->
+	<!--<GCMaterial>
+		<InternalName>Ship_Material_Painted_Metal</InternalName>
+		<DisplayName>SHIP_MATERIAL_Painted_Metal</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Same as Ship_Material_08-->
+	<!--<GCMaterial>
+		<InternalName>Ship_Material_Gold</InternalName>
+		<DisplayName>SHIP_MATERIAL_Gold</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Same as Ship_Material_09-->
+	<!--<GCMaterial>
+		<InternalName>Ship_Material_Brushed_Adamantium</InternalName>
+		<DisplayName>SHIP_MATERIAL_Brushed_Adamantium</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_Bronze</InternalName>
+    <DisplayName>SHIP_MATERIAL_Bronze</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+	<!--<GCMaterial>
+		<InternalName>Snathi_Material_01</InternalName>
+		<DisplayName>SHIP_MATERIAL_Snathi_Steel</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_IconianSteel</InternalName>
+    <DisplayName>SHIP_MATERIAL_IconianSteel</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.6</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.7</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_10-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_PirateMetal</InternalName>
+    <DisplayName>SHIP_MATERIAL_Brushed_Metal</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>4.0</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>4.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_PiratePainted</InternalName>
+    <DisplayName>SHIP_MATERIAL_IconianPainted</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>3.4</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Resource_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Thulium_Material_01</InternalName>
+    <DisplayName>THULIUM_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.2</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Resource_Material_01-->
+  <!--<GCMaterial>
+    <InternalName>Promethion_Material_01</InternalName>
+    <DisplayName>PROMETHION_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.2</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+	
+	<!--Same as Ship_Material_10-->
+	<!--<GCMaterial>
+		<InternalName>Biological_Material_01</InternalName>
+		<DisplayName>BIO_MATERIAL_01_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_1-->
+	<!--<GCMaterial>
+		<InternalName>Missile_Material_01</InternalName>
+		<DisplayName>MISSILE_MATERIAL_01_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_08-->
+	<!--<GCMaterial>
+		<InternalName>Gold_Material_01</InternalName>
+		<DisplayName>GOLD_MATERIAL_01_NAME</DisplayName>
+		<DiffuseSaturation>1.0</DiffuseSaturation>
+		<EmissiveMapIntensityA>1.4</EmissiveMapIntensityA>
+		<EmissiveMapIntensityB>1.4</EmissiveMapIntensityB>
+		<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+	</GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+  <!--<GCMaterial>
+    <InternalName>Adamantium_Material_01</InternalName>
+    <DisplayName>ADAMANTIUM_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.2</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Almost the Same as Ship_Material_01-->
+  <!--<GCMaterial>
+    <InternalName>RallyPoint_Material</InternalName>
+    <DisplayName>RallyPoint_Material_Name</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+	
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_Iridium</InternalName>
+    <DisplayName>SHIP_MATERIAL_Iridium</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_Iridium_Painted</InternalName>
+    <DisplayName>SHIP_MATERIAL_Iridium_Painted</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_YorSteel</InternalName>
+    <DisplayName>SHIP_MATERIAL_YorSteel</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_YorPainted</InternalName>
+    <DisplayName>SHIP_MATERIAL_YorPainted</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Red_Death_Material_01</InternalName>
+    <DisplayName>SHIP_MATERIAL_Red_Death</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Red_Death_Material_02</InternalName>
+    <DisplayName>SHIP_MATERIAL_Red_Death_Black</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Painted_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Terran_Resistance_Metal</InternalName>
+    <DisplayName>TERRAN_RESISTANCE_METAL_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Asteroid_Material_02</InternalName>
+    <DisplayName>ASTEROID_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Asteroid_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Asteroid_Material_03</InternalName>
+    <DisplayName>ASTEROID_MATERIAL_03_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Missile_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Missile_Material_02</InternalName>
+    <DisplayName>MISSILE_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+    <RoughnessModifier>0.0</RoughnessModifier>
+    <MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+	
+	<!--Same as Biological_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Biological_Material_02</InternalName>
+    <DisplayName>BIO_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>0.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>0.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>0.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Thulium_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Thulium_Glow_Material_01</InternalName>
+    <DisplayName>THULIUM_GLOW_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.2</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Slyne_Matte_Metal-->
+	<!--<GCMaterial>
+    <InternalName>Slyne_Adamantium</InternalName>
+    <DisplayName>SLYNE_ADAMANTIUM_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>4.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Drath_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Drath_Material_02</InternalName>
+    <DisplayName>DRATH_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Korx_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Korx_Material_02</InternalName>
+    <DisplayName>KORX_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>2.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.5</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Mercinary_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Mercinary_Material_02</InternalName>
+    <DisplayName>Mercinary_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Gold-->
+	<!--<GCMaterial>
+    <InternalName>Adamantium_Material_02</InternalName>
+    <DisplayName>ADAMANTIUM_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Gold-->
+	<!--<GCMaterial>
+    <InternalName>Torian_Metal_01</InternalName>
+    <DisplayName>TORIAN_METAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Gold-->
+	<!--<GCMaterial>
+    <InternalName>Arcean_Material_01</InternalName>
+    <DisplayName>ARCEAN_MATERIAL_01_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Onyx_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Onyx_Material_02</InternalName>
+    <DisplayName>ONYX_MATERIAL_02_NAME</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.85</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.85</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.85</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_IconianSteel-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_IconianPainted</InternalName>
+    <DisplayName>SHIP_MATERIAL_IconianPainted</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.6</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.7</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Iridium-->
+	<!--<GCMaterial>
+    <InternalName>Snathi_Material_02</InternalName>
+    <DisplayName>SHIP_MATERIAL_Snathi_Iron</DisplayName>
+    <DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.5</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.5</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Snathi_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_RelicSteel</InternalName>
+    <DisplayName>SHIP_MATERIAL_RelicSteel</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Snathi_Material_01-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_RelicPainted</InternalName>
+    <DisplayName>SHIP_MATERIAL_RelicPainted</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+  	<EmissiveMapIntensityA>2.0</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+	<!--Same as Ship_Material_Gold-->
+	<!--<GCMaterial>
+    <InternalName>Ship_Material_Brushed_Metal</InternalName>
+    <DisplayName>SHIP_MATERIAL_Brushed_Metal</DisplayName>
+  	<DiffuseSaturation>1.0</DiffuseSaturation>
+    <EmissiveMapIntensityA>1.0</EmissiveMapIntensityA>
+    <EmissiveMapIntensityB>1.0</EmissiveMapIntensityB>
+    <EmissiveMapIntensityC>1.0</EmissiveMapIntensityC>
+		<RoughnessModifier>0.0</RoughnessModifier>
+		<MetallicModifier>0.0</MetallicModifier>
+  </GCMaterial>-->
+
+</GCMaterialsList>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<SpecialFactionBehaviorDisplayDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/SpecialFactionBehaviorDisplayDefs.xsd">
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>AtWarWithAll</UniqueID>
+    <DisplayName>AtWarWithAll_Label</DisplayName>
+    <Description>AtWarWithAll_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>AtWarWithThoseAtWar</UniqueID>
+    <DisplayName>AtWarWithThoseAtWar_Label</DisplayName>
+    <Description>AtWarWithThoseAtWar_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>SuicidalAttack</UniqueID>
+    <DisplayName>SuicidalAttack_Label</DisplayName>
+    <Description>SuicidalAttack_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>DoesNotTrade</UniqueID>
+    <DisplayName>DoesNotTrade_Label</DisplayName>
+    <Description>DoesNotTrade_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>DoesNotSpeakToPlayer</UniqueID>
+    <DisplayName>DoesNotSpeakToPlayer_Label</DisplayName>
+    <Description>DoesNotSpeakToPlayer_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>LeashedShips</UniqueID>
+    <DisplayName>LeashedShips_Label</DisplayName>
+    <Description>LeashedShips_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+  <SpecialFactionBehaviorDisplayDef>
+    <UniqueID>DoesNotMakeTreaties</UniqueID>
+    <DisplayName>DoesNotMakeTreaties_Label</DisplayName>
+    <Description>DoesNotMakeTreaties_Description</Description>
+  </SpecialFactionBehaviorDisplayDef>
+
+</SpecialFactionBehaviorDisplayDefList>

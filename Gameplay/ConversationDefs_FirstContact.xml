@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<ConversationTopicDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
+
+  <ConversationTopicDef>
+    <InternalName>SandboxConversation_FirstContact</InternalName>
+    <TopicID>FirstContact</TopicID>
+    <ConversationDef>
+      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_1</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL</ResponseFlavorText>
+      </Response>
+      <Response>
+        <InternalName>FirstContact_Response_2</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_TRADE</ResponseFlavorText>
+        <StartTrade>true</StartTrade>
+      </Response>
+      <Response>
+        <InternalName>FirstContact_Response_3</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_NEUTRAL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+  <ConversationTopicDef>
+    <InternalName>SandboxConversation_MercenaryFirstContact</InternalName>
+    <TopicID>MercenaryFirstContact</TopicID>
+    <ConversationDef>
+      <FlavorText>MERC_FIRST_CONTACT_MAIN</FlavorText>
+      <OverrideMovie>korx_intro_screen_00.bk2</OverrideMovie>
+      <Response>
+        <InternalName>MercFirstContact_Response_1</InternalName>
+        <ResponseFlavorText>MERC_FIRST_CONTACT_RESPONSE_ACCEPT</ResponseFlavorText>
+      </Response>
+      <Response>
+        <InternalName>MercFirstContact_Response_2</InternalName>
+        <ResponseFlavorText>MERC_FIRST_CONTACT_RESPONSE_NOTNOW</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+</ConversationTopicDefs>

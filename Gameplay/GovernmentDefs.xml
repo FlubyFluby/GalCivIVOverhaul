@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GovernmentList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GovernmentDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- GovernmentDefs.xml -->
+ 
+<!-- Begin Government Def -->
+ 
+  <Government>
+    <InternalName>Coalition</InternalName>
+    <DisplayName>Coalition_DisplayName</DisplayName>
+    <Description>Coalition_Description</Description>
+    <ShortDescription>Coalition_ShortDescription</ShortDescription>
+    <Icon>GovIcons_Coalition.dds</Icon>
+    <Watermark>Icon_Watermark_Coalition.dds</Watermark>
+    <VoteRatioNeeded>0</VoteRatioNeeded>
+    <HoldsElections>false</HoldsElections>
+    <PlayerPartyName>Coalition_PlayerPartyName</PlayerPartyName>
+    <OpponentPartyAName>Coalition_OpponentPartyAName</OpponentPartyAName>
+    <OpponentPartyBName>Coalition_OpponentPartyBName</OpponentPartyBName>
+    <CabinetPositions>
+      <Position>
+        <PositionType>Special_CoalitionManager</PositionType>
+        <DisplayName>CoalitionSpecial_CoalitionManager_PositionName</DisplayName>
+      </Position>
+    </CabinetPositions>
+    <IsSelectable>false</IsSelectable>
+    <ColonyLimit>-1</ColonyLimit>
+    <NoDeclareWar>true</NoDeclareWar>
+    <NoGalacticMarket>true</NoGalacticMarket>
+    <AICategoryWeight>
+      <Military>1</Military>
+      <Growth>1</Growth>
+      <Tech>1</Tech>
+      <Diplomacy>1</Diplomacy>
+      <Expansion>1</Expansion>
+      <Wealth>1</Wealth>
+      <Influence>1</Influence>
+      <Fortification>1</Fortification>
+      <Logistics>1</Logistics>
+    </AICategoryWeight>
+  </Government>
+ 
+</GovernmentList>

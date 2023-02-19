@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MapMarkerList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/MapMarkerDefs.xsd">
+
+  <MapMarker>
+    <UniqueID>FleetDiedInBattle</UniqueID>
+    <ImageLocation>
+      <X>4</X>
+      <Y>2</Y>
+    </ImageLocation>
+    <Description>FleetDeathDesc</Description>
+    <Duration>3</Duration>
+  </MapMarker>
+
+  <MapMarker>
+    <UniqueID>BlockedTile</UniqueID>
+    <ImageLocation>
+      <X>4</X>
+      <Y>2</Y>
+    </ImageLocation>
+    <Description>BlockedTileDesc</Description>
+    <Duration>-1</Duration>
+  </MapMarker>
+
+</MapMarkerList>

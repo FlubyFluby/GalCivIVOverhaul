@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RarityList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RarityDefs.xsd">
+
+
+  <Rarity>
+    <UniqueID>Common</UniqueID>
+    <DisplayName>Common</DisplayName>
+    <Description>TechnologyLibraryCommonDesc</Description>
+    <Icon>Gfx/Icons/Stats/GC4_S_RarityTint.png</Icon>
+    <ColorDef>UIDefaultHot</ColorDef>
+    <FormattedNameAndIcon>TechnologyLibraryCommonTitle</FormattedNameAndIcon>
+  </Rarity>
+  
+  <Rarity>
+    <UniqueID>Uncommon</UniqueID>
+    <DisplayName>Uncommon</DisplayName>
+    <Description>TechnologyLibraryUncommonDesc</Description>
+    <Icon>Gfx/Icons/Stats/GC4_S_RarityTint.png</Icon>
+    <ColorDef>TradeGold</ColorDef>
+    <FormattedNameAndIcon>TechnologyLibraryUncommonTitle</FormattedNameAndIcon>
+  
+</Rarity>
+  
+  <Rarity>
+    <UniqueID>Rare</UniqueID>
+    <DisplayName>Rare</DisplayName>
+    <Description>TechnologyLibraryRareDesc</Description>
+    <Icon>Gfx/Icons/Stats/GC4_S_RarityTint.png</Icon>
+    <ColorDef>YorRacePurple</ColorDef>
+    <FormattedNameAndIcon>TechnologyLibraryRareTitle</FormattedNameAndIcon>
+  </Rarity>
+
+</RarityList>

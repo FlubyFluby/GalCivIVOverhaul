@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+	<!-- Damage State FX, should probably move to another file -->
+
+	<!--Random Scale For Damage Particle Systems-->
+	<FXElement>
+		<InternalName>DamageStateRandomFX_Scale</InternalName>
+		<Type>Transform</Type>
+		<KeyValueVec3>
+			<Key>MinScale</Key>
+			<Value>
+				<X>1.0</X>
+				<Y>1.0</Y>
+				<Z>1.0</Z>
+			</Value>
+		</KeyValueVec3>
+		<KeyValueVec3>
+			<Key>MaxScale</Key>
+			<Value>
+				<X>1.0</X>
+				<Y>1.0</Y>
+				<Z>1.0</Z>
+			</Value>
+		</KeyValueVec3>
+	</FXElement>
+
+	<!--Damage Particle Systems-->
+	<FXElement>
+		<InternalName>DamageStateRandomFX</InternalName>
+		<Type>Random</Type>
+
+		<KeyValueString>
+			<Key>TargetObject</Key>
+			<Value>DamageNode</Value>
+		</KeyValueString>
+		<KeyValueString>
+			<Key>TargetTransform</Key>
+			<Value>BattlePoint</Value>
+		</KeyValueString>
+
+		<FXElement>
+			<InternalName>DamageStateRandomFX_0</InternalName>
+			<Type>Particle</Type>
+			<Weight>1</Weight>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>RepeatingFireEffect</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<FXElementRef>DamageStateRandomFX_Scale</FXElementRef>
+		</FXElement>
+		<FXElement>
+			<InternalName>DamageStateRandomFX_1</InternalName>
+			<Type>Particle</Type>
+			<Weight>1</Weight>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>RepeatingSparkEffect</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<FXElementRef>DamageStateRandomFX_Scale</FXElementRef>
+		</FXElement>
+		<FXElement>
+			<InternalName>DamageStateRandomFX_2</InternalName>
+			<Type>Particle</Type>
+			<Weight>1</Weight>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>RepeatingAirLeakEffect</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>0.25</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.25</Value>
+			</KeyValueDecimal>
+			<FXElementRef>DamageStateRandomFX_Scale</FXElementRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!-- BEFORE YOU CHANGE THESE, read https://stardock.atlassian.net/browse/GC4-5062, it has important info about what other things need to be changed with it, and what rules must be followed. -->
+
+	<!--Tiny Main Map Destroy-->
+	<FXElement>
+		<InternalName>TinyMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>TinyMainMapDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+	<!--Small Main Map Destroy-->
+	<FXElement>
+		<InternalName>SmallMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>SmallMainMapDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>0</Wait>
+			<Duration>1.0</Duration>
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>4.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>SmallDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+			<Wait>0</Wait>
+			<FadeOut>1.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>DestructionTransparencyAffectAllSiblings</KeyValueDictionaryRef>
+		</FXElement>
+
+		<!-- IMPORTANT - this must not have a wait value longer than the Transparency element's wait time above!! -->
+		<FXElement>
+			<InternalName>SmallMainMapDestroy_ExplosionLargeParticle</InternalName>
+			<Type>Particle</Type>
+			<!-- This needs to match or exceed the script emission times, without this tag will default to the duration of its siblings -->
+			<Duration>1.0</Duration>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionSmallParticleEffect_MainMap</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetObject</Key>
+				<Value>VolleyTargetMobileObject</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetOrientation</Key>
+				<Value>VolleyTargetOrientationLocal</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapFullBattleUniformScale</Key>
+				<Value>0.25</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>IgnoreParentScale</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+		</FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>SmallMainMapDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above -->
+			<Wait>0.0</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>SMALL_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Medium Main Map Destroy - fast -->
+	<FXElement>
+		<InternalName>MediumMainMapDestroy_Fast</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>MediumMainMapDestroy_FastOverride</FXElementRef>
+	</FXElement>
+
+	<!--Medium Main Map Destroy-->
+	<FXElement>
+		<InternalName>MediumMainMapMeltdown_ExplosionRandomScale</InternalName>
+		<Type>Transform</Type>
+		<KeyValueVec3>
+			<Key>MinScale</Key>
+			<Value>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Value>
+		</KeyValueVec3>
+		<KeyValueVec3>
+			<Key>MaxScale</Key>
+			<Value>
+				<X>1.5</X>
+				<Y>1.5</Y>
+				<Z>1.5</Z>
+			</Value>
+		</KeyValueVec3>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MediumMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Meltdown-->
+		<FXElement>
+			<InternalName>MediumMainMapMeltdown_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>MediumMainMapMeltdown_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<Wait>0.0</Wait>
+				<WaitRandomRange>0.5</WaitRandomRange>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.4</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>MediumMainMapMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>MediumMainMapDestroy_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<Wait>0.4</Wait>
+			<WaitRandomRange>0.15</WaitRandomRange>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>MediumMainMapDestroy_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.4</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>MediumMainMapMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<FXElement>
+			<InternalName>MediumMainMapDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>0.75</Wait>
+			<Duration>1.0</Duration>
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>6.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>MediumDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+			<Wait>0.75</Wait>
+			<FadeOut>1.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>DestructionTransparencyAffectAllSiblings</KeyValueDictionaryRef>
+		</FXElement>
+
+		<!-- IMPORTANT - this must not have a wait value longer than the Transparency element's wait time above!! -->
+		<FXElement>
+			<InternalName>MediumMainMapDestroy_ExplosionLargeParticle</InternalName>
+			<Type>Particle</Type>
+			<Wait>0.75</Wait>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionMediumParticleEffect</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>1.5</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapFullBattleUniformScale</Key>
+				<Value>0.5</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>IgnoreParentScale</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>MediumMainMapDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above -->
+			<Wait>0.75</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>MEDIUM_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!--Cargo Main Map Destroy-->
+	<FXElement>
+		<InternalName>CargoMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>CargoMainMapDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+	<!--Large Main Map Destroy-->
+	<FXElement>
+		<InternalName>LargeMainMapMeltdown_ExplosionRandomScale</InternalName>
+		<Type>Transform</Type>
+		<KeyValueVec3>
+			<Key>MinScale</Key>
+			<Value>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Value>
+		</KeyValueVec3>
+		<KeyValueVec3>
+			<Key>MaxScale</Key>
+			<Value>
+				<X>1.5</X>
+				<Y>1.5</Y>
+				<Z>1.5</Z>
+			</Value>
+		</KeyValueVec3>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>LargeMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Meltdown-->
+		<FXElement>
+			<InternalName>LargeMainMapMeltdown_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>LargeMainMapMeltdown_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<Wait>0.0</Wait>
+				<WaitRandomRange>2.5</WaitRandomRange>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.4</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapFullBattleUniformScale</Key>
+					<Value>0.2</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>LargeMainMapMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>LargeMainMapDestroy_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<Wait>2.3</Wait>
+			<WaitRandomRange>0.5</WaitRandomRange>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>LargeMainMapDestroy_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.4</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapFullBattleUniformScale</Key>
+					<Value>0.2</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>LargeMainMapMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<FXElement>
+			<InternalName>LargeMainMapDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>3.0</Wait>
+			<Duration>1.0</Duration>
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>8.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>LargeDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+			<Wait>3.0</Wait>
+			<FadeOut>1.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+			<KeyValueDictionaryRef>DestructionTransparencyAffectAllSiblings</KeyValueDictionaryRef>
+		</FXElement>
+
+		<!-- IMPORTANT - this must not have a wait value longer than the Transparency element's wait time above!! -->
+		<FXElement>
+			<InternalName>LargeMainMapDestroy_ExplosionLargeParticle</InternalName>
+			<Type>Particle</Type>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionLargeParticleEffect_MainMap</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>MainMapUniformScale</Key>
+				<Value>2.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDecimal>
+				<Key>MainMapFullBattleUniformScale</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>IgnoreParentScale</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>LargeMainMapDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above - in this case, the large emitter in the script itself -->
+			<Wait>3.0</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>LARGE_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!--Huge Main Map Destroy-->
+	<FXElement>
+		<InternalName>HugeMainMapDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>HugeMainMapDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+	<!--Tiny Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>TinyBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>TinyBattleViewerDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+  <!--Tiny Battle Viewer Destroy-->
+  <FXElement>
+    <InternalName>TinyBattleViewerDestroy_Suicide</InternalName>
+    <Type>Composite</Type>
+    <FXElementRef>TinyBattleViewerDestroy_Suicide_ExplosionFoleyOverride</FXElementRef>
+  </FXElement>
+
+	<!--Small Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>SmallBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>SmallBattleViewerDestroy_ExplosionSmallParticle</InternalName>
+			<Type>Particle</Type>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionSmallParticleEffect</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetObject</Key>
+				<Value>VolleyTargetMobileObject</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetOrientation</Key>
+				<Value>VolleyTargetOrientationLocal</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.045</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>ScaleToBoundingBox</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>SmallBattleViewerDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>0.5</Wait>
+			<Duration>0.5</Duration>
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>1.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>SmallBattleViewerDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+      <Wait>0.0</Wait>
+			<FadeOut>4.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+      <InternalName>SmallBattleViewerDestroy_Explosion_CameraShake</InternalName>
+      <Type>CameraShake</Type>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>VolleyTargetMobileObject</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>CameraShakeRange</Key>
+        <Value>1500</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeMagnitude</Key>
+        <Value>0.013</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeTime</Key>
+        <Value>0.75</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeSpeed</Key>
+        <Value>30.0</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>SmallBattleViewerDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above -->
+			<Wait>0.0</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>SMALL_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+  <!--Small Battle Viewer Destroy - Suicide-->
+  <FXElement>
+    <InternalName>SmallBattleViewerDestroy_Suicide</InternalName>
+    <Type>Composite</Type>
+
+    <!--Explosion-->
+    <FXElement>
+      <InternalName>SmallBattleViewerDestroy_Suicide_ExplosionSmallParticle</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>ExplosionSmallParticleEffect</Value>
+      </KeyValueString>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>VolleyTargetMobileObject</Value>
+      </KeyValueString>
+      <KeyValueString>
+        <Key>TargetOrientation</Key>
+        <Value>VolleyTargetOrientationLocal</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>BattleViewerUniformScale</Key>
+        <Value>0.045</Value>
+      </KeyValueDecimal>
+      <KeyValueBool>
+        <Key>ScaleToBoundingBox</Key>
+        <Value>true</Value>
+      </KeyValueBool>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>SmallBattleViewerDestroy_Suicide_BreakUp</InternalName>
+      <Type>BreakUp</Type>
+      <Duration>0.25</Duration>
+      <KeyValueDecimal>
+        <Key>BreakUpSpeed</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>SmallBattleViewerDestroy_Suicide_Explosion_HideFleet</InternalName>
+      <Type>Transparency</Type>
+      <Wait>0.0</Wait>
+      <FadeOut>0.5</FadeOut>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>SmallBattleViewerDestroy_Suicide_Explosion_CameraShake</InternalName>
+      <Type>CameraShake</Type>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>VolleyTargetMobileObject</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>CameraShakeRange</Key>
+        <Value>1500</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeMagnitude</Key>
+        <Value>0.013</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeTime</Key>
+        <Value>0.75</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeSpeed</Key>
+        <Value>30.0</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <!--Sound-->
+    <FXElement>
+      <InternalName>SmallBattleViewerDestroy_Suicide_ExplosionFoley</InternalName>
+      <Type>Foley</Type>
+      <!-- Make sure this syncs with the explosion particle's wait time, above -->
+      <Wait>0.0</Wait>
+      <KeyValueString>
+        <Key>Sfx</Key>
+        <Value>SMALL_SHIP_DEATH</Value>
+      </KeyValueString>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+    </FXElement>
+
+  </FXElement>
+
+	<!--Medium Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>MediumBattleViewerMeltdown_ExplosionRandomScale</InternalName>
+		<Type>Transform</Type>
+		<KeyValueVec3>
+			<Key>MinScale</Key>
+			<Value>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Value>
+		</KeyValueVec3>
+		<KeyValueVec3>
+			<Key>MaxScale</Key>
+			<Value>
+				<X>1.5</X>
+				<Y>1.5</Y>
+				<Z>1.5</Z>
+			</Value>
+		</KeyValueVec3>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>MediumBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Meltdown-->
+		<FXElement>
+			<InternalName>MediumBattleViewerMeltdown_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>MediumBattleViewerMeltdown_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+        <WaitRandomRange>1.5</WaitRandomRange>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>0.01</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>ScaleToBoundingBox</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>MediumBattleViewerMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+      <FXElement>
+        <InternalName>MediumBattleViewerMeltdown_Explosion_CameraShake</InternalName>
+        <Type>CameraShake</Type>
+        <WaitRandomRange>1.5</WaitRandomRange>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>VolleyTargetMobileObject</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>CameraShakeRange</Key>
+          <Value>1500</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeMagnitude</Key>
+          <Value>0.013</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeTime</Key>
+          <Value>0.75</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeSpeed</Key>
+          <Value>30.0</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+		</FXElement>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>MediumBattleViewerDestroy_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<Wait>1.5</Wait>
+			<WaitRandomRange>0.25</WaitRandomRange>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>MediumBattleViewerDestroy_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>0.01</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>ScaleToBoundingBox</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>MediumBattleViewerMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<FXElement>
+			<InternalName>MediumBattleViewerDestroy_ExplosionMediumParticle</InternalName>
+			<Type>Particle</Type>
+			<Wait>1.5</Wait>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionMediumParticleEffect</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetObject</Key>
+				<Value>VolleyTargetMobileObject</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.045</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>ScaleToBoundingBox</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>MediumBattleViewerDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>1.0</Wait>
+			<Duration>2.50</Duration>
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>2.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>MediumBattleViewerDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+			<Wait>1.5</Wait>
+			<FadeOut>1.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+    <FXElement>
+      <InternalName>MediumBattleViewerDestroy_Explosion_CameraShake</InternalName>
+      <Type>CameraShake</Type>
+      <Wait>1.5</Wait>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>VolleyTargetMobileObject</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>CameraShakeRange</Key>
+        <Value>1500</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeMagnitude</Key>
+        <Value>0.013</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeTime</Key>
+        <Value>0.75</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeSpeed</Key>
+        <Value>30.0</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>MediumBattleViewerDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above -->
+			<Wait>1.5</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>MEDIUM_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!--Cargo Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>CargoBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>CargoBattleViewerDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+	<!--Large Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>LargeBattleViewerMeltdown_ExplosionRandomScale</InternalName>
+		<Type>Transform</Type>
+		<KeyValueVec3>
+			<Key>MinScale</Key>
+			<Value>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Value>
+		</KeyValueVec3>
+		<KeyValueVec3>
+			<Key>MaxScale</Key>
+			<Value>
+				<X>1.5</X>
+				<Y>1.5</Y>
+				<Z>1.5</Z>
+			</Value>
+		</KeyValueVec3>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>LargeBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+
+		<!--Meltdown-->
+		<FXElement>
+			<InternalName>LargeBattleViewerMeltdown_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>LargeBattleViewerMeltdown_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+        <WaitRandomRange>3.0</WaitRandomRange>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>0.01</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>ScaleToBoundingBox</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>LargeBattleViewerMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+      <FXElement>
+        <InternalName>LargeBattleViewerMeltdown_Explosion_CameraShake</InternalName>
+        <Type>CameraShake</Type>
+        <WaitRandomRange>3.0</WaitRandomRange>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>VolleyTargetMobileObject</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>CameraShakeRange</Key>
+          <Value>1500</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeMagnitude</Key>
+          <Value>0.013</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeTime</Key>
+          <Value>0.75</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>CameraShakeSpeed</Key>
+          <Value>30.0</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+		</FXElement>
+
+		<!--Explosion-->
+		<FXElement>
+			<InternalName>LargeBattleViewerDestroy_ExplosionSet</InternalName>
+			<Type>ForEach</Type>
+			<Wait>0.0</Wait>
+			<WaitRandomRange>0.25</WaitRandomRange>
+			<KeyValueString>
+				<Key>Set</Key>
+				<Value>BattlePoint</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>Count</Key>
+				<Value>ExplosionCount</Value>
+			</KeyValueString>
+
+			<FXElement>
+				<InternalName>LargeBattleViewerDestroy_ExplosionParticle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>TargetObject</Key>
+					<Value>VolleyTargetMobileObject</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>TargetTransform</Key>
+					<Value>BattlePoint</Value>
+				</KeyValueString>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>ExplosionParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>0.01</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>ScaleToBoundingBox</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<FXElementRef>LargeBattleViewerMeltdown_ExplosionRandomScale</FXElementRef>
+			</FXElement>
+
+		</FXElement>
+
+		<FXElement>
+			<InternalName>LargeBattleViewerDestroy_ExplosionLargeParticle</InternalName>
+			<Type>Particle</Type>
+			<KeyValueString>
+				<Key>Script</Key>
+				<Value>ExplosionLargeParticleEffect</Value>
+			</KeyValueString>
+			<KeyValueString>
+				<Key>TargetObject</Key>
+				<Value>VolleyTargetMobileObject</Value>
+			</KeyValueString>
+			<KeyValueDecimal>
+				<Key>BattleViewerUniformScale</Key>
+				<Value>0.045</Value>
+			</KeyValueDecimal>
+			<KeyValueBool>
+				<Key>ScaleToBoundingBox</Key>
+				<Value>true</Value>
+			</KeyValueBool>
+		</FXElement>
+		
+		<FXElement>
+			<InternalName>LargeBattleViewerDestroy_BreakUp</InternalName>
+			<Type>BreakUp</Type>
+			<Wait>1.0</Wait>
+			<Duration>4.00</Duration>
+			<!--<WaitRandomRange>5.00</WaitRandomRange>-->
+			<KeyValueDecimal>
+				<Key>BreakUpSpeed</Key>
+				<Value>2.0</Value>
+			</KeyValueDecimal>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+		</FXElement>
+
+		<FXElement>
+			<InternalName>LargeBattleViewerDestroy_Explosion_HideFleet</InternalName>
+			<Type>Transparency</Type>
+			<Wait>0.0</Wait>
+			<FadeOut>4.0</FadeOut>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+    <FXElement>
+      <InternalName>LargeBattleViewerDestroy_Explosion_CameraShake</InternalName>
+      <Type>CameraShake</Type>
+      <Wait>3.0</Wait>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>VolleyTargetMobileObject</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>CameraShakeRange</Key>
+        <Value>1500</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeMagnitude</Key>
+        <Value>0.013</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeTime</Key>
+        <Value>0.75</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>CameraShakeSpeed</Key>
+        <Value>30.0</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+		<!--Sound-->
+		<FXElement>
+			<InternalName>LargeBattleViewerDestroy_ExplosionFoley</InternalName>
+			<Type>Foley</Type>
+			<!-- Make sure this syncs with the explosion particle's wait time, above -->
+			<Wait>3.0</Wait>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>LARGE_SHIP_DEATH</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObjectOrigin</KeyValueDictionaryRef>
+		</FXElement>
+
+	</FXElement>
+
+	<!--Huge Battle Viewer Destroy-->
+	<FXElement>
+		<InternalName>HugeBattleViewerDestroy</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>HugeBattleViewerDestroy_ExplosionFoleyOverride</FXElementRef>
+	</FXElement>
+
+	<!--Sound Overrides-->
+	<FXOverride>
+		<InternalName>TinyMainMapDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>SmallMainMapDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>SmallMainMapDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>TINY_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+	<FXOverride>
+		<InternalName>MediumMainMapDestroy_FastOverride</InternalName>
+		<OverrideElement>SmallMainMapDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>SmallMainMapDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>MEDIUM_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+		<OverrideKeyValueDecimal>
+			<CorrespondingElementName>SmallMainMapDestroy_ExplosionLargeParticle</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>MainMapUniformScale</Key>
+				<Value>1.2</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueDecimal>
+		<OverrideKeyValueDecimal>
+			<CorrespondingElementName>SmallMainMapDestroy_ExplosionLargeParticle</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>MainMapFullBattleUniformScale</Key>
+				<Value>0.6</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueDecimal>
+	</FXOverride>
+
+	<FXOverride>
+		<InternalName>CargoMainMapDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>MediumMainMapDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>MediumMainMapDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>CARGO_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+	<FXOverride>
+		<InternalName>HugeMainMapDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>LargeMainMapDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>LargeMainMapDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>HUGE_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+	<FXOverride>
+		<InternalName>TinyBattleViewerDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>SmallBattleViewerDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>SmallBattleViewerDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>TINY_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+  <FXOverride>
+    <InternalName>TinyBattleViewerDestroy_Suicide_ExplosionFoleyOverride</InternalName>
+    <OverrideElement>SmallBattleViewerDestroy_Suicide</OverrideElement>
+    <OverrideKeyValueString>
+      <CorrespondingElementName>SmallBattleViewerDestroy_Suicide_ExplosionFoley</CorrespondingElementName>
+      <OverrideKeyValue>
+        <Key>Sfx</Key>
+        <Value>TINY_SHIP_DEATH</Value>
+      </OverrideKeyValue>
+    </OverrideKeyValueString>
+  </FXOverride>
+
+	<FXOverride>
+		<InternalName>CargoBattleViewerDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>MediumBattleViewerDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>MediumBattleViewerDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>CARGO_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+	<FXOverride>
+		<InternalName>HugeBattleViewerDestroy_ExplosionFoleyOverride</InternalName>
+		<OverrideElement>LargeBattleViewerDestroy</OverrideElement>
+		<OverrideKeyValueString>
+			<CorrespondingElementName>LargeBattleViewerDestroy_ExplosionFoley</CorrespondingElementName>
+			<OverrideKeyValue>
+				<Key>Sfx</Key>
+				<Value>HUGE_SHIP_DEATH</Value>
+			</OverrideKeyValue>
+		</OverrideKeyValueString>
+	</FXOverride>
+
+</FXElementList>

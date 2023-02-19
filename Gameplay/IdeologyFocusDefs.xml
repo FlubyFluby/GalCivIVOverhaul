@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<IdeologyFocusDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/IdeologyFocusDefs.xsd">
+
+	<IdeologyFocusDef>
+		<UniqueID>Balanced</UniqueID>
+    <DisplayName>IdeologyFocus_Balanced_Name</DisplayName>
+    <Description>IdeologyFocus_Balanced_Description</Description>
+	</IdeologyFocusDef>
+
+  <IdeologyFocusDef>
+    <UniqueID>Power</UniqueID>
+    <DisplayName>IdeologyFocus_Power_Name</DisplayName>
+    <Description>IdeologyFocus_Power_Description</Description>
+    <PerTurnEffect>
+      <Stat>IdeologyAuthority</Stat>
+      <Value>0.1</Value>
+    </PerTurnEffect>
+    <PerTurnEffect>
+      <Stat>IdeologyLiberty</Stat>
+      <Value>-0.1</Value>
+    </PerTurnEffect>
+  </IdeologyFocusDef>
+
+  <IdeologyFocusDef>
+    <UniqueID>Freedom</UniqueID>
+    <DisplayName>IdeologyFocus_Freedom_Name</DisplayName>
+    <Description>IdeologyFocus_Freedom_Description</Description>
+    <PerTurnEffect>
+      <Stat>IdeologyLiberty</Stat>
+      <Value>0.1</Value>
+    </PerTurnEffect>
+    <PerTurnEffect>
+      <Stat>IdeologyAuthority</Stat>
+      <Value>-0.1</Value>
+    </PerTurnEffect>
+  </IdeologyFocusDef>
+
+  <IdeologyFocusDef>
+    <UniqueID>Equality</UniqueID>
+    <DisplayName>IdeologyFocus_Equality_Name</DisplayName>
+    <Description>IdeologyFocus_Equality_Description</Description>
+    <PerTurnEffect>
+      <Stat>IdeologyEquality</Stat>
+      <Value>0.1</Value>
+    </PerTurnEffect>
+    <PerTurnEffect>
+      <Stat>IdeologyOpportunity</Stat>
+      <Value>-0.1</Value>
+    </PerTurnEffect>
+  </IdeologyFocusDef>
+
+  <IdeologyFocusDef>
+    <UniqueID>Opportunity</UniqueID>
+    <DisplayName>IdeologyFocus_Opportunity_Name</DisplayName>
+    <Description>IdeologyFocus_Opportunity_Description</Description>
+    <PerTurnEffect>
+      <Stat>IdeologyOpportunity</Stat>
+      <Value>0.1</Value>
+    </PerTurnEffect>
+    <PerTurnEffect>
+      <Stat>IdeologyEquality</Stat>
+      <Value>-0.1</Value>
+    </PerTurnEffect>
+  </IdeologyFocusDef>
+	
+</IdeologyFocusDefs>

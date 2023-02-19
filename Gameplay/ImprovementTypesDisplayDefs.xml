@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ImprovementTypesDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ImprovementTypesDisplayDefs.xsd">
+
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Manufacturing</UniqueID>
+    <TileColor>ColorDef_District_Manufacturing</TileColor>
+    <DisplayName>District_Manufacturing_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Population</UniqueID>
+    <TileColor>ColorDef_District_Population</TileColor>
+    <DisplayName>District_Population_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Approval</UniqueID>
+    <TileColor>ColorDef_District_Approval</TileColor>
+    <DisplayName>District_Approval_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+  
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Wealth</UniqueID>
+    <TileColor>ColorDef_District_Wealth</TileColor>
+    <DisplayName>District_Wealth_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Food</UniqueID>
+    <TileColor>ColorDef_District_Food</TileColor>
+    <DisplayName>District_Food_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+		  
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Research</UniqueID>
+    <TileColor>ColorDef_District_Research</TileColor>
+    <DisplayName>District_Research_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+
+  <ImprovementTypesDisplayDef>
+    <UniqueID>Influence</UniqueID>
+    <TileColor>ColorDef_District_Influence</TileColor>
+    <DisplayName>District_Influence_ShortName</DisplayName>
+  </ImprovementTypesDisplayDef>
+
+</ImprovementTypesDisplayDefs>

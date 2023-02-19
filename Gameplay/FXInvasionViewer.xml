@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- Invasion Viewer Invasion Sequence -->
+
+  <FXElement>
+    <InternalName>InvasionViewerFX</InternalName>
+    <Type>Composite</Type>
+
+	<!--<FXElement>
+      <InternalName>InvasionViewerFX_Music</InternalName>
+      <Type>Music</Type>
+      <FadeOut>2</FadeOut>
+      <KeyValueString>
+        <Key>AssetTag</Key>
+        <Value>FX_TEST_TAG</Value>
+      </KeyValueString>
+    </FXElement>-->
+
+    <FXElement>
+      <InternalName>InvasionViewerFX_AnimatedInvasion</InternalName>
+      <Type>AnimatedInvasion</Type>
+    </FXElement>
+    
+  </FXElement>
+
+  <FXElement>
+    <InternalName>InvasionViewerFireShot</InternalName>
+    <Type>Composite</Type>
+    
+    <FXElement>
+      <InternalName>InvasionViewerFireShot_VolleySequence</InternalName>
+      <Type>Sequence</Type>
+
+      <FXElement>
+        <InternalName>InvasionViewerFireShot_Volley</InternalName>
+        <Type>Volley</Type>
+        <KeyValueString>
+          <Key>DamageType</Key>
+          <Value>DamageType</Value>
+        </KeyValueString>
+
+        <KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+        <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+      </FXElement>
+
+    </FXElement>
+    
+  </FXElement>
+  
+</FXElementList>

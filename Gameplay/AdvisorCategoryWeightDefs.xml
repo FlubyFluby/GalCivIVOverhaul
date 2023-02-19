@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AdvisorCategoryWeights
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AdvisorCategoryWeightDefs.xsd">
+
+  <AdvisorDisplayDefs>
+
+    <AdvisorDisplayDef>
+      <UniqueID>Culture</UniqueID>
+      <Icon>Advisor_Icon_Culture.png</Icon>
+      <Color>Green</Color>
+      <GroupDef>
+        <Group>Shipyard</Group>
+        <String>CultureAdvisedShip</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Research</Group>
+        <String>CultureAdvisedTech</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Planet</Group>
+        <String>CultureAdvisedImprovement</String>
+      </GroupDef>
+    </AdvisorDisplayDef>
+
+    <AdvisorDisplayDef>
+      <UniqueID>Economic</UniqueID>
+      <Icon>Advisor_Icon_Economic.png</Icon>
+      <Color>Orange</Color>
+      <GroupDef>
+        <Group>Shipyard</Group>
+        <String>EconomicAdvisedShip</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Research</Group>
+        <String>EconomicAdvisedTech</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Planet</Group>
+        <String>EconomicAdvisedImprovement</String>
+      </GroupDef>
+    </AdvisorDisplayDef>
+
+    <AdvisorDisplayDef>
+      <UniqueID>Military</UniqueID>
+      <Icon>Advisor_Icon_Military.png</Icon>
+      <Color>BrightRed</Color>
+      <GroupDef>
+        <Group>Shipyard</Group>
+        <String>MilitaryAdvisedShip</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Research</Group>
+        <String>MilitaryAdvisedTech</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Planet</Group>
+        <String>MilitaryAdvisedImprovement</String>
+      </GroupDef>
+    </AdvisorDisplayDef>
+
+    <AdvisorDisplayDef>
+      <UniqueID>Research</UniqueID>
+      <Icon>Advisor_Icon_Research.png</Icon>
+      <Color>LightBlue</Color>
+      <GroupDef>
+        <Group>Shipyard</Group>
+        <String>ResearchAdvisedShip</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Research</Group>
+        <String>ResearchAdvisedTech</String>
+      </GroupDef>
+      <GroupDef>
+        <Group>Planet</Group>
+        <String>ResearchAdvisedImprovement</String>
+      </GroupDef>
+    </AdvisorDisplayDef>
+
+  </AdvisorDisplayDefs>
+  
+  <BaseAdvisorWeights>
+    
+    <BaseAdvisorWeight>
+      <Stat>Manufacturing</Stat>
+      <Stat>MaxManufacturing</Stat>
+      <Weights>
+        <AdvisorType>Culture</AdvisorType>
+        <Weight>3</Weight>
+      </Weights>
+    </BaseAdvisorWeight>
+    
+  </BaseAdvisorWeights>
+
+  <ShipyardAdvisorWeights>
+
+    <ShipyardAdvisorWeight>
+      <StrategicIcon>Sniper</StrategicIcon>
+      <StrategicIcon>Bomber</StrategicIcon>
+      <StrategicIcon>ArmedShuttle</StrategicIcon>
+      <StrategicIcon>Guardian</StrategicIcon>
+      <StrategicIcon>Knight</StrategicIcon>
+      <StrategicIcon>Cutter</StrategicIcon>
+      <StrategicIcon>Gunboat</StrategicIcon>
+      <StrategicIcon>Fury</StrategicIcon>
+      <StrategicIcon>Corvette</StrategicIcon>
+      <StrategicIcon>Ranger</StrategicIcon>
+      <StrategicIcon>Frigate</StrategicIcon>
+      <StrategicIcon>Paladin</StrategicIcon>
+      <StrategicIcon>Cruiser</StrategicIcon>
+      <StrategicIcon>Destroyer</StrategicIcon>
+      <StrategicIcon>Battleship</StrategicIcon>
+      <StrategicIcon>Overlord</StrategicIcon>
+      <StrategicIcon>Avatar</StrategicIcon>
+      <StrategicIcon>Fortress</StrategicIcon>
+      <StrategicIcon>Dreadnought</StrategicIcon>
+      <StrategicIcon>Titan</StrategicIcon>
+      <StrategicIcon>PlanetKiller</StrategicIcon>
+      <StrategicIcon>Transport</StrategicIcon>
+      <StrategicIcon>Carrier</StrategicIcon>
+      <StrategicIcon>AssaultCarrier</StrategicIcon>
+      <StrategicIcon>Support</StrategicIcon>
+      <StrategicIcon>Shipyard</StrategicIcon>
+      <StrategicIcon>Militarybase</StrategicIcon>
+      <StrategicIcon>CommandShip</StrategicIcon>
+      <StrategicIcon>UpgradedCommandShip</StrategicIcon>
+      <StrategicIcon>Navigator</StrategicIcon>
+      <StrategicIcon>Martyr</StrategicIcon>
+      <StrategicIcon>Sovereign</StrategicIcon>
+      <StrategicIcon>Intimidator</StrategicIcon>
+      <StrategicIcon>Supply</StrategicIcon>
+      <Weights>
+        <AdvisorType>Military</AdvisorType>
+        <Weight>1</Weight>
+      </Weights>
+    </ShipyardAdvisorWeight>
+
+    <ShipyardAdvisorWeight>
+      <StrategicIcon>Asteroid</StrategicIcon>
+      <StrategicIcon>Freighter</StrategicIcon>
+      <StrategicIcon>HypergateShip</StrategicIcon>
+      <Weights>
+        <AdvisorType>Economic</AdvisorType>
+        <Weight>1</Weight>
+      </Weights>
+    </ShipyardAdvisorWeight>
+
+    <ShipyardAdvisorWeight>
+      <StrategicIcon>Scout</StrategicIcon>
+      <StrategicIcon>Explorer</StrategicIcon>
+      <StrategicIcon>SurveyShip</StrategicIcon>
+      <Weights>
+        <AdvisorType>Research</AdvisorType>
+        <Weight>1</Weight>
+      </Weights>
+    </ShipyardAdvisorWeight>
+
+    <ShipyardAdvisorWeight>
+      <StrategicIcon>Constructor</StrategicIcon>
+      <StrategicIcon>ColonyShip</StrategicIcon>
+      <Weights>
+        <AdvisorType>Culture</AdvisorType>
+        <Weight>1</Weight>
+      </Weights>
+    </ShipyardAdvisorWeight>
+
+  </ShipyardAdvisorWeights>
+
+  <ImprovementAdvisorWeights>
+    <ImprovementAdvisorWeight>
+      <ImprovementType>Research</ImprovementType>
+      <ImprovementType>Artifact</ImprovementType>
+      <ImprovementType>AllImprovements</ImprovementType>
+      <Weights>
+        <AdvisorType>Research</AdvisorType>
+        <Weight>2</Weight>
+      </Weights>
+    </ImprovementAdvisorWeight>
+
+    <ImprovementAdvisorWeight>
+      <ImprovementType>Approval</ImprovementType>
+      <ImprovementType>Influence</ImprovementType>
+      <ImprovementType>Tourism</ImprovementType>
+      <ImprovementType>Wealth</ImprovementType>
+      <ImprovementType>Propaganda</ImprovementType>
+      <ImprovementType>Population</ImprovementType>
+      <ImprovementType>Food</ImprovementType>
+      <ImprovementType>AllImprovements</ImprovementType>
+      <ImprovementType>Religion</ImprovementType>
+      <Weights>
+        <AdvisorType>Culture</AdvisorType>
+        <Weight>2</Weight>
+      </Weights>
+    </ImprovementAdvisorWeight>
+
+    <ImprovementAdvisorWeight>
+      <ImprovementType>Military</ImprovementType>
+      <ImprovementType>Resistance</ImprovementType>
+      <ImprovementType>MaxManufacturing</ImprovementType>
+      <Weights>
+        <AdvisorType>Military</AdvisorType>
+        <Weight>2</Weight>
+      </Weights>
+    </ImprovementAdvisorWeight>
+
+    <ImprovementAdvisorWeight>
+      <ImprovementType>Manufacturing</ImprovementType>
+      <ImprovementType>MaxManufacturing</ImprovementType>
+      <ImprovementType>Population</ImprovementType>
+      <ImprovementType>Food</ImprovementType>
+      <ImprovementType>AllImprovements</ImprovementType>
+      <ImprovementType>Tourism</ImprovementType>
+      <ImprovementType>TradeResource</ImprovementType>
+      <Weights>
+        <AdvisorType>Economic</AdvisorType>
+        <Weight>2</Weight>
+      </Weights>
+    </ImprovementAdvisorWeight>
+    
+  </ImprovementAdvisorWeights>
+
+  <TechAdvisorWeights>
+    <TechAdvisorWeight>
+      <Tags>Critical</Tags>
+      <Weights>
+        <AdvisorType>Culture</AdvisorType>
+        <Weight>3</Weight>
+    </Weights>
+      <Weights>
+        <AdvisorType>Economic</AdvisorType>
+        <Weight>3</Weight>
+      </Weights>
+      <Weights>
+        <AdvisorType>Military</AdvisorType>
+        <Weight>3</Weight>
+      </Weights>
+      <Weights>
+        <AdvisorType>Research</AdvisorType>
+        <Weight>3</Weight>
+      </Weights>
+    </TechAdvisorWeight>
+  </TechAdvisorWeights>
+
+</AdvisorCategoryWeights>

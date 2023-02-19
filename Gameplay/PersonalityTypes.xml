@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PersonalityTypeList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Enums/PersonalityTypes.xsd">
+
+  <PersonalityTypeDef>
+    <UniqueID>Benevolent</UniqueID>
+    <DisplayName>PersonalityType_Benevolent</DisplayName>
+    <Description>PersonalityType_Desc_Benevolent</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Neutral</UniqueID>
+    <DisplayName>PersonalityType_Neutral</DisplayName>
+    <Description>PersonalityType_Desc_Neutral</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Merciless</UniqueID>
+    <DisplayName>PersonalityType_Merciless</DisplayName>
+    <Description>PersonalityType_Desc_Merciless</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Aggressive</UniqueID>
+    <DisplayName>PersonalityType_Aggressive</DisplayName>
+    <Description>PersonalityType_Desc_Aggressive</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Peaceful</UniqueID>
+    <DisplayName>PersonalityType_Peaceful</DisplayName>
+    <Description>PersonalityType_Desc_Peaceful</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Cruel</UniqueID>
+    <DisplayName>PersonalityType_Cruel</DisplayName>
+    <Description>PersonalityType_Desc_Cruel</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Expansionist</UniqueID>
+    <DisplayName>PersonalityType_Expansionist</DisplayName>
+    <Description>PersonalityType_Desc_Expansionist</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Greedy</UniqueID>
+    <DisplayName>PersonalityType_Greedy</DisplayName>
+    <Description>PersonalityType_Desc_Greedy</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Opportunistic</UniqueID>
+    <DisplayName>PersonalityType_Opportunistic</DisplayName>
+    <Description>PersonalityType_Desc_Opportunistic</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Scientific</UniqueID>
+    <DisplayName>PersonalityType_Scientific</DisplayName>
+    <Description>PersonalityType_Desc_Scientific</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Diplomatic</UniqueID>
+    <DisplayName>PersonalityType_Diplomatic</DisplayName>
+    <Description>PersonalityType_Desc_Diplomatic</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Cultural</UniqueID>
+    <DisplayName>PersonalityType_Cultural</DisplayName>
+    <Description>PersonalityType_Desc_Cultural</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Spiritual</UniqueID>
+    <DisplayName>PersonalityType_Spiritual</DisplayName>
+    <Description>PersonalityType_Desc_Spiritual</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Trader</UniqueID>
+    <DisplayName>PersonalityType_Trader</DisplayName>
+    <Description>PersonalityType_Desc_Trader</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Xenophobic</UniqueID>
+    <DisplayName>PersonalityType_Xenophobic</DisplayName>
+    <Description>PersonalityType_Desc_Xenophobic</Description>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Authority</UniqueID>
+    <DisplayName>PersonalityType_Authority</DisplayName>
+    <Description>PersonalityType_Desc_Authority</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Calm</UniqueID>
+    <DisplayName>PersonalityType_Calm</DisplayName>
+    <Description>PersonalityType_Desc_Calm</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Compassion</UniqueID>
+    <DisplayName>PersonalityType_Compassion</DisplayName>
+    <Description>PersonalityType_Desc_Compassion</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Cruelty</UniqueID>
+    <DisplayName>PersonalityType_Cruelty</DisplayName>
+    <Description>PersonalityType_Desc_Cruelty</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Diversity</UniqueID>
+    <DisplayName>PersonalityType_Diversity</DisplayName>
+    <Description>PersonalityType_Desc_Diversity</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Equality</UniqueID>
+    <DisplayName>PersonalityType_Equality</DisplayName>
+    <Description>PersonalityType_Desc_Equality</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Focus</UniqueID>
+    <DisplayName>PersonalityType_Focus</DisplayName>
+    <Description>PersonalityType_Desc_Focus</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Harmony</UniqueID>
+    <DisplayName>PersonalityType_Harmony</DisplayName>
+    <Description>PersonalityType_Desc_Harmony</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Innovation</UniqueID>
+    <DisplayName>PersonalityType_Innovation</DisplayName>
+    <Description>PersonalityType_Desc_Innovation</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Liberty</UniqueID>
+    <DisplayName>PersonalityType_Liberty</DisplayName>
+    <Description>PersonalityType_Desc_Liberty</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Opportunity</UniqueID>
+    <DisplayName>PersonalityType_Opportunity</DisplayName>
+    <Description>PersonalityType_Desc_Opportunity</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Secrecy</UniqueID>
+    <DisplayName>PersonalityType_Secrecy</DisplayName>
+    <Description>PersonalityType_Desc_Secrecy</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Tradition</UniqueID>
+    <DisplayName>PersonalityType_Tradition</DisplayName>
+    <Description>PersonalityType_Desc_Tradition</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+  <PersonalityTypeDef>
+    <UniqueID>Transparency</UniqueID>
+    <DisplayName>PersonalityType_Transparency</DisplayName>
+    <Description>PersonalityType_Desc_Transparency</Description>
+    <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+  </PersonalityTypeDef>
+
+</PersonalityTypeList>

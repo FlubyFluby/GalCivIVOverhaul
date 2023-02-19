@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetaryProjectList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetaryProjectDefs.xsd">
+<!-- Created with the GC4 editor -->
+<!-- PlanetaryProjectDefs.xml -->
+ 
+  <PlanetaryProject>
+    <InternalName>ProjectEconomicStimulus</InternalName>
+    <DisplayName>ProjectEconomicStimulus_Name</DisplayName>
+    <ShortDescription>ProjectEconomicStimulus_ShortDec</ShortDescription>
+    <Icon>GC3_Wealth_Priority_Icon.png</Icon>
+    <ManufacturingPerBonus>10</ManufacturingPerBonus>
+    <BonusMax>1</BonusMax>
+    <Bonus>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Bonus>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <ColonySponsoringShipyard>true</ColonySponsoringShipyard>
+    </Prerequ>
+  </PlanetaryProject>
+
+  <PlanetaryProject>
+    <InternalName>ProjectResearchProject</InternalName>
+    <DisplayName>ProjectResearchProject_Name</DisplayName>
+    <ShortDescription>ProjectResearchProject_ShortDec</ShortDescription>
+    <Icon>GC3_Tech_Priority_Icon.png</Icon>
+    <ManufacturingPerBonus>10</ManufacturingPerBonus>
+    <BonusMax>1</BonusMax>
+    <Bonus>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Bonus>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <ColonySponsoringShipyard>true</ColonySponsoringShipyard>
+    </Prerequ>
+  </PlanetaryProject>
+
+  <PlanetaryProject>
+    <InternalName>ProjectCulturalFestival</InternalName>
+    <DisplayName>ProjectCulturalFestival_Name</DisplayName>
+    <ShortDescription>ProjectCulturalFestival_ShortDec</ShortDescription>
+    <Icon>GC3_Influence_Priority_Icon.png</Icon>
+    <ManufacturingPerBonus>10</ManufacturingPerBonus>
+    <BonusMax>1</BonusMax>
+    <Bonus>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Bonus>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <ColonySponsoringShipyard>true</ColonySponsoringShipyard>
+    </Prerequ>
+  </PlanetaryProject>
+
+  <PlanetaryProject>
+    <InternalName>ProjectBirthingSubsidies</InternalName>
+    <DisplayName>ProjectBirthingSubsidies_Name</DisplayName>
+    <ShortDescription>ProjectBirthingSubsidies_ShortDec</ShortDescription>
+    <Icon>GC3_Fertile_Stat_Icon.png</Icon>
+    <ManufacturingPerBonus>10</ManufacturingPerBonus>
+    <BonusMax>1</BonusMax>
+    <Bonus>
+      <EffectType>Growth</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Bonus>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <ColonySponsoringShipyard>true</ColonySponsoringShipyard>
+    </Prerequ>
+  </PlanetaryProject>
+
+</PlanetaryProjectList>

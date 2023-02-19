@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<MiningBaseArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/MiningBaseArtDefs.xsd">
+
+ 	<ArtDefine>
+		<InternalName>AsteroidMiningBase_01</InternalName>		    
+		<ObjectGfxConfig>Asteroids_01_Tapped.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_02</InternalName>
+    <ObjectGfxConfig>Asteroids_02_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+ 	<ArtDefine>
+		<InternalName>AsteroidMiningBase_03</InternalName>		    
+		<ObjectGfxConfig>Asteroids_03_Tapped.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_04</InternalName>
+    <ObjectGfxConfig>Asteroids_04_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_05</InternalName>
+    <ObjectGfxConfig>Asteroids_05_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_06</InternalName>
+    <ObjectGfxConfig>Asteroids_06_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_07</InternalName>
+    <ObjectGfxConfig>Asteroids_07_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AsteroidMiningBase_08</InternalName>
+    <ObjectGfxConfig>Asteroids_08_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+		<InternalName>DuranitumAsteroidMiningBase</InternalName>		    
+		<ObjectGfxConfig>Asteroid_Terran_Base_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+
+  <ArtDefine>
+    <InternalName>AntiMatterMiningBase</InternalName>
+    <ObjectGfxConfig>Antimatter_Tapped_01.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>PromethionResourceTapped</InternalName>
+    <ObjectGfxConfig>Promethion_01_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+
+  <ArtDefine>
+    <InternalName>ThuliumResourceTapped</InternalName>
+    <ObjectGfxConfig>Thulium_01_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine>
+  
+   <ArtDefine>
+    <InternalName>EleriumTapped</InternalName>
+    <ObjectGfxConfig>Elerium_01_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine> 
+
+   <ArtDefine>
+    <InternalName>AntimatterTapped</InternalName>
+    <ObjectGfxConfig>Antimatter01_Tapped.objgfxcfg</ObjectGfxConfig>
+  </ArtDefine> 
+
+</MiningBaseArtList>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AsteroidList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AsteroidDefs.xsd">
+	
+	<Asteroid>
+		<InternalName>Asteroid_01</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_01.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_01_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_02</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_02.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_02_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_03</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_03.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_03_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_04</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_04.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_04_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_05</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_05.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_05_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_06</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_06.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_06_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_07</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_07.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_07_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+	
+	<Asteroid>
+		<InternalName>Asteroid_08</InternalName>
+		<DisplayName>AsteroidName</DisplayName>
+    <Stats>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+		<Weight>5</Weight>
+		<ArtDefine>AsteroidArtDef_01</ArtDefine>
+    <ArtDefineTapped>AsteroidMiningBase_01</ArtDefineTapped>
+    <Thumbnail>Asteroids_08.png</Thumbnail>
+    <ThumbnailTapped>Asteroids_08_Tapped.png</ThumbnailTapped>
+	</Asteroid>
+
+</AsteroidList>

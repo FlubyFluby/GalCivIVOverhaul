@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<MarketPlaceDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/MarketplaceDefs.xsd">
+
+  <MarketPlaceDef>
+    <InternalName>DefaultMarketPlaceDef</InternalName>
+
+    <Consts>
+      <MinCost>20</MinCost>
+      <SellRate>0.5</SellRate>
+      <DemandIncrease>0.01</DemandIncrease>
+      <DemandDecrease>0.01</DemandDecrease>
+      <PerTurnCostDelta>0.01</PerTurnCostDelta>
+      <NumTradeGoodsToShow>4</NumTradeGoodsToShow>
+      <TradeGoodShelfLife>5</TradeGoodShelfLife>
+      <TurnsBeforeForceCostIncrease>5</TurnsBeforeForceCostIncrease>
+    </Consts>
+
+    <Resources>
+      <UniqueID>Durantium</UniqueID>
+      <BaseCost>50</BaseCost>
+      <Image>Durantium_Thumb.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>Promethion</UniqueID>
+      <BaseCost>140</BaseCost>
+      <Image>Promethion_Thumb.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>Thulium</UniqueID>
+      <BaseCost>80</BaseCost>
+      <Image>Thulium_Thumb.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>Elerium</UniqueID>
+      <BaseCost>90</BaseCost>
+      <Image>Elerium_Thumb.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>Antimatter</UniqueID>
+      <BaseCost>120</BaseCost>
+      <Image>Antimatter_Thumb.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>UltraSpice</UniqueID>
+      <BaseCost>200</BaseCost>
+      <Image>UltraSpice.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>EpimetheusPollen</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>EpimetheusPollen.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>HeliosOre</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>HeliosOre.png</Image>
+    </Resources>
+
+<!--    <Resources>
+      <UniqueID>ThuliumCatalyst</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>ThuliumCatalyst.png</Image>
+    </Resources> -->
+
+    <Resources>
+      <UniqueID>TechapodHive</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>TechapodHive.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>ArtocarpusViriles</UniqueID>
+      <BaseCost>160</BaseCost>
+      <Image>ArtocarpusViriles.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>MonsatiumDeposit</UniqueID>
+      <BaseCost>40</BaseCost>
+      <Image>MonsatiumDeposit.png</Image>
+    </Resources>
+
+<!--    <Resources>
+      <UniqueID>CrystallizedElerium</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>CrystallizedElerium.png</Image>
+    </Resources> -->
+
+    <Resources>
+      <UniqueID>XanthiumDeposit</UniqueID>
+      <BaseCost>75</BaseCost>
+      <Image>XanthiumDeposit.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>AurorusArboretum</UniqueID>
+      <BaseCost>80</BaseCost>
+      <Image>AurorusArboretum.png</Image>
+    </Resources>
+
+<!--    <Resources>
+      <UniqueID>PrometheusStone</UniqueID>
+      <BaseCost>100</BaseCost>
+      <Image>PrometheusStone.png</Image>
+    </Resources> -->
+
+    <Resources>
+      <UniqueID>HyperSilicates</UniqueID>
+      <BaseCost>90</BaseCost>
+      <Image>HyperSilicates.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>PrecursorNanites</UniqueID>
+      <BaseCost>120</BaseCost>
+      <Image>PrecursorNanites.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>HarmonyCrystals</UniqueID>
+      <BaseCost>150</BaseCost>
+      <Image>HarmonyCrystals.png</Image>
+    </Resources>
+
+    <Resources>
+      <UniqueID>SnugglerColony</UniqueID>
+      <BaseCost>180</BaseCost>
+      <Image>SnugglerColony.png</Image>
+    </Resources>
+
+  </MarketPlaceDef>
+
+</MarketPlaceDefList>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Hyperlanes
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/HyperlaneDefs.xsd">
+
+
+  <Hyperlane>
+    <InternalName>DefaultHyperlane</InternalName>
+    <DisplayName>Hyperlane_Name</DisplayName>
+    <Modifier>
+      <EffectType>MoveCost</EffectType>
+      <Target>
+        <TargetType>Tile</TargetType>
+        <TargetRelation>Any</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.99</Value>
+    </Modifier>
+  </Hyperlane>
+
+</Hyperlanes>

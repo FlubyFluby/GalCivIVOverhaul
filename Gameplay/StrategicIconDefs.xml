@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StrategicIconList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StrategicIconDefs.xsd">
+
+	<StrategicIcon>
+		<UniqueID>None</UniqueID>
+		<ImageLocation>
+			<X>-1.0</X>
+			<Y>-1.0</Y>
+		</ImageLocation>
+    <Intensity>0.0</Intensity>
+    <ZoomCategory>None</ZoomCategory>
+	</StrategicIcon>
+
+  <!-- 
+  <StrategicIcon>
+		<UniqueID>Empty1</UniqueID>
+		<ImageLocation>
+			<X>4.0</X>
+			<Y>2.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>None</ZoomCategory>
+	</StrategicIcon>
+  
+  <StrategicIcon>
+    <UniqueID>Empty2</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>None</ZoomCategory>
+  </StrategicIcon>
+-->
+
+  <!-- 
+  <StrategicIcon>
+    <UniqueID>Empty3</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>None</ZoomCategory>
+  </StrategicIcon>
+-->
+	<StrategicIcon>
+		<UniqueID>Sniper</UniqueID>
+		<ImageLocation>
+			<X>1.0</X>
+			<Y>0.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Asteroid</UniqueID>
+    <ImageLocation>
+      <X>4.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Bomber</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Guardian</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Knight</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+  
+  <StrategicIcon>
+		<UniqueID>Cutter</UniqueID>
+		<ImageLocation>
+			<X>4.0</X>
+			<Y>0.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Defender</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Gunboat</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Fury</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>0.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+  
+  	<StrategicIcon>
+		<UniqueID>Corvette</UniqueID>
+		<ImageLocation>
+			<X>0.0</X>
+			<Y>1.0</Y>
+		</ImageLocation>
+      <Intensity>1.0</Intensity>
+      <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Ranger</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+  
+  	<StrategicIcon>
+		<UniqueID>Frigate</UniqueID>
+		<ImageLocation>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</ImageLocation>
+      <Intensity>1.0</Intensity>
+      <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Paladin</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Cruiser</UniqueID>
+    <ImageLocation>
+      <X>4.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Battleship</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Destroyer</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Overlord</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Avatar</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Dreadnought</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Fortress</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Titan</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+  
+  <StrategicIcon>
+		<UniqueID>Scout</UniqueID>
+		<ImageLocation>
+			<X>0.0</X>
+			<Y>3.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Explorer</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>SurveyShip</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+  
+  <StrategicIcon>
+    <UniqueID>Constructor</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>4.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>ColonyShip</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>4.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Transport</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>4.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Freighter</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>4.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>PlanetKiller</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>4.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>Carrier</UniqueID>
+		<ImageLocation>
+			<X>5.0</X>
+			<Y>4.0</Y>
+		</ImageLocation>
+		<Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>Support</UniqueID>
+		<ImageLocation>
+			<X>4.0</X>
+			<Y>4.0</Y>
+		</ImageLocation>
+		<Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Shipyard</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Starbase</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Culturebase</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Militarybase</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Economicbase</UniqueID>
+    <ImageLocation>
+      <X>4.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Miningbase</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>5.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Anomaly</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>0.75</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Artifact</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+  
+  <StrategicIcon>
+    <UniqueID>Nebula</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1.75</Intensity>
+    <ZoomCategory>Nebula</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Elerium</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Durantium</UniqueID>
+    <ImageLocation>
+      <X>3.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AntiMatter</UniqueID>
+    <ImageLocation>
+      <X>4.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Promethion</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+  
+  <StrategicIcon>
+		<UniqueID>Thulium</UniqueID>
+		<ImageLocation>
+			<X>6.0</X>
+			<Y>6.0</Y>
+		</ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+	</StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>RallyPoint</UniqueID>
+		<ImageLocation>
+			<X>6.0</X>
+			<Y>5.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>RallyPoint</ZoomCategory>
+	</StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>CampaignWaypoint</UniqueID>
+		<ImageLocation>
+			<X>6.0</X>
+			<Y>5.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>RallyPoint</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Resource</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>6.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>Crystal</UniqueID>
+		<ImageLocation>
+			<X>7.0</X>
+			<Y>5.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Asteroids</UniqueID>
+    <ImageLocation>
+      <X>0.0</X>
+      <Y>7.0</Y>
+    </ImageLocation>
+    <Intensity>1.35</Intensity>
+    <ZoomCategory>Asteroid</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Planet</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>7.0</Y>
+    </ImageLocation>
+    <Intensity>0.75</Intensity>
+    <ZoomCategory>DeadPlanet</ZoomCategory>
+  </StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>DeadPlanet</UniqueID>
+		<ImageLocation>
+      <X>1.0</X>
+      <Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>0.75</Intensity>
+    <ZoomCategory>DeadPlanet</ZoomCategory>
+	</StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>ColonizablePlanet</UniqueID>
+		<ImageLocation>
+			<X>2.0</X>
+			<Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Planet</ZoomCategory>
+	</StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>GoodPlanet</UniqueID>
+		<ImageLocation>
+			<X>3.0</X>
+			<Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Planet</ZoomCategory>
+	</StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>GreatPlanet</UniqueID>
+		<ImageLocation>
+			<X>4.0</X>
+			<Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Planet</ZoomCategory>
+	</StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>FantasticPlanet</UniqueID>
+		<ImageLocation>
+			<X>5.0</X>
+			<Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Planet</ZoomCategory>
+	</StrategicIcon>
+  
+	<StrategicIcon>
+		<UniqueID>PerfectPlanet</UniqueID>
+		<ImageLocation>
+			<X>6.0</X>
+			<Y>7.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Planet</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Star</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>7.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>None</ZoomCategory>
+  </StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>BlackHole</UniqueID>
+		<ImageLocation>
+			<X>-1.0</X>
+			<Y>-1.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>BlackHole</ZoomCategory>
+		<ParticleScript>BlackHoleLowDetailEffect</ParticleScript>
+	</StrategicIcon>
+
+	<StrategicIcon>
+		<UniqueID>LargeBlackHole</UniqueID>
+		<ImageLocation>
+      <X>-1.0</X>
+      <Y>-1.0</Y>
+		</ImageLocation>
+		<Intensity>1.0</Intensity>
+    <ZoomCategory>BlackHole</ZoomCategory>
+		<ParticleScript>LargeBlackHoleLowDetailEffect</ParticleScript>
+	</StrategicIcon>
+	
+	<StrategicIcon>
+		<UniqueID>SpaceMonster</UniqueID>
+		<ImageLocation>
+			<X>7.0</X>
+			<Y>4.0</Y>
+		</ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+	</StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Bazaar</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Resource</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Supply</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>HypergateShip</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>UnitTransport</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>CommandShip</UniqueID>
+    <ImageLocation>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>UpgradedCommandShip</UniqueID>
+    <ImageLocation>
+      <X>5.0</X>
+      <Y>1.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>MissionShip</UniqueID>
+    <ImageLocation>
+      <X>4.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Navigator</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Martyr</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Sovereign</UniqueID>
+    <ImageLocation>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Intimidator</UniqueID>
+    <ImageLocation>
+      <X>6.0</X>
+      <Y>3.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>Hypergate</UniqueID>
+    <ImageLocation>
+      <X>7.0</X>
+      <Y>2.0</Y>
+    </ImageLocation>
+    <Intensity>1.0</Intensity>
+    <ZoomCategory>Ship</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalyArtifact</UniqueID>
+    <ImageLocation>
+      <X>5</X>
+      <Y>3</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalyCapsule</UniqueID>
+    <ImageLocation>
+      <X>5</X>
+      <Y>2</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalyShipGraveyard</UniqueID>
+    <ImageLocation>
+      <X>6</X>
+      <Y>2</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalySpaceJunk</UniqueID>
+    <ImageLocation>
+      <X>6</X>
+      <Y>3</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalyPrecursor</UniqueID>
+    <ImageLocation>
+      <X>7</X>
+      <Y>3</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+  <StrategicIcon>
+    <UniqueID>AnomalyWormhole</UniqueID>
+    <ImageLocation>
+      <X>0</X>
+      <Y>6</Y>
+    </ImageLocation>
+    <Intensity>1</Intensity>
+    <ZoomCategory>Anomaly</ZoomCategory>
+  </StrategicIcon>
+
+</StrategicIconList>

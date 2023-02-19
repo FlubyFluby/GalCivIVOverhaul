@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+	<!-- Boilerplate, needed for locator FX to work -->
+	<KeyValueDictionary>
+		<InternalName>LocatorFXBoilerplate</InternalName>
+		<KeyValueString>
+			<Key>TargetObject</Key>
+			<Value>LocatorNode</Value>
+		</KeyValueString>
+		<KeyValueString>
+			<Key>TargetTransform</Key>
+			<Value>LocatorPoint</Value>
+		</KeyValueString>
+		<KeyValueBool>
+			<Key>PointParticleYDownParentZ</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+	</KeyValueDictionary>
+
+	
+	
+	<!-- Misc Particle Sequences -->
+	
+	
+	<!-- Engine effects, to be placed by locators -->
+	
+	<!-- "Large" engine -->
+	<FXElement>
+		<InternalName>BigEngineIdleEffect</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BigEngineIdleParticleEffect</Value>
+		</KeyValueString>
+	</FXElement>
+	<FXElement>
+		<InternalName>BigEngineActiveEffect</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>BigEngineActiveParticleEffect</Value>
+		</KeyValueString>
+	</FXElement>
+
+	<!-- "Small" engine -->
+	<FXElement>
+		<InternalName>SmallEngineIdleEffect</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>SmallEngineIdleParticleEffect</Value>
+		</KeyValueString>
+	</FXElement>
+	<FXElement>
+		<InternalName>SmallEngineActiveEffect</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>SmallEngineActiveParticleEffect</Value>
+		</KeyValueString>
+	</FXElement>
+
+	<!-- This will do magic stuff, to select the appropriate effect
+	from above, based on the actual ship and parts. -->
+	<FXElement>
+		<InternalName>DynamicEngine</InternalName>
+		<Type>DynamicEngine</Type>
+	</FXElement>
+	
+	<FXElement>
+		<InternalName>EngineLocatorParticle</InternalName>
+		<Type>LocatorPlaced</Type>
+		<KeyValueString>
+			<Key>LocatorType</Key>
+			<Value>Engine</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>LocatorFXBoilerplate</KeyValueDictionaryRef>
+		<FXElementRef>DynamicEngine</FXElementRef>
+	</FXElement>
+	<!-- End engine effects -->
+	
+	
+	<!-- For testing. All harpoints get a glow. -->
+	<!--<FXElement>
+		<InternalName>TestLocatorParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>EngineIdleEmitter</Value>
+		</KeyValueString>
+	</FXElement>
+	
+	<FXElement>
+		<InternalName>TestLocatorEffect</InternalName>
+		<Type>LocatorPlaced</Type>
+		<KeyValueString>
+			<Key>LocatorPrefix</Key>
+			<Value>PARTICLE_</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>LocatorFXBoilerplate</KeyValueDictionaryRef>
+		<FXElementRef>TestLocatorParticle</FXElementRef>
+	</FXElement>-->
+	<!-- End testing. -->
+  
+</FXElementList>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<BattleTitleList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BattleTitleDefs.xsd">
+
+  <!-- Generic battles-->
+  
+  <BattleTitle>
+    <InternalName>Title_Attacker_vs_Defender</InternalName>
+    <TitleText>BATTLE_TITLE_ATTACKER_NAME_VS_DEFENDER_NAME</TitleText>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Attack_Of_The_Attacker_Faction</InternalName>
+    <TitleText>BATTLE_TITLE_ATTACK_OF_THE_ATTACKER_FACTION</TitleText>
+    <PlayerIsAttacker>No</PlayerIsAttacker>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Defender_Names_Demise</InternalName>
+    <TitleText>BATTLE_TITLE_DEFENDER_NAMES_DEMISE</TitleText>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Last_Stand</InternalName>
+    <TitleText>BATTLE_TITLE_LAST_STAND</TitleText>
+    <PlayerIsAttacker>No</PlayerIsAttacker>
+    <BattleResult>DefenderVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Defense</InternalName>
+    <TitleText>BATTLE_TITLE_DEFENSE</TitleText>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>DefenderVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Massacre</InternalName>
+    <TitleText>BATTLE_TITLE_MASSACRE</TitleText>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+    <Strength>PlayerStronger</Strength>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_A_Pyrrhic_Victory</InternalName>
+    <TitleText>BATTLE_TITLE_A_PYRRHIC_VICTORY</TitleText>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>BothDefeated</BattleResult>
+  </BattleTitle>
+
+  <!-- Battles at any Location-->
+  <BattleTitle>
+    <InternalName>Title_Attack_At_Location</InternalName>
+    <TitleText>BATTLE_TITLE_ATTACK_AT_LOCATION</TitleText>
+    <Location>Any</Location>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_The_Fight_For_Location</InternalName>
+    <TitleText>BATTLE_TITLE_THE_FIGHT_FOR_LOCATION</TitleText>
+    <Location>Any</Location>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_In_Defense_Of_Location</InternalName>
+    <TitleText>BATTLE_TITLE_IN_DEFENSE_OF_LOCATION</TitleText>
+    <Location>Any</Location>
+    <PlayerIsAttacker>No</PlayerIsAttacker>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Battle_Of_Location</InternalName>
+    <TitleText>BATTLE_TITLE_BATTLE_OF_LOCATION</TitleText>
+    <Location>Any</Location>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Massacre_At_Location</InternalName>
+    <TitleText>BATTLE_TITLE_MASSACRE_AT_LOCATION</TitleText>
+    <Location>Any</Location>
+    <PlayerIsAttacker>No</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+    <Strength>PlayerWeaker</Strength>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Annihilation_At_Location</InternalName>
+    <TitleText>BATTLE_TITLE_ANNIHILATION_AT_LOCATION</TitleText>
+    <Location>Any</Location>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+    <Strength>PlayerStronger</Strength>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Destruction_At_Location</InternalName>
+    <TitleText>BATTLE_TITLE_DESTRUCTION_AT_LOCATION</TitleText>
+    <Location>Any</Location>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Operation_Destroy_Location_Shipyard</InternalName>
+    <TitleText>BATTLE_TITLE_OPERATION_DESTROY_LOCATION</TitleText>
+    <Location>Shipyard</Location>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Operation_Destroy_Location_Starbase</InternalName>
+    <TitleText>BATTLE_TITLE_OPERATION_DESTROY_LOCATION</TitleText>
+    <Location>Starbase</Location>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+  </BattleTitle>
+
+  <BattleTitle>
+    <InternalName>Title_Operation_Destroy_Location_Hypergate</InternalName>
+    <TitleText>BATTLE_TITLE_OPERATION_DESTROY_LOCATION</TitleText>
+    <Location>Hypergate</Location>
+    <PlayerIsAttacker>Yes</PlayerIsAttacker>
+    <BattleResult>AttackerVictory</BattleResult>
+  </BattleTitle>
+
+</BattleTitleList>

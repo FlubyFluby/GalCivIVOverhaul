@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SpecialModifierDescriptionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/SpecialModifierDescriptionDefs.xsd">
+
+  <SpecilModifierDescription>
+    <Source>Ship</Source>
+    <Description>
+      <Target>Colony</Target>
+      <Description>SpecialModifierStationedAtColony</Description>
+    </Description>
+  </SpecilModifierDescription>
+  
+</SpecialModifierDescriptionList>

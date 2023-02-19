@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<EventTriggerList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/EventTriggerListDef.xsd">
+<!-- Created with the Gal Civ 4 Quest Editor -->
+<!-- QuestGlobalTriggers.xml -->
+ 
+<EventTriggerListDef>
+ 
+  <InternalName>TestTriggers</InternalName>
+
+  <!--Quest_RecruitTest-->
+  <!--<Trigger> 
+    <OnEvent>OnRecruitLeader</OnEvent>
+    <Target>
+        <TargetType>Faction</TargetType>
+    </Target>
+    <Effect>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <PerformAction>
+        <Action>TriggerForcedPlayerEvent</Action>
+        <StringParam>TestEvent_Popup</StringParam>
+      </PerformAction>
+    </Effect>
+    <Effect>
+      <Target>
+        <TargetType>Unit</TargetType>
+      </Target>
+      <Modifier>
+        <EffectType>Growth</EffectType>
+        <Scope>Local</Scope>
+        <Target>
+            <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
+      </Modifier>
+    </Effect>
+    <SourceDisplayName>TestEvent_GrowthBonus</SourceDisplayName>
+  </Trigger>-->
+
+</EventTriggerListDef>
+
+</EventTriggerList>

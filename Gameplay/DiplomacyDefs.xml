@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<DiplomacyEffectDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomacyDefs.xsd">
+
+
+  <DiplomacyEffect>
+    <MinRelations>10</MinRelations>
+    <Behavior>NeverBackstab</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>9</MinRelations>
+    <Behavior>TradeDiscounts</Behavior>
+    <Behavior>UnsolicitedGifts</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>8</MinRelations>
+    <Behavior>SupportUnitedPlanetsVictory</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>7</MinRelations>
+    <Behavior>AcceptAlliance</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>6</MinRelations>
+    <Behavior>WillSurrenderToYou</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>5</MinRelations>
+    <Behavior>MayDeclareWarAtRequest</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>4</MinRelations>
+    <Behavior>MayBreakTreatyAtRequest</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>2</MinRelations>
+    <Behavior>ResourceAndTechTrade</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MinRelations>1</MinRelations>
+    <Behavior>AcceptOpenBorders</Behavior>
+  </DiplomacyEffect>
+
+
+  <DiplomacyEffect>
+    <MaxRelations>-1</MaxRelations>
+    <Behavior>ShadowWithinTerritory</Behavior>
+  </DiplomacyEffect>
+    
+  <DiplomacyEffect>
+    <MaxRelations>-3</MaxRelations>
+    <Behavior>BreakTradeRoutes</Behavior>
+  </DiplomacyEffect>
+  
+  <DiplomacyEffect>
+    <MaxRelations>-4</MaxRelations>
+    <Behavior>AskThirdPartyToEmbargo</Behavior>
+  </DiplomacyEffect>
+  
+  <DiplomacyEffect>
+    <MaxRelations>-5</MaxRelations>
+    <Behavior>RefuseAllTreaties</Behavior>
+  </DiplomacyEffect>
+  
+  <DiplomacyEffect>
+    <MaxRelations>-6</MaxRelations>
+    <Behavior>BreakTreatiesWithAlliance</Behavior>
+  </DiplomacyEffect>
+  
+  <DiplomacyEffect>
+    <MaxRelations>-7</MaxRelations>
+    <Behavior>OnlySurrenderToEnemies</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MaxRelations>-8</MaxRelations>
+    <Behavior>DefyUnitedPlanetsVictory</Behavior>
+  </DiplomacyEffect>
+
+  <DiplomacyEffect>
+    <MaxRelations>-9</MaxRelations>
+    <Behavior>UnsolicitedEnemyAssistance</Behavior>
+  </DiplomacyEffect>
+
+</DiplomacyEffectDefList>
+
+

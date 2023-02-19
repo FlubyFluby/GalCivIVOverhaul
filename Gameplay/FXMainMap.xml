@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+  
+  <FXElement>
+    <InternalName>PlanetSporeGenocideFX</InternalName>
+    <Type>Sequence</Type>
+    <KeyValueString>
+      <Key>TargetObject</Key>
+      <Value>DefendingPlanetObject</Value>
+    </KeyValueString>
+    <KeyValueString>
+      <Key>TargetTransform</Key>
+      <Value>ExplicitTransform</Value>
+    </KeyValueString>
+
+    <FXElement>
+      <InternalName>PlanetSporeGenocideFX_0</InternalName>
+      <Type>Particle</Type>
+      <KeyValueString>
+        <Key>Script</Key>
+        <Value>SporeGenocideEffect</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapUniformScale</Key>
+        <Value>1</Value>
+      </KeyValueDecimal>
+    </FXElement>
+    
+    <FXElement>
+      <InternalName>PlanetSporeGenocideFX_Runnable</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+  </FXElement>
+  
+</FXElementList>

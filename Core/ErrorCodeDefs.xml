@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ErrorCodeDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Enums/ErrorCodeTypes.xsd">
+
+
+  <ErrorCodeDef>
+    <Code>NoError</Code>
+    <Description>NO_ERROR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>Error</Code>
+    <Description>ERROR_GENERIC</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>InvalidObject</Code>
+    <Description>INVALID_OBJECT</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ObjectNotOwned</Code>
+    <Description>EJECT_ERROR_OBJECTNOTOWNED</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotPlayerTurn</Code>
+    <Description>EJECT_ERROR_NOTPLAYERTURN</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingPrereq</Code>
+    <Description>ERROR_MISSING_PREREQ</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingWeapons</Code>
+    <Description>RAID_ERROR_MISSINGWEAPONS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingConstructor</Code>
+    <Description>CONSTRUCT_ERROR_MISSINGCONSTRUCTOR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingColonyShip</Code>
+    <Description>MISSING_COLONY_SHIP</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlanetNotColonizable</Code>
+    <Description>ERROR_PLANET_NOT_COLONIZABLE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildOnStackedFleets</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDONSTACKEDFLEETS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildCloseToStarbase</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDCLOSETOSTARBASE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildInVortex</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDINVORTEX</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildInNebula</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDINNEBULA</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildInStorm</Code>
+    <Description>CannotBuildInStorm</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildInAsteroids</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDINASTEROIDS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildOnResource</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDONRESOURCE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildOnAnomaly</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDONANOMALY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildOnObject</Code>
+    <Description>CONSTRUCT_ERROR_CANNOTBUILDONOBJECT</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildShipyardAlreadyInCluster</Code>
+    <Description>CONSTRUCT_ERROR_SHIPTARDINCLUSTER</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughCredits</Code>
+    <Description>CONSTRUCT_ERROR_NOTENOUGHCREDITS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughConstructorPoints</Code>
+    <Description>NOT_ENOUGH_CONSTRUCTOR_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoRoomToDisplaceFleet</Code>
+    <Description>CONSTRUCT_ERROR_NOROOMTODISPLACEFLEET</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoRoomToEjectFleet</Code>
+    <Description>EJECT_ERROR_NOROOMTOEJECTFLEET</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoMoves</Code>
+    <Description>EJECT_ERROR_NOMOVES</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>Upgrading</Code>
+    <Description>EJECT_ERROR_UPGRADING</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughLogistics</Code>
+    <Description>STACKED_SHIP_ERROR_NOTENOUGHLOGISTICS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughShipGroupRoom</Code>
+    <Description>STACKED_SHIP_ERROR_NOTENOUGHLOGISTICS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>OutOfBounds</Code>
+    <Description>OUT_OF_BOUNDS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>OutOfRange</Code>
+    <Description>OUT_OF_RANGE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingTradeShip</Code>
+    <Description>CANNOT_TRADE_MISSING_TRADE_SHIP</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoDuplicateTrade</Code>
+    <Description>NoDuplicateTrade</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTradeWithSelf</Code>
+    <Description>CANNOT_TRADE_NO_TRADE_WITH_SELF</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTradeWithEnemies</Code>
+    <Description>CANNOT_TRADE_NO_TRADE_WITH_ENEMIES</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughTradeLicenses</Code>
+    <Description>CANNOT_TRADE_INSUFFICIENT_TRADE_LICENSES</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTradeRoutes</Code>
+    <Description>RAID_ERROR_NOTRADEROUTES</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRaidFriend</Code>
+    <Description>RAID_ERROR_CANNOTRAIDFRIEND</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoHomePlanet</Code>
+    <Description>CANNOT_TRADE_NO_HOME_PLANET</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ExistingTradeRoute</Code>
+    <Description>CANNOT_TRADE_EXISTING_TRADE_ROUTE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>TradeRouteAlreadyRaided</Code>
+    <Description>RAID_ERROR_TRADEROUTEALREADYRAIDED</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTradeEmbargo</Code>
+    <Description>ERROR_NO_TRADE_EMBARGO</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRushGovernment</Code>
+    <Description>CANNOT_RUSH_GOVERNMENT</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRushPlanetaryProjects</Code>
+    <Description>CannotRushPlanetaryProjects</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRushTwice</Code>
+    <Description>CANNOT_RUSH_ALREADY_RUSHED</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRushAwardedItem</Code>
+    <Description>CannotRushAwardedItem</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotRushAlreadyFinished</Code>
+    <Description>CANNOT_RUSH_COMPLETED_TOOLTIP</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UnusableTile</Code>
+    <Description>BuildError_UnusableTile</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UnusableTerrain</Code>
+    <Description>BuildError_UnusableTerrain</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>TileNotEmpty</Code>
+    <Description>BuildError_NotEmpty</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>BlockedImpType</Code>
+    <Description>BuildError_BlockedImpType</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingRequiredPlanetFeature</Code>
+    <Description>BuildError_MissingPlanetFeature</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>BlockedPlanetFeature</Code>
+    <Description>BuildError_BlockedPlanetFeature</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoAttackShips</Code>
+    <Description>NoAttackShips</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ColonyAlreadySponsor</Code>
+    <Description>ColonyAlreadySponsor</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ShipyardNotSponsoredByColony</Code>
+    <Description>SHIPYARD_ERROR_NOT_SPONSORED_BY_COLONY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ShipyardAnchored</Code>
+    <Description>ShipyardAnchored</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>TerraformNotEnoughLand</Code>
+    <Description>TerraformNotEnoughLand</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UpgradeOnly</Code>
+    <Description>UpgradeOnly</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoUpgradesAvailable</Code>
+    <Description>UPGRADE_ERROR_NOUPGRADESAVAILABLE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryShipsCannotBeUpgraded</Code>
+    <Description>UPGRADE_ERROR_MERCENARIESCANTBEUPGRADED</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughCulturePoints</Code>
+    <Description>INSUFFICIENT_CULTURE_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CultureTierLocked</Code>
+    <Description>TIER_LOCKED_SPEND_CULTURE_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CultureTraitAlreadyUnlocked</Code>
+    <Description>TRAIT_ALREADY_UNLOCKED_SPEND_CULTURE_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CultureTraitDisabled</Code>
+    <Description>TRAIT_DISABLED_SPEND_CULTURE_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NothingSelected</Code>
+    <Description>NO_TRAIT_SELECTED_SPEND_CULTURE_POINTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ShipyardTooFarFromSponsor</Code>
+    <Description>SHIPYARD_ERROR_SPONSOR_TOO_FAR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UPNotFormed</Code>
+    <Description>UPNotFormed</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UPBlockingColonization</Code>
+    <Description>ERROR_UP_BLOCKING_COLONIZATION</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotInUP</Code>
+    <Description>NotInUP</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>EngagedInBattle</Code>
+    <Description>EngagedInBattle</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTransportShip</Code>
+    <Description>NoTransportShip</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoTransportPopulation</Code>
+    <Description>NoTransportPopulation</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoGenocideShip</Code>
+    <Description>NoGenocideShip</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoInvasionTech</Code>
+    <Description>NoInvasionTech</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>AlreadyUpgrading</Code>
+    <Description>AlreadyUpgrading</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotCancelTreaty</Code>
+    <Description>CANNOT_CANCEL_TREATY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotCancelNonDurationalTreaty</Code>
+    <Description>CANNOT_CANCEL_NON_DURATIONAL_TREATY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayerIsAllied</Code>
+    <Description>PLAYER_IS_ALLIED</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayerIsEnemy</Code>
+    <Description>PLAYER_IS_ENEMY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayerNotForeign</Code>
+    <Description>PLAYER_NOT_FOREIGN</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayersHaveNotMet</Code>
+    <Description>PLAYERS_HAVE_NOT_MET</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayersAgreedToCeaseFire</Code>
+    <Description>PLAYERS_AGREED_TO_CEASEFIRE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlayerImmuneToWar</Code>
+    <Description>PLAYER_IMMUNE_TO_WAR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UPBlockingWar</Code>
+    <Description>UP_BLOCKING_WAR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotDeclareWarSoonAfterPeace</Code>
+    <Description>CANNOT_DECLARE_WAR_SOON_AFTER_PEACE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoDeclareWarGovernment</Code>
+    <Description>NO_DECLARE_WAR_GOVERNMENT</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotTradeSoonAfterDeclaringWar</Code>
+    <Description>CANNOT_TRADE_SOON_AFTER_DECLARING_WAR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotSpeakSoonAfterDeclaringWar</Code>
+    <Description>CANNOT_SPEAK_SOON_AFTER_DECLARING_WAR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotTradeWithThisPlayerSoonAfterTrade</Code>
+    <Description>CANNOT_TRADE_WITH_THIS_PLAYER_SOON_AFTER_TRADE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>UPBlockingColonizationInOtherZOC</Code>
+    <Description>ERROR_UP_BLOCKING_COLONIZATION_IN_OTHER_ZOC</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingColonizationPrereq</Code>
+    <Description>ERROR_MISSING_COLONIZATION_PREREQ</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>TradingWithAnother</Code>
+    <Description>ERROR_PLAYER_TRADING_WITH_ANOTHER</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoUniversalTranslator</Code>
+    <Description>ERROR_NO_UNIVERSAL_TRANSLATOR</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>RelationTooLow</Code>
+    <Description>ERROR_RELATION_TOO_LOW</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotProclaimFriendshipSoonAfterProclaimingFriendship</Code>
+    <Description>CannotProclaimFriendshipSoonAfterProclaimingFriendship</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotPerformOnHumanPlayer</Code>
+    <Description>ERROR_CANNOT_PERFORM_ON_HUMAN_PLAYER</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoForeignShipsInPlayerTerritory</Code>
+    <Description>ERROR_NO_FOREIGN_SHIPS_IN_PLAYER_TERRITORY</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotKickOffLawnSoonAfterKickOffLawn</Code>
+    <Description>CannotKickOffLawnSoonAfterKickOffLawn</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotMoveInOtherPlayersTerritory</Code>
+    <Description>CannotMoveInOtherPlayersTerritory</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotAskForTributeSoonAfterAskingForTribute</Code>
+    <Description>CannotAskForTributeSoonAfterAskingForTribute</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>OtherPlayerHasNoCredits</Code>
+    <Description>ERROR_OTHER_PLAYER_HAS_NO_CREDITS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotOfferForeignAidSoonAfterOfferingForeignAid</Code>
+    <Description>CannotOfferForeignAidSoonAfterOfferingForeignAid</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughResources</Code>
+    <Description>NotEnoughResources</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryNotSelectedForGame</Code>
+    <Description>MercenaryNotSelectedForGame</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryAlreadyOwnedByYou</Code>
+    <Description>MercenaryAlreadyOwnedByYou</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryAlreadyOwnedByOthers</Code>
+    <Description>MercenaryAlreadyOwnedByOthers</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryKilled</Code>
+    <Description>MercenaryKilled</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryLockedByTier</Code>
+    <Description>MercenaryLockedByTier</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MercenaryLocked</Code>
+    <Description>MercenaryLocked</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>QueueOrderChangeViolatesRequirements</Code>
+    <Description>ERROR_QUEUE_ORDER_CHANGE_VIOLATES_REQUIREMENTS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MoveWillGoOutOfBounds</Code>
+    <Description>ERROR_MOVE_WILL_GO_OUT_OF_BOUNDS</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildAsteroidBaseCurrentlyBuilding</Code>
+    <Description>CannotBuildAsteroidBaseCurrentlyBuilding</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildAsteroidBaseAlreadyBuilt</Code>
+    <Description>CannotBuildAsteroidBaseAlreadyBuilt</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildAsteroidBaseOutsideZOC</Code>
+    <Description>CannotBuildAsteroidBaseOutsideZOC</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotBuildAsteroidBaseMissingAbility</Code>
+    <Description>ERROR_GENERIC</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoAsteroidBaseBuilt</Code>
+    <Description>NoAsteroidBaseBuilt</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>DoesNotTradeWithPlayer</Code>
+    <Description>DoesNotTradeWithPlayer</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>DoesNotSpeakToPlayer</Code>
+    <Description>DoesNotSpeakToPlayer</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PlanetHasNoColony</Code>
+    <Description>PlanetHasNoColony</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NotEnoughAdministrators</Code>
+    <Description>ADMINISTRATION_NOT_ENOUGH_MESSAGE</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>FleetAlreadyHasOnePerFleetShip</Code>
+    <Description>FLEET_ALREADY_HAS_ONE_PER_FLEET</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>ApprovalTooLow</Code>
+    <Description>NEED_MORE_APPROVAL</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>MissingFactionData</Code>
+    <Description>Error_Missing_Faction_Data</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>OutOfMemory</Code>
+    <Description>Error_OutOfMemory</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>RequiresCitizen</Code>
+    <Description>Error_RequiresCitizen</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>AtMaxNumPlayers</Code>
+    <Description>Error_AtMaxNumPlayers</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotUpgradeGovernmentShip</Code>
+    <Description>CANNOT_UPGRADE_GOVERNMENT_SHIP</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>GovernmentCannotSpeak</Code>
+    <Description>Error_Government_Cannot_Speak</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>NoPeaceDuringEverwar</Code>
+    <Description>Error_No_Peace_During_Everwar</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>CannotSpeakToMinorAtWar</Code>
+    <Description>Error_Cannot_Speak_To_Minor_At_War</Description>
+  </ErrorCodeDef>
+
+  <ErrorCodeDef>
+    <Code>PermanentWar</Code>
+    <Description>Error_PermanentWar</Description>
+  </ErrorCodeDef>
+
+
+  <ErrorCodeDef>
+    <Code>PlanetOwnedByAttacker</Code>
+    <Description>Error_PlanetOwnedByAttacker</Description>
+  </ErrorCodeDef>
+  
+  <ErrorCodeDef>
+    <Code>NotAtWar</Code>
+    <Description>Error_NotAtWar</Description>
+  </ErrorCodeDef>
+  <ErrorCodeDef>
+    <Code>PlanetDefended</Code>
+    <Description>Error_PlanetDefended</Description>
+  </ErrorCodeDef>
+  <ErrorCodeDef>
+    <Code>PlanetDefendedByMilitaryStarbase</Code>
+    <Description>CANNOT_INVADE_MILITARY_STARBASE</Description>
+  </ErrorCodeDef>
+  <ErrorCodeDef>
+    <Code>PlanetAlreadyBesieged</Code>
+    <Description>CANNOT_INVADE_ALREADY_BESIEGED</Description>
+  </ErrorCodeDef>
+  <ErrorCodeDef>
+    <Code>NeedTransport</Code>
+    <Description>CANNOT_INVADE_NEED_TRANSPORTS</Description>
+  </ErrorCodeDef>
+  <ErrorCodeDef>
+    <Code>NeedAttackShip</Code>
+    <Description>CANNOT_INVADE_NEED_ATTACK_SHIPS</Description>
+  </ErrorCodeDef>
+
+</ErrorCodeDefs>

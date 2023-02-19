@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<MercenaryTierList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/MercenaryTierDefs.xsd">
+
+	<MercenaryTier>
+		<InternalName>MercenaryTier1</InternalName>
+		<DisplayName>Tier 1</DisplayName>
+		<Description></Description>
+		<Order>1</Order>
+		<Amount>12</Amount>
+		<Color>MercenaryTiers1</Color>
+    <CannotAffordColor>MercenaryTiersCannotAfford1</CannotAffordColor>
+    <Prerequ>
+      <TechAge>
+        <Option>AgeOfExpansion</Option>
+      </TechAge>
+    </Prerequ>
+    <Material1>Ship_Material_01</Material1>
+    <Material2>Ship_Material_01</Material2>
+    <Surface1>Default_Surface_01</Surface1>
+    <Surface2>OverlayTexture_CrossHatch</Surface2>
+    <Appearance>Mercinary_Appearance_A</Appearance>
+   
+  </MercenaryTier>
+
+	<MercenaryTier>
+		<InternalName>MercenaryTier2</InternalName>
+		<DisplayName>Tier 2</DisplayName>
+		<Description></Description>
+		<Order>2</Order>
+		<Amount>12</Amount>
+		<Color>MercenaryTiers2</Color>
+    <CannotAffordColor>MercenaryTiersCannotAfford2</CannotAffordColor>
+    <Prerequ>
+      <TechAge>
+        <Option>AgeOfWar</Option>
+      </TechAge>
+    </Prerequ>
+    <Material1>Ship_Material_01</Material1>
+    <Material2>Ship_Material_01</Material2>
+    <Surface1>Default_Surface_01</Surface1>
+    <Surface2>OverlayTexture_CrossHatch</Surface2>
+    <Appearance>Mercinary_Appearance_B</Appearance>
+	</MercenaryTier>
+
+  <MercenaryTier>
+		<InternalName>MercenaryTier3</InternalName>
+		<DisplayName>Tier 3</DisplayName>
+		<Description></Description>
+		<Order>3</Order>
+		<Amount>12</Amount>
+		<Color>MercenaryTiers3</Color>
+		<CannotAffordColor>MercenaryTiersCannotAfford3</CannotAffordColor>
+    <Prerequ>
+      <TechAge>
+        <Option>AgeOfAscension</Option>
+      </TechAge>
+    </Prerequ>
+    <Material1>Ship_Material_01</Material1>
+    <Material2>Ship_Material_01</Material2>
+    <Surface1>Default_Surface_01</Surface1>
+    <Surface2>OverlayTexture_CrossHatch</Surface2>
+    <Appearance>Mercinary_Appearance_C</Appearance>
+  </MercenaryTier>
+
+  <MercenaryTier>
+    <InternalName>GovernmentTier</InternalName>
+    <DisplayName>Government</DisplayName>
+    <Prerequ>
+      <Tag>
+        <Option>Government</Option>
+      </Tag>
+    </Prerequ>
+    <Material1>Ship_Material_01</Material1>
+    <Material2>Ship_Material_01</Material2>
+    <Surface1>Default_Surface_20</Surface1>
+    <Surface2>Default_Surface_16</Surface2>
+    <Appearance>Government_Ship_Appearance</Appearance>
+  </MercenaryTier>
+  
+</MercenaryTierList>

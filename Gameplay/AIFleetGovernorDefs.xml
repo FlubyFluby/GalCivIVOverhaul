@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AIFleetGovernorList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AIFleetGovernorDefs.xsd">
+
+  <AIFleetGovernor>
+    <UniqueID>Colony</UniqueID>
+    <ReserveShips>false</ReserveShips>
+    <OnlyEjectWhenFull>false</OnlyEjectWhenFull>
+  </AIFleetGovernor>
+  
+  <AIFleetGovernor>
+    <UniqueID>Constructor</UniqueID>
+    <ReserveShips>false</ReserveShips>
+    <OnlyEjectWhenFull>false</OnlyEjectWhenFull>
+  </AIFleetGovernor>
+
+  <AIFleetGovernor>
+    <UniqueID>Transport</UniqueID>
+    <ReserveShips>true</ReserveShips>
+    <OnlyEjectWhenFull>true</OnlyEjectWhenFull>
+    <AddShip>Escort</AddShip>
+    <AddShip>Defender</AddShip>
+    <AddShip>Assault</AddShip>
+    <AddShip>Sentinel</AddShip>
+    <AddShip>Bomber</AddShip>
+    <AddShip>Interceptor</AddShip>
+  </AIFleetGovernor>
+
+	<AIFleetGovernor>
+		<UniqueID>CapitalShip</UniqueID>
+		<ReserveShips>true</ReserveShips>
+		<AddShip>Escort</AddShip>
+		<AddShip>Defender</AddShip>
+		<AddShip>Assault</AddShip>
+		<AddShip>Support</AddShip>
+	</AIFleetGovernor>
+	<AIFleetGovernor>
+		<UniqueID>Escort</UniqueID>
+		<ReserveShips>true</ReserveShips>
+		<AddShip>Defender</AddShip>
+		<AddShip>CapitalShip</AddShip>
+		<AddShip>Assault</AddShip>
+		<AddShip>Support</AddShip>
+	</AIFleetGovernor>
+
+	<AIFleetGovernor>
+    <UniqueID>Freighter</UniqueID>
+    <ReserveShips>true</ReserveShips>
+    <OnlyEjectWhenFull>false</OnlyEjectWhenFull>
+  </AIFleetGovernor>
+  
+  <AIFleetGovernor>
+    <UniqueID>Survey</UniqueID>
+    <ReserveShips>false</ReserveShips>
+    <OnlyEjectWhenFull>false</OnlyEjectWhenFull>
+  </AIFleetGovernor>
+  
+  <AIFleetGovernor>
+    <UniqueID>Scout</UniqueID>
+    <ReserveShips>false</ReserveShips>
+    <OnlyEjectWhenFull>false</OnlyEjectWhenFull>
+  </AIFleetGovernor>
+  
+</AIFleetGovernorList>

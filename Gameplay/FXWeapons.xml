@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+	<!-- Projectile Weapon Sequences -->
+	<FXElement>
+		<InternalName>GenericProjectile</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>GenericProjectile_Sequence</InternalName>
+			<Type>Sequence</Type>
+
+			<FXElement>
+				<InternalName>GenericProjectile_Projectile</InternalName>
+				<Type>Projectile</Type>
+				<KeyValueDecimal>
+					<Key>BattleViewerProjectileSpeed</Key>
+					<Value>100.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapProjectileSpeed</Key>
+					<Value>100.0</Value>
+				</KeyValueDecimal>
+
+				<FXElement>
+					<InternalName>GenericProjectile_Asteroid</InternalName>
+					<Type>ObjectGfxConfig</Type>
+					<FadeIn>0.1</FadeIn>
+					<FadeOut>0.1</FadeOut>
+
+					<KeyValueString>
+						<Key>ObjectGfxConfigName</Key>
+						<Value>AsteroidSmallModel_04.objgfxcfg</Value>
+					</KeyValueString>
+					<KeyValueString>
+						<Key>MaterialID1</Key>
+						<Value>Asteroid_Material_01</Value>
+					</KeyValueString>
+					<KeyValueString>
+						<Key>MaterialID2</Key>
+						<Value>Asteroid_Material_02</Value>
+					</KeyValueString>
+					<KeyValueString>
+						<Key>SubMaterialID1</Key>
+						<Value>Default_Surface_01</Value>
+					</KeyValueString>
+					<KeyValueString>
+						<Key>SubMaterialID2</Key>
+						<Value>Default_Surface_04</Value>
+					</KeyValueString>
+					<KeyValueString>
+						<Key>AppearanceID</Key>
+						<Value>Appearance_Asteroid</Value>
+					</KeyValueString>
+
+					<FXElement>
+						<InternalName>GenericProjectile_Asteroid_Orientation</InternalName>
+						<Type>Transform</Type>
+
+						<!--<KeyValueDecimal>
+  <Key>MinUniformScale</Key>
+  <Value>0.5</Value>
+</KeyValueDecimal>
+<KeyValueDecimal>
+  <Key>MaxUniformScale</Key>
+  <Value>1.0</Value>
+</KeyValueDecimal>-->
+
+						<KeyValueVec3>
+							<Key>MinScale</Key>
+							<Value>
+								<X>0.2</X>
+								<Y>0.2</Y>
+								<Z>0.2</Z>
+							</Value>
+						</KeyValueVec3>
+						<KeyValueVec3>
+							<Key>MaxScale</Key>
+							<Value>
+								<X>0.3</X>
+								<Y>0.3</Y>
+								<Z>0.3</Z>
+							</Value>
+						</KeyValueVec3>
+
+						<KeyValueVec3>
+							<Key>MinRotate</Key>
+							<Value>
+								<X>-45.0</X>
+								<Y>-45.0</Y>
+								<Z>-45.0</Z>
+							</Value>
+						</KeyValueVec3>
+						<KeyValueVec3>
+							<Key>MaxRotate</Key>
+							<Value>
+								<X>45.0</X>
+								<Y>45.0</Y>
+								<Z>45.0</Z>
+							</Value>
+						</KeyValueVec3>
+
+						<KeyValueVec3>
+							<Key>MinRotateSpeed</Key>
+							<Value>
+								<X>90.0</X>
+								<Y>90.0</Y>
+								<Z>0.0</Z>
+							</Value>
+						</KeyValueVec3>
+						<KeyValueVec3>
+							<Key>MaxRotateSpeed</Key>
+							<Value>
+								<X>180.0</X>
+								<Y>180.0</Y>
+								<Z>0.0</Z>
+							</Value>
+						</KeyValueVec3>
+
+					</FXElement>
+
+				</FXElement>
+
+			</FXElement>
+
+		</FXElement>
+
+		<FXElementRef>GenericEmission</FXElementRef>
+
+	</FXElement>
+
+
+
+	<!-- Beam Weapon Sequences -->
+	<FXElement>
+		<InternalName>GenericBeam</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>GenericBeam_Sequence</InternalName>
+			<Type>Sequence</Type>
+
+			<FXElement>
+				<InternalName>GenericBeam_Beam</InternalName>
+				<Type>Beam</Type>
+				<Duration>2.0</Duration>
+
+				<KeyValueString>
+					<Key>DiffuseTexture</Key>
+					<Value>Laser_Test_01.dds</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>MainMapEmitSpeed</Key>
+					<Value>2000.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerEmitSpeed</Key>
+					<Value>4000.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>Width</Key>
+					<Value>4.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>Intensity</Key>
+					<Value>2.5</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>DiffuseTextureSpan</Key>
+					<Value>25.0</Value>
+				</KeyValueDecimal>
+				<KeyValueInt>
+					<Key>DiffuseTextureAnimationFrameCount</Key>
+					<Value>4</Value>
+				</KeyValueInt>
+				<KeyValueInt>
+					<Key>DiffuseTextureAnimationFPS</Key>
+					<Value>12</Value>
+				</KeyValueInt>
+				<KeyValueInt>
+					<Key>DiffuseGradientRow</Key>
+					<Value>0</Value>
+				</KeyValueInt>
+
+				<KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+				<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+				<!-- Particle at end of beam -->
+				<FXElement>
+					<InternalName>GenericBeam_AttachedParticle</InternalName>
+					<Type>Particle</Type>
+					<KeyValueString>
+						<Key>Script</Key>
+						<Value>GenericBeamParticleEffect</Value>
+					</KeyValueString>
+					<KeyValueVec3>
+						<Key>MinScale</Key>
+						<Value>
+							<X>2</X>
+							<Y>2</Y>
+							<Z>2</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxScale</Key>
+						<Value>
+							<X>3</X>
+							<Y>3</Y>
+							<Z>3</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+			</FXElement>
+
+		</FXElement>
+
+	</FXElement>
+
+	<!-- Missile Weapon Sequences -->
+	<FXElement>
+		<InternalName>GenericMissile</InternalName>
+		<Type>Composite</Type>
+
+		<FXElement>
+			<InternalName>GenericMissile_Sequence</InternalName>
+			<Type>Sequence</Type>
+
+			<FXElement>
+				<InternalName>GenericMissile_Missile</InternalName>
+				<Type>Missile</Type>
+				<KeyValueDecimal>
+					<Key>BattleViewerMissileSpeed</Key>
+					<Value>10.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>BattleViewerMissileCurviness</Key>
+					<Value>200.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapMissileSpeed</Key>
+					<Value>100.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapMissileCurviness</Key>
+					<Value>200.0</Value>
+				</KeyValueDecimal>
+
+				<!--stand in object to support seeing the missile node-->
+				<!--
+<FXElement>
+<InternalName>GenericMissile_Asteroid</InternalName>
+<Type>ObjectGfxConfig</Type>
+<FadeIn>0.1</FadeIn>
+<FadeOut>0.1</FadeOut>
+
+<KeyValueString>
+<Key>ObjectGfxConfigName</Key>
+<Value>AsteroidSmallModel_04.objgfxcfg</Value>
+</KeyValueString>
+<KeyValueString>
+<Key>MaterialID1</Key>
+<Value>GC3_Asteroid_Material_01</Value>
+</KeyValueString>
+<KeyValueString>
+<Key>MaterialID2</Key>
+<Value>GC3_Asteroid_Material_02</Value>
+</KeyValueString>
+<KeyValueString>
+<Key>SubMaterialID1</Key>
+<Value>GC3_Default_Surface_01</Value>
+</KeyValueString>
+<KeyValueString>
+<Key>SubMaterialID2</Key>
+<Value>GC3_Default_Surface_04</Value>
+</KeyValueString>
+<KeyValueString>
+<Key>AppearanceID</Key>
+<Value>GC3_Appearance_Asteroid</Value>
+</KeyValueString>
+
+
+<FXElement>
+<InternalName>GenericMissile_Asteroid_Orientation</InternalName>
+<Type>Transform</Type>
+
+-->
+				<!--<KeyValueDecimal>
+  <Key>MinUniformScale</Key>
+  <Value>0.5</Value>
+</KeyValueDecimal>
+<KeyValueDecimal>
+  <Key>MaxUniformScale</Key>
+  <Value>1.0</Value>
+</KeyValueDecimal>-->
+				<!--
+
+<KeyValueVec3>
+  <Key>MinScale</Key>
+  <Value>
+    <X>0.02</X>
+    <Y>0.02</Y>
+    <Z>0.02</Z>
+  </Value>
+</KeyValueVec3>
+<KeyValueVec3>
+  <Key>MaxScale</Key>
+  <Value>
+    <X>0.03</X>
+    <Y>0.03</Y>
+    <Z>0.03</Z>
+  </Value>
+</KeyValueVec3>
+
+<KeyValueVec3>
+  <Key>MinRotate</Key>
+  <Value>
+    <X>-45.0</X>
+    <Y>-45.0</Y>
+    <Z>-45.0</Z>
+  </Value>
+</KeyValueVec3>
+<KeyValueVec3>
+  <Key>MaxRotate</Key>
+  <Value>
+    <X>45.0</X>
+    <Y>45.0</Y>
+    <Z>45.0</Z>
+  </Value>
+</KeyValueVec3>
+
+<KeyValueVec3>
+  <Key>MinRotateSpeed</Key>
+  <Value>
+    <X>90.0</X>
+    <Y>90.0</Y>
+    <Z>0.0</Z>
+  </Value>
+</KeyValueVec3>
+<KeyValueVec3>
+  <Key>MaxRotateSpeed</Key>
+  <Value>
+    <X>180.0</X>
+    <Y>180.0</Y>
+    <Z>0.0</Z>
+  </Value>
+</KeyValueVec3>
+
+</FXElement>
+          
+</FXElement>-->
+
+				<!--Particle system or billboard element for missile itself-->
+				<FXElement>
+					<InternalName>GenericMissile_MissileParticle</InternalName>
+					<Type>Particle</Type>
+					<KeyValueString>
+						<Key>Script</Key>
+						<Value>PhotonTorpedoWeaponEffect</Value>
+					</KeyValueString>
+					<KeyValueVec3>
+						<Key>MinScale</Key>
+						<Value>
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxScale</Key>
+						<Value>
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+				<!-- Particle shooting out the back -->
+				<FXElement>
+					<InternalName>GenericMissile_MissileParticle_Trail</InternalName>
+					<Type>Particle</Type>
+					<KeyValueString>
+						<Key>Script</Key>
+						<Value>PhotonTorpedo_Trail_WeaponEffect</Value>
+					</KeyValueString>
+					<KeyValueVec3>
+						<Key>MinScale</Key>
+						<Value>
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Value>
+					</KeyValueVec3>
+					<KeyValueVec3>
+						<Key>MaxScale</Key>
+						<Value>
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Value>
+					</KeyValueVec3>
+				</FXElement>
+
+			</FXElement>
+		</FXElement>
+
+		<FXElementRef>GenericMissileEmission</FXElementRef>
+
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>GenericEmission</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericEmissionParticleEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+	<!--Emission FX-->
+	<FXElement>
+		<InternalName>GenericMissileEmission</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>PhotonTorpedo_Emitter_WeaponEffect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+
+	<!--Deflection FX-->
+	<FXElement>
+		<InternalName>GenericDeflection</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>TestDeflect</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+	</FXElement>
+
+
+	<!--Hit FX-->
+	<FXElement>
+		<InternalName>GenericHit_Particle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>TestHit</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+
+		<FXElement>
+			<InternalName>GenericHit_Foley</InternalName>
+			<Type>Foley</Type>
+			<KeyValueString>
+				<Key>Sfx</Key>
+				<Value>GENERIC_HIT</Value>
+			</KeyValueString>
+			<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+		</FXElement>
+
+		<FXElement>
+			<InternalName>GenericHit</InternalName>
+			<Type>Composite</Type>
+			<FXElementRef>GenericHit_Foley</FXElementRef>
+			<FXElementRef>GenericHit_Particle</FXElementRef>
+		</FXElement>
+	</FXElement>
+
+</FXElementList>

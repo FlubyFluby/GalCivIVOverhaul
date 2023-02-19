@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PathLineTypes
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PathLinesDef.xsd">
+
+  <PathLine>
+    <InternalName>MobileObjectPathLine</InternalName>
+    <Texture>FLEET_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0</AnimationSpeed>
+    <Alpha>0.5</Alpha>
+    <Width>27</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>ResourcePathLine</InternalName>
+    <Texture>RESOURCE_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.25</AnimationSpeed>
+    <Alpha>0.25</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>TradePathLine</InternalName>
+    <Texture>TRADE_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.35</AnimationSpeed>
+    <Alpha>0.1</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>UnitPathLine</InternalName>
+    <Texture>TRADE_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.35</AnimationSpeed>
+    <Alpha>0.1</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>ShipyardPathLine</InternalName>
+    <Texture>SHIPYARD_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.25</AnimationSpeed>
+    <Alpha>0.5</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>ShipyardSponsorPathLine</InternalName>
+    <Texture>SHIPYARD_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.25</AnimationSpeed>
+    <Alpha>0.5</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>AsteroidBasePathLine</InternalName>
+    <Texture>ASTEROID_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.25</AnimationSpeed>
+    <Alpha>0.25</Alpha>
+    <Width>20</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>HyperlanePathLine</InternalName>
+    <Texture>HYPERGATE_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.1</AnimationSpeed>
+    <Alpha>1.0</Alpha>
+    <Width>28</Width>
+  </PathLine>
+
+  <PathLine>
+    <InternalName>ColonySponsorPathLine</InternalName>
+    <Texture>ASTEROID_PATH_LINE_TEXTURE</Texture>
+    <AnimationSpeed>0.25</AnimationSpeed>
+    <Alpha>0.25</Alpha>
+    <Width>20</Width>
+  </PathLine>
+  
+</PathLineTypes>

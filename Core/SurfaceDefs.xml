@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GCSurfaceList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GCSurfaceDefs.xsd">
+
+  <GCSurface>
+    <InternalName>Default_Surface_00</InternalName>
+    <DisplayName>SURFACE_00_NAME</DisplayName>   
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_00.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_00_Normal.dds</NormalMap>    
+  </GCSurface>
+	
+	<GCSurface>
+		<InternalName>Default_Surface_00_Light</InternalName>
+		<DisplayName>SURFACE_00l_NAME</DisplayName>
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_00_Light.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_00_Normal.dds</NormalMap>
+	</GCSurface>
+	
+	<GCSurface>
+		<InternalName>Default_Surface_00_Dark</InternalName>
+		<DisplayName>SURFACE_00d_NAME</DisplayName>
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_00_Dark.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_00_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Panels-->
+	<GCSurface>
+		<InternalName>Default_Surface_01</InternalName>
+		<DisplayName>SURFACE_01_NAME</DisplayName>
+		<UVScale>
+			<X>0.5</X>
+			<Y>0.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_01.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_01_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Panels II-->
+	<GCSurface>
+		<InternalName>Default_Surface_10</InternalName>
+		<DisplayName>SURFACE_10_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_10.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_10_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Panels III-->
+	<GCSurface>
+		<InternalName>Default_Surface_11</InternalName>
+		<DisplayName>SURFACE_11_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_11.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_11_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Panels IV-->
+	<GCSurface>
+		<InternalName>Default_Surface_13</InternalName>
+		<DisplayName>SURFACE_13_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_13.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_13_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Tiles-->
+	<GCSurface>
+		<InternalName>Default_Surface_30</InternalName>
+		<DisplayName>SURFACE_30_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>0.5</X>
+			<Y>0.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_30.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_01_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Simplle Tiles-->
+	<GCSurface>
+    <InternalName>Default_Surface_02</InternalName>
+    <DisplayName>SURFACE_02_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_02.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_02_Normal.dds</NormalMap>    
+  </GCSurface>
+
+	<!--Tiles II-->
+	<GCSurface>
+		<InternalName>Default_Surface_31</InternalName>
+		<DisplayName>SURFACE_31_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_31.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_31_Normal.dds</NormalMap>
+	</GCSurface>
+
+
+	<!--Navigator Tiles-->
+	<GCSurface>
+		<InternalName>Default_Surface_38</InternalName>
+		<DisplayName>SURFACE_38_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>0.5</X>
+			<Y>0.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Navigators_Tiles.dds</DiffuseMap>
+		<NormalMap>gfx/Navigators_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<!--Navigator Rings-->
+	<GCSurface>
+		<InternalName>Default_Surface_39</InternalName>
+		<DisplayName>SURFACE_39_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Navigators_Rings.dds</DiffuseMap>
+		<NormalMap>gfx/Navigators_Rings_Normals.dds</NormalMap>
+	</GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_03</InternalName>
+    <DisplayName>SURFACE_03_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_03.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_03_Normal.dds</NormalMap>    
+  </GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_15</InternalName>
+		<DisplayName>SURFACE_15_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_15.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_15_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_27</InternalName>
+		<DisplayName>SURFACE_27_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2.6</X>
+			<Y>3.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_00.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_27_Normal.dds</NormalMap>
+	</GCSurface>
+	
+  <GCSurface>
+    <InternalName>Default_Surface_04</InternalName>
+    <DisplayName>SURFACE_04_NAME</DisplayName>
+    <!--<Scale>47.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_04.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_04_Normal.dds</NormalMap>    
+  </GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_23</InternalName>
+		<DisplayName>SURFACE_23_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_23.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_23_Normal.dds</NormalMap>
+	</GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_05</InternalName>
+    <DisplayName>SURFACE_05_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_05.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_05_Normal.dds</NormalMap>    
+  </GCSurface>
+
+	<GCSurface>
+		<InternalName>OverlayTexture_CrossHatch</InternalName>
+		<DisplayName>OverlayTexture_CrossHatch_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2.0</X>
+			<Y>2.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_00.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_CrossHatch_Normal.dds</NormalMap>
+	</GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_06</InternalName>
+    <DisplayName>SURFACE_06_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_06.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_06_Normal.dds</NormalMap>    
+  </GCSurface>
+
+	<!--Armor Plates-->
+  <GCSurface>
+    <InternalName>Default_Surface_07</InternalName>
+    <DisplayName>SURFACE_07_NAME</DisplayName>
+    <!--<Scale>50.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_07.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_07_Normal.dds</NormalMap>    
+  </GCSurface>
+
+
+	<!--Hex Armor-->
+  <GCSurface>
+    <InternalName>Default_Surface_08</InternalName>
+    <DisplayName>SURFACE_08_NAME</DisplayName>
+    <UVScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_08.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_08_Normal.dds</NormalMap>    
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_12</InternalName>
+    <DisplayName>SURFACE_12_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_12.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_12_Normal.dds</NormalMap>    
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_14</InternalName>
+    <DisplayName>SURFACE_14_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_14.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_14_Normal.dds</NormalMap>	
+  </GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_26</InternalName>
+		<DisplayName>SURFACE_26_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1.5</X>
+			<Y>1.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_26.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_26_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_28</InternalName>
+		<DisplayName>SURFACE_28_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2.0</X>
+			<Y>2.0</Y>
+		</UVScale>
+		<DiffuseMap>gfx/OverlayTexture_28.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_28_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+    <InternalName>Default_Surface_16</InternalName>
+    <DisplayName>SURFACE_16_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_16.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_16_Normal.dds</NormalMap>    
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_17</InternalName>
+    <DisplayName>SURFACE_17_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_17.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_17_Normal.dds</NormalMap>    
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_18</InternalName>
+    <DisplayName>SURFACE_18_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </UVScale>
+		<DiffuseMap>gfx/OverlayTexture_19.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_19_Normal.dds</NormalMap>
+	</GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_19</InternalName>
+    <DisplayName>SURFACE_19_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_19.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_19_Normal.dds</NormalMap>    
+  </GCSurface>
+  
+  <GCSurface>
+    <InternalName>Default_Surface_20</InternalName>
+    <DisplayName>SURFACE_20_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_20.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_20_Normal.dds</NormalMap>	  
+  </GCSurface>
+  
+  <GCSurface>
+    <InternalName>Default_Surface_21</InternalName>
+    <DisplayName>SURFACE_21_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_20.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_20_Normal.dds</NormalMap>	  
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_22</InternalName>
+    <DisplayName>SURFACE_22_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_22.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_22_Normal.dds</NormalMap>    
+  </GCSurface>
+
+
+  <GCSurface>
+    <InternalName>Default_Surface_24</InternalName>
+    <DisplayName>SURFACE_24_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_24.dds</DiffuseMap>
+    <NormalMap>gfx/OverlayTexture_24_Normal.dds</NormalMap>    
+  </GCSurface>
+
+  <GCSurface>
+    <InternalName>Default_Surface_25</InternalName>
+    <DisplayName>SURFACE_25_NAME</DisplayName>
+    <!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+    <UVScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </UVScale>
+    <DiffuseMap>gfx/OverlayTexture_00_Dark.dds</DiffuseMap>
+		<NormalMap>gfx/OverlayTexture_24_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_33</InternalName>
+		<DisplayName>SURFACE_33_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>3</X>
+			<Y>3</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Diamond_Plate_1.dds</DiffuseMap>
+		<NormalMap>gfx/Diamond_Plate_1_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_34</InternalName>
+		<DisplayName>SURFACE_34_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2.5</X>
+			<Y>2.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Diamond_Plate_2.dds</DiffuseMap>
+		<NormalMap>gfx/Diamond_Plate_2_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_35</InternalName>
+		<DisplayName>SURFACE_35_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>3</X>
+			<Y>3</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Diamond_Plate_3.dds</DiffuseMap>
+		<NormalMap>gfx/Diamond_Plate_3_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_36</InternalName>
+		<DisplayName>SURFACE_36_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>3</X>
+			<Y>3</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Diamond_Plate_4.dds</DiffuseMap>
+		<NormalMap>gfx/Diamond_Plate_4_Normal.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_37</InternalName>
+		<DisplayName>SURFACE_37_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2.5</X>
+			<Y>2.5</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Diamond_Plate_5.dds</DiffuseMap>
+		<NormalMap>gfx/Diamond_Plate_5_Normal.dds</NormalMap>
+	</GCSurface>
+	
+	
+<!--Scales-->
+	<GCSurface>
+		<InternalName>Default_Surface_40</InternalName>
+		<DisplayName>SURFACE_40_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>2</X>
+			<Y>2</Y>
+		</UVScale>
+		<DiffuseMap>gfx/Scales_D.dds</DiffuseMap>
+		<NormalMap>gfx/Scales_N.dds</NormalMap>
+	</GCSurface>
+
+	<GCSurface>
+		<InternalName>Default_Surface_41</InternalName>
+		<DisplayName>SURFACE_41_NAME</DisplayName>
+		<!--<Scale>23.0</Scale>
+    <Weight>1.0</Weight>-->
+		<UVScale>
+			<X>1</X>
+			<Y>1</Y>
+		</UVScale>
+		<DiffuseMap>gfx/ArceanHex.dds</DiffuseMap>
+		<NormalMap>gfx/ArceanHex_Normal.dds</NormalMap>
+	</GCSurface>
+
+
+</GCSurfaceList>

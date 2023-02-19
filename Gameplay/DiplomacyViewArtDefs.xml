@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DiplomacyViewArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomacyViewArtDefs.xsd">
+
+	<ArtDefine>
+		<DiplomacyGroup>Self</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>AllianceGreen</ColorDef>
+		<DiscAlpha>5</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>Friendly</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>AllianceGreen</ColorDef>
+		<DiscAlpha>5</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>Foreign</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>NeutralGrey</ColorDef>
+		<DiscAlpha>24</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>Enemy</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>WarRed</ColorDef>
+		<DiscAlpha>9</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>Trading</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>TradeGold</ColorDef>
+		<DiscAlpha>15</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>UPMember</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>UPBlue</ColorDef>
+		<DiscAlpha>9</DiscAlpha>
+	</ArtDefine>
+
+	<ArtDefine>
+		<DiplomacyGroup>UPDefier</DiplomacyGroup>
+		<LabelTexture>abc.dds</LabelTexture>
+		<ColorDef>NeutralGrey</ColorDef>
+		<DiscAlpha>15</DiscAlpha>
+	</ArtDefine>
+	
+</DiplomacyViewArtList>

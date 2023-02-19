@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UISizeDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/UISizeDefs.xsd">
+
+  <UISize>
+    <Size>Small</Size>
+    <Multiplier>1.0</Multiplier>
+    <MinimumDisplayWidth>1920</MinimumDisplayWidth>
+    <MinimumDisplayHeight>1080</MinimumDisplayHeight>
+		<MinWidthForFirstLaunchDefault>0</MinWidthForFirstLaunchDefault>
+		<MinHeightForFirstLaunchDefault>0</MinHeightForFirstLaunchDefault>
+  </UISize>
+
+  <UISize>
+    <Size>Medium</Size>
+    <Multiplier>1.32</Multiplier>
+    <MinimumDisplayWidth>2560</MinimumDisplayWidth>
+    <MinimumDisplayHeight>1440</MinimumDisplayHeight>
+    <MinWidthForFirstLaunchDefault>2560</MinWidthForFirstLaunchDefault>
+    <MinHeightForFirstLaunchDefault>1440</MinHeightForFirstLaunchDefault>
+  </UISize>
+  
+  <UISize>
+    <Size>Large</Size>
+    <Multiplier>2.0</Multiplier>
+    <MinimumDisplayWidth>3840</MinimumDisplayWidth>
+    <MinimumDisplayHeight>2160</MinimumDisplayHeight>
+		<MinWidthForFirstLaunchDefault>3840</MinWidthForFirstLaunchDefault>
+		<MinHeightForFirstLaunchDefault>2160</MinHeightForFirstLaunchDefault>
+  </UISize>
+  
+</UISizeDefs>

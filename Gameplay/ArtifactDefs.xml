@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ArtifactList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ArtifactDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ArtifactDefs.xml -->
+ 
+  <Artifact>
+    <InternalName>DefaultArtifact</InternalName>
+    <DisplayName>DefaultArtifact_Name</DisplayName>
+    <Description>DefaultArtifact_Dec</Description>
+    <ArtDefine>DefaultArtifactArt</ArtDefine>
+
+		<Stats>
+			<EffectType>ProductionPoints</EffectType>
+			<Scope>Global</Scope>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Flat</BonusType>
+			<Value>0.25</Value>
+		</Stats>
+
+		<PerTurnStats>
+			<EffectType>ProductionPoints</EffectType>
+			<Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.25</Value>
+    </PerTurnStats>      
+      
+  </Artifact>
+ 
+</ArtifactList>

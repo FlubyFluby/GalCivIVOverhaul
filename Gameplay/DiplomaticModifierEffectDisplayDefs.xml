@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DiplomaticModifierEffectDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomaticModifierEffectDisplayDefs.xsd">
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <NoMin>1</NoMin>
+      <RangeMin>0</RangeMin>
+      <RangeMax>-5</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_THREE_NEGATIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>-4</RangeMin>
+      <RangeMax>-3</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_TWO_NEGATIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>-2</RangeMin>
+      <RangeMax>-1</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_ONE_NEGATIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>0</RangeMin>
+      <RangeMax>0</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_NONE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+  
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>1</RangeMin>
+      <RangeMax>2</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_ONE_POSITIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>3</RangeMin>
+      <RangeMax>4</RangeMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_TWO_POSITIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+  <DiplomaticModifierEffectDisplayDef>
+    <Range>
+      <RangeMin>5</RangeMin>
+      <RangeMax>0</RangeMax>
+      <NoMax>1</NoMax>
+    </Range>
+    <DisplayString>DIPLOMATIC_MODIFIER_EFFECT_THREE_POSITIVE</DisplayString>
+  </DiplomaticModifierEffectDisplayDef>
+
+</DiplomaticModifierEffectDisplayDefs>

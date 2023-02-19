@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TurnTimeLimits
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../Schema/TurnTimeLimitDef.xsd">
+
+  <TurnTimeLimitDef>
+    <UniqueID>Random</UniqueID>
+    <TurnTime>0</TurnTime>
+  </TurnTimeLimitDef>
+
+  <TurnTimeLimitDef>
+    <UniqueID>VeryShort</UniqueID>
+    <TurnTime>10</TurnTime>
+  </TurnTimeLimitDef>
+
+  <TurnTimeLimitDef>
+    <UniqueID>Short</UniqueID>
+    <TurnTime>15</TurnTime>
+  </TurnTimeLimitDef>
+
+  <TurnTimeLimitDef>
+    <UniqueID>Moderate</UniqueID>
+    <TurnTime>20</TurnTime>
+  </TurnTimeLimitDef>
+
+  <TurnTimeLimitDef>
+    <UniqueID>Long</UniqueID>
+    <TurnTime>30</TurnTime>
+  </TurnTimeLimitDef>
+
+  <TurnTimeLimitDef>
+    <UniqueID>NoLimit</UniqueID>
+    <TurnTime>-1</TurnTime>
+  </TurnTimeLimitDef>
+
+</TurnTimeLimits>

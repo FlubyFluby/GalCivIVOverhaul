@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PrestigeVictoryList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PrestigeVictoryDefs.xsd">
+
+	<PrestigeVictory>
+		<InternalName>PrestigeVictoryDefault</InternalName>
+		<DisplayName>Default</DisplayName>
+		<TotalPointsRequired>1000</TotalPointsRequired>
+		<MilitaryPowerPointsMultiplier>25</MilitaryPowerPointsMultiplier>
+		<MilitaryPowerPointsMin>5</MilitaryPowerPointsMin>
+		<MilitaryPowerPointsMax>75</MilitaryPowerPointsMax>
+		<FactionPowerPointsMultiplier>20</FactionPowerPointsMultiplier>
+		<FactionPowerPointsMin>5</FactionPowerPointsMin>
+		<FactionPowerPointsMax>150</FactionPowerPointsMax>
+		<TechPowerPointsMultiplier>100</TechPowerPointsMultiplier>
+		<TechPowerPointsMin>10</TechPowerPointsMin>
+		<TechPowerPointsMax>150</TechPowerPointsMax>
+		<ManufacturingPointsMultiplier>20</ManufacturingPointsMultiplier>
+		<ManufacturingPointsMin>10</ManufacturingPointsMin>
+		<ManufacturingPointsMax>150</ManufacturingPointsMax>
+		<WealthPointsMultiplier>200</WealthPointsMultiplier>
+		<WealthPointsMin>5</WealthPointsMin>
+		<WealthPointsMax>100</WealthPointsMax>
+		<ResearchPointsMultiplier>100</ResearchPointsMultiplier>
+		<ResearchPointsMin>1</ResearchPointsMin>
+		<ResearchPointsMax>100</ResearchPointsMax>
+		<InfluencePointsMultiplier>50</InfluencePointsMultiplier>
+		<InfluencePointsMin>0</InfluencePointsMin>
+		<InfluencePointsMax>200</InfluencePointsMax>
+		<AscensionPointsMultiplier>50</AscensionPointsMultiplier>
+		<AscensionPointsMin>10</AscensionPointsMin>
+		<AscensionPointsMax>300</AscensionPointsMax>
+		<CitizenPointsMultiplier>50</CitizenPointsMultiplier>
+		<CitizenPointsMax>100</CitizenPointsMax>
+		<UnlockPointsMax>0</UnlockPointsMax>
+		<MissionPointsMax>100</MissionPointsMax>
+		<ImprovementPointsMax>100</ImprovementPointsMax>
+		<GalacticAchievementPointsMax>0</GalacticAchievementPointsMax>
+    <GalacticAchievementPointsCounterName>Counter_GalacticAchievementPrestige</GalacticAchievementPointsCounterName>
+	</PrestigeVictory>
+
+</PrestigeVictoryList>

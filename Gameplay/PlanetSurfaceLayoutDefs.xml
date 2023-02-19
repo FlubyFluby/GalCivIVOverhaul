@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetSurfaceLayoutDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetSurfaceLayoutDef.xsd">
+
+  <!-- empty tile type. this makes the tile usable for random improvements, and defaults to prarie lands -->
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Desert</FeatureDefName>
+    <R>255</R>
+    <G>255</G>
+    <B>0</B>
+  </LayoutTileTypes>
+  
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Plains</FeatureDefName>
+    <R>255</R>
+    <G>255</G>
+    <B>255</B>
+  </LayoutTileTypes>
+  
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Forest</FeatureDefName>
+    <R>0</R>
+    <G>255</G>
+    <B>0</B>
+  </LayoutTileTypes>
+  
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Jungle</FeatureDefName>
+    <R>0</R>
+    <G>255</G>
+    <B>255</B>
+  </LayoutTileTypes>
+
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Tundra</FeatureDefName>
+    <R>0</R>
+    <G>0</G>
+    <B>255</B>
+  </LayoutTileTypes>
+
+  <LayoutTileTypes>
+    <FeatureDefName>Terrain_Mountains</FeatureDefName>
+    <R>255</R>
+    <G>0</G>
+    <B>0</B>
+  </LayoutTileTypes>
+
+  <LayoutAtlasDefs>
+    <InternalName>EARTH_ATLAS</InternalName>
+    <AtlasFile>PlanetTileTemplateAtlas.png</AtlasFile>
+    <Width>1</Width>
+    <Height>1</Height>
+  </LayoutAtlasDefs>
+
+</PlanetSurfaceLayoutDefs>

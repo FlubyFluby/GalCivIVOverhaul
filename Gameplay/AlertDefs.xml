@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AlertDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AlertDefs.xsd">
+
+  <AlertDef>
+    <UniqueID>ShipCompleted</UniqueID>
+    <Icon>GC3_Alert_Ship_Icon.png</Icon>
+    <FormatStringTag>ALERT_ShipCompleted</FormatStringTag>
+	<AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ImprovementCompleted</UniqueID>
+    <Icon>GC3_Alert_Improvment_Icon.png</Icon>
+    <FormatStringTag>ALERT_ImprovementCompleted</FormatStringTag>
+	<AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OthersDeclaredWar</UniqueID>
+    <Icon>GC3_Alert_War_Icon.png</Icon>
+    <FormatStringTag>ALERT_OthersDeclaredWar</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OthersEndedWar</UniqueID>
+    <Icon>GC3_Alert_WarEnd_Icon.png</Icon>
+    <FormatStringTag>ALERT_OthersEndedWar</FormatStringTag>
+    <IsPriority>true</IsPriority>
+	<AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherBuiltGalacticAchievement</UniqueID>
+    <Icon>GC3_Alert_Achievement_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherBuiltGalacticAchievement</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherPutStarbaseInTerritory</UniqueID>
+    <Icon>GC3_Alert_Starbase_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherPutStarbaseInTerritory</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>UPResolutionExpired</UniqueID>
+    <Icon>GC3_Alert_UP_Icon.png</Icon>
+    <FormatStringTag>ALERT_UPResolutionExpired</FormatStringTag>
+    <AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+<!--  <AlertDef>
+    <UniqueID>OtherResearchedVictoryTech</UniqueID>
+    <Icon>GC3_Alert_Tech_Vicotry_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherResearchedVictoryTech</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherGainedAscensionCrystal</UniqueID>
+    <Icon>GC3_Alert_Ascension_Crystal_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherGainedAscensionCrystal</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherGotMajorityAscensionCrystals</UniqueID>
+    <Icon>GC3_Alert_Ascension_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherGotMajorityAscensionCrystals</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherReachedAscensionPoints</UniqueID>
+    <Icon>GC3_Alert_Ascension_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherReachedAscensionPoints</FormatStringTag>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef> -->
+
+  <AlertDef>
+    <UniqueID>AgreementExpired</UniqueID>
+    <Icon>GC3_Alert_Agreement_Expired_Icon.png</Icon>
+    <FormatStringTag>ALERT_AgreementExpired</FormatStringTag>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>AgreementCancelled</UniqueID>
+    <Icon>GC3_Alert_Agreement_Cancelled_Icon.png</Icon>
+    <FormatStringTag>ALERT_AgreementCancelled</FormatStringTag>
+    <IsPriority>true</IsPriority>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>GalacticEventExpired</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_GalacticEventExpired</FormatStringTag>
+    <AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ForeignInZOC</UniqueID>
+    <Icon>GC3_Alert_Tresspass_Icon.png</Icon>
+    <FormatStringTag>ALERT_ForeignInZOC</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>Low</AlertPriority>
+    <AlwaysOpen>true</AlwaysOpen>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>Starvation</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_Starvation</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+<!--  <AlertDef>
+    <UniqueID>OtherBuildingTechVictory</UniqueID>
+    <Icon>GC3_Alert_Tech_Vicotry_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherBuildingTechVictory</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherCloseToAscension</UniqueID>
+    <Icon>GC3_Alert_Ascension_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherCloseToAscension</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef> -->
+
+  <AlertDef>
+    <UniqueID>OtherCloseToInfluenceVictory</UniqueID>
+    <Icon>GC3_Alert_Influence_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherCloseToInfluenceVictory</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherCloseToPrestigeVictory</UniqueID>
+    <Icon>Alert_PrestigeVictory_Icon.png</Icon>
+    <FormatStringTag>ALERT_OtherCloseToPrestigeVictory</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <IsPriority>true</IsPriority>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>UPGoingToMeet</UniqueID>
+    <Icon>GC3_Alert_UP_Icon.png</Icon>
+    <FormatStringTag>ALERT_UPGoingToMeet</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>High</AlertPriority>
+    <AlwaysOpen>true</AlwaysOpen>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ShipyardCannotManufactureShip</UniqueID>
+    <Icon>GC3_Alert_Starbase_Icon.png</Icon>
+    <FormatStringTag>ALERT_ShipyardCannotManufactureShip</FormatStringTag>
+    <IsPriority>true</IsPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>GalacticEventActive</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_GalacticEventActive</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ScenarioObjectiveActive</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_ScenarioObjectiveActive</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>PlayerHiredMercenary</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerHireMercenary</FormatStringTag>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>PlayerKilledMercenary</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerKillMercenary</FormatStringTag>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>AsteroidMiningBaseAttacked</UniqueID>
+    <Icon>GC3_Alert_War_Icon.png</Icon>
+    <FormatStringTag>ALERT_AsteroidMiningBaseAttacked</FormatStringTag>
+	<IsPriority>true</IsPriority>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>AsteroidMiningInfluenceFlipped</UniqueID>
+    <Icon>GC3_Alert_Influence_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_AsteroidMiningInfluenceFlipped</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>CapstoneProjectActive</UniqueID>
+    <Icon>GC3_Alert_Tech_Vicotry_Icon.png</Icon>
+    <FormatStringTag>ALERT_CapstoneActive</FormatStringTag>
+    <AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>CapstoneProjectEnded</UniqueID>
+    <Icon>GC3_Alert_Tech_Vicotry_Icon.png</Icon>
+    <FormatStringTag>ALERT_CapstoneEnded</FormatStringTag>
+    <AlertPriority>Low</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>StolenTech</UniqueID>
+    <Icon>GC3_Alert_EnemyStoleTech_Icon.png</Icon>
+    <FormatStringTag>ALERT_StolenTech</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>AcquiredStolenTech</UniqueID>
+    <Icon>GC3_Alert_PlayerStoleTech_Icon.png</Icon>
+    <FormatStringTag>ALERT_AcquiredStolenTech</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+<!--  <AlertDef>
+    <UniqueID>AdministrationCapped</UniqueID>
+    <Icon>GC3_ALERT_Starbase_Icon.png</Icon>
+    <FormatStringTag>ALERT_AdministrationCapped</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef> -->
+
+
+  <AlertDef>
+    <UniqueID>AgentCountered</UniqueID>
+    <Icon>GC3_Alert_AgentCountered_Icon.png</Icon>
+    <FormatStringTag>ALERT_AgentCountered</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>IncreaseEspionage</UniqueID>
+    <Icon>GC3_Alert_EspionageLevelUp_Icon.png</Icon>
+    <FormatStringTag>ALERT_IncreaseEspionage</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>AnomalySurveyed</UniqueID>
+    <Icon>Alert_Survey.png</Icon>
+    <FormatStringTag>ALERT_AnomalySurveyed</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>MissionComplete</UniqueID>
+    <Icon>GC3_Alert_Ship_Icon.png</Icon>
+    <FormatStringTag>ALERT_MissionComplete</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>PlayerKilledPlayer</UniqueID>
+    <Icon>GC3_Alert_War_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerKilledPlayer</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherChangedGovernment</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerKilledPlayer</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>HyperlaneBuilt</UniqueID>
+    <Icon>GC3_Alert_Event_Icon.png</Icon>
+    <FormatStringTag>Alert_HyperlaneBuilt</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>RandomTechGranted</UniqueID>
+    <Icon>GC3_Alert_Tech_Vicotry_Icon.png</Icon>
+    <FormatStringTag>ALERT_RandomTechResearched</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+	<UniqueID>IdeologyPointAvailable</UniqueID>
+	<Icon>GC3_Alert_Event_Icon.png</Icon>
+	<FormatStringTag>ALERT_IdeologyPointAvailable</FormatStringTag>
+	<IsQuery>true</IsQuery>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+	<UniqueID>LeaderAvailable</UniqueID>
+	<Icon>GC3_Alert_Event_Icon.png</Icon>
+	<FormatStringTag>ALERT_LeaderAvailable</FormatStringTag>
+	<IsQuery>true</IsQuery>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>LostShipsInFleetBattle</UniqueID>
+    <Icon>GC4_Alert_Battle_Icon.png</Icon>
+    <FormatStringTag>ALERT_LostFleetBattle</FormatStringTag>
+    <IsQuery>true</IsQuery>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>WonFleetBattle</UniqueID>
+    <Icon>GC4_Alert_WonBattle_Icon.png</Icon>
+    <FormatStringTag>ALERT_WonFleetBattle</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>BattleParticipation</UniqueID>
+    <Icon>GC4_Alert_WonBattle_Icon.png</Icon>
+    <FormatStringTag>ALERT_BattleParticipation</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>BattleAbilityTargeted</UniqueID>
+    <Icon>GC4_Alert_WonBattle_Icon.png</Icon>
+    <FormatStringTag>ALERT_BattleAbilityTargeted</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>BesiegedPlanet</UniqueID>
+    <Icon>GC3_Alert_War_Icon.png</Icon>
+    <FormatStringTag>ALERT_BesiegedPlanet</FormatStringTag>
+	<IsQuery>true</IsQuery>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ConqueredPlanetWin</UniqueID>
+    <Icon>GC4_Alert_WonBattle_Icon.png</Icon>
+    <FormatStringTag>ALERT_ConqueredPlanetWin</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ConqueredPlanetLoss</UniqueID>
+    <Icon>GC3_Alert_Influence_Victory_Icon.png</Icon>
+    <FormatStringTag>ALERT_ConqueredPlanetLoss</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+	<UniqueID>ShipUpgradeAvailable</UniqueID>
+	<Icon>GC3_Alert_Ship_Icon.png</Icon>
+	<FormatStringTag>ALERT_ShipUpgradeAvailable</FormatStringTag>
+	<IsQuery>true</IsQuery>
+	<AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>StoleCreditsFromRace</UniqueID>
+    <Icon>GC3_Alert_StoleCredits_Icon.png</Icon>
+    <FormatStringTag>ALERT_StoleCreditsFromRace</FormatStringTag>
+    <AlertPriority>High</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>ImminentElection</UniqueID>
+    <Icon>Alert_Election_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerKilledPlayer</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+
+  <AlertDef>
+    <UniqueID>OtherFactionUpgradedGovernment</UniqueID>
+    <Icon>Alert_Election_Icon.png</Icon>
+    <FormatStringTag>ALERT_PlayerKilledPlayer</FormatStringTag>
+    <AlertPriority>Medium</AlertPriority>
+  </AlertDef>
+  
+</AlertDefList>

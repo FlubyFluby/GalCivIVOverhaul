@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UnitStatsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UnitStatsDefs.xsd">
+<!-- Created with the GC4 editor -->
+<!-- UnitGlobalStatDefs.xml -->
+ 
+  <UnitGlobalStats>
+    <UnitType>Citizen</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>AngryCitizen</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>ProtestingCitizen</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>RebelCitizen</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Prisoner</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Consume</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Colonist</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Engineer</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Scientist</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Scientist2</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Entrepreneur</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Entrepreneur2</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Farmer</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Farmer2</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Celebrity</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Celebrity2</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Defender</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Cleric</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>UnassignedLeader</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Ruler</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Leader</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Governor</UnitType>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Diplomat</UnitType>
+    <Stat>
+      <EffectType>DiplomaticCapitalIncome</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stat>
+  </UnitGlobalStats>
+
+  <UnitGlobalStats>
+    <UnitType>Commander</UnitType>
+    <Stat>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>1</ValueParam>
+        <StringParam>Diligence</StringParam>
+      </SpecialValue>
+    </Stat>
+    <Stat>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>Resolve</StringParam>
+      </SpecialValue>
+    </Stat>
+    <Stat>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>Resolve</StringParam>
+      </SpecialValue>
+    </Stat>
+    <Stat>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>Resolve</StringParam>
+      </SpecialValue>
+    </Stat>
+  </UnitGlobalStats>
+
+</UnitStatsList>

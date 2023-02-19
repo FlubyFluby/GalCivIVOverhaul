@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipSelectSFXList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionShipSelectSFXDefs.xsd">
+	<!-- FactionShipSelectSFXDefs.xml -->
+	<ShipSelectSFXDef>
+		<FactionDef>FACTION_SPACEMONSTERS</FactionDef>
+		<HullSFX>
+			<HullType>Tiny</HullType>
+			<SFXDef>ESCORT_ONCLICK</SFXDef>
+		</HullSFX>
+		<HullSFX>
+			<HullType>Small</HullType>
+			<SFXDef>ASSAULT_ONCLICK</SFXDef>
+		</HullSFX>
+		<HullSFX>
+			<HullType>Medium</HullType>
+			<SFXDef>SENTINEL_ONCLICK</SFXDef>
+		</HullSFX>
+		<HullSFX>
+			<HullType>Large</HullType>
+			<SFXDef>DEFENDER_ONCLICK</SFXDef>
+		</HullSFX>
+	</ShipSelectSFXDef>
+</ShipSelectSFXList>

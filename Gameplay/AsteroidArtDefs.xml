@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AsteroidArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AsteroidArtDefs.xsd">
+
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_01</InternalName>
+		<MaterialID1>Ship_Material_02</MaterialID1>
+		<MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_02</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_03</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+		<StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_04</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_05</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_06</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+		<StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_07</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+	
+	<ArtDefine>
+		<InternalName>AsteroidArtDef_08</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>AsteroidParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+
+
+	<ArtDefine>
+		<InternalName>DurantiumAsteroidArtDef_01</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>RallyPointParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_Durantium_01.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+		
+	<ArtDefine>
+		<InternalName>DurantiumAsteroidArtDef_02</InternalName>
+    <MaterialID1>Ship_Material_02</MaterialID1>
+    <MaterialID2>Ship_Material_02</MaterialID2>
+		<SubMaterialID1>Default_Surface_01</SubMaterialID1>
+		<SubMaterialID2>Default_Surface_04</SubMaterialID2>
+		<AppearanceID>Appearance_Asteroid</AppearanceID>
+    <StrategicIconColorDefine>AsteroidsColor</StrategicIconColorDefine>
+		<ParticleEffectScript>RallyPointParticleEffect</ParticleEffectScript>
+		<ObjectGfxConfig>Asteroids_Durantium_02.objgfxcfg</ObjectGfxConfig>
+	</ArtDefine>
+		
+</AsteroidArtList>

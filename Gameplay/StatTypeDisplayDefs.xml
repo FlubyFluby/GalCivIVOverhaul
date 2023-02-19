@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StatTypeDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StatTypeDisplayDefs.xsd">
+
+  <StatTypeDisplayDef>
+    <UniqueID>EscapeAbility</UniqueID>
+    <DisplayName>STATNAME_EscapeAbility</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EscapeChance</UniqueID>
+    <DisplayName>STATNAME_EscapeChance</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>AdministratorCount</UniqueID>
+    <DisplayName>STATNAME_AdministratorCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EngineerCount</UniqueID>
+    <DisplayName>STATNAME_EngineerCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ScientistCount</UniqueID>
+    <DisplayName>STATNAME_ScientistCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EntrepreneurCount</UniqueID>
+    <DisplayName>STATNAME_EntrepreneurCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>FarmerCount</UniqueID>
+    <DisplayName>STATNAME_FarmerCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EntertainerCount</UniqueID>
+    <DisplayName>STATNAME_EntertainerCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>SoldierCount</UniqueID>
+    <DisplayName>STATNAME_SoldierCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ClericCount</UniqueID>
+    <DisplayName>STATNAME_ClericCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PrisonerCount</UniqueID>
+    <DisplayName>STATNAME_PrisonerCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>WarProfitMult</UniqueID>
+    <DisplayName>STATNAME_WarProfitMult</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ExpBonus</UniqueID>
+    <DisplayName>STATNAME_ExpBonus</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Deception</UniqueID>
+    <DisplayName>STATNAME_Deception</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Intimidation</UniqueID>
+    <DisplayName>STATNAME_Intimidation</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Persuasion</UniqueID>
+    <DisplayName>STATNAME_Persuasion</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ColonyApproval</UniqueID>
+    <DisplayName>STATNAME_ColonyApproval</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>RandomTechSlots</UniqueID>
+    <DisplayName>STATNAME_RandomTechSlots</DisplayName>
+    <Description>STATDESC_RandomTechSlots</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>CanBuildAsteroidMiningBase</UniqueID>
+		<DisplayName>STATNAME_CanBuildAsteroidMiningBase</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>FactionPower</UniqueID>
+		<DisplayName>STATNAME_FactionPower</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>EconomicPower</UniqueID>
+		<DisplayName>STATNAME_EconomicPower</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MilitaryPower</UniqueID>
+		<DisplayName>STATNAME_MilitaryPower</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TechPower</UniqueID>
+		<DisplayName>STATNAME_TechPower</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PlanetClass</UniqueID>
+		<DisplayName>STATNAME_PlanetClass</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsHomeworld</UniqueID>
+		<DisplayName>STATNAME_IsHomeworld</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsCapital</UniqueID>
+		<DisplayName>STATNAME_IsCapital</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Credits</UniqueID>
+		<DisplayName>STATNAME_Credits</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Approval</UniqueID>
+		<DisplayName>STATNAME_Approval</DisplayName>
+    <Description>STATDEC_Approval</Description>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>GoodsAndServices</UniqueID>
+		<DisplayName>STATNAME_GoodsAndServices</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Manufacturing</UniqueID>
+		<DisplayName>STATNAME_Manufacturing</DisplayName>
+    <Description>STATDESCRIPTION_Manufacturing</Description>
+  </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ManufacturingOverflow</UniqueID>
+        <DisplayName>STATNAME_ManufacturingOverflow</DisplayName>
+        <Description>STATDEC_ManufacturingOverflow</Description>
+    </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Military</UniqueID>
+		<DisplayName>STATNAME_Military</DisplayName>
+    <Description>STATDEC_Military</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Research</UniqueID>
+		<DisplayName>STATNAME_Research</DisplayName>
+    <Description>STATDEC_Research</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MaxManufacturing</UniqueID>
+		<DisplayName>STATNAME_MaxManufacturing</DisplayName>
+    <Description>STATDESCRIPTION_Manufacturing</Description>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Administration</UniqueID>
+    <DisplayName>STATNAME_Administration</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>AdministrationAwarded</UniqueID>
+    <DisplayName>STATNAME_Administration</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>AdministrationUsage</UniqueID>
+    <DisplayName>STATNAME_Administration</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EmporiumFavor</UniqueID>
+    <DisplayName>STATNAME_EmporiumFavor</DisplayName>
+    <Description>STATDEC_EmporiumFavor</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>NaturalLeagueFavor</UniqueID>
+    <DisplayName>STATNAME_NaturalLeagueFavor</DisplayName>
+    <Description>STATDEC_NaturalLeagueFavor</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>WarforgedFavor</UniqueID>
+    <DisplayName>STATNAME_WarforgedFavor</DisplayName>
+    <Description>STATDEC_WarforgedFavor</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CulturePoints</UniqueID>
+    <DisplayName>STATNAME_CulturePoints</DisplayName>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+		<UniqueID>InfluencePerTurn</UniqueID>
+		<DisplayName>STATNAME_InfluencePerTurn</DisplayName>
+    <Description>STATDEC_InfluencePerTurn</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CulturePerTurnBenevolent</UniqueID>
+		<DisplayName>STATNAME_CulturePerTurnBenevolent</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CulturePerTurnNeutral</UniqueID>
+		<DisplayName>STATNAME_CulturePerTurnNeutral</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CulturePerTurnMerciless</UniqueID>
+		<DisplayName>STATNAME_CulturePerTurnMerciless</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Mining</UniqueID>
+		<DisplayName>STATNAME_Mining</DisplayName>
+    	<Description>STATDEC_Mining</Description>
+	</StatTypeDisplayDef>
+
+
+	<StatTypeDisplayDef>
+		<UniqueID>ColonyGrossIncome</UniqueID>
+		<DisplayName>STATNAME_ColonyGrossIncome</DisplayName>
+    	<Description>STATDEC_ColonyGrossIncome</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ColonyTaxRevenue</UniqueID>
+		<DisplayName>STATNAME_ColonyTaxRevenue</DisplayName>
+    		<Description>STATDEC_ColonyTaxRevenue</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ProductionPoints</UniqueID>
+		<DisplayName>STATNAME_ProductionPoints</DisplayName>
+    <Description>STATDEC_ProductionPoints</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PreviousTurnProductionPoints</UniqueID>
+		<DisplayName>STATNAME_PreviousTurnProductionPoints</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Influence</UniqueID>
+		<DisplayName>STATNAME_Influence</DisplayName>
+    <Description>STATDEC_Influence</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>InfluenceTally</UniqueID>
+		<DisplayName>STATNAME_InfluenceTally</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Growth</UniqueID>
+		<DisplayName>STATNAME_Growth</DisplayName>
+		<Description>STATDEC_Growth</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Tourism</UniqueID>
+		<DisplayName>STATNAME_Tourism</DisplayName>
+    <Description>STATDEC_Tourism</Description>
+    <IsPercentage>true</IsPercentage>
+    <ForceSigned>false</ForceSigned>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Food</UniqueID>
+		<DisplayName>STATNAME_Food</DisplayName>
+    <Description>STATDEC_Food</Description>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>FoodIncome</UniqueID>
+    <DisplayName>STATNAME_Food</DisplayName>
+    <Description>STATDEC_Food</Description>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>FoodCost</UniqueID>
+    <DisplayName>STATNAME_Food_Cost</DisplayName>
+    <Description>STATDEC_Food</Description>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>FoodNet</UniqueID>
+    <DisplayName>STATNAME_Food</DisplayName>
+    <Description>STATDEC_Food</Description>
+  </StatTypeDisplayDef>
+  
+	<StatTypeDisplayDef>
+		<UniqueID>ColonyNetIncome</UniqueID>
+		<DisplayName>STATNAME_ColonyNetIncome</DisplayName>
+    <Description>STATDESCRIPTION_ColonyNetIncome</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ColonySpending</UniqueID>
+		<DisplayName>STATNAME_ColonySpending</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CreditsSpending</UniqueID>
+		<DisplayName>STATNAME_CreditSpending</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CreditsPerTurn</UniqueID>
+		<DisplayName>STATNAME_CreditsPerTurn</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>GrossCreditsPerTurn</UniqueID>
+    <DisplayName>STATNAME_GrossCreditsPerTurn</DisplayName>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Population</UniqueID>
+		<DisplayName>STATNAME_Population</DisplayName>
+    <Description>STATDESCRIPTION_Population</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PopulationCap</UniqueID>
+		<DisplayName>STATNAME_PopulationCap</DisplayName>
+    <Description>STATDESC_PopulationCap</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>SyntheticLife</UniqueID>
+		<DisplayName>STATNAME_SyntheticLife</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EngineersAbility</UniqueID>
+    <DisplayName>STATNAME_EngineersAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>UnrelentingAbility</UniqueID>
+    <DisplayName>STATNAME_UnrelentingAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>AncientAbility</UniqueID>
+    <DisplayName>STATNAME_AncientAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>EntrepreneursAbility</UniqueID>
+    <DisplayName>STATNAME_EntrepreneursAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PatrioticAbility</UniqueID>
+    <DisplayName>STATNAME_PatrioticAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanColonizeExtremeWorld</UniqueID>
+		<DisplayName>STATNAME_CanColonizeExtremeWorld</DisplayName>
+	</StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+		<UniqueID>PopulationCapYor</UniqueID>
+		<DisplayName>STATNAME_PopulationCapYor</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>GrowthYor</UniqueID>
+		<DisplayName>STATNAME_GrowthYor</DisplayName>
+	</StatTypeDisplayDef>
+
+
+	<StatTypeDisplayDef>
+		<UniqueID>OperationsPoints</UniqueID>
+		<DisplayName>STATNAME_OperationsPoints</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PlanetaryBombardment</UniqueID>
+		<DisplayName>STATNAME_PlanetaryBombardment</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PlanetaryDefense</UniqueID>
+		<DisplayName>STATNAME_PlanetaryDefense</DisplayName>
+    <Description>STATDEC_PlanetaryDefense</Description>
+    <IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ResistanceBonus</UniqueID>
+    <DisplayName>STATNAME_ResistanceBonus</DisplayName>
+    <Description>STATDEC_ResistanceBonus</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PlanetaryDefensesHP</UniqueID>
+    <DisplayName>STATNAME_PlanetaryDefensesHP</DisplayName>
+    <Description>STATDEC_PlanetaryDefensesHP</Description>
+    <IsPercentage>false</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PlanetaryDefensesMaxHP</UniqueID>
+    <DisplayName>STATNAME_PlanetaryDefensesMaxHP</DisplayName>
+    <Description>STATDEC_PlanetaryDefensesMaxHP</Description>
+    <IsPercentage>false</IsPercentage>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>PlanetaryDefensesRepairAbility</UniqueID>
+    <DisplayName>STATNAME_PlanetaryDefensesRepairAbility</DisplayName>
+    <Description>STATDEC_PlanetaryDefensesRepairAbility</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>TotalShipAttack</UniqueID>
+    <DisplayName>STATNAME_TotalShipAttack</DisplayName>
+    <Description>STATDEC_TotalShipAttack</Description>
+  </StatTypeDisplayDef>
+    
+	<StatTypeDisplayDef>
+		<UniqueID>CanBeSurveyed</UniqueID>
+		<DisplayName>STATNAME_CanBeSurveyed</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanTourism</UniqueID>
+		<DisplayName>STATNAME_CanTourism</DisplayName>
+		<IsBoolean>true</IsBoolean>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AssaultFighters</UniqueID>
+		<DisplayName>STATNAME_AssaultFighters</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AssaultFightersCap</UniqueID>
+		<DisplayName>STATNAME_AssaultFightersCap</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>InterceptorFighters</UniqueID>
+		<DisplayName>STATNAME_InterceptorFighters</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>InterceptorFightersCap</UniqueID>
+		<DisplayName>STATNAME_InterceptorFightersCap</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>EscortFighters</UniqueID>
+		<DisplayName>STATNAME_EscortFighters</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>EscortFightersCap</UniqueID>
+		<DisplayName>STATNAME_EscortFighters</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>GuardianFighters</UniqueID>
+		<DisplayName>STATNAME_GaurdianFighters</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>GuardianFightersCap</UniqueID>
+		<DisplayName>STATNAME_GaurdianFightersCap</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TradeLicensesMax</UniqueID>
+		<DisplayName>STATNAME_TradeLicensesMax</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TradeLicensesUsed</UniqueID>
+		<DisplayName>STATNAME_TradeLicensesUsed</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TradeRouteIncome</UniqueID>
+		<DisplayName>STATNAME_TradeRouteIncome</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>RaidIncome</UniqueID>
+		<DisplayName>STATNAME_RaidIncome</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>UseLocalSliders</UniqueID>
+		<DisplayName>STATNAME_UseLocalSliders</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Diplomacy</UniqueID>
+		<DisplayName>STATNAME_Diplomacy</DisplayName>
+    <Description>STATDESC_Diplomacy</Description>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DiplomaticCapital</UniqueID>
+    <DisplayName>STATNAME_DiplomaticCapital</DisplayName>
+    <Description>STATDESC_DiplomaticCapital</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DiplomaticCapitalCost</UniqueID>
+    <DisplayName>STATNAME_DiplomaticCapitalCost</DisplayName>
+    <Description>STATDESC_DiplomaticCapitalCost</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DiplomaticCapitalIncome</UniqueID>
+    <DisplayName>STATNAME_DiplomaticCapitalIncome</DisplayName>
+    <Description>STATDESC_DiplomaticCapitalIncome</Description>
+  </StatTypeDisplayDef>
+  
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomacyBenevolent</UniqueID>
+		<DisplayName>STATNAME_DiplomacyBenevolent</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomacyNeutral</UniqueID>
+		<DisplayName>STATNAME_DiplomacyNeutral</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomacyMerciless</UniqueID>
+		<DisplayName>STATNAME_DiplomacyMerciless</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomacyTradeRouteWeight</UniqueID>
+		<DisplayName>STATNAME_DiplomacyTradeRouteWeight</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomacySharedBordersWeight</UniqueID>
+		<DisplayName>STATNAME_DiplomacySharedBordersWeight</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ImmuneToWar</UniqueID>
+		<DisplayName>STATNAME_ImmuneToWar</DisplayName>
+		<IsBoolean>true</IsBoolean>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ImmuneToCultureFlip</UniqueID>
+		<DisplayName>STATNAME_ImmuneToCultureFlip</DisplayName>
+		<IsBoolean>true</IsBoolean>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AngersOthersWhenWarVictimWeight</UniqueID>
+		<DisplayName>STATNAME_AngersOthersWhenWarVictimWeight</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AlliesNeutralRaces</UniqueID>
+		<DisplayName>STATNAME_AlliesNeutralRaces</DisplayName>
+		<IsBoolean>true</IsBoolean>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomaticTradeOfferValueMult</UniqueID>
+		<DisplayName>STATNAME_DiplomaticTradeOfferValueMult</DisplayName>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DiplomaticTradeOfferValueMultMinors</UniqueID>
+		<DisplayName>STATNAME_DiplomaticTradeOfferValueMultMinors</DisplayName>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Favored</UniqueID>
+		<DisplayName>STATNAME_Favored</DisplayName>
+		<IsBoolean>true</IsBoolean>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>UnlimitedRange</UniqueID>
+    <DisplayName>STATNAME_UnlimitedRange</DisplayName>
+    <IsBoolean>true</IsBoolean>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Elerium</UniqueID>
+		<DisplayName>STATNAME_Elerium</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Durantium</UniqueID>
+		<DisplayName>STATNAME_Durantium</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Antimatter</UniqueID>
+		<DisplayName>STATNAME_Antimatter</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Promethion</UniqueID>
+		<DisplayName>STATNAME_Promethion</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Thulium</UniqueID>
+		<DisplayName>STATNAME_Thulium</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>EleriumCost</UniqueID>
+		<DisplayName>STATNAME_EleriumCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DurantiumCost</UniqueID>
+		<DisplayName>STATNAME_DurantiumCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AntimatterCost</UniqueID>
+		<DisplayName>STATNAME_AntimatterCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PromethionCost</UniqueID>
+		<DisplayName>STATNAME_PromethionCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ThuliumCost</UniqueID>
+		<DisplayName>STATNAME_ThuliumCost</DisplayName>
+	</StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>EleriumIncome</UniqueID>
+        <DisplayName>STATNAME_EleriumIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>DurantiumIncome</UniqueID>
+        <DisplayName>STATNAME_DurantiumIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>AntimatterIncome</UniqueID>
+        <DisplayName>STATNAME_AntimatterIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PromethionIncome</UniqueID>
+        <DisplayName>STATNAME_PromethionIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ThuliumIncome</UniqueID>
+        <DisplayName>STATNAME_ThuliumIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>EleriumNet</UniqueID>
+		<DisplayName>STATNAME_EleriumNet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DurantiumNet</UniqueID>
+		<DisplayName>STATNAME_DurantiumNet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AntimatterNet</UniqueID>
+		<DisplayName>STATNAME_AntimatterNet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PromethionNet</UniqueID>
+		<DisplayName>STATNAME_PromethionNet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ThuliumNet</UniqueID>
+		<DisplayName>STATNAME_ThuliumNet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AscensionPoints</UniqueID>
+		<DisplayName>STATNAME_AscensionPoints</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AscensionPointsPerTurn</UniqueID>
+		<DisplayName>STATNAME_AscensionPointsPerTurn</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TechVictoryPoints</UniqueID>
+		<DisplayName>STATNAME_TechVictoryPoints</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>HitPoints</UniqueID>
+		<DisplayName>STATNAME_HitPoints</DisplayName>
+    <Description>STATDEC_HitPoints</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>HitPointsCap</UniqueID>
+		<DisplayName>STATNAME_HitPointsCap</DisplayName>
+    <Description>STATDEC_HitPoints</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>StrategicRepair</UniqueID>
+		<DisplayName>STATNAME_StrategicRepair</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TacticalRepair</UniqueID>
+		<DisplayName>STATNAME_TacticalRepair</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ExpPoints</UniqueID>
+		<DisplayName>STATNAME_ExpPoints</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ExpPointsCap</UniqueID>
+		<DisplayName>STATNAME_ExpPointsCap</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Mass</UniqueID>
+		<DisplayName>STATNAME_Mass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ArmorMass</UniqueID>
+		<DisplayName>STATNAME_ArmorMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShieldMass</UniqueID>
+		<DisplayName>STATNAME_ShieldMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PointMass</UniqueID>
+		<DisplayName>STATNAME_PointMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamMass</UniqueID>
+		<DisplayName>STATNAME_BeamMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileMass</UniqueID>
+		<DisplayName>STATNAME_MissileMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticMass</UniqueID>
+		<DisplayName>STATNAME_KineticMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShipRangeMass</UniqueID>
+		<DisplayName>STATNAME_ShipRangeMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>SupportMass</UniqueID>
+		<DisplayName>STATNAME_SupportMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MovesCapMass</UniqueID>
+		<DisplayName>STATNAME_MovesCapMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>SensorRangeMass</UniqueID>
+		<DisplayName>STATNAME_SensorRangeMass</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MassCap</UniqueID>
+		<DisplayName>STATNAME_MassCap</DisplayName>
+    <Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Logistics</UniqueID>
+		<DisplayName>STATNAME_Logistics</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>LogisticsCap</UniqueID>
+		<DisplayName>STATNAME_LogisticsCap</DisplayName>
+    <Description>STATDESC_Logistics</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Moves</UniqueID>
+		<DisplayName>STATNAME_Moves</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MovesCap</UniqueID>
+		<DisplayName>STATNAME_MovesCap</DisplayName>
+    <Description>STATDESC_MovesCap</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TacticalSpeed</UniqueID>
+		<DisplayName>STATNAME_TacticalSpeed</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Acceleration</UniqueID>
+		<DisplayName>STATNAME_Acceleration</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>DefenseRange</UniqueID>
+		<DisplayName>STATNAME_DefenseRange</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Level</UniqueID>
+		<DisplayName>STATNAME_Level</DisplayName>
+    <Description>STATDEC_Level</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>AdjacencyOnlyLevel</UniqueID>
+		<DisplayName>STATNAME_AdjacencyOnlyLevel</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Crew</UniqueID>
+		<DisplayName>STATNAME_Crew</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CreditValue</UniqueID>
+		<DisplayName>STATNAME_CreditValue</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_ManufacturingCost</DisplayName>
+    <Description>STATDESC_ManufacturingCost</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ArmorManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_ArmorManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShieldManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_ShieldManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PointManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_PointManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_BeamManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_MissileManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_KineticManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShipRangeManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_ShipRangeManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MovesCapManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_MovesCapManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>SensorRangeManufacturingCost</UniqueID>
+		<DisplayName>STATNAME_SensorRangeManufacturingCost</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Maintenance</UniqueID>
+		<DisplayName>STATNAME_Maintenance</DisplayName>
+    <Description>STATDEC_Maintenance</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShipMaintenance</UniqueID>
+		<DisplayName>STATNAME_ShipMaintenance</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>StarbaseMaintenance</UniqueID>
+		<DisplayName>STATNAME_StarbaseMaintenance</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PolicyMaintenance</UniqueID>
+    <DisplayName>STATNAME_PolicyMaintenance</DisplayName>
+    <Description>StatDesc_PolicyMaintenance</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>SensorRange</UniqueID>
+		<DisplayName>STATNAME_SensorRange</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>SensorPower</UniqueID>
+    <DisplayName>STATNAME_SensorPower</DisplayName>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ModuleConstructionPoints</UniqueID>
+		<DisplayName>STATNAME_ModuleConstructionPoints</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ModuleConstructionPointsCap</UniqueID>
+		<DisplayName>STATNAME_ModuleConstructionPointsCap</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanDetectCloak</UniqueID>
+		<DisplayName>STATNAME_CanDetectCloak</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanCloak</UniqueID>
+		<DisplayName>STATNAME_CanCloak</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanSurvey</UniqueID>
+		<DisplayName>STATNAME_CanSurvey</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanUpgrade</UniqueID>
+    <DisplayName>STATNAME_CanUpgrade</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>CanColonize</UniqueID>
+		<DisplayName>STATNAME_CanColonize</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanConstruct</UniqueID>
+		<DisplayName>STATNAME_CanConstruct</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IsImmuneToRange</UniqueID>
+    <DisplayName>STATNAME_IsImmuneToRange</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>CanCreateTradeRoute</UniqueID>
+		<DisplayName>STATNAME_CanCreateTradeRoute</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanInvade</UniqueID>
+		<DisplayName>STATNAME_CanInvade</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>LegionsAvailable</UniqueID>
+    <DisplayName>STATNAME_LegionsAvailable</DisplayName>
+    <Description>STATDEC_LegionsAvailable</Description>
+  </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanSalvage</UniqueID>
+		<DisplayName>STATNAME_CanSalvage</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>CanGenocidePlanet</UniqueID>
+		<DisplayName>STATNAME_CanGenocidePlanet</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToNebula</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToNebula</DisplayName>
+	</StatTypeDisplayDef>
+	
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion1</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion1</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion2</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion2</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion3</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion3</DisplayName>
+	</StatTypeDisplayDef>
+	
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion4</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion4</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion5</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion5</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShipRange</UniqueID>
+		<DisplayName>STATNAME_ShipRange</DisplayName>
+		<Description>STATDESC_ShipRange</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Accuracy</UniqueID>
+		<DisplayName>STATNAME_Accuracy</DisplayName>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Jamming</UniqueID>
+		<DisplayName>STATNAME_Jamming</DisplayName>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamWeapon</UniqueID>
+		<DisplayName>STATNAME_BeamWeapon</DisplayName>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticWeapon</UniqueID>
+		<DisplayName>STATNAME_KineticWeapon</DisplayName>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileWeapon</UniqueID>
+		<DisplayName>STATNAME_MissileWeapon</DisplayName>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShieldDamageWeapon</UniqueID>
+		<DisplayName>STATNAME_ShieldDamageWeapon</DisplayName>
+		<IsPercentage>true</IsPercentage>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ArmorDamageWeapon</UniqueID>
+		<DisplayName>STATNAME_ArmorDamageWeapon</DisplayName>
+		<IsPercentage>true</IsPercentage>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PointDamageWeapon</UniqueID>
+		<DisplayName>STATNAME_PointDamageWeapon</DisplayName>
+		<IsPercentage>true</IsPercentage>
+		<Hide>true</Hide>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamRange</UniqueID>
+		<DisplayName>STATNAME_BeamRange</DisplayName>
+    <StatValueFlavorDef>WeaponRangeValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticRange</UniqueID>
+		<DisplayName>STATNAME_KineticRange</DisplayName>
+    <StatValueFlavorDef>WeaponRangeValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileRange</UniqueID>
+		<DisplayName>STATNAME_MissileRange</DisplayName>
+    <StatValueFlavorDef>WeaponRangeValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamCooldown</UniqueID>
+		<DisplayName>STATNAME_BeamCooldown</DisplayName>
+    <StatValueFlavorDef>WeaponCooldownValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticCooldown</UniqueID>
+		<DisplayName>STATNAME_KineticCooldown</DisplayName>
+    <StatValueFlavorDef>WeaponCooldownValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileCooldown</UniqueID>
+		<DisplayName>STATNAME_MissileCooldown</DisplayName>
+    <StatValueFlavorDef>WeaponCooldownValueFlavor</StatValueFlavorDef>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamAccuracy</UniqueID>
+		<DisplayName>STATNAME_BeamAccuracy</DisplayName>
+    <IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticAccuracy</UniqueID>
+		<DisplayName>STATNAME_KineticAccuracy</DisplayName>
+    <IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileAccuracy</UniqueID>
+		<DisplayName>STATNAME_MissileAccuracy</DisplayName>
+    <IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>BeamAttack</UniqueID>
+		<DisplayName>STATNAME_BeamAttack</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>KineticAttack</UniqueID>
+		<DisplayName>STATNAME_KineticAttack</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MissileAttack</UniqueID>
+		<DisplayName>STATNAME_MissileAttack</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IgnoreShield</UniqueID>
+		<DisplayName>STATNAME_IgnoreShield</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IgnoreArmor</UniqueID>
+		<DisplayName>STATNAME_IgnoreArmor</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IgnorePoint</UniqueID>
+		<DisplayName>STATNAME_IgnorePoint</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ShieldStrength</UniqueID>
+		<DisplayName>STATNAME_ShieldStrength</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ArmorRating</UniqueID>
+		<DisplayName>STATNAME_ArmorRating</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PointDefense</UniqueID>
+		<DisplayName>STATNAME_PointDefense</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Threat</UniqueID>
+    <DisplayName>STATNAME_Threat</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Fortitude</UniqueID>
+    <DisplayName>STATNAME_Fortitude</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Value</UniqueID>
+    <DisplayName>STATNAME_Value</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>StarbaseRange</UniqueID>
+		<DisplayName>STATNAME_StarbaseRange</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MoveCost</UniqueID>
+		<DisplayName>STATNAME_MoveCost</DisplayName>
+	</StatTypeDisplayDef>
+
+
+	<StatTypeDisplayDef>
+		<UniqueID>Soldiering</UniqueID>
+		<DisplayName>STATNAME_Soldiering</DisplayName>
+    <IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TradeRouteValueRaw</UniqueID>
+		<DisplayName>STATNAME_TradeRouteValueRaw</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TradeRouteValue</UniqueID>
+		<DisplayName>STATNAME_TradeRouteValue</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>RaidBonus</UniqueID>
+		<DisplayName>STATNAME_RaidBonus</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>RaidValue</UniqueID>
+		<DisplayName>STATNAME_RaidValue</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsInitiator</UniqueID>
+		<DisplayName>STATNAME_IsInitiator</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>ModifierValue</UniqueID>
+		<DisplayName>STATNAME_ModifierValue</DisplayName>
+    <Description>STATDESC_ModifierValue</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>SponsorDecay</UniqueID>
+		<DisplayName>STATNAME_SponsorDecay</DisplayName>
+	</StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+      <UniqueID>LeaderMaxRecruits</UniqueID>
+      <DisplayName>STATNAME_LeaderMaxRecruits</DisplayName>
+      <Description>STATDESC_LeaderMaxRecruits</Description>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+      <UniqueID>LeaderCostModify</UniqueID>
+      <DisplayName>STATNAME_LeaderCostModify</DisplayName>
+      <Description>STATDESC_LeaderCostModify</Description>
+      <IsPercentage>true</IsPercentage>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+      <UniqueID>LeaderTraitChance</UniqueID>
+      <DisplayName>STATNAME_LeaderTraitChance</DisplayName>
+    </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+		<UniqueID>RebellionPointsMax</UniqueID>
+		<DisplayName>STATNAME_RebellionPointsMax</DisplayName>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DroneCount</UniqueID>
+    <DisplayName>STATNAME_DroneCount</DisplayName>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ScavengersAbility</UniqueID>
+    <DisplayName>STATNAME_ScavengersAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ScavengersChance</UniqueID>
+    <DisplayName>STATNAME_ScavengersChance</DisplayName>
+		<IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ArchivistAbility</UniqueID>
+    <DisplayName>STATNAME_AchivistAbility</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Coercion</UniqueID>
+    <DisplayName>STATNAME_Coercion</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>BeamDamageReduction</UniqueID>
+    <DisplayName>STATNAME_BeamDamageReduction</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>MissileDamageReduction</UniqueID>
+    <DisplayName>STATNAME_MissileDamageReduction</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>KineticDamageReduction</UniqueID>
+    <DisplayName>STATNAME_KineticDamageReduction</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IsImmuneToPirates</UniqueID>
+    <DisplayName>STATNAME_IsImmuneToPirates</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanRespawnOnTradeRouteDeath</UniqueID>
+    <DisplayName>STATNAME_CanRespawnOnTradeRouteDeath</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanColonizeDeadWorld</UniqueID>
+    <DisplayName>STATNAME_CanColonizeDeadWorld</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>MovesCapOverride</UniqueID>
+    <DisplayName>STATNAME_MovesCapOverride</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ShipRangeOverride</UniqueID>
+    <DisplayName>STATNAME_ShipRangeOverride</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanColonizeAquaticWorld</UniqueID>
+    <DisplayName>STATNAME_CanColonizeAquaticWorld</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ExpValue</UniqueID>
+        <DisplayName>STATNAME_ExpValue</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>UltraSpice</UniqueID>
+        <DisplayName>STATNAME_UltraSpice</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>UltraSpiceCost</UniqueID>
+        <DisplayName>STATNAME_UltraSpiceCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>UltraSpiceIncome</UniqueID>
+        <DisplayName>STATNAME_UltraSpiceIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>EpimetheusPollen</UniqueID>
+        <DisplayName>STATNAME_EpimetheusPollen</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>EpimetheusPollenCost</UniqueID>
+        <DisplayName>STATNAME_EpimetheusPollenCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>EpimetheusPollenIncome</UniqueID>
+        <DisplayName>STATNAME_EpimetheusPollenIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HeliosOre</UniqueID>
+        <DisplayName>STATNAME_HeliosOre</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HeliosOreCost</UniqueID>
+        <DisplayName>STATNAME_HeliosOreCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HeliosOreIncome</UniqueID>
+        <DisplayName>STATNAME_HeliosOreIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ThuliumCatalyst</UniqueID>
+        <DisplayName>STATNAME_ThuliumCatalyst</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ThuliumCatalystCost</UniqueID>
+        <DisplayName>STATNAME_ThuliumCatalystCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ThuliumCatalystIncome</UniqueID>
+        <DisplayName>STATNAME_ThuliumCatalystIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>TechapodHive</UniqueID>
+        <DisplayName>STATNAME_TechapodHive</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>TechapodHiveCost</UniqueID>
+        <DisplayName>STATNAME_TechapodHiveCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>TechapodHiveIncome</UniqueID>
+        <DisplayName>STATNAME_TechapodHiveIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ArtocarpusViriles</UniqueID>
+        <DisplayName>STATNAME_ArtocarpusViriles</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ArtocarpusVirilesCost</UniqueID>
+        <DisplayName>STATNAME_ArtocarpusVirilesCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>ArtocarpusVirilesIncome</UniqueID>
+        <DisplayName>STATNAME_ArtocarpusVirilesIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>MonsatiumDeposit</UniqueID>
+        <DisplayName>STATNAME_MonsatiumDeposit</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>MonsatiumDepositCost</UniqueID>
+        <DisplayName>STATNAME_MonsatiumDepositCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>MonsatiumDepositIncome</UniqueID>
+        <DisplayName>STATNAME_MonsatiumDepositIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>CrystallizedElerium</UniqueID>
+        <DisplayName>STATNAME_CrystallizedElerium</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>CrystallizedEleriumCost</UniqueID>
+        <DisplayName>STATNAME_CrystallizedEleriumCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>CrystallizedEleriumIncome</UniqueID>
+        <DisplayName>STATNAME_CrystallizedEleriumIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>XanthiumDeposit</UniqueID>
+        <DisplayName>STATNAME_XanthiumDeposit</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>XanthiumDepositCost</UniqueID>
+        <DisplayName>STATNAME_XanthiumDepositCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>XanthiumDepositIncome</UniqueID>
+        <DisplayName>STATNAME_XanthiumDepositIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>AurorusArboretum</UniqueID>
+        <DisplayName>STATNAME_AurorusArboretum</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>AurorusArboretumCost</UniqueID>
+        <DisplayName>STATNAME_AurorusArboretumCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>AurorusArboretumIncome</UniqueID>
+        <DisplayName>STATNAME_AurorusArboretumIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrometheusStone</UniqueID>
+        <DisplayName>STATNAME_PrometheusStone</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrometheusStoneCost</UniqueID>
+        <DisplayName>STATNAME_PrometheusStoneCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrometheusStoneIncome</UniqueID>
+        <DisplayName>STATNAME_PrometheusStoneIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HyperSilicates</UniqueID>
+        <DisplayName>STATNAME_HyperSilicates</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HyperSilicatesCost</UniqueID>
+        <DisplayName>STATNAME_HyperSilicatesCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HyperSilicatesIncome</UniqueID>
+        <DisplayName>STATNAME_HyperSilicatesIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrecursorNanites</UniqueID>
+        <DisplayName>STATNAME_PrecursorNanites</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrecursorNanitesCost</UniqueID>
+        <DisplayName>STATNAME_PrecursorNanitesCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>PrecursorNanitesIncome</UniqueID>
+        <DisplayName>STATNAME_PrecursorNanitesIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HarmonyCrystals</UniqueID>
+        <DisplayName>STATNAME_HarmonyCrystals</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HarmonyCrystalsCost</UniqueID>
+        <DisplayName>STATNAME_HarmonyCrystalsCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>HarmonyCrystalsIncome</UniqueID>
+        <DisplayName>STATNAME_HarmonyCrystalsIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>LabEquipment</UniqueID>
+    <DisplayName>STATNAME_LabEquipment</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>LabEquipmentCost</UniqueID>
+    <DisplayName>STATNAME_LabEquipmentCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>LabEquipmentIncome</UniqueID>
+    <DisplayName>STATNAME_LabEquipmentIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+      <UniqueID>IndustrialScaffolding</UniqueID>
+      <DisplayName>STATNAME_IndustrialScaffolding</DisplayName>
+    </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IndustrialScaffoldingCost</UniqueID>
+    <DisplayName>STATNAME_IndustrialScaffoldingCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IndustrialScaffoldingIncome</UniqueID>
+    <DisplayName>STATNAME_IndustrialScaffoldingIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ArmoryModule</UniqueID>
+    <DisplayName>STATNAME_ArmoryModule</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ArmoryModuleCost</UniqueID>
+    <DisplayName>STATNAME_ArmoryModuleCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ArmoryModuleIncome</UniqueID>
+    <DisplayName>STATNAME_ArmoryModuleIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CommercialGoods</UniqueID>
+    <DisplayName>STATNAME_CommercialGoods</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CommercialGoodsCost</UniqueID>
+    <DisplayName>STATNAME_CommercialGoodsCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CommercialGoodsIncome</UniqueID>
+    <DisplayName>STATNAME_CommercialGoodsIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>BroadcastEquipment</UniqueID>
+    <DisplayName>STATNAME_BroadcastEquipment</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>BroadcastEquipmentCost</UniqueID>
+    <DisplayName>STATNAME_BroadcastEquipmentCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>BroadcastEquipmentIncome</UniqueID>
+    <DisplayName>STATNAME_BroadcastEquipmentIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Drones</UniqueID>
+    <DisplayName>STATNAME_Drones</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DronesCost</UniqueID>
+    <DisplayName>STATNAME_DronesCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>DronesIncome</UniqueID>
+    <DisplayName>STATNAME_DronesIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Modules</UniqueID>
+    <DisplayName>STATNAME_Modules</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ModulesCost</UniqueID>
+    <DisplayName>STATNAME_ModulesCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ModulesIncome</UniqueID>
+    <DisplayName>STATNAME_ModulesIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Nanobots</UniqueID>
+    <DisplayName>STATNAME_Nanobots</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>NanobotsCost</UniqueID>
+    <DisplayName>STATNAME_NanobotsCost</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>NanobotsIncome</UniqueID>
+    <DisplayName>STATNAME_NanobotsIncome</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>SnugglerColony</UniqueID>
+    <DisplayName>STATNAME_SnugglerColony</DisplayName>
+  </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>SnugglerColonyCost</UniqueID>
+        <DisplayName>STATNAME_SnugglerColonyCost</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+        <UniqueID>SnugglerColonyIncome</UniqueID>
+        <DisplayName>STATNAME_SnugglerColonyIncome</DisplayName>
+    </StatTypeDisplayDef>
+
+    <StatTypeDisplayDef>
+      <UniqueID>ResistanceToPlanetCapture</UniqueID>
+      <DisplayName>STATNAME_ResistanceToPlanetCapture</DisplayName>
+    </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CitizenRate</UniqueID>
+    <DisplayName>STATNAME_CitizenRate</DisplayName>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>TrainingRate</UniqueID>
+    <DisplayName>STATNAME_TrainingRate</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>SecurityLevel</UniqueID>
+    <DisplayName>STATNAME_SecurityLevel</DisplayName>
+    <Description>STATDEC_SecurityLevel</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>PointsPerAgent</UniqueID>
+    <DisplayName>STATNAME_PointsPerAgent</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Garrisons</UniqueID>
+    <DisplayName>STATNAME_Garrisons</DisplayName>
+    <Description>STATDEC_Garrisions</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>TaxationRate</UniqueID>
+    <DisplayName>STATNAME_TaxationRate</DisplayName>
+    <ForceSigned>false</ForceSigned>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>TourismTiles</UniqueID>
+    <DisplayName>STATNAME_Tourism</DisplayName>
+    <Description>STATDEC_Tourism</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanSupplySocial</UniqueID>
+    <DisplayName>STATNAME_CanSupplySocial</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanSupplyMilitary</UniqueID>
+    <DisplayName>STATNAME_CanSupplyMilitary</DisplayName>
+  </StatTypeDisplayDef>
+  
+    <StatTypeDisplayDef>
+        <UniqueID>CanBuildHypergate</UniqueID>
+        <DisplayName>STATNAME_CanBuildHypergate</DisplayName>
+    </StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MineralConversion</UniqueID>
+		<DisplayName>STATNAME_MineralConversion</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TechnologyConversion</UniqueID>
+		<DisplayName>STATNAME_TechnologyConversion</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>WealthConversion</UniqueID>
+		<DisplayName>STATNAME_WealthConversion</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>FertilityConversion</UniqueID>
+		<DisplayName>STATNAME_FertilityConversion</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Minerals</UniqueID>
+		<DisplayName>STATNAME_Minerals</DisplayName>
+		<Description>STATDESC_Minerals</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Technology</UniqueID>
+		<DisplayName>STATNAME_Technology</DisplayName>
+		<Description>STATDESC_Technology</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Wealth</UniqueID>
+		<DisplayName>STATNAME_Wealth</DisplayName>
+		<Description>STATDESC_Wealth</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>Fertility</UniqueID>
+		<DisplayName>STATNAME_Fertility</DisplayName>
+		<Description>STATDESC_Fertility</Description>
+	</StatTypeDisplayDef>
+  
+	<StatTypeDisplayDef>
+		<UniqueID>PlanetInfluence</UniqueID>
+		<DisplayName>STATNAME_PlanetInfluence</DisplayName>
+		<Description>STATDESC_PlanetInfluence</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>MineralNet</UniqueID>
+		<DisplayName>STATNAME_MineralNet</DisplayName>
+		<Description>STATDESC_Minerals</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>TechnologyNet</UniqueID>
+		<DisplayName>STATNAME_TechnologyNet</DisplayName>
+		<Description>STATDESC_Technology</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>WealthNet</UniqueID>
+		<DisplayName>STATNAME_WealthNet</DisplayName>
+		<Description>STATDESC_Wealth</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>FertilityNet</UniqueID>
+		<DisplayName>STATNAME_FertilityNet</DisplayName>
+		<Description>STATDESC_Fertility</Description>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>PlanetInfluenceNet</UniqueID>
+		<DisplayName>STATNAME_PlanetInfluenceNet</DisplayName>
+		<Description>STATDESC_PlanetInfluence</Description>
+	</StatTypeDisplayDef>
+  
+	<StatTypeDisplayDef>
+		<UniqueID>ColonySponsorDecayMod</UniqueID>
+		<DisplayName>STATNAME_ColonySponsorDecayMod</DisplayName>
+		<Description>STATDESC_ColonySponsorDecayMod</Description>
+		<IsPercentage>true</IsPercentage>
+	</StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ProtestingThreshold</UniqueID>
+    <DisplayName>STATNAME_ProtestingThreshold</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PlanetTilesAvailable</UniqueID>
+    <DisplayName>STATNAME_PlanetTilesAvailable</DisplayName>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>CanAssassinateDiplomats</UniqueID>
+    <DisplayName>STATNAME_CanAssassinateDiplomats</DisplayName>
+    <Description>STATDESC_CanAssassinateDiplomats</Description>
+    <IsBoolean>true</IsBoolean>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Crime</UniqueID>
+    <DisplayName>STATNAME_Crime</DisplayName>
+    <Description>STATDESC_Crime</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Pollution</UniqueID>
+    <DisplayName>STATNAME_Pollution</DisplayName>
+    <Description>STATDESC_Pollution</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PollutionTally</UniqueID>
+    <DisplayName>STATNAME_PollutionTally</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>PollutionPerTurn</UniqueID>
+    <DisplayName>STATNAME_PollutionPerTurn</DisplayName>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Control</UniqueID>
+    <DisplayName>STATNAME_Control</DisplayName>
+    <Description>STATDESC_Control</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ControlTally</UniqueID>
+    <DisplayName>STATNAME_ControlTally</DisplayName>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>ControlPerTurn</UniqueID>
+    <DisplayName>STATNAME_ControlPerTurn</DisplayName>
+    <Description>STATDESC_Control</Description>
+  </StatTypeDisplayDef>
+  
+   <StatTypeDisplayDef>
+    <UniqueID>UnitSpecializationCost</UniqueID>
+    <DisplayName>STATNAME_UnitSpecializationCost</DisplayName>
+    <Description>STATDESC_UnitSpecializationCost</Description>
+    <IsPercentage>true</IsPercentage>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>MaxEnactedPolicies</UniqueID>
+    <DisplayName>STATNAME_MaxEnactedPolicies</DisplayName>
+    <Description>STATDESC_MaxEnactedPolicies</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Intelligence</UniqueID>
+    <DisplayName>STATNAME_Intelligence</DisplayName>
+    <Description>STATDESC_Intelligence</Description>
+	<Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Social</UniqueID>
+    <DisplayName>STATNAME_Social</DisplayName>
+    <Description>STATDESC_Social</Description>
+	<Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Diligence</UniqueID>
+    <DisplayName>STATNAME_Diligence</DisplayName>
+    <Description>STATDESC_Diligence</Description>
+	<Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Resolve</UniqueID>
+    <DisplayName>STATNAME_Resolve</DisplayName>
+    <Description>STATDESC_Resolve</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Expectations</UniqueID>
+    <DisplayName>STATNAME_Expectations</DisplayName>
+    <Description>STATDESC_Expectations</Description>
+	<Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>Loyalty</UniqueID>
+    <DisplayName>STATNAME_Loyalty</DisplayName>
+    <Description>STATDESC_Loyalty</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ApprovalFromSoldierUnits</UniqueID>
+    <DisplayName>STATNAME_ApprovalFromSoldierUnits</DisplayName>
+    <Description>STATDESC_ApprovalFromSoldierUnits</Description>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <!-- Ideologies -->
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyLiberty</UniqueID>
+    <DisplayName>PersonalityType_Liberty</DisplayName>
+    <Description>PersonalityType_Desc_Liberty</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyLiberty</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyAuthority</UniqueID>
+    <DisplayName>PersonalityType_Authority</DisplayName>
+    <Description>PersonalityType_Desc_Authority</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyAuthority</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyOpportunity</UniqueID>
+    <DisplayName>PersonalityType_Opportunity</DisplayName>
+    <Description>PersonalityType_Desc_Opportunity</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyOpportunity</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyEquality</UniqueID>
+    <DisplayName>PersonalityType_Equality</DisplayName>
+    <Description>PersonalityType_Desc_Equality</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyEquality</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyTradition</UniqueID>
+    <DisplayName>PersonalityType_Tradition</DisplayName>
+    <Description>PersonalityType_Desc_Tradition</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyTradition</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyInnovation</UniqueID>
+    <DisplayName>PersonalityType_Innovation</DisplayName>
+    <Description>PersonalityType_Desc_Innovation</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyInnovation</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyCompassion</UniqueID>
+    <DisplayName>PersonalityType_Compassion</DisplayName>
+    <Description>PersonalityType_Desc_Compassion</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCompassion</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyCruelty</UniqueID>
+    <DisplayName>PersonalityType_Cruelty</DisplayName>
+    <Description>PersonalityType_Desc_Cruelty</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCruelty</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyTransparency</UniqueID>
+    <DisplayName>PersonalityType_Transparency</DisplayName>
+    <Description>PersonalityType_Desc_Transparency</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyTransparency</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologySecrecy</UniqueID>
+    <DisplayName>PersonalityType_Secrecy</DisplayName>
+    <Description>PersonalityType_Desc_Secrecy</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologySecrecy</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyDiversity</UniqueID>
+    <DisplayName>PersonalityType_Diversity</DisplayName>
+    <Description>PersonalityType_Desc_Diversity</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyDiversity</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyHarmony</UniqueID>
+    <DisplayName>PersonalityType_Harmony</DisplayName>
+    <Description>PersonalityType_Desc_Harmony</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyHarmony</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyFocus</UniqueID>
+    <DisplayName>PersonalityType_Focus</DisplayName>
+    <Description>PersonalityType_Desc_Focus</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyFocus</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyCalm</UniqueID>
+    <DisplayName>PersonalityType_Calm</DisplayName>
+    <Description>PersonalityType_Desc_Calm</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCalm</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnLiberty</UniqueID>
+    <DisplayName>PersonalityType_LibertyPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Liberty</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyLiberty</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnAuthority</UniqueID>
+    <DisplayName>PersonalityType_AuthorityPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Authority</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyAuthority</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnOpportunity</UniqueID>
+    <DisplayName>PersonalityType_OpportunityPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Opportunity</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyOpportunity</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnEquality</UniqueID>
+    <DisplayName>PersonalityType_EqualityPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Equality</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyEquality</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnTradition</UniqueID>
+    <DisplayName>PersonalityType_TraditionPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Tradition</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyTradition</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnInnovation</UniqueID>
+    <DisplayName>PersonalityType_InnovationPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Innovation</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyInnovation</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnCompassion</UniqueID>
+    <DisplayName>PersonalityType_CompassionPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Compassion</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCompassion</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnCruelty</UniqueID>
+    <DisplayName>PersonalityType_CrueltyPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Cruelty</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCruelty</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnTransparency</UniqueID>
+    <DisplayName>PersonalityType_TransparencyPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Transparency</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyTransparency</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnSecrecy</UniqueID>
+    <DisplayName>PersonalityType_SecrecyPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Secrecy</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologySecrecy</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnDiversity</UniqueID>
+    <DisplayName>PersonalityType_DiversityPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Diversity</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyDiversity</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnHarmony</UniqueID>
+    <DisplayName>PersonalityType_HarmonyPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Harmony</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyHarmony</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnFocus</UniqueID>
+    <DisplayName>PersonalityType_FocusPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Focus</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyFocus</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IdeologyPerTurnCalm</UniqueID>
+    <DisplayName>PersonalityType_CalmPerTurn</DisplayName>
+    <Description>PersonalityType_Desc_Calm</Description>
+    <DisplayNameForGeneratedTooltip>STATNAMEFORGENTOOLTIP_IdeologyCalm</DisplayNameForGeneratedTooltip>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>UpgradeSlots</UniqueID>
+    <DisplayName>STATNAME_UpgradeSlots</DisplayName>
+    <Description>STATDEC_UpgradeSlots</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>IgnoreRushLimit</UniqueID>
+    <DisplayName>STATNAME_IgnoreRushLimit</DisplayName>
+    <Description>STATDEC_IgnoreRushLimit</Description>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>RushCosts</UniqueID>
+    <DisplayName>STATNAME_RushCosts</DisplayName>
+    <Description>STATDEC_RushCosts</Description>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ApprovalFromClericUnits</UniqueID>
+    <DisplayName>STATNAME_ApprovalFromClericUnits</DisplayName>
+    <Description>STATDEC_ApprovalFromClericUnits</Description>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ApprovalFromScientistUnits</UniqueID>
+    <DisplayName>STATNAME_ApprovalFromScientistUnits</DisplayName>
+    <Description>STATDEC_ApprovalFromScientistUnits</Description>
+    <Hide>true</Hide>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>AOERange</UniqueID>
+    <DisplayName>STATNAME_AOERange</DisplayName>
+    <Description>STATDEC_AOERange</Description>
+  </StatTypeDisplayDef>
+  
+  <StatTypeDisplayDef>
+    <UniqueID>Prestige</UniqueID>
+    <DisplayName>STATNAME_Prestige</DisplayName>
+    <Description>STATDEC_Prestige</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>ThinktankFavor</UniqueID>
+    <DisplayName>STATNAME_ThinktankFavor</DisplayName>
+    <Description>STATDESC_ThinktankFavor</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>BazaarDiscount</UniqueID>
+    <DisplayName>STATNAME_BazaarDiscount</DisplayName>
+    <Description>STATDESC_BazaarDiscount</Description>
+  </StatTypeDisplayDef>
+
+  <StatTypeDisplayDef>
+    <UniqueID>MemberCount</UniqueID>
+    <DisplayName>STATNAME_MemberCount</DisplayName>
+  </StatTypeDisplayDef>
+
+</StatTypeDisplayDefs>

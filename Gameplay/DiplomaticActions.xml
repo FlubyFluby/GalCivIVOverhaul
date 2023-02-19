@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DiplomaticActionThresholds
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomaticActions.xsd">
+
+	<AcceptAlliance>7</AcceptAlliance>
+	<VoteForDiplomaticVictory>8</VoteForDiplomaticVictory>
+	<TradeTechnology>2</TradeTechnology>
+	<AcceptOpenBoards>1</AcceptOpenBoards>
+	
+</DiplomaticActionThresholds>

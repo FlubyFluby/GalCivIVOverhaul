@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AssetTable
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
+
+	<Asset>
+		<Tag>Authority_Icon</Tag>
+		<Filename>AuthorityIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Calm_Icon</Tag>
+		<Filename>CalmIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Compassion_Icon</Tag>
+		<Filename>CompassionIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Cruelty_Icon</Tag>
+		<Filename>CrueltyIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Diversity_Icon</Tag>
+		<Filename>DiversityIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Equality_Icon</Tag>
+		<Filename>EqualityIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Focus_Icon</Tag>
+		<Filename>FocusIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Harmony_Icon</Tag>
+		<Filename>HarmonyIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Innovation_Icon</Tag>
+		<Filename>InnovationIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Liberty_Icon</Tag>
+		<Filename>LibertyIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Opportunity_Icon</Tag>
+		<Filename>OpportunityIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Secrecy_Icon</Tag>
+		<Filename>SecrecyIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Tradition_Icon</Tag>
+		<Filename>TraditionIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Transparency_Icon</Tag>
+		<Filename>TransparencyIcon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_AlienArtifact_Icon</Tag>
+		<Filename>Trait_AlienArtifact.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Clone_Icon</Tag>
+		<Filename>Trait_Clone.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Consumed_Icon</Tag>
+		<Filename>Trait_Consumed.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Criminal_Icon</Tag>
+		<Filename>Trait_Criminal.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Defiant_Icon</Tag>
+		<Filename>Trait_Defiant.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Ethical_Icon</Tag>
+		<Filename>Trait_Ethical.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Ex-Convict_Icon</Tag>
+		<Filename>Trait_Ex-Convict.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Gambler_Icon</Tag>
+		<Filename>Trait_Gambler.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Industrial_Icon</Tag>
+		<Filename>Trait_Industrial.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Manipulative_Icon</Tag>
+		<Filename>Trait_Manipulative.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Mutant_Icon</Tag>
+		<Filename>Trait_Mutant.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_NeuralClamp_Icon</Tag>
+		<Filename>Trait_NeuralClamp.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Scarred_Icon</Tag>
+		<Filename>Trait_Scarred.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_TheWay_Icon</Tag>
+		<Filename>Trait_TheWay.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Toxic_Icon</Tag>
+		<Filename>Trait_Toxic.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Trait_Vendetta_Icon</Tag>
+		<Filename>Trait_Vendetta.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RaceType_CarbonBased_Icon</Tag>
+    <Filename>GC3_RaceType_CarbonBased_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RaceType_Synthetic_Icon</Tag>
+    <Filename>GC3_RaceType_Synthetic_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RaceType_Aquatic_Icon</Tag>
+    <Filename>GC3_RaceType_Aquatic_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RaceType_SiliconBased_Icon</Tag>
+    <Filename>GC3_RaceType_SiliconBased_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Race_Random_GenericImage</Tag>
+    <Filename>GC3_L_Setup_Victory_Icon.png</Filename>
+  </Asset>
+  
+	<Asset>
+		<Tag>Stat_Faction_Power_Icon</Tag>
+		<Filename>Stat_Faction_Power_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Approval_Stat_Icon</Tag>
+		<Filename>GC3_Approval_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>Stat_Economic_Power_Icon</Tag>
+		<Filename>Stat_Economic_Power_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>Stat_Military_Power_Icon</Tag>
+		<Filename>Stat_Military_Power_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>Stat_Tech_Power_Icon</Tag>
+		<Filename>Stat_Tech_Power_Icon.png</Filename>
+	</Asset>
+  
+  <Asset>
+    <Tag>Small_Merc_Icon</Tag>
+    <Filename>Small_Merc_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TERRAN_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogo00.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TERRAN_LEADER_IMAGE</Tag>
+    <Filename>gfx/Civilizations/Portrait_Terran_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TERRAN_LEADER_SMALLMOVIE</Tag>
+    <Filename>ter_small.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TERRAN_LEADER_SMALLMOVIE_IMAGE</Tag>
+    <Filename>Terran_Bink_Image.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TERRAN_NEWSBOT_APPROACH_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Approach.bk2</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>TERRAN_NEWSBOT_IDLE_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Idle.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>DRENGIN_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogo01.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>DRENGIN_LEADER_IMAGE</Tag>
+    <Filename>GC3_Lord_Kona_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>DRENGIN_LEADER_SMALLMOVIE</Tag>
+    <Filename>dre_small.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>DRENGIN_LEADER_SMALLMOVIE_IMAGE</Tag>
+    <Filename>Drengin_Bink_Image.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>DRENGIN_NEWSBOT_APPROACH_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Approach.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>DRENGIN_NEWSBOT_IDLE_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Idle.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ALTARIAN_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogo_AltResistance.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ALTARIAN_LEADER_IMAGE</Tag>
+    <Filename>GC3_Akari_Malara_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ALTARIAN_LEADER_SMALLMOVIE</Tag>
+    <Filename>alt_small.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ALTARIAN_LEADER_SMALLMOVIE_IMAGE</Tag>
+    <Filename>Altarian_Bink_Image.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>ALTARIAN_NEWSBOT_APPROACH_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Approach.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ALTARIAN_NEWSBOT_IDLE_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Idle.bk2</Filename>
+  </Asset>
+
+
+  <Asset>
+    <Tag>IRIDIUM_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogoTemp.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>IRIDIUM_LEADER_IMAGE</Tag>
+    <Filename>GC3_Harondin_Gaul_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>IRIDIUM_LEADER_SMALLMOVIE</Tag>
+    <Filename>irr_small.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>IRIDIUM_LEADER_SMALLMOVIE_IMAGE</Tag>
+    <Filename>Iridium_Bink_Image.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>IRIDIUM_NEWSBOT_APPROACH_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Approach.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>IRIDIUM_NEWSBOT_IDLE_MOVIE</Tag>
+    <Filename>Iridium_Newsbot_Idle.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>YOR_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogo05.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>YOR_LEADER_IMAGE</Tag>
+    <Filename>GC3_Yor_Small.png</Filename>
+  </Asset>
+	
+	<Asset>
+    <Tag>YOR_SMALL_MOVIE</Tag>
+    <Filename>Yor_small.bk2</Filename>
+  </Asset>
+	
+	  <Asset>
+    <Tag>YOR_LEADER_SMALLMOVIE_IMAGE</Tag>
+    <Filename>Yor_Bink_Image.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ICONIAN_LEADER_IMAGE</Tag>
+    <Filename>GC3_Iconian_Small.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>ICONIAN_LOGO</Tag>
+		<Filename>RaceLogo09.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>ICONIAN_SMALL_MOVIE</Tag>
+    <Filename>IconianSF_00.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>KRYNN_LEADER_IMAGE</Tag>
+    <Filename>GC3_Krynn_Small.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>KRYNN_SMALL_MOVIE</Tag>
+    <Filename>krynn_small.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>KRYNN_SMALL_MOVIE_IMAGE</Tag>
+    <Filename>Krynn_Bink_Image.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>KRYNN_LOGO</Tag>
+    <Filename>RaceLogo_Krynn.png</Filename>
+  </Asset>
+
+	<Asset>
+    <Tag>PIRATE_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogoTemp.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PIRATE_LOGO</Tag>
+    <Filename>gfx/Civilizations/RaceLogoTemp.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>DEFAULT_LEADER_SMALLMOVIE</Tag>
+    <Filename>homescreen_logo.bk2</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_ANCIENTRUINS_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Ruins.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_WONDER_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Wonder.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_WILDGRAIN_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_WildGrain.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_FLOODPLAIN_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Floodplain.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_CATARACT_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Cataract.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_NATURALWONDER_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_NaturalWonder.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_GEOTHERMALSPRINGS_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_GeothermalSpring.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_PLANETFALL_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Planetfall.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_MINERALRICH_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_MineralRich.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PLANETFEATURE_DESERT_ICON</Tag>
+    <Filename>Gfx/Icons/PlanetFeature_Desert.png</Filename>
+  </Asset>
+  
+  <!--Stat Icons-->
+
+  <Asset>
+    <Tag>Turn_Icon</Tag>
+    <Filename>Gfx/Icons/Stats/Turn_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Temp_Icon</Tag>
+    <Filename>Gfx/Icons/Stats/GC3_Generic_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_DiplomaticCapital_Icon</Tag>
+    <Filename>Gfx/Icons/Stats/DiplomaticCapitalIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>Stat_Raw_Productive_Icon</Tag>
+		<Filename>Gfx/Icons/GC3_Raw_Production_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Manufacturing_Stat_Icon</Tag>
+		<Filename>Gfx/Icons/GC3_L_Manufacturing_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+    <Tag>Stat_Productive_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Productive_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Brutal_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Brutal_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Fast_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Fast_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Influential_Icon</Tag>
+    <Filename>Gfx/Icons/Stats/GC3_Influential_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Organized_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Organized_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Resilient_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Resilient_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Tough_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Tough_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Trader_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Trader_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Adventure_Icon</Tag>
+    <Filename>Gfx/Icons/Stats/GC3_Adventure_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Minerals_Icon</Tag>
+    <Filename>Minerals_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Technology_Icon</Tag>
+    <Filename>Tech_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Wealth_Icon</Tag>
+    <Filename>Wealth_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Fertility_Icon</Tag>
+    <Filename>Fertility_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_PlanetInfluence_Icon</Tag>
+    <Filename>PlanetInfluence_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Manufacturing_Icon</Tag>
+    <Filename>GC3_Production_Spending_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Research_Icon</Tag>
+    <Filename>GC3_Research_Spending_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_RawProduction_Icon</Tag>
+    <Filename>Gfx/Icons/GC3_Raw_Production_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Coercion_Icon</Tag>
+    <Filename>GC3_Militant_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Clever_Icon</Tag>
+    <Filename>GC3_Clever_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Courageous_Icon</Tag>
+    <Filename>GC3_Courageous_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Wealth_Icon</Tag>
+    <Filename>Stat_Economic_Power_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Saving_Entry</Tag>
+    <Filename>Stat_Economic_Power_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Credits_Icon</Tag>
+    <Filename>Stat_Economic_Power_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Credits_Net_Icon</Tag>
+    <Filename>GC3_Net_Weekly_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Treaty_Income_Icon</Tag>
+    <Filename>GC3_Treaty_Revenue_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Treaty_Obligations_Icon</Tag>
+    <Filename>GC3_Treaty_Obligations_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Observant_Icon</Tag>
+    <Filename>GC3_Observant_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Handy_Icon</Tag>
+    <Filename>GC3_Handy_Stat_Icon.png</Filename>
+  </Asset>
+    
+  <Asset>
+    <Tag>Stat_UP_Income_Icon</Tag>
+    <Filename>GC3_United_Planets_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Tourism_Income_Icon</Tag>
+    <Filename>GC3_Tourism_Revenue_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Trade_Icon</Tag>
+    <Filename>GC3_Trade_Revenue_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Raid_Icon</Tag>
+    <Filename>GC3_Trade_Revenue_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_United_Planets_Tax_Icon</Tag>
+    <Filename>GC3_United_Planets_Tax_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Trade_Route_Income_Icon</Tag>
+    <Filename>GC3_Trade_Revenue_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Lease_Icon</Tag>
+    <Filename>GC3_Leases_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Maintenance_Icon</Tag>
+    <Filename>GC3_Colony_Maintenance_Stat_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Stat_Ship_Maintenance_Icon</Tag>
+    <Filename>GC3_Ship_Maintenance_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Starbase_Maintenance_Icon</Tag>
+    <Filename>GC3_Starbase_Maintenance_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Morale_Icon</Tag>
+    <Filename>GC3_Approval_Content_Icon.png</Filename>
+  </Asset>
+	
+	 <Asset>
+    <Tag>ApprovalStatIcon</Tag>
+    <Filename>GC3_Approval_Happy_Icon.png</Filename>
+  </Asset>
+
+   <Asset>
+    <Tag>ProductionSubWnd_Social_Entry</Tag>
+    <Filename>GC3_Social_Manufacturing_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ProductionSubWnd_Military_Entry</Tag>
+    <Filename>GC3_S_Ships_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Positive_Bonus_Icon</Tag>
+    <Filename>GC3_Level_Up_Arrow.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Adjacent_Bonus_Icon</Tag>
+    <Filename>GC3_Adjacency_Arrows.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Hitpoints_Icon</Tag>
+    <Filename>GC3_HitPoints_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Moves_Icon</Tag>
+    <Filename>GC3_Moves_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TacticalSpeed_Icon</Tag>
+    <Filename>GC3_TacticalSpeed_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Shiprange_Icon</Tag>
+    <Filename>GC3_ShipRange_Icon.png</Filename>
+  </Asset>
+
+    <Asset>
+        <Tag>ShipLevel_Icon</Tag>
+        <Filename>GC3_ShipLevel_Icon.png</Filename>
+    </Asset>
+
+  <Asset>
+    <Tag>Stat_Elerium_Icon</Tag>
+    <Filename>GC3_Icon_Elerium_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Durantium_Icon</Tag>
+    <Filename>GC3_Icon_Durantium_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Antimatter_Icon</Tag>
+    <Filename>GC3_Icon_Antimatter_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Promethion_Icon</Tag>
+    <Filename>GC3_Icon_Promethion_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Thulium_Icon</Tag>
+    <Filename>GC3_Icon_Thulium_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Influence_Icon</Tag>
+    <Filename>GC3_Influence_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Planet_Class_Icon</Tag>
+    <Filename>GC3_Planet_Class_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Planetary_Defense_Icon</Tag>
+    <Filename>GC3_Planetary_Defense_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Population_Icon</Tag>
+    <Filename>GC3_Population_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Population_Cap_Icon</Tag>
+    <Filename>GC3_Population_Cap_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Popular_Icon</Tag>
+    <Filename>GC3_Popular_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Farmer_Icon</Tag>
+    <Filename>GC3_Farmer_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Food_Icon</Tag>
+    <Filename>GC3_Food_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Admin_Icon</Tag>
+    <Filename>Admin_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat+Admin_Icon_Sm</Tag>
+    <Filename>Admin_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Special_Icon</Tag>
+    <Filename>GC3_Special_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Specialty_Ships_Icon</Tag>
+    <Filename>Stat_Specialty_Ships_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Growth_Icon</Tag>
+    <Filename>GC3_Growth_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Militant_Icon</Tag>
+    <Filename>GC3_Militant_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Content_Icon</Tag>
+    <Filename>GC3_Content_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Fertile_Icon</Tag>
+    <Filename>GC3_Fertile_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Infertile_Icon</Tag>
+    <Filename>GC3_Infertile_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Dense_Icon</Tag>
+    <Filename>GC3_Dense_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Sharpeye_Icon</Tag>
+    <Filename>GC3_SharpEye_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Agile_Icon</Tag>
+    <Filename>GC3_Agile_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Economical_Icon</Tag>
+    <Filename>GC3_Economical_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Blank_Icon</Tag>
+    <Filename>Icons_32x32_Blank.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Likable_Icon</Tag>
+    <Filename>GC3_Likeable_Stat_Icon_32x32.png</Filename>
+  </Asset>
+
+  <Asset>
+	<Tag>Stat_Control_Icon</Tag>
+	<Filename>Control_Icon_32.png</Filename>
+  </Asset>
+
+  <Asset>
+	<Tag>Stat_Leader_Icon</Tag>
+	<Filename>Leader_Minister_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Prestige_Icon</Tag>
+    <Filename>Prestige_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_ThinktankFavor_Icon</Tag>
+    <Filename>LeaderStat_Expectations.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_BazaarDiscount_Icon</Tag>
+	  <Filename>Control_Icon_32.png</Filename>
+  </Asset>
+  
+	<Asset>
+		<Tag>BarrenWorldIcon</Tag>
+		<Filename>GC3_Extreme_Barren_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>AquaticWorldIcon</Tag>
+		<Filename>GC3_Extreme_Water_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FrozenWorldIcon</Tag>
+		<Filename>GC3_Extreme_Frozen_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnstableWorldIcon</Tag>
+		<Filename>GC3_Extreme_Unstable_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>HeavyGravityWorldIcon</Tag>
+		<Filename>GC3_Extreme_Heavy_32.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RadioactiveWorldIcon</Tag>
+		<Filename>GC3_Extreme_Radioactive_32.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>ToxicWorldIcon</Tag>
+		<Filename>GC3_Extreme_Toxic_32.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>ActiveCoreWorldIcon</Tag>
+    <Filename>active_core.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>BountifulWorldIcon</Tag>
+    <Filename>bountiful_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>BreadBasketWorldIcon</Tag>
+    <Filename>breadbasket_world.png</Filename>
+  </Asset>
+
+  <Asset>
+  <Tag>DesertWorldIcon</Tag>
+  <Filename>desert_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GasWorldIcon</Tag>
+    <Filename>gas_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>GhostWorldIcon</Tag>
+    <Filename>ghost_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LowGravityWorldIcon</Tag>
+    <Filename>low_gravity.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>OceanicWorldIcon</Tag>
+    <Filename>oceanic.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>OceanicPlanetWorldIcon</Tag>
+    <Filename>oceanic_planet.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ScenicWorldIcon</Tag>
+    <Filename>scenic_world.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>SereneWorldIcon</Tag>
+    <Filename>serene_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ShieldedWorldIcon</Tag>
+    <Filename>shielded_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ShipsDefendingWorldIcon</Tag>
+    <Filename>GC3_ShipsDefending_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ShroudedWorldIcon</Tag>
+    <Filename>shrouded_world.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ThinAtmosphereWorldIcon</Tag>
+    <Filename>thin_atmosphere.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TidallyLockedWorldIcon</Tag>
+    <Filename>tidally_locked.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TwinMoonsWorldIcon</Tag>
+    <Filename>twin_moons.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>WobbleWorldIcon</Tag>
+    <Filename>wobble.png</Filename>
+  </Asset>
+  
+  
+
+  <Asset>
+    <Tag>FertileWorldIcon</Tag>
+    <Filename>FertileWorldIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>TranquilWorldIcon</Tag>
+    <Filename>TranquilWorldIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ValcanicWorldIcon</Tag>
+    <Filename>ValcanicWorldIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>FissuredWorldIcon</Tag>
+    <Filename>FissuredWorldIcon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>BombardedWorldIcon</Tag>
+    <Filename>BombardedWorldIcon.png</Filename>
+  </Asset>
+  
+    <Asset>
+    <Tag>SterileWorldIcon</Tag>
+    <Filename>SterileWorldIcon.png</Filename>
+  </Asset>
+  
+	
+	  <Asset>
+    <Tag>DiplomacyPlus</Tag>
+    <Filename>GC3_Diplomacy_Plus_Icon.png</Filename>
+  </Asset>
+	
+	<Asset>
+    <Tag>AscensionPointsStatIcon</Tag>
+    <Filename>GC3_Ascension_Points_Stat_Icon.png</Filename>
+  </Asset>
+	
+	<Asset>
+    <Tag>SocialManufacturingStatIcon</Tag>
+    <Filename>GC3_Social_Manufacturing_Stat_Icon.png</Filename>
+  </Asset>
+	
+	<Asset>
+    <Tag>MilitaryManufacturingStatIcon</Tag>
+    <Filename>Stat_Military_Power_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>DiplomacyMinus</Tag>
+		<Filename>GC3_Diplomacy_Minus_Icon.png</Filename>
+	</Asset>
+	<!--Role Stat-->
+	
+	<Asset>
+		<Tag>FortitudeStatIcon</Tag>
+		<Filename>GC3_L_Ship_Strength_Icon.png</Filename>
+	</Asset>
+	
+		<Asset>
+		<Tag>ValueStatIcon</Tag>
+		<Filename>GC3_L_Ship_Value_Icon.png</Filename>
+	</Asset>
+		
+	<Asset>
+		<Tag>ThreatStatIcon</Tag>
+		<Filename>GC3_L_Ship_Threat_Icon.png</Filename>
+	</Asset>
+	
+<!--Weapon stat icons-->
+	<Asset>
+		<Tag>BeamAttackIcon</Tag>
+		<Filename>GC3_Beam_Attack_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>BeamRangeIcon</Tag>
+		<Filename>GC3_Beam_Range_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>BeamCooldownIcon</Tag>
+		<Filename>GC3_Beam_Cooldown_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>BeamAccuracyIcon</Tag>
+		<Filename>GC3_Beam_Accuracy_Stat_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>AllWeaponsIcon</Tag>
+    <Filename>GC3_AllWeapons_Icon.png</Filename>
+  </Asset>
+	
+		<Asset>
+		<Tag>MissileAttackIcon</Tag>
+		<Filename>GC3_Missile_Attack_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>MissileRangeIcon</Tag>
+		<Filename>GC3_Missile_Range_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>MissileCooldownIcon</Tag>
+		<Filename>GC3_Missile_Cooldown_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>MissileAccuracyIcon</Tag>
+		<Filename>GC3_Missile_Accuracy_Stat_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>BeamAugmentIcon</Tag>
+    <Filename>GC3_Beam_Augment_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MissileAugmentIcon</Tag>
+    <Filename>GC3_Missile_Augment_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>KineticAugmentIcon</Tag>
+    <Filename>GC3_Kinetic_Augment_Icon.png</Filename>
+  </Asset>
+ 
+  <Asset>
+		<Tag>KineticAttackIcon</Tag>
+		<Filename>GC3_Kinetic_Attack_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>KineticRangeIcon</Tag>
+		<Filename>GC3_Kinetic_Range_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>KineticCooldownIcon</Tag>
+		<Filename>GC3_Kinetic_Cooldown_Stat_Icon.png</Filename>
+	</Asset>
+	
+		<Asset>
+		<Tag>KineticAccuracyIcon</Tag>
+		<Filename>GC3_Kinetic_Accuracy_Stat_Icon.png</Filename>
+	</Asset>
+
+	<!--Defense Stats-->
+
+	<Asset>
+		<Tag>ShieldStrengthIcon</Tag>
+		<Filename>GC3_Shield_Strength_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>ShieldDamageIcon</Tag>
+		<Filename>GC3_Shield_Damage_Stat_Icon.png</Filename>
+	</Asset>
+		
+	<Asset>
+		<Tag>PointDefenseIcon</Tag>
+		<Filename>GC3_Point_Defense_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>PointDamageIcon</Tag>
+		<Filename>GC3_Point_Damage_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ArmorRateingIcon</Tag>
+		<Filename>GC3_Armor_Rateing_Stat_Icon.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>ArmorDamageIcon</Tag>
+		<Filename>GC3_Armor_Damage_Stat_Icon.png</Filename>
+	</Asset>
+
+  <!--Planet stat icons-->
+
+  <Asset>
+    <Tag>Active_Core_Icon</Tag>
+    <Filename>active_core.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Adaptable_Icon</Tag>
+    <Filename>RaceTraitAdaptable.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Ancient_Icon</Tag>
+    <Filename>RaceTraitAncient.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Archaeologist_Icon</Tag>
+    <Filename>RaceTraitArchaeologist.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Bureaucrats_Icon</Tag>
+    <Filename>RaceTraitBureaucrats.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Brutal_Ability_Icon</Tag>
+    <Filename>GC3_Brutal_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Cartographer_Icon</Tag>
+    <Filename>RaceTraitCartographer.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Certain_Icon</Tag>
+    <Filename>RaceTraitCertain.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Clever_Ability_Icon</Tag>
+    <Filename>GC3_Clever_Ability_Icon.png</Filename>
+  </Asset>
+  
+    <Asset>
+    <Tag>Content_Ability_Icon</Tag>
+    <Filename>GC3_Content_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Courageous_Ability_Icon</Tag>
+    <Filename>GC3_Courageous_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Craven_Ability_Icon</Tag>
+    <Filename>GC3_Craven_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Devout_Icon</Tag>
+    <Filename>RaceTraitDevout.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Economical_Ability_Icon</Tag>
+    <Filename>GC3_Economical_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Empathy_Icon</Tag>
+    <Filename>RaceTraitEmpathy.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Engineers_Icon</Tag>
+    <Filename>RaceTraitEngineers.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Entrepreneur_Icon</Tag>
+    <Filename>GC3_Entrepreneur_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Experienced_Icon</Tag>
+    <Filename>RaceTraitExperienced.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Fast_Ability_Icon</Tag>
+    <Filename>GC3_Fast_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>HitPoints_Icon</Tag>
+    <Filename>GC3_HitPoints_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>HiveMind_Icon</Tag>
+    <Filename>RaceTraitHive Mind.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Hopeful_Icon</Tag>
+    <Filename>RaceTraitHopeful.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Inspired_Icon</Tag>
+    <Filename>RaceTraitInspired.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Intuitive_Icon</Tag>
+    <Filename>RaceTraitIntuitive.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Knowledgeable_Icon</Tag>
+    <Filename>GC3_Knowledgeable_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Loyal_Icon</Tag>
+    <Filename>RaceTraitLoyal.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Militant_Ability_Icon</Tag>
+    <Filename>GC3_Militant_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Moves_Icon</Tag>
+    <Filename>GC3_Moves_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Organized_Ability_Icon</Tag>
+    <Filename>GC3_Organized_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Paranoid_Icon</Tag>
+    <Filename>RaceTraitParanoid.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Patroitic_Icon</Tag>
+    <Filename>GC3_Patriotic_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Productive_Ability_Icon</Tag>
+    <Filename>GC3_Productive_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Proliferation_Icon</Tag>
+    <Filename>RaceTraitProliferation.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Prolific_Icon</Tag>
+    <Filename>GC3_Prolific_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Ravenous_Icon</Tag>
+    <Filename>RaceTraitRavenous.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Resilient_Icon</Tag>
+    <Filename>RaceTraitResilient.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Resourceful_Icon</Tag>
+    <Filename>RaceTraitResourceful.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Slavers_Icon</Tag>
+    <Filename>RaceTraitSlavers.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Starfaring_Icon</Tag>
+    <Filename>RaceTraitStarfaring.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Traders_Icon</Tag>
+    <Filename>RaceTraitTraders.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Unrelenting_Icon</Tag>
+    <Filename>RaceTraitUnrelenting.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Unwavering_Icon</Tag>
+    <Filename>RaceTraitUnwavering.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Warriors_Icon</Tag>
+    <Filename>RaceTraitWarriors.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Wealthy_Icon</Tag>
+    <Filename>RaceTraitWealthy.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Xenophobic_Icon</Tag>
+    <Filename>RaceTraitXenophobic.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>S_Component_Icon</Tag>
+    <Filename>GC3_S_Component_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>S_Hulls_Icon</Tag>
+    <Filename>GC3_S_Hulls_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>S_Improvement_Icon</Tag>
+    <Filename>GC3_S_Improvment_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>S_Support_Module_Icon</Tag>
+    <Filename>GC3_S_Support_Module_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>SensorRange_Icon</Tag>
+    <Filename>GC3_SensorRange_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>SentientMachines_Icon</Tag>
+    <Filename>GC3_SentientMachines__Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>StarFairing_Icon</Tag>
+    <Filename>GC3_StarFairing_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Synthetic_Icon</Tag>
+    <Filename>GC3_Synthetic_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Tough_Ability_Icon</Tag>
+    <Filename>GC3_Tough_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Trader_Ability_Icon</Tag>
+    <Filename>GC3_Trader_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Unlikeable_Ability_Icon</Tag>
+    <Filename>GC3_Unlikeable_Ability_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+	<Tag>DisableRepair_Ability_Icon</Tag>
+	<Filename>RaceTraitNoRepair.png</Filename>
+  </Asset>
+
+	<Asset>
+    <Tag>Unrelenting_Icon</Tag>
+    <Filename>GC3_Unrelenting_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Unwavering_Icon</Tag>
+    <Filename>GC3_Unwavering_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Wealthy_Icon</Tag>
+    <Filename>GC3_Wealthy_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Zealot_Icon</Tag>
+    <Filename>GC3_Zealot_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Adventure_Ability_Icon</Tag>
+    <Filename>GC3_Adventure_Ability_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Agile_Stat_Icon</Tag>
+    <Filename>GC3_Agile_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Dense_Stat_Icon</Tag>
+    <Filename>GC3_Dense_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Farmer_Stat_Icon</Tag>
+    <Filename>GC3_Farmer_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Fertile_Stat_Icon</Tag>
+    <Filename>GC3_Fertile_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Food_Stat_Icon</Tag>
+    <Filename>GC3_Food_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Growth_Stat_Icon</Tag>
+    <Filename>GC3_Growth_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Manufacturing_Cost_Stat_Icon</Tag>
+    <Filename>GC3_Manufacturing_Cost_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Observant_Stat_Icon</Tag>
+    <Filename>GC3_Observant_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Popular_Stat_Icon</Tag>
+    <Filename>GC3_Popular_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Population_Cap_Stat_Icon</Tag>
+    <Filename>GC3_Population_Cap_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>SharpEye_Stat_Icon</Tag>
+    <Filename>GC3_SharpEye_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Total_Manufacturing_Stat_Icon</Tag>
+    <Filename>GC3_Total_Manufacturing_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Total_Research_Stat_Icon</Tag>
+    <Filename>GC3_Total_Research_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>ApprovalRelic_Stat_Icon</Tag>
+    <Filename>GC3_ApprovalRelic_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>AscensionCrystal_Stat_Icon</Tag>
+    <Filename>GC3_AscensionCrystal_Stat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>CivilizationCapital_Stat_Icon</Tag>
+    <Filename>PlanetTrait_Capital.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>CultureRelic_Stat_Icon</Tag>
+    <Filename>GC3_CultureRelic_Stat_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>EconomicRelic_Stat_Icon</Tag>
+    <Filename>GC3_EconomicRelic_Stat_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>ManufacturingRelic_Stat_Icon</Tag>
+    <Filename>GC3_ManufacturingRelic_Stat_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>ResearchRelic_Stat_Icon</Tag>
+    <Filename>GC3_ResearchRelic_Stat_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Artifact_Stat_Icon</Tag>
+		<Filename>GC3_Artifact_Stat_Icon.png</Filename>
+	</Asset>
+  
+   <Asset>
+    <Tag>Aggressive_Trait_Icon</Tag>
+    <Filename>GC3_Aggressive_Trait_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Alliance_Icon</Tag>
+    <Filename>GC3_Alliance_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>BlueMass_Icon</Tag>
+    <Filename>GC3_BlueMass_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Capacity_Icon</Tag>
+    <Filename>GC3_Capacity_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Cruel_Trait_Icon</Tag>
+    <Filename>GC3_Cruel_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Cultural_Trait_Icon</Tag>
+    <Filename>GC3_Cultural_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>CyanMass_Icon</Tag>
+    <Filename>GC3_CyanMass_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Diplomatic_Trait_Icon</Tag>
+    <Filename>GC3_Diplomatic_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Embargo_Icon</Tag>
+    <Filename>GC3_Embargo_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>EscortFighters_Icon</Tag>
+    <Filename>GC3_EscortFighters_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Expansionist_Trait_Icon</Tag>
+    <Filename>GC3_Expansionist_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>ExploitationTreaty_Icon</Tag>
+    <Filename>GC3_ExploitationTreaty_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>FightersCap_Icon</Tag>
+    <Filename>GC3_FightersCap_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Fortitude_Icon</Tag>
+    <Filename>GC3_Fortitude_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Greedy_Trait_Icon</Tag>
+    <Filename>GC3_Greedy_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>GreenMass_Icon</Tag>
+    <Filename>GC3_GreenMass_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Growth_Priority_Icon</Tag>
+    <Filename>GC3_Growth_Priority_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>HullSize_Icon</Tag>
+    <Filename>GC3_HullSize_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>InfluenceGrowth_Icon</Tag>
+    <Filename>GC3_InfluenceGrowth_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Influence_Priority_Icon</Tag>
+    <Filename>GC3_Influence_Priority_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Military_Priority_Icon</Tag>
+    <Filename>GC3_Military_Priority_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Mining_Icon</Tag>
+    <Filename>GC3_Mining_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>NonAggressionPact_Icon</Tag>
+    <Filename>GC3_NonAggressionPact_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Core_Planets_Icon</Tag>
+    <Filename>Core_Planets_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Planets_Icon</Tag>
+		<Filename>Planets_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Context_Colony_Icon</Tag>
+		<Filename>Context_Colony_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Context_Core_Icon</Tag>
+		<Filename>Context_Core_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+    <Tag>Sun_Icon</Tag>
+    <Filename>GC3_Star_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>OpenBorders_Icon</Tag>
+    <Filename>GC3_OpenBorders_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Opportunistic_Trait_Icon</Tag>
+    <Filename>GC3_Opportunistic_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>OrangeMass_Icon</Tag>
+    <Filename>GC3_OrangeMass_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Peaceful_Trait_Icon</Tag>
+    <Filename>GC3_Peaceful_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>RedMass_Icon</Tag>
+    <Filename>GC3_RedMass_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Scientific_Trait_Icon</Tag>
+    <Filename>GC3_Scientific_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>ShipLogistics_Icon</Tag>
+    <Filename>GC3_ShipLogistics_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>SlaveBrokering_Icon</Tag>
+    <Filename>GC3_SlaveBrokering_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Soldiering_Icon</Tag>
+    <Filename>GC3_Soldiering_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Spiritual_Trait_Icon</Tag>
+    <Filename>GC3_Spiritual_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Tech_Priority_Icon</Tag>
+    <Filename>GC3_Tech_Priority_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Threat_Icon</Tag>
+    <Filename>GC3_Threat_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Trader_Trait_Icon</Tag>
+    <Filename>GC3_Trader_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Value_Icon</Tag>
+    <Filename>GC3_Value_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Wealth_Priority_Icon</Tag>
+    <Filename>GC3_Wealth_Priority_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Xenophobic_Trait_Icon</Tag>
+    <Filename>GC3_Xenophobic_Trait_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>YellowMass_Icon</Tag>
+    <Filename>GC3_YellowMass_Icon.png</Filename>
+  </Asset>
+  
+   <Asset>
+    <Tag>Logistics_Icon</Tag>
+    <Filename>GC3_Engineering_Tech_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Colonizer_Icon</Tag>
+    <Filename>GC3_ColonizePlanets_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Benelovent_Icon</Tag>
+    <Filename>GC3_Benevolant_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Pragmatic_Icon</Tag>
+    <Filename>GC3_Pragmatic_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Malevolent_Icon</Tag>
+    <Filename>GC3_Malevolent_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Planetary_Resistance_Icon</Tag>
+    <Filename>GC3_Resistance_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Video_Icon</Tag>
+		<Filename>GC3_Show_Me_Icon.png</Filename>
+	</Asset>
+	
+		<Asset>
+		<Tag>Bullet</Tag>
+		<Filename>GC3_Bullet_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PEACEKEEPER_LOGO</Tag>
+		<Filename>gfx/Civilizations/PeacekeeperLogo.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>StatTooltipBreakdown_Social_Icon</Tag>
+    <Filename>GC3_Social_Manufacturing_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>StatTooltipBreakdown_Military_Icon</Tag>
+    <Filename>GC3_S_Ships_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>StatTooltipBreakdown_Indent_Icon</Tag>
+    <Filename>indent_icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>StatTooltipBreakdown_IndentEnd_Icon</Tag>
+    <Filename>indent_end_icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorAcceleratorIcon</Tag>
+    <Filename>GC3_Precursor_Accelerator_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorCloudIcon</Tag>
+    <Filename>GC3_Precursor_Cloud_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorElevatorIcon</Tag>
+    <Filename>GC3_Precursor_Elevator_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorExperimentalIcon</Tag>
+    <Filename>GC3_Precursor_Experimental_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorFactoryIcon</Tag>
+    <Filename>GC3_Precursor_Factory_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorMoonIcon</Tag>
+    <Filename>GC3_Precursor_Moon_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorPrisonIcon</Tag>
+    <Filename>GC3_Precursor_Prison_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorQuarantineIcon</Tag>
+    <Filename>GC3_Precursor_Quarantine_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorRefineryIcon</Tag>
+    <Filename>GC3_Precursor_Refinery_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorResearchIcon</Tag>
+    <Filename>GC3_Precursor_Research_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorSatellitesIcon</Tag>
+    <Filename>GC3_Precursor_Satellites_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PrecursorWealthIcon</Tag>
+    <Filename>GC3_Precursor_Wealth_32.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CanSurveyIcon</Tag>
+    <Filename>GC3_Can_Be_Surveyed_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CanConstructIcon</Tag>
+    <Filename>GC3_Build_Starbases_Icon.png</Filename>
+  </Asset>
+
+
+	<Asset>
+		<Tag>Habitable_Icon</Tag>
+		<Filename>Cluster_Habbitable.png</Filename>
+	</Asset>
+
+
+	<Asset>
+		<Tag>Starbase_Icon</Tag>
+		<Filename>ClusterStarbase.png</Filename>
+	</Asset>
+
+
+	<Asset>
+    <Tag>CanColonizeIcon</Tag>
+    <Filename>GC3_ColonizePlanets_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CanInvadeIcon</Tag>
+    <Filename>GC3_InvadePlanets_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>StarbaseSupport</Tag>
+    <Filename>GC3_StarFairing_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>ImmuneToNebula</Tag>
+    <Filename>GC3_Is_Immune_To_Nebula_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>AreaofEffectIcon</Tag>
+    <Filename>GC3_Starbase_Range_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>JammingIcon</Tag>
+    <Filename>GC3_Is_Immune_To_Jamming_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Battle_Green</Tag>
+    <Filename>Battle_Green.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Battle_Yellow</Tag>
+    <Filename>Battle_Yellow.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Battle_Orange</Tag>
+    <Filename>Battle_Orange.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Battle_Red</Tag>
+    <Filename>Battle_Red.png</Filename>
+  </Asset>
+  
+  <!--Stratigic Icon Icons-->
+
+  <Asset>
+    <Tag>Sniper_Icon</Tag>
+    <Filename>Sniper_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Guardian_Icon</Tag>
+    <Filename>Guardian_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Bomber_Icon</Tag>
+    <Filename>Bomber_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Knight_Icon</Tag>
+    <Filename>Knight_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>SpaceMonster_Icon</Tag>
+    <Filename>SpaceMonster_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Cutter_Icon</Tag>
+    <Filename>Cutter_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Gunboat_Icon</Tag>
+    <Filename>Gunboat_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Defender_Icon</Tag>
+    <Filename>Defender_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Fury_Icon</Tag>
+    <Filename>Fury_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Corvette_Icon</Tag>
+    <Filename>Corvette_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Frigate_Icon</Tag>
+    <Filename>Frigate_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Bomber_Icon</Tag>
+    <Filename>Bomber_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Ranger_Icon</Tag>
+    <Filename>Ranger_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Cruiser_Icon</Tag>
+    <Filename>Cruiser_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Battleship_Icon</Tag>
+    <Filename>Battleship_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Destroyer_Icon</Tag>
+    <Filename>Destroyer_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Overlord_Icon</Tag>
+    <Filename>Overlord_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Avatar_Icon</Tag>
+    <Filename>Avatar_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Dreadnought_Icon</Tag>
+    <Filename>Dreadnought_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Fortress_Icon</Tag>
+    <Filename>Fortress_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Titan_Icon</Tag>
+    <Filename>Titan_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Asteroid_Icon</Tag>
+    <Filename>Asteroid_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Constructor_Icon</Tag>
+    <Filename>Constructor_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>ColonyShip_Icon</Tag>
+    <Filename>ColonyShip_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Freighter_Icon</Tag>
+    <Filename>Freighter_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Carrier_Icon</Tag>
+    <Filename>Carrier_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>AssaultCarrier_Icon</Tag>
+    <Filename>Carrier_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Support_Icon</Tag>
+    <Filename>Support_Icon.png</Filename>
+  </Asset>
+  <Asset>
+    <Tag>Transport_Icon</Tag>
+    <Filename>Transport_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Scout_Icon</Tag>
+      <Filename>Scout_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Explorer_Icon</Tag>
+    <Filename>Explorer_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>SurveyShip_Icon</Tag>
+    <Filename>SurveyShip_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Paladin_Icon</Tag>
+    <Filename>Paladin_Icon.png</Filename>
+  </Asset>
+
+    <Asset>
+        <Tag>Supply_Icon</Tag>
+        <Filename>Scout_Icon.png</Filename>
+    </Asset>
+
+    <Asset>
+        <Tag>HypergateShip_Icon</Tag>
+        <Filename>Scout_Icon.png</Filename>
+    </Asset>
+
+  <Asset>
+    <Tag>Custom_Icon</Tag>
+    <Filename>Scout_Icon.png</Filename>
+  </Asset>
+
+
+  <Asset>
+    <Tag>Icon_Res_ArtocarpusViriles</Tag>
+    <Filename>Icon_Res_ArtocarpusViriles.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_AurorusArboretum</Tag>
+    <Filename>Icon_Res_AurorusArboretum.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_CrystallizedElerium</Tag>
+    <Filename>Icon_Res_CrystalizedElerium.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_EpimetheusPollen</Tag>
+    <Filename>Icon_Res_EpimetheusPollen.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Icon_Res_HarmonyCrystals</Tag>
+    <Filename>Icon_Res_HarmonyCrystals.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_LabEquipment</Tag>
+    <Filename>LabEquipment_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_IndustrialScaffolding</Tag>
+    <Filename>IndustrialScaffolding_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_ArmoryModule</Tag>
+    <Filename>ArmoryModule_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_CommercialGoods</Tag>
+    <Filename>CommercialGoods_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_BroadcastEquipment</Tag>
+    <Filename>BroadcastEquipment_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_Drones</Tag>
+    <Filename>Drones_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_Modules</Tag>
+    <Filename>Modules_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_Nanobots</Tag>
+    <Filename>Nanobots_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_HeliosOre</Tag>
+    <Filename>Icon_Res_HeliosOre.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_HyperSilicates</Tag>
+    <Filename>Icon_Res_HyperSilicates.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_MonsatiumDeposit</Tag>
+    <Filename>Icon_Res_MonsantiumDeposit.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_PrecursorNanites</Tag>
+    <Filename>Icon_Res_PrecursorNanites.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_PrometheusStone</Tag>
+    <Filename>Icon_Res_PrometheusStone.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_SnugglerColony</Tag>
+    <Filename>Icon_Res_SnugglerColony.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_TechapodHive</Tag>
+    <Filename>Icon_Res_TechapodHive.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_ThuliumCatalyst</Tag>
+    <Filename>Icon_Res_ThuliumCatalyst.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_UltraSpice</Tag>
+    <Filename>Icon_Res_UltraSpice.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Icon_Res_XanthiumDeposit</Tag>
+    <Filename>Icon_Res_XanthiumDeposit.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Guardian_Fighters_Icon</Tag>
+    <Filename>GC3_Guardian_Fighters_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Malevolence_Icon</Tag>
+    <Filename>Malevolence_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Malevolent_Diplomacy_Icon</Tag>
+    <Filename>Malevolent_Diplomacy_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>No_Election_Icon</Tag>
+    <Filename>No_Election_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Pragmatic_Diplomacy_Icon</Tag>
+    <Filename>Pragmatic_Diplomacy_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Pragmatism_Icon</Tag>
+    <Filename>Pragmatism_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Workers_Rights_Icon</Tag>
+    <Filename>Workers_Rights_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Benevolence_Diplomacy_Icon</Tag>
+    <Filename>Benevolence_Diplomacy_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Benevolent_Icon</Tag>
+    <Filename>Benevolent_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Buraucracy_Icon</Tag>
+    <Filename>Buraucracy_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Colony_Limit_Icon</Tag>
+    <Filename>Colony_Limit_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Controlling_Icon</Tag>
+    <Filename>Controlling_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Crisis_Icon</Tag>
+    <Filename>Crisis_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Cyrptocurrency_Icon</Tag>
+    <Filename>Cyrptocurrency_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Free_Ship_Icon</Tag>
+    <Filename>Free_Ship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Galactic_Government_Icon</Tag>
+    <Filename>Galactic_Government_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Hold_Election_Icon</Tag>
+    <Filename>Hold_Election_Icon.png</Filename>
+  </Asset>
+
+    <Asset>
+        <Tag>ArtifactImprovement_Icon</Tag>
+        <Filename>Artifact_Stat_Icon.png</Filename>
+    </Asset>
+
+  <Asset>
+    <Tag>CanSupplySocial_Icon</Tag>
+    <Filename>Social_Overflow_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>CanSupplyMilitary_Icon</Tag>
+    <Filename>Military_Overflow_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Hypergate_Stat_Icon</Tag>
+    <Filename>Hypergate_Stat_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Academic_Icon</Tag>
+    <Filename>LeaderTrait_Academic.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Biologist_Icon</Tag>
+    <Filename>GovernorTrait_Biologist.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Brave_Icon</Tag>
+    <Filename>GovernorTrait_Brave.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Builder_Icon</Tag>
+    <Filename>LeaderTrait_Builder.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Cruel_Icon</Tag>
+    <Filename>GovernorTrait_Cruel.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Mogul_Icon</Tag>
+    <Filename>LeaderTrait_Mogul.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Speaker_Icon</Tag>
+    <Filename>LeaderTrait_Speaker.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Veteran_Icon</Tag>
+    <Filename>LeaderTrait_Veteran.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Veteran_Icon</Tag>
+		<Filename>LeaderTrait_Veteran.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CitizenTrait_Infected_Icon</Tag>
+		<Filename>UnitTrait_Infected.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Plagued_Icon</Tag>
+		<Filename>UnitTrait_Plagued.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CitizenTrait_Protesting_Icon</Tag>
+		<Filename>CitizenTrait_Protesting.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Charismatic_Icon</Tag>
+		<Filename>DiplomatTrait_Charismatic.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Embezzler_Icon</Tag>
+		<Filename>DiplomatTrait_Embezzler.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Investigator_Icon</Tag>
+		<Filename>DiplomatTrait_Investigator.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Peacemaker_Icon</Tag>
+		<Filename>GovernorTrait_Peacemaker.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Spy_Icon</Tag>
+		<Filename>DiplomatTrait_Spy.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Unorganized_Icon</Tag>
+		<Filename>UnitTrait_Unorganized.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Doctor_Icon</Tag>
+		<Filename>GovernorTrait_Doctor.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Famous_Icon</Tag>
+		<Filename>GovernorTrait_Famous.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>GovernorTrait_Prescient_Icon</Tag>
+		<Filename>GovernorTrait_Prescient.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>GovernorTrait_Strange_Icon</Tag>
+		<Filename>GovernorTrait_Strange.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>GovernorTrait_Faithful_Icon</Tag>
+		<Filename>GovernorTrait_Faithful.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Emporium</Tag>
+    <Filename>UnitTrait_Emporium.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>GovernorTrait_Infamous_Icon</Tag>
+		<Filename>GovernorTrait_Infamous.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Kind_Icon</Tag>
+		<Filename>GovernorTrait_Kind.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>GovernorTrait_Organized_Icon</Tag>
+		<Filename>GovernorTrait_Organized.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Slumlord_Icon</Tag>
+		<Filename>GovernorTrait_Slumlord.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Timid_Icon</Tag>
+		<Filename>GovernorTrait_Timid.png</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>LeaderTrait_Academic_Icon</Tag>
+		<Filename>LeaderTrait_Academic.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LeaderTrait_Commander_Icon</Tag>
+		<Filename>LeaderTrait_Commander.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Cheap_Icon</Tag>
+		<Filename>UnitTrait_Cheap.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Corrupt_Icon</Tag>
+		<Filename>UnitTrait_Corrupt.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Cybernetic_Icon</Tag>
+    <Filename>UnitTrait_Cybernetic.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>UnitTrait_Greedy_Icon</Tag>
+		<Filename>UnitTrait_Greedy.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LeaderTrait_Sovereign_Icon</Tag>
+		<Filename>LeaderTrait_Sovereign.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>UnitTrait_Pacifist_Icon</Tag>
+    <Filename>UnitTrait_Pacifist.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Advocate_Icon</Tag>
+		<Filename>UnitTrait_Advocate.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Negotiator_Icon</Tag>
+		<Filename>DiplomatTrait_Negotiator.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Supportive_Icon</Tag>
+		<Filename>DiplomatTrait_Supportive.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DiplomatTrait_Underminer_Icon</Tag>
+		<Filename>DiplomatTrait_Underminer.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LeaderTrait_Talented_Icon</Tag>
+		<Filename>LeaderTrait_Talented.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UnitTrait_Toxic_Icon</Tag>
+		<Filename>UnitTrait_Plagued.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Opportunist_Icon</Tag>
+		<Filename>GovernorTrait_Opportunist.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GovernorTrait_Paranoid_Icon</Tag>
+		<Filename>GovernorTrait_Paranoid.png</Filename>
+	</Asset>
+  <Asset>
+    <Tag>Stat_Legion_Icon</Tag>
+    <Filename>Invading_Legion.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Agent_Icon</Tag>
+    <Filename>Citizen_Spy.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>Stat_Commander_Icon</Tag>
+    <Filename>Citizen_Commander.png</Filename>
+  </Asset>
+
+  
+
+  <Asset>
+    <Tag>Stat_Invading_Legion_Icon</Tag>
+    <Filename>Invading_Legion.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Stat_Defending_Legion_Icon</Tag>
+    <Filename>Defending_Legion.png</Filename>
+  </Asset>
+
+ 
+  
+  
+  
+  <Asset>
+    <Tag>Citizen_Icon</Tag>
+    <Filename>Citizen_Stat.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>DefendingAgent_Icon</Tag>
+    <Filename>Citizen_Spy.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>PlanetarySpies_Icon</Tag>
+    <Filename>GC3_PlanetarySpies_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>EnemyPlanetarySpies_Icon</Tag>
+    <Filename>GC3_PlanetarySpies_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EnemyPlanetarySelfSpies_Icon</Tag>
+    <Filename>GC3_PlanetarySpiesOnYou_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>EspionageLevel_Icon</Tag>
+    <Filename>GC3_EspionageLevel_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>UnitTransport_Icon</Tag>
+    <Filename>Unit_Transport_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>CommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>UpgradedCommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>NavigatorCommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MartyrCommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>SovereignCommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+  
+    <Asset>
+    <Tag>IntimidatorCommandShip_Icon</Tag>
+    <Filename>Unit_Flagship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>MissionShip_Icon</Tag>
+    <Filename>Mission_Ship_Icon.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>Recruit_Icon</Tag>
+    <Filename>Recruit_Icon.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Recruit_Tab_Icon</Tag>
+		<Filename>Recruit_Tab_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Minister_Icon</Tag>
+		<Filename>Minister_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Governor_Icon</Tag>
+		<Filename>Governor_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ThinkTank_Icon</Tag>
+		<Filename>ThinkTankTabIcon.png</Filename>
+	</Asset>
+
+
+	<Asset>
+		<Tag>Decay_Icon</Tag>
+		<Filename>GC3_Name_Sort_Icon.png</Filename>
+	</Asset>
+
+	
+
+	<Asset>
+		<Tag>Diplomats_Icon</Tag>
+		<Filename>Diplomats_Icon.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>Commanders_Icon</Tag>
+		<Filename>Commanders_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitClever</Tag>
+		<Filename>RaceTraitClever.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitContent</Tag>
+		<Filename>RaceTraitContent.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitDeceptive</Tag>
+		<Filename>RaceTraitDeceptive.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitDiplomatic</Tag>
+		<Filename>RaceTraitDiplomatic.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitEconomical</Tag>
+		<Filename>RaceTraitEconomical.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitExplorers</Tag>
+		<Filename>RaceTraitExplorers.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitFast</Tag>
+		<Filename>RaceTraitFast.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitFastLearners</Tag>
+		<Filename>RaceTraitFastLearners.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitFertile</Tag>
+		<Filename>RaceTraitFertile.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitInfluential</Tag>
+		<Filename>RaceTraitInfluential.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitIntimidating</Tag>
+		<Filename>RaceTraitIntimidating.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitMilitant</Tag>
+		<Filename>RaceTraitMilitant.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitPersuasive</Tag>
+		<Filename>RaceTraitPersuasive.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RaceTraitProductive</Tag>
+		<Filename>RaceTraitProductive.png</Filename>
+	</Asset>
+
+  <Asset>
+		<Tag>RaceTraitBrutal</Tag>
+		<Filename>RaceTraitBrutal.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RaceTraitCybernetic</Tag>
+    <Filename>RaceTraitCybernetic.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RaceTraitSpores</Tag>
+    <Filename>RaceTraitSpores.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>RaceTraitVeteran</Tag>
+		<Filename>RaceTraitVeteran.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>RaceTraitVigilant</Tag>
+    <Filename>RaceTraitVigilant.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>RaceTraitWarProfiteers</Tag>
+    <Filename>RaceTraitWarProfiteers.png</Filename>
+  </Asset>
+
+  <Asset>
+		<Tag>RaceTraitCourageous</Tag>
+		<Filename>RaceTraitCourageous.png</Filename>
+	</Asset>
+
+  <Asset>
+    <Tag>LeaderStat_Intelligence_Icon</Tag>
+    <Filename>LeaderStat_Intelligence.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LeaderStat_Social_Icon</Tag>
+    <Filename>LeaderStat_Social.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LeaderStat_Diligence_Icon</Tag>
+    <Filename>LeaderStat_Diligence.png</Filename>
+  </Asset>
+  
+  <Asset>
+    <Tag>LeaderStat_Expectations_Icon</Tag>
+    <Filename>LeaderStat_Expectations.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LeaderStat_Resolve_Icon</Tag>
+    <Filename>LeaderStat_Resolve.png</Filename>
+  </Asset>
+
+  <Asset>
+    <Tag>LeaderStat_Loyalty_Icon</Tag>
+    <Filename>LeaderStat_Loyalty.png</Filename>
+  </Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Military_Power_Icon</Tag>
+		<Filename>GC3_S_Military_Manufacturing_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Faction_Power_Icon</Tag>
+		<Filename>Stat_Faction_Power_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Tech_Power_Icon</Tag>
+		<Filename>LeaderStat_Intelligence.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Manufacturing_Power_Icon</Tag>
+		<Filename>GC3_Raw_Production_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Wealth_Power_Icon</Tag>
+		<Filename>GC3_Economical_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Research_Power_Icon</Tag>
+		<Filename>GC3_Total_Research_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Ascension_Power_Icon</Tag>
+		<Filename>GC3_Ascension_Points_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Influence_Power_Icon</Tag>
+		<Filename>GC3_Influence_Stat_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Citizens_Power_Icon</Tag>
+		<Filename>Recruit_Icon.png</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>Prestige_Input_Achievements_Power_Icon</Tag>
+		<Filename>LeaderStat_Expectations.png</Filename>
+	</Asset>
+
+
+	
+</AssetTable>
+
+

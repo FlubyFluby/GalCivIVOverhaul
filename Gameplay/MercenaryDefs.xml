@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<MercenaryList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/MercenaryDefs.xsd">
+ 
+  <Mercenary>
+    <InternalName>Mercenary_Prospector</InternalName>
+    <DisplayName>Ship_Prospector_Name</DisplayName>
+    <Description>Ship_Prospector_Dec</Description>
+    <ShortDescription>Mercenary_Prospector_Dec</ShortDescription>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Small_06T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Small_06T_Disabled.png</ThumbnailGrey>
+    <CreditCost>750</CreditCost>
+    <AwardedShip>StaticBlueprint_Prospector</AwardedShip>
+  </Mercenary>
+ 
+  <Mercenary>
+    <InternalName>Mercenary_Praxis</InternalName>
+    <DisplayName>Ship_Praxis_Name</DisplayName>
+    <Description>Ship_Praxis_Dec</Description>
+    <ShortDescription>Mercenary_Praxis_Dec</ShortDescription>
+    <AIWhitelist>true</AIWhitelist>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Medium_06T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Medium_06T_Disabled.png</ThumbnailGrey>
+    <CreditCost>2700</CreditCost>
+    <AwardedShip>StaticBlueprint_Praxis</AwardedShip>
+  </Mercenary>
+ 
+  <Mercenary>
+    <InternalName>Mercenary_Nail</InternalName>
+    <DisplayName>Ship_Nail_Name</DisplayName>
+    <Description>Ship_Nail_Dec</Description>
+    <ShortDescription>Mercenary_Nail_Dec</ShortDescription>
+    <AIWhitelist>true</AIWhitelist>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Small_02T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Small_02T_Disabled.png</ThumbnailGrey>
+    <CreditCost>900</CreditCost>
+    <AwardedShip>StaticBlueprint_Nail</AwardedShip>
+  </Mercenary>
+ 
+  <Mercenary>
+    <InternalName>Mercenary_Sabre</InternalName>
+    <DisplayName>Ship_Sabre_Name</DisplayName>
+    <Description>Ship_Sabre_Dec</Description>
+    <ShortDescription>Mercenary_Sabre_Dec</ShortDescription>
+    <AIWhitelist>true</AIWhitelist>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Small_04T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Small_04T_Disabled.png</ThumbnailGrey>
+    <CreditCost>1200</CreditCost>
+    <AwardedShip>StaticBlueprint_Sabre</AwardedShip>
+  </Mercenary> 
+ 
+  <Mercenary>
+    <InternalName>Mercenary_Ysengard</InternalName>
+    <DisplayName>Ship_Ysengard_Name</DisplayName>
+    <Description>Ship_Ysengard_Dec</Description>
+    <ShortDescription>Mercenary_Ysengard_Dec</ShortDescription>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Medium_10T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Medium_10T_Disabled.png</ThumbnailGrey>
+    <CreditCost>1200</CreditCost>
+    <AwardedShip>StaticBlueprint_Ysengard</AwardedShip>
+  </Mercenary>
+   
+  <Mercenary>
+    <InternalName>Mercenary_Stargazer</InternalName>
+    <DisplayName>Ship_Stargazer_Name</DisplayName>
+    <Description>Ship_Stargazer_Dec</Description>
+    <ShortDescription>Mercenary_Stargazer_Dec</ShortDescription>
+    <Tier>MercenaryTier1</Tier>
+    <Weight>25</Weight>
+    <Thumbnail>Merc_Cargo_04T_Large.png</Thumbnail>
+    <ThumbnailGrey>Merc_Cargo_04T_Disabled.png</ThumbnailGrey>
+    <CreditCost>900</CreditCost>
+    <AwardedShip>StaticBlueprint_Stargazer</AwardedShip>
+  </Mercenary>
+
+</MercenaryList>

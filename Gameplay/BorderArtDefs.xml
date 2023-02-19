@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<BorderArtList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/BorderArtDefs.xsd">
+
+  <!-- 11111111111 11111111111 11111111111 -->
+  <!-- 11111111111 00000000000 00000000000 -->
+  <BorderArt>
+    <InternalName>BLACK_HOLE_BORDER</InternalName>    
+    <Pattern>110100110111101001101111010011011</Pattern>
+    <LineCount>1</LineCount>
+    <LineSpacing>1.0</LineSpacing>
+    <Color>White</Color>
+  </BorderArt>
+	
+
+  <BorderArt>
+    <InternalName>TRADEROUTE_BORDER</InternalName>
+    <Pattern>111011101110111011101110111011101</Pattern>
+    <LineCount>2</LineCount>
+    <LineSpacing>25.0</LineSpacing>
+    <Color>White</Color>
+  </BorderArt>
+
+  <BorderArt>
+    <InternalName>AREA_OF_EFFECT_BORDER</InternalName>
+    <Pattern>00000000000001100011000111111111111</Pattern>
+    <LineCount>3</LineCount>
+    <LineSpacing>5.0</LineSpacing>
+    <Color>LightGray</Color>
+  </BorderArt>
+
+  <BorderArt>
+    <InternalName>GALAXY_BORDER</InternalName>
+    <Pattern>000000000000000000000001100011000</Pattern>
+    <LineCount>1</LineCount>
+    <LineSpacing>1.0</LineSpacing>
+    <Color>LightGray</Color>
+  </BorderArt>
+
+</BorderArtList>

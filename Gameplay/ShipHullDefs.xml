@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipHullList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipHullDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipHullDefs.xml -->
+ 
+  
+  <ShipHull>
+    <InternalName>T_Tiny_Hull_00</InternalName>
+    <DisplayName>T_Tiny_Hull_00_Name</DisplayName>
+    <Description>T_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>T_Small_Hull_00</InternalName>
+    <DisplayName>T_Small_Hull_00_Name</DisplayName>
+    <Description>T_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>T_Medium_Hull_00</InternalName>
+    <DisplayName>T_Medium_Hull_00_Name</DisplayName>
+    <Description>T_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>T_Large_Hull_00</InternalName>
+    <DisplayName>T_Large_Hull_00_Name</DisplayName>
+    <Description>T_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>T_Huge_Hull_00</InternalName>
+    <DisplayName>T_Huge_Hull_00_Name</DisplayName>
+    <Description>T_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>T_Cargo_Hull_00</InternalName>
+    <DisplayName>T_Cargo_Hull_00_Name</DisplayName>
+    <Description>T_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>T_Starbase_Hull_00</InternalName>
+    <DisplayName>T_Starbase_Hull_00_Name</DisplayName>
+    <Description>T_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Terran</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Y_TINY_HULL_00</InternalName>
+    <DisplayName>Y_TINY_HULL_00_Name</DisplayName>
+    <Description>Y_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Y_Small_Hull_00</InternalName>
+    <DisplayName>Y_Small_Hull_00_Name</DisplayName>
+    <Description>Y_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Y_Medium_Hull_00</InternalName>
+    <DisplayName>Y_Medium_Hull_00_Name</DisplayName>
+    <Description>Y_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Y_LargeHull_00</InternalName>
+    <DisplayName>Y_LargeHull_00_Name</DisplayName>
+    <Description>Y_LargeHull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Y_Huge_Hull_00</InternalName>
+    <DisplayName>Y_Huge_Hull_00_Name</DisplayName>
+    <Description>Y_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Y_Cargo_Hull_00</InternalName>
+    <DisplayName>Y_Cargo_Hull_00_Name</DisplayName>
+    <Description>Y_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Y_Starbase_Hull_00</InternalName>
+    <DisplayName>Y_Starbase_Hull_00_Name</DisplayName>
+    <Description>Y_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>YorModel_131</ArtDefine>
+    <Style>Yor</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>D_TINY_HULL_00</InternalName>
+    <DisplayName>D_TINY_HULL_00_Name</DisplayName>
+    <Description>D_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>D_Small_Hull_00</InternalName>
+    <DisplayName>D_Small_Hull_00_Name</DisplayName>
+    <Description>D_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>D_Medium_Hull_00</InternalName>
+    <DisplayName>D_Medium_Hull_00_Name</DisplayName>
+    <Description>D_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>D_Large_Hull_00</InternalName>
+    <DisplayName>D_Large_Hull_00_Name</DisplayName>
+    <Description>D_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>D_Huge_Hull_00</InternalName>
+    <DisplayName>D_Huge_Hull_00_Name</DisplayName>
+    <Description>D_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>D_Cargo_Hull_00</InternalName>
+    <DisplayName>D_Cargo_Hull_00_Name</DisplayName>
+    <Description>D_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>D_Starbase_Hull_00</InternalName>
+    <DisplayName>D_Starbase_Hull_00_Name</DisplayName>
+    <Description>D_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Drengin</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>A_Tiny_Hull_00</InternalName>
+    <DisplayName>A_Tiny_Hull_00_Name</DisplayName>
+    <Description>A_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>A_Small_Hull_00</InternalName>
+    <DisplayName>A_Small_Hull_00_Name</DisplayName>
+    <Description>A_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>A_Medium_Hull_00</InternalName>
+    <DisplayName>A_Medium_Hull_00_Name</DisplayName>
+    <Description>A_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>A_Large_Hull_00</InternalName>
+    <DisplayName>A_Large_Hull_00_Name</DisplayName>
+    <Description>A_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>A_Huge_Hull_00</InternalName>
+    <DisplayName>A_Huge_Hull_00_Name</DisplayName>
+    <Description>A_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>A_Cargo_Hull_00</InternalName>
+    <DisplayName>A_Cargo_Hull_00_Name</DisplayName>
+    <Description>A_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>A_Starbase_Hull_00</InternalName>
+    <DisplayName>A_Starbase_Hull_00_Name</DisplayName>
+    <Description>A_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>AltarianModel_52</ArtDefine>
+    <Style>Altarian</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>TH_TINY_HULL_00</InternalName>
+    <DisplayName>TH_TINY_HULL_00_Name</DisplayName>
+    <Description>TH_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>TH_Small_Hull_00</InternalName>
+    <DisplayName>TH_Small_Hull_00_Name</DisplayName>
+    <Description>TH_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>TH_Medium_Hull_00</InternalName>
+    <DisplayName>TH_Medium_Hull_00_Name</DisplayName>
+    <Description>TH_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>TH_LargeHull_00</InternalName>
+    <DisplayName>TH_LargeHull_00_Name</DisplayName>
+    <Description>TH_LargeHull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>TH_Huge_Hull_00</InternalName>
+    <DisplayName>TH_Huge_Hull_00_Name</DisplayName>
+    <Description>TH_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>TH_Cargo_Hull_00</InternalName>
+    <DisplayName>TH_Cargo_Hull_00_Name</DisplayName>
+    <Description>TH_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>TH_Starbase_Hull_00</InternalName>
+    <DisplayName>TH_Starbase_Hull_00_Name</DisplayName>
+    <Description>TH_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>ThalanModel_92</ArtDefine>
+    <Style>Thalan</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>I_TINY_HULL_00</InternalName>
+    <DisplayName>I_TINY_HULL_00_Name</DisplayName>
+    <Description>I_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>I_Small_Hull_00</InternalName>
+    <DisplayName>I_Small_Hull_00_Name</DisplayName>
+    <Description>I_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>I_Medium_Hull_00</InternalName>
+    <DisplayName>I_Medium_Hull_00_Name</DisplayName>
+    <Description>I_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>I_LargeHull_00</InternalName>
+    <DisplayName>I_LargeHull_00_Name</DisplayName>
+    <Description>I_LargeHull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>I_Huge_Hull_00</InternalName>
+    <DisplayName>I_Huge_Hull_00_Name</DisplayName>
+    <Description>I_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>I_Cargo_Hull_00</InternalName>
+    <DisplayName>I_Cargo_Hull_00_Name</DisplayName>
+    <Description>I_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>I_Starbase_Hull_00</InternalName>
+    <DisplayName>I_Starbase_Hull_00_Name</DisplayName>
+    <Description>I_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>IridiumModel_50</ArtDefine>
+    <Style>Iridium</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>IC_TINY_HULL_00</InternalName>
+    <DisplayName>IC_TINY_HULL_00_Name</DisplayName>
+    <Description>IC_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>IC_Small_Hull_00</InternalName>
+    <DisplayName>IC_Small_Hull_00_Name</DisplayName>
+    <Description>IC_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>IC_Medium_Hull_00</InternalName>
+    <DisplayName>IC_Medium_Hull_00_Name</DisplayName>
+    <Description>IC_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>IC_LargeHull_00</InternalName>
+    <DisplayName>IC_LargeHull_00_Name</DisplayName>
+    <Description>IC_LargeHull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>IC_Huge_Hull_00</InternalName>
+    <DisplayName>IC_Huge_Hull_00_Name</DisplayName>
+    <Description>IC_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>IC_Cargo_Hull_00</InternalName>
+    <DisplayName>IC_Cargo_Hull_00_Name</DisplayName>
+    <Description>IC_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>IC_Starbase_Hull_00</InternalName>
+    <DisplayName>IC_Starbase_Hull_00_Name</DisplayName>
+    <Description>IC_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>IconianModel_63</ArtDefine>
+    <Style>Iconian</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>K_TINY_HULL_00</InternalName>
+    <DisplayName>K_TINY_HULL_00_Name</DisplayName>
+    <Description>K_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>K_Small_Hull_00</InternalName>
+    <DisplayName>K_Small_Hull_00_Name</DisplayName>
+    <Description>K_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>K_Medium_Hull_00</InternalName>
+    <DisplayName>K_Medium_Hull_00_Name</DisplayName>
+    <Description>K_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>K_LargeHull_00</InternalName>
+    <DisplayName>K_LargeHull_00_Name</DisplayName>
+    <Description>K_LargeHull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>K_Huge_Hull_00</InternalName>
+    <DisplayName>K_Huge_Hull_00_Name</DisplayName>
+    <Description>K_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>K_Cargo_Hull_00</InternalName>
+    <DisplayName>K_Cargo_Hull_00_Name</DisplayName>
+    <Description>K_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>K_Starbase_Hull_00</InternalName>
+    <DisplayName>K_Starbase_Hull_00_Name</DisplayName>
+    <Description>K_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>KrynnModel_57</ArtDefine>
+    <Style>Krynn</Style>
+  </ShipHull>
+  
+  <ShipHull>
+    <InternalName>P_Tiny_Hull_00</InternalName>
+    <DisplayName>P_Tiny_Hull_00_Name</DisplayName>
+    <Description>P_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>P_Small_Hull_00</InternalName>
+    <DisplayName>P_Small_Hull_00_Name</DisplayName>
+    <Description>P_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>P_Medium_Hull_00</InternalName>
+    <DisplayName>P_Medium_Hull_00_Name</DisplayName>
+    <Description>P_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>P_Large_Hull_00</InternalName>
+    <DisplayName>P_Large_Hull_00_Name</DisplayName>
+    <Description>P_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>P_Huge_Hull_00</InternalName>
+    <DisplayName>P_Huge_Hull_00_Name</DisplayName>
+    <Description>P_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>P_Cargo_Hull_00</InternalName>
+    <DisplayName>P_Cargo_Hull_00_Name</DisplayName>
+    <Description>P_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>P_Starbase_Hull_00</InternalName>
+    <DisplayName>P_Starbase_Hull_00_Name</DisplayName>
+    <Description>P_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Pirate</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Arcean_Tiny_Hull_00</InternalName>
+    <DisplayName>Arcean_Tiny_Hull_00_Name</DisplayName>
+    <Description>Arcean_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Arcean_Small_Hull_00</InternalName>
+    <DisplayName>Arcean_Small_Hull_00_Name</DisplayName>
+    <Description>Arcean_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Arcean_Medium_Hull_00</InternalName>
+    <DisplayName>Arcean_Medium_Hull_00_Name</DisplayName>
+    <Description>Arcean_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Arcean_Large_Hull_00</InternalName>
+    <DisplayName>Arcean_Large_Hull_00_Name</DisplayName>
+    <Description>Arcean_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Arcean_Huge_Hull_00</InternalName>
+    <DisplayName>Arcean_Huge_Hull_00_Name</DisplayName>
+    <Description>Arcean_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Arcean_Cargo_Hull_00</InternalName>
+    <DisplayName>Arcean_Cargo_Hull_00_Name</DisplayName>
+    <Description>Arcean_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Arcean_Starbase_Hull_00</InternalName>
+    <DisplayName>Arcean_Starbase_Hull_00_Name</DisplayName>
+    <Description>Arcean_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>ArceanModel_001</ArtDefine>
+    <Style>Arcean</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>UnitedEarth_Tiny_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Tiny_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>UnitedEarth_Small_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Small_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>UnitedEarth_Medium_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Medium_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>UnitedEarth_Large_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Large_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>UnitedEarth_Huge_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Huge_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>UnitedEarth_Cargo_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Cargo_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>UnitedEarth_Starbase_Hull_00</InternalName>
+    <DisplayName>UnitedEarth_Starbase_Hull_00_Name</DisplayName>
+    <Description>UnitedEarth_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>UnitedEarth</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Universal_Tiny_Hull_00</InternalName>
+    <DisplayName>Universal_Tiny_Hull_00_Name</DisplayName>
+    <Description>Universal_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Universal_Small_Hull_00</InternalName>
+    <DisplayName>Universal_Small_Hull_00_Name</DisplayName>
+    <Description>Universal_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Universal_Medium_Hull_00</InternalName>
+    <DisplayName>Universal_Medium_Hull_00_Name</DisplayName>
+    <Description>Universal_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Universal_Large_Hull_00</InternalName>
+    <DisplayName>Universal_Large_Hull_00_Name</DisplayName>
+    <Description>Universal_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Universal_Huge_Hull_00</InternalName>
+    <DisplayName>Universal_Huge_Hull_00_Name</DisplayName>
+    <Description>Universal_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Universal_Cargo_Hull_00</InternalName>
+    <DisplayName>Universal_Cargo_Hull_00_Name</DisplayName>
+    <Description>Universal_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Universal</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Korx_Tiny_Hull_00</InternalName>
+    <DisplayName>Korx_Tiny_Hull_00_Name</DisplayName>
+    <Description>Korx_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korx_Small_Hull_00</InternalName>
+    <DisplayName>Korx_Small_Hull_00_Name</DisplayName>
+    <Description>Korx_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korx_Medium_Hull_00</InternalName>
+    <DisplayName>Korx_Medium_Hull_00_Name</DisplayName>
+    <Description>Korx_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korx_Large_Hull_00</InternalName>
+    <DisplayName>Korx_Large_Hull_00_Name</DisplayName>
+    <Description>Korx_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korx_Huge_Hull_00</InternalName>
+    <DisplayName>Korx_Huge_Hull_00_Name</DisplayName>
+    <Description>Korx_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+
+
+  <ShipHull>
+    <InternalName>Korx_Cargo_Hull_00</InternalName>
+    <DisplayName>Korx_Cargo_Hull_00_Name</DisplayName>
+    <Description>Korx_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Korx_Starbase_Hull_00</InternalName>
+    <DisplayName>Korx_Starbase_Hull_00_Name</DisplayName>
+    <Description>Korx_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korx</Style>
+  </ShipHull>  
+
+  <ShipHull>
+    <InternalName>Drath_Tiny_Hull_00</InternalName>
+    <DisplayName>Drath_Tiny_Hull_00_Name</DisplayName>
+    <Description>Drath_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Small_Hull_00</InternalName>
+    <DisplayName>Drath_Small_Hull_00_Name</DisplayName>
+    <Description>Drath_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Medium_Hull_00</InternalName>
+    <DisplayName>Drath_Medium_Hull_00_Name</DisplayName>
+    <Description>Drath_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Large_Hull_00</InternalName>
+    <DisplayName>Drath_Large_Hull_00_Name</DisplayName>
+    <Description>Drath_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Huge_Hull_00</InternalName>
+    <DisplayName>Drath_Huge_Hull_00_Name</DisplayName>
+    <Description>Drath_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Cargo_Hull_00</InternalName>
+    <DisplayName>Drath_Cargo_Hull_00_Name</DisplayName>
+    <Description>Drath_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Drath_Starbase_Hull_00</InternalName>
+    <DisplayName>Drath_Starbase_Hull_00_Name</DisplayName>
+    <Description>Drath_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Drath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Mercenary_Tiny_Hull_00</InternalName>
+    <DisplayName>Mercenary_Tiny_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Mercenary_Small_Hull_00</InternalName>
+    <DisplayName>Mercenary_Small_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Mercenary_Medium_Hull_00</InternalName>
+    <DisplayName>Mercenary_Medium_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Mercenary_Large_Hull_00</InternalName>
+    <DisplayName>Mercenary_Large_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Mercenary_Huge_Hull_00</InternalName>
+    <DisplayName>Mercenary_Huge_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Mercenary_Cargo_Hull_00</InternalName>
+    <DisplayName>Mercenary_Cargo_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Mercenary_Starbase_Hull_00</InternalName>
+    <DisplayName>Mercenary_Starbase_Hull_00_Name</DisplayName>
+    <Description>Mercenary_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>MercModel_01</ArtDefine>
+    <Style>Mercenary</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Resistance_Tiny_Hull_00</InternalName>
+    <DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+    <Description>Resistance_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Resistance_Small_Hull_00</InternalName>
+    <DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+    <Description>Resistance_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Resistance_Medium_Hull_00</InternalName>
+    <DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+    <Description>Resistance_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Resistance_Large_Hull_00</InternalName>
+    <DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+    <Description>Resistance_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Resistance_Huge_Hull_00</InternalName>
+    <DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+    <Description>Resistance_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Resistance_Cargo_Hull_00</InternalName>
+    <DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+    <Description>Resistance_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_900</ArtDefine>
+    <Style>Resistance</Style>
+  </ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>TerranAlliance_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>TerranAlliance</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Xeloxi_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Festron</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Festron</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Festron</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Festron</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Festron</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Festron_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Xeloxi</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Manti_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Manti</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Mimot_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Mimot</Style>
+	</ShipHull>
+
+
+	<ShipHull>
+		<InternalName>Navigators_Tiny_Hull_00</InternalName>
+		<DisplayName>Resistance_Tiny_Hull_00_Name</DisplayName>
+		<Description>Resistance_Tiny_Hull_00_Dec</Description>
+		<ShipHullStatsName>Tiny</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Navigators_Small_Hull_00</InternalName>
+		<DisplayName>Resistance_Small_Hull_00_Name</DisplayName>
+		<Description>Resistance_Small_Hull_00_Dec</Description>
+		<ShipHullStatsName>Small</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Navigators_Medium_Hull_00</InternalName>
+		<DisplayName>Resistance_Medium_Hull_00_Name</DisplayName>
+		<Description>Resistance_Medium_Hull_00_Dec</Description>
+		<ShipHullStatsName>Medium</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Navigators_Large_Hull_00</InternalName>
+		<DisplayName>Resistance_Large_Hull_00_Name</DisplayName>
+		<Description>Resistance_Large_Hull_00_Dec</Description>
+		<ShipHullStatsName>Large</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Navigators_Huge_Hull_00</InternalName>
+		<DisplayName>Resistance_Huge_Hull_00_Name</DisplayName>
+		<Description>Resistance_Huge_Hull_00_Dec</Description>
+		<ShipHullStatsName>Huge</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+		<InternalName>Navigators_Cargo_Hull_00</InternalName>
+		<DisplayName>Resistance_Cargo_Hull_00_Name</DisplayName>
+		<Description>Resistance_Cargo_Hull_00_Dec</Description>
+		<ShipHullStatsName>Cargo</ShipHullStatsName>
+		<ArtDefine>TerranModel_900</ArtDefine>
+		<Style>Navigators</Style>
+	</ShipHull>
+
+	<ShipHull>
+    <InternalName>Onyx_Tiny_Hull_00</InternalName>
+    <DisplayName>Onyx_Tiny_Hull_00_Name</DisplayName>
+    <Description>Onyx_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Onyx_Small_Hull_00</InternalName>
+    <DisplayName>Onyx_Small_Hull_00_Name</DisplayName>
+    <Description>Onyx_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Onyx_Medium_Hull_00</InternalName>
+    <DisplayName>Onyx_Medium_Hull_00_Name</DisplayName>
+    <Description>Onyx_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Onyx_Large_Hull_00</InternalName>
+    <DisplayName>Onyx_Large_Hull_00_Name</DisplayName>
+    <Description>Onyx_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Onyx_Huge_Hull_00</InternalName>
+    <DisplayName>Onyx_Huge_Hull_00_Name</DisplayName>
+    <Description>Onyx_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Onyx_Cargo_Hull_00</InternalName>
+    <DisplayName>Onyx_Cargo_Hull_00_Name</DisplayName>
+    <Description>Onyx_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>OnyxModel_00</ArtDefine>
+    <Style>Onyx</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Tiny_Hull_00</InternalName>
+    <DisplayName>Slyne_Tiny_Hull_00_Name</DisplayName>
+    <Description>Slyne_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Small_Hull_00</InternalName>
+    <DisplayName>Slyne_Small_Hull_00_Name</DisplayName>
+    <Description>Slyne_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Medium_Hull_00</InternalName>
+    <DisplayName>Slyne_Medium_Hull_00_Name</DisplayName>
+    <Description>Slyne_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Large_Hull_00</InternalName>
+    <DisplayName>Slyne_Large_Hull_00_Name</DisplayName>
+    <Description>Slyne_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Huge_Hull_00</InternalName>
+    <DisplayName>Slyne_Huge_Hull_00_Name</DisplayName>
+    <Description>Slyne_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Slyne_Cargo_Hull_00</InternalName>
+    <DisplayName>Slyne_Cargo_Hull_00_Name</DisplayName>
+    <Description>Slyne_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_901</ArtDefine>
+    <Style>Slyne</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Korath_Tiny_Hull_00</InternalName>
+    <DisplayName>D_TINY_HULL_00_Name</DisplayName>
+    <Description>D_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korath_Small_Hull_00</InternalName>
+    <DisplayName>D_Small_Hull_00_Name</DisplayName>
+    <Description>D_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_118</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korath_Medium_Hull_00</InternalName>
+    <DisplayName>D_Medium_Hull_00_Name</DisplayName>
+    <Description>D_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korath_Large_Hull_00</InternalName>
+    <DisplayName>D_Large_Hull_00_Name</DisplayName>
+    <Description>D_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Korath_Huge_Hull_00</InternalName>
+    <DisplayName>D_Huge_Hull_00_Name</DisplayName>
+    <Description>D_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Korath_Cargo_Hull_00</InternalName>
+    <DisplayName>D_Cargo_Hull_00_Name</DisplayName>
+    <Description>D_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Korath_Starbase_Hull_00</InternalName>
+    <DisplayName>D_Starbase_Hull_00_Name</DisplayName>
+    <Description>D_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>DrenginModel_64</ArtDefine>
+    <Style>Korath</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Snathi_Tiny_Hull_00</InternalName>
+    <DisplayName>P_Tiny_Hull_00_Name</DisplayName>
+    <Description>P_Tiny_Hull_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Snathi_Small_Hull_00</InternalName>
+    <DisplayName>P_Small_Hull_00_Name</DisplayName>
+    <Description>P_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Snathi_Medium_Hull_00</InternalName>
+    <DisplayName>P_Medium_Hull_00_Name</DisplayName>
+    <Description>P_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Snathi_Large_Hull_00</InternalName>
+    <DisplayName>P_Large_Hull_00_Name</DisplayName>
+    <Description>P_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Snathi_Huge_Hull_00</InternalName>
+    <DisplayName>P_Huge_Hull_00_Name</DisplayName>
+    <Description>P_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Snathi_Cargo_Hull_00</InternalName>
+    <DisplayName>P_Cargo_Hull_00_Name</DisplayName>
+    <Description>P_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Snathi_Starbase_Hull_00</InternalName>
+    <DisplayName>P_Starbase_Hull_00_Name</DisplayName>
+    <Description>P_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TerranModel_902</ArtDefine>
+    <Style>Snathi</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Torian_TINY_HULL_00</InternalName>
+    <DisplayName>Torian_TINY_HULL_00_Name</DisplayName>
+    <Description>Torian_TINY_HULL_00_Dec</Description>
+    <ShipHullStatsName>Tiny</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Torian_Small_Hull_00</InternalName>
+    <DisplayName>Torian_Small_Hull_00_Name</DisplayName>
+    <Description>Torian_Small_Hull_00_Dec</Description>
+    <ShipHullStatsName>Small</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Torian_Medium_Hull_00</InternalName>
+    <DisplayName>Torian_Medium_Hull_00_Name</DisplayName>
+    <Description>Torian_Medium_Hull_00_Dec</Description>
+    <ShipHullStatsName>Medium</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Torian_Large_Hull_00</InternalName>
+    <DisplayName>Torian_Large_Hull_00_Name</DisplayName>
+    <Description>Torian_Large_Hull_00_Dec</Description>
+    <ShipHullStatsName>Large</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Torian_Huge_Hull_00</InternalName>
+    <DisplayName>Torian_Huge_Hull_00_Name</DisplayName>
+    <Description>Torian_Huge_Hull_00_Dec</Description>
+    <ShipHullStatsName>Huge</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+ 
+  <ShipHull>
+    <InternalName>Torian_Cargo_Hull_00</InternalName>
+    <DisplayName>Torian_Cargo_Hull_00_Name</DisplayName>
+    <Description>Torian_Cargo_Hull_00_Dec</Description>
+    <ShipHullStatsName>Cargo</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+
+  <ShipHull>
+    <InternalName>Torian_Starbase_Hull_00</InternalName>
+    <DisplayName>Torian_Starbase_Hull_00_Name</DisplayName>
+    <Description>Torian_Starbase_Hull_00_Dec</Description>
+    <ShipHullStatsName>Starbase</ShipHullStatsName>
+    <ArtDefine>TorianModel_01</ArtDefine>
+    <Style>Torian</Style>
+  </ShipHull>
+  
+</ShipHullList>

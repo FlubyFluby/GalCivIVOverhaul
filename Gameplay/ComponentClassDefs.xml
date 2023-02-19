@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ComponentClassList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ComponentClassDefs.xsd">
+
+  <ComponentClass>
+    <UniqueID>InterstellarDrive</UniqueID>
+    <PrimaryStatList>MovesCap</PrimaryStatList>
+  </ComponentClass>
+	
+	  <ComponentClass>
+    <UniqueID>InterstellarDriveAugment</UniqueID>
+    <PrimaryStatList>MovesCap</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>SublightDrive</UniqueID>
+    <PrimaryStatList>TacticalSpeed</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>LifeSupport</UniqueID>
+    <PrimaryStatList>ShipRange</PrimaryStatList>
+  </ComponentClass>
+	
+	  <ComponentClass>
+    <UniqueID>HitPointAugment</UniqueID>
+			<PrimaryStatList>HitPointsCap</PrimaryStatList>
+      <AbilityStat>HitPointsCap</AbilityStat>
+     <AbilityStatDisplayName>HitPointAugment_AbilityName</AbilityStatDisplayName>
+      <AbilityStatDisplayIcon>Hitpoints_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>  
+    <UniqueID>Sensor</UniqueID>
+    <PrimaryStatList>SensorRange</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>Targeting</UniqueID>
+    <PrimaryStatList>Accuracy</PrimaryStatList>
+    <AbilityStat>Accuracy</AbilityStat>
+   <AbilityStatDisplayName>Targeting_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Stat_Temp_Icon</AbilityStatDisplayIcon>
+   </ComponentClass>
+    
+  <ComponentClass>  
+    <UniqueID>Jamming</UniqueID>
+    <PrimaryStatList>Jamming</PrimaryStatList>
+    <AbilityStat>Jamming</AbilityStat>
+   <AbilityStatDisplayName>Jamming_AbilityName</AbilityStatDisplayName>
+  <AbilityStatDisplayIcon>Stat_Temp_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>Repair</UniqueID>
+    <PrimaryStatList>TacticalRepair</PrimaryStatList>
+    <AbilityStat>TacticalRepair</AbilityStat>
+   <AbilityStatDisplayName>Repair_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Stat_Ship_Maintenance_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>Armor</UniqueID>
+    <PrimaryStatList>ArmorRating</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>Shields</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>PointDefense</UniqueID>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>BeamWeapon</UniqueID>
+    <PrimaryStatList>BeamAttack</PrimaryStatList>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>BeamWeaponEnhanced</UniqueID>
+		<PrimaryStatList>BeamAttack</PrimaryStatList>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>MissileWeapon</UniqueID>
+    <PrimaryStatList>MissileAttack</PrimaryStatList>
+  </ComponentClass>
+	
+	  <ComponentClass>  
+    <UniqueID>MissileWeaponEnhanced</UniqueID>
+    <PrimaryStatList>MissileAttack</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>KineticWeapon</UniqueID>
+    <PrimaryStatList>KineticAttack</PrimaryStatList>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>KineticWeaponEnhanced</UniqueID>
+		<PrimaryStatList>KineticAttack</PrimaryStatList>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>BeamAugment1</UniqueID>
+    <PrimaryStatList>BeamCooldown</PrimaryStatList>
+		<AbilityStat>BeamCooldown</AbilityStat>
+   <AbilityStatDisplayName>BeamAugment1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>BeamCooldownIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamAugment2</UniqueID>
+    <PrimaryStatList>BeamRange</PrimaryStatList>
+    <AbilityStat>BeamRange</AbilityStat>
+   <AbilityStatDisplayName>BeamAugment2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>BeamRangeIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamAugment3</UniqueID>
+    <PrimaryStatList>IgnoreShield</PrimaryStatList>
+    <AbilityStat>IgnoreShield</AbilityStat>
+   <AbilityStatDisplayName>BeamAugment3_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ShieldDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>MissileAugment1</UniqueID>
+    <PrimaryStatList>MissileCooldown</PrimaryStatList>
+    <AbilityStat>MissileCooldown</AbilityStat>
+   <AbilityStatDisplayName>MissileAugment1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>MissileCooldownIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileAugment2</UniqueID>
+    <PrimaryStatList>MissileRange</PrimaryStatList>
+    <AbilityStat>MissileRange</AbilityStat>
+   <AbilityStatDisplayName>MissileAugment2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>MissileRangeIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileAugment3</UniqueID>
+    <PrimaryStatList>PointDamageWeapon</PrimaryStatList>
+    <AbilityStat>PointDamageWeapon</AbilityStat>
+   <AbilityStatDisplayName>MissileAugment3_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>PointDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>KineticAugment1</UniqueID>
+    <PrimaryStatList>KineticCooldown</PrimaryStatList>
+    <AbilityStat>KineticCooldown</AbilityStat>
+   <AbilityStatDisplayName>KineticAugment1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>KineticCooldownIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticAugment2</UniqueID>
+    <PrimaryStatList>KineticRange</PrimaryStatList>
+    <AbilityStat>KineticRange</AbilityStat>
+   <AbilityStatDisplayName>KineticAugment2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>KineticRangeIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticAugment3</UniqueID>
+    <PrimaryStatList>ArmorDamageWeapon</PrimaryStatList>
+    <AbilityStat>ArmorDamageWeapon</AbilityStat>
+   <AbilityStatDisplayName>KineticAugment3_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ArmorDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>InterceptorCarrierModule</UniqueID>
+		<PrimaryStatList>InterceptorFightersCap</PrimaryStatList>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>GuardianCarrierModule</UniqueID>
+		<PrimaryStatList>GuardianFightersCap</PrimaryStatList>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>AssaultCarrierModule</UniqueID>
+    <PrimaryStatList>AssaultFightersCap</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>EscortCarrierModule</UniqueID>
+    <PrimaryStatList>EscortFightersCap</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>ColonyModule</UniqueID>
+    <PrimaryStatList>PopulationCap</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>SupplyModule</UniqueID>
+    <PrimaryStatList>CanSupplySocial</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>  
+    <UniqueID>ConstructionModule</UniqueID>
+    <PrimaryStatList>ModuleConstructionPointsCap</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>CargoModule</UniqueID>
+    <PrimaryStatList>CanCreateTradeRoute</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>TransportModule</UniqueID>
+    <PrimaryStatList>PopulationCap</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>SurveyModuleEnhanced</UniqueID>
+    <PrimaryStatList>CanSurvey</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>SurveyModule</UniqueID>
+    <PrimaryStatList>CanSurvey</PrimaryStatList>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>RecoveryModule</UniqueID>
+    <PrimaryStatList>CanSalvage</PrimaryStatList>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>ShieldProjection</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+    <AbilityStat>ShieldStrength</AbilityStat>
+    <AbilityStatDisplayName>ShieldProjection_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ShieldStrengthIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>ShieldSupport</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+    <AbilityStat>ShieldStrength</AbilityStat>
+    <AbilityStatDisplayName>ShieldSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ShieldStrengthIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>ShieldDegradation</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+    <AbilityStat>ShieldStrength</AbilityStat>
+    <AbilityStatDisplayName>ShieldDegradation_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ShieldDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>PointProjection</UniqueID>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+    <AbilityStat>PointDefense</AbilityStat>
+    <AbilityStatDisplayName>PointProjection_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>PointDefenseIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>PointSupport</UniqueID>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+    <AbilityStat>PointDefense</AbilityStat>
+    <AbilityStatDisplayName>PointSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>PointDefenseIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>PointDegradation</UniqueID>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+    <AbilityStat>PointDefense</AbilityStat>
+    <AbilityStatDisplayName>PointDegradation_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>PointDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>ArmorSupport</UniqueID>
+    <PrimaryStatList>ArmorRating</PrimaryStatList>
+    <AbilityStat>ArmorRating</AbilityStat>
+    <AbilityStatDisplayName>ArmorSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ArmorRateingIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>ArmorDegradation</UniqueID>
+    <PrimaryStatList>ArmorRating</PrimaryStatList>
+    <AbilityStat>ArmorRating</AbilityStat>
+    <AbilityStatDisplayName>ArmorDegradation_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ArmorRateingIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>RepairSupport</UniqueID>
+    <PrimaryStatList>TacticalRepair</PrimaryStatList>
+    <AbilityStat>TacticalRepair</AbilityStat>
+    <AbilityStatDisplayName>RepairSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>ArmorDamageIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamSupport1</UniqueID>
+    <PrimaryStatList>BeamCooldown</PrimaryStatList>
+    <AbilityStat>BeamCooldown</AbilityStat>
+    <AbilityStatDisplayName>BeamSupport1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>BeamCooldownIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamSupport2</UniqueID>
+    <PrimaryStatList>BeamAttack</PrimaryStatList>
+    <AbilityStat>BeamAttack</AbilityStat>
+    <AbilityStatDisplayName>BeamSupport2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>BeamAttackIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileSupport1</UniqueID>
+    <PrimaryStatList>MissileAccuracy</PrimaryStatList>
+    <AbilityStat>MissileAccuracy</AbilityStat>
+    <AbilityStatDisplayName>MissileSupport1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>MissileAttackIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileSupport2</UniqueID>
+    <PrimaryStatList>MissileAttack</PrimaryStatList>
+    <AbilityStat>MissileAttack</AbilityStat>
+    <AbilityStatDisplayName>MissileSupport2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>MissileAttackIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticSupport1</UniqueID>
+    <PrimaryStatList>KineticAttack</PrimaryStatList>
+    <AbilityStat>KineticAttack</AbilityStat>
+    <AbilityStatDisplayName>KineticSupport1_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>KineticAttackIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticSupport2</UniqueID>
+    <PrimaryStatList>KineticRange</PrimaryStatList>
+    <AbilityStat>KineticRange</AbilityStat>
+    <AbilityStatDisplayName>KineticSupport2_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>KineticRangeIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>TargetingSupport</UniqueID>
+    <PrimaryStatList>Accuracy</PrimaryStatList>
+    <AbilityStat>Accuracy</AbilityStat>
+    <AbilityStatDisplayName>TargetingSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Stat_Temp_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>JammingSupport</UniqueID>
+    <PrimaryStatList>Jamming</PrimaryStatList>
+    <AbilityStat>Jamming</AbilityStat>
+    <AbilityStatDisplayName>JammingSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Stat_Temp_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>SublightSupport</UniqueID>
+    <PrimaryStatList>TacticalSpeed</PrimaryStatList>
+    <AbilityStat>TacticalSpeed</AbilityStat>
+    <AbilityStatDisplayName>SublightSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>TacticalSpeed_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>SublightSuppression</UniqueID>
+    <PrimaryStatList>TacticalSpeed</PrimaryStatList>
+    <AbilityStat>TacticalSpeed</AbilityStat>
+    <AbilityStatDisplayName>SublightSuppression_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>TacticalSpeed_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MovesSupport</UniqueID>
+    <PrimaryStatList>MovesCap</PrimaryStatList>
+    <AbilityStat>MovesCap</AbilityStat>
+    <AbilityStatDisplayName>MovesSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Moves_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>RangeSupport</UniqueID>
+    <PrimaryStatList>ShipRange</PrimaryStatList>
+    <AbilityStat>ShipRange</AbilityStat>
+    <AbilityStatDisplayName>RangeSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Shiprange_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>HitPointSupport</UniqueID>
+    <PrimaryStatList>HitPointsCap</PrimaryStatList>
+    <AbilityStat>HitPointsCap</AbilityStat>
+    <AbilityStatDisplayName>HitPointSupport_AbilityName</AbilityStatDisplayName>
+    <AbilityStatDisplayIcon>Hitpoints_Icon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BestDefense</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+    <PrimaryStatList>ArmorRating</PrimaryStatList>
+    <OverrideBehaviorList>AIPreferredDefenseStat</OverrideBehaviorList>
+    <AbilityStatDisplayIcon>ArmorRateingIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BestDefenseEnhanced</UniqueID>
+    <PrimaryStatList>ShieldStrength</PrimaryStatList>
+    <PrimaryStatList>PointDefense</PrimaryStatList>
+    <PrimaryStatList>ArmorRating</PrimaryStatList>
+    <OverrideBehaviorList>AIPreferredDefenseStat</OverrideBehaviorList>
+    <AbilityStatDisplayIcon>ArmorRateingIcon</AbilityStatDisplayIcon>
+  </ComponentClass>
+
+  <ComponentClass>
+        <UniqueID>HypergateModule</UniqueID>
+        <PrimaryStatList>CanBuildHypergate</PrimaryStatList>
+    </ComponentClass>
+
+    <ComponentClass>
+        <UniqueID>PlanetKillerModule</UniqueID>
+        <PrimaryStatList>CanGenocidePlanet</PrimaryStatList>
+    </ComponentClass>
+</ComponentClassList>

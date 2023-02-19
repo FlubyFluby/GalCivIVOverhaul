@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<QuestDisplayList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/QuestDisplayDefs.xsd">
+<!-- Created with the Gal Civ 4 Quest Editor -->
+<!-- QuestDisplayDefs.xml -->
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_ShardOfTheMithrilar0</InternalName>
+    <Icon>ShardofMithrilarIcon.png</Icon>
+    <DisplayName>Quest_GA_ShardOfTheMithrilar_Name</DisplayName>
+    <Description>Quest_GA_ShardOfTheMithrilar_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_SolarFlare.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_ShardOfTheMithrilar</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_ShardOfTheMithrilar_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_ShardOfTheMithrilar0_Counter1</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_TheEverwar0</InternalName>
+    <Icon>EverWarIcon.png</Icon>
+    <DisplayName>Quest_GA_TheEverwar_Name</DisplayName>
+    <Description>Quest_GA_TheEverwar_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_PlanetDeath.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_TheEverwar</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_TheEverwar_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_TheEverwar0_Counter1</CounterTag>
+      <CounterGoal>90</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_AgainstTheTide0</InternalName>
+    <Icon>AgainstTheTide.png</Icon>
+    <DisplayName>Quest_GA_AgainstTheTide_Name</DisplayName>
+    <Description>Quest_GA_AgainstTheTide_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Battle2.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_AgainstTheTide</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_AgainstTheTide_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_AgainstTheTide0_Counter1</CounterTag>
+      <CounterGoal>88</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_BreedingSeason0</InternalName>
+    <Icon>BreedingSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_BreedingSeason_Name</DisplayName>
+    <Description>Quest_GA_BreedingSeason_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Cake_Wormhole.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_BreedingSeason</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_BreedingSeason_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_BreedingSeason0_Counter1</CounterTag>
+      <CounterGoal>100</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_ThePlague0</InternalName>
+    <Icon>ThePlagueIcon.png</Icon>
+    <DisplayName>Quest_GA_ThePlague_Name</DisplayName>
+    <Description>Quest_GA_ThePlague_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Cells.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_ThePlague</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_ThePlague_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_ThePlague0_CureTechUnlocked</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_OrbOfDraginol0</InternalName>
+    <Icon>OrbofDraginolIcon.png</Icon>
+    <DisplayName>Quest_GA_OrbOfDraginol_Name</DisplayName>
+    <Description>Quest_GA_OrbOfDraginol_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Terraformer.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_OrbOfDraginol</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_OrbOfDraginol_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Flag_OrbOfDraginol_HasFoundArtifact</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+ 
+    <Objective>
+      <ObjectiveID>SecondObjective</ObjectiveID>
+      <DisplayName>Quest_GA_OrbOfDraginol_Liberty_ObjectiveDisplayName2</DisplayName>
+      <CounterTag>Flag_OrbOfDraginol_HasOpenedPocketUniverse</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+ 
+    <Objective>
+      <ObjectiveID>ThirdObjective</ObjectiveID>
+      <DisplayName>Quest_GA_OrbOfDraginol_Liberty_ObjectiveDisplayName3</DisplayName>
+      <CounterTag>Quest_GA_OrbOfDraginol0_Counter3</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_HallOfUnity0</InternalName>
+    <Icon>HallofUnityIcon.png</Icon>
+    <DisplayName>Quest_GA_HallOfUnity_Name</DisplayName>
+    <Description>Quest_GA_HallOfUnity_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Terminus.png</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_HallOfUnity</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_HallOfUnity_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_HallOfUnity</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_AstrolabOfTheArnor0</InternalName>
+    <Icon>AstrolaboftheArnorSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_AstrolabOfTheArnor_Name</DisplayName>
+    <Description>Quest_GA_AstrolabOfTheArnor_Liberty_QuestDescription</Description>
+    <DisplayImage>Scene_Hades.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_AstrolabOfTheArnor</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_AstrolabOfTheArnor_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_AstrolabOfTheArnor</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_InfiniteArchive0</InternalName>
+    <Icon>InfiniteArchiveSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_InfiniteArchive_Name</DisplayName>
+    <Description>Quest_GA_InfiniteArchive_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_AquaticCity.png</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_InfiniteArchive</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_InfiniteArchive_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_InfiniteArchive</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_GrandMenagerie0</InternalName>
+    <Icon>GrandMenagerieSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_GrandMenagerie_Name</DisplayName>
+    <Description>Quest_GA_GrandMenagerie_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Ruins.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_GrandMenagerie</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_GrandMenagerie_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_GrandMenagerie</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_NewEden0</InternalName>
+    <Icon>NewEdenSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_NewEden_Name</DisplayName>
+    <Description>Quest_GA_NewEden_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Jungle.png</DisplayImage>
+    <QuestTag>Quest_GA_NewEden</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_NewEden_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_NewEden</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_DreadFleet0</InternalName>
+    <Icon>DreadFleetIcon.png</Icon>
+    <DisplayName>Quest_GA_DreadFleet_Name</DisplayName>
+    <Description>Quest_GA_DreadFleet_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Relic.png</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_DreadFleet</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_DreadFleet_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_DreadFleet0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_ThroneOfTheArnor0</InternalName>
+    <Icon>NewEdenSeasonIcon.png</Icon>
+    <DisplayName>Quest_GA_ThroneOfTheArnor_Name</DisplayName>
+    <Description>Quest_GA_ThroneOfTheArnor_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_ThroneOfTheArnor</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_ThroneOfTheArnor_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_ThroneOfTheArnor0_Counter1</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GA_Apocalypse0</InternalName>
+    <Icon>ApocalypseIcon.png</Icon>
+    <DisplayName>Quest_GA_Apocalypse_Name</DisplayName>
+    <Description>Quest_GA_Apocalypse_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Battle3.dds</DisplayImage>
+    <IsGalacticAchievement>true</IsGalacticAchievement>
+    <QuestTag>Quest_GA_Apocalypse</QuestTag>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GA_Apocalypse_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GA_Apocalypse0_Counter1</CounterTag>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_AnomalyHunt0</InternalName>
+    <Icon>QuestSurvey.png</Icon>
+    <DisplayName>Quest_AnomalyHunt_Name</DisplayName>
+    <Description>Quest_AnomalyHunt_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_AnomalyHunt_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_AnomalyHunt0_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_AnomalyHunt1</InternalName>
+    <Icon>QuestSurvey.png</Icon>
+    <DisplayName>Quest_AnomalyHunt_Name</DisplayName>
+    <Description>Quest_AnomalyHunt_Equality_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_AnomalyHunt_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_AnomalyHunt1_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ResearchTranslator0</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_ResearchTranslator_Name</DisplayName>
+    <Description>Quest_ResearchTranslator_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ResearchTranslator_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_ResearchTranslator</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ResearchTranslator1</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_ResearchTranslator_Name</DisplayName>
+    <Description>Quest_ResearchTranslator_Equality_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ResearchTranslator_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_ResearchTranslator1_Counter1</CounterTag>
+      <CounterGoal>10</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ResearchTranslator_Stumble1</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_ResearchTranslator_Stumble_Name</DisplayName>
+    <Description>Quest_ResearchTranslator_Stumble_Equality_QuestDescription</Description>
+    <DisplayImage>Scene_World4.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ResearchTranslator_Stumble_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_ResearchTranslator_Stumble1_Counter1</CounterTag>
+      <CounterGoal>5</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ResearchTranslator_Stumble2</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_ResearchTranslator_Stumble_Name</DisplayName>
+    <Description>Quest_ResearchTranslator_Stumble_Authority_QuestDescription</Description>
+    <DisplayImage>Scene_World4.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ResearchTranslator_Stumble_Authority_ObjectiveDisplayName1</DisplayName>
+      <CounterTag></CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Destiny0</InternalName>
+    <Icon>QuestPlanetRequest.png</Icon>
+    <DisplayName>Quest_Destiny_Name</DisplayName>
+    <Description>Quest_Destiny_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Launch.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Destiny_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_Destiny0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Destiny1</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_Destiny_Name</DisplayName>
+    <Description>Quest_Destiny_Equality_QuestDescription</Description>
+    <DisplayImage>Event_Launch.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Destiny_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_Destiny1_Counter1</CounterTag>
+      <CounterGoal>5</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Destiny2</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_Destiny_Name</DisplayName>
+    <Description>Quest_Destiny_Authority_QuestDescription</Description>
+    <DisplayImage>Event_Launch.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Destiny_Authority_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_Destiny2_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TheRetribution0</InternalName>
+    <Icon>QuestShip.png</Icon>
+    <DisplayName>Quest_TheRetribution_Name</DisplayName>
+    <Description>Quest_TheRetribution_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Ship.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TheRetribution_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>RetributionParts</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+ 
+    <Objective>
+      <ObjectiveID>SecondObjective</ObjectiveID>
+      <DisplayName>Quest_TheRetribution_Liberty_ObjectiveDisplayName2</DisplayName>
+      <CounterTag>Quest_TheRetribution0_Counter2</CounterTag>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_UpgradedLasers0</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_UpgradedLasers_Name</DisplayName>
+    <Description>Quest_UpgradedLasers_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Beam.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_UpgradedLasers_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_UpgradedLasers0_Counter1</CounterTag>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_UpgradedMissiles0</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_UpgradedMissiles_Name</DisplayName>
+    <Description>Quest_UpgradedMissiles_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Nebula.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_UpgradedMissiles_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_UpgradedMissiles0_Counter1</CounterTag>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_UpgradedKinetic0</InternalName>
+    <Icon>QuestResearch.png</Icon>
+    <DisplayName>Quest_UpgradedKinetic_Name</DisplayName>
+    <Description>Quest_UpgradedKinetic_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Nebula.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_UpgradedKinetic_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_UpgradedKinetic0_Counter1</CounterTag>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Prototype10</InternalName>
+    <Icon>QuestPlanetRequest.png</Icon>
+    <DisplayName>Quest_Prototype1_Name</DisplayName>
+    <Description>Quest_Prototype1_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Tundra.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Prototype1_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_Prototype1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Prototype11</InternalName>
+    <Icon>QuestPlanetRequest.png</Icon>
+    <DisplayName>Quest_Prototype1_Name</DisplayName>
+    <Description>Quest_Prototype1_Equality_QuestDescription</Description>
+    <DisplayImage>Event_Tundra.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Prototype1_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_Prototype1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ItsAlive_20</InternalName>
+    <Icon>QuestMystery.png</Icon>
+    <DisplayName>Quest_ItsAlive_2_Name</DisplayName>
+    <Description>Quest_ItsAlive_2_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Colony.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ItsAlive_2_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_ItsAlive</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TheWay0</InternalName>
+    <Icon>QuestPlanetRequest.png</Icon>
+    <DisplayName>Quest_TheWay_Name</DisplayName>
+    <Description>Quest_TheWay_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TheWay_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_TheWay0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_WeAreNotEternal0</InternalName>
+    <Icon>QuestMystery.png</Icon>
+    <DisplayName>Quest_WeAreNotEternal_Name</DisplayName>
+    <Description>Quest_WeAreNotEternal_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Monolith.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_WeAreNotEternal_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_WeAreNotEternal</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+ 
+    <Objective>
+      <ObjectiveID>SecondObjective</ObjectiveID>
+      <DisplayName>Quest_WeAreNotEternal_Liberty_ObjectiveDisplayName2</DisplayName>
+      <CounterTag>Counter_MonumentRosalind</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+ 
+    <Objective>
+      <ObjectiveID>ThirdObjective</ObjectiveID>
+      <DisplayName>Quest_WeAreNotEternal_Liberty_ObjectiveDisplayName3</DisplayName>
+      <CounterTag>Counter_Protests</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_ReligiousPilgrims0</InternalName>
+    <Icon>QuestTrade.png</Icon>
+    <DisplayName>Quest_ReligiousPilgrims_Name</DisplayName>
+    <Description>Quest_ReligiousPilgrims_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Ruins.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_ReligiousPilgrims_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_ReligiousPilgrims0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GalacticSilkRoad0</InternalName>
+    <Icon>QuestTrade.png</Icon>
+    <DisplayName>Quest_GalacticSilkRoad_Name</DisplayName>
+    <Description>Quest_GalacticSilkRoad_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Port.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GalacticSilkRoad_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GalacticSilkRoad0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_GalacticSilkRoad1</InternalName>
+    <Icon>QuestTrade.png</Icon>
+    <DisplayName>Quest_GalacticSilkRoad_Name</DisplayName>
+    <Description>Quest_GalacticSilkRoad_Equality_QuestDescription</Description>
+    <DisplayImage>Event_Port.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_GalacticSilkRoad_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_GalacticSilkRoad1_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TradePartners0</InternalName>
+    <Icon>QuestTrade.png</Icon>
+    <DisplayName>Quest_TradePartners_Name</DisplayName>
+    <Description>Quest_TradePartners_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TradePartners_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_TradePartners0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TradePartners1</InternalName>
+    <Icon>QuestTrade.png</Icon>
+    <DisplayName>Quest_TradePartners_Name</DisplayName>
+    <Description>Quest_TradePartners_Equality_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TradePartners_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_TradePartners1_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_SeizedGoods1</InternalName>
+    <Icon>QuestPlayerThreat.png</Icon>
+    <DisplayName>Quest_SeizedGoods_Name</DisplayName>
+    <Description>Quest_SeizedGoods_Equality_QuestDescription</Description>
+    <DisplayImage>Event_Market.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_SeizedGoods_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_SeizedGoods1_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_KrynnMissionaries0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_KrynnMissionaries_Name</DisplayName>
+    <Description>Quest_KrynnMissionaries_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_KrynnMissionaries_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_KrynniacAltar</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_BaratakGuardians0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_BaratakGuardians_Name</DisplayName>
+    <Description>Quest_BaratakGuardians_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_BaratakGuardians_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_BaratakGrove</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_BaratakGuardians_Baratak0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_BaratakGuardians_Baratak_Name</DisplayName>
+    <Description>Quest_BaratakGuardians_Baratak_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_BaratakGuardians_Baratak_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_BaratakGrove</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TorianScientists0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_TorianScientists_Name</DisplayName>
+    <Description>Quest_TorianScientists_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TorianScientists_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_TorianAcademy</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_TorianScientists_Torian0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_TorianScientists_Torian_Name</DisplayName>
+    <Description>Quest_TorianScientists_Torian_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_TorianScientists_Torian_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_TorianAcademy</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MantiCluster0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_MantiCluster_Name</DisplayName>
+    <Description>Quest_MantiCluster_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MantiCluster_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_MantiPool</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MantiCluster_Manti0</InternalName>
+    <Icon>QuestBuild.png</Icon>
+    <DisplayName>Quest_MantiCluster_Manti_Name</DisplayName>
+    <Description>Quest_MantiCluster_Manti_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Aliens_Playground.png</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MantiCluster_Manti_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_MantiPool</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Investigation0</InternalName>
+    <Icon>QuestMystery.png</Icon>
+    <DisplayName>Quest_Investigation_Name</DisplayName>
+    <Description>Quest_Investigation_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Investigation_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_Investigation</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_Investigation1</InternalName>
+    <Icon>QuestMystery.png</Icon>
+    <DisplayName>Quest_Investigation_Name</DisplayName>
+    <Description>Quest_Investigation_Equality_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_Investigation_Equality_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_Investigation</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_PirateThreat0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_PirateThreat_Name</DisplayName>
+    <Description>Quest_PirateThreat_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_PirateThreat_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_PirateThreat</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_OceanicWorlds0</InternalName>
+    <Icon>QuestPlanetRequest.png</Icon>
+    <DisplayName>Quest_OceanicWorlds_Name</DisplayName>
+    <Description>Quest_OceanicWorlds_Liberty_QuestDescription</Description>
+    <DisplayImage>Final_Beautiful_Home.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_OceanicWorlds_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_OceanicWorlds0_Counter1</CounterTag>
+      <CounterGoal>3</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_BURRAN0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_BURRAN_Name</DisplayName>
+    <Description>Quest_MC_BURRAN_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Burran.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_BURRAN_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_MC_BURRAN0_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_ORPHICA0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_ORPHICA_Name</DisplayName>
+    <Description>Quest_MC_ORPHICA_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Orphica.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_ORPHICA_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_MC_ORPHICA0_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_KLEPART0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_KLEPART_Name</DisplayName>
+    <Description>Quest_MC_KLEPART_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Klepart.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_KLEPART_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_MC_KLEPART0_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_KAXX0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_KAXX_Name</DisplayName>
+    <Description>Quest_MC_KAXX_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Kaxx.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_KAXX_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_ResearchKaxxCryptography</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_ODAIR0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_ODAIR_Name</DisplayName>
+    <Description>Quest_MC_ODAIR_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Odair.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_ODAIR_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Quest_MC_ODAIR0_Counter1</CounterTag>
+      <CounterGoal>7</CounterGoal>
+    </Objective>
+  </Quest>
+ 
+  <Quest>
+    <InternalName>Display_Quest_MC_LANTERN0</InternalName>
+    <Icon>QuestBattle.png</Icon>
+    <DisplayName>Quest_MC_LANTERN_Name</DisplayName>
+    <Description>Quest_MC_LANTERN_Liberty_QuestDescription</Description>
+    <DisplayImage>Event_Lantern.dds</DisplayImage>
+ 
+    <Objective>
+      <ObjectiveID>FirstObjective</ObjectiveID>
+      <DisplayName>Quest_MC_LANTERN_Liberty_ObjectiveDisplayName1</DisplayName>
+      <CounterTag>Counter_CrucibleLab</CounterTag>
+      <CounterGoal>1</CounterGoal>
+    </Objective>
+  </Quest>
+</QuestDisplayList>

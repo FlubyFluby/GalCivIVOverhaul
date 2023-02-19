@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<CustomFlavorTextFilterDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CustomFlavorTextFilter.xsd">
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_FirstContact</InternalName>
+    <TopicID>FirstContact</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DeclareWar</InternalName>
+    <TopicID>DeclareWar</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestPeace</InternalName>
+    <TopicID>RequestPeace</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DemandCredits</InternalName>
+    <TopicID>DemandCredits</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DemandCreditsPerTurn</InternalName>
+    <TopicID>DemandCreditsPerTurn</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DemandTech</InternalName>
+    <TopicID>DemandTech</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestCredits</InternalName>
+    <TopicID>RequestCredits</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestTech</InternalName>
+    <TopicID>RequestTech</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestCreditsHelpMe</InternalName>
+    <TopicID>RequestCreditsHelpMe</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestTechHelpMe</InternalName>
+    <TopicID>RequestTechHelpMe</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_RequestWarHelpMe</InternalName>
+    <TopicID>RequestWarHelpMe</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_PayCreditsForDeclareWarOnOther</InternalName>
+    <TopicID>PayCreditsForDeclareWarOnOther</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_PayTechForDeclareWarOnOther</InternalName>
+    <TopicID>PayTechForDeclareWarOnOther</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_GiveCredits</InternalName>
+    <TopicID>GiveCredits</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_GiveTech</InternalName>
+    <TopicID>GiveTech</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_WarnMilitaryBuildup</InternalName>
+    <TopicID>WarnMilitaryBuildup</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DemandStarbaseRemoval</InternalName>
+    <TopicID>DemandStarbaseRemoval</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_DemandAscensionStarbase</InternalName>
+    <TopicID>DemandAscensionStarbase</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_OfferAscensionStarbaseTrade</InternalName>
+    <TopicID>OfferAscensionStarbaseTrade</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_PlayerSurrender</InternalName>
+    <TopicID>PlayerSurrender</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_PlayerSurrenderWithBeneficiary</InternalName>
+    <TopicID>PlayerSurrenderWithBeneficiary</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_PlayerSurrenderGiveToBeneficiary</InternalName>
+    <TopicID>PlayerSurrenderGiveToBeneficiary</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_GeneratedTrade</InternalName>
+    <TopicID>GeneratedTrade</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_OnPlayerDead</InternalName>
+    <TopicID>OnPlayerDead</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_GeneralConversation</InternalName>
+    <TopicID>GeneralConversation</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_WarnDangerousPlayer</InternalName>
+    <TopicID>WarnDangerousPlayer</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_HelpFriendlyPlayer</InternalName>
+    <TopicID>HelpFriendlyPlayer</TopicID>
+    <ShowInListToEdit>true</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+  <CustomConversationFilterDef>
+    <InternalName>Filter_MercenaryFirstContact</InternalName>
+    <TopicID>MercenaryFirstContact</TopicID>
+    <ShowInListToEdit>false</ShowInListToEdit>
+  </CustomConversationFilterDef>
+
+</CustomFlavorTextFilterDefs>

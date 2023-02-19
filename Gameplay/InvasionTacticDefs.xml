@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<InvasionTacticList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/InvasionTacticDefs.xsd">
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_MilitaryStrike</InternalName>
+    <DisplayName>InvasionTactic_MilitaryStrike_Name</DisplayName>
+    <Description>InvasionTactic_MilitaryStrike_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+
+    <AirStrikeMinDamage>2</AirStrikeMinDamage>
+    <AirStrikeMaxDamage>5</AirStrikeMaxDamage>
+    
+    <Prerequ>
+      <Tag>
+        <Option>Invader</Option>
+      </Tag>
+    </Prerequ>
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_Bombard</InternalName>
+    <DisplayName>InvasionTactic_Bombard_Name</DisplayName>
+    <Description>InvasionTactic_Bombard_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Bombardment.png</Icon>
+
+    <ImprovementDestructionChance>.4</ImprovementDestructionChance>
+    <ImprovementDestructionMin>1</ImprovementDestructionMin>
+    <ImprovementDestructionMax>5</ImprovementDestructionMax>
+    <DefaultImprovementDamage>5</DefaultImprovementDamage>
+    <TileDestructionChance>.1</TileDestructionChance>
+
+    <Triggers>
+      <OnEvent>OnConquerPlanet</OnEvent>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <PerformAction>
+        <Action>StatusEffect</Action>
+        <StringParam>PlanetConqueredStatus_Bombardment</StringParam>
+      </PerformAction>
+    </Triggers>
+
+    <Prerequ>
+      <Tag>
+        <Option>Invader</Option>
+      </Tag>
+    </Prerequ>
+
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_Invade</InternalName>
+    <DisplayName>InvasionTactic_Invade_Name</DisplayName>
+    <Description>InvasionTactic_Invade_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+
+    <LandGroundTroops>true</LandGroundTroops>
+
+    <Prerequ>
+      <Tag>
+        <Option>Invader</Option>
+      </Tag>
+    </Prerequ>
+
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_ManTheGuns</InternalName>
+    <DisplayName>InvasionTactic_ManTheGuns_Name</DisplayName>
+    <Description>InvasionTactic_ManTheGuns_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+
+    <TacticStats>
+      <EffectType>AssaultFightersCap</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </TacticStats>
+    <TacticStats>
+    <EffectType>AssaultFighters</EffectType>
+    <Target>
+      <TargetType>Colony</TargetType>
+    </Target>
+    <BonusType>Flat</BonusType>
+    <Value>5</Value>
+    </TacticStats>
+
+    <Prerequ>
+      <Tag>
+        <Option>Defender</Option>
+      </Tag>
+
+    </Prerequ>
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_HunkerDown</InternalName>
+    <DisplayName>InvasionTactic_HunkerDown_Name</DisplayName>
+    <Description>InvasionTactic_HunkerDown_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+
+    <TacticStats>
+      <EffectType>PlanetaryDefense</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </TacticStats>
+   
+    <ImprovementDefenseChance>2.5</ImprovementDefenseChance>
+
+    <Prerequ>
+      <Tag>
+        <Option>Defender</Option>
+      </Tag>
+    </Prerequ>
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_Rally</InternalName>
+    <DisplayName>InvasionTactic_Rally_Name</DisplayName>
+    <Description>InvasionTactic_Rally_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+
+    <DefenseRallyChance>0.2</DefenseRallyChance>
+    
+    <Prerequ>
+      <Tag>
+        <Option>Defender</Option>
+      </Tag>
+    </Prerequ>
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_DefaultDefense</InternalName>
+    <DisplayName>InvasionTactic_HunkerDown_Name</DisplayName>
+    <Description>InvasionTactic_HunkerDown_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>
+    <Prerequ>
+      <Tag>
+        <Option>Defender</Option>
+      </Tag>
+    </Prerequ>
+  </InvasionTactic>
+
+  <InvasionTactic>
+    <InternalName>InvasionTactic_DefaultAttack</InternalName>
+    <DisplayName>InvasionTactic_MilitaryStrike_Name</DisplayName>
+    <Description>InvasionTactic_MilitaryStrike_Description</Description>
+    <Icon>Gfx/Icons/InvasionTactic_Conventional.png</Icon>    
+    <Prerequ>
+      <Tag>
+        <Option>Invader</Option>
+      </Tag>
+    </Prerequ>
+  </InvasionTactic>
+
+</InvasionTacticList>

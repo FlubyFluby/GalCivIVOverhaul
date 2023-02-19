@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StarClusterGenConfigList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarClusterGenConfigDef.xsd">
+
+  <StarClusterGenConfig>
+    <InternalName>SingleCluster</InternalName>
+    <Description>SingleCluster_Description</Description>
+    <MapSize>Tiny</MapSize>
+    <AbyssRadius>0</AbyssRadius>
+    <Clusters>
+      <Size>Large</Size>
+      <AngleOffset>-1</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>45</AngleOffset>
+        <Distance>60</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>135</AngleOffset>
+        <Distance>60</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>225</AngleOffset>
+        <Distance>60</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>315</AngleOffset>
+        <Distance>60</Distance>
+      </StartingLocations>
+    </Clusters>
+  </StarClusterGenConfig>
+
+  <StarClusterGenConfig>
+    <InternalName>MediumCluster</InternalName>
+    <Description>MediumCluster_Description</Description>
+    <MapSize>Tiny</MapSize>
+    <AbyssRadius>0</AbyssRadius>
+    <Clusters>
+      <Size>Huge</Size>
+      <AngleOffset>-1</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>45</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>135</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>225</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>315</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+    </Clusters>
+  </StarClusterGenConfig>
+
+  <StarClusterGenConfig>
+    <InternalName>DoubleCluster</InternalName>
+    <Description>DoubleCluster_Description</Description>
+    <MapSize>Medium</MapSize>
+
+    <Clusters>
+      <Size>Medium</Size>
+      <AngleOffset>-1</AngleOffset>    
+      <StartingLocations>
+        <AngleOffset>45</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>135</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>225</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>315</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+    </Clusters>
+
+    <Clusters>
+      <Size>Medium</Size>
+      <BranchesFrom>0</BranchesFrom>
+      <Distance>Max</Distance>
+      <AngleOffset>0</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>45</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>135</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>225</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>315</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+    </Clusters>
+
+  </StarClusterGenConfig>
+
+<!--  <StarClusterGenConfig>
+    <InternalName>Cross</InternalName>
+    <Description>Cross_Description</Description>
+    <MapSize>Medium</MapSize>
+    <Clusters>
+      <Size>Huge</Size>
+      <AngleOffset>-1</AngleOffset>
+     
+      <StartingLocations>
+        <AngleOffset>45</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>135</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>225</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+      <StartingLocations>
+        <AngleOffset>315</AngleOffset>
+        <Distance>80</Distance>
+      </StartingLocations>
+    </Clusters>
+
+    <Clusters>
+      <Size>Small</Size>
+      <BranchesFrom>0</BranchesFrom>
+      <Distance>Min</Distance>
+      <AngleOffset>0</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+    </Clusters>
+
+    <Clusters>
+      <Size>Small</Size>
+      <BranchesFrom>0</BranchesFrom>
+      <Distance>Min</Distance>
+      <AngleOffset>90</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+    </Clusters>
+
+    <Clusters>
+      <Size>Small</Size>
+      <BranchesFrom>0</BranchesFrom>
+      <Distance>Min</Distance>
+      <AngleOffset>180</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+    </Clusters>
+
+    <Clusters>
+      <Size>Small</Size>
+      <BranchesFrom>0</BranchesFrom>
+      <Distance>Min</Distance>
+      <AngleOffset>270</AngleOffset>
+      <StartingLocations>
+        <AngleOffset>-1</AngleOffset>
+      </StartingLocations>
+    </Clusters>
+
+  </StarClusterGenConfig> -->
+
+</StarClusterGenConfigList>

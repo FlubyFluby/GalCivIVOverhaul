@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipClassAugList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipClassAugDefs.xsd">
+
+	<ShipClassAug>
+    <UniqueID>BeamAugment1</UniqueID>
+    <DisplayName>BEAM_AUG01_LABEL</DisplayName>
+	</ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>BeamAugment2</UniqueID>
+    <DisplayName>BEAM_AUG02_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>BeamAugment3</UniqueID>
+    <DisplayName>BEAM_AUG03_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>MissileAugment1</UniqueID>
+    <DisplayName>MISSILE_AUG01_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>MissileAugment2</UniqueID>
+    <DisplayName>MISSILE_AUG02_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>MissileAugment3</UniqueID>
+    <DisplayName>MISSILE_AUG03_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>KineticAugment1</UniqueID>
+    <DisplayName>KINETIC_AUG01_LABEL</DisplayName>
+  </ShipClassAug>
+
+  <ShipClassAug>
+    <UniqueID>KineticAugment2</UniqueID>
+    <DisplayName>KINETIC_AUG02_LABEL</DisplayName>
+  </ShipClassAug>
+  
+  <ShipClassAug>
+    <UniqueID>KineticAugment3</UniqueID>
+    <DisplayName>KINETIC_AUG03_LABEL</DisplayName>
+  </ShipClassAug>
+
+</ShipClassAugList>

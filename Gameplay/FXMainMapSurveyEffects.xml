@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- ************************************ -->
+  <!-- ********** main sequence *********** -->
+  <!-- ************************************ -->
+  <!-- Main Map initial siege fx -->
+  <FXElement>
+    <InternalName>MainMapSurveyingInitFX</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapSurveyingFX_TurnShipsElement</InternalName>
+      <Type>TurnShips</Type>
+      <KeyValueDecimal>
+        <Key>ReorientDuration</Key>
+        <Value>0.25</Value>
+      </KeyValueDecimal>
+    </FXElement>
+  
+  </FXElement>
+  
+  <!-- Main Map repeating siege Sequence -->
+  <FXElement>
+    <InternalName>MainMapSurveyingFX</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapSurveyingFX_Sequence</InternalName>
+      <Type>Sequence</Type>
+
+      <FXElement>
+        <InternalName>MainMapSurveyingFX_AttackerVolley</InternalName>
+        <Type>Volley</Type>
+        <KeyValueString>
+          <Key>DamageType</Key>
+          <Value>AttackerDamageType</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>HitCode</Key>
+          <Value>AttackerHitCode</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>SourceObject</Key>
+          <Value>AttackingMobileObject</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>DefendingMobileObject</Value>
+        </KeyValueString>
+      </FXElement>
+    </FXElement>
+  </FXElement>
+
+  <!-- ********************************************* -->
+  <!-- ********** weapon and hit effects *********** -->
+  <!-- ********************************************* -->
+
+  <!-- Beam Weapon effect -->
+  <FXElement>
+    <InternalName>SurveyWeaponEffect</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>SurveyWeaponEffect_Beam</InternalName>
+      <Type>Beam</Type>
+
+      <KeyValueString>
+        <Key>DiffuseTexture</Key>
+        <Value>BeamSurveyEffect.dds</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>MainMapEmitSpeed</Key>
+        <Value>40.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapMaxBeamLength</Key>
+        <Value>200.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapBlendCenter</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerEmitSpeed</Key>
+        <Value>4000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerMaxBeamLength</Key>
+        <Value>2000.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>BattleViewerBlendCenter</Key>
+        <Value>0.15</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Width</Key>
+        <Value>0.6</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>Intensity</Key>
+        <Value>15.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>DiffuseTextureSpan</Key>
+        <Value>200.0</Value>
+      </KeyValueDecimal>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFrameCount</Key>
+        <Value>1</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseTextureAnimationFPS</Key>
+        <Value>0</Value>
+      </KeyValueInt>
+      <KeyValueInt>
+        <Key>DiffuseGradientRow</Key>
+        <Value>4</Value>
+      </KeyValueInt>
+
+      <KeyValueDictionaryRef>SourceObjectSourceMobileObject</KeyValueDictionaryRef>
+      <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+
+      <!-- Particle following beam -->
+      <!--<FXElement>
+				<InternalName>BeamDoomray_Particle</InternalName>
+				<Type>Particle</Type>
+				<KeyValueString>
+					<Key>Script</Key>
+					<Value>BeamDoomrayParticleEffect</Value>
+				</KeyValueString>
+				<KeyValueDecimal>
+					<Key>BattleViewerUniformScale</Key>
+					<Value>1.0</Value>
+				</KeyValueDecimal>
+				<KeyValueDecimal>
+					<Key>MainMapUniformScale</Key>
+					<Value>0.45</Value>
+				</KeyValueDecimal>
+				<KeyValueBool>
+					<Key>IgnoreParentScale</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueBool>
+					<Key>PointParticleYDownParentZ</Key>
+					<Value>true</Value>
+				</KeyValueBool>
+				<KeyValueDictionaryRef>TargetObjectAttackingProjectile</KeyValueDictionaryRef>
+			</FXElement>-->
+
+    </FXElement>
+
+  </FXElement>
+
+
+  <!-- emit -->
+
+  <FXElement>
+    <InternalName>SurveyEffect_Emission</InternalName>
+    <Type>Composite</Type>
+    <FXElementRef>SurveyEffect_EmissionParticle</FXElementRef>
+    <FXElementRef>SurveyEffect_EmissionFoley</FXElementRef>
+  </FXElement>
+
+  <!--Emission FX-->
+  <FXElement>
+    <InternalName>SurveyEffect_EmissionParticle</InternalName>
+    <Type>Particle</Type>
+    <Duration>0.2</Duration>
+    <KeyValueString>
+      <Key>Script</Key>
+      <Value>SurveyBeamEmissionEffect</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>BattleViewerUniformScale</Key>
+      <Value>1.5</Value>
+    </KeyValueDecimal>
+    <KeyValueDecimal>
+      <Key>MainMapUniformScale</Key>
+      <Value>0.45</Value>
+    </KeyValueDecimal>
+    <KeyValueBool>
+      <Key>IgnoreParentScale</Key>
+      <Value>true</Value>
+    </KeyValueBool>
+    <KeyValueBool>
+      <Key>PointParticleYDownParentZ</Key>
+      <Value>true</Value>
+    </KeyValueBool>
+    <!--<KeyValueDictionaryRef>TargetObjectSourceMobileObjectOrientToTarget</KeyValueDictionaryRef>-->
+
+  </FXElement>
+
+  <FXElement>
+    <InternalName>SurveyEffect_EmissionFoley</InternalName>
+    <Type>Foley</Type>
+    <KeyValueString>
+      <Key>Sfx</Key>
+      <Value>BEAM_SURVEY_SHIP_FIRE</Value>
+    </KeyValueString>
+    <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+  </FXElement>
+
+  <!-- hit -->
+  <FXElement>
+    <InternalName>SurveyEffectHit</InternalName>
+    <Type>Particle</Type>
+    <KeyValueString>
+      <Key>Script</Key>
+      <Value>SurveyBeamHitParticleEffect</Value>
+    </KeyValueString>
+
+    <KeyValueDecimal>
+      <Key>MainMapUniformScale</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+    <KeyValueDecimal>
+      <Key>BattleViewerUniformScale</Key>
+      <Value>1.0</Value>
+    </KeyValueDecimal>
+    <KeyValueBool>
+      <Key>IgnoreParentScale</Key>
+      <Value>true</Value>
+    </KeyValueBool>
+
+    <KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+  </FXElement>
+  
+</FXElementList>

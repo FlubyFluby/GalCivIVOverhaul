@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CreditsSequenceDefList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CreditsSequenceDef.xsd">
+<!-- Created with the Gal Civ 3 Credits Editor -->
+<!-- CreditsSequenceDef.xml -->
+ 
+  <CreditsSequenceDef>
+    <InternalName>EndGameCredits</InternalName>
+    <MusicFilename>EndCredits.mp3</MusicFilename>
+    <TextSettings>
+      <TransitionTime>1000</TransitionTime>
+      <PauseTime>3000</PauseTime>
+    </TextSettings>
+    <Text>EndGameCredits_256_Text</Text>
+    <Text>EndGameCredits_8_Text</Text>
+    <Text>EndGameCredits_9_Text</Text>
+    <Text>EndGameCredits_10_Text</Text>
+    <Text>EndGameCredits_12_Text</Text>
+    <Text>EndGameCredits_13_Text</Text>
+    <Text>EndGameCredits_14_Text</Text>
+    <Text>EndGameCredits_15_Text</Text>
+    <Text>EndGameCredits_16_Text</Text>
+    <Text>EndGameCredits_17_Text</Text>
+    <Text>EndGameCredits_18_Text</Text>
+    <Text>EndGameCredits_55_Text</Text>
+    <Text>EndGameCredits_56_Text</Text>
+    <Text>EndGameCredits_Empty_Text</Text>
+    <ImageSettings>
+      <TransitionTime>2000</TransitionTime>
+      <PauseTime>6000</PauseTime>
+    </ImageSettings>
+    <Image>Event_NewWorld.png</Image>
+    <Image>Event_Launch.png</Image>
+    <Image>Event_Colony.png</Image>
+    <Image>Event_DesertArtifact.png</Image>
+    <Image>Event_Redsands.png</Image>
+    <Image>Final_Aliens_Playground.png</Image>
+    <Image>Event_Battlegroup.png</Image>
+    <Image>Event_Ruins.png</Image>
+    <Image>Event_Shipyard.png</Image>
+    <Image>Final_Conceal.png</Image>
+    <Image>Event_Jungle.png</Image>
+    <Image>Event_Domes.png</Image>
+    <Image>Event_Tundra.png</Image>
+    <Image>Final_Cake_Wormhole.png</Image>
+    <Image>Event_SolarFlare.png</Image>
+    <Image>Event_DistantCity.png</Image>
+    <Image>Event_Anomally.png</Image>
+    <Image>Event_Explore.png</Image>
+    <Image>Scene_World4.png</Image>
+    <Image>Icons_32x32_Blank.png</Image>
+  </CreditsSequenceDef>
+ 
+</CreditsSequenceDefList>

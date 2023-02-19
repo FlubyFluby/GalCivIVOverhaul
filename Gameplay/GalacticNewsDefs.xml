@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalacticNewsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalacticNewsDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- GalacticNewsDefs.xml -->
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetApproval</InternalName>
+    <NewsTitle>TopFivePlanetApproval_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetApproval_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Approval</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetProduction</InternalName>
+    <NewsTitle>TopFivePlanetProduction_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetProduction_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>ProductionPoints</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetPopulation</InternalName>
+    <NewsTitle>TopFivePlanetPopulation_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetPopulation_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Population</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetResearch</InternalName>
+    <NewsTitle>TopFivePlanetResearch_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetResearch_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Research</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetFarming</InternalName>
+    <NewsTitle>TopFivePlanetFarming_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetFarming_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>FoodIncome</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFivePlanetInfluence</InternalName>
+    <NewsTitle>TopFivePlanetInfluence_NewsTitle</NewsTitle>
+    <NewsDescription>TopFivePlanetInfluence_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Influence</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>BottomFivePlanetApproval</InternalName>
+    <NewsTitle>BottomFivePlanetApproval_NewsTitle</NewsTitle>
+    <NewsDescription>BottomFivePlanetApproval_NewsDescription</NewsDescription>
+    <NewsType>BottomRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Colony</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Approval</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveMostPowerfulCivs</InternalName>
+    <NewsTitle>TopFiveMostPowerfulCivs_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveMostPowerfulCivs_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>FactionPower</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivApproval</InternalName>
+    <NewsTitle>TopFiveCivApproval_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivApproval_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Approval</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivProduction</InternalName>
+    <NewsTitle>TopFiveCivProduction_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivProduction_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>ProductionPoints</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivPopulation</InternalName>
+    <NewsTitle>TopFiveCivPopulation_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivPopulation_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Population</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivResearch</InternalName>
+    <NewsTitle>TopFiveCivResearch_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivResearch_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Research</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivFarming</InternalName>
+    <NewsTitle>TopFiveCivFarming_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivFarming_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>FoodNet</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivInfluence</InternalName>
+    <NewsTitle>TopFiveCivInfluence_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivInfluence_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>Influence</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivBenevolent</InternalName>
+    <NewsTitle>TopFiveCivBenevolent_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivBenevolent_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>IdeologyCompassion</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivNeutral</InternalName>
+    <NewsTitle>TopFiveCivNeutral_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivNeutral_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>IdeologyHarmony</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+ 
+<!-- Begin Galactic News Def -->
+ 
+  <GalacticNews>
+    <InternalName>TopFiveCivMerciless</InternalName>
+    <NewsTitle>TopFiveCivMerciless_NewsTitle</NewsTitle>
+    <NewsDescription>TopFiveCivMerciless_NewsDescription</NewsDescription>
+    <NewsType>TopRanking</NewsType>
+    <ListSize>5</ListSize>
+    <TurnsBeforeReuse>10</TurnsBeforeReuse>
+    <TargetType>Faction</TargetType>
+    <PlayerGroup>AllPlayers</PlayerGroup>
+    <TargetStat>IdeologyCruelty</TargetStat>
+    <Prerequisites>
+      <EarliestTurn>5</EarliestTurn>
+    </Prerequisites>
+  </GalacticNews>
+
+  <!-- Begin Galactic News Def -->
+
+  <GalacticNews>
+    <InternalName>WarWasDeclared</InternalName>
+    <NewsTitle>WarWasDeclared_NewsTitle</NewsTitle>
+    <NewsDescription>WARDECLARED_NEWS</NewsDescription>
+    <DescriptionIsFlavorText>true</DescriptionIsFlavorText>
+    <NewsType>WarDeclaration</NewsType>
+    <TargetType>Faction</TargetType>
+  </GalacticNews>
+  
+</GalacticNewsList>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- Main Map Healing drones ability volley -->
+  <FXElement>
+    <InternalName>MainMapFX_HealingDronesVolley</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapFX_HealingDronesVolley_Sequence</InternalName>
+      <Type>Sequence</Type>
+      
+      <!-- make attacker only -->
+      <FXElement>
+        <InternalName>MainMapFX_HealingDronesVolley_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+        <KeyValueBool>
+          <Key>AttackerOnly</Key>
+					<Value>true</Value>
+        </KeyValueBool>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_HealingDronesVolley_Composite</InternalName>
+        <Type>Composite</Type>
+
+        <FXElement>
+          <InternalName>MainMapFX_HealingDronesVolley_AttackerVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+          
+          <KeyValueString>
+            <Key>Volley_EmissionFX</Key>
+            <Value>HealingDrones_Emission</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>Volley_ProjectionFX</Key>
+            <Value>Ability_HealingDrones_ProjectileFX</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>Volley_HitFX</Key>
+            <Value>SurveyEffectHit</Value>
+          </KeyValueString>
+
+          <KeyValueDecimal>
+            <Key>Volley_MinStaggerTime</Key>
+            <Value>0.1</Value>
+          </KeyValueDecimal>
+          <KeyValueDecimal>
+            <Key>Volley_MaxStaggerTime</Key>
+            <Value>0.5</Value>
+          </KeyValueDecimal>
+          <KeyValueInt>
+            <Key>Volley_NumShots</Key>
+            <Value>6</Value>
+          </KeyValueInt>
+        </FXElement>
+        
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_HealingDronesVolley_End</InternalName>
+        <Type>Runnable</Type>
+      </FXElement>
+
+    </FXElement>
+
+  </FXElement>
+
+  <!-- Healing drones emit fx -->
+  <FXElement>
+    <InternalName>HealingDrones_Emission</InternalName>
+    <Type>Composite</Type>
+    <FXElementRef>HealingDrones_EmissionParticle</FXElementRef>
+    <FXElementRef>SurveyEffect_EmissionFoley</FXElementRef>
+  </FXElement>
+
+  <FXElement>
+    <InternalName>HealingDrones_EmissionParticle</InternalName>
+    <Type>Particle</Type>
+    <Duration>0.2</Duration>
+    <KeyValueString>
+      <Key>Script</Key>
+      <Value>SurveyBeamEmissionEffect</Value>
+    </KeyValueString>
+    <KeyValueDecimal>
+      <Key>BattleViewerUniformScale</Key>
+      <Value>1.5</Value>
+    </KeyValueDecimal>
+    <KeyValueDecimal>
+      <Key>MainMapUniformScale</Key>
+      <Value>0.45</Value>
+    </KeyValueDecimal>
+    <KeyValueBool>
+      <Key>IgnoreParentScale</Key>
+      <Value>true</Value>
+    </KeyValueBool>
+    <KeyValueBool>
+      <Key>PointParticleYDownParentZ</Key>
+      <Value>true</Value>
+    </KeyValueBool>
+    <KeyValueDictionaryRef>TargetObjectSourceMobileObject</KeyValueDictionaryRef>
+  </FXElement>
+
+  <!-- Healing drones projectile fx -->
+  <FXElement>
+    <InternalName>Ability_HealingDrones_ProjectileFX</InternalName>
+    <Type>Composite</Type>
+
+    <!-- projectile vFX-->
+    <FXElement>
+      <InternalName>Ability_HealingDrones_Projectile</InternalName>
+      <Type>Projectile</Type>
+      <KeyValueDecimal>
+        <Key>BattleViewerProjectileSpeed</Key>
+        <Value>1.0</Value>
+      </KeyValueDecimal>
+      <KeyValueDecimal>
+        <Key>MainMapProjectileSpeed</Key>
+        <Value>100.0</Value>
+      </KeyValueDecimal>
+
+      <FXElement>
+        <InternalName>Ability_HealingDrones_Projectile_Particle</InternalName>
+        <Type>Particle</Type>
+        <KeyValueString>
+          <Key>Script</Key>
+          <Value>HealingDrones_Projectile_ParticleEffect</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>MainMapUniformScale</Key>
+          <Value>0.3</Value>
+        </KeyValueDecimal>
+        <KeyValueDecimal>
+          <Key>Intensity</Key>
+          <Value>3.0</Value>
+        </KeyValueDecimal>
+        <KeyValueBool>
+          <Key>IgnoreParentScale</Key>
+          <Value>true</Value>
+        </KeyValueBool>
+        <KeyValueBool>
+          <Key>PointParticleYDownParentZ</Key>
+          <Value>true</Value>
+        </KeyValueBool>
+      </FXElement>
+    </FXElement>
+  
+  </FXElement>
+
+
+  <!-- Main Map antimatter missile sequence -->
+  <FXElement>
+    <InternalName>MainMapFX_AntimatterMissileVolley</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapFX_AntimatterMissileVolley_Sequence</InternalName>
+      <Type>Sequence</Type>
+      
+      <!-- make attacker only -->
+      <FXElement>
+        <InternalName>MainMapFX_AntimatterMissileVolley_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+        <KeyValueBool>
+          <Key>AttackerOnly</Key>
+					<Value>true</Value>
+        </KeyValueBool>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_AntimatterMissileVolley_Composite</InternalName>
+        <Type>Composite</Type>
+
+        <FXElement>
+          <InternalName>MainMapFX_AntimatterMissileVolley_AttackerVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+          
+          <KeyValueString>
+            <Key>Volley_EmissionFX</Key>
+            <Value>MissileSparrow_Emission</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>Volley_ProjectionFX</Key>
+            <Value>MissileSparrow</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>Volley_HitFX</Key>
+            <Value>AntimatterMissile_Hit</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>Volley_SplashHitFX</Key>
+            <Value>AntimatterMissile_SplashHit</Value>
+          </KeyValueString>
+
+          <KeyValueInt>
+            <Key>Volley_NumShots</Key>
+            <Value>1</Value>
+          </KeyValueInt>
+        </FXElement>
+        
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_AntimatterMissileVolley_End</InternalName>
+        <Type>Runnable</Type>
+      </FXElement>
+
+    </FXElement>
+
+  </FXElement>
+
+  <!-- Antimatter Hit FX-->
+	<FXElement>
+		<InternalName>AntimatterMissile_HitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>AOEMissileExplosionParticleEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>AntimatterMissile_HitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>MISSILE_SPARROW_IMPACT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>AntimatterMissile_Hit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>AntimatterMissile_HitFoley</FXElementRef>
+		<FXElementRef>AntimatterMissile_HitParticle</FXElementRef>
+	</FXElement>
+
+  <!-- Antimatter Splash Hit FX-->
+	<FXElement>
+		<InternalName>AntimatterMissile_SplashHitParticle</InternalName>
+		<Type>Particle</Type>
+		<KeyValueString>
+			<Key>Script</Key>
+			<Value>GenericHitEffect</Value>
+		</KeyValueString>
+
+		<KeyValueDecimal>
+			<Key>MainMapUniformScale</Key>
+			<Value>3.0</Value>
+		</KeyValueDecimal>
+		<KeyValueDecimal>
+			<Key>BattleViewerUniformScale</Key>
+			<Value>1.0</Value>
+		</KeyValueDecimal>
+		<KeyValueBool>
+			<Key>IgnoreParentScale</Key>
+			<Value>true</Value>
+		</KeyValueBool>
+
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>AntimatterMissile_SplashHitFoley</InternalName>
+		<Type>Foley</Type>
+		<KeyValueString>
+			<Key>Sfx</Key>
+			<Value>GENERIC_HIT</Value>
+		</KeyValueString>
+		<KeyValueDictionaryRef>TargetObjectTargetMobileObject</KeyValueDictionaryRef>
+	</FXElement>
+
+	<FXElement>
+		<InternalName>AntimatterMissile_SplashHit</InternalName>
+		<Type>Composite</Type>
+		<FXElementRef>AntimatterMissile_SplashHitFoley</FXElementRef>
+		<FXElementRef>AntimatterMissile_SplashHitParticle</FXElementRef>
+	</FXElement>
+
+</FXElementList>

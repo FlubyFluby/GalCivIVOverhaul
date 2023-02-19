@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<AgendaVictoryConditionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/AgendaVictoryConditionDefs.xsd">
+
+  <AgendaVictoryConditionDef>
+    <UniqueID>None</UniqueID>
+    <DisplayName>AgendaVictoryConditionDef_None_Name</DisplayName>
+    <Description>AgendaVictoryConditionDef_None_Desc</Description>
+    <ProgressTextFormat>AgendaVictoryConditionDef_None_Desc</ProgressTextFormat>
+    <MinCount>0</MinCount>
+    <MaxCount>0</MaxCount>
+  </AgendaVictoryConditionDef>
+
+  <AgendaVictoryConditionDef>
+    <UniqueID>DefeatRandomAIPlayer</UniqueID>
+    <DisplayName>AgendaVictoryConditionDef_DefeatRandomAIPlayer_Name</DisplayName>
+    <Description>AgendaVictoryConditionDef_DefeatRandomAIPlayer_Desc</Description>
+    <ProgressTextFormat>AgendaVictoryConditionDef_DefeatRandomAIPlayer_Progress_Format</ProgressTextFormat>
+    <Icon>GC3_Alert_War_Icon.png</Icon>
+    <MinCount>0</MinCount>
+    <MaxCount>0</MaxCount>
+  </AgendaVictoryConditionDef>
+
+  <AgendaVictoryConditionDef>
+    <UniqueID>ClaimRelics</UniqueID>
+    <DisplayName>AgendaVictoryConditionDef_ClaimRelics_Name</DisplayName>
+    <Description>AgendaVictoryConditionDef_ClaimRelics_Desc</Description>
+    <ProgressTextFormat>AgendaVictoryConditionDef_ClaimRelics_Progress_Format</ProgressTextFormat>
+    <Icon>GC3_Alert_Starbase_Icon.png</Icon>
+    <MinCount>5</MinCount>
+    <MaxCount>7</MaxCount>
+  </AgendaVictoryConditionDef>
+
+  <AgendaVictoryConditionDef>
+    <UniqueID>ClaimPrecursorWorlds</UniqueID>
+    <DisplayName>AgendaVictoryConditionDef_ClaimPrecursorWorlds_Name</DisplayName>
+    <Description>AgendaVictoryConditionDef_ClaimPrecursorWorlds_Desc</Description>
+    <ProgressTextFormat>AgendaVictoryConditionDef_ClaimPrecursorWorlds_Progress_Format</ProgressTextFormat>
+    <Icon>GC3_Alert_Improvment_Icon.png</Icon>
+    <MinCount>5</MinCount>
+    <MaxCount>7</MaxCount>
+  </AgendaVictoryConditionDef>
+
+</AgendaVictoryConditionList>

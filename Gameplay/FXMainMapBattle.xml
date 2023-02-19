@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FXElementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/FXElement.xsd">
+
+  <!-- Main Map Strategic Icon Battle Sequence -->
+  
+  <FXElement>
+    <InternalName>MainMapBattleFX_FlashIcon</InternalName>
+    <Type>Sequence</Type>
+
+    <FXElement>
+      <InternalName>MainMapBattleFX_FlashIcon_Flash</InternalName>
+      <Type>Flash</Type>
+      <Duration>0.5</Duration>
+      <KeyValueString>
+        <Key>TargetObject</Key>
+        <Value>NodeByID</Value>
+      </KeyValueString>
+      <KeyValueDecimal>
+        <Key>FlashCount</Key>
+        <Value>10.5</Value>
+      </KeyValueDecimal>
+    </FXElement>
+
+    <FXElement>
+      <InternalName>MainMapBattleFX_FlashIcon_Complete</InternalName>
+      <Type>Runnable</Type>
+    </FXElement>
+
+  </FXElement>
+  
+  
+  <!-- Main Map Full Fleet Battle Sequence -->
+
+  <FXElement>
+    <InternalName>MainMapFullFleetBattleFX</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapFullFleetBattleFX_Sequence</InternalName>
+      <Type>Sequence</Type>
+
+      <FXElement>
+        <InternalName>MainMapFullFleetBattleFX_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFullFleetBattleFX_AnimatedBattle</InternalName>
+        <Type>AnimatedBattle</Type>
+        <KeyValueDecimal>
+          <Key>MainMapFullBattleUniformScale</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+      </FXElement>
+    
+    </FXElement>
+
+  </FXElement>
+
+  
+  <!-- Main Map Battle Sequence -->
+  <FXElement>
+    <InternalName>MainMapBattleFX</InternalName>
+    <Type>Composite</Type>
+
+	<!--<FXElement>
+      <InternalName>MainMapBattleFX_Music</InternalName>
+      <Type>Music</Type>
+      <FadeOut>2</FadeOut>
+      <KeyValueString>
+        <Key>AssetTag</Key>
+        <Value>FX_TEST_TAG</Value>
+      </KeyValueString>
+    </FXElement>-->
+        
+    <FXElement>
+      <InternalName>MainMapBattleFX_Sequence</InternalName>
+      <Type>Sequence</Type>
+      <FXElement>
+        <InternalName>MainMapBattleFX_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleFX_FadeOut_Station</InternalName>
+        <Type>Transparency</Type>
+        <FadeOut>0.15</FadeOut>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>DefendingStation</Value>
+        </KeyValueString>
+        <KeyValueDecimal>
+          <Key>TargetTransparency</Key>
+          <Value>0.85</Value>
+        </KeyValueDecimal>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleFX_Composite</InternalName>
+        <Type>Composite</Type>
+                
+          <FXElement>
+          <InternalName>MainMapBattleFX_AttackerVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>DamageType</Key>
+            <Value>AttackerDamageType</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>HitCode</Key>
+            <Value>AttackerHitCode</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+        </FXElement>
+
+        <FXElement>
+          <InternalName>MainMapBattleFX_DefenderVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>DamageType</Key>
+            <Value>DefenderDamageType</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>HitCode</Key>
+            <Value>DefenderHitCode</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>DefendingAttackMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+        </FXElement>
+      </FXElement>
+        
+      <FXElement>
+        <InternalName>MainMapBattleFX_FadeIn_Station</InternalName>
+        <Type>Transparency</Type>
+        <FadeIn>0.5</FadeIn>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>DefendingStation</Value>
+        </KeyValueString>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapBattleFX_WaitForExplosions</InternalName>
+        <Type>Runnable</Type>
+      </FXElement>
+      
+    </FXElement>
+
+  </FXElement>
+
+  <!-- Main Map Missile volley -->
+  <FXElement>
+    <InternalName>MainMapFX_MissileVolley</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapFX_MissileVolley_Sequence</InternalName>
+      <Type>Sequence</Type>
+      
+      <!-- make attacker only -->
+      <FXElement>
+        <InternalName>MainMapFX_MissileVolley_TurnShipsElement</InternalName>
+        <Type>TurnShips</Type>
+        <KeyValueDecimal>
+          <Key>ReorientDuration</Key>
+          <Value>0.25</Value>
+        </KeyValueDecimal>
+        <KeyValueBool>
+          <Key>AttackerOnly</Key>
+					<Value>true</Value>
+        </KeyValueBool>
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_MissileVolley_Composite</InternalName>
+        <Type>Composite</Type>
+
+        <FXElement>
+          <InternalName>MainMapFX_MissileVolley_AttackerVolley</InternalName>
+          <Type>Volley</Type>
+          <KeyValueString>
+            <Key>DamageType</Key>
+            <Value>AttackerDamageType</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>HitCode</Key>
+            <Value>AttackerHitCode</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>SourceObject</Key>
+            <Value>AttackingMobileObject</Value>
+          </KeyValueString>
+          <KeyValueString>
+            <Key>TargetObject</Key>
+            <Value>DefendingMobileObject</Value>
+          </KeyValueString>
+        </FXElement>
+        
+      </FXElement>
+
+      <FXElement>
+        <InternalName>MainMapFX_MissileVolley_WaitForExplosions</InternalName>
+        <Type>Runnable</Type>
+      </FXElement>
+
+    </FXElement>
+
+  </FXElement>
+
+  <!-- Main Map initial siege fx -->
+  <FXElement>
+    <InternalName>MainMapSiegeInitFX</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapSiegeInitFX_TurnShipsElement</InternalName>
+      <Type>TurnShips</Type>
+      <KeyValueDecimal>
+        <Key>ReorientDuration</Key>
+        <Value>0.25</Value>
+      </KeyValueDecimal>
+    </FXElement>
+  
+  </FXElement>
+  
+  <!-- Main Map repeating siege Sequence -->
+  <FXElement>
+    <InternalName>MainMapSiegeFX</InternalName>
+    <Type>Composite</Type>
+
+    <FXElement>
+      <InternalName>MainMapSiegeFX_Sequence</InternalName>
+      <Type>Sequence</Type>
+
+      <FXElement>
+        <InternalName>MainMapSiegeFX_AttackerVolley</InternalName>
+        <Type>Volley</Type>
+        <KeyValueString>
+          <Key>DamageType</Key>
+          <Value>AttackerDamageType</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>HitCode</Key>
+          <Value>AttackerHitCode</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>SourceObject</Key>
+          <Value>AttackingMobileObject</Value>
+        </KeyValueString>
+        <KeyValueString>
+          <Key>TargetObject</Key>
+          <Value>DefendingMobileObject</Value>
+        </KeyValueString>
+      </FXElement>
+        
+    </FXElement>
+
+  </FXElement>
+  
+</FXElementList>
