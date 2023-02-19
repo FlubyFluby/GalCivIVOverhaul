@@ -8,7 +8,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionCommanderShipSetDef.xsd">
   <DisplayName>CommandShipSet_Minions</DisplayName>
   <Description>Why wouldn't Minions deserve a little of everything?</Description>
   <CommanderShipClass>Commander_Baratak1</CommanderShipClass>
-  <CommanderShipClass>Commander_Drengin3</CommanderShipClass>
   <CommanderShipClass>Commander_Drengin4</CommanderShipClass>
   <CommanderShipClass>Commander_AfterDeath</CommanderShipClass>
   <CommanderShipClass>Commander_Festron7</CommanderShipClass>
