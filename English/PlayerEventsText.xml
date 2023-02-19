@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 4 Event Editor -->
+<!-- PlayerEventsText.xml -->
+ 
+<!-- Event Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>Event_Refugees_Name</Label>
+    <String>Refugees</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Dec</Label>
+    <String>{PLAYERFACTION:1} refugees have fled into our borders and requested asylum. They claim they have been the victim of economic oppression that makes them little more than slaves.
+
+The {PLAYERFACTION:1} have demanded their return. They make no comment about the refugees claims, only stating that it is none of our concern.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Liberty_Bonus_Name</Label>
+    <String>Grant the refugees asylum.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Liberty_Bonus_Dec</Label>
+    <String>Gain a Colony Ship
+-3 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RefugeesLiberty_String1</Label>
+    <String>You accepted our refugees</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Equality_Bonus_Name</Label>
+    <String>Return the refugees to the {PLAYERFACTION:1}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Equality_Bonus_Dec</Label>
+    <String>+2 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RefugeesEquality_String1</Label>
+    <String>You returned our refugees</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Harmony_Bonus_Name</Label>
+    <String>Stay out of it.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Refugees_Harmony_Bonus_Dec</Label>
+    <String>-1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RefugeesHarmony_String1</Label>
+    <String>You wouldn't return our refugees</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Name</Label>
+    <String>The Exile</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Dec</Label>
+    <String>We are exiling Mors Ven from our empire. We believe he is a black market trader and information dealer. But, we are unable to prove it and he is well liked by our citizens.
+
+If something happened to his shuttle while it was in your borders, that would be a fortunate accident.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Liberty_Bonus_Name</Label>
+    <String>We can make sure that happens.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Liberty_Bonus_Dec</Label>
+    <String>+3 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ExileLiberty_String1</Label>
+    <String>You took care of Mors Ven</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Equality_Bonus_Name</Label>
+    <String>We can make the accident happen, for a fee.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Authority_Bonus_Name</Label>
+    <String>We need talented men, recruit Mors Ven.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Exile_Authority_Bonus_Dec</Label>
+    <String>-3 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ExileAuthority_String1</Label>
+    <String>You recruited Mors Ven</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Name</Label>
+    <String>Borderworld Crime</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Dec</Label>
+    <String>Pirates, smugglers and worse plague this sector.
+
+We are making a concerted effort to rid ourselves or these vermin, but our efforts are limited if they can simply flee into your borders to escape.
+
+We need your effort as well, for both of our interests.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Liberty_Bonus_Name</Label>
+    <String>I will allocate resources to stopping them.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Liberty_Bonus_Dec</Label>
+    <String>+2 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrimeLiberty_String1</Label>
+    <String>You joined us against the Pirates</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Equality_Bonus_Name</Label>
+    <String>I will allocate resources to stopping them. (lie)</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Equality_Bonus_Dec</Label>
+    <String>+1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrimeEquality_String1</Label>
+    <String>You joined us against the Pirates</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Authority_Bonus_Name</Label>
+    <String>We have more pressing concerns.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrime_Authority_Bonus_Dec</Label>
+    <String>-1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_BorderworldCrimeAuthority_String1</Label>
+    <String>You didn't join against the pirates</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Name</Label>
+    <String>Culture Wars</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Dec</Label>
+    <String>Our citizens have become enamored of your trinkets and entertainment. A new generation is being born on our worlds with your ridiculous names.
+
+A few temporary restrictions will help bring order. And won't have significant impact on your long term efforts.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Liberty_Bonus_Name</Label>
+    <String>We will accept limited restrictions for our common good.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Liberty_Bonus_Dec</Label>
+    <String>+2 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWarsLiberty_String1</Label>
+    <String>You honored our request.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Equality_Bonus_Name</Label>
+    <String>No changes will be made.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Equality_Bonus_Dec</Label>
+    <String>-1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWarsEquality_String1</Label>
+    <String>You ignored our request.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Authority_Bonus_Name</Label>
+    <String>We plan on giving your citizens more of what they want.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWars_Authority_Bonus_Dec</Label>
+    <String>-3 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CultureWarsAuthority_String1</Label>
+    <String>You are waging cultural war on us.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Name</Label>
+    <String>Illegal Cloning</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Dec</Label>
+    <String>We have discovered an illegal cloning experiment on {PLANETNAME} that will, in short order, greatly increase our population.
+
+However, the DNA was taken from citizens without their permission.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Liberty_Bonus_Name</Label>
+    <String>Return the DNA to its owners and let them decide.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Equality_Bonus_Name</Label>
+    <String>Promote the scientist behind these experiments.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Equality_Bonus_Dec</Label>
+    <String>A new Leader joins us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Authority_Bonus_Name</Label>
+    <String>These clones have no rights. Hatch them immediately.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_IllegalCloning_Authority_Bonus_Dec</Label>
+    <String>+2 Free Clone citizens</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Name</Label>
+    <String>The Ysengard</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Dec</Label>
+    <String>We have captured the famed mercenary Mirazu Ysen. Our people cry for justice for his history of theft and banditry. But he might be better put to another use.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Liberty_Bonus_Name</Label>
+    <String>Imprison the mercenary, he will pay for his crimes.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Equality_Bonus_Name</Label>
+    <String>Rebuild his ship if he agrees to join you.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Equality_Bonus_Dec</Label>
+    <String>Unlock the Ysengard ship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Authority_Bonus_Name</Label>
+    <String>We could use someone like him in our government.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Ysengard_Authority_Bonus_Dec</Label>
+    <String>A new Leader joins us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Name</Label>
+    <String>Precursor Probe</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Dec</Label>
+    <String>We have uncovered a Precursor probe orbiting {PLANETNAME}. We are not sure why it was sent here or how long it has been here, but the technology is advanced.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Liberty_Bonus_Name</Label>
+    <String>Let's study this and see what we can learn.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Equality_Bonus_Name</Label>
+    <String>Repair the Probe and see what it does.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Equality_Bonus_Dec</Label>
+    <String>Unlock the Stargazer ship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorProbe_Authority_Bonus_Name</Label>
+    <String>Sell the Probe to the highest bidder.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Name</Label>
+    <String>Precursor Artifact</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Dec</Label>
+    <String>We have come across an ancient artifact near {PLANETNAME} believed to have come from an ancient Precursor civilization.  Upon activating it, it has evaluated our status and offered to aid us.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Liberty_Bonus_Name</Label>
+    <String>Rebuild it as a ship.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Liberty_Bonus_Dec</Label>
+    <String>Unlock the Nail ship in your shipyard</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Equality_Bonus_Name</Label>
+    <String>Convert it into an army of synthetic citizens.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Equality_Bonus_Dec</Label>
+    <String>Gain a Yor colonist</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorArtifact_Authority_Bonus_Name</Label>
+    <String>Study the artifact.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Interview_Name</Label>
+    <String>The Interview</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Interview_Dec</Label>
+    <String>In an interview you are asked what you feel your citizens need to succeed as we explore the galaxy and encounter alien species.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Interview_Liberty_Bonus_Name</Label>
+    <String>Cunning.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Interview_Equality_Bonus_Name</Label>
+    <String>Understanding.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Interview_Authority_Bonus_Name</Label>
+    <String>Strength.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_AbandonedDevice_Name</Label>
+    <String>Abandoned Device</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_AbandonedDevice_Dec</Label>
+    <String>We have come across an ancient terraforming device near {PLANETNAME}. Upon activating it tells us that there was once a great war between the crafters and a powerful enemy.  This device was left to help protect future civilizations from predation in the event they lost.
+
+It offers us three options.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_AbandonedDevice_Liberty_Bonus_Name</Label>
+    <String>Use it to improve the world's biomes.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_AbandonedDevice_Equality_Bonus_Name</Label>
+    <String>Use it to produce raw minerals in the planet's crust.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_AbandonedDevice_Authority_Bonus_Name</Label>
+    <String>Use it to fabricate rare resources.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Name</Label>
+    <String>Precursor Relic</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Dec</Label>
+    <String>Near {PLANETNAME} we have discovered an ancient recording device that appears to have been drifting for centuries. The technology is delicate but incredibly advanced.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Liberty_Bonus_Name</Label>
+    <String>Let's use its recordings to make our world a center of influence.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Equality_Bonus_Name</Label>
+    <String>Use it to help us increase our planet's development.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Equality_Bonus_Dec</Label>
+    <String>Finish current construction project</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Authority_Bonus_Name</Label>
+    <String>Weaponize it into a ship. </String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_PrecursorRelic_Authority_Bonus_Dec</Label>
+    <String>Gain a Gunboat</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Name</Label>
+    <String>Mysterious Outpost</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Dec</Label>
+    <String>We discovered a hidden outpost with a single alien living there.  He claims that he was sent to observe us and has peaceful intentions.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Liberty_Bonus_Name</Label>
+    <String>Convert the outpost to a colony.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Liberty_Bonus_Dec</Label>
+    <String>Gain Class 5 planet</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Equality_Bonus_Name</Label>
+    <String>Invite the alien to join our government.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Equality_Bonus_Dec</Label>
+    <String>Gain a Diplomat</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousOutpost_Authority_Bonus_Name</Label>
+    <String>Force the alien to tell us everything he knows.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Message_Name</Label>
+    <String>Message</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Message_Dec</Label>
+    <String>Our people would like to send a beacon out into the universe. A message to the other starfaring races we will one day meet.
+
+What would you like the message to be?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Message_Liberty_Bonus_Name</Label>
+    <String>Send a message of peace and hope.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Message_Equality_Bonus_Name</Label>
+    <String>It is a waste of time. Put the resources toward more practical measures.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Message_Authority_Bonus_Name</Label>
+    <String>Send a message telling them to prepare for their eventual enslavement.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Name</Label>
+    <String>Famine</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Dec</Label>
+    <String>A blight has affected {PLANETNAME}. Your administrators warn that there won't be enough food for all of your citizens. The wealthy have already begun stockpiling food and the desperate have begun raiding those stockpiles.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Liberty_Bonus_Name</Label>
+    <String>Share with the less fortunate. We will suffer together.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Equality_Bonus_Name</Label>
+    <String>Distribute the goods to our leaders. We will need their strength to survive.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Authority_Bonus_Name</Label>
+    <String>Stage a war among our people. Let them turn on each other.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Famine_Authority_Bonus_Dec</Label>
+    <String>Deception check: {STATCHANCE}% chance of success</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineSuccess_Name</Label>
+    <String>Famine - Success</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineSuccess_Dec</Label>
+    <String>Just as you hoped, the citizens on {PLANETNAME} have turned on each other. None of them blame you for the famine.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineSuccess_Liberty_Bonus_Name</Label>
+    <String>Done</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineFail_Name</Label>
+    <String>Famine - Fail</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineFail_Dec</Label>
+    <String>You plan backfires and the your citizens blame you for the famine.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_FamineFail_Liberty_Bonus_Name</Label>
+    <String>Done</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Name</Label>
+    <String>New Generation</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Dec</Label>
+    <String>A new generation has been born on {PLANETNAME}, the first that are likely to live and die on distant worlds.
+
+How should we best prepare them for their future?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Liberty_Bonus_Name</Label>
+    <String>Our military always needs new recruits.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Liberty_Bonus_Dec</Label>
+    <String>Gain a Soldier citizen</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Equality_Bonus_Name</Label>
+    <String>Our most brilliant thinkers will lead us forward.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Equality_Bonus_Dec</Label>
+    <String>Gain a Scientist citizen</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Authority_Bonus_Name</Label>
+    <String>Allow them to pursue their dreams, we need more artists.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_NewGeneration_Authority_Bonus_Dec</Label>
+    <String>Gain an Entertainer citizen</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Name</Label>
+    <String>The Legacy</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Dec</Label>
+    <String>We have discovered the remnants of one of our first space vessels. Evidence of a time when we stepped nervously beyond {PLANETNAME}.
+
+What should we do with this piece of history?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Liberty_Bonus_Name</Label>
+    <String>Put it in a museum that it may inspire future generations.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Equality_Bonus_Name</Label>
+    <String>There is no value in nostalgia, scrap it for parts.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Authority_Bonus_Name</Label>
+    <String>Put it back into service.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Legacy_Authority_Bonus_Dec</Label>
+    <String>Free Probe</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Name</Label>
+    <String>The Cult</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Dec</Label>
+    <String>A new cult has begun to spread on {PLANETNAME}. The cult has grown wealthy by convincing rich members to make substantial donations.
+
+The followers believe that we were given life by an alien species, and they predict that these creators will soon return to lead us.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Liberty_Bonus_Name</Label>
+    <String>They offer a unique insight, invite their leader to join us.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Liberty_Bonus_Dec</Label>
+    <String>Gain a Leader</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Equality_Bonus_Name</Label>
+    <String>Tax them, heavily.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Authority_Bonus_Name</Label>
+    <String>Unique voices should be protected, not constrained.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Cult_Authority_Bonus_Dec</Label>
+    <String>Gain two free Citizens</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Protest_Name</Label>
+    <String>The Protest</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Protest_Dec</Label>
+    <String>A group has begun to protest the resources that are being spent exploring the galaxy. They argue that those resources are better spent improving the lives of those on {PLANETNAME}.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Protest_Liberty_Bonus_Name</Label>
+    <String>Allow them to present their opinions before the budget committee.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Protest_Equality_Bonus_Name</Label>
+    <String>They can protest, but arrest anyone who goes beyond that.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Protest_Authority_Bonus_Name</Label>
+    <String>If they want to improve the planet, put them to work doing exactly that.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Biographer_Name</Label>
+    <String>Biographer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Biographer_Dec</Label>
+    <String>A biographer is interviewing you so that he can write a book about your rise to power. He asks what motivated you to lead the drive off your homeworld and into the unknown reaches of space.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Biographer_Liberty_Bonus_Name</Label>
+    <String>We have achieved greatness, it is our responsibility to share that with the galaxy.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Biographer_Equality_Bonus_Name</Label>
+    <String>We have only seen a tiny fraction of what the universe offers. So much more awaits.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Biographer_Authority_Bonus_Name</Label>
+    <String>I am seeking new worlds to conquer.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Museum_Name</Label>
+    <String>The Museum</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Museum_Dec</Label>
+    <String>A museum is opening a display about your life. They would like to know what you feel your greatest accomplishment has been.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Museum_Liberty_Bonus_Name</Label>
+    <String>I have done nothing. Together, we have done everything.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Museum_Equality_Bonus_Name</Label>
+    <String>My greatest accomplishment is yet to come.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Museum_Authority_Bonus_Name</Label>
+    <String>The graves of my enemies.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DigDeep_Name</Label>
+    <String>Dig Deep</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DigDeep_Dec</Label>
+    <String>Economic advisors on {PLANETNAME} discovered rare resources under the planet's most fertile region. They want permission to excavate the land to reach the resources.
+
+They promise to setup a small exhibit for all the species they exterminate.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DigDeep_Liberty_Bonus_Name</Label>
+    <String>Go ahead.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DigDeep_Equality_Bonus_Name</Label>
+    <String>Absolutely not.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DigDeep_Authority_Bonus_Name</Label>
+    <String>Invest in improving the fertile region instead.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Disease_Name</Label>
+    <String>Super Bacteria</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Disease_Dec</Label>
+    <String>An attempt to create an improved antibiotic has instead produced a bacteria that is immune to our treatments. It has escaped the lab and your scientists warn that it is spreading on {PLANETNAME}.
+
+It can be fatal to infants and the elderly.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Disease_Liberty_Bonus_Name</Label>
+    <String>Quarantine the sick, by force if need be.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Disease_Equality_Bonus_Name</Label>
+    <String>Prioritize health care and make sure the infected get treatment.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Disease_Authority_Bonus_Name</Label>
+    <String>Warn the citizens and allow them to respond as they want.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Name</Label>
+    <String>Request for Support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Dec</Label>
+    <String>There is a growing dislike for the {PLAYERFACTION:1} among our people. The {PLAYERFACTION:1} have requested that we attempt to curb this disapproval by releasing a public statement supporting them.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Liberty_Bonus_Name</Label>
+    <String>Of course we will stand by our allies.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Liberty_Bonus_Dec</Label>
+    <String>+2 Diplomacy with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupportLiberty_String1</Label>
+    <String>You supported us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Equality_Bonus_Name</Label>
+    <String>Condemn the {PLAYERFACTION:1} for attempting to influence your people.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Equality_Bonus_Dec</Label>
+    <String>-3 Diplomacy with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupportEquality_String1</Label>
+    <String>You condemned us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Authority_Bonus_Name</Label>
+    <String>Stay out of it.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupport_Authority_Bonus_Dec</Label>
+    <String>-1 Diplomacy with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RequestForSupportAuthority_String1</Label>
+    <String>You wouldn't support us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Name</Label>
+    <String>The Sabre</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Dec</Label>
+    <String>A ship of unknown origin has appeared on our borders. It has weaponry so advanced our scanners are unable to classify it. We receive one message from it, pay or those weapons will be turned against us.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Liberty_Bonus_Name</Label>
+    <String>We will not bend to threats.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Liberty_Bonus_Dec</Label>
+    <String>Spawn an enemy pirate ship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Equality_Bonus_Name</Label>
+    <String>Paying him off is the most reasonable option.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Authority_Bonus_Name</Label>
+    <String>Offer to build him an even better ship if he joins us.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheSabre_Authority_Bonus_Dec</Label>
+    <String>Unlock the Sabre ship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Name</Label>
+    <String>Pirates</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Dec</Label>
+    <String>Reports are coming in of increased pirate activity from multiple sources. Our people demand that we do something to keep our worlds safe.
+
+What are your orders?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Liberty_Bonus_Name</Label>
+    <String>Increase defense of our planets.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Equality_Bonus_Name</Label>
+    <String>Recruit a military advisor to counter the threat.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Equality_Bonus_Dec</Label>
+    <String>A new Leader joins us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Authority_Bonus_Name</Label>
+    <String>Warn our citizens of the threat, they may help.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Pirates_Authority_Bonus_Dec</Label>
+    <String>Gain a Warship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RecruitmentDrive_Name</Label>
+    <String>Recruitment Drive</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RecruitmentDrive_Dec</Label>
+    <String>A rush of excitement in our space program has spurred a lot of new candidates for critical positions. We should take advantage of this situation while it lasts.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RecruitmentDrive_Liberty_Bonus_Name</Label>
+    <String>We should take advantage of this</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ElectionWarning_Name</Label>
+    <String>Upcoming Election</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ElectionWarning_Dec</Label>
+    <String>An election to reform our government will happen in five weeks. It will be based on the [HS=HS_Approval]Approval[/HS] of our citizens.
+
+Anything we can do to improve our citizen's Approval will help our reform pass. Or we could adjust the results to help the measure pass.
+
+What would you like to do?</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ElectionWarning_Liberty_Bonus_Name</Label>
+    <String>We will let the results speak for themselves.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ElectionWarning_Equality_Bonus_Name</Label>
+    <String>We should "adjust" the results.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov1Success_Name</Label>
+    <String>Government Reformed!</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov1Success_Dec</Label>
+    <String>The election has passed to reform the government to an Imperial government by a popular vote of {LASTELECTIONVOTES:1}%!
+
+Imperial governments are more efficient and boosts our [HS=HS_PolicySlot]Policy Slots[/HS] and [HS=HS_Manufacturing]Manufacturing[/HS] as well as expanding our [HS=HS_ShipRange]Ship Range[/HS] considerably.
+
+But, as our government advances, so will the [HS=HS_Expectations]Expectations[/HS] of our citizens. We must keep them happy if we are to be successful in future elections.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov1Success_Liberty_Bonus_Name</Label>
+    <String>Excellent.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov2Success_Name</Label>
+    <String>Government Reformed!</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov2Success_Dec</Label>
+    <String>The election has passed to reform the government to a Republic government by a popular vote of {LASTELECTIONVOTES:1}%!
+
+Republic governments are more efficient and boost our [HS=HS_ColonyGrossIncome]Income[/HS] and [HS=HS_Logistics[/HS] substantially.
+
+But, as our government advances, so will the [HS=HS_Expectations]Expectations[/HS] of our citizens. We must keep them happy if we are to be successful in future elections.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov2Success_Liberty_Bonus_Name</Label>
+    <String>Excellent.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov3Success_Name</Label>
+    <String>Government Reformed!</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov3Success_Dec</Label>
+    <String>The election has passed to reform the government to a Federation by a popular vote of {LASTELECTIONVOTES:1}%!
+
+Federations are the envy of other civilizations and boosts our [HS=HS_influence]Influence[/HS] considerably.
+
+But, as our government advances, so will the [HS=HS_Expectations]Expectations[/HS] of our citizens. We must keep them happy if we are to be successful in future elections.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Gov3Success_Liberty_Bonus_Name</Label>
+    <String>Excellent.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernmentUpgradeFail_Name</Label>
+    <String>Election Lost!</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernmentUpgradeFail_Dec</Label>
+    <String>The election has voted against reforming the government to {WANTEDGOVERNMENTNAME:1}. Those in favor only made up {LASTELECTIONVOTES:1}% of the vote.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernmentUpgradeFail_Liberty_Bonus_Name</Label>
+    <String>This loss will cost us.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Name</Label>
+    <String>Disloyal Governor</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Dec</Label>
+    <String>{GOVERNORNAME}, the governor of {PLANETNAME}, is displeased with our interference and threatening to join the {FOREIGNINFLUENCER}.
+
+They claim we interfere with their world and there should be more freedom to govern themselves.
+
+Our advisors claim that doing so will increase [HS=HS_Crime]Crime[/HS] on {PLANETNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Liberty_Bonus_Name</Label>
+    <String>Allow them their freedom.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernorLiberty_String2</Label>
+    <String>You allow me to govern as I want</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Equality_Bonus_Name</Label>
+    <String>Bribe the Governor to change his mind.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernorEquality_String2</Label>
+    <String>Your bribe is appreciated</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Authority_Bonus_Name</Label>
+    <String>Let them go.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_DisloyalGovernor_Authority_Bonus_Dec</Label>
+    <String>{PLANETNAME} is now controlled by the {FOREIGNINFLUENCER}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernor_Name</Label>
+    <String>Toxic Leader</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernor_Dec</Label>
+    <String>{GOVERNORNAME}, governor of {PLANETNAME}, is speaking openly about our incompetence. Our other leaders have already begun to take notice and it is souring their opinion of us.
+
+Some of our more soft-hearted advisors suggest that this is a normal part of a complex society, while others recommend that we take firm action against the governor and the soft-hearted advisors.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernor_Liberty_Bonus_Name</Label>
+    <String>Allow him to speak his mind.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernor_Equality_Bonus_Name</Label>
+    <String>Some time in a dungeon should fix this.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernor_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ToxicGovernorEquality_String2</Label>
+    <String>Dungeon lessons</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Name</Label>
+    <String>Scandal</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Dec</Label>
+    <String>{GOVERNORNAME}, governor of {PLANETNAME}, is widely believed to be favoring personal friends at the expense of their world's citizens.
+
+Our advisors have investigated the accusations and determined that they are false, {GOVERNORNAME} hasn't done anything wrong.
+
+Still, there is a loud public outcry for us to at least chastize the governor in some manner, or we will seem to be complicit in the corruption.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Liberty_Bonus_Name</Label>
+    <String>The governor has done nothing wrong and we will support them.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandalLiberty_String1</Label>
+    <String>You stood by me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Equality_Bonus_Name</Label>
+    <String>Condemn the governor. That's the price of politics.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandal_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorScandalEquality_String1</Label>
+    <String>You condemned me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Name</Label>
+    <String>Cultural Assault</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Dec</Label>
+    <String>{GOVERNORNAME}, governor of {PLANETNAME}, warns that their planet is under cultural assault by the {FOREIGNINFLUENCER}.
+
+{FOREIGNINFLUENCER} influence has begun to show up in local media, games and fashion, especially among younger citizens.
+
+{GOVERNORNAME} is requesting a grant to counter this threat.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Liberty_Bonus_Name</Label>
+    <String>We will fund a cultural celebration on {PLANETNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluenceLiberty_String1</Label>
+    <String>You gave me cultural support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Equality_Bonus_Name</Label>
+    <String>Impose an import tax on foreign goods.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Harmony_Bonus_Name</Label>
+    <String>This is their problem to deal with.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluence_Harmony_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -3 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestInfluenceHarmony_String1</Label>
+    <String>You didn't provide cultural support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Name</Label>
+    <String>Countering Crime</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Dec</Label>
+    <String>{GOVERNORNAME}, governor of {PLANETNAME}, has done a poor job of curtailing criminal activity on their planet.
+
+Instead of dealing with it locally they are requesting military support to deal with the problem.
+
+It is disappointing that such measures are needed to deal with one governor's incompetence, but we have little choice if we don't want [HS=HS_Crime]Crime[/HS] to grow on {PLANETNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Liberty_Bonus_Name</Label>
+    <String>Send the help to {PLANETNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrimeLiberty_String1</Label>
+    <String>You helped reduce crime</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Equality_Bonus_Name</Label>
+    <String>This is their problem to deal with.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -2 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrimeEquality_String1</Label>
+    <String>You didn't help reduce crime</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Harmony_Bonus_Name</Label>
+    <String>Investigate signs of crime and corruption, starting with the inept governor.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrime_Harmony_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestCrimeHarmony_String1</Label>
+    <String>You investigated me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Name</Label>
+    <String>Geothermic Fissures</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Dec</Label>
+    <String>{GOVERNORNAME}, governor of {PLANETNAME}, is warning of a potential climate disaster on their planet. Deep fissures have begun to release immense amounts of heat and particles into the atmosphere.
+
+Without immediate action it could cause damage to {PLANETNAME}. But, it would require significant resources to address.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Liberty_Bonus_Name</Label>
+    <String>Send the help to {PLANETNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollutionLiberty_String1</Label>
+    <String>You helped reduce pollution</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Equality_Bonus_Name</Label>
+    <String>Redirect local manufacturing to resolve the issue.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +2 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollutionEquality_String1</Label>
+    <String>You helped reduce pollution</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Harmony_Bonus_Name</Label>
+    <String>This is their problem to deal with.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollution_Harmony_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -3 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorRequestPollutionHarmony_String1</Label>
+    <String>You didn't help reduce pollution</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Name</Label>
+    <String>The List</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Dec</Label>
+    <String>Those who have wronged {GOVERNORNAME} often encounter bad luck, some go missing entirely. At first these were just rumors, but those rumors have turned to fear.
+
+When questioned about it {GOVERNORNAME} quietly denies any involvement, only offering that bad things happen to bad people.
+
+The only piece of evidence is {GOVERNORNAME}'s notebook, where many of those who ran into misfortune are listed and crossed off.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Liberty_Bonus_Name</Label>
+    <String>It would be foolish to cross {GOVERNORNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheListLiberty_String1</Label>
+    <String>You aren't on my list</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Equality_Bonus_Name</Label>
+    <String>Assign security to those on {GOVERNORNAME}'s list and monitor them closely.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -20 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheListEquality_String1</Label>
+    <String>You are on my list</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_End_Name</Label>
+    <String>The List</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_End_Dec</Label>
+    <String>Your name has been added to {GOVERNORNAME}'s list.
+</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_TheList_End_Liberty_Bonus_Name</Label>
+    <String>This can't be good.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Name</Label>
+    <String>Mysterious Brooch</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Dec</Label>
+    <String>A relic which has deep symbolic meaning among our people has been missing for decades.
+
+It was recently discovered to be held by one of your leaders, {GOVERNORNAME}.
+
+How they acquired it is irrelevant. We have already asked them to return it and offered to purchase it from them. They have refused.
+
+We are counting on you to do the right thing and hand it over to us.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Liberty_Bonus_Name</Label>
+    <String>{GOVERNORNAME} has made their choice, and I stand behind it.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}
+-3 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBroochLiberty_String1</Label>
+    <String>You defended my brooch</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBroochLiberty_String2</Label>
+    <String>You refused to return our relic</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Equality_Bonus_Name</Label>
+    <String>We will make sure the brooch is turned over to you.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBrooch_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -20 Loyalty for {GOVERNORNAME}
++1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBroochEquality_String1</Label>
+    <String>You gave away my brooch</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_MysteriousBroochEquality_String2</Label>
+    <String>You returned our relic</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Name</Label>
+    <String>Gambling Problems</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Dec</Label>
+    <String>{GOVERNORNAME} has incurred a significant debt to the {PLAYERFACTION:1}. Your name was used as collateral and it's certainly an insignificant sum to you.
+
+I trust you will pay this debt and keep {GOVERNORNAME} out of harm's way.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Liberty_Bonus_Name</Label>
+    <String>We cannot afford it. Do as you must to {GOVERNORNAME}.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -10 Loyalty for {GOVERNORNAME}
+[ICON=LeaderStat_Resolve_Icon] -1 Resolve for {GOVERNORNAME}
+-1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsLiberty_String1</Label>
+    <String>You wouldn't pay my debt</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsLiberty_String2</Label>
+    <String>You don't pay your debts</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Equality_Bonus_Name</Label>
+    <String>No. And any aggression towards {GOVERNORNAME} will be met with war.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}
+-8 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsEquality_String1</Label>
+    <String>You defended me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsEquality_String2</Label>
+    <String>You threatened us</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Authority_Bonus_Name</Label>
+    <String>We will pay the debt.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblems_Authority_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}
++1 Relations with the {PLAYERFACTION:1} for 50 turns</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsAuthority_String1</Label>
+    <String>You paid my debt</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GamblingProblemsAuthority_String2</Label>
+    <String>You paid your debt</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Name</Label>
+    <String>Arranged Marriage</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Dec</Label>
+    <String>{GOVERNORNAME}'s family has a long tradition of arranged marriages, though they are opposed to it and has previously fled from the marriage their family setup.
+
+But a new suitor has been selected and the family isn't asking for you to force {GOVERNORNAME} to do anything, just to intercede on their behalf and talk to {GOVERNORNAME} about being open to the idea.
+
+The family offers a small token if you accept this request.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Liberty_Bonus_Name</Label>
+    <String>I won't have any part of this.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +5 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageLiberty_String1</Label>
+    <String>You didn't meddle in my life</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Equality_Bonus_Name</Label>
+    <String>I will speak to {GOVERNORNAME} about it.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageEquality_String1</Label>
+    <String>You meddled in my life</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Authority_Bonus_Name</Label>
+    <String>I will propose to {GOVERNORNAME} myself.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriage_Authority_Bonus_Dec</Label>
+    <String>Persuasion check: {STATCHANCE}% chance of success</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageSuccess_Name</Label>
+    <String>Arranged Marriage - Success</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageSuccess_Dec</Label>
+    <String>The family is furious that you would disrupt their plans for an arranged marriage. And to their shock, {GOVERNORNAME} accepts your proposal.
+
+The story of your marriage warms the hearts of your people and even other civilizations send gifts and well wishes.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageSuccess_Liberty_Bonus_Name</Label>
+    <String>It's a great day.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageSuccess_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +25 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageSuccessLiberty_String1</Label>
+    <String>We are married</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageFail_Name</Label>
+    <String>Arranged Marriage - Fail</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageFail_Dec</Label>
+    <String>The family is furious that you would disrupt their plans for an arranged marriage. But it is nothing compared to {GOVERNORNAME}'s shock and disappointment.
+
+The rejection is immediate, and a little hurtful.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageFail_Liberty_Bonus_Name</Label>
+    <String>Things are going to be awkward for a while.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageFail_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -20 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ArrangedMarriageFailLiberty_String1</Label>
+    <String>You proposed to me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Name</Label>
+    <String>Scars</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Dec</Label>
+    <String>Rumors are spreading on {PLANETNAME} of a strange cult. There are numerous reports of people disappearing from hospitals and evidence points to involvement by the planet's governor, {GOVERNORNAME}.
+
+Interrogating {GOVERNORNAME} uncovers the truth. A device was being used to cure the sick, at the cost of damage to {GOVERNORNAME}'s body. Painful scars are left by the device that impair movement and control.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Liberty_Bonus_Name</Label>
+    <String>You cannot sacrifice the world's governor for the least of its citizens. Take the device.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Equality_Bonus_Name</Label>
+    <String>This sacrifice is noble, but minimize it to keep {GOVERNORNAME} safe.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Authority_Bonus_Name</Label>
+    <String>Use the device to transfer the scars from {GOVERNORNAME} to you.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Scars_Authority_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +25 Loyalty for {GOVERNORNAME}
+{GOVERNORNAME} is healed
+You become Scarred</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_ScarsAuthority_String1</Label>
+    <String>You healed me</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Name</Label>
+    <String>Compassion</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Dec</Label>
+    <String>{GOVERNORNAME} makes frequent requests of the government. Better housing, public education, free health care and on and on.
+
+Today it is about clean water. This is not an issue for most of our citizens but {GOVERNORNAME}  argues that millions of our most vulnerable lack access to safe water.
+
+Your advisors are tired of listening to the complaining and argue that the process will be expensive and provide little tangible value to our civilization.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Liberty_Bonus_Name</Label>
+    <String>Fine. Increase regulations on our planets to make sure the water is safe everywhere.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CompassionLiberty_String1</Label>
+    <String>You fulfilled my request</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Equality_Bonus_Name</Label>
+    <String>We don't have time for these trivial requests.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_CompassionEquality_String1</Label>
+    <String>You ignored my request</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Name</Label>
+    <String>Compassion (part 2)</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Dec</Label>
+    <String>It isn't unusual to get endless requests from {GOVERNORNAME}, but this one is extreme.
+
+{GOVERNORNAME} argues that {PLAYERFACTION:1} citizens are suffering and receiving inadequate food and medical attention.
+
+Your advisors are stunned by the suggestion that we would dedicate some of our rare resources to another civilization and beg you to stop {GOVERNORNAME}'s madness.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Liberty_Bonus_Name</Label>
+    <String>Fine. Increase regulations on our planets to make sure the water is safe everywhere.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Liberty_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] +10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2Liberty_String1</Label>
+    <String>You fulfilled my request</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Equality_Bonus_Name</Label>
+    <String>We don't have time for these trivial requests.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2_Equality_Bonus_Dec</Label>
+    <String>[ICON=LeaderStat_Loyalty_Icon] -10 Loyalty for {GOVERNORNAME}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion2Equality_String1</Label>
+    <String>You ignored my request</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion3_Name</Label>
+    <String>Compassion (part 3)</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion3_Dec</Label>
+    <String>{GOVERNORNAME}'s advocacy for the least of our citizens is well known. As is our support for these requests.
+
+Though the aide had little direct benefit, our citizens have not forgotten our kindness and throw a celebration in {GOVERNORNAME}'s honor.
+
+Some of them even remember our roll in providing this help.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_Compassion3_Liberty_Bonus_Name</Label>
+    <String>We are judged by how we treat the least of our citizens.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RenegadeGovernor_Name</Label>
+    <String>Renegade Governor</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RenegadeGovernor_Dec</Label>
+    <String>{GOVERNORNAME}, the governor of {PLANETNAME}, has discovered a cache of precursor technology. Unfortunately, rather than share it, they have used it to negotiate a high ranking position in the {FOREIGNINFLUENCER}.
+
+Because of his act of treason we have lost {PLANETNAME} and this hidden cache.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RenegadeGovernor_Liberty_Bonus_Name</Label>
+    <String>Their treason won't be quickly forgotten.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_RenegadeGovernor_Liberty_Bonus_Dec</Label>
+    <String>{PLANETNAME} is now controlled by the {FOREIGNINFLUENCER}</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_LoyalGovernor_Name</Label>
+    <String>Loyal Leader</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_LoyalGovernor_Dec</Label>
+    <String>{GOVERNORNAME}, the governor of {PLANETNAME}, is so enamoured with your leadership that a statue of you has been erected on their world.
+
+Though the statue provides little practical benefit, the governor's devotion could be a very useful commodity.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_LoyalGovernor_Liberty_Bonus_Name</Label>
+    <String>We will make use of this.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorFundRaiser_Name</Label>
+    <String>Fund Raiser</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorFundRaiser_Dec</Label>
+    <String>Your fame on {PLANETNAME} has caused the governor, {GOVERNORNAME}, to hold a massive fund raiser in your honor.
+
+The event was a success and greatly contributed to our public coffers.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Event_GovernorFundRaiser_Liberty_Bonus_Name</Label>
+    <String>We will make use of this.</String>
+  </StringTable>
+ 
+</StringTableList>
