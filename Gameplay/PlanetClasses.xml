@@ -12,21 +12,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>2</RangeMax><!--3 -->
+        <RangeMax>1</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMax>7</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>11</RangeMax><!-- 4-->
+        <RangeMax>10</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -52,21 +52,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>3</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>9</RangeMax><!-- 4-->
+        <RangeMax>8</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -92,21 +92,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>4</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>4</RangeMax><!--2 -->
+        <RangeMax>3</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!-- 4-->
+        <RangeMax>6</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -132,28 +132,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>10</RangeMax><!--3 -->
+        <RangeMax>7</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>7</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!-- 4-->
+        <RangeMax>7</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>8</RangeMax><!--0 -->
+        <RangeMax>7</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -172,14 +172,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!--2 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -193,7 +193,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>6</RangeMax><!--0 -->
+        <RangeMax>5</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -212,28 +212,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>4</RangeMax><!--2 -->
+        <RangeMax>3</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>4</RangeMax><!-- 4-->
+        <RangeMax>3</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>4</RangeMax><!--0 -->
+        <RangeMax>3</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -252,21 +252,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMax>7</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>8</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -291,46 +291,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
-      </Value>
-    </StatWeight>
-    <StatWeight>
-      <Stat>BaseMinerals</Stat>
-      <Value>
-        <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
-      </Value>
-    </StatWeight>
-    <StatWeight>
-      <Stat>BaseWealth</Stat>
-      <Value>
-        <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!-- 4-->
-      </Value>
-    </StatWeight>
-    <StatWeight>
-      <Stat>BaseFertility</Stat>
-      <Value>
-        <RangeMin>3</RangeMin><!--0 -->
-        <RangeMax>16</RangeMax><!--0 -->
-      </Value>
-    </StatWeight>
-    <StatWeight>
-      <Stat>BasePlanetInfluence</Stat>
-      <Value>
-        <RangeMin>3</RangeMin><!-- 1-->
-        <RangeMax>6</RangeMax><!--3 -->
-      </Value>
-    </StatWeight>
-  </PlanetClassDistributionWeightsDef>
-  <PlanetClassDistributionWeightsDef>
-    <InternalName>ParadiseWorld3</InternalName>
-    <Weight>33</Weight>
-    <StatWeight>
-      <Stat>BaseTechnology</Stat>
-      <Value>
-        <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -350,8 +311,47 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
+        <RangeMin>3</RangeMin><!--0 -->
+        <RangeMax>15</RangeMax><!--0 -->
+      </Value>
+    </StatWeight>
+    <StatWeight>
+      <Stat>BasePlanetInfluence</Stat>
+      <Value>
+        <RangeMin>3</RangeMin><!-- 1-->
+        <RangeMax>6</RangeMax><!--3 -->
+      </Value>
+    </StatWeight>
+  </PlanetClassDistributionWeightsDef>
+  <PlanetClassDistributionWeightsDef>
+    <InternalName>ParadiseWorld3</InternalName>
+    <Weight>33</Weight>
+    <StatWeight>
+      <Stat>BaseTechnology</Stat>
+      <Value>
+        <RangeMin>0</RangeMin><!--1 -->
+        <RangeMax>3</RangeMax><!--3 -->
+      </Value>
+    </StatWeight>
+    <StatWeight>
+      <Stat>BaseMinerals</Stat>
+      <Value>
+        <RangeMin>0</RangeMin><!--2 -->
+        <RangeMax>3</RangeMax><!--2 -->
+      </Value>
+    </StatWeight>
+    <StatWeight>
+      <Stat>BaseWealth</Stat>
+      <Value>
+        <RangeMin>0</RangeMin><!--2 -->
+        <RangeMax>4</RangeMax><!-- 4-->
+      </Value>
+    </StatWeight>
+    <StatWeight>
+      <Stat>BaseFertility</Stat>
+      <Value>
         <RangeMin>2</RangeMin><!--0 -->
-        <RangeMax>12</RangeMax><!--0 -->
+        <RangeMax>10</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -390,8 +390,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>4</RangeMin><!--0 -->
-        <RangeMax>11</RangeMax><!--0 -->
+        <RangeMin>2</RangeMin><!--0 -->
+        <RangeMax>12</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -410,28 +410,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!--2 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!-- 4-->
+        <RangeMax>4</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>3</RangeMin><!--0 -->
-        <RangeMax>9</RangeMax><!--0 -->
+        <RangeMin>1</RangeMin><!--0 -->
+        <RangeMax>8</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -450,28 +450,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMax>2</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!-- 4-->
+        <RangeMax>3</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>4</RangeMin><!--0 -->
-        <RangeMax>11</RangeMax><!--0 -->
+        <RangeMin>0</RangeMin><!--0 -->
+        <RangeMax>6</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -490,28 +490,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>13</RangeMax><!--3 -->
+        <RangeMax>6</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>13</RangeMax><!--2 -->
+        <RangeMax>12</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>13</RangeMax><!-- 4-->
+        <RangeMax>12</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>13</RangeMax><!--0 -->
+        <RangeMax>14</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -530,28 +530,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>10</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!--2 -->
+        <RangeMax>9</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>9</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>10</RangeMax><!--0 -->
+        <RangeMax>11</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -570,7 +570,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -591,7 +591,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>7</RangeMax><!--0 -->
+        <RangeMax>9</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -610,21 +610,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>4</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!--2 -->
+        <RangeMax>8</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>12</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -650,21 +650,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMax>6</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>8</RangeMax><!-- 4-->
+        <RangeMax>9</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -691,14 +691,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -732,21 +732,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>4</RangeMin><!--2 -->
-        <RangeMax>14</RangeMax><!--2 -->
+        <RangeMin>2</RangeMin><!--2 -->
+        <RangeMax>13</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
-        <RangeMin>8</RangeMin><!--2 -->
-        <RangeMax>18</RangeMax><!-- 4-->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>11</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -772,28 +772,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--2 -->
+        <RangeMin>1</RangeMin><!--2 -->
         <RangeMax>10</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
-        <RangeMin>5</RangeMin><!--2 -->
-        <RangeMax>14</RangeMax><!-- 4-->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>9</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>2</RangeMax><!--0 -->
+        <RangeMax>3</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -812,21 +812,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>3</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!--2 -->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>8</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--2 -->
-        <RangeMax>12</RangeMax><!-- 4-->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>7</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -852,28 +852,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>11</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>5</RangeMin><!--0 -->
-        <RangeMax>13</RangeMax><!--0 -->
+        <RangeMin>3</RangeMin><!--0 -->
+        <RangeMax>12</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -891,28 +891,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>8</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>5</RangeMin><!--0 -->
-        <RangeMax>13</RangeMax><!--0 -->
+        <RangeMin>2</RangeMin><!--0 -->
+        <RangeMax>9</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -930,28 +930,28 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>3</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMax>5</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
-        <RangeMin>5</RangeMin><!--0 -->
-        <RangeMax>13</RangeMax><!--0 -->
+        <RangeMin>1</RangeMin><!--0 -->
+        <RangeMax>7</RangeMax><!--0 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -971,7 +971,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 1-->
-        <RangeMax>20</RangeMax><!--3 -->
+        <RangeMax>12</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1011,7 +1011,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 1-->
-        <RangeMax>15</RangeMax><!--3 -->
+        <RangeMax>9</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1051,7 +1051,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 1-->
-        <RangeMax>10</RangeMax><!--3 -->
+        <RangeMax>6</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1090,22 +1090,22 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMin>0</RangeMin><!--1 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>3</RangeMin><!--2 -->
-        <RangeMax>7</RangeMax><!-- 3-->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>6</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!-- 2-->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMin>0</RangeMin><!-- 2-->
+        <RangeMax>6</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1129,22 +1129,22 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>1</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMin>0</RangeMin><!--1 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--2 -->
-        <RangeMax>5</RangeMax><!-- 3-->
+        <RangeMin>0</RangeMin><!--2 -->
+        <RangeMax>4</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
-        <RangeMin>1</RangeMin><!-- 2-->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMin>0</RangeMin><!-- 2-->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1169,21 +1169,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--2 -->
+        <RangeMax>2</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--2 -->
-        <RangeMax>3</RangeMax><!-- 3-->
+        <RangeMin>0</RangeMin><!--2 -->
+        <RangeMax>2</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 2-->
-        <RangeMax>3</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1208,14 +1208,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--1 -->
+        <RangeMin>0</RangeMin><!--1 -->
         <RangeMax>6</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>4</RangeMin><!--2 -->
+        <RangeMin>2</RangeMin><!--2 -->
         <RangeMax>10</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
@@ -1223,14 +1223,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 2-->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--4 -->
-        <RangeMax>5</RangeMax><!--8 -->
+        <RangeMax>4</RangeMax><!--8 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1249,29 +1249,29 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>1</RangeMin><!--1 -->
+        <RangeMin>0</RangeMin><!--1 -->
         <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>3</RangeMin><!--2 -->
-        <RangeMax>9</RangeMax><!-- 3-->
+        <RangeMin>1</RangeMin><!--2 -->
+        <RangeMax>8</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 2-->
-        <RangeMax>4</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--4 -->
-        <RangeMax>4</RangeMax><!--8 -->
+        <RangeMax>3</RangeMax><!--8 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1296,7 +1296,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--2 -->
+        <RangeMin>0</RangeMin><!--2 -->
         <RangeMax>6</RangeMax><!-- 3-->
       </Value>
     </StatWeight>
@@ -1304,7 +1304,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 2-->
-        <RangeMax>3</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1330,21 +1330,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>10</RangeMax><!--2 -->
+        <RangeMax>7</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 3-->
-        <RangeMax>8</RangeMax><!--5 -->
+        <RangeMax>7</RangeMax><!--5 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- -->
-        <RangeMax>12</RangeMax><!-- -->
+        <RangeMax>9</RangeMax><!-- -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1370,21 +1370,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--2 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 3-->
-        <RangeMax>6</RangeMax><!--5 -->
+        <RangeMax>5</RangeMax><!--5 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- -->
-        <RangeMax>10</RangeMax><!-- -->
+        <RangeMax>7</RangeMax><!-- -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1410,21 +1410,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--2 -->
+        <RangeMax>3</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 3-->
-        <RangeMax>4</RangeMax><!--5 -->
+        <RangeMax>3</RangeMax><!--5 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- -->
-        <RangeMax>8</RangeMax><!-- -->
+        <RangeMax>5</RangeMax><!-- -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1450,14 +1450,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>5</RangeMin><!--1 -->
-        <RangeMax>9</RangeMax><!--2 -->
+        <RangeMin>2</RangeMin><!--1 -->
+        <RangeMax>6</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
-        <RangeMin>0</RangeMin><!-- 3-->
+        <RangeMin>1</RangeMin><!-- 3-->
         <RangeMax>6</RangeMax><!--5 -->
       </Value>
     </StatWeight>
@@ -1465,7 +1465,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- -->
-        <RangeMax>6</RangeMax><!-- -->
+        <RangeMax>4</RangeMax><!-- -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1489,8 +1489,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>3</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--2 -->
+        <RangeMin>1</RangeMin><!--1 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1528,8 +1528,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>1</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--2 -->
+        <RangeMin>0</RangeMin><!--1 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1569,7 +1569,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1610,7 +1610,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>4</RangeMax><!--3 -->
+        <RangeMax>1</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1652,7 +1652,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>2</RangeMax><!--3 -->
+        <RangeMax>0</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1692,7 +1692,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 0-->
-        <RangeMax>3</RangeMax><!--2 -->
+        <RangeMax>2</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1732,7 +1732,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 0-->
-        <RangeMax>2</RangeMax><!--2 -->
+        <RangeMax>1</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -1929,35 +1929,35 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 0-->
-        <RangeMax>0</RangeMax><!--2 -->
+        <RangeMax>1</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseMinerals</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--2 -->
-        <RangeMax>0</RangeMax><!--3 -->
+        <RangeMax>1</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseWealth</Stat>
       <Value>
         <RangeMin>0</RangeMin><!-- 0-->
-        <RangeMax>0</RangeMax><!--3 -->
+        <RangeMax>1</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BaseFertility</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--0 -->
-        <RangeMax>0</RangeMax><!--1-->
+        <RangeMax>1</RangeMax><!--1-->
       </Value>
     </StatWeight>
     <StatWeight>
       <Stat>BasePlanetInfluence</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>0</RangeMax><!--3 -->
+        <RangeMax>1</RangeMax><!--3 -->
       </Value>
     </StatWeight>
   </PlanetClassDistributionWeightsDef>
@@ -1968,8 +1968,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--2 -->
+        <RangeMin>1</RangeMin><!--1 -->
+        <RangeMax>6</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -2009,7 +2009,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>4</RangeMax><!--2 -->
+        <RangeMax>5</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -2049,7 +2049,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>3</RangeMax><!--2 -->
+        <RangeMax>4</RangeMax><!--2 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -2089,8 +2089,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>2</RangeMin><!--0 -->
-        <RangeMax>10</RangeMax><!-- 4-->
+        <RangeMin>1</RangeMin><!--0 -->
+        <RangeMax>8</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -2130,7 +2130,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>1</RangeMin><!--0 -->
-        <RangeMax>8</RangeMax><!-- 4-->
+        <RangeMax>7</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -2169,7 +2169,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
     <StatWeight>
       <Stat>BaseTechnology</Stat>
       <Value>
-        <RangeMin>0</RangeMin><!--0 -->
+        <RangeMin>1</RangeMin><!--0 -->
         <RangeMax>6</RangeMax><!-- 4-->
       </Value>
     </StatWeight>
