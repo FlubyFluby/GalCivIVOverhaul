@@ -6,8 +6,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_GalacticFestival</InternalName>
     <ArtifactPowerDef>GalacticFestival</ArtifactPowerDef>
-    <ControlCost>10</ControlCost>
-    <CreditsCost>0</CreditsCost>
+    <ControlCost>25</ControlCost>
+    <CreditsCost>2500</CreditsCost>
     <CooldownTurns>50</CooldownTurns>
     <CooldownModCounterName>EO_GalacticFestival_CooldownMod</CooldownModCounterName>
     <Target>AllColonies</Target>
@@ -30,9 +30,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_InviteLeaders</InternalName>
     <ArtifactPowerDef>InviteLeaders</ArtifactPowerDef>
-    <ControlCost>10</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>50</CooldownTurns>
+    <ControlCost>5</ControlCost>
+    <CreditsCost>500</CreditsCost>
+    <CooldownTurns>10</CooldownTurns>
     <CooldownModCounterName>EO_InviteLeaders_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -45,9 +45,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_MartialLaw</InternalName>
     <ArtifactPowerDef>MartialLaw</ArtifactPowerDef>
-    <ControlCost>10</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>200</CooldownTurns>
+    <ControlCost>5</ControlCost>
+    <CreditsCost>500</CreditsCost>
+    <CooldownTurns>60</CooldownTurns>
     <CooldownModCounterName>EO_MartialLaw_CooldownMod</CooldownModCounterName>
     <Target>AllColonies</Target>
     <Prerequ>
@@ -60,9 +60,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ForcedOvertime</InternalName>
     <ArtifactPowerDef>ForcedOvertime</ArtifactPowerDef>
-    <ControlCost>100</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>30</CooldownTurns>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>1000</CreditsCost>
+    <CooldownTurns>12</CooldownTurns>
     <CooldownModCounterName>EO_ForcedOvertime_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -90,7 +90,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ExhortGovernors</InternalName>
     <ArtifactPowerDef>ExhortGovernors</ArtifactPowerDef>
-    <ControlCost>30</ControlCost>
+    <ControlCost>10</ControlCost>
     <CreditsCost>0</CreditsCost>
     <CooldownTurns>25</CooldownTurns>
     <CooldownModCounterName>EO_ExhortGovernors_CooldownMod</CooldownModCounterName>
@@ -106,9 +106,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_DraftColonists</InternalName>
     <ArtifactPowerDef>DraftColonists</ArtifactPowerDef>
-    <ControlCost>33</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>8</CooldownTurns>
+    <ControlCost>5</ControlCost>
+    <CreditsCost>500</CreditsCost>
+    <CooldownTurns>6</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
   </ExecutiveOrder>
@@ -116,9 +116,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_DraftCivilianShips</InternalName>
     <ArtifactPowerDef>DraftCivilianShips</ArtifactPowerDef>
-    <ControlCost>100</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>20</CooldownTurns>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>1000</CreditsCost>
+    <CooldownTurns>12</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -131,9 +131,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ColonialSupplies</InternalName>
     <ArtifactPowerDef>ColonialSupplies</ArtifactPowerDef>
-    <ControlCost>30</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>50</CooldownTurns>
+    <ControlCost>7</ControlCost>
+    <CreditsCost>700</CreditsCost>
+    <CooldownTurns>15</CooldownTurns>
     <CooldownModCounterName>EO_ColonialSupplies_CooldownMod</CooldownModCounterName>
     <Target>AllUngovernedColonies</Target>    
     <Prerequ>
@@ -146,9 +146,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_PressureScientists</InternalName>
     <ArtifactPowerDef>PressureScientists</ArtifactPowerDef>
-    <ControlCost>40</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>5</CooldownTurns>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>1000</CreditsCost>
+    <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_PressureScientists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -161,9 +161,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_TelescopeTakeover</InternalName>
     <ArtifactPowerDef>TelescopeTakeover</ArtifactPowerDef>
-    <ControlCost>15</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>30</CooldownTurns>
+    <ControlCost>2</ControlCost>
+    <CreditsCost>200</CreditsCost>
+    <CooldownTurns>1</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
   </ExecutiveOrder>
@@ -171,9 +171,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_PrintMoney</InternalName>
     <ArtifactPowerDef>PrintMoney</ArtifactPowerDef>
-    <ControlCost>60</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>15</CooldownTurns>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>-500</CreditsCost>
+    <CooldownTurns>10</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
   </ExecutiveOrder>
@@ -181,9 +181,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ExploitNaturalResources</InternalName>
     <ArtifactPowerDef>ExploitNature</ArtifactPowerDef>
-    <ControlCost>50</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>10</CooldownTurns>
+    <ControlCost>5</ControlCost>
+    <CreditsCost>-250</CreditsCost>
+    <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -196,9 +196,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_GoodWillTour</InternalName>
     <ArtifactPowerDef>GoodWillTour</ArtifactPowerDef>
-    <ControlCost>30</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>40</CooldownTurns>
+    <ControlCost>-15</ControlCost>
+    <CreditsCost>2500</CreditsCost>
+    <CooldownTurns>15</CooldownTurns>
     <CooldownModCounterName>EO_GoodWillTour_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -212,8 +212,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_OrbitalDefenseDrones</InternalName>
     <ArtifactPowerDef>DefenseSentinels_Artifact</ArtifactPowerDef>
-    <ControlCost>35</ControlCost>
-    <CreditsCost>0</CreditsCost>
+    <ControlCost>10</ControlCost>
+    <CreditsCost>1000</CreditsCost>
     <CooldownTurns>10</CooldownTurns>
     <CooldownModCounterName>EO_OrbitalDefenseDrones_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
@@ -227,9 +227,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ImpressForeignFleet</InternalName>
     <ArtifactPowerDef>ImpressForeignFleet</ArtifactPowerDef>
-    <ControlCost>100</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>5</CooldownTurns>
+    <ControlCost>5</ControlCost>
+    <CreditsCost>2500</CreditsCost>
+    <CooldownTurns>4</CooldownTurns>
     <CooldownModCounterName>EO_ImpressForeignFleet_CooldownMod</CooldownModCounterName>
     <Target>None</Target>
     <Prerequ>
@@ -242,9 +242,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_EnlistPirateFleet</InternalName>
     <ArtifactPowerDef>EnlistPirateFleet</ArtifactPowerDef>
-    <ControlCost>15</ControlCost>
-    <CreditsCost>0</CreditsCost>
-    <CooldownTurns>0</CooldownTurns>
+    <ControlCost>3</ControlCost>
+    <CreditsCost>300</CreditsCost>
+    <CooldownTurns>3</CooldownTurns>
     <CooldownModCounterName>EO_EnlistPirateFleet_CooldownMod</CooldownModCounterName>
     <Target>None</Target>
     <Prerequ>
@@ -256,9 +256,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
 
 	<ExecutiveOrder>
 		<InternalName>EO_EnlistPirateWorld</InternalName>
-		<ArtifactPowerDef>EnlistPirateWorld</ArtifactPowerDef>
-		<ControlCost>30</ControlCost>
-		<CreditsCost>0</CreditsCost>
+		<ArtifactPowerDef>En5listPirateWorld</ArtifactPowerDef>
+		<ControlCost>20</ControlCost>
+		<CreditsCost>2000</CreditsCost>
 		<CooldownTurns>0</CooldownTurns>
 		<CooldownModCounterName>EO_EnlistPirateWorld_CooldownMod</CooldownModCounterName>
 		<Target>None</Target>

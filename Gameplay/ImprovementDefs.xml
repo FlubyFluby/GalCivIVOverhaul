@@ -1219,8 +1219,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.075</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -9766,7 +9766,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10194,7 +10194,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10404,7 +10404,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10614,7 +10614,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10848,7 +10848,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11058,7 +11058,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11268,7 +11268,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11462,7 +11462,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11664,7 +11664,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11890,7 +11890,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12116,7 +12116,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12366,7 +12366,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12592,7 +12592,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12818,7 +12818,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -15962,7 +15962,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -16023,7 +16023,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.15</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>

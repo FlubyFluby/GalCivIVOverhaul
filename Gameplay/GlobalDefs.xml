@@ -188,7 +188,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.7</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>MissileAccuracy</EffectType>
@@ -196,7 +196,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.6</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -205,7 +205,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.6</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>KineticAccuracy</EffectType>
@@ -213,7 +213,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.7</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>MissileAccuracy</EffectType>
@@ -230,7 +230,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.5</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>KineticAccuracy</EffectType>
@@ -238,7 +238,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.6</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>MissileAccuracy</EffectType>
@@ -246,7 +246,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.7</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -258,15 +258,15 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <Value>0.9</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
-      <EffectType>MissileCooldown</EffectType>
+      <EffectType>KineticCooldown</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>0.95</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
+      <EffectType>MissileCooldown</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
@@ -283,6 +283,14 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <Value>0.9</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
+      <EffectType>KineticCooldown</EffectType>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.95</Value>
+    </GlobalCombatMods>
+    <GlobalCombatMods>
       <EffectType>MissileCooldown</EffectType>
       <Target>
         <TargetType>Shipyard</TargetType>
@@ -290,15 +298,6 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>1</Value>
     </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </GlobalCombatMods>
-
     <GlobalCombatMods>
       <EffectType>BeamCooldown</EffectType>
       <Target>
@@ -308,6 +307,14 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <Value>0.9</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
+      <EffectType>KineticCooldown</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.95</Value>
+    </GlobalCombatMods>
+    <GlobalCombatMods>
       <EffectType>MissileCooldown</EffectType>
       <Target>
         <TargetType>Starbase</TargetType>
@@ -315,25 +322,8 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>1</Value>
     </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </GlobalCombatMods>
-
     <GlobalCombatMods>
       <EffectType>BeamRange</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1000</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
@@ -346,24 +336,23 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1200</Value>
     </GlobalCombatMods>
-
+    <GlobalCombatMods>
+      <EffectType>MissileRange</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>800</Value>
+    </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>BeamRange</EffectType>
       <Target>
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1100</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>KineticRange</EffectType>
@@ -371,16 +360,23 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1300</Value>
     </GlobalCombatMods>
-
+    <GlobalCombatMods>
+      <EffectType>MissileRange</EffectType>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>900</Value>
+    </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>BeamRange</EffectType>
       <Target>
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1050</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>MissileRange</EffectType>
@@ -388,7 +384,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1250</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>KineticRange</EffectType>
@@ -396,7 +392,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>850</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -413,7 +409,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Hypergate</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>800</Value>
     </GlobalCombatMods>
     <GlobalCombatMods>
       <EffectType>KineticRange</EffectType>
@@ -421,7 +417,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Hypergate</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1000</Value>
+      <Value>1200</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -430,7 +426,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -448,7 +444,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <Value>6</Value>
     </GlobalCombatMods>
 
     <GlobalCombatMods>
@@ -486,7 +482,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetQualifier>InOwnersZOC</TargetQualifier>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <Value>3</Value>
     </GlobalCombatMods>
 
     <GlobalFactionMods>
@@ -504,7 +500,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.03</Value>
+      <Value>0.025</Value>
     </GlobalFactionMods>
     
     <GlobalFactionMods>
@@ -558,7 +554,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <Value>0.6</Value>
     </GlobalFactionMods>
 
     <GlobalFactionMods>
@@ -567,7 +563,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <Value>0.4</Value>
     </GlobalFactionMods>
 
     <GlobalFactionMods>
@@ -576,7 +572,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <Value>0.5</Value>
     </GlobalFactionMods>
 
     <GlobalFactionMods>
@@ -639,7 +635,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8.0</Value>
+      <Value>10.0</Value>
     </GlobalColonyMods>
 
     <GlobalColonyMods>
@@ -763,7 +759,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2</Value><!--here-->
     </GlobalColonyMods>
 
     <GlobalAsteroidMods>
@@ -1123,8 +1119,8 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
 
     <MinShipPopulation>1.0</MinShipPopulation>
     <DefaultShipPopulation>1.0</DefaultShipPopulation>
-    <ReservedColonyPopulation>1.0</ReservedColonyPopulation>
-    <MaxPopulationSourceDistance>10</MaxPopulationSourceDistance>
+    <ReservedColonyPopulation>0.0</ReservedColonyPopulation>
+    <MaxPopulationSourceDistance>20</MaxPopulationSourceDistance>
     <LoadTransportPopupWndDisplayMultiplier>1</LoadTransportPopupWndDisplayMultiplier>
     <LoadTransportPopupWndScrollbarNumStepsMultiplier>10</LoadTransportPopupWndScrollbarNumStepsMultiplier>
 
@@ -1232,7 +1228,7 @@ The Y axis is the resulting price. -->
     <NumTurnsToTradeRouteRecoveryStart>10</NumTurnsToTradeRouteRecoveryStart>
 
     <NumTurnsToUpgradeDesignsHuman>1</NumTurnsToUpgradeDesignsHuman>
-    <NumTurnsToUpgradeDesignsAI>10</NumTurnsToUpgradeDesignsAI>
+    <NumTurnsToUpgradeDesignsAI>8</NumTurnsToUpgradeDesignsAI>
 
     <ElectUPChairmanResolutionDef>ElectChairmanRes</ElectUPChairmanResolutionDef>
     <ElectUPSupremeResolutionDef>ElectSupremeLeader</ElectUPSupremeResolutionDef>
