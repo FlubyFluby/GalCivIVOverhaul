@@ -7,8 +7,8 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
     <MaxNumTurns>1000</MaxNumTurns>
     <CreditsAndPowerCap>1000000.0</CreditsAndPowerCap>
     <UngovernedColonyPopCap>1</UngovernedColonyPopCap>
-    <DefaultTileMoveCost>1</DefaultTileMoveCost>
-    <MinTileMoveCost>0.1</MinTileMoveCost>
+    <DefaultTileMoveCost>0.5</DefaultTileMoveCost>
+    <MinTileMoveCost>0.05</MinTileMoveCost>
     <ExploreTileRandomRange>50</ExploreTileRandomRange>
     <MinManufacturingSlider>0.01</MinManufacturingSlider>
     <StartImprovementLevel>0</StartImprovementLevel>

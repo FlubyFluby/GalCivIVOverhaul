@@ -64,16 +64,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>PopulationCap</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -125,7 +125,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>6</Value>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>SensorRange</EffectType>
@@ -133,7 +133,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>12</Value>
     </Stats>
     <Stats>
       <EffectType>ControlPerTurn</EffectType>
@@ -156,8 +156,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <LevelEffectStats>
       <EffectType>ColonyGrossIncome</EffectType>
@@ -165,15 +165,15 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <Value>0.025</Value>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>PopulationCap</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.075</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -315,11 +315,18 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>ControlPerTurn</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>SensorRange</EffectType>
@@ -328,7 +335,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Crime</EffectType>
@@ -337,7 +350,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0.05</ValueParam>
+        <ValueParam>0.0</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -370,12 +389,47 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Modifier>
     </Triggers>
     <LevelEffectStats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>ControlPerTurn</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Crime</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0.025</ValueParam>
+        <ValueParam>0.0</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -418,7 +472,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
@@ -427,7 +487,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Pollution</EffectType>
@@ -475,7 +541,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.075</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>MaxManufacturing</EffectType>
@@ -484,7 +556,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.015</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -531,7 +609,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>FarmerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Tourism</EffectType>
@@ -540,7 +624,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -592,7 +682,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.01</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.005</ValueParam>
+        <StringParam>FarmerCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>Tourism</EffectType>
@@ -601,7 +697,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.005</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
@@ -637,7 +739,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>25</Value>
+      <Value>50</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -654,7 +756,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -678,7 +786,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.01</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -687,84 +801,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <Prerequ>
       <Techs>
         <Option>ColonizationTech</Option>
-      </Techs>
-    </Prerequ>
-    <Preclusions>
-      <RaceTrait>
-        <Option>WealthyAbility</Option>
-      </RaceTrait>
-    </Preclusions>
-  </Improvement>
-
-  <Improvement>
-    <InternalName>KazarsMainframe</InternalName>
-    <DisplayName>KazarsMainframe_Name</DisplayName>
-    <ShortDescription>KazarsMainframe_ShortDec</ShortDescription>
-    <Description>KazarsMainframe_Dec</Description>
-    <Icon>OmegaResearchCenter.png</Icon>
-    <BuildIcon>OmegaResearchCenter_Build.png</BuildIcon>
-    <ListIcon>OmegaResearchCenter_Icon.png</ListIcon>
-    <ImprovementType>Research</ImprovementType>
-    <PlacementType>ResearchHub</PlacementType>
-    <IsIndestructible>true</IsIndestructible>
-    <IsGalacticWonder>true</IsGalacticWonder>
-    <Stats>
-      <EffectType>ManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>120</Value>
-    </Stats>
-    <Stats>
-      <EffectType>PromethionCost</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Research</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.125</Value>
-    </Stats>
-    <Triggers>
-      <OnEvent>OnConstructImprovment</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <Modifier>
-        <EffectType>IdeologyInnovation</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>1</Value>
-      </Modifier>
-    </Triggers>
-    <LevelEffectStats>
-      <EffectType>Research</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.012</Value>
-    </LevelEffectStats>
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
-      <NeighborBonusValue>2</NeighborBonusValue>
-    </NeighborBonuses>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_ResearchDistricts</Option>
       </Techs>
     </Prerequ>
     <Preclusions>
@@ -809,7 +845,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.08</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -833,7 +875,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.015</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -849,6 +897,96 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Option>WealthyAbility</Option>
       </RaceTrait>
       <Improvement>CivilizationCapital</Improvement>
+    </Preclusions>
+  </Improvement>
+
+  <Improvement>
+    <InternalName>KazarsMainframe</InternalName>
+    <DisplayName>KazarsMainframe_Name</DisplayName>
+    <ShortDescription>KazarsMainframe_ShortDec</ShortDescription>
+    <Description>KazarsMainframe_Dec</Description>
+    <Icon>OmegaResearchCenter.png</Icon>
+    <BuildIcon>OmegaResearchCenter_Build.png</BuildIcon>
+    <ListIcon>OmegaResearchCenter_Icon.png</ListIcon>
+    <ImprovementType>Research</ImprovementType>
+    <PlacementType>ResearchHub</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsGalacticWonder>true</IsGalacticWonder>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>120</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>IdeologyInnovation</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Modifier>
+    </Triggers>
+    <LevelEffectStats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
+    </LevelEffectStats>
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>2</NeighborBonusValue>
+    </NeighborBonuses>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_ResearchDistricts</Option>
+      </Techs>
+    </Prerequ>
+    <Preclusions>
+      <RaceTrait>
+        <Option>WealthyAbility</Option>
+      </RaceTrait>
     </Preclusions>
   </Improvement>
 
@@ -874,10 +1012,11 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>ControlPerTurn</EffectType>
+      <Scope>Global</Scope>
       <Target>
-        <TargetType>Colony</TargetType>
+        <TargetType>Faction</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
+      <BonusType>Multiplier</BonusType>
       <ValueType>Special</ValueType>
       <SpecialValue>
         <Special>StatCalc</Special>
@@ -893,7 +1032,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Unit</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.075</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Crime</EffectType>
@@ -901,8 +1046,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-0.15</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.1</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
@@ -910,8 +1061,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -934,8 +1091,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-0.005</Value>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.025</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>Crime</EffectType>
@@ -944,7 +1107,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.015</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.025</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>Research</EffectType>
@@ -953,7 +1122,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.01</Value>
+      <Value>0.025</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -992,7 +1161,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -1016,7 +1191,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.025</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Resistance</GiveBonusToNeighborType>
@@ -1055,24 +1236,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ControlPerTurn</EffectType>
       <Scope>Global</Scope>
       <Target>
-        <TargetType>Colony</TargetType>
+        <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.01</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <LevelEffectStats>
       <EffectType>ControlPerTurn</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.001</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.005</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>ControlPerTurn</EffectType>
@@ -1080,8 +1279,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.01</Value>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
@@ -1157,7 +1362,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.015</Value>
+      <Value>0.075</Value>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -1255,7 +1460,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Techs>
     </Prerequ>
   </Improvement>
-<!--Untouched -->
+<!--TODO -->
   <Improvement>
     <InternalName>Starport</InternalName>
     <DisplayName>Starport_Name</DisplayName>
@@ -9577,6 +9782,34 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>Thulium</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>ThuliumIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -9619,7 +9852,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
@@ -9627,7 +9866,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9671,7 +9916,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
@@ -9679,7 +9930,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9726,7 +9983,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
@@ -9734,7 +9997,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9766,7 +10035,28 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+      <!--<Value>0.15</Value> fix maybe-->
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -9787,6 +10077,34 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>Elerium</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>EleriumIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -9829,15 +10147,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9881,15 +10211,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9936,15 +10278,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -9976,7 +10330,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.125</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -9998,12 +10372,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ResourceStatType>Promethion</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>PrometheusStoneIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -10042,20 +10436,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>1</Value>
     </Stats>
     <Stats>
-      <EffectType>PromethionIncome</EffectType>
+      <EffectType>PrometheusStoneIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -10094,20 +10500,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>1</Value>
     </Stats>
     <Stats>
-      <EffectType>PromethionIncome</EffectType>
+      <EffectType>PrometheusStoneIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -10149,20 +10567,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>1</Value>
     </Stats>
     <Stats>
-      <EffectType>PromethionIncome</EffectType>
+      <EffectType>PrometheusStoneIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -10194,7 +10624,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10215,6 +10665,34 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>HeliosOre</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>HeliosOreIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -10257,15 +10735,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10309,15 +10799,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10364,15 +10866,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10404,7 +10918,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10425,6 +10959,48 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>HyperSilicates</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>HyperSilicatesIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -10467,15 +11043,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -10519,15 +11121,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -10574,15 +11202,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Research</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -10595,7 +11249,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <UpgradesFrom>HyperSilicatesL2</UpgradesFrom>
     </Prerequ>
   </Improvement>
-
   <Improvement>
     <InternalName>ColonyUpgrade_HyperSilicates</InternalName>
     <DisplayName>ColonyUpgrade_HyperSilicates_Name</DisplayName>
@@ -10614,7 +11267,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10636,12 +11309,46 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ResourceStatType>XanthiumDeposit</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>XanthiumDepositIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
       <EffectType>MaxManufacturing</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10667,37 +11374,46 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>Military</ImprovementType>
     <ResourceStatType>XanthiumDeposit</ResourceStatType>
     <Stats>
-      <EffectType>ManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>50</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Maintenance</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
       <EffectType>XanthiumDepositIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10745,15 +11461,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10804,15 +11546,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
@@ -10848,7 +11616,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.125</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -10869,6 +11657,48 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>PrecursorNanites</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>PrecursorNanitesIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MaxManufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -10911,7 +11741,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
@@ -10919,7 +11769,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -10963,7 +11819,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
@@ -10971,7 +11847,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11018,7 +11900,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
@@ -11026,7 +11928,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11058,7 +11966,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11079,6 +12007,48 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>HarmonyCrystals</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>HarmonyCrystalsIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Approval</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -11121,15 +12091,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Approval</EffectType>
       <Target>
-        <TargetType>Unit</TargetType>
+        <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11173,15 +12169,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Approval</EffectType>
       <Target>
-        <TargetType>Unit</TargetType>
+        <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11228,15 +12250,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
       <EffectType>Approval</EffectType>
       <Target>
-        <TargetType>Unit</TargetType>
+        <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11268,7 +12316,41 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Approval</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntertainerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11290,12 +12372,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ResourceStatType>TechapodHive</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>TechapodHiveIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11331,15 +12433,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11375,15 +12489,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11422,15 +12548,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -11462,7 +12600,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.15</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11483,6 +12641,50 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>SnugglerColony</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>SnugglerColonyIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -11521,15 +12723,43 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>InfluencePerTurn</EffectType>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.02</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.02</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11569,15 +12799,43 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>InfluencePerTurn</EffectType>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.03</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.03</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11620,15 +12878,43 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>InfluencePerTurn</EffectType>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
@@ -11664,7 +12950,43 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Approval</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.004</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.004</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11685,6 +13007,49 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>UltraSpice</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>UltraSpiceIncome</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.01</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
       <NeighborBonusValue>2</NeighborBonusValue>
@@ -11731,15 +13096,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>Research</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.02</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -11787,15 +13179,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>Research</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.2</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.03</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -11846,15 +13265,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.6</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>Research</EffectType>
+      <EffectType>ColonyGrossIncome</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.3</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -11890,7 +13336,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.005</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12116,7 +13597,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12366,7 +13867,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12592,7 +14113,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.125</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -12818,7 +14359,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ColonyGrossIncome</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Techs>
@@ -15659,7 +17220,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.5</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -15962,7 +17529,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -16023,7 +17596,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.15</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -16137,7 +17716,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.4</ValueParam>
+        <StringParam>Manufacturing</StringParam>
+      </SpecialValue>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -16248,7 +17833,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
           <TargetType>Colony</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>2</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>4</ValueParam>
+          <StringParam>EntrepreneurCount</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
     <Prerequ>
@@ -16348,7 +17939,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
           <TargetType>Colony</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>2</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>4</ValueParam>
+          <StringParam>FarmerCount</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
     <NeighborBonuses>
@@ -16375,7 +17972,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <Value>3</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -16388,8 +17985,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Target>
           <TargetType>Colony</TargetType>
         </Target>
-        <BonusType>Flat</BonusType>
-        <Value>2</Value>
+        <BonusType>Multiplier</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.25</ValueParam>
+          <StringParam>EntrepreneurCount</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
     <NeighborBonuses>
@@ -16429,10 +18032,30 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.25</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MaxManufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.1</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
-      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <GiveBonusToNeighborType>MaxManufacturing</GiveBonusToNeighborType><!--Todo remove if broken-->
       <NeighborBonusValue>1</NeighborBonusValue>
     </NeighborBonuses>
     <Prerequ>
@@ -16460,7 +18083,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <Value>3</Value>
     </Stats>
     <Stats>
       <EffectType>SensorRange</EffectType>
@@ -16468,7 +18091,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>12</ValueParam>
+        <StringParam>ScientistCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
@@ -16501,8 +18130,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
@@ -16541,7 +18176,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-0.05</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.1</ValueParam>
+        <StringParam>SoldierCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
@@ -16563,6 +18204,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <IsColonialUpgrade>true</IsColonialUpgrade>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
@@ -16623,7 +18272,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
           <TargetType>Colony</TargetType>
         </Target>
         <BonusType>Multiplier</BonusType>
-        <Value>0.01</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.02</ValueParam>
+          <StringParam>EngineerCount</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
     <NeighborBonuses>
@@ -16663,7 +18318,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Planet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>5</ValueParam>
+        <StringParam>EngineerCount</StringParam>
+      </SpecialValue>
     </Stats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
