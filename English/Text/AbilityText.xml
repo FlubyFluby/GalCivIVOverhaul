@@ -526,7 +526,20 @@ It also grants the ability to consume aliens and spawn new Festron citizens.</St
     <Label>XenophobicAbility_Dec</Label>
     <String>+50% Research, -75% Influence and -3 to Diplomacy.</String>
   </StringTable>
- 
+  <StringTable>
+    <Label>GeneralStartingFleet_Name</Label>
+    <String>[ICON=ColonyShip_Icon] General Fleet</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GeneralStartingFleet_ShortName</Label>
+    <String>General Fleet</String>
+  </StringTable>
+  <StringTable>
+    <Label>GeneralStartingFleet_Dec</Label>
+    <String>Begins with two Colony Ships and a Constructor Ship, for when you just can't make up your mind!</String>
+  </StringTable>
+
   <StringTable>
     <Label>ColonyStartingFleet_Name</Label>
     <String>[ICON=ColonyShip_Icon] Colony Fleet</String>
