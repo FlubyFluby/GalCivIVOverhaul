@@ -34,55 +34,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -114,55 +114,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TerrestrialWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -194,55 +194,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>ParadiseWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>ParadiseWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -274,55 +274,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>JungleWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>JungleWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -354,55 +354,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>ArborealWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>ArborealWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -434,55 +434,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>VolcanicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>VolcanicWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -514,55 +514,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>MountainousWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>MountainousWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>PlanetaryDefensesMaxHP</EffectType>
@@ -602,55 +602,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TropicalWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>Tourism</EffectType>
@@ -690,49 +690,49 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+      <PreferredDistribution>BombardedWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
@@ -786,55 +786,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+      <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>ThinAtmosphereWorld1µ</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>FoodIncome</EffectType>
@@ -882,55 +882,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>LowGravityWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>LowGravityWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>Manufacturing</EffectType>
@@ -980,55 +980,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>AquaticWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>TinyWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <ColonizationPrerequ>
       <Techs>
@@ -1100,55 +1100,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>Pollution</EffectType>
@@ -1213,55 +1213,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>FrozenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>FrozenWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <ColonizationPrerequ>
       <Techs>
@@ -1338,49 +1338,49 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>BarrenWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>BarrenWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <ColonizationPrerequ>
       <Techs>
@@ -1437,55 +1437,55 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>15</MinPlanetClass>
       <MaxPlanetClass>26</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>ToxicWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>Pollution</EffectType>
@@ -1556,49 +1556,49 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <MinPlanetClass>13</MinPlanetClass>
       <MaxPlanetClass>23</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
       <Weight>60</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>9</MinPlanetClass>
       <MaxPlanetClass>17</MaxPlanetClass>
       <Weight>50</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
       <MaxPlanetClass>14</MaxPlanetClass>
       <Weight>40</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
       <MaxPlanetClass>11</MaxPlanetClass>
       <Weight>30</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
       <MaxPlanetClass>8</MaxPlanetClass>
       <Weight>20</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>1</MinPlanetClass>
       <MaxPlanetClass>5</MaxPlanetClass>
       <Weight>10</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>1</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+      <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
     <EffectModifier>
       <EffectType>Pollution</EffectType>
