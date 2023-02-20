@@ -204,13 +204,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>3</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>100</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -277,13 +271,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>4</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>150</Value>
     </Stats>
     <Stats>
       <EffectType>ArtocarpusVirilesCost</EffectType>
@@ -346,13 +334,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>7</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>ControlPerTurn</EffectType>
@@ -503,13 +485,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>8</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>HeliosOreCost</EffectType>
@@ -707,13 +683,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>6</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>ArtocarpusVirilesCost</EffectType>
@@ -871,7 +841,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ListIcon>Icon_004_Icon.png</ListIcon>
     <ImprovementType>Research</ImprovementType>
     <PlacementType>ResearchHub</PlacementType>
-    <IsPlayerWonder>false</IsPlayerWonder>
+    <IsPlayerWonder>true</IsPlayerWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -879,13 +849,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>4</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>PrometheusStoneCost</EffectType>
@@ -934,7 +898,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.001</ValueParam>
+        <ValueParam>0.002</ValueParam>
         <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </Stats>
@@ -964,8 +928,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.025</ValueParam>
-        <StringParam>ScientistCount</StringParam>
+        <ValueParam>0.001</ValueParam>
+        <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
@@ -1001,13 +965,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>6</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>PrometheusStoneCost</EffectType>
@@ -1116,13 +1074,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>8</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>PrometheusStoneCost</EffectType>
@@ -1229,13 +1181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>10</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>400</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -1399,7 +1345,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ListIcon>DiplomaticDistrict_Icon.png</ListIcon>
     <ImprovementType>Research</ImprovementType>
     <PlacementType>ResearchHub</PlacementType>
-    <IsPlayerWonder>false</IsPlayerWonder>
+    <IsPlayerWonder>true</IsPlayerWonder>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -1407,13 +1353,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>6</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>150</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCatalystCost</EffectType>
@@ -1529,13 +1469,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>7</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>225</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCatalystCost</EffectType>
@@ -1654,13 +1588,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>9</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>500</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCatalystCost</EffectType>
@@ -1777,13 +1705,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>4</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>140</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCatalystCost</EffectType>
@@ -1900,13 +1822,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>8</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>PrecursorNanitesCost</EffectType>
@@ -2026,13 +1942,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>5</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>MaxManufacturing</EffectType>
@@ -10082,13 +9992,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>5</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>140</Value>
     </Stats>
     <Stats>
       <EffectType>Credits</EffectType>
@@ -10133,13 +10037,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>5</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>140</Value>
     </Stats>
     <Stats>
       <EffectType>DiplomaticCapitalCost</EffectType>
@@ -10179,6 +10077,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>Thulium</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
     <Stats>
       <EffectType>ThuliumIncome</EffectType>
       <Target>
@@ -10232,7 +10139,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10295,7 +10202,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10361,7 +10268,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10469,6 +10376,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>Elerium</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>EleriumIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -10521,7 +10437,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10584,7 +10500,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10650,7 +10566,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10758,6 +10674,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>Promethion</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>PrometheusStoneIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -10810,7 +10735,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10873,7 +10798,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -10939,7 +10864,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11047,6 +10972,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>HeliosOre</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>HeliosOreIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -11099,7 +11033,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11162,7 +11096,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11228,7 +11162,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11336,6 +11270,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>HyperSilicates</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>HyperSilicatesIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -11402,7 +11345,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>50</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11478,16 +11421,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>6</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>Maintenance</EffectType>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>HyperSilicatesIncome</EffectType>
@@ -11559,7 +11509,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -11695,6 +11645,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>XanthiumDeposit</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>XanthiumDepositIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -11758,6 +11717,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ListIcon>XanthiumDepositL1_Icon.png</ListIcon>
     <ImprovementType>Military</ImprovementType>
     <ResourceStatType>XanthiumDeposit</ResourceStatType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>100</Value>
+    </Stats>
     <Stats>
       <EffectType>XanthiumDepositIncome</EffectType>
       <Target>
@@ -11829,15 +11797,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Maintenance</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>XanthiumDepositIncome</EffectType>
@@ -11906,6 +11866,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ListIcon>XanthiumDepositL3_Icon.png</ListIcon>
     <ImprovementType>Military</ImprovementType>
     <ResourceStatType>XanthiumDeposit</ResourceStatType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>300</Value>
+    </Stats>
     <Stats>
       <EffectType>ManufacturingCost</EffectType>
       <Scope>Queue</Scope>
@@ -12053,6 +12022,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>PrecursorNanites</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>PrecursorNanitesIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -12119,7 +12097,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12196,7 +12174,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12276,7 +12254,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12412,6 +12390,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>HarmonyCrystals</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>HarmonyCrystalsIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -12478,7 +12465,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>60</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12555,7 +12542,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12635,7 +12622,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -12711,18 +12698,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>HarmonyCrystals</ResourceStatType>
     <IsColonialUpgrade>true</IsColonialUpgrade>
     <Stats>
-      <EffectType>HarmonyCrystalsIncome</EffectType>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.013</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>ColonyGrossIncome</EffectType>
@@ -12770,6 +12752,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ImprovementType>TradeResource</ImprovementType>
     <ResourceStatType>TechapodHive</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
     <Stats>
       <EffectType>TechapodHiveIncome</EffectType>
       <Target>
@@ -12823,7 +12814,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>TechapodHiveIncome</EffectType>
@@ -12878,7 +12869,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>TechapodHiveIncome</EffectType>
@@ -12936,7 +12927,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>TechapodHiveIncome</EffectType>
@@ -13036,6 +13027,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>SnugglerColony</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>SnugglerColonyIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -13108,7 +13108,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>SnugglerColonyIncome</EffectType>
@@ -13183,7 +13183,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>SnugglerColonyIncome</EffectType>
@@ -13261,7 +13261,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>SnugglerColonyIncome</EffectType>
@@ -13397,6 +13397,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>UltraSpice</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>UltraSpiceIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -13468,7 +13477,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -13550,7 +13559,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -13635,7 +13644,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -13777,6 +13786,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>EpimetheusPollen</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>EpimetheusPollenIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -13846,7 +13864,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -13926,7 +13944,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14009,7 +14027,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14148,6 +14166,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>ArtocarpusViriles</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>ArtocarpusVirilesIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -14217,7 +14244,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14297,7 +14324,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14380,7 +14407,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14519,6 +14546,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>MonsatiumDeposit</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>MonsatiumDepositIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -14581,6 +14617,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ListIcon>MonsatiumDepositL1_Icon.png</ListIcon>
     <ImprovementType>Population</ImprovementType>
     <ResourceStatType>MonsatiumDeposit</ResourceStatType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>100</Value>
+    </Stats>
     <Stats>
       <EffectType>MonsatiumDepositIncome</EffectType>
       <Target>
@@ -14651,7 +14696,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14734,7 +14779,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14872,6 +14917,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ResourceStatType>AurorusArboretum</ResourceStatType>
     <DoNotAutoUpgrade>true</DoNotAutoUpgrade>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
       <EffectType>AurorusArboretumIncome</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
@@ -14927,7 +14981,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>90</Value>
+      <Value>100</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -14998,7 +15052,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>120</Value>
+      <Value>200</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -15067,7 +15121,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>380</Value>
+      <Value>300</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
