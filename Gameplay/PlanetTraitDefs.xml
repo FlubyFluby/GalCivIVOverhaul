@@ -11,7 +11,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <DisplayName>DesertWorld_Name</DisplayName>
     <Description>DesertWorld_Dec</Description>
     <RelativeWeight>2</RelativeWeight>
-    <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
+    <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
     <PlanetClassSelect>
       <MinPlanetClass>26</MinPlanetClass>
       <MaxPlanetClass>40</MaxPlanetClass>
@@ -56,9 +56,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
-      <MaxPlanetClass>12</MaxPlanetClass>
-      <Weight>9</Weight>
-      <PreferredDistribution>DesertWorld8</PreferredDistribution>
+      <MaxPlanetClass>14</MaxPlanetClass>
+      <Weight>40</Weight>
+      <PreferredDistribution>DesertWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
@@ -73,16 +73,16 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <PreferredDistribution>DesertWorld10</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>2</MinPlanetClass>
-      <MaxPlanetClass>4</MaxPlanetClass>
-      <Weight>6</Weight>
-      <PreferredDistribution>DesertWorld11</PreferredDistribution>
+      <MinPlanetClass>1</MinPlanetClass>
+      <MaxPlanetClass>5</MaxPlanetClass>
+      <Weight>10</Weight>
+      <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>0</MinPlanetClass>
       <MaxPlanetClass>2</MaxPlanetClass>
       <Weight>5</Weight>
-      <PreferredDistribution>DesertWorld12</PreferredDistribution>
+      <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
  
@@ -90,8 +90,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <InternalName>TerrestrialWorld</InternalName>
     <DisplayName>TerrestrialWorld_Name</DisplayName>
     <Description>TerrestrialWorld_Dec</Description>
-    <RelativeWeight>7</RelativeWeight>
-    <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+    <RelativeWeight>8</RelativeWeight>
+    <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
     <PlanetClassSelect>
       <MinPlanetClass>26</MinPlanetClass>
       <MaxPlanetClass>40</MaxPlanetClass>
@@ -99,63 +99,66 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>23</MinPlanetClass>
-      <MaxPlanetClass>36</MaxPlanetClass>
-      <Weight>8</Weight>
+      <MinPlanetClass>19</MinPlanetClass>
+      <MaxPlanetClass>32</MaxPlanetClass>
+      <Weight>20</Weight>
       <PreferredDistribution>TerrestrialWorld2</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>20</MinPlanetClass>
-      <MaxPlanetClass>32</MaxPlanetClass>
-      <Weight>9</Weight>
-      <PreferredDistribution>TerrestrialWorld3</PreferredDistribution>
+      <MinPlanetClass>17</MinPlanetClass>
+      <MaxPlanetClass>29</MaxPlanetClass>
+      <Weight>30</Weight>
+      <PreferredDistribution>TerrestrialWorld6</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>17</MinPlanetClass>
-      <MaxPlanetClass>28</MaxPlanetClass>
-      <Weight>9</Weight>
+      <MinPlanetClass>15</MinPlanetClass>
+      <MaxPlanetClass>26</MaxPlanetClass>
+      <Weight>40</Weight>
       <PreferredDistribution>TerrestrialWorld4</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>14</MinPlanetClass>
-      <MaxPlanetClass>24</MaxPlanetClass>
-      <Weight>10</Weight>
+      <MinPlanetClass>13</MinPlanetClass>
+      <MaxPlanetClass>23</MaxPlanetClass>
+      <Weight>50</Weight>
       <PreferredDistribution>TerrestrialWorld5</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>11</MinPlanetClass>
       <MaxPlanetClass>20</MaxPlanetClass>
-      <Weight>11</Weight>
+      <Weight>60</Weight>
       <PreferredDistribution>TerrestrialWorld6</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>10</MinPlanetClass>
-      <MaxPlanetClass>16</MaxPlanetClass>
-      <Weight>10</Weight>
+      <MinPlanetClass>9</MinPlanetClass>
+      <MaxPlanetClass>17</MaxPlanetClass>
+      <Weight>50</Weight>
+
       <PreferredDistribution>TerrestrialWorld7</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>7</MinPlanetClass>
-      <MaxPlanetClass>12</MaxPlanetClass>
-      <Weight>9</Weight>
+      <MaxPlanetClass>14</MaxPlanetClass>
+      <Weight>40</Weight>
+
       <PreferredDistribution>TerrestrialWorld8</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>5</MinPlanetClass>
-      <MaxPlanetClass>8</MaxPlanetClass>
-      <Weight>8</Weight>
+      <MaxPlanetClass>11</MaxPlanetClass>
+      <Weight>30</Weight>
       <PreferredDistribution>TerrestrialWorld9</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
       <MinPlanetClass>3</MinPlanetClass>
-      <MaxPlanetClass>6</MaxPlanetClass>
-      <Weight>7</Weight>
+      <MaxPlanetClass>8</MaxPlanetClass>
+      <Weight>20</Weight>
       <PreferredDistribution>TerrestrialWorld10</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
-      <MinPlanetClass>2</MinPlanetClass>
-      <MaxPlanetClass>4</MaxPlanetClass>
-      <Weight>6</Weight>
+      <MinPlanetClass>1</MinPlanetClass>
+      <MaxPlanetClass>5</MaxPlanetClass>
+      <Weight>10</Weight>
+
       <PreferredDistribution>TerrestrialWorld11</PreferredDistribution>
     </PlanetClassSelect>
     <PlanetClassSelect>
@@ -282,6 +285,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>5</Weight>
       <PreferredDistribution>JungleWorld12</PreferredDistribution>
     </PlanetClassSelect>
+    <EffectModifier>
+      <EffectType>PlanetaryDefensesMaxHP</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </EffectModifier>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -363,12 +374,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <PreferredDistribution>ArborealWorld12</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
- 
   <PlanetTrait>
     <InternalName>VolcanicWorld</InternalName>
     <DisplayName>VolcanicWorld_Name</DisplayName>
     <Description>VolcanicWorld_Dec</Description>
-    <RelativeWeight>7</RelativeWeight>
+    <RelativeWeight>6</RelativeWeight>
     <TradeResourcesPerTile>0.15</TradeResourcesPerTile>
     <PlanetClassSelect>
       <MinPlanetClass>25</MinPlanetClass>
@@ -442,6 +452,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>5</Weight>
       <PreferredDistribution>VolcanicWorld12</PreferredDistribution>
     </PlanetClassSelect>
+    <EffectModifier>
+      <EffectType>PlanetaryDefensesMaxHP</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </EffectModifier>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -528,7 +546,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>6</Value>
     </EffectModifier>
   </PlanetTrait>
  
@@ -616,7 +634,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.5</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </EffectModifier>
+    <EffectModifier>
+      <EffectType>PlanetaryDefensesMaxHP</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
     </EffectModifier>
   </PlanetTrait>
  
@@ -712,9 +744,16 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-5</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.25</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
     </EffectModifier>
   </PlanetTrait>
+ 
  
   <PlanetTrait>
     <InternalName>ThinAtmosphereWorld</InternalName>
@@ -2409,7 +2448,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <IsExtreme>true</IsExtreme>
     <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
     <Tags>Precursor</Tags>
-    <RelativeWeight>2</RelativeWeight>
+    <RelativeWeight>1</RelativeWeight>
     <PlanetClassSelect>
       <MinPlanetClass>16</MinPlanetClass>
       <MaxPlanetClass>36</MaxPlanetClass>
@@ -2661,7 +2700,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <PlanetClassSelect>
       <MinPlanetClass>32</MinPlanetClass>
       <MaxPlanetClass>32</MaxPlanetClass>
-      <Weight>100</Weight>
+      <Weight>1</Weight>
       <PreferredDistribution>ShardOfTheMithrilar1</PreferredDistribution>
     </PlanetClassSelect>
   </PlanetTrait>
@@ -2675,7 +2714,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <PlanetClassSelect>
       <MinPlanetClass>32</MinPlanetClass>
       <MaxPlanetClass>32</MaxPlanetClass>
-      <Weight>100</Weight>
+      <Weight>1</Weight>
       <PreferredDistribution>MakerWorld1</PreferredDistribution>
     </PlanetClassSelect>
     <Triggers>
