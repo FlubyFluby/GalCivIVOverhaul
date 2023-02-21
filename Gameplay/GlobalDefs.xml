@@ -6,7 +6,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
   <GalCivGlobal>
     <MaxNumTurns>1000</MaxNumTurns>
     <CreditsAndPowerCap>1000000.0</CreditsAndPowerCap>
-    <UngovernedColonyPopCap>1</UngovernedColonyPopCap>
+    <UngovernedColonyPopCap>3</UngovernedColonyPopCap>
     <DefaultTileMoveCost>0.5</DefaultTileMoveCost>
     <MinTileMoveCost>0.05</MinTileMoveCost>
     <ExploreTileRandomRange>50</ExploreTileRandomRange>
@@ -23,7 +23,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
     <BaseMiningBaseBuildTime>8</BaseMiningBaseBuildTime>
     <NonStackingEffects>MoveCost</NonStackingEffects>
     <DefaultEjectTile>Northwest</DefaultEjectTile>
-    <RushCostMultiplier>4</RushCostMultiplier>
+    <RushCostMultiplier>3</RushCostMultiplier>
     <CapitalImprovement>ColonyCapital</CapitalImprovement>
     <CivilizationCapitalImprovement>CivilizationCapital</CivilizationCapitalImprovement>
     <IdeologyTraitBaseCost>10</IdeologyTraitBaseCost>
@@ -759,7 +759,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>2</Value><!--here-->
+      <Value>2</Value>
     </GlobalColonyMods>
 
     <GlobalAsteroidMods>
