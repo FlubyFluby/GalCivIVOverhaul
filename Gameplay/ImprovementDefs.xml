@@ -3096,7 +3096,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>250</Value>
+      <Value>275</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -5654,21 +5654,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>300</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Maintenance</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.3</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>275</Value>
     </Stats>
     <Stats>
       <EffectType>UltraSpiceCost</EffectType>
@@ -5676,7 +5662,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>6</Value>
+      <Value>20</Value>
     </Stats>
     <Stats>
       <EffectType>HeliosOreCost</EffectType>
@@ -5684,10 +5670,50 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>XanthiumDepositCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
       <Value>3</Value>
     </Stats>
     <Stats>
-      <EffectType>TechapodHiveCost</EffectType>
+      <EffectType>HyperSilicatesCost</EffectType>
       <Target>
         <TargetType>Improvement</TargetType>
       </Target>
@@ -5695,7 +5721,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <Value>1</Value>
     </Stats>
     <Stats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>InfluencePerTurn</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -5704,8 +5730,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>-0.03</ValueParam>
-        <StringParam>PlanetClass</StringParam>
+        <ValueParam>50</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Manufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.5</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
       </SpecialValue>
     </Stats>
     <Stats>
@@ -5718,23 +5758,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.005</ValueParam>
-        <StringParam>PlanetClass</StringParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
       </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>InfluencePerTurn</EffectType>
+      <EffectType>Pollution</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.002</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <BonusType>Flat</BonusType>
+      <Value>0.01</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
@@ -5752,7 +5786,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       </Modifier>
     </Triggers>
     <LevelEffectStats>
-      <EffectType>MaxManufacturing</EffectType>
+      <EffectType>InfluencePerTurn</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -5761,8 +5795,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>-0.02</ValueParam>
-        <StringParam>PlanetClass</StringParam>
+        <ValueParam>15</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
+      </SpecialValue>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>Manufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.25</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
       </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
@@ -5775,28 +5823,30 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.003</ValueParam>
-        <StringParam>PlanetClass</StringParam>
+        <ValueParam>0.025</ValueParam>
+        <StringParam>EntrepreneurCount</StringParam>
       </SpecialValue>
     </LevelEffectStats>
     <LevelEffectStats>
-      <EffectType>InfluencePerTurn</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.002</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </LevelEffectStats>
+        <EffectType>Pollution</EffectType>
+        <Target>
+          <TargetType>Colony</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>0.001</Value>
+        </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
-      <NeighborBonusValue>3</NeighborBonusValue>
+      <NeighborBonusValue>2</NeighborBonusValue>
     </NeighborBonuses>
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>2</NeighborBonusValue>
+    </NeighborBonuses>
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>2</NeighborBonusValue>
+    </NeighborBonuses> 
     <Prerequ>
       <Techs>
         <Option>Tech_XenoEconomics</Option>
@@ -5929,105 +5979,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <ImprovementType>Wealth</ImprovementType>
     <PlacementType>WealthHub</PlacementType>
     <IsColonyUnique>true</IsColonyUnique>
-    <Stats>
-      <EffectType>ManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>100</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Maintenance</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.25</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>UltraSpiceCost</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Stats>
-      <EffectType>HeliosOreCost</EffectType>
-      <Target>
-        <TargetType>Improvement</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>2</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MaxManufacturing</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.01</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>ColonyGrossIncome</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.001</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </Stats>
-    <LevelEffectStats>
-      <EffectType>MaxManufacturing</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.01</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </LevelEffectStats>
-    <LevelEffectStats>
-      <EffectType>ColonyGrossIncome</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.001</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
-    </LevelEffectStats>
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
-    </NeighborBonuses>
+    
   </Improvement>
   <Improvement>
     <InternalName>GalacticBazar</InternalName>
