@@ -150,12 +150,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
  
   <StringTable>
-    <Label>DurantiumProcessor_Name</Label>
-    <String>Durantium Processor</String>
+    <Label>RawResourceProcessor_Name</Label>
+    <String>Raw Resource Processor</String>
   </StringTable>
   <StringTable>
-    <Label>DurantiumProcessor_ShortDec</Label>
-    <String>Converts Durantium into a powerful manufacturing material.</String>
+    <Label>RawResourceProcessor_ShortDec</Label>
+    <String>Produces a minimum of essential resources for ship production using crude methods.</String>
   </StringTable>
  
   <StringTable>
