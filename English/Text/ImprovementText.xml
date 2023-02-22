@@ -58,7 +58,16 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <Label>InfiniteGarden_ShortDec</Label>
     <String>A legendary garden that is not only beautiful and fertile, but it will attract three Baratak Farmers citizens as caregivers. Cannot be built on our homeworld.</String>
   </StringTable>
- 
+
+  <StringTable>
+    <Label>ScienceCollective_Name</Label>
+    <String>Science Collective</String>
+  </StringTable>
+  <StringTable>
+    <Label>ScienceCollective_ShortDec</Label>
+    <String>Nothing better to science stuff up than to bring great minds together. Stats are based on how many Scientists are active in the colony.</String>
+  </StringTable>
+
   <StringTable>
     <Label>ComputerCore_Name</Label>
     <String>Capital Mainframe</String>
@@ -173,7 +182,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>SupplyDepot_ShortDec</Label>
-    <String>Streamlines the distribution of goods and supplies to residents improving productivity and comfort.</String>
+    <String>Streamlines the distribution of goods and supplies to residents improving productivity and comfort. Stats are based on how many Engineers are active in the colony.</String>
   </StringTable>
  
   <StringTable>
@@ -492,7 +501,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TradeNetwork_ShortDec</Label>
-    <String>Establishes a central hub for traders to buy and sell products and services.</String>
+    <String>Establishes a central hub for traders to buy and sell products and services. Stats are based on how many Entrepreneurs are active in the colony.</String>
   </StringTable>
  
   <StringTable>
