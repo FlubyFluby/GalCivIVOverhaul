@@ -38,7 +38,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TowerOfEndlessNight_ShortDec</Label>
-    <String>A center for our most morally ambiguous military planning. Needs to operate with discretion so it cannot be built on our homeworld.</String>
+    <String>A center for our most morally ambiguous military planning. Needs to operate with discretion so it cannot be built on our homeworld. Stats are based on the amount of Soldiers active one the planet, more is better. SensorRange is based on planetsize.</String>
   </StringTable>
  
   <StringTable>
@@ -47,7 +47,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>WorldheartBorehole_ShortDec</Label>
-    <String>A borehole large enough to penetrate the planet's crust. To dangerous to build on our homeworld.</String>
+    <String>A borehole large enough to penetrate the planet's crust. To dangerous to build on our homeworld. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -56,7 +56,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>InfiniteGarden_ShortDec</Label>
-    <String>A legendary garden that is not only beautiful and fertile, but it will attract three Baratak Farmers citizens as caregivers. Cannot be built on our homeworld.</String>
+    <String>A legendary garden that is not only beautiful and fertile, but it will attract three Baratak Farmers citizens as caregivers. Cannot be built on our homeworld. The bigger the planet, the higher the stats, food and tourism effects are global.</String>
   </StringTable>
 
   <StringTable>
@@ -74,7 +74,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>ComputerCore_ShortDec</Label>
-    <String>Allows us to jumpstart our research.</String>
+    <String>Allows us to jumpstart our research. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -83,7 +83,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>KazarsMainframe_ShortDec</Label>
-    <String>A wonder of invention and madness.</String>
+    <String>A wonder of invention and madness. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -92,7 +92,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>GalacticMainframe_ShortDec</Label>
-    <String>Provides a central hub for our research efforts.  Cannot be built on homeworld.</String>
+    <String>Provides a central hub for our research efforts.  Cannot be built on homeworld. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -101,7 +101,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>AIOverseer_ShortDec</Label>
-    <String>Reduces global crime and allows our Scientists to generate Control, but the constant surveillance angers our citizens.</String>
+    <String>Reduces global crime and allows our Scientists to generate Control, but the constant surveillance angers our citizens. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -173,7 +173,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>IndustrialCenter_ShortDec</Label>
-    <String>The center of your civilization's manufacturing.</String>
+    <String>The center of your civilization's manufacturing.Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -191,7 +191,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>FusionPowerPlant_ShortDec</Label>
-    <String>Makes factories more efficient, and boosts Production.</String>
+    <String>Makes factories more efficient, and boosts Production. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
@@ -204,7 +204,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>SingularityPowerPlant_ForeignWonderWarning</Label>
-    <String>There are reports coming in that the {PLAYERFACTIONLONG} have built a Galactic Achievement - the 'Singularity Power Plant' - on {PLANETNAME}. This incredible device will increase the speed at which they can improve their colonies. We'll need to keep an eye on this situation.</String>
+    <String>This incredible device will increase the speed at which you can improve your colonies. Stats are based on the size of the planet, Bigger is better(or worse if applicable).</String>
   </StringTable>
  
   <StringTable>
