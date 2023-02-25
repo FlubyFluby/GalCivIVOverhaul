@@ -276,7 +276,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PrintMoney_Dec</Label>
-    <String>Printing money can provide short-term wealth at the cost of inflation which lowers approval for approximately a year.</String>
+    <String>Printing money can provide short-term wealth at the cost of inflation which lowers approval for a few months</String>
   </StringTable>
  
   <StringTable>
@@ -305,6 +305,22 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>InviteLeaders_Dec</Label>
     <String>Searching for our most talented will provide 3 new leaders for recruitment.</String>
+  </StringTable>
+  <StringTable>
+    <Label>InviteLeadersFeast_Name</Label>
+    <String>Invite Leaders Feast</String>
+  </StringTable>
+  <StringTable>
+    <Label>InviteLeadersFeast_Dec</Label>
+    <String>Inviting our most talented while providing a feast to impress them will provide 4 new leaders for recruitment.</String>
+  </StringTable>
+  <StringTable>
+    <Label>InviteLeadersLavishFeast_Name</Label>
+    <String>Invite Leaders Lavish Feast</String>
+  </StringTable>
+  <StringTable>
+    <Label>InviteLeadersLavishFeast_Dec</Label>
+    <String>Inviting our most talented while providing a lavish feast with no expenses spared to impress them will provide 4 new leaders for recruitment.</String>
   </StringTable>
  
   <StringTable>

@@ -1240,8 +1240,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>52</RandomDurationMin>
-      <RandomDurationMax>52</RandomDurationMax>
+      <RandomDurationMin>5</RandomDurationMin>
+      <RandomDurationMax>20</RandomDurationMax>
       <Modifier>
         <EffectType>Approval</EffectType>
         <Scope>Global</Scope>
@@ -1382,7 +1382,45 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
+  <ArtifactPower>
+    <InternalName>InviteLeadersFeast</InternalName>
+    <DisplayName>InviteLeadersFeast_Name</DisplayName>
+    <Description>InviteLeadersFeast_Dec</Description>
+    <Icon>EO_Icon_RecruitLeaders.png</Icon>
+    <SmallIcon>EO_Icon_RecruitLeaders.png</SmallIcon>
+    <Image>EO_Watermark_RecruitLeaders.png</Image>
+    <TintColor>ArtifactMilitaryRed</TintColor>
+    <UseSFX>UI/EO_INVITELEADERS</UseSFX>
+    <ValidTarget>Faction</ValidTarget>
+    <ValidRelation>Any</ValidRelation>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <PerformAction>
+        <Action>AddNewLeaderOptions</Action>
+        <ValueParam>4</ValueParam>
+      </PerformAction>
+    </Triggers>
+  </ArtifactPower>
 
+  <ArtifactPower>
+    <InternalName>InviteLeadersLavishFeast</InternalName>
+    <DisplayName>InviteLeadersLavishFeast_Name</DisplayName>
+    <Description>InviteLeadersLavishFeast_Dec</Description>
+    <Icon>EO_Icon_RecruitLeaders.png</Icon>
+    <SmallIcon>EO_Icon_RecruitLeaders.png</SmallIcon>
+    <Image>EO_Watermark_RecruitLeaders.png</Image>
+    <TintColor>ArtifactMilitaryRed</TintColor>
+    <UseSFX>UI/EO_INVITELEADERS</UseSFX>
+    <ValidTarget>Faction</ValidTarget>
+    <ValidRelation>Any</ValidRelation>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <PerformAction>
+        <Action>AddNewLeaderOptions</Action>
+        <ValueParam>5</ValueParam>
+      </PerformAction>
+    </Triggers>
+  </ArtifactPower>
   <ArtifactPower>
     <InternalName>CallElection</InternalName>
     <DisplayName>CallElection_Name</DisplayName>
