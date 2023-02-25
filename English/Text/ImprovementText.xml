@@ -964,12 +964,44 @@ Can only be built on Lake terrain.</String>
   </StringTable>
  
   <StringTable>
-    <Label>AidEconomy_Name</Label>
+    <Label>AidEconomy1_Name</Label>
     <String>Economic Stimulus</String>
   </StringTable>
   <StringTable>
-    <Label>AidEconomy_ShortDec</Label>
-    <String>Provides 25 credits</String>
+    <Label>AidEconomy1_ShortDec</Label>
+    <String>Provides 5 credits for every 1 wealth in the colony</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy2_Name</Label>
+    <String>Economic Stimulus 2</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy2_ShortDec</Label>
+    <String>Provides 4 credits for every 1 wealth in the colony</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy2_Name</Label>
+    <String>Economic Stimulus 3</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy3_ShortDec</Label>
+    <String>Provides 3 credits for every 1 wealth in the colony</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy4_Name</Label>
+    <String>Economic Stimulus 4</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy4_ShortDec</Label>
+    <String>Provides 2 credits for every 1 wealth in the colony</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy5_Name</Label>
+    <String>Economic Stimulus 5</String>
+  </StringTable>
+  <StringTable>
+    <Label>AidEconomy5_ShortDec</Label>
+    <String>Provides 1 credits for every 1 wealth in the colony</String>
   </StringTable>
  
   <StringTable>

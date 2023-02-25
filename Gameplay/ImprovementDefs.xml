@@ -59,25 +59,107 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <BonusType>Flat</BonusType>
       <Value>1</Value>
     </Stats>
-    <LevelEffectStats>
-      <EffectType>ColonyGrossIncome</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
-    </LevelEffectStats>
-    <LevelEffectStats>
+    <Stats>
       <EffectType>PopulationCap</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.075</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>1</ValueParam> 
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>ControlPerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.001</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.001</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>5</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </Stats>
+    <LevelEffectStats>
+      <EffectType>ControlPerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.001</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
+    </LevelEffectStats>
+    <LevelEffectStats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.001</ValueParam>
+        <StringParam>PlanetClass</StringParam>
+      </SpecialValue>
     </LevelEffectStats>
     <NeighborBonuses>
       <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>2</NeighborBonusValue>
     </NeighborBonuses>
     <Prerequ>
       <Techs>
@@ -121,7 +203,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>5</ValueParam> 
+        <ValueParam>3</ValueParam> 
         <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </Stats>
@@ -168,7 +250,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       </SpecialValue>
     </Stats>
     <Stats>
-      <EffectType>Influence</EffectType>
+      <EffectType>InfluencePerTurn</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -177,7 +259,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>25</ValueParam>
+        <ValueParam>0.05</ValueParam>
         <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </Stats>
@@ -10988,10 +11070,57 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     </Prerequ>
   </Improvement>
   <Improvement>
-    <InternalName>AidEconomy</InternalName>
-    <DisplayName>AidEconomy_Name</DisplayName>
-    <ShortDescription>AidEconomy_ShortDec</ShortDescription>
-    <Description>AidEconomy_Dec</Description>
+    <InternalName>AidEconomy1</InternalName>
+    <DisplayName>AidEconomy1_Name</DisplayName>
+    <ShortDescription>AidEconomy1_ShortDec</ShortDescription>
+    <Description>AidEconomy1_Dec</Description>
+    <Icon>Economy_Build.png</Icon>
+    <BuildIcon>Economy_Build_Build.png</BuildIcon>
+    <ListIcon>Economy_Build_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>45</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>5</ValueParam>
+          <StringParam>Wealth</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Prerequ>
+      <HasNumCoreColonies>1</HasNumCoreColonies>
+    </Prerequ>
+    <Preclusions>
+      <HasNumCoreColonies>3</HasNumCoreColonies>
+    </Preclusions>
+  </Improvement>
+  <Improvement>
+    <InternalName>AidEconomy2</InternalName>
+    <DisplayName>AidEconomy2_Name</DisplayName>
+    <ShortDescription>AidEconomy2_ShortDec</ShortDescription>
+    <Description>AidEconomy2_Dec</Description>
     <Icon>Economy_Build.png</Icon>
     <BuildIcon>Economy_Build_Build.png</BuildIcon>
     <ListIcon>Economy_Build_Icon.png</ListIcon>
@@ -11018,9 +11147,159 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>25</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>4</ValueParam>
+          <StringParam>Wealth</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
+    <Prerequ>
+      <HasNumCoreColonies>4</HasNumCoreColonies>
+    </Prerequ>
+    <Preclusions>
+      <HasNumCoreColonies>7</HasNumCoreColonies>
+    </Preclusions>
+  </Improvement>
+  <Improvement>
+    <InternalName>AidEconomy2</InternalName>
+    <DisplayName>AidEconomy3_Name</DisplayName>
+    <ShortDescription>AidEconomy2_ShortDec</ShortDescription>
+    <Description>AidEconomy3_Dec</Description>
+    <Icon>Economy_Build.png</Icon>
+    <BuildIcon>Economy_Build_Build.png</BuildIcon>
+    <ListIcon>Economy_Build_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>90</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>3</ValueParam>
+          <StringParam>Wealth</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Prerequ>
+      <HasNumCoreColonies>8</HasNumCoreColonies>
+    </Prerequ>
+    <Preclusions>
+      <HasNumCoreColonies>14</HasNumCoreColonies>
+    </Preclusions>
+  </Improvement>
+  <Improvement>
+    <InternalName>AidEconomy4</InternalName>
+    <DisplayName>AidEconomy4_Name</DisplayName>
+    <ShortDescription>AidEconomy4_ShortDec</ShortDescription>
+    <Description>AidEconomy4_Dec</Description>
+    <Icon>Economy_Build.png</Icon>
+    <BuildIcon>Economy_Build_Build.png</BuildIcon>
+    <ListIcon>Economy_Build_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>125</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>2</ValueParam>
+          <StringParam>Wealth</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Prerequ>
+      <HasNumCoreColonies>15</HasNumCoreColonies>
+    </Prerequ>
+    <Preclusions>
+      <HasNumCoreColonies>29</HasNumCoreColonies>
+    </Preclusions>
+  </Improvement>
+  <Improvement>
+    <InternalName>AidEconomy5</InternalName>
+    <DisplayName>AidEconomy5_Name</DisplayName>
+    <ShortDescription>AidEconomy5_ShortDec</ShortDescription>
+    <Description>AidEconomy5_Dec</Description>
+    <Icon>Economy_Build.png</Icon>
+    <BuildIcon>Economy_Build_Build.png</BuildIcon>
+    <ListIcon>Economy_Build_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>150</Value>
+    </Stats>
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>2</ValueParam>
+          <StringParam>Wealth</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Prerequ>
+      <HasNumCoreColonies>30</HasNumCoreColonies>
+    </Prerequ>
   </Improvement>
   <Improvement>
     <InternalName>Heritage</InternalName>

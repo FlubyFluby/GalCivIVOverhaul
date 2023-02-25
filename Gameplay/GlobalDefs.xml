@@ -482,7 +482,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetQualifier>InOwnersZOC</TargetQualifier>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <Value>5</Value>
     </GlobalCombatMods>
 
     <GlobalFactionMods>
@@ -527,7 +527,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>80</Value>
+      <Value>85</Value>
     </GlobalFactionMods>
 
     <GlobalFactionMods>
@@ -599,7 +599,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <Value>5</Value>
     </GlobalFactionMods>
 
     <GlobalFactionMods>
@@ -692,7 +692,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.5</Value>
+      <Value>0.6</Value>
     </GlobalColonyMods>
 
     <GlobalColonyMods>
@@ -702,7 +702,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.5</Value>
+      <Value>0.55</Value>
     </GlobalColonyMods>
 
     <GlobalColonyMods>
@@ -732,7 +732,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.1</ValueParam>
+        <ValueParam>0.09</ValueParam>
         <StringParam>ResistanceBonus</StringParam>
       </SpecialValue>
     </GlobalColonyMods>
@@ -748,7 +748,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.1</ValueParam>
+        <ValueParam>0.08</ValueParam>
         <StringParam>ResistanceBonus</StringParam>
       </SpecialValue>
     </GlobalColonyMods>
@@ -768,7 +768,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Asteroid</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
+      <Value>0.115</Value>
     </GlobalAsteroidMods>
 
     <GlobalAsteroidMods>
@@ -1252,29 +1252,162 @@ The Y axis is the resulting price. -->
 	<MinClassColonizationEvent>12</MinClassColonizationEvent>
     <PlanetClass_Dead>0</PlanetClass_Dead>
     <PlanetClass_Colonizable>5</PlanetClass_Colonizable>
-    <PlanetClass_Good>10</PlanetClass_Good>
-    <PlanetClass_Great>15</PlanetClass_Great>
-    <PlanetClass_Fantastic>20</PlanetClass_Fantastic>
-		
+    <PlanetClass_Good>14</PlanetClass_Good>
+    <PlanetClass_Great>24</PlanetClass_Great>
+    <PlanetClass_Fantastic>32</PlanetClass_Fantastic>
 		<MaxTradeResourcesByPlanetClass> <!-- trade resources are maxed at 1 for UI constraints -->
 			<Range>
 				<RangeMin>1</RangeMin>
-				<RangeMax>3</RangeMax>
+				<RangeMax>2</RangeMax>
 			</Range>
 			<Value>0</Value>
 		</MaxTradeResourcesByPlanetClass>
 		<MaxTradeResourcesByPlanetClass>
 			<Range>
-				<RangeMin>4</RangeMin>
-				<NoMax>true</NoMax>
+				<RangeMin>3</RangeMin>
+				<RangeMax>6</RangeMax>
+			</Range>
+			<Value>0.1</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>7</RangeMin>
+				<RangeMax>9</RangeMax>
+			</Range>
+			<Value>0.2</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>10</RangeMin>
+				<RangeMax>14</RangeMax>
+			</Range>
+			<Value>0.3</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>15</RangeMin>
+				<RangeMax>18</RangeMax>
+			</Range>
+			<Value>0.4</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>15</RangeMin>
+				<RangeMax>18</RangeMax>
+			</Range>
+			<Value>0.5</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>19</RangeMin>
+				<RangeMax>23</RangeMax>
+			</Range>
+			<Value>0.6</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>24</RangeMin>
+				<RangeMax>28</RangeMax>
+			</Range>
+			<Value>0.7</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>29</RangeMin>
+				<RangeMax>33</RangeMax>
+			</Range>
+			<Value>0.8</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>34</RangeMin>
+				<RangeMax>38</RangeMax>
+			</Range>
+			<Value>0.9</Value>
+		</MaxTradeResourcesByPlanetClass>
+    <MaxTradeResourcesByPlanetClass>
+			<Range>
+				<RangeMin>39</RangeMin>
+        <NoMax>true</NoMax>
 			</Range>
 			<Value>1</Value>
 		</MaxTradeResourcesByPlanetClass>
+    
 
+    <MaxFeaturesByPlanetClass> 
+			<Range>
+				<RangeMin>1</RangeMin>
+				<RangeMax>2</RangeMax>
+			</Range>
+			<Value>0</Value>
+		</MaxFeaturesByPlanetClass>
 		<MaxFeaturesByPlanetClass>
 			<Range>
-				<NoMin>true</NoMin>
-				<RangeMax>99</RangeMax>
+				<RangeMin>3</RangeMin>
+				<RangeMax>6</RangeMax>
+			</Range>
+			<Value>9</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>7</RangeMin>
+				<RangeMax>9</RangeMax>
+			</Range>
+			<Value>19</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>10</RangeMin>
+				<RangeMax>14</RangeMax>
+			</Range>
+			<Value>29</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>15</RangeMin>
+				<RangeMax>18</RangeMax>
+			</Range>
+			<Value>39</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>15</RangeMin>
+				<RangeMax>18</RangeMax>
+			</Range>
+			<Value>49</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>19</RangeMin>
+				<RangeMax>23</RangeMax>
+			</Range>
+			<Value>59</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>24</RangeMin>
+				<RangeMax>28</RangeMax>
+			</Range>
+			<Value>69</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>29</RangeMin>
+				<RangeMax>33</RangeMax>
+			</Range>
+			<Value>79</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>34</RangeMin>
+				<RangeMax>38</RangeMax>
+			</Range>
+			<Value>89</Value>
+		</MaxFeaturesByPlanetClass>
+    <MaxFeaturesByPlanetClass>
+			<Range>
+				<RangeMin>39</RangeMin>
+        <NoMax>true</NoMax>
 			</Range>
 			<Value>99</Value>
 		</MaxFeaturesByPlanetClass>
@@ -1295,21 +1428,21 @@ The Y axis is the resulting price. -->
     <CrisisTurnsMin>12</CrisisTurnsMin>
 	<CrisisTurnsMax>28</CrisisTurnsMax>
 	
-	<RareEventTurnsMin>15</RareEventTurnsMin>
-	<RareEventTurnsMax>40</RareEventTurnsMax>
-	<OccasionalEventTurnsMin>10</OccasionalEventTurnsMin>
-	<OccasionalEventTurnsMax>28</OccasionalEventTurnsMax>
-	<AbundantEventTurnsMin>8</AbundantEventTurnsMin>
-	<AbundantEventTurnsMax>18</AbundantEventTurnsMax>
+	<RareEventTurnsMin>16</RareEventTurnsMin>
+	<RareEventTurnsMax>32</RareEventTurnsMax>
+	<OccasionalEventTurnsMin>8</OccasionalEventTurnsMin>
+	<OccasionalEventTurnsMax>16</OccasionalEventTurnsMax>
+	<AbundantEventTurnsMin>4</AbundantEventTurnsMin>
+	<AbundantEventTurnsMax>8</AbundantEventTurnsMax>
 	<FlaggedQuestEventMaxChance>10000</FlaggedQuestEventMaxChance>
 	<FlaggedQuestEventChance>150</FlaggedQuestEventChance>
 
-    <RareMegaEventTurnsMin>50</RareMegaEventTurnsMin>
-    <RareMegaEventTurnsMax>250</RareMegaEventTurnsMax>
-    <RegularMegaEventTurnsMin>25</RegularMegaEventTurnsMin>
-    <RegularMegaEventTurnsMax>100</RegularMegaEventTurnsMax>
-    <FrequentMegaEventTurnsMin>15</FrequentMegaEventTurnsMin>
-    <FrequentMegaEventTurnsMax>50</FrequentMegaEventTurnsMax>
+    <RareMegaEventTurnsMin>32</RareMegaEventTurnsMin>
+    <RareMegaEventTurnsMax>64</RareMegaEventTurnsMax>
+    <RegularMegaEventTurnsMin>16</RegularMegaEventTurnsMin>
+    <RegularMegaEventTurnsMax>32</RegularMegaEventTurnsMax>
+    <FrequentMegaEventTurnsMin>8</FrequentMegaEventTurnsMin>
+    <FrequentMegaEventTurnsMax>16</FrequentMegaEventTurnsMax>
 
     <MidGameMusicTriggerTurnCount>60</MidGameMusicTriggerTurnCount>
     <LateGameMusicTriggerTurnCount>300</LateGameMusicTriggerTurnCount>
@@ -1345,59 +1478,57 @@ The Y axis is the resulting price. -->
     <BattleMoveCost>1.0</BattleMoveCost>
     <BattleMaxTurns>10</BattleMaxTurns>
 
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>1.0</percent>
-    </NonOptimalDefenseFactor>
-
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Kinetic</defenseType>
-      <percent>0.1</percent>
-    </NonOptimalDefenseFactor>
-
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Missile</defenseType>
-      <percent>0.1</percent>
-    </NonOptimalDefenseFactor>
     
     <NonOptimalDefenseFactor>
       <weaponType>Kinetic</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>0.1</percent>
-    </NonOptimalDefenseFactor>
-
-    <NonOptimalDefenseFactor>
-      <weaponType>Kinetic</weaponType>
       <defenseType>Kinetic</defenseType>
-      <percent>1.0</percent>
+      <percent>0.5</percent>
     </NonOptimalDefenseFactor>
-
     <NonOptimalDefenseFactor>
-      <weaponType>Kinetic</weaponType>
-      <defenseType>Missile</defenseType>
-      <percent>0.1</percent>
+      <weaponType>Beam</weaponType>
+      <defenseType>Kinetic</defenseType>
+      <percent>0.75</percent>
     </NonOptimalDefenseFactor>
-    
-    <NonOptimalDefenseFactor>
-      <weaponType>Missile</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>0.1</percent>
-    </NonOptimalDefenseFactor>
-    
     <NonOptimalDefenseFactor>
       <weaponType>Missile</weaponType>
       <defenseType>Kinetic</defenseType>
-      <percent>0.1</percent>
+      <percent>0.25</percent>
     </NonOptimalDefenseFactor>
-
+    <NonOptimalDefenseFactor>
+      <weaponType>Beam</weaponType>
+      <defenseType>Beam</defenseType>
+      <percent>0.5</percent>
+    </NonOptimalDefenseFactor>
+    <NonOptimalDefenseFactor>
+      <weaponType>Kinetic</weaponType>
+      <defenseType>Beam</defenseType>
+      <percent>0.25</percent>
+    </NonOptimalDefenseFactor>
+    <NonOptimalDefenseFactor>
+      <weaponType>Missile</weaponType>
+      <defenseType>Beam</defenseType>
+      <percent>0.75</percent>
+    </NonOptimalDefenseFactor>
     <NonOptimalDefenseFactor>
       <weaponType>Missile</weaponType>
       <defenseType>Missile</defenseType>
-      <percent>1.0</percent>
+      <percent>0.5</percent>
     </NonOptimalDefenseFactor>
+    <NonOptimalDefenseFactor>
+      <weaponType>Beam</weaponType>
+      <defenseType>Missile</defenseType>
+      <percent>0.25</percent>
+    </NonOptimalDefenseFactor>
+    <NonOptimalDefenseFactor>
+      <weaponType>Kinetic</weaponType>
+      <defenseType>Missile</defenseType>
+      <percent>0.75</percent>
+    </NonOptimalDefenseFactor>
+    
+    
+    
+    
+    
 
     <SuicideAttackHealthPercent>0.3</SuicideAttackHealthPercent>
     <SuicideAttackMinTurns>5</SuicideAttackMinTurns>
@@ -1445,9 +1576,9 @@ The Y axis is the resulting price. -->
     </InitialSpeedFactor>
 
     <DefaultPlanetFeaturesPerTile>1.0</DefaultPlanetFeaturesPerTile>
-    <DefaultTradeResourcesPerTile>0.1</DefaultTradeResourcesPerTile>
+    <DefaultTradeResourcesPerTile>0.15</DefaultTradeResourcesPerTile>
 
-    <MaxSponsorDistanceWithNoPenalty>6</MaxSponsorDistanceWithNoPenalty>
+    <MaxSponsorDistanceWithNoPenalty>8</MaxSponsorDistanceWithNoPenalty>
     <ShipyardMilitaryFloor>1</ShipyardMilitaryFloor>
 
     <ObjectViewGridSize>1000</ObjectViewGridSize>
@@ -1571,7 +1702,7 @@ The Y axis is the resulting price. -->
 
     <DefaultTreatyDuration>50</DefaultTreatyDuration>
     <DefaultPeaceTreatyDuration>20</DefaultPeaceTreatyDuration>
-    <CannotSpeakToPlayerAfterDeclaringWarDuration>20</CannotSpeakToPlayerAfterDeclaringWarDuration>
+    <CannotSpeakToPlayerAfterDeclaringWarDuration>15</CannotSpeakToPlayerAfterDeclaringWarDuration>
     <AITradeCooldown>6</AITradeCooldown>
 
     <AlertDuration>1</AlertDuration>
@@ -1579,14 +1710,14 @@ The Y axis is the resulting price. -->
     <ExpensiveDipmodPlayerCountMax>10</ExpensiveDipmodPlayerCountMax>
 
     <SandboxStartingYear>2307</SandboxStartingYear>
-    <AutosaveFadeInTime>200</AutosaveFadeInTime>
-    <AutosaveFadeOutTime>500</AutosaveFadeOutTime>
-    <StartTurnFadeTime>1000</StartTurnFadeTime>
-    <StartTurnPauseTime>1000</StartTurnPauseTime>
-    <CurrentTurnFadeTime>1000</CurrentTurnFadeTime>
-    <CurrentTurnFadeInTime>500</CurrentTurnFadeInTime>
-    <CurrentTurnPauseTime>1000</CurrentTurnPauseTime>
-    <DeleteNotificationFadeTime>1000</DeleteNotificationFadeTime>
+    <AutosaveFadeInTime>100</AutosaveFadeInTime>
+    <AutosaveFadeOutTime>200</AutosaveFadeOutTime>
+    <StartTurnFadeTime>400</StartTurnFadeTime>
+    <StartTurnPauseTime>400</StartTurnPauseTime>
+    <CurrentTurnFadeTime>400</CurrentTurnFadeTime>
+    <CurrentTurnFadeInTime>200</CurrentTurnFadeInTime>
+    <CurrentTurnPauseTime>400</CurrentTurnPauseTime>
+    <DeleteNotificationFadeTime>400</DeleteNotificationFadeTime>
     <TutorialCampaignInternalName>Tutorial</TutorialCampaignInternalName>
 
     <MapEditorLogisticsCap>1000.0</MapEditorLogisticsCap>
@@ -1662,8 +1793,8 @@ The Y axis is the resulting price. -->
     <UnitSpecializationLevel>3</UnitSpecializationLevel>
 
 
-    <CitizenGenBaseTurns>10</CitizenGenBaseTurns>
-    <CitizenRateReductionPerUnit>.2</CitizenRateReductionPerUnit>
+    <CitizenGenBaseTurns>9</CitizenGenBaseTurns>
+    <CitizenRateReductionPerUnit>.15</CitizenRateReductionPerUnit>
 
     <StealChancePercentPerPoint>1</StealChancePercentPerPoint>
     <ShouldAgentsFightCitizens>false</ShouldAgentsFightCitizens>
@@ -1777,23 +1908,23 @@ The Y axis is the resulting price. -->
 	<GovernmentNumColoniesBeforeAllowed>2</GovernmentNumColoniesBeforeAllowed>
 	<GovernmentLostElectionCooldown>20</GovernmentLostElectionCooldown>
 	<GovernmentLostElectionDefaultInterimGovernment>Coalition</GovernmentLostElectionDefaultInterimGovernment>
-	<TaxationUnrestMult>1.5</TaxationUnrestMult>
-	<TaxationStartingValue>0.33</TaxationStartingValue>
-  <TaxationRateLow>0.1</TaxationRateLow>
-  <TaxationRateNormal>0.25</TaxationRateNormal>
-  <TaxationRateMedium>0.33</TaxationRateMedium>
-  <TaxationRateHigh>0.67</TaxationRateHigh>
-  <TaxationRateMax>0.9</TaxationRateMax>
+	<TaxationUnrestMult>1.35</TaxationUnrestMult>
+	<TaxationStartingValue>0.35</TaxationStartingValue>
+  <TaxationRateLow>0.2</TaxationRateLow>
+  <TaxationRateNormal>0.4</TaxationRateNormal>
+  <TaxationRateMedium>0.6</TaxationRateMedium>
+  <TaxationRateHigh>0.8</TaxationRateHigh>
+  <TaxationRateMax>1.0</TaxationRateMax>
   <GalacticNewsTurnsAfterUseMult>1</GalacticNewsTurnsAfterUseMult>
 	<GalacticNewsUnusedBonus>100</GalacticNewsUnusedBonus>
 	<GalacticNewsListSizeMetBonus>100</GalacticNewsListSizeMetBonus>
 	<GalacticNewsEarlierstTurn>15</GalacticNewsEarlierstTurn>
 	<GalacticNewsCooldown>20</GalacticNewsCooldown>
 	<ElectionWarningNotice>5</ElectionWarningNotice> <!-- How many turns before the election do we notify the player -->
-	<ColonyLimitWarningCooldown>25</ColonyLimitWarningCooldown>
-	<ColonyLimitPenaltyPerColony>0.25</ColonyLimitPenaltyPerColony>
+	<ColonyLimitWarningCooldown>30</ColonyLimitWarningCooldown>
+	<ColonyLimitPenaltyPerColony>0.125</ColonyLimitPenaltyPerColony>
 	<ColonyLimitMaxPenalty>10</ColonyLimitMaxPenalty>
-	<GalacticMarketTrickle>0.2</GalacticMarketTrickle>
+	<GalacticMarketTrickle>0.25</GalacticMarketTrickle>
 	<StatCheckMin>10</StatCheckMin> <!-- The Minimum value of a Stat Check Chance -->
 	<StatCheckMax>95</StatCheckMax> <!-- The Maximum value of a Stat Check Chance -->
 
@@ -1839,13 +1970,13 @@ The Y axis is the resulting price. -->
     <CitizenCriminalChance>0</CitizenCriminalChance> <!-- % base chance a new citizen will be a criminal -->
     <CitizenIdeologyChance>0</CitizenIdeologyChance> <!-- % chance a new citizen will have an ideology -->
     <LeaderRosterSizeRange>
-      <RangeMin>3</RangeMin> <!-- Base amount of leaders that show up for recruitment -->
-      <RangeMax>7</RangeMax> <!-- Maximum amount of leaders that show up for recruitment regardless of player bonuses -->
+      <RangeMin>4</RangeMin> <!-- Base amount of leaders that show up for recruitment -->
+      <RangeMax>8</RangeMax> <!-- Maximum amount of leaders that show up for recruitment regardless of player bonuses -->
     </LeaderRosterSizeRange>
-    <LeaderRosterAddChance>40</LeaderRosterAddChance> <!-- % chance each turn a new leader shows up if there is an empty slot -->
+    <LeaderRosterAddChance>50</LeaderRosterAddChance> <!-- % chance each turn a new leader shows up if there is an empty slot -->
     <LeaderRosterTurnsAvailable> <!-- turns a leader stays in the recruit pool before expiring -->
       <RangeMin>10</RangeMin>
-      <RangeMax>40</RangeMax>
+      <RangeMax>33</RangeMax>
     </LeaderRosterTurnsAvailable>
     
     <LeaderRosterTypeOptions>UnassignedLeader</LeaderRosterTypeOptions>
@@ -1915,7 +2046,7 @@ The Y axis is the resulting price. -->
     <AIDefaultUnitWeight>30</AIDefaultUnitWeight>
     <AssassinateDiplomatCreditsCost>100</AssassinateDiplomatCreditsCost>
     
-    <ColonySponsoringDecayMinValue>0.1</ColonySponsoringDecayMinValue>
+    <ColonySponsoringDecayMinValue>0.125</ColonySponsoringDecayMinValue>
 
     <MaxStarvationPenalty>-0.2</MaxStarvationPenalty>
     <LayoutPlanetMinBonusTiles>3</LayoutPlanetMinBonusTiles>

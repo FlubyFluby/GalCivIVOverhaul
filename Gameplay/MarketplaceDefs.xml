@@ -37,7 +37,7 @@ xsi:noNamespaceSchemaLocation="../Schema/MarketplaceDefs.xsd">
 
     <Resources>
       <UniqueID>Elerium</UniqueID>
-      <BaseCost>80</BaseCost>
+      <BaseCost>45</BaseCost>
       <Image>Elerium_Thumb.png</Image>
     </Resources>
 
