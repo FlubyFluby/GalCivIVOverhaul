@@ -6503,6 +6503,71 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <PlacementType>WealthHub</PlacementType>
     <IsColonyUnique>true</IsColonyUnique>
     <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>150</Value>
+    </Stats>
+    <Stats>
+      <EffectType>UltraSpiceCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>14</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HeliosOreCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>XanthiumDepositCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
       <EffectType>ControlPerTurn</EffectType>
       <Target>
         <TargetType>Faction</TargetType>

@@ -75,6 +75,73 @@ xsi:noNamespaceSchemaLocation="../Schema/GameSetupDefs.xsd">
     <MapSizeValues>
       <MapSize>Tiny</MapSize>
       <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>0</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>0</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Small</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>1</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>0</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Medium</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>2</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>0</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Large</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>3</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>1</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Huge</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>4</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>2</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Gigantic</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>5</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>3</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Immense</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>6</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>4</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Excessive</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>8</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>5</PirateLocationsMax>
+    </MapSizeValues>
+    <MapSizeValues>
+      <MapSize>Insane</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>9</MinorRacesMax>
+      <PirateLocationsMin>0</PirateLocationsMin>
+      <PirateLocationsMax>6</PirateLocationsMax>
+    </MapSizeValues>
+  </GameSetupDef>
+
+  <GameSetupDef>
+    <InternalName>Uncommon</InternalName>
+    <MapSizeValues>
+      <MapSize>Tiny</MapSize>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>1</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
       <PirateLocationsMax>0</PirateLocationsMax>
@@ -89,118 +156,51 @@ xsi:noNamespaceSchemaLocation="../Schema/GameSetupDefs.xsd">
     <MapSizeValues>
       <MapSize>Medium</MapSize>
       <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>2</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Large</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>3</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Huge</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>4</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Gigantic</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>4</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Immense</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>5</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Excessive</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>6</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Insane</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>8</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-  </GameSetupDef>
-
-  <GameSetupDef>
-    <InternalName>Uncommon</InternalName>
-    <MapSizeValues>
-      <MapSize>Tiny</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>2</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Small</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>2</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
-    </MapSizeValues>
-    <MapSizeValues>
-      <MapSize>Medium</MapSize>
-      <MinorRacesMin>0</MinorRacesMin>
-      <MinorRacesMax>3</MinorRacesMax>
-      <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>1</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Large</MapSize>
       <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>4</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>2</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Huge</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>5</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>3</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Gigantic</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>6</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>4</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Immense</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>7</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>5</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Excessive</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>8</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>6</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Insane</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>9</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>7</PirateLocationsMax>
     </MapSizeValues>
   </GameSetupDef>
 
@@ -208,66 +208,66 @@ xsi:noNamespaceSchemaLocation="../Schema/GameSetupDefs.xsd">
     <InternalName>Occasional</InternalName>
     <MapSizeValues>
       <MapSize>Tiny</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
-      <MinorRacesMax>3</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>2</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
       <PirateLocationsMax>0</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Small</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
-      <MinorRacesMax>4</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>3</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
       <PirateLocationsMax>0</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Medium</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
-      <MinorRacesMax>5</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>4</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>1</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Large</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
-      <MinorRacesMax>6</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>5</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>2</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Huge</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>8</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>6</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>3</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Gigantic</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>9</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>7</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>4</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Immense</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>10</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>8</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>5</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Excessive</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>11</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>9</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>7</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Insane</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>12</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>10</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>8</PirateLocationsMax>
     </MapSizeValues>
   </GameSetupDef>
 
@@ -275,66 +275,66 @@ xsi:noNamespaceSchemaLocation="../Schema/GameSetupDefs.xsd">
     <InternalName>Common</InternalName>
     <MapSizeValues>
       <MapSize>Tiny</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
-      <MinorRacesMax>4</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>3</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>1</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Small</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>4</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>2</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Medium</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>5</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>3</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Large</MapSize>
-      <MinorRacesMin>1</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>6</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>4</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Huge</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>8</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>7</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>5</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Gigantic</MapSize>
-      <MinorRacesMin>3</MinorRacesMin>
-      <MinorRacesMax>9</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>8</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>6</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Immense</MapSize>
-      <MinorRacesMin>3</MinorRacesMin>
-      <MinorRacesMax>10</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>9</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>7</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Excessive</MapSize>
-      <MinorRacesMin>3</MinorRacesMin>
-      <MinorRacesMax>11</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>10</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>8</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Insane</MapSize>
-      <MinorRacesMin>3</MinorRacesMin>
-      <MinorRacesMax>12</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>11</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>9</PirateLocationsMax>
     </MapSizeValues>
   </GameSetupDef>
 
@@ -342,66 +342,66 @@ xsi:noNamespaceSchemaLocation="../Schema/GameSetupDefs.xsd">
     <InternalName>Abundant</InternalName>
     <MapSizeValues>
       <MapSize>Tiny</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>4</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>3</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>1</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Small</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>6</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>4</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>2</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Medium</MapSize>
-      <MinorRacesMin>2</MinorRacesMin>
-      <MinorRacesMax>9</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>5</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>3</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Large</MapSize>
-      <MinorRacesMin>3</MinorRacesMin>
-      <MinorRacesMax>11</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>7</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>4</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Huge</MapSize>
-      <MinorRacesMin>4</MinorRacesMin>
-      <MinorRacesMax>11</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>8</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>5</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Gigantic</MapSize>
-      <MinorRacesMin>5</MinorRacesMin>
-      <MinorRacesMax>11</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>9</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>6</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Immense</MapSize>
-      <MinorRacesMin>6</MinorRacesMin>
-      <MinorRacesMax>12</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>10</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>7</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Excessive</MapSize>
-      <MinorRacesMin>9</MinorRacesMin>
-      <MinorRacesMax>12</MinorRacesMax>
+      <MinorRacesMin>0</MinorRacesMin>
+      <MinorRacesMax>11</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>9</PirateLocationsMax>
     </MapSizeValues>
     <MapSizeValues>
       <MapSize>Insane</MapSize>
-      <MinorRacesMin>10</MinorRacesMin>
+      <MinorRacesMin>0</MinorRacesMin>
       <MinorRacesMax>12</MinorRacesMax>
       <PirateLocationsMin>0</PirateLocationsMin>
-      <PirateLocationsMax>0</PirateLocationsMax>
+      <PirateLocationsMax>10</PirateLocationsMax>
     </MapSizeValues>
   </GameSetupDef>
   
