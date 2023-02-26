@@ -1066,9 +1066,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
   </ArtifactPower>
 
   <ArtifactPower>
-    <InternalName>DraftColonists</InternalName>
-    <DisplayName>DraftColonists_Name</DisplayName>
-    <Description>DraftColonists_Dec</Description>
+    <InternalName>Draft1Colonists</InternalName>
+    <DisplayName>Draft1Colonists_Name</DisplayName>
+    <Description>Draft1Colonists_Dec</Description>
     <Icon>EO_Icon_Colonists.png</Icon>
     <SmallIcon>EO_Icon_Colonists.png</SmallIcon>
     <Image>EO_Watermark_Colonists.png</Image>
@@ -1082,8 +1082,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>10</RandomDurationMin>
-      <RandomDurationMax>10</RandomDurationMax>
+      <RandomDurationMin>2</RandomDurationMin>
+      <RandomDurationMax>4</RandomDurationMax>
       <Modifier>
         <EffectType>Approval</EffectType>
         <Scope>Global</Scope>
@@ -1091,7 +1091,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Unit</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>-0.02</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.002</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
       </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
     </Triggers>
@@ -1101,6 +1107,121 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardColonyShipWithPassenger</Action>
+        <ValueParam>1</ValueParam>
+        <StringParam>Unit_Colonist</StringParam>
+      </PerformAction>
+    </Triggers>
+  </ArtifactPower>
+
+  <ArtifactPower>
+    <InternalName>Draft2Colonists</InternalName>
+    <DisplayName>Draft2Colonists_Name</DisplayName>
+    <Description>Draft2Colonists_Dec</Description>
+    <Icon>EO_Icon_Colonists.png</Icon>
+    <SmallIcon>EO_Icon_Colonists.png</SmallIcon>
+    <Image>EO_Watermark_Colonists.png</Image>
+    <TintColor>ArtifactMilitaryRed</TintColor>
+    <UseSFX>UI/EO_DRAFTCOLONISTS</UseSFX>
+    <ValidTarget>Faction</ValidTarget>
+    <ValidRelation>Any</ValidRelation>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <RandomDurationMin>4</RandomDurationMin>
+      <RandomDurationMax>8</RandomDurationMax>
+      <Modifier>
+        <EffectType>Approval</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Unit</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.002</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
+      </Modifier>
+      <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardColonyShipWithPassenger</Action>
+        <ValueParam>1</ValueParam>
+        <StringParam>Unit_Colonist</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardColonyShipWithPassenger</Action>
+        <ValueParam>1</ValueParam>
+        <StringParam>Unit_Colonist</StringParam>
+      </PerformAction>
+    </Triggers>
+  </ArtifactPower>
+
+  <ArtifactPower>
+    <InternalName>Draft3Colonists</InternalName>
+    <DisplayName>Draft3Colonists_Name</DisplayName>
+    <Description>Draft3Colonists_Dec</Description>
+    <Icon>EO_Icon_Colonists.png</Icon>
+    <SmallIcon>EO_Icon_Colonists.png</SmallIcon>
+    <Image>EO_Watermark_Colonists.png</Image>
+    <TintColor>ArtifactMilitaryRed</TintColor>
+    <UseSFX>UI/EO_DRAFTCOLONISTS</UseSFX>
+    <ValidTarget>Faction</ValidTarget>
+    <ValidRelation>Any</ValidRelation>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <RandomDurationMin>8</RandomDurationMin>
+      <RandomDurationMax>16</RandomDurationMax>
+      <Modifier>
+        <EffectType>Approval</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Unit</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.002</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
+      </Modifier>
+      <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardColonyShipWithPassenger</Action>
+        <ValueParam>1</ValueParam>
+        <StringParam>Unit_Colonist</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardColonyShipWithPassenger</Action>
+        <ValueParam>1</ValueParam>
+        <StringParam>Unit_Colonist</StringParam>
+      </PerformAction>
       <PerformAction>
         <Action>AwardColonyShipWithPassenger</Action>
         <ValueParam>1</ValueParam>
@@ -1243,13 +1364,33 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <RandomDurationMin>5</RandomDurationMin>
       <RandomDurationMax>20</RandomDurationMax>
       <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.2</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
+      </Modifier>
+      <Modifier>
         <EffectType>Approval</EffectType>
         <Scope>Global</Scope>
         <Target>
           <TargetType>Unit</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>-0.1</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.002</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
       </Modifier>
       <SourceDisplayName>PrintMoney_Name</SourceDisplayName>
     </Triggers>
@@ -1265,7 +1406,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>500</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>50</ValueParam>
+          <StringParam>AdministratorCount</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
   </ArtifactPower>
@@ -1528,8 +1675,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Lifetime>Instant</Lifetime>
       <PerformAction>
         <Action>ShowAreaForTurns</Action>
-        <ValueParam>10</ValueParam>
         <ValueParam>12</ValueParam>
+        <ValueParam>24</ValueParam>
       </PerformAction>
     </Triggers>
     <Triggers>
@@ -1559,7 +1706,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>25</RandomDurationMin>
+      <RandomDurationMin>12</RandomDurationMin>
       <RandomDurationMax>25</RandomDurationMax>
       <Modifier>
         <EffectType>Approval</EffectType>

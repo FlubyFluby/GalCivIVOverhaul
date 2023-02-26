@@ -5,19 +5,32 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 <!-- Created with the GC4 editor -->
 <!-- StarbaseModuleText.xml -->
  
-  <StringTable>
-    <Label>StarbaseDefenseSystem_Name</Label>
-    <String>Starbase Defense System</String>
-  </StringTable>
-  <StringTable>
-    <Label>StarbaseDefenseSystem_Dec</Label>
-    <String>Boost the defensive capabilities of any type of starbase. </String>
-  </StringTable>
-  <StringTable>
-    <Label>StarbaseDefenseSystem_ShortDec</Label>
-    <String>Boost the defensive capabilities of any type of starbase.</String>
-  </StringTable>
- 
+<StringTable>
+  <Label>ExtendedMiningSystem_Name</Label>
+  <String>Extended Mining System</String>
+</StringTable>
+<StringTable>
+  <Label>ExtendedMiningSystem_Dec</Label>
+  <String>Boost the range of a mining starbase at the cost of less influence per turn. </String>
+</StringTable>
+<StringTable>
+  <Label>ExtendedMiningSystem_ShortDec</Label>
+  <String>Boost the range of a mining starbase at the cost of less influence per turn.</String>
+</StringTable>
+
+<StringTable>
+  <Label>StarbaseDefenseSystem_Name</Label>
+  <String>Starbase Defense System</String>
+</StringTable>
+<StringTable>
+  <Label>StarbaseDefenseSystem_Dec</Label>
+  <String>Boost the defensive capabilities of any type of starbase. </String>
+</StringTable>
+<StringTable>
+  <Label>StarbaseDefenseSystem_ShortDec</Label>
+  <String>Boost the defensive capabilities of any type of starbase.</String>
+</StringTable>
+
   <StringTable>
     <Label>AdvancedStarbaseDefenseSystem_Name</Label>
     <String>Advanced Defenses</String>

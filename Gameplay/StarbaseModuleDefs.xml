@@ -4,7 +4,51 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
 <!-- Created with the GC4 editor -->
 <!-- StarbaseModuleDefs.xml -->
- 
+<StarbaseModule>
+  <InternalName>ExtendedMiningSystem</InternalName>
+  <DisplayName>ExtendedMiningSystem_Name</DisplayName>
+  <ShortDescription>ExtendedMiningSystem_ShortDec</ShortDescription>
+  <Description>ExtendedMiningSystem_Dec</Description>
+  <Icon>GC3_Starbase_Mining_Ring.png</Icon>
+  <SpecializationType>Mining</SpecializationType>
+  <Stats>
+    <EffectType>ModulesCost</EffectType>
+    <Target>
+      <TargetType>StarbaseModule</TargetType>
+    </Target>
+    <BonusType>OneTime</BonusType>
+    <Value>1</Value>
+  </Stats>
+  <Stats>
+    <EffectType>CreditsSpending</EffectType>
+    <Target>
+      <TargetType>StarbaseModule</TargetType>
+    </Target>
+    <BonusType>OneTime</BonusType>
+    <Value>750</Value>
+  </Stats>
+  <Stats>
+    <EffectType>InfluencePerTurn</EffectType>
+    <Target>
+      <TargetType>Starbase</TargetType>
+    </Target>
+    <BonusType>Flat</BonusType>
+    <Value>-2</Value>
+  </Stats>
+  <Stats>
+    <EffectType>StarbaseRange</EffectType>
+    <Target>
+      <TargetType>Starbase</TargetType>
+    </Target>
+    <BonusType>Flat</BonusType>
+    <Value>1</Value>
+  </Stats>
+  <Prerequ>
+    <StarbaseModule>MiningRingModule</StarbaseModule>
+  </Prerequ>
+  <AIBaseWeight>8</AIBaseWeight>
+</StarbaseModule>
+
   <StarbaseModule>
     <InternalName>StarbaseDefenseSystem</InternalName>
     <DisplayName>StarbaseDefenseSystem_Name</DisplayName>

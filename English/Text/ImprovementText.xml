@@ -980,7 +980,7 @@ Can only be built on Lake terrain.</String>
     <String>Provides 4 credits for every 1 wealth in the colony</String>
   </StringTable>
   <StringTable>
-    <Label>AidEconomy2_Name</Label>
+    <Label>AidEconomy3_Name</Label>
     <String>Economic Stimulus 3</String>
   </StringTable>
   <StringTable>

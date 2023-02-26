@@ -244,12 +244,28 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
  
   <StringTable>
-    <Label>DraftColonists_Name</Label>
-    <String>Draft Colonists</String>
+    <Label>Draft1Colonists_Name</Label>
+    <String>Draft 1 Colonists</String>
   </StringTable>
   <StringTable>
-    <Label>DraftColonists_Dec</Label>
+    <Label>Draft1Colonists_Dec</Label>
     <String>Sometimes we can't afford to wait for volunteers. This will provide a free Colony ship.</String>
+  </StringTable>
+  <StringTable>
+    <Label>Draft2Colonists_Name</Label>
+    <String>Draft 2 Colonists</String>
+  </StringTable>
+  <StringTable>
+    <Label>Draft2Colonists_Dec</Label>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 2 free Colony ships.</String>
+  </StringTable>
+  <StringTable>
+    <Label>Draft3Colonists_Name</Label>
+    <String>Draft 3 Colonists</String>
+  </StringTable>
+  <StringTable>
+    <Label>Draft3Colonists_Dec</Label>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 3 free Colony ships.</String>
   </StringTable>
  
   <StringTable>
@@ -356,8 +372,8 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TelescopeTakeover_Dec</Label>
-    <String>Private corporations have advanced survey equipment which we can put to immediate use.
-[COLOR=UIDefaultHighlight]Reveal an Area of the Map[/COLOR]</String>
+    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs the equivalent of 12.5% of our economic power in credits.
+[COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
   </StringTable>
  
   <StringTable>

@@ -8,32 +8,49 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
   <StringTable>
     <Label>NormalNebula_Name</Label>
-    <String>Nebula -75% moves</String>
+    <String>
+      Nebula 
+      -25% moves
+      -15% Sensor Power
+      -15% Shield Strength
+      -15% Point Defense
+      -15% Armor Rating
+    </String>
   </StringTable>
 
   <StringTable>
     <Label>NormalStorm_Name</Label>
     <String>
-      Dust Cloud
-      -100% Defense Systems
+      Nebula 
+      -50% moves
+      -25% Sensor Power
+      -50% Shield Strength
+      25% Point Defense
+      -15% Armor Rating
     </String>
   </StringTable>
 
   <StringTable>
     <Label>GasStorm_Name</Label>
     <String>
-      Gas Cloud
+      Nebula 
+      +75% moves
+      -12.5% Sensor Power
+      -12.5% Shield Strength
+      -50% Point Defense
       -25% Tactical Movement
-      -50% Moves - Sensors
     </String>
   </StringTable>
 
   <StringTable>
-    <Label>RadiationStorm_Name</Label>
-    <String>
-      Radiation Storm
+    <Label>RadiationStorm_Name</Label><String>
+      Nebula 
+      +25% moves
+      -75% Sensor Power
+      -25% Shield Strength
+      -50% Point Defense
       -25% Hitpoints
-      -50% Moves - Sensors
+      -12.5% Tactical Movement
     </String>
   </StringTable>
 

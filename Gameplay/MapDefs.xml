@@ -128,7 +128,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
     <AscensionGateSpacingMod>0.40</AscensionGateSpacingMod>
     <RelicSpacingMod>0.40</RelicSpacingMod>
     <PirateBaseSpacingMod>0.35</PirateBaseSpacingMod>
-    <PlayerStartToPirateMinRadiusMod>0.3</PlayerStartToPirateMinRadiusMod>
+    <PlayerStartToPirateMinRadiusMod>0.6</PlayerStartToPirateMinRadiusMod>
     <ReduceStarSystemBoundarySize>0</ReduceStarSystemBoundarySize>
     <PirateBaseTightenRadius>1</PirateBaseTightenRadius>
 

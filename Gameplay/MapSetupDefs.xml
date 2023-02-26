@@ -84,45 +84,6 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
   </MapSetup>
   <MapSetup>
     <InternalName>Uncommon</InternalName>
-    <Stars>0.1</Stars>
-    <PlanetFrequencyExp>1.5</PlanetFrequencyExp>
-    <HabitablePlanets>15</HabitablePlanets>
-    <ExtremePlanets>0.02</ExtremePlanets>
-    <Asteroids>0.04</Asteroids>
-    <MinAsteroidGroup>2</MinAsteroidGroup>
-    <MaxAsteroidGroup>4</MaxAsteroidGroup>
-    <PrecursorRelics>0.005</PrecursorRelics>
-    <AscensionGates>0.02</AscensionGates>
-    <MinAscensionGates>3</MinAscensionGates>
-    <Nebula>0.05</Nebula>
-    <BlackHoles>0.015</BlackHoles>
-    <Anomalies>0.02</Anomalies>
-    <PirateBases>0.01</PirateBases>
-    <SpaceMonsterBases>0.004</SpaceMonsterBases>
-    <SentinelBases>0.008</SentinelBases>
-    <ResourceFrequency>
-      <MinablePlanetChance>0.2</MinablePlanetChance>
-      <ThuliumChance>0.2</ThuliumChance>
-      <DurantiumChance>0.2</DurantiumChance>
-      <PromethionChance>0.2</PromethionChance>
-      <MinableAsteroidChance>0.3</MinableAsteroidChance>
-      <MinableNebulaRate>10</MinableNebulaRate>
-      <MinableBlackholeChance>
-        <Weight>100</Weight>
-        <Count>1</Count>
-      </MinableBlackholeChance>
-      <MinableBlackholeChance>
-        <Weight>66</Weight>
-        <Count>2</Count>
-      </MinableBlackholeChance>
-      <MinableBlackholeChance>
-        <Weight>10</Weight>
-        <Count>3</Count>
-      </MinableBlackholeChance>
-    </ResourceFrequency>
-  </MapSetup>
-  <MapSetup>
-    <InternalName>Occasional</InternalName>
     <Stars>0.15</Stars>
     <PlanetFrequencyExp>2.5</PlanetFrequencyExp>
     <HabitablePlanets>25</HabitablePlanets>
@@ -161,7 +122,7 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
     </ResourceFrequency>
   </MapSetup>
   <MapSetup>
-    <InternalName>Common</InternalName>
+    <InternalName>Occasional</InternalName>
     <Stars>0.2</Stars>
     <PlanetFrequencyExp>3.0</PlanetFrequencyExp>
     <HabitablePlanets>30</HabitablePlanets>
@@ -200,7 +161,7 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
     </ResourceFrequency>
   </MapSetup>
   <MapSetup>
-    <InternalName>Abundant</InternalName>
+    <InternalName>Common</InternalName>
     <Stars>0.3</Stars>
     <PlanetFrequencyExp>4.0</PlanetFrequencyExp>
     <HabitablePlanets>40</HabitablePlanets>
@@ -234,6 +195,45 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
       </MinableBlackholeChance>
       <MinableBlackholeChance>
         <Weight>40</Weight>
+        <Count>3</Count>
+      </MinableBlackholeChance>
+    </ResourceFrequency>
+  </MapSetup>
+  <MapSetup>
+    <InternalName>Abundant</InternalName>
+    <Stars>0.3</Stars>
+    <PlanetFrequencyExp>4.0</PlanetFrequencyExp>
+    <HabitablePlanets>40</HabitablePlanets>
+    <ExtremePlanets>0.1</ExtremePlanets>
+    <Asteroids>0.38</Asteroids>
+    <MinAsteroidGroup>2</MinAsteroidGroup>
+    <MaxAsteroidGroup>6</MaxAsteroidGroup>
+    <PrecursorRelics>0.02</PrecursorRelics>
+    <AscensionGates>0.02</AscensionGates>
+    <MinAscensionGates>3</MinAscensionGates>
+    <Nebula>0.51</Nebula>
+    <BlackHoles>0.105</BlackHoles>
+    <Anomalies>0.1</Anomalies>
+    <PirateBases>.03</PirateBases>
+    <SpaceMonsterBases>.015</SpaceMonsterBases>
+    <SentinelBases>.02</SentinelBases>
+    <ResourceFrequency>
+      <MinablePlanetChance>0.8</MinablePlanetChance>
+      <ThuliumChance>0.76</ThuliumChance>
+      <DurantiumChance>0.74</DurantiumChance>
+      <PromethionChance>0.78</PromethionChance>
+      <MinableAsteroidChance>0.5</MinableAsteroidChance>
+      <MinableNebulaRate>32</MinableNebulaRate>
+      <MinableBlackholeChance>
+        <Weight>18</Weight>
+        <Count>1</Count>
+      </MinableBlackholeChance>
+      <MinableBlackholeChance>
+        <Weight>28</Weight>
+        <Count>2</Count>
+      </MinableBlackholeChance>
+      <MinableBlackholeChance>
+        <Weight>38</Weight>
         <Count>3</Count>
       </MinableBlackholeChance>
     </ResourceFrequency>
