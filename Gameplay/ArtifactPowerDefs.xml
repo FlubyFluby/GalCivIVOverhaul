@@ -1364,8 +1364,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>4</RandomDurationMin>
-      <RandomDurationMax>10</RandomDurationMax>
+      <RandomDurationMin>6</RandomDurationMin>
+      <RandomDurationMax>12</RandomDurationMax>
       <Modifier>
         <EffectType>Approval</EffectType>
         <Scope>Global</Scope>
@@ -1420,7 +1420,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>3</ValueParam>
+          <ValueParam>5</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1439,7 +1439,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <ValidTarget>Faction</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <AIPreference>
-      <IgnoreBelowTurn>50</IgnoreBelowTurn>
+      <IgnoreBelowTurn>25</IgnoreBelowTurn>
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1472,7 +1472,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>250</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>3</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
   </ArtifactPower>
@@ -1690,7 +1696,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Modifier>
     </Triggers>
   </ArtifactPower>
-
+<!-- broken-->
   <ArtifactPower>
     <InternalName>TelescopeTakeover</InternalName>
     <DisplayName>TelescopeTakeover_Name</DisplayName>
@@ -1713,20 +1719,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
-      <Modifier>
-        <EffectType>CreditsSpending</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>OneTime</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>-0.5</ValueParam>
-          <StringParam>CreditsPerTurn</StringParam>
-        </SpecialValue>
-      </Modifier>
       <PerformAction>
         <Action>ShowAreaForTurns</Action>
         <ValueParam>12</ValueParam>

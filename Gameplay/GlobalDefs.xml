@@ -23,7 +23,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
     <BaseMiningBaseBuildTime>8</BaseMiningBaseBuildTime>
     <NonStackingEffects>MoveCost</NonStackingEffects>
     <DefaultEjectTile>Northwest</DefaultEjectTile>
-    <RushCostMultiplier>5</RushCostMultiplier>
+    <RushCostMultiplier>4.25</RushCostMultiplier>
     <CapitalImprovement>ColonyCapital</CapitalImprovement>
     <CivilizationCapitalImprovement>CivilizationCapital</CivilizationCapitalImprovement>
     <IdeologyTraitBaseCost>10</IdeologyTraitBaseCost>

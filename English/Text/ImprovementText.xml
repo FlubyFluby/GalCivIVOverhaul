@@ -269,7 +269,14 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <Label>KimbreysRefuge_ShortDec</Label>
     <String>Professor Taylor's Uganda growing techniques produce food on an alien world.</String>
   </StringTable>
- 
+  <StringTable>
+    <Label>FarmingGuild_Name</Label>
+    <String>Farming Guild</String>
+  </StringTable>
+  <StringTable>
+    <Label>FarmingGuild_ShortDec</Label>
+    <String>N/A</String>
+  </StringTable>
   <StringTable>
     <Label>ColonialClinic_Name</Label>
     <String>Colonial Clinic</String>
@@ -969,7 +976,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy1_ShortDec</Label>
-    <String>Provides 5 credits for every 1 wealth in the colony</String>
+    <String>Provides 7 credits for every 1 wealth in the colony</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy2_Name</Label>
@@ -977,7 +984,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy2_ShortDec</Label>
-    <String>Provides 4 credits for every 1 wealth in the colony</String>
+    <String>Provides 6 credits for every 1 wealth in the colony</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy3_Name</Label>
@@ -985,7 +992,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy3_ShortDec</Label>
-    <String>Provides 3 credits for every 1 wealth in the colony</String>
+    <String>Provides 5 credits for every 1 wealth in the colony</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy4_Name</Label>
@@ -993,7 +1000,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy4_ShortDec</Label>
-    <String>Provides 2 credits for every 1 wealth in the colony</String>
+    <String>Provides 4 credits for every 1 wealth in the colony</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy5_Name</Label>
@@ -1001,7 +1008,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy5_ShortDec</Label>
-    <String>Provides 1 credits for every 1 wealth in the colony</String>
+    <String>Provides 3 credits for every 1 wealth in the colony</String>
   </StringTable>
  
   <StringTable>

@@ -292,7 +292,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PrintMoney_Dec</Label>
-    <String>Grants 3 credits for every 1 credit in net income per turn. Reduction in approval is also decided by this. Costs 0.001 control for every 1 credit net income per turn(For 5000 net income, that would equal 5 control cost and 15000 money printed. Can't display it correctly in the ui but it works.</String>
+    <String>Grants 5 credits for every 1 credit in net income per turn. Reduces global approval for between 6 months and a year. Reduction in approval is also decided by this. Costs 0.001 control for every 1 credit net income per turn(For 5000 net income, that would equal 5 control cost and 15000 money printed. </String>
   </StringTable>
  
   <StringTable>
@@ -301,7 +301,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>ExploitNature_Dec</Label>
-    <String>In times of need we can exploit government land of all their resources. This will create a significant pollution problem for a full year.</String>
+    <String>In times of need we can exploit government land of all their resources. This will create a significant pollution problem for a full year. Grants 3 credits for every 1 credit in net income per turn.</String>
   </StringTable>
  
   <StringTable>
