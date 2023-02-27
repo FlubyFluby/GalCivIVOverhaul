@@ -132,7 +132,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>12</RangeMax><!--3 -->
+        <RangeMax>10</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -172,7 +172,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>11</RangeMax><!--3 -->
+        <RangeMax>10</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -212,7 +212,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>11</RangeMax><!--3 -->
+        <RangeMax>9</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -252,7 +252,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>10</RangeMax><!--3 -->
+        <RangeMax>8</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -292,7 +292,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>9</RangeMax><!--3 -->
+        <RangeMax>7</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -331,7 +331,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>9</RangeMax><!--3 -->
+        <RangeMax>7</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -371,7 +371,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>8</RangeMax><!--3 -->
+        <RangeMax>6</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -411,7 +411,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>7</RangeMax><!--3 -->
+        <RangeMax>5</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -451,7 +451,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>6</RangeMax><!--3 -->
+        <RangeMax>4</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -491,7 +491,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>5</RangeMax><!--3 -->
+        <RangeMax>3</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -530,7 +530,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>4</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>
@@ -569,7 +569,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetClassDefs.xsd">
       <Stat>BaseTechnology</Stat>
       <Value>
         <RangeMin>0</RangeMin><!--1 -->
-        <RangeMax>3</RangeMax><!--3 -->
+        <RangeMax>2</RangeMax><!--3 -->
       </Value>
     </StatWeight>
     <StatWeight>

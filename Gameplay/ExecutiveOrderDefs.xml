@@ -216,7 +216,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_TelescopeTakeover</InternalName>
     <ArtifactPowerDef>TelescopeTakeover</ArtifactPowerDef>
-    <ControlCost>2</ControlCost>
+    <ControlCost>1</ControlCost>
     <CreditsCost>250</CreditsCost>
     <CooldownTurns>1</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
@@ -236,8 +236,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ExploitNaturalResources</InternalName>
     <ArtifactPowerDef>ExploitNature</ArtifactPowerDef>
-    <ControlCost>5</ControlCost>
-    <CreditsCost>-250</CreditsCost>
+    <ControlCost>0</ControlCost>
+    <CreditsCost>0</CreditsCost>
     <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>

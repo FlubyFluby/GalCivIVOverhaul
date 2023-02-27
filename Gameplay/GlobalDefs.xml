@@ -2058,7 +2058,7 @@ The Y axis is the resulting price. -->
 	
     <ColonyControlResistanceMod>0.5</ColonyControlResistanceMod>
     <ColonyControlRushCost>1</ColonyControlRushCost>
-    <ShipyardControlRushCost>1</ShipyardControlRushCost>
+    <ShipyardControlRushCost>1.25</ShipyardControlRushCost>
 
     <ColonyControlActionDefs>
       <UniqueID>EnforceLaw</UniqueID>

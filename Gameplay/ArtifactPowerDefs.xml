@@ -1399,7 +1399,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.001</ValueParam>
+          <ValueParam>-0.002</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1420,7 +1420,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>5</ValueParam>
+          <ValueParam>4</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1465,6 +1465,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.001</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
       <Lifetime>Instant</Lifetime>
       <Modifier>
         <EffectType>Credits</EffectType>
@@ -1476,7 +1497,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>3</ValueParam>
+          <ValueParam>2</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1500,8 +1521,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>20</RandomDurationMin>
-      <RandomDurationMax>20</RandomDurationMax>
+      <RandomDurationMin>6</RandomDurationMin>
+      <RandomDurationMax>12</RandomDurationMax>
       <Modifier>
         <EffectType>Loyalty</EffectType>
         <Scope>Global</Scope>
@@ -1510,9 +1531,46 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetQualifier>GovernorOnlyNotSovereign</TargetQualifier>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>-12</Value>
+        <Value>-20</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>Loyalty</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Unit</TargetType>
+          <TargetQualifier>GovernorOnlyNotSovereign</TargetQualifier>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.075</ValueParam>
+          <StringParam>Control</StringParam>
+        </SpecialValue>
       </Modifier>
       <SourceDisplayName>ExhortGovernors_Name</SourceDisplayName>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.1</ValueParam>
+          <StringParam>Control</StringParam>
+        </SpecialValue>
+      </Modifier>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1520,6 +1578,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.1</ValueParam>
+          <StringParam>Credits</StringParam>
+        </SpecialValue>
+      </Modifier>
       <PerformAction>
         <Action>GiveExhortGovernorCreditReward</Action>
       </PerformAction>
@@ -1633,7 +1705,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>25</RandomDurationMin>
+      <RandomDurationMin>10</RandomDurationMin>
       <RandomDurationMax>25</RandomDurationMax>
       <Modifier>
         <EffectType>ColonySponsorDecayMod</EffectType>
@@ -1641,7 +1713,27 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Colony</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>0.5</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.002</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+      <Modifier>
+        <EffectType>CreditsPerTurn</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.05</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
       </Modifier>
       <SourceDisplayName>ColonialSupplies_Name</SourceDisplayName>
     </Triggers>
