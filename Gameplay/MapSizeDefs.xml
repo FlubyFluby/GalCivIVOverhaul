@@ -5,40 +5,40 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSizeDefs.xsd">
   <!--Before changing the map sizes, copy these values into another xml file and rename the InternalNames to have the current version number at the end, then update the comment with the map size version -->
 	<MapSize>
 		<InternalName>Tiny</InternalName>
-		<Width>416</Width>
-		<Height>416</Height>
+		<Width>832</Width>
+		<Height>832</Height>
     <Sectors>
-      <MinSectors>1</MinSectors>
-      <MaxSectors>1</MaxSectors>
-      <AbyssRadius>0</AbyssRadius>
+      <MinSectors>4</MinSectors>
+      <MaxSectors>8</MaxSectors>
+      <AbyssRadius>120</AbyssRadius>
       <SectorsOfSizeCount>
         <UniqueID>Tiny</UniqueID>
-        <MinCount>2</MinCount>
-        <MaxCount>4</MaxCount>
+        <MinCount>0</MinCount>
+        <MaxCount>2</MaxCount>
       </SectorsOfSizeCount>
       <SectorsOfSizeCount>
         <UniqueID>Small</UniqueID>
-        <MinCount>1</MinCount>
+        <MinCount>0</MinCount>
         <MaxCount>3</MaxCount>
       </SectorsOfSizeCount>
       <SectorsOfSizeCount>
         <UniqueID>Medium</UniqueID>
         <MinCount>1</MinCount>
-        <MaxCount>2</MaxCount>
+        <MaxCount>4</MaxCount>
       </SectorsOfSizeCount>
       <SectorsOfSizeCount>
         <UniqueID>Large</UniqueID>
         <MinCount>1</MinCount>
-        <MaxCount>1</MaxCount>
+        <MaxCount>5</MaxCount>
       </SectorsOfSizeCount>
       <SectorsOfSizeCount>
         <UniqueID>Huge</UniqueID>
-        <MinCount>1</MinCount>
-        <MaxCount>1</MaxCount>
+        <MinCount>2</MinCount>
+        <MaxCount>6</MaxCount>
       </SectorsOfSizeCount>
     </Sectors>
-		<Base>800</Base>
-		<MaxHabitablePlanets>100</MaxHabitablePlanets>
+		<Base>1100</Base>
+		<MaxHabitablePlanets>120</MaxHabitablePlanets>
 		<MinPrecursorPlanets>3</MinPrecursorPlanets>
 		<PrecursorPlanetPercentOfHabitable>0.01</PrecursorPlanetPercentOfHabitable>
 		<StarboxDef>DefaultStarbox</StarboxDef>
@@ -49,91 +49,93 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSizeDefs.xsd">
 	</MapSize>
 	<MapSize>
 		<InternalName>Small</InternalName>
-		<Width>1656</Width>
-		<Height>1656</Height>
+		<Width>1248</Width>
+		<Height>1248</Height>
 		<Sectors>
-      <MinSectors>2</MinSectors>
-      <MaxSectors>2</MaxSectors>
-      <AbyssRadius>0</AbyssRadius>
-      <SectorsOfSizeCount>
-        <UniqueID>Tiny</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>5</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Small</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>5</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Medium</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>5</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Large</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>0</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Huge</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>0</MaxCount>
-      </SectorsOfSizeCount>
-    </Sectors>
-		<Base>1100</Base>
-		<MaxHabitablePlanets>200</MaxHabitablePlanets>
-		<MinPrecursorPlanets>4</MinPrecursorPlanets>
+			<MinSectors>8</MinSectors>
+			<MaxSectors>12</MaxSectors>
+			<AbyssRadius>140</AbyssRadius>
+			<SectorsOfSizeCount>
+			  <UniqueID>Tiny</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>1</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Small</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>2</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Medium</UniqueID>
+			  <MinCount>1</MinCount>
+			  <MaxCount>4</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Large</UniqueID>
+			  <MinCount>3</MinCount>
+			  <MaxCount>6</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Huge</UniqueID>
+			  <MinCount>5</MinCount>
+			  <MaxCount>8</MaxCount>
+			</SectorsOfSizeCount>
+		  </Sectors>
+		<Base>1200</Base>
+		<MaxHabitablePlanets>280</MaxHabitablePlanets>
+		<MinPrecursorPlanets>13</MinPrecursorPlanets>
 		<PrecursorPlanetPercentOfHabitable>0.01</PrecursorPlanetPercentOfHabitable>
 		<StarboxDef>DefaultStarbox</StarboxDef>
 		<MinCameraZoom>150.0</MinCameraZoom>
-		<MaxCameraZoom>80000.0</MaxCameraZoom>
-		<MainMapCameraNearPlaneZoomLevel>0.997</MainMapCameraNearPlaneZoomLevel>
-		<NumAscensionPointsForVictory>5000</NumAscensionPointsForVictory>
+		<MaxCameraZoom>230000.0</MaxCameraZoom>
+		<MainMapCameraNearPlaneZoomLevel>0.9995</MainMapCameraNearPlaneZoomLevel>
+		<MinMapBoundOffsetY>-1000</MinMapBoundOffsetY>
+		<NumAscensionPointsForVictory>8000</NumAscensionPointsForVictory>
 	</MapSize>
 	<MapSize>
 		<InternalName>Medium</InternalName>
-		<Width>2208</Width>
-		<Height>2208</Height>
+		<Width>1664</Width>
+		<Height>1664</Height>
 		<Sectors>
-			<MinSectors>4</MinSectors>
-			<MaxSectors>5</MaxSectors>
-			<AbyssRadius>0</AbyssRadius>
+			<MinSectors>13</MinSectors>
+			<MaxSectors>18</MaxSectors>
+			<AbyssRadius>160</AbyssRadius>
 			<SectorsOfSizeCount>
-				<UniqueID>Tiny</UniqueID>
-				<MinCount>1</MinCount>
-				<MaxCount>5</MaxCount>
+			  <UniqueID>Tiny</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>2</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
-				<UniqueID>Small</UniqueID>
-				<MinCount>2</MinCount>
-				<MaxCount>10</MaxCount>
+			  <UniqueID>Small</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>4</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
-				<UniqueID>Medium</UniqueID>
-				<MinCount>1</MinCount>
-				<MaxCount>10</MaxCount>
+			  <UniqueID>Medium</UniqueID>
+			  <MinCount>2</MinCount>
+			  <MaxCount>6</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
-				<UniqueID>Large</UniqueID>
-				<MinCount>0</MinCount>
-				<MaxCount>5</MaxCount>
+			  <UniqueID>Large</UniqueID>
+			  <MinCount>4</MinCount>
+			  <MaxCount>8</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
-				<UniqueID>Huge</UniqueID>
-				<MinCount>0</MinCount>
-				<MaxCount>0</MaxCount>
+			  <UniqueID>Huge</UniqueID>
+			  <MinCount>6</MinCount>
+			  <MaxCount>10</MaxCount>
 			</SectorsOfSizeCount>
-		</Sectors>
-		<Base>1200</Base>
-		<MaxHabitablePlanets>300</MaxHabitablePlanets>
-		<MinPrecursorPlanets>5</MinPrecursorPlanets>
+		  </Sectors>
+		<Base>1300</Base>
+		<MaxHabitablePlanets>340</MaxHabitablePlanets>
+		<MinPrecursorPlanets>13</MinPrecursorPlanets>
 		<PrecursorPlanetPercentOfHabitable>0.01</PrecursorPlanetPercentOfHabitable>
 		<StarboxDef>DefaultStarbox</StarboxDef>
 		<MinCameraZoom>150.0</MinCameraZoom>
-		<MaxCameraZoom>120000.0</MaxCameraZoom>
-		<MainMapCameraNearPlaneZoomLevel>0.9982</MainMapCameraNearPlaneZoomLevel>
-		<NumAscensionPointsForVictory>6000</NumAscensionPointsForVictory>
+		<MaxCameraZoom>230000.0</MaxCameraZoom>
+		<MainMapCameraNearPlaneZoomLevel>0.9995</MainMapCameraNearPlaneZoomLevel>
+		<MinMapBoundOffsetY>-1000</MinMapBoundOffsetY>
+		<NumAscensionPointsForVictory>8000</NumAscensionPointsForVictory>
 	</MapSize>
 <!--	<MapSize>
 		<InternalName>Large</InternalName>
@@ -153,46 +155,47 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSizeDefs.xsd">
 	</MapSize> -->
 	<MapSize>
 		<InternalName>Huge</InternalName>
-		<Width>2288</Width>
-		<Height>2288</Height>
-    <Sectors>
-      <MinSectors>8</MinSectors>
-      <MaxSectors>12</MaxSectors>
-      <AbyssRadius>100</AbyssRadius>
-      <SectorsOfSizeCount>
-        <UniqueID>Tiny</UniqueID>
-        <MinCount>1</MinCount>
-        <MaxCount>8</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Small</UniqueID>
-        <MinCount>3</MinCount>
-        <MaxCount>12</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Medium</UniqueID>
-        <MinCount>1</MinCount>
-        <MaxCount>8</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Large</UniqueID>
-        <MinCount>1</MinCount>
-        <MaxCount>6</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Huge</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>4</MaxCount>
-      </SectorsOfSizeCount>
-    </Sectors>
-		<Base>1300</Base>
+		<Width>2496</Width>
+		<Height>2496</Height>
+		<Sectors>
+			<MinSectors>18</MinSectors>
+			<MaxSectors>24</MaxSectors>
+			<AbyssRadius>180</AbyssRadius>
+			<SectorsOfSizeCount>
+			  <UniqueID>Tiny</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>4</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Small</UniqueID>
+			  <MinCount>1</MinCount>
+			  <MaxCount>6</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Medium</UniqueID>
+			  <MinCount>3</MinCount>
+			  <MaxCount>8</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Large</UniqueID>
+			  <MinCount>5</MinCount>
+			  <MaxCount>10</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Huge</UniqueID>
+			  <MinCount>7</MinCount>
+			  <MaxCount>12</MaxCount>
+			</SectorsOfSizeCount>
+		  </Sectors>
+		<Base>1400</Base>
 		<MaxHabitablePlanets>500</MaxHabitablePlanets>
-		<MinPrecursorPlanets>10</MinPrecursorPlanets>
+		<MinPrecursorPlanets>13</MinPrecursorPlanets>
 		<PrecursorPlanetPercentOfHabitable>0.01</PrecursorPlanetPercentOfHabitable>
 		<StarboxDef>DefaultStarbox</StarboxDef>
 		<MinCameraZoom>150.0</MinCameraZoom>
-		<MaxCameraZoom>140000.0</MaxCameraZoom>
-		<MainMapCameraNearPlaneZoomLevel>0.999</MainMapCameraNearPlaneZoomLevel>
+		<MaxCameraZoom>240000.0</MaxCameraZoom>
+		<MainMapCameraNearPlaneZoomLevel>0.9995</MainMapCameraNearPlaneZoomLevel>
+		<MinMapBoundOffsetY>-1000</MinMapBoundOffsetY>
 		<NumAscensionPointsForVictory>8000</NumAscensionPointsForVictory>
 	</MapSize>
 <!--	<MapSize>
@@ -213,47 +216,47 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSizeDefs.xsd">
 	</MapSize> -->
 	<MapSize>
 		<InternalName>Immense</InternalName>
-		<Width>2928</Width>
-		<Height>2928</Height>
-    <Sectors>
-      <MinSectors>24</MinSectors>
-      <MaxSectors>36</MaxSectors>
-      <AbyssRadius>200</AbyssRadius>
-      <SectorsOfSizeCount>
-        <UniqueID>Tiny</UniqueID>
-        <MinCount>10</MinCount>
-        <MaxCount>30</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Small</UniqueID>
-        <MinCount>12</MinCount>
-        <MaxCount>42</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Medium</UniqueID>
-        <MinCount>6</MinCount>
-        <MaxCount>22</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Large</UniqueID>
-        <MinCount>0</MinCount>
-        <MaxCount>8</MaxCount>
-      </SectorsOfSizeCount>
-      <SectorsOfSizeCount>
-        <UniqueID>Huge</UniqueID>
-        <MinCount>1</MinCount>
-        <MaxCount>6</MaxCount>
-      </SectorsOfSizeCount>
-    </Sectors>
-		<Base>1500</Base>
-		<MaxHabitablePlanets>640</MaxHabitablePlanets>
-		<MinPrecursorPlanets>16</MinPrecursorPlanets>
+		<Width>3328</Width>
+		<Height>3328</Height>
+		<Sectors>
+			<MinSectors>20</MinSectors>
+			<MaxSectors>32</MaxSectors>
+			<AbyssRadius>200</AbyssRadius>
+			<SectorsOfSizeCount>
+			  <UniqueID>Tiny</UniqueID>
+			  <MinCount>0</MinCount>
+			  <MaxCount>6</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Small</UniqueID>
+			  <MinCount>2</MinCount>
+			  <MaxCount>8</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Medium</UniqueID>
+			  <MinCount>4</MinCount>
+			  <MaxCount>10</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Large</UniqueID>
+			  <MinCount>6</MinCount>
+			  <MaxCount>12</MaxCount>
+			</SectorsOfSizeCount>
+			<SectorsOfSizeCount>
+			  <UniqueID>Huge</UniqueID>
+			  <MinCount>8</MinCount>
+			  <MaxCount>14</MaxCount>
+			</SectorsOfSizeCount>
+		  </Sectors>
+		<Base>1400</Base>
+		<MaxHabitablePlanets>660</MaxHabitablePlanets>
+		<MinPrecursorPlanets>15</MinPrecursorPlanets>
 		<PrecursorPlanetPercentOfHabitable>0.01</PrecursorPlanetPercentOfHabitable>
 		<StarboxDef>DefaultStarbox</StarboxDef>
 		<MinCameraZoom>150.0</MinCameraZoom>
-		<MaxCameraZoom>270000.0</MaxCameraZoom>
-		<MainMapCameraNearPlaneZoomLevel>0.9996</MainMapCameraNearPlaneZoomLevel>
-		<MinMapBoundOffsetY>-2000</MinMapBoundOffsetY>
+		<MaxCameraZoom>260000.0</MaxCameraZoom>
+		<MainMapCameraNearPlaneZoomLevel>0.9995</MainMapCameraNearPlaneZoomLevel>
+		<MinMapBoundOffsetY>-1500</MinMapBoundOffsetY>
 		<NumAscensionPointsForVictory>10000</NumAscensionPointsForVictory>
 	</MapSize>
 </MapSizes>
