@@ -1082,21 +1082,18 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>2</RandomDurationMin>
-      <RandomDurationMax>4</RandomDurationMax>
       <Modifier>
-        <EffectType>Approval</EffectType>
-        <Scope>Global</Scope>
+        <EffectType>Control</EffectType>
         <Target>
-          <TargetType>Unit</TargetType>
+          <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
         <ValueType>Special</ValueType>
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.002</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
+          <ValueParam>-0.5</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
@@ -1132,21 +1129,18 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>4</RandomDurationMin>
-      <RandomDurationMax>8</RandomDurationMax>
       <Modifier>
-        <EffectType>Approval</EffectType>
-        <Scope>Global</Scope>
+        <EffectType>Control</EffectType>
         <Target>
-          <TargetType>Unit</TargetType>
+          <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
         <ValueType>Special</ValueType>
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.002</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
+          <ValueParam>-1.25</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
@@ -1187,21 +1181,18 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>8</RandomDurationMin>
-      <RandomDurationMax>16</RandomDurationMax>
       <Modifier>
-        <EffectType>Approval</EffectType>
-        <Scope>Global</Scope>
+        <EffectType>Control</EffectType>
         <Target>
-          <TargetType>Unit</TargetType>
+          <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
         <ValueType>Special</ValueType>
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.002</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
+          <ValueParam>-2.5</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
@@ -1320,7 +1311,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Colony</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>0.03</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.005</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
       </Modifier>
       <SourceDisplayName>IllicitDeals_Name</SourceDisplayName>
     </Triggers>
@@ -1336,7 +1333,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Faction</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>600</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>200</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
       </Modifier>
     </Triggers>
   </ArtifactPower>
@@ -1353,7 +1356,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <ValidTarget>Faction</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <AIPreference>
-      <IgnoreBelowTurn>1000</IgnoreBelowTurn>
+      <IgnoreBelowTurn>25</IgnoreBelowTurn>
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1361,22 +1364,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <RandomDurationMin>5</RandomDurationMin>
-      <RandomDurationMax>20</RandomDurationMax>
-      <Modifier>
-        <EffectType>Control</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>-0.2</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
-        </SpecialValue>
-      </Modifier>
+      <RandomDurationMin>4</RandomDurationMin>
+      <RandomDurationMax>10</RandomDurationMax>
       <Modifier>
         <EffectType>Approval</EffectType>
         <Scope>Global</Scope>
@@ -1388,11 +1377,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.002</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
+          <ValueParam>-0.001</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
       <SourceDisplayName>PrintMoney_Name</SourceDisplayName>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.001</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1410,8 +1420,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>50</ValueParam>
-          <StringParam>AdministratorCount</StringParam>
+          <ValueParam>3</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
     </Triggers>
@@ -1644,10 +1654,40 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <ValidRelation>Any</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <PerformAction>
-        <Action>AwardResearchAmount</Action>
-        <ValueParam>50</ValueParam>
-      </PerformAction>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <RandomDurationMin>3</RandomDurationMin>
+      <RandomDurationMax>6</RandomDurationMax>
+      <Modifier>
+        <EffectType>CreditsSpending</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.25</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+      <Modifier>
+        <EffectType>Research</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>2</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
     </Triggers>
   </ArtifactPower>
 
@@ -1673,6 +1713,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CreditsSpending</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>OneTime</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.5</ValueParam>
+          <StringParam>CreditsPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
       <PerformAction>
         <Action>ShowAreaForTurns</Action>
         <ValueParam>12</ValueParam>
@@ -1687,6 +1741,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <StringParam>FXScan</StringParam>
       </PerformAction>
     </Triggers>
+  
   </ArtifactPower>
 
   <ArtifactPower>

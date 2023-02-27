@@ -249,7 +249,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft1Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide a free Colony ship.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide a free Colony ship, costs 50% of your control per turn.</String>
   </StringTable>
   <StringTable>
     <Label>Draft2Colonists_Name</Label>
@@ -257,7 +257,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft2Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide 2 free Colony ships.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 2 free Colony ships, costs 125% of your control per turn. Isn't available until you have 15 core worlds.</String>
   </StringTable>
   <StringTable>
     <Label>Draft3Colonists_Name</Label>
@@ -265,7 +265,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft3Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide 3 free Colony ships.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 3 free Colony ships, costs 250% of your control per turn. Isn't available until you have 30 core worlds.</String>
   </StringTable>
  
   <StringTable>
@@ -283,7 +283,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>IllicitDeals_Dec</Label>
-    <String>There are those that want our favor, and are happy to pay for it. This will provide Credits but increase [HS=HS_Crime]Crime[/HS] across our civilization.</String>
+    <String>Grants 200 credits for every 1 control net income per turn. Increases crime by 0.005 for every 1 control net income.(at 10 control per turn, that would mean 1500 credits gained and 5% crime increase(globally)</String>
   </StringTable>
  
   <StringTable>
@@ -292,7 +292,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PrintMoney_Dec</Label>
-    <String>Printing money can provide short-term wealth at the cost of inflation which lowers approval for a few months</String>
+    <String>Grants 3 credits for every 1 credit in net income per turn. Reduction in approval is also decided by this. Costs 0.001 control for every 1 credit net income per turn(For 5000 net income, that would equal 5 control cost and 15000 money printed. Can't display it correctly in the ui but it works.</String>
   </StringTable>
  
   <StringTable>
@@ -363,7 +363,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PressureScientists_Dec</Label>
-    <String>Putting pressure on our scientists will result in an immediate +50 [HS=HS_Research]Research[/HS].</String>
+    <String>Putting pressure on our scientists will result in 2 [HS=HS_Research]Research[/HS] per howmuch control per turn you get, each turn for 3-6 turns at a cost of 25% of you per turn income for the same duration.</String>
   </StringTable>
  
   <StringTable>
@@ -372,7 +372,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TelescopeTakeover_Dec</Label>
-    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs the equivalent of 12.5% of our economic power in credits.
+    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs half your credits per turn. E.G if you earn 300 credits net per turn it costs 150
 [COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
   </StringTable>
  

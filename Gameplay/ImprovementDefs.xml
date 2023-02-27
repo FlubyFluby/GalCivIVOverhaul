@@ -3347,7 +3347,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <ValueParam>0</ValueParam>
         <ValueParam>0.25</ValueParam> 
         <StringParam>PlanetClass</StringParam>
-      </SpecialValue></LevelEffectStats>
+      </SpecialValue>
+    </LevelEffectStats>
     <LevelEffectStats>
       <EffectType>InfluencePerTurn</EffectType>
       <Target>
