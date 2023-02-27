@@ -21294,7 +21294,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>-0.003</ValueParam>
+        <ValueParam>-0.002</ValueParam>
         <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </Stats>

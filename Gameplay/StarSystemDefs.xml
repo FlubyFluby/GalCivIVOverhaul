@@ -457,8 +457,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>2</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -856,7 +856,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -956,7 +956,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>3</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -1149,18 +1149,18 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -1188,18 +1188,18 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>3</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -1227,7 +1227,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
@@ -1236,18 +1236,18 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -1280,7 +1280,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <Body>
           <BodyType>Planet</BodyType>
           <BodyDef>Planet_Promethion</BodyDef>
-          <MinCount>1</MinCount>
+          <MinCount>0</MinCount>
           <MaxCount>2</MaxCount>
         </Body>
       </OrbitLane>
@@ -1292,7 +1292,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
           <BodyType>Planet</BodyType>
           <BodyDef>Planet_Promethion</BodyDef>
           <MinCount>0</MinCount>
-          <MaxCount>1</MaxCount>
+          <MaxCount>2</MaxCount>
         </Body>
       </OrbitLane>
       <OrbitLane>
@@ -1303,7 +1303,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>2</MaxPlanets>
+        <MaxPlanets>3</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
@@ -1334,7 +1334,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <Body>
           <BodyType>Planet</BodyType>
           <BodyDef>Planet_Durantium</BodyDef>
-          <MinCount>1</MinCount>
+          <MinCount>0</MinCount>
           <MaxCount>2</MaxCount>
         </Body>
       </OrbitLane>
@@ -1343,12 +1343,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <MinPlanets>0</MinPlanets>
         <MaxPlanets>1</MaxPlanets>
         <Body>
-          <BodyType>Asteroid</BodyType>
-          <BodyDef>NormalAsteroid</BodyDef>
-        </Body>
-        <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>Planet_Durantium</BodyDef>
+          <BodyDef>Planet_Promethion</BodyDef>
           <MinCount>0</MinCount>
           <MaxCount>1</MaxCount>
         </Body>
@@ -1360,8 +1356,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>3</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
     </StarSystem>
  
@@ -1402,9 +1398,9 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <LaneType>DeadZone</LaneType>
         <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>Planet_Durantium</BodyDef>
-          <MinCount>1</MinCount>
-          <MaxCount>2</MaxCount>
+          <BodyDef>Planet_Promethion</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
         </Body>
       </OrbitLane>
       <OrbitLane>
@@ -1414,7 +1410,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>3</MaxPlanets>
       </OrbitLane>
     </StarSystem>
@@ -1447,8 +1443,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>3</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
     </StarSystem>
  
@@ -1470,7 +1466,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
@@ -1488,8 +1484,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>2</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
       </OrbitLane>
     </StarSystem>
  
@@ -1521,7 +1517,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
     </StarSystem>
@@ -1541,12 +1537,12 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>3</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
@@ -1555,25 +1551,33 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
         </Body>
-      </OrbitLane>
-      <OrbitLane>
-        <LaneType>DeadZone</LaneType>
         <Body>
           <BodyType>Planet</BodyType>
           <BodyDef>Planet_Thulium</BodyDef>
-          <MinCount>1</MinCount>
+          <MinCount>0</MinCount>
+          <MaxCount>2</MaxCount>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Thulium</BodyDef>
+          <MinCount>0</MinCount>
           <MaxCount>2</MaxCount>
         </Body>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>3</MaxPlanets>
         <Body>
           <BodyType>Planet</BodyType>
@@ -1599,12 +1603,12 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>1</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
@@ -1613,7 +1617,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
@@ -1622,26 +1626,43 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
         <Body>
           <BodyType>Planet</BodyType>
           <BodyDef>Planet_Thulium</BodyDef>
           <MinCount>0</MinCount>
-          <MaxCount>1</MaxCount>
+          <MaxCount>3</MaxCount>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Durantium</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>2</MaxCount>
         </Body>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
         </Body>
         <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>Planet_Thulium</BodyDef>
-          <MinCount>1</MinCount>
-          <MaxCount>2</MaxCount>
+          <BodyDef>Planet_Promethion</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
         </Body>
       </OrbitLane>
     </StarSystem>
@@ -1661,22 +1682,34 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Promethion</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>3</MaxPlanets>
-      </OrbitLane>
-      <OrbitLane>
-        <LaneType>HabitableZone</LaneType>
-        <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
-      </OrbitLane>
-      <OrbitLane>
-        <LaneType>HabitableZone</LaneType>
-        <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Promethion</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
+        </Body>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>3</MaxPlanets>
       </OrbitLane>
     </StarSystem>
@@ -1696,23 +1729,28 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
+        <MinPlanets>0</MinPlanets>
         <MaxPlanets>3</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
+        <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
         <MinPlanets>0</MinPlanets>
         <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>OuterZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>3</MaxPlanets>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
       </OrbitLane>
     </StarSystem>
  

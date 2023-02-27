@@ -372,8 +372,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TelescopeTakeover_Dec</Label>
-    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs half your credits per turn. E.G if you earn 300 credits net per turn it costs 150
-[COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
+    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs a quarter of your credits per turn. E.G if you earn 400 credits net per turn it costs 100 [COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
   </StringTable>
  
   <StringTable>
