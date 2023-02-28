@@ -58,10 +58,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Terran_Appearance</Appearance>
     <ShipStyleSet>TerranAllianceShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Terran</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -128,10 +128,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Festron_Appearance</Appearance>
     <ShipStyleSet>FestronShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Festron</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>20</Military>
@@ -199,10 +199,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Navigator_Appearance</Appearance>
     <ShipStyleSet>NavigatorsShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Navigators</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -270,10 +270,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Mimot_Appearance</Appearance>
     <ShipStyleSet>MimotShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Mimot</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>22</Military>
@@ -340,10 +340,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Xeloxi_Appearance</Appearance>
     <ShipStyleSet>XeloxiShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Xeloxi</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>22</Military>
@@ -410,10 +410,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Arcean_Appearance</Appearance>
     <ShipStyleSet>ArceanShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Arcean</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.6</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>24</Military>
@@ -482,10 +482,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Drengin_Appearance</Appearance>
     <ShipStyleSet>DrenginShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Drengin</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>150</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>22</Military>
@@ -554,10 +554,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Altarian_Appearance</Appearance>
     <ShipStyleSet>AltarianShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Altarian</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>85</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -626,10 +626,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Yor_Appearance</Appearance>
     <ShipStyleSet>YorShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Yor</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.8</DefaultResistance>
-    <InfluenceTallyInit>8</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>22</Military>
@@ -694,10 +694,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Torian_Appearance</Appearance>
     <ShipStyleSet>TorianShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Torian</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -764,10 +764,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Manti_Appearance</Appearance>
     <ShipStyleSet>MantiShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Manti</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -835,10 +835,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Krynn_Appearance</Appearance>
     <ShipStyleSet>KrynnShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Krynn</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>95</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>9</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>16</Military>
@@ -907,10 +907,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Iconian_Appearance</Appearance>
     <ShipStyleSet>IconianShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Iconian</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>16</Military>
@@ -977,10 +977,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Drath_Appearance</Appearance>
     <ShipStyleSet>DrathShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Drath</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -1048,10 +1048,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Iridium_Appearance</Appearance>
     <ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Iridium</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>80</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>16</Military>
@@ -1117,10 +1117,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Onyx_Appearance</Appearance>
     <ShipStyleSet>OnyxShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Onyx</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.6</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>22</Military>
@@ -1186,10 +1186,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Baratak_Appearance</Appearance>
     <ShipStyleSet>BaratakShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Baratak</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>24</Military>
@@ -1257,10 +1257,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Resistance_Appearance_R</Appearance>
     <ShipStyleSet>ResistanceShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Resistance</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -1320,10 +1320,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Appearance>Rebellion_Appearance</Appearance>
     <ShipStyleSet>TerranShipStyleSet</ShipStyleSet>
     <CommanderShipSet>CommanderShipSet_Terran</CommanderShipSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.25</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
     <StartingColonyPopulation>5</StartingColonyPopulation>
     <AICategoryWeight>
       <Military>18</Military>
@@ -1379,7 +1379,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_00_Light</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>PirateShipStyleSet</ShipStyleSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
     <AICategoryWeight>
@@ -1440,7 +1440,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>PrecursorShipStyleSet</ShipStyleSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
     <AICategoryWeight>
@@ -1500,7 +1500,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_06</Surface2>
     <Appearance>Swamp</Appearance>
     <ShipStyleSet>SpaceMonsterShipStyleSet</ShipStyleSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
     <AICategoryWeight>
@@ -1558,7 +1558,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_06</Surface2>
     <Appearance>Drengin_Appearance</Appearance>
     <ShipStyleSet>DreadlordsShipStyleSet</ShipStyleSet>
-    <CreditsInit>1000</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>90</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
     <AICategoryWeight>
@@ -1610,11 +1610,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>KrynnShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>Research</Stat>
       <Amount>2</Amount>
@@ -1686,11 +1686,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>PirateShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>Research</Stat>
       <Amount>2</Amount>
@@ -1760,11 +1760,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>AltarianShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>ControlPerTurn</Stat>
       <Amount>1</Amount>
@@ -1834,11 +1834,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>MantiShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>ControlPerTurn</Stat>
       <Amount>1</Amount>
@@ -1908,11 +1908,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>ArceanShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>ControlPerTurn</Stat>
       <Amount>1</Amount>
@@ -1982,11 +1982,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
     <Surface2>Default_Surface_02</Surface2>
     <Appearance>Steel</Appearance>
     <ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
-    <CreditsInit>0</CreditsInit>
+    <CreditsInit>5000</CreditsInit>
     <WarEnduranceInit>100</WarEnduranceInit>
     <DefaultResistance>0.5</DefaultResistance>
-    <InfluenceTallyInit>10</InfluenceTallyInit>
-    <StartingColonyPopulation>1</StartingColonyPopulation>
+    <InfluenceTallyInit>25</InfluenceTallyInit>
+    <StartingColonyPopulation>5</StartingColonyPopulation>
     <MinorTradeAgreementOptions>
       <Stat>Research</Stat>
       <Amount>2</Amount>

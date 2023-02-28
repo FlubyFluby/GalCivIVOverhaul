@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
 				<TargetType>Shipyard</TargetType>
 			</Target>
 			<BonusType>Flat</BonusType>
-			<Value>36</Value>
+			<Value>40</Value>
 		</Stats>
 		<Stats>
 			<EffectType>HitPointsCap</EffectType>
@@ -101,7 +101,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
 				<TargetType>Shipyard</TargetType>
 			</Target>
 			<BonusType>Flat</BonusType>
-			<Value>6</Value>
+			<Value>10</Value>
 		</Stats>
     <Stats>
       <EffectType>ShipRange</EffectType>
@@ -109,7 +109,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>18</Value>
     </Stats>
     <Stats>
       <EffectType>MovesCap</EffectType>
@@ -117,7 +117,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2</Value>
     </Stats>
 
     <Stats>

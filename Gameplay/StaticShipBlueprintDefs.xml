@@ -2318,16 +2318,20 @@ xsi:noNamespaceSchemaLocation="../Schema/StaticShipBlueprintDefs.xsd">
   <StaticShipBlueprint>
     <InternalName>StaticBlueprint_Pollen</InternalName>
     <DisplayName>Pollen</DisplayName>
-    <ShipHullType>Small</ShipHullType>
+    <ShipHullType>Medium</ShipHullType>
     <Role>Assault</Role>
     <CanBeBuilt>false</CanBeBuilt>
     <IgnoreTechPrereqs>true</IgnoreTechPrereqs>
     <IgnoreResourceCost>true</IgnoreResourceCost>
     <ShipComponents>CommandShipModule</ShipComponents>
+    <ShipComponents>Component_Moves2</ShipComponents>
     <ShipComponents>Component_ExperimentalLaser</ShipComponents>
-    <ShipComponents>Component_ExperimentalLaser</ShipComponents>
-    <ShipComponents>Component_Growth30</ShipComponents>
-    <ShipComponents>Component_Food30</ShipComponents>
+    <ShipComponents>Component_ExperimentalMissile</ShipComponents>
+    <ShipComponents>Component_ExperimentalKinetic</ShipComponents>
+    <ShipComponents>TitaniumPlating</ShipComponents>
+    <ShipComponents>BarrierFields</ShipComponents>
+    <ShipComponents>Component_Growth15</ShipComponents>
+    <ShipComponents>Component_Food15</ShipComponents>
   </StaticShipBlueprint>
  
   <StaticShipBlueprint>

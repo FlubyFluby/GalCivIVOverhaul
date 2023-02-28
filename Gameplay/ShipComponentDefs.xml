@@ -7143,6 +7143,80 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
   </ShipComponent>
  
   <ShipComponent>
+    <InternalName>Component_Growth20</InternalName>
+    <DisplayName>Component_Growth20_Name</DisplayName>
+    <Description>Component_Growth20_Dec</Description>
+    <ArtDefine>Colony_01</ArtDefine>
+    <Category>Modules</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>AbilityModule</Type>
+    <PlacementType>Module</PlacementType>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Growth</EffectType>
+      <Scope>AreaEffect</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <TargetQualifier>InOwnersZOC</TargetQualifier>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>Component_Food20</InternalName>
+    <DisplayName>Component_Food20_Name</DisplayName>
+    <Description>Component_Food20_Dec</Description>
+    <ArtDefine>Colony_01</ArtDefine>
+    <Category>Modules</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>AbilityModule</Type>
+    <PlacementType>Module</PlacementType>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>FoodIncome</EffectType>
+      <Scope>AreaEffect</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <TargetQualifier>InOwnersZOC</TargetQualifier>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
     <InternalName>Component_Decay50</InternalName>
     <DisplayName>Component_Decay50_Name</DisplayName>
     <Description>Component_Decay50_Dec</Description>

@@ -859,7 +859,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PolicyDefs.xsd">
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>1</Value>
+        <Value>2</Value>
       </Modifier>
       <SourceDisplayName>Policy_ExperimentalDrives_Name</SourceDisplayName>
       <DescriptionText>Policy_ExperimentalDrives_Dec</DescriptionText>
@@ -2617,7 +2617,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PolicyDefs.xsd">
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>1</Value>
+        <Value>2</Value>
       </Modifier>
       <SourceDisplayName>Policy_Telenavigation_Name</SourceDisplayName>
       <DescriptionText>Policy_Telenavigation_Dec</DescriptionText>

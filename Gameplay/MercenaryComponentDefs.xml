@@ -417,10 +417,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
 	  <Scope>AreaEffect</Scope>
       <Target>
         <TargetType>Ship</TargetType>
-		<TargetRelation>Enemy</TargetRelation>
+		    <TargetRelation>Enemy</TargetRelation>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-2.0</Value>
+      <BonusType>Multiplier</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.25</ValueParam> 
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
 	</Stats>
     <Prerequ>
       <Unavailable>true</Unavailable>

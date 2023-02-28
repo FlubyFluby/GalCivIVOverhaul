@@ -164,27 +164,27 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSizeDefs.xsd">
 			<SectorsOfSizeCount>
 			  <UniqueID>Tiny</UniqueID>
 			  <MinCount>0</MinCount>
-			  <MaxCount>4</MaxCount>
+			  <MaxCount>2</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
 			  <UniqueID>Small</UniqueID>
-			  <MinCount>1</MinCount>
-			  <MaxCount>6</MaxCount>
+			  <MinCount>0</MinCount>
+			  <MaxCount>3</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
 			  <UniqueID>Medium</UniqueID>
-			  <MinCount>3</MinCount>
-			  <MaxCount>8</MaxCount>
+			  <MinCount>0</MinCount>
+			  <MaxCount>6</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
 			  <UniqueID>Large</UniqueID>
-			  <MinCount>5</MinCount>
-			  <MaxCount>10</MaxCount>
+			  <MinCount>4</MinCount>
+			  <MaxCount>12</MaxCount>
 			</SectorsOfSizeCount>
 			<SectorsOfSizeCount>
 			  <UniqueID>Huge</UniqueID>
-			  <MinCount>7</MinCount>
-			  <MaxCount>12</MaxCount>
+			  <MinCount>10</MinCount>
+			  <MaxCount>18</MaxCount>
 			</SectorsOfSizeCount>
 		  </Sectors>
 		<Base>1400</Base>

@@ -20800,7 +20800,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>0.05</ValueParam>
+          <ValueParam>0.1</ValueParam>
           <StringParam>PlanetClass</StringParam>
         </SpecialValue>
       </Modifier>

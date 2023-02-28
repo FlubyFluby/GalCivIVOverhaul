@@ -1877,7 +1877,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>2</Value>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>0.1</ValueParam>
+          <StringParam>PlanetClass</StringParam>
+        </SpecialValue>
     </Modifier>
     </Triggers>
     </ExtremeTypeModifier>

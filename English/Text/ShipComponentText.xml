@@ -1251,6 +1251,23 @@ Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in
     <Label>Component_Food30_Dec</Label>
     <String>[ICON=Stat_Food_Icon] +30% [HS=HS_Food]Food[/HS] to all worlds in range</String>
   </StringTable>
+  <StringTable>
+    <Label>Component_Growth20_Name</Label>
+    <String>Biochamber</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_Growth20_Dec</Label>
+    <String>[ICON=Stat_Growth_Icon] +30% [HS=HS_Growth]Growth[/HS] to all worlds in range</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Component_Food20_Name</Label>
+    <String>Seed Storage</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_Food20_Dec</Label>
+    <String>[ICON=Stat_Food_Icon] +30% [HS=HS_Food]Food[/HS] to all worlds in range</String>
+  </StringTable>
  
   <StringTable>
     <Label>Component_Decay50_Name</Label>

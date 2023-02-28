@@ -2950,7 +2950,7 @@ xsi:noNamespaceSchemaLocation="../Schema/CultureTraitDefs.xsd">
         <TargetRelation>Enemy</TargetRelation>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-1</Value>
+      <Value>-3</Value>
     </Stats>
     <Stats>
       <EffectType>SensorPower</EffectType>
@@ -2960,7 +2960,7 @@ xsi:noNamespaceSchemaLocation="../Schema/CultureTraitDefs.xsd">
         <TargetRelation>Enemy</TargetRelation>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-1</Value>
+      <Value>-2</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnCultureTraitUnlock</OnEvent>
