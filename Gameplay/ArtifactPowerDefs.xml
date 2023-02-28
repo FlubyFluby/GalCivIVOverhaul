@@ -1706,7 +1706,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Target>
       <Lifetime>Target</Lifetime>
       <RandomDurationMin>10</RandomDurationMin>
-      <RandomDurationMax>25</RandomDurationMax>
+      <RandomDurationMax>10</RandomDurationMax>
       <Modifier>
         <EffectType>ColonySponsorDecayMod</EffectType>
         <Target>
@@ -1813,8 +1813,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Lifetime>Instant</Lifetime>
       <PerformAction>
         <Action>ShowAreaForTurns</Action>
-        <ValueParam>12</ValueParam>
-        <ValueParam>24</ValueParam>
+        <ValueParam>15</ValueParam>
+        <ValueParam>30</ValueParam>
       </PerformAction>
     </Triggers>
     <Triggers>
@@ -1841,7 +1841,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.25</ValueParam>
+          <ValueParam>-0.15</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>

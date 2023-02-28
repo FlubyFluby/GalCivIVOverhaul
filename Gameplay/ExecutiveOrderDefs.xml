@@ -135,7 +135,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
     <InternalName>EO_Draft1Colonists</InternalName>
     <ArtifactPowerDef>Draft1Colonists</ArtifactPowerDef>
     <ControlCost>0</ControlCost>
-    <CreditsCost>750</CreditsCost>
+    <CreditsCost>500</CreditsCost>
     <CooldownTurns>5</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
@@ -147,20 +147,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
     <InternalName>EO_Draft2Colonists</InternalName>
     <ArtifactPowerDef>Draft2Colonists</ArtifactPowerDef>
     <ControlCost>0</ControlCost>
-    <CreditsCost>2500</CreditsCost>
-    <CooldownTurns>8</CooldownTurns>
+    <CreditsCost>1250</CreditsCost>
+    <CooldownTurns>7</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
-      <HasNumCoreColonies>15</HasNumCoreColonies>
+      <HasNumCoreColonies>10</HasNumCoreColonies>
     </Prerequ>
   </ExecutiveOrder>
   <ExecutiveOrder>
     <InternalName>EO_Draft3Colonists</InternalName>
     <ArtifactPowerDef>Draft3Colonists</ArtifactPowerDef>
     <ControlCost>0</ControlCost>
-    <CreditsCost>6000</CreditsCost>
-    <CooldownTurns>10</CooldownTurns>
+    <CreditsCost>2500</CreditsCost>
+    <CooldownTurns>9</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
@@ -188,7 +188,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
     <ArtifactPowerDef>ColonialSupplies</ArtifactPowerDef>
     <ControlCost>5</ControlCost>
     <CreditsCost>750</CreditsCost>
-    <CooldownTurns>9</CooldownTurns>
+    <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_ColonialSupplies_CooldownMod</CooldownModCounterName>
     <Target>AllUngovernedColonies</Target>    
     <Prerequ>
@@ -217,7 +217,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
     <InternalName>EO_TelescopeTakeover</InternalName>
     <ArtifactPowerDef>TelescopeTakeover</ArtifactPowerDef>
     <ControlCost>1</ControlCost>
-    <CreditsCost>250</CreditsCost>
+    <CreditsCost>0</CreditsCost>
     <CooldownTurns>1</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>

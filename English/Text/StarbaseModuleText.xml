@@ -17,6 +17,18 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <Label>ExtendedMiningSystem_ShortDec</Label>
   <String>Boost the range of a mining starbase at the cost of less influence per turn.</String>
 </StringTable>
+<StringTable>
+  <Label>ExtraExtendedMiningSystem_Name</Label>
+  <String>Extra Extended Mining System</String>
+</StringTable>
+<StringTable>
+  <Label>ExtraExtendedMiningSystem_Dec</Label>
+  <String>Boost the range of a mining starbase at the cost of less influence per turn. </String>
+</StringTable>
+<StringTable>
+  <Label>ExtraExtendedMiningSystem_ShortDec</Label>
+  <String>Boost the range of a mining starbase at the cost of less influence per turn.</String>
+</StringTable>
 
 <StringTable>
   <Label>StarbaseDefenseSystem_Name</Label>

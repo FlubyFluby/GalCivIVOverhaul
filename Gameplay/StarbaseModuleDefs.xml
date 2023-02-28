@@ -32,8 +32,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
     <Target>
       <TargetType>Starbase</TargetType>
     </Target>
-    <BonusType>Flat</BonusType>
-    <Value>-2</Value>
+    <BonusType>Multiplier</BonusType>
+    <Value>-0.03</Value>
   </Stats>
   <Stats>
     <EffectType>StarbaseRange</EffectType>
@@ -44,6 +44,52 @@ xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
     <Value>1</Value>
   </Stats>
   <Prerequ>
+    <StarbaseModule>MiningRingModule</StarbaseModule>
+  </Prerequ>
+  <AIBaseWeight>8</AIBaseWeight>
+</StarbaseModule>
+
+<StarbaseModule>
+  <InternalName>ExtraExtendedMiningSystem</InternalName>
+  <DisplayName>ExtraExtendedMiningSystem_Name</DisplayName>
+  <ShortDescription>ExtraExtendedMiningSystem_ShortDec</ShortDescription>
+  <Description>ExtraExtendedMiningSystem2_Dec</Description>
+  <Icon>GC3_Starbase_Mining_Ring.png</Icon>
+  <SpecializationType>Mining</SpecializationType>
+  <Stats>
+    <EffectType>ModulesCost</EffectType>
+    <Target>
+      <TargetType>StarbaseModule</TargetType>
+    </Target>
+    <BonusType>OneTime</BonusType>
+    <Value>1</Value>
+  </Stats>
+  <Stats>
+    <EffectType>CreditsSpending</EffectType>
+    <Target>
+      <TargetType>StarbaseModule</TargetType>
+    </Target>
+    <BonusType>OneTime</BonusType>
+    <Value>1500</Value>
+  </Stats>
+  <Stats>
+    <EffectType>InfluencePerTurn</EffectType>
+    <Target>
+      <TargetType>Starbase</TargetType>
+    </Target>
+    <BonusType>Multiplier</BonusType>
+    <Value>-0.06</Value>
+  </Stats>
+  <Stats>
+    <EffectType>StarbaseRange</EffectType>
+    <Target>
+      <TargetType>Starbase</TargetType>
+    </Target>
+    <BonusType>Flat</BonusType>
+    <Value>1</Value>
+  </Stats>
+  <Prerequ>
+    <StarbaseModule>ExtendedMiningSystem</StarbaseModule>
     <StarbaseModule>MiningRingModule</StarbaseModule>
   </Prerequ>
   <AIBaseWeight>8</AIBaseWeight>
