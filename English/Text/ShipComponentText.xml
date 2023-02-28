@@ -90,7 +90,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>ParticleBeam_Dec</Label>
     <String>Westinghouse M103 Melera Light Gravitic Fusion Pulse cannon.
-
+      Raises Fleet Beam Range by 4%
+      Reduces Fleet Beam Attack by 2%
+      Reduces Fleet Beam Accuracy by 2%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -101,7 +103,19 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>Component_ExperimentalLaser_Dec</Label>
     <String>An experimental laser system.
-
+      Reduces Enemy Fleet's shieldefficiency by 4%
+      Reduces Fleet Beam Accuracy by 3%
+[HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalLaserX_Name</Label>
+    <String>Very Experimental Laser</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalLaserX_Dec</Label>
+    <String>A very experimental laser system.
+      Reduces Enemy Fleet's shieldefficiency by 8%
+      Reduces Fleet Beam Accuracy by 6%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -112,7 +126,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>Disrupters_Dec</Label>
     <String>Walther X-2 Matter Disruptor System. 
-
+      Increases Fleet's Accuracy by 3%
+      Reduces Own Fleet's beamattack by 3%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -123,7 +138,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>Plasma_Dec</Label>
     <String>Westinghouse M2000 Plasma Pod.
-
+      Increases Fleet Beam Damage by 6%
+      Reduces Fleet Beam Range by 3%
+      Reduces Fleet Beam Accuracy by 3%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -134,7 +151,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>ParticleBeamX_Dec</Label>
     <String>Westinghouse M105 Melera Light Gravitic Fusion Pulse cannon.
-
+      Increases Fleet Beam Range by 8%
+      Reduces Fleet Beam Attack by 4%
+      Reduces Fleet Beam Accuracy by 4%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -145,7 +164,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>DisruptersX_Dec</Label>
     <String>Walther X-3 Matter Disruptor System. 
-
+      Increases Fleet Beam Accuracy by 6%
+      Reduces Fleet Beam Damage by 6%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -156,7 +176,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>DisruptersXe_Dec</Label>
     <String>Walther X-3a Matter Disruptor System. 
-
+      Increases Fleet Beam Accuracy by 12%
+      Reduces Fleet Beam Damage by 9%
 [HS=HS_BeamWeapon]Beam weapons[/HS] provide moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -167,7 +188,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>PlasmaX_Dec</Label>
     <String>Westinghouse M2000A Omni Plasma Pod.
-
+      Increases Fleet Beam Damage by 9%
+      Reduces Fleet Beam Range by 6%
+      Reduces Fleet Beam Accuracy by 3%
 Using 120 Terawatts of power, this plasma based weapon system provides moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -178,7 +201,8 @@ Using 120 Terawatts of power, this plasma based weapon system provides moderate 
   <StringTable>
     <Label>PlasmaXe_Dec</Label>
     <String>Westinghouse M2000A-X Omni Plasma Pod.
-
+      Increases Fleet Beam Damage by 12%
+      Reduces Fleet Beam Range by 9%
 Using 130 Terawatts of power, this plasma based weapon system provides moderate damage at a reasonable manufacturing cost.</String>
   </StringTable>
  
@@ -233,7 +257,22 @@ How this weapon system works is top secret. Even for you.</String>
   <StringTable>
     <Label>Component_ExperimentalMissile_Dec</Label>
     <String>Enables medium range missile attack.
-
+      Decreases Enemy Fleet Missile Defense by 4%
+      Reduces Fleet Missile Accuracy by2%
+      Reduces Fleet Hitpoints by 3%
+[HS=HS_MissileWeapon]Missile weapons[/HS] are slightly weaker in battle but can be used to attack enemy fleets at range.</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalMissileX_Name</Label>
+    <String>Very Experimental Missile Bank X</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalMissileX_Dec</Label>
+    <String>Enables medium range missile attack.
+      
+      Decreases Enemy Fleet Missile Defense by 8%
+      Reduces Fleet Missile Accuracy by4%
+      Reduces Fleet Hitpoints by 6%
 [HS=HS_MissileWeapon]Missile weapons[/HS] are slightly weaker in battle but can be used to attack enemy fleets at range.</String>
   </StringTable>
  
@@ -244,7 +283,8 @@ How this weapon system works is top secret. Even for you.</String>
   <StringTable>
     <Label>Harpoon_Dec</Label>
     <String>Raytheox M-4 "Avenger" missile. 
-
+      Increases Fleet Missile AOE Range by 15%
+      
 Delivers a nuclear payload. [HS=HS_MissileWeapon]Missile weapons[/HS] are slightly weaker in battle but can be used to attack enemy fleets at range.</String>
   </StringTable>
  
@@ -255,7 +295,8 @@ Delivers a nuclear payload. [HS=HS_MissileWeapon]Missile weapons[/HS] are slight
   <StringTable>
     <Label>Phoenix_Dec</Label>
     <String>Sandrala "Phoenix" Medium Missile
-
+      Increases Fleet Missile Damage by 4%
+      Reduces Fleet Missile Accuracy by 2%
 The Sandrala uses a fusion based nuclear reaction to do substantial damage. </String>
   </StringTable>
  
@@ -266,7 +307,7 @@ The Sandrala uses a fusion based nuclear reaction to do substantial damage. </St
   <StringTable>
     <Label>PhotonicWarhead_Dec</Label>
     <String>Melera Heavy "Photonic" warhead.
-
+    Reduces enemy Fleet Beam Accuracy  by 4%
 The Melera delivers a devastating fusion reaction to the enemy. </String>
   </StringTable>
  
@@ -277,7 +318,8 @@ The Melera delivers a devastating fusion reaction to the enemy. </String>
   <StringTable>
     <Label>HarpoonX_Dec</Label>
     <String>Raytheox M-4X  "Harpoon" missile. Enables short range missile attack.
-
+    Increases Fleet Missile AOE Range by 30%
+      
 Delivers an antimatter payload. [HS=HS_MissileWeapon]Missile weapons[/HS] are slightly weaker in battle but can be used to attack enemy fleets at range.</String>
   </StringTable>
  
@@ -288,7 +330,8 @@ Delivers an antimatter payload. [HS=HS_MissileWeapon]Missile weapons[/HS] are sl
   <StringTable>
     <Label>PhoenixX_Dec</Label>
     <String>Raytheonix "Matadrox" Medium Missile.
-
+      Increases Fleet Missile Damage by 8%
+      Reduces Fleet Missile Accuracy by 4%
 Delivers an antimatter based warhead. [HS=HS_MissileWeapon]Missile weapons[/HS] are slightly weaker in battle but can be used to attack enemy fleets at range.</String>
   </StringTable>
  
@@ -299,7 +342,7 @@ Delivers an antimatter based warhead. [HS=HS_MissileWeapon]Missile weapons[/HS] 
   <StringTable>
     <Label>PhotonicWarheadX_Dec</Label>
     <String>Enhanced Melera "Photonic" warhead.
-
+      Reduces enemy Fleet Beam Accuracy  by 8%
 The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</String>
   </StringTable>
  
@@ -309,7 +352,9 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   </StringTable>
   <StringTable>
     <Label>TritonTorpedoes_Dec</Label>
-    <String>GH-32 "Triton" Stellar Torpedo requires antimatter for its massive destructive capability. </String>
+    <String>GH-32 "Triton" Stellar Torpedo requires antimatter for its massive destructive capability. 
+      Reduces Enemy Fleet's Kinetic Accuracy by 4%
+    </String>
   </StringTable>
  
   <StringTable>
@@ -318,7 +363,9 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   </StringTable>
   <StringTable>
     <Label>NightmareTorpedoes_Dec</Label>
-    <String>Raytheonix  Mk 76 "Nightmare"  Stellar Torpedo creates temporary weaknesses in the fabric of space-time to deliver massive damage to the enemy.</String>
+    <String>Raytheonix  Mk 76 "Nightmare"  Stellar Torpedo creates temporary weaknesses in the fabric of space-time to deliver massive damage to the enemy.
+      Reduces Enemy Fleet's Kinetic Accuracy by 8%
+    </String>
   </StringTable>
  
   <StringTable>
@@ -339,7 +386,9 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>PulseCannon_Dec</Label>
     <String>Arsenal Mk V Space railgun.
-
+      Increases Fleet's Kinetic Damage by 2%
+      Reduces Fleet's Kinetic Accuracy by 2%
+      Reduces Fleet's Kinetic Range by 2%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -349,7 +398,21 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   </StringTable>
   <StringTable>
     <Label>Component_ExperimentalKinetic_Dec</Label>
-    <String>[HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
+    <String>[HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.
+      Reduces Enemy Fleet's Kinetic Armor Efficiency by 4%
+      Reduces Fleet's Kinetic Accuracy by 2%
+    </String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalKineticX_Name</Label>
+    <String>Very Experimental Cannon</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_ExperimentalKineticX_Dec</Label>
+    <String>[HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.
+      Reduces Enemy Fleet's Kinetic Armor Efficiency by 8%
+      Reduces Fleet's Kinetic Accuracy by 4%
+    </String>
   </StringTable>
  
   <StringTable>
@@ -359,7 +422,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>MassDriver_Dec</Label>
     <String>General Destruction Pulse Cannon Mk I.
-
+      Increases Fleet's Kinetic Accuracy by 4%
+      Decreases Fleet's Kinetic Range by 2%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -370,7 +434,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>VulcanicDriver_Dec</Label>
     <String>Copeland Industries Graviton "Gun" uses exotic materials to deliver a high rate of fire to decimate enemy hulls.
-
+      Increases Fleet's Kinetic Range by 5%
+      Decreases Fleet's Kinetic Accuracy by 2%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -381,7 +446,9 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>PulseCannonX_Dec</Label>
     <String>The General Destruction Mk I Railgun integrates a fragment of Thulium to greatly increase the density of the projectile.
-
+      Increases Fleet's Kinetic Damage by 4%
+      Reduces Fleet's Kinetic Accuracy by 4%
+      Reduces Fleet's Kinetic Range by 4%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -392,7 +459,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>MassDriverX_Dec</Label>
     <String>General Destruction "Shredder" Pulse Cannon. Uses Thulium to increase projectile density.
-
+      Increqse Fleet's Kinetic Accuracy by 6%
+      Decreases Fleet's Kinetic Range By 4%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -403,7 +471,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>VulcanicDriverX_Dec</Label>
     <String>Copeland Industries Enhanced "Vulcan" gun makes use of Thulium to deliver more mass to the target without increasing the side of the ordinance.
-
+      Increases Fleet's Kinetic Range by 10%
+      Decreases Fleet's Kinetic Accuracy by 4%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -414,7 +483,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>QuantumDriver_Dec</Label>
     <String>Meridoc "Quantum" Driver Mk-I. Originally used to shatter subspace stream focal points, the Quantum driver makes a very potent weapon system.
-
+      Increases Fleet's Kinetic Range by 15%
+      Decreases Fleet's Kinetic Accuracy by 6%
 [HS=HS_KineticWeapon]Kinetic Weapons[/HS] combine high damage with a high Manufacturing cost.</String>
   </StringTable>
  
@@ -425,7 +495,8 @@ The Enhanced Melera adds a fragment of antimatter to intensify the reaction.</St
   <StringTable>
     <Label>SingularityDriver_Dec</Label>
     <String>Meridoc Blackhole Projector.
-
+      Increases Fleet's Kinetic Range by 20%
+      Decreases Fleet's Kinetic Accuracy by 8%
 Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in massive damage.</String>
   </StringTable>
  
@@ -939,27 +1010,38 @@ Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in
   </StringTable>
   <StringTable>
     <Label>Component_Moves_Dec</Label>
-    <String>[ICON=Moves_Icon] +2 Moves</String>
+    <String>[ICON=Moves_Icon] +10% Moves
+      [ICON=Hitpoints_Icon] -5% Hit Points</String>
   </StringTable>
- 
-  <StringTable>
-    <Label>Component_Moves3_Name</Label>
-    <String>Unshielded Thruster</String>
-  </StringTable>
-  <StringTable>
-    <Label>Component_Moves3_Dec</Label>
-    <String>[ICON=Moves_Icon] +3 Moves
-[ICON=Hitpoints_Icon] -20% Hit Points</String>
-  </StringTable>
- 
   <StringTable>
     <Label>Component_Moves2_Name</Label>
     <String>Promethion Drive</String>
   </StringTable>
   <StringTable>
     <Label>Component_Moves2_Dec</Label>
-    <String>[ICON=Moves_Icon] +4 Moves</String>
+    <String>[ICON=Moves_Icon] +20% Moves
+      [ICON=Hitpoints_Icon] -10% Hit Points</String>
   </StringTable>
+  <StringTable>
+    <Label>Component_Moves3_Name</Label>
+    <String>Unshielded Thruster</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_Moves3_Dec</Label>
+    <String>[ICON=Moves_Icon] +30% Moves
+[ICON=Hitpoints_Icon] -15% Hit Points</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_Moves4_Name</Label>
+    <String>Unshielded Thruster</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_Moves4_Dec</Label>
+    <String>[ICON=Moves_Icon] +40% Moves
+[ICON=Hitpoints_Icon] -20% Hit Points</String>
+  </StringTable>
+ 
+  
  
   <StringTable>
     <Label>Component_WeaponRange_Name</Label>
@@ -1195,7 +1277,25 @@ Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in
   </StringTable>
   <StringTable>
     <Label>Component_KineticAttackPerLevel_Dec</Label>
-    <String>[ICON=KineticAttackIcon] +1 [HS=HS_KineticWeapon]Kinetic[/HS] Attack per Level</String>
+    <String>[ICON=KineticAttackIcon] +0.05% [HS=HS_KineticWeapon]Kinetic[/HS] Attack per Level</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Component_BeamAttackPerLevel_Name</Label>
+    <String>Intertial Guide</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_BeamAttackPerLevel_Dec</Label>
+    <String>[ICON=KineticAttackIcon] +0.05% [HS=HS_BeamWeapon]Beam[/HS] Attack per Level</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Component_MissileAttackPerLevel_Name</Label>
+    <String>Intertial Guide</String>
+  </StringTable>
+  <StringTable>
+    <Label>Component_MissileAttackPerLevel_Dec</Label>
+    <String>[ICON=KineticAttackIcon] +0.05% [HS=HS_MissileWeapon]Missile[/HS] Attack per Level</String>
   </StringTable>
  
   <StringTable>
@@ -1249,7 +1349,7 @@ Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in
   </StringTable>
   <StringTable>
     <Label>Component_Food30_Dec</Label>
-    <String>[ICON=Stat_Food_Icon] +30% [HS=HS_Food]Food[/HS] to all worlds in range</String>
+    <String>[ICON=Stat_Food_Icon] +20% [HS=HS_Food]Food[/HS] to all worlds in ZOC</String>
   </StringTable>
   <StringTable>
     <Label>Component_Growth20_Name</Label>
@@ -1257,7 +1357,7 @@ Fires a singularity fragment (a tiny blackhole) at the enemy. Contact results in
   </StringTable>
   <StringTable>
     <Label>Component_Growth20_Dec</Label>
-    <String>[ICON=Stat_Growth_Icon] +30% [HS=HS_Growth]Growth[/HS] to all worlds in range</String>
+    <String>[ICON=Stat_Growth_Icon] +20% [HS=HS_Growth]Growth[/HS] to all worlds in ZOC</String>
   </StringTable>
  
   <StringTable>

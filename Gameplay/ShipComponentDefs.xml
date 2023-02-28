@@ -55,7 +55,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>SensorRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
@@ -130,7 +130,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>SensorRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
@@ -179,7 +179,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-1</Value>
+      <Value>-0.75</Value>
     </Stats>
     <Stats>
       <EffectType>CanUpgrade</EffectType>
@@ -426,13 +426,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>0.2</Value>
     </Stats>
     <Stats>
-      <EffectType>ManufacturingCost</EffectType>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
       <Scope>Queue</Scope>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>4</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -461,14 +477,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
       <Value>1</Value>
     </Stats>
-    <Prerequ>
-      <Unavailable>true</Unavailable>
-      <Techs>
-        <Option>TechTree</Option>
-      </Techs>
-    </Prerequ>
   </ShipComponent>
  
   <ShipComponent>
@@ -491,423 +509,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.2</Value>
+      <Value>0.6</Value>
     </Stats>
     <Stats>
-      <EffectType>BeamManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_BeamWeaponTheory</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Component_ExperimentalLaser</InternalName>
-    <DisplayName>Component_ExperimentalLaser_Name</DisplayName>
-    <Description>Component_ExperimentalLaser_Dec</Description>
-    <ArtDefine>WeaponModel_08</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
-      <ProjectionFX>BeamDisrupter</ProjectionFX>
-      <HitFX>BeamDisrupter_Hit</HitFX>
-      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>ManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </Stats>
-    <Prerequ>
-      <Unavailable>true</Unavailable>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Disrupters</InternalName>
-    <DisplayName>Disrupters_Name</DisplayName>
-    <Description>Disrupters_Dec</Description>
-    <ArtDefine>WeaponModel_08</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
-      <ProjectionFX>BeamDisrupter</ProjectionFX>
-      <HitFX>BeamDisrupter_Hit</HitFX>
-      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>7</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_DisruptorBeams</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Plasma</InternalName>
-    <DisplayName>Plasma_Name</DisplayName>
-    <Description>Plasma_Dec</Description>
-    <ArtDefine>WeaponModel_09</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamPlasma_Emission</EmissionFX>
-      <ProjectionFX>BeamPlasma</ProjectionFX>
-      <HitFX>BeamPlasma_Hit</HitFX>
-      <DeflectionFX>BeamPlasma_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_PlasmaBeams</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>ParticleBeamX</InternalName>
-    <DisplayName>ParticleBeamX_Name</DisplayName>
-    <Description>ParticleBeamX_Dec</Description>
-    <ArtDefine>WeaponModel_07</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamParticle_Emission</EmissionFX>
-      <ProjectionFX>BeamParticle</ProjectionFX>
-      <HitFX>BeamParticle_Hit</HitFX>
-      <DeflectionFX>BeamParticle_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.3</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Stats>
-      <EffectType>EleriumCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_BeamWeaponTheory</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>DisruptersX</InternalName>
-    <DisplayName>DisruptersX_Name</DisplayName>
-    <Description>DisruptersX_Dec</Description>
-    <ArtDefine>WeaponModel_08</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
-      <ProjectionFX>BeamDisrupter</ProjectionFX>
-      <HitFX>BeamDisrupter_Hit</HitFX>
-      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>7</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>BeamWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>BeamAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </Stats>
-    <Stats>
-      <EffectType>EleriumCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_DisruptorBeams</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>DisruptersXe</InternalName>
-    <DisplayName>DisruptersXe_Name</DisplayName>
-    <Description>DisruptersXe_Dec</Description>
-    <ArtDefine>WeaponModel_08</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>BeamWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
-      <ProjectionFX>BeamDisrupter</ProjectionFX>
-      <HitFX>BeamDisrupter_Hit</HitFX>
-      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
     </Stats>
     <Stats>
       <EffectType>BeamManufacturingCost</EffectType>
@@ -945,7 +563,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -953,28 +606,28 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>2</Value>
+      <Value>1</Value>
     </Stats>
     <Prerequ>
       <Techs>
-        <Option>Tech_DisruptorBeams</Option>
+        <Option>Tech_BeamWeaponTheory</Option>
       </Techs>
     </Prerequ>
   </ShipComponent>
  
   <ShipComponent>
-    <InternalName>PlasmaX</InternalName>
-    <DisplayName>PlasmaX_Name</DisplayName>
-    <Description>PlasmaX_Dec</Description>
-    <ArtDefine>WeaponModel_09</ArtDefine>
+    <InternalName>Component_ExperimentalLaser</InternalName>
+    <DisplayName>Component_ExperimentalLaser_Name</DisplayName>
+    <Description>Component_ExperimentalLaser_Dec</Description>
+    <ArtDefine>WeaponModel_08</ArtDefine>
     <Category>Weapons</Category>
-    <Type>BeamWeaponEnhanced</Type>
+    <Type>BeamWeapon</Type>
     <PlacementType>Weapon</PlacementType>
     <WeaponFX>
-      <EmissionFX>BeamPlasma_Emission</EmissionFX>
-      <ProjectionFX>BeamPlasma</ProjectionFX>
-      <HitFX>BeamPlasma_Hit</HitFX>
-      <DeflectionFX>BeamPlasma_Deflection</DeflectionFX>
+      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
+      <ProjectionFX>BeamDisrupter</ProjectionFX>
+      <HitFX>BeamDisrupter_Hit</HitFX>
+      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
     </WeaponFX>
     <Stats>
       <EffectType>Threat</EffectType>
@@ -982,7 +635,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>0.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
     </Stats>
     <Stats>
       <EffectType>BeamManufacturingCost</EffectType>
@@ -991,7 +660,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>12</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -1020,7 +689,406 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>7</Value>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ShieldEfficiency</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Prerequ> 
+      <Techs>
+      <Option>Tech_BeamWeaponTheory</Option>
+    </Techs>
+    </Prerequ>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_ExperimentalLaserX</InternalName>
+    <DisplayName>Component_ExperimentalLaserX_Name</DisplayName>
+    <Description>Component_ExperimentalLaserX_Dec</Description>
+    <ArtDefine>WeaponModel_08</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
+      <ProjectionFX>BeamDisrupter</ProjectionFX>
+      <HitFX>BeamDisrupter_Hit</HitFX>
+      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.0</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>30</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>20</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ShieldEfficiency</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ> <Techs>
+      <Option>Tech_BeamWeaponTheory</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_DisruptorBeams</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_PlasmaBeams</Option>
+    </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>Disrupters</InternalName>
+    <DisplayName>Disrupters_Name</DisplayName>
+    <Description>Disrupters_Dec</Description>
+    <ArtDefine>WeaponModel_08</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
+      <ProjectionFX>BeamDisrupter</ProjectionFX>
+      <HitFX>BeamDisrupter_Hit</HitFX>
+      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_DisruptorBeams</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>Plasma</InternalName>
+    <DisplayName>Plasma_Name</DisplayName>
+    <Description>Plasma_Dec</Description>
+    <ArtDefine>WeaponModel_09</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamPlasma_Emission</EmissionFX>
+      <ProjectionFX>BeamPlasma</ProjectionFX>
+      <HitFX>BeamPlasma_Hit</HitFX>
+      <DeflectionFX>BeamPlasma_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.0</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>30</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>20</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -1038,9 +1106,361 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
   </ShipComponent>
  
   <ShipComponent>
-    <InternalName>PlasmaXe</InternalName>
-    <DisplayName>PlasmaXe_Name</DisplayName>
-    <Description>PlasmaXe_Dec</Description>
+    <InternalName>ParticleBeamX</InternalName>
+    <DisplayName>ParticleBeamX_Name</DisplayName>
+    <Description>ParticleBeamX_Dec</Description>
+    <ArtDefine>WeaponModel_07</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamParticle_Emission</EmissionFX>
+      <ProjectionFX>BeamParticle</ProjectionFX>
+      <HitFX>BeamParticle_Hit</HitFX>
+      <DeflectionFX>BeamParticle_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>42</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>14</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>28</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_BeamWeaponTheory</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>DisruptersX</InternalName>
+    <DisplayName>DisruptersX_Name</DisplayName>
+    <Description>DisruptersX_Dec</Description>
+    <ArtDefine>WeaponModel_08</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
+      <ProjectionFX>BeamDisrupter</ProjectionFX>
+      <HitFX>BeamDisrupter_Hit</HitFX>
+      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>33</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>11</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>22</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_DisruptorBeams</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>DisruptersXe</InternalName>
+    <DisplayName>DisruptersXe_Name</DisplayName>
+    <Description>DisruptersXe_Dec</Description>
+    <ArtDefine>WeaponModel_08</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamDisrupter_Emission</EmissionFX>
+      <ProjectionFX>BeamDisrupter</ProjectionFX>
+      <HitFX>BeamDisrupter_Hit</HitFX>
+      <DeflectionFX>BeamDisrupter_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>48</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>16</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>32</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.09</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_DisruptorBeams</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>PlasmaX</InternalName>
+    <DisplayName>PlasmaX_Name</DisplayName>
+    <Description>PlasmaX_Dec</Description>
     <ArtDefine>WeaponModel_09</ArtDefine>
     <Category>Weapons</Category>
     <Type>BeamWeaponEnhanced</Type>
@@ -1057,7 +1477,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
+      <Value>1.8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>54</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
     </Stats>
     <Stats>
       <EffectType>BeamManufacturingCost</EffectType>
@@ -1066,7 +1502,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>16</Value>
+      <Value>36</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -1098,12 +1534,153 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>9</Value>
     </Stats>
     <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.09</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.06</Value>
+    </Stats><Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
       <EffectType>EleriumCost</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
       <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PlasmaBeams</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>PlasmaXe</InternalName>
+    <DisplayName>PlasmaXe_Name</DisplayName>
+    <Description>PlasmaXe_Dec</Description>
+    <ArtDefine>WeaponModel_09</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>BeamPlasma_Emission</EmissionFX>
+      <ProjectionFX>BeamPlasma</ProjectionFX>
+      <HitFX>BeamPlasma_Hit</HitFX>
+      <DeflectionFX>BeamPlasma_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>66</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>22</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>44</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.09</Value>
+    </Stats><Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -1132,7 +1709,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2.0</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>60</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>20</Value>
     </Stats>
     <Stats>
       <EffectType>BeamManufacturingCost</EffectType>
@@ -1141,7 +1734,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>25</Value>
+      <Value>40</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -1173,12 +1766,52 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>10</Value>
     </Stats>
     <Stats>
-      <EffectType>EleriumCost</EffectType>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
       <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -1207,7 +1840,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1.2</Value>
+      <Value>1.5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>45</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>15</Value>
     </Stats>
     <Stats>
       <EffectType>BeamManufacturingCost</EffectType>
@@ -1245,7 +1894,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>12</Value>
+      <Value>15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HeliosOreCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -1283,84 +1948,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_ArmedShuttles</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Stinger</InternalName>
-    <DisplayName>Stinger_Name</DisplayName>
-    <Description>Stinger_Dec</Description>
-    <ArtDefine>WeaponModel_11</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileSparrow_Emission</EmissionFX>
-      <ProjectionFX>MissileSparrow</ProjectionFX>
-      <HitFX>MissileSparrow_Hit</HitFX>
-      <DeflectionFX>MissileSparrow_Deflection</DeflectionFX>
-      <MissFX>MissileSparrow_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
       <Value>0.2</Value>
     </Stats>
     <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Value</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -1392,24 +2005,26 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>2</Value>
     </Stats>
     <Prerequ>
-      <Unavailable>true</Unavailable>
+      <Techs>
+        <Option>Tech_ArmedShuttles</Option>
+      </Techs>
     </Prerequ>
   </ShipComponent>
  
   <ShipComponent>
-    <InternalName>Component_ExperimentalMissile</InternalName>
-    <DisplayName>Component_ExperimentalMissile_Name</DisplayName>
-    <Description>Component_ExperimentalMissile_Dec</Description>
-    <ArtDefine>WeaponModel_13</ArtDefine>
+    <InternalName>Stinger</InternalName>
+    <DisplayName>Stinger_Name</DisplayName>
+    <Description>Stinger_Dec</Description>
+    <ArtDefine>WeaponModel_11</ArtDefine>
     <Category>Weapons</Category>
     <Type>MissileWeapon</Type>
     <PlacementType>Weapon</PlacementType>
     <WeaponFX>
-      <EmissionFX>MissileStinger_Emission</EmissionFX>
-      <ProjectionFX>MissileStinger</ProjectionFX>
-      <HitFX>MissileStinger_Hit</HitFX>
-      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
-      <MissFX>MissileStinger_Miss</MissFX>
+      <EmissionFX>MissileSparrow_Emission</EmissionFX>
+      <ProjectionFX>MissileSparrow</ProjectionFX>
+      <HitFX>MissileSparrow_Hit</HitFX>
+      <DeflectionFX>MissileSparrow_Deflection</DeflectionFX>
+      <MissFX>MissileSparrow_Miss</MissFX>
     </WeaponFX>
     <Stats>
       <EffectType>Threat</EffectType>
@@ -1417,73 +2032,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
+      <Value>0.4</Value>
     </Stats>
     <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Value</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>6</Value>
+      <Value>12</Value>
     </Stats>
     <Stats>
-      <EffectType>Mass</EffectType>
+      <EffectType>Maintenance</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </Stats>
-    <Prerequ>
-      <Unavailable>true</Unavailable>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Harpoon</InternalName>
-    <DisplayName>Harpoon_Name</DisplayName>
-    <Description>Harpoon_Dec</Description>
-    <ArtDefine>WeaponModel_13</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileStinger_Emission</EmissionFX>
-      <ProjectionFX>MissileStinger</ProjectionFX>
-      <HitFX>MissileStinger_Hit</HitFX>
-      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
-      <MissFX>MissileStinger_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
+      <Value>4</Value>
     </Stats>
     <Stats>
       <EffectType>MissileManufacturingCost</EffectType>
@@ -1521,7 +2086,397 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>Component_ExperimentalMissile</InternalName>
+    <DisplayName>Component_ExperimentalMissile_Name</DisplayName>
+    <Description>Component_ExperimentalMissile_Dec</Description>
+    <ArtDefine>WeaponModel_13</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileStinger_Emission</EmissionFX>
+      <ProjectionFX>MissileStinger</ProjectionFX>
+      <HitFX>MissileStinger_Hit</HitFX>
+      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
+      <MissFX>MissileStinger_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>24</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>16</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PointEfficiency</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
       <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_AvengerMissileSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+
+  <ShipComponent>
+    <InternalName>Component_ExperimentalMissileX</InternalName>
+    <DisplayName>Component_ExperimentalMissileX_Name</DisplayName>
+    <Description>Component_ExperimentalMissileX_Dec</Description>
+    <ArtDefine>WeaponModel_13</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileStinger_Emission</EmissionFX>
+      <ProjectionFX>MissileStinger</ProjectionFX>
+      <HitFX>MissileStinger_Hit</HitFX>
+      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
+      <MissFX>MissileStinger_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>54</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>36</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PointEfficiency</EffectType><Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_AvengerMissileSystem</Option>
+      </Techs>
+      <Techs>
+        <Option>Tech_DevastatorMissileSystem</Option>
+      </Techs>
+      <Techs>
+        <Option>Tech_PhotonicWarheadSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>Harpoon</InternalName>
+    <DisplayName>Harpoon_Name</DisplayName>
+    <Description>Harpoon_Dec</Description>
+    <ArtDefine>WeaponModel_13</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileStinger_Emission</EmissionFX>
+      <ProjectionFX>MissileStinger</ProjectionFX>
+      <HitFX>MissileStinger_Hit</HitFX>
+      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
+      <MissFX>MissileStinger_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>33</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>11</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>22</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AOERange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -1551,7 +2506,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
+      <Value>1.5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>45</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>15</Value>
     </Stats>
     <Stats>
       <EffectType>MissileManufacturingCost</EffectType>
@@ -1560,7 +2531,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>30</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -1589,6 +2560,32 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
       <Value>4</Value>
     </Stats>
     <Prerequ>
@@ -1622,376 +2619,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>1.2</Value>
     </Stats>
     <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Value</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>16</Value>
+      <Value>36</Value>
     </Stats>
     <Stats>
-      <EffectType>Mass</EffectType>
+      <EffectType>Maintenance</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_PhotonicWarheadSystem</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>HarpoonX</InternalName>
-    <DisplayName>HarpoonX_Name</DisplayName>
-    <Description>HarpoonX_Dec</Description>
-    <ArtDefine>WeaponModel_13</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileStinger_Emission</EmissionFX>
-      <ProjectionFX>MissileStinger</ProjectionFX>
-      <HitFX>MissileStinger_Hit</HitFX>
-      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
-      <MissFX>MissileStinger_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>8</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Stats>
-      <EffectType>AntimatterCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_AvengerMissileSystem</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>PhoenixX</InternalName>
-    <DisplayName>PhoenixX_Name</DisplayName>
-    <Description>PhoenixX_Dec</Description>
-    <ArtDefine>WeaponModel_13</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileStinger_Emission</EmissionFX>
-      <ProjectionFX>MissileStinger</ProjectionFX>
-      <HitFX>MissileStinger_Hit</HitFX>
-      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
-      <MissFX>MissileStinger_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>AntimatterCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_DevastatorMissileSystem</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>PhotonicWarheadX</InternalName>
-    <DisplayName>PhotonicWarheadX_Name</DisplayName>
-    <Description>PhotonicWarheadX_Dec</Description>
-    <ArtDefine>WeaponModel_14</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileHarpoon_Emission</EmissionFX>
-      <ProjectionFX>MissileHarpoon</ProjectionFX>
-      <HitFX>MissileHarpoon_Hit</HitFX>
-      <DeflectionFX>MissileHarpoon_Deflection</DeflectionFX>
-      <MissFX>MissileHarpoon_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1.2</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>16</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>7</Value>
-    </Stats>
-    <Stats>
-      <EffectType>AntimatterCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>2</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_PhotonicWarheadSystem</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>TritonTorpedoes</InternalName>
-    <DisplayName>TritonTorpedoes_Name</DisplayName>
-    <Description>TritonTorpedoes_Dec</Description>
-    <ArtDefine>WeaponModel_26</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissilePhotonTorpedo_Emission</EmissionFX>
-      <ProjectionFX>MissilePhotonTorpedo</ProjectionFX>
-      <HitFX>MissilePhotonTorpedo_Hit</HitFX>
-      <DeflectionFX>MissilePhotonTorpedo_Deflection</DeflectionFX>
-      <MissFX>MissilePhotonTorpedo_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>20</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MissileWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MissileAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>9</Value>
-    </Stats>
-    <Stats>
-      <EffectType>AntimatterCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>3</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_QuantumTorpedoSystem</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>NightmareTorpedoes</InternalName>
-    <DisplayName>NightmareTorpedoes_Name</DisplayName>
-    <Description>NightmareTorpedoes_Dec</Description>
-    <ArtDefine>WeaponModel_27</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>MissileWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>MissileNightmareTorpedo_Emission</EmissionFX>
-      <ProjectionFX>MissileNightmareTorpedo</ProjectionFX>
-      <HitFX>MissileNightmareTorpedo_Hit</HitFX>
-      <DeflectionFX>MissileNightmareTorpedo_Deflection</DeflectionFX>
-      <MissFX>MissileNightmareTorpedo_Miss</MissFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1.8</Value>
+      <Value>12</Value>
     </Stats>
     <Stats>
       <EffectType>MissileManufacturingCost</EffectType>
@@ -2029,7 +2670,33 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
     </Stats>
     <Stats>
       <EffectType>AntimatterCost</EffectType>
@@ -2037,7 +2704,620 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>5</Value>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PhotonicWarheadSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>HarpoonX</InternalName>
+    <DisplayName>HarpoonX_Name</DisplayName>
+    <Description>HarpoonX_Dec</Description>
+    <ArtDefine>WeaponModel_13</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileStinger_Emission</EmissionFX>
+      <ProjectionFX>MissileStinger</ProjectionFX>
+      <HitFX>MissileStinger_Hit</HitFX>
+      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
+      <MissFX>MissileStinger_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>66</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>22</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>44</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AOERange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_AvengerMissileSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>PhoenixX</InternalName>
+    <DisplayName>PhoenixX_Name</DisplayName>
+    <Description>PhoenixX_Dec</Description>
+    <ArtDefine>WeaponModel_13</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileStinger_Emission</EmissionFX>
+      <ProjectionFX>MissileStinger</ProjectionFX>
+      <HitFX>MissileStinger_Hit</HitFX>
+      <DeflectionFX>MissileStinger_Deflection</DeflectionFX>
+      <MissFX>MissileStinger_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3.0</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>90</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>30</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>60</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_DevastatorMissileSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>PhotonicWarheadX</InternalName>
+    <DisplayName>PhotonicWarheadX_Name</DisplayName>
+    <Description>PhotonicWarheadX_Dec</Description>
+    <ArtDefine>WeaponModel_14</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileHarpoon_Emission</EmissionFX>
+      <ProjectionFX>MissileHarpoon</ProjectionFX>
+      <HitFX>MissileHarpoon_Hit</HitFX>
+      <DeflectionFX>MissileHarpoon_Deflection</DeflectionFX>
+      <MissFX>MissileHarpoon_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>54</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>36</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PhotonicWarheadSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>TritonTorpedoes</InternalName>
+    <DisplayName>TritonTorpedoes_Name</DisplayName>
+    <Description>TritonTorpedoes_Dec</Description>
+    <ArtDefine>WeaponModel_26</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissilePhotonTorpedo_Emission</EmissionFX>
+      <ProjectionFX>MissilePhotonTorpedo</ProjectionFX>
+      <HitFX>MissilePhotonTorpedo_Hit</HitFX>
+      <DeflectionFX>MissilePhotonTorpedo_Deflection</DeflectionFX>
+      <MissFX>MissilePhotonTorpedo_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>45</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>30</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_QuantumTorpedoSystem</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>NightmareTorpedoes</InternalName>
+    <DisplayName>NightmareTorpedoes_Name</DisplayName>
+    <Description>NightmareTorpedoes_Dec</Description>
+    <ArtDefine>WeaponModel_27</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>MissileWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>MissileNightmareTorpedo_Emission</EmissionFX>
+      <ProjectionFX>MissileNightmareTorpedo</ProjectionFX>
+      <HitFX>MissileNightmareTorpedo_Hit</HitFX>
+      <DeflectionFX>MissileNightmareTorpedo_Deflection</DeflectionFX>
+      <MissFX>MissileNightmareTorpedo_Miss</MissFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>63</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>21</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>42</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -2069,13 +3349,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>0.2</Value>
     </Stats>
     <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
       <EffectType>KineticManufacturingCost</EffectType>
       <Scope>Queue</Scope>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>7</Value>
+      <Value>4</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -2104,6 +3400,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
       <Value>1</Value>
     </Stats>
     <Prerequ>
@@ -2134,498 +3438,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
+      <Value>1.0</Value>
     </Stats>
     <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Value</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>30</Value>
     </Stats>
     <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_Railguns</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Component_ExperimentalKinetic</InternalName>
-    <DisplayName>Component_ExperimentalKinetic_Name</DisplayName>
-    <Description>Component_ExperimentalKinetic_Dec</Description>
-    <ArtDefine>WeaponModel_03</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
-      <ProjectionFX>KineticPulseCannon</ProjectionFX>
-      <HitFX>KineticPulseCannon_Hit</HitFX>
-      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>7</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Prerequ>
-      <Unavailable>true</Unavailable>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>MassDriver</InternalName>
-    <DisplayName>MassDriver_Name</DisplayName>
-    <Description>MassDriver_Dec</Description>
-    <ArtDefine>WeaponModel_03</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
-      <ProjectionFX>KineticPulseCannon</ProjectionFX>
-      <HitFX>KineticPulseCannon_Hit</HitFX>
-      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
+      <EffectType>Maintenance</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>10</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_PulseCannons</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>VulcanicDriver</InternalName>
-    <DisplayName>VulcanicDriver_Name</DisplayName>
-    <Description>VulcanicDriver_Dec</Description>
-    <ArtDefine>WeaponModel_01</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeapon</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticGravitonDriver_Emission</EmissionFX>
-      <ProjectionFX>KineticGravitonDriver</ProjectionFX>
-      <HitFX>KineticGravitonDriver_Hit</HitFX>
-      <DeflectionFX>KineticGravitonDriver_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>12</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>8</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_GravitonGuns</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>PulseCannonX</InternalName>
-    <DisplayName>PulseCannonX_Name</DisplayName>
-    <Description>PulseCannonX_Dec</Description>
-    <ArtDefine>WeaponModel_03</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
-      <ProjectionFX>KineticPulseCannon</ProjectionFX>
-      <HitFX>KineticPulseCannon_Hit</HitFX>
-      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>8</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>ThuliumCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_Railguns</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>MassDriverX</InternalName>
-    <DisplayName>MassDriverX_Name</DisplayName>
-    <Description>MassDriverX_Dec</Description>
-    <ArtDefine>WeaponModel_03</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
-      <ProjectionFX>KineticPulseCannon</ProjectionFX>
-      <HitFX>KineticPulseCannon_Hit</HitFX>
-      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>7</Value>
-    </Stats>
-    <Stats>
-      <EffectType>ThuliumCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_PulseCannons</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>VulcanicDriverX</InternalName>
-    <DisplayName>VulcanicDriverX_Name</DisplayName>
-    <Description>VulcanicDriverX_Dec</Description>
-    <ArtDefine>WeaponModel_01</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticGravitonDriver_Emission</EmissionFX>
-      <ProjectionFX>KineticGravitonDriver</ProjectionFX>
-      <HitFX>KineticGravitonDriver_Hit</HitFX>
-      <DeflectionFX>KineticGravitonDriver_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>12</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>KineticWeapon</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>KineticAttack</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </Stats>
-    <Stats>
-      <EffectType>ThuliumCost</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>OneTime</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Prerequ>
-      <Techs>
-        <Option>Tech_GravitonGuns</Option>
-      </Techs>
-    </Prerequ>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>QuantumDriver</InternalName>
-    <DisplayName>QuantumDriver_Name</DisplayName>
-    <Description>QuantumDriver_Dec</Description>
-    <ArtDefine>WeaponModel_04</ArtDefine>
-    <Category>Weapons</Category>
-    <Type>KineticWeaponEnhanced</Type>
-    <PlacementType>Weapon</PlacementType>
-    <WeaponFX>
-      <EmissionFX>KineticQuantumDriver_Emission</EmissionFX>
-      <ProjectionFX>KineticQuantumDriver</ProjectionFX>
-      <HitFX>KineticQuantumDriver_Hit</HitFX>
-      <DeflectionFX>KineticQuantumDriver_Deflection</DeflectionFX>
-    </WeaponFX>
-    <Stats>
-      <EffectType>Threat</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
     </Stats>
     <Stats>
       <EffectType>KineticManufacturingCost</EffectType>
@@ -2663,36 +3492,71 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>11</Value>
+      <Value>12</Value>
     </Stats>
     <Stats>
-      <EffectType>ThuliumCost</EffectType>
+      <EffectType>KineticAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>3</Value>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
     </Stats>
     <Prerequ>
       <Techs>
-        <Option>Tech_QuantumPulseDriver</Option>
+        <Option>Tech_Railguns</Option>
       </Techs>
     </Prerequ>
   </ShipComponent>
  
   <ShipComponent>
-    <InternalName>SingularityDriver</InternalName>
-    <DisplayName>SingularityDriver_Name</DisplayName>
-    <Description>SingularityDriver_Dec</Description>
-    <ArtDefine>WeaponModel_05</ArtDefine>
+    <InternalName>Component_ExperimentalKinetic</InternalName>
+    <DisplayName>Component_ExperimentalKinetic_Name</DisplayName>
+    <Description>Component_ExperimentalKinetic_Dec</Description>
+    <ArtDefine>WeaponModel_03</ArtDefine>
     <Category>Weapons</Category>
-    <Type>KineticWeaponEnhanced</Type>
+    <Type>KineticWeapon</Type>
     <PlacementType>Weapon</PlacementType>
     <WeaponFX>
-      <EmissionFX>KineticSingularityDriver_Emission</EmissionFX>
-      <ProjectionFX>KineticSingularityDriver</ProjectionFX>
-      <HitFX>KineticSingularity_DriverHit</HitFX>
-      <DeflectionFX>KineticSingularityDriver_Deflection</DeflectionFX>
+      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
+      <ProjectionFX>KineticPulseCannon</ProjectionFX>
+      <HitFX>KineticPulseCannon_Hit</HitFX>
+      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
     </WeaponFX>
     <Stats>
       <EffectType>Threat</EffectType>
@@ -2700,7 +3564,23 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>0.7</Value>
+      <Value>0.8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>24</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
     </Stats>
     <Stats>
       <EffectType>KineticManufacturingCost</EffectType>
@@ -2709,7 +3589,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>30</Value>
+      <Value>16</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -2738,10 +3618,1034 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>14</Value>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ArmorEfficiency</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Railguns</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_ExperimentalKineticX</InternalName>
+    <DisplayName>Component_ExperimentalKineticX_Name</DisplayName>
+    <Description>Component_ExperimentalKineticX_Dec</Description>
+    <ArtDefine>WeaponModel_03</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
+      <ProjectionFX>KineticPulseCannon</ProjectionFX>
+      <HitFX>KineticPulseCannon_Hit</HitFX>
+      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>48</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>16</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>32</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>8</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ArmorEfficiency</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+        <TargetRelation>Enemy</TargetRelation>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>AntimatterCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Railguns</Option>
+      </Techs>
+      <Techs>
+        <Option>Tech_PulseCannons</Option>
+      </Techs>
+      <Techs>
+        <Option>Tech_GravitonGuns</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>MassDriver</InternalName>
+    <DisplayName>MassDriver_Name</DisplayName>
+    <Description>MassDriver_Dec</Description>
+    <ArtDefine>WeaponModel_03</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
+      <ProjectionFX>KineticPulseCannon</ProjectionFX>
+      <HitFX>KineticPulseCannon_Hit</HitFX>
+      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>48</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>16</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>32</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>11</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PulseCannons</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>VulcanicDriver</InternalName>
+    <DisplayName>VulcanicDriver_Name</DisplayName>
+    <Description>VulcanicDriver_Dec</Description>
+    <ArtDefine>WeaponModel_01</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeapon</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticGravitonDriver_Emission</EmissionFX>
+      <ProjectionFX>KineticGravitonDriver</ProjectionFX>
+      <HitFX>KineticGravitonDriver_Hit</HitFX>
+      <DeflectionFX>KineticGravitonDriver_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>39</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>13</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>26</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>7</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_GravitonGuns</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>PulseCannonX</InternalName>
+    <DisplayName>PulseCannonX_Name</DisplayName>
+    <Description>PulseCannonX_Dec</Description>
+    <ArtDefine>WeaponModel_03</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
+      <ProjectionFX>KineticPulseCannon</ProjectionFX>
+      <HitFX>KineticPulseCannon_Hit</HitFX>
+      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.0</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>60</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>20</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>40</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>24</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_Railguns</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent> 
+  <ShipComponent>
+    <InternalName>MassDriverX</InternalName>
+    <DisplayName>MassDriverX_Name</DisplayName>
+    <Description>MassDriverX_Dec</Description>
+    <ArtDefine>WeaponModel_03</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticPulseCannon_Emission</EmissionFX>
+      <ProjectionFX>KineticPulseCannon</ProjectionFX>
+      <HitFX>KineticPulseCannon_Hit</HitFX>
+      <DeflectionFX>KineticPulseCannon_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>66</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>22</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>44</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats><Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>16</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_PulseCannons</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>VulcanicDriverX</InternalName>
+    <DisplayName>VulcanicDriverX_Name</DisplayName>
+    <Description>VulcanicDriverX_Dec</Description>
+    <ArtDefine>WeaponModel_01</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticGravitonDriver_Emission</EmissionFX>
+      <ProjectionFX>KineticGravitonDriver</ProjectionFX>
+      <HitFX>KineticGravitonDriver_Hit</HitFX>
+      <DeflectionFX>KineticGravitonDriver_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1.9</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>56</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>19</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>38</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.04</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HeliosOreCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_GravitonGuns</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>QuantumDriver</InternalName>
+    <DisplayName>QuantumDriver_Name</DisplayName>
+    <Description>QuantumDriver_Dec</Description>
+    <ArtDefine>WeaponModel_04</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticQuantumDriver_Emission</EmissionFX>
+      <ProjectionFX>KineticQuantumDriver</ProjectionFX>
+      <HitFX>KineticQuantumDriver_Hit</HitFX>
+      <DeflectionFX>KineticQuantumDriver_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2.6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>78</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>26</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>52</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>11</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.06</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HeliosOreCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>Tech_QuantumPulseDriver</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+ 
+  <ShipComponent>
+    <InternalName>SingularityDriver</InternalName>
+    <DisplayName>SingularityDriver_Name</DisplayName>
+    <Description>SingularityDriver_Dec</Description>
+    <ArtDefine>WeaponModel_05</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>KineticWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+      <EmissionFX>KineticSingularityDriver_Emission</EmissionFX>
+      <ProjectionFX>KineticSingularityDriver</ProjectionFX>
+      <HitFX>KineticSingularity_DriverHit</HitFX>
+      <DeflectionFX>KineticSingularityDriver_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>99</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>33</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>66</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>13</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.08</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Fleet</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.20</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HeliosOreCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
@@ -5323,7 +7227,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>IsImmuneToRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
@@ -5682,7 +7586,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>IsImmuneToRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
@@ -6051,7 +7955,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>10</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -6071,50 +7975,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
-    </Stats>
-  </ShipComponent>
- 
-  <ShipComponent>
-    <InternalName>Component_Moves3</InternalName>
-    <DisplayName>Component_Moves3_Name</DisplayName>
-    <Description>Component_Moves3_Dec</Description>
-    <ArtDefine>WarpDrive_01</ArtDefine>
-    <Category>Engines</Category>
-    <OnePerShip>true</OnePerShip>
-    <Type>InterstellarDrive</Type>
-    <SupportType>InterstellarDrive</SupportType>
-    <PlacementType>Support</PlacementType>
-    <Stats>
-      <EffectType>ManufacturingCost</EffectType>
-      <Scope>Queue</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>12</Value>
-    </Stats>
-    <Stats>
-      <EffectType>Mass</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>HullMassScaleMod</Special>
-        <ValueParam>1</ValueParam>
-        <ValueParam>0</ValueParam>
-      </SpecialValue>
-    </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
     </Stats>
     <Stats>
       <EffectType>HitPointsCap</EffectType>
@@ -6122,10 +7984,17 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.2</Value>
+      <Value>-0.05</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
     </Stats>
   </ShipComponent>
- 
   <ShipComponent>
     <InternalName>Component_Moves2</InternalName>
     <DisplayName>Component_Moves2_Name</DisplayName>
@@ -6143,7 +8012,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>16</Value>
+      <Value>20</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -6163,8 +8032,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
     </Stats>
     <Stats>
       <EffectType>PromethionCost</EffectType>
@@ -6172,10 +8049,125 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <Value>4</Value>
+    </Stats>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_Moves3</InternalName>
+    <DisplayName>Component_Moves3_Name</DisplayName>
+    <Description>Component_Moves3_Dec</Description>
+    <ArtDefine>WarpDrive_01</ArtDefine>
+    <Category>Engines</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>InterstellarDrive</Type>
+    <SupportType>InterstellarDrive</SupportType>
+    <PlacementType>Support</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>30</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MovesCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>6</Value>
+    </Stats>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_Moves4</InternalName>
+    <DisplayName>Component_Moves4_Name</DisplayName>
+    <Description>Component_Moves4_Dec</Description>
+    <ArtDefine>WarpDrive_01</ArtDefine>
+    <Category>Engines</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>InterstellarDrive</Type>
+    <SupportType>InterstellarDrive</SupportType>
+    <PlacementType>Support</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>40</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>MovesCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>8</Value>
     </Stats>
   </ShipComponent>
  
+  
   <ShipComponent>
     <InternalName>Component_WeaponRange</InternalName>
     <DisplayName>Component_WeaponRange_Name</DisplayName>
@@ -6192,7 +8184,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>16</Value>
+      <Value>25</Value>
     </Stats>
     <Stats>
       <EffectType>Mass</EffectType>
@@ -6210,29 +8202,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>KineticRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>KineticWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.25</Value>
+      <Value>0.15</Value>
     </Stats>
     <Stats>
       <EffectType>BeamRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>BeamWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.25</Value>
+      <Value>0.15</Value>
     </Stats>
     <Stats>
       <EffectType>MissileRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>MissileWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.25</Value>
+      <Value>0.15</Value>
     </Stats>
     <Stats>
       <EffectType>ThuliumCost</EffectType>
@@ -6240,8 +8232,146 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <Value>2</Value>
     </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+      <Option>Tech_Railguns</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_BeamWeaponTheory</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_AvengerMissileSystem</Option>
+    </Techs></Prerequ>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_WeaponRangeX</InternalName>
+    <DisplayName>Component_WeaponRangeX_Name</DisplayName>
+    <Description>Component_WeaponRangeX_Dec</Description>
+    <ArtDefine>Armor_02</ArtDefine>
+    <Category>Support</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>Sensor</Type>
+    <PlacementType>Module</PlacementType>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>50</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Mass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>HullMassScaleMod</Special>
+        <ValueParam>1</ValueParam>
+        <ValueParam>0</ValueParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Target>
+        <TargetType>Fleet</TargetType>
+        <ShipComponentType>KineticWeapon</ShipComponentType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Target>
+        <TargetType>Fleet</TargetType>
+        <ShipComponentType>BeamWeapon</ShipComponentType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileRange</EffectType>
+      <Target>
+        <TargetType>Fleet</TargetType>
+        <ShipComponentType>MissileWeapon</ShipComponentType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+      <Option>Tech_Railguns</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_PulseCannons</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_GravitonGuns</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_BeamWeaponTheory</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_DisruptorBeams</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_PlasmaBeams</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_AvengerMissileSystem</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_DevastatorMissileSystem</Option>
+    </Techs>
+    <Techs>
+      <Option>Tech_PhotonicWarheadSystem</Option>
+    </Techs>
+  </Prerequ>
   </ShipComponent>
  
   <ShipComponent>
@@ -6292,7 +8422,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>SensorRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>2</Value>
@@ -6333,7 +8463,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>SensorRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>4</Value>
@@ -6847,8 +8977,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -6867,10 +8997,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <LevelEffectStats>
       <EffectType>SensorRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -6891,8 +9021,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -6914,8 +9044,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -6937,8 +9067,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -6959,8 +9089,50 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </LevelEffectStats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_MissileAttackPerLevel</InternalName>
+    <DisplayName>Component_MissileAttackPerLevel_Name</DisplayName>
+    <Description>Component_MissileAttackPerLevel_Dec</Description>
+    <ArtDefine>MercModel_18</ArtDefine>
+    <Category>Support</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>AbilityModule</Type>
+    <PlacementType>Support</PlacementType>
+    <LevelEffectStats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </LevelEffectStats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+  <ShipComponent>
+    <InternalName>Component_BeamAttackPerLevel</InternalName>
+    <DisplayName>Component_BeamAttackPerLevel_Name</DisplayName>
+    <Description>Component_BeamAttackPerLevel_Dec</Description>
+    <ArtDefine>MercModel_18</ArtDefine>
+    <Category>Support</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>AbilityModule</Type>
+    <PlacementType>Support</PlacementType>
+    <LevelEffectStats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </LevelEffectStats>
     <Prerequ>
       <Unavailable>true</Unavailable>
@@ -7338,7 +9510,49 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.2</Value>
+      <Value>0.05</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.03</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
     </Stats>
   </ShipComponent>
  
@@ -7355,8 +9569,50 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ThuliumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.05</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.04</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.03</ValueParam>
+        <StringParam>MovesCap</StringParam>
+      </SpecialValue>
     </Stats>
   </ShipComponent>
  
@@ -7371,10 +9627,24 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>SensorRange</EffectType>
       <Target>
+        <TargetType>Fleet</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.008</ValueParam>
+        <StringParam>SensorRange</StringParam>
+      </SpecialValue>
     </Stats>
   </ShipComponent>
  
@@ -7391,8 +9661,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -7400,7 +9670,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.08</ValueParam>
+        <StringParam>BeamAttack</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Stat>
@@ -7426,8 +9702,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Stats>
       <EffectType>AntimatterCost</EffectType>
@@ -7435,7 +9711,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.08</ValueParam>
+        <StringParam>MissileAttack</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Stat>
@@ -7461,8 +9743,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.05</Value>
     </Stats>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
@@ -7470,7 +9752,13 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.08</ValueParam>
+        <StringParam>KineticAttack</StringParam>
+      </SpecialValue>
     </Stats>
     <Prerequ>
       <Stat>
@@ -7706,7 +9994,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
+      <BonusType>Multiplier</BonusType>
       <Value>1</Value>
     </Stats>
     <Stats>
@@ -7715,7 +10003,21 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>1</Value>
+      <Value>3</Value>
+    </Stats>
+    <Stats>
+      <EffectType>DurantiumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>0.08</ValueParam>
+        <StringParam>KineticAttack</StringParam>
+      </SpecialValue>
     </Stats>
   </ShipComponent>
  
@@ -7734,8 +10036,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PromethionCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>OneTime</BonusType>
+      <Value>5</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructShip</OnEvent>
@@ -8013,7 +10323,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>KineticRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>KineticWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>
@@ -8022,7 +10332,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>BeamRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>BeamWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>
@@ -8031,7 +10341,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <Stats>
       <EffectType>MissileRange</EffectType>
       <Target>
-        <TargetType>Ship</TargetType>
+        <TargetType>Fleet</TargetType>
         <ShipComponentType>MissileWeapon</ShipComponentType>
       </Target>
       <BonusType>Multiplier</BonusType>

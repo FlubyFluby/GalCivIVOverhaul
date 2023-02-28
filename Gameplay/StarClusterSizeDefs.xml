@@ -6,8 +6,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Tiny</UniqueID>
-    <MinRadius>64</MinRadius>
-    <MaxRadius>116</MaxRadius>
+    <MinRadius>76</MinRadius>
+    <MaxRadius>120</MaxRadius>
     <MinDistanceFromCluster>200</MinDistanceFromCluster>
     <MaxDistanceFromCluster>300</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
@@ -22,8 +22,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Small</UniqueID>
-    <MinRadius>72</MinRadius>
-    <MaxRadius>116</MaxRadius>
+    <MinRadius>80</MinRadius>
+    <MaxRadius>120</MaxRadius>
     <MinDistanceFromCluster>260</MinDistanceFromCluster>
     <MaxDistanceFromCluster>360</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
@@ -38,8 +38,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Medium</UniqueID>
-    <MinRadius>80</MinRadius>
-    <MaxRadius>116</MaxRadius>
+    <MinRadius>84</MinRadius>
+    <MaxRadius>120</MaxRadius>
     <MinDistanceFromCluster>320</MinDistanceFromCluster>
     <MaxDistanceFromCluster>420</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
@@ -54,8 +54,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Large</UniqueID>
-    <MinRadius>92</MinRadius>
-    <MaxRadius>116</MaxRadius>
+    <MinRadius>100</MinRadius>
+    <MaxRadius>120</MaxRadius>
     <MinDistanceFromCluster>360</MinDistanceFromCluster>
     <MaxDistanceFromCluster>460</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
@@ -71,7 +71,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
   <StarClusterSizeDef>
     <UniqueID>Huge</UniqueID>
     <MinRadius>112</MinRadius>
-    <MaxRadius>120</MaxRadius>
+    <MaxRadius>124</MaxRadius>
     <MinDistanceFromCluster>400</MinDistanceFromCluster>
     <MaxDistanceFromCluster>500</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>

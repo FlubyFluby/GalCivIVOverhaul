@@ -1717,7 +1717,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>0.002</ValueParam>
+          <ValueParam>0.02</ValueParam>
           <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>

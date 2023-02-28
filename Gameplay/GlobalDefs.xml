@@ -1916,13 +1916,13 @@ The Y axis is the resulting price. -->
 	<GovernmentNumColoniesBeforeAllowed>2</GovernmentNumColoniesBeforeAllowed>
 	<GovernmentLostElectionCooldown>20</GovernmentLostElectionCooldown>
 	<GovernmentLostElectionDefaultInterimGovernment>Coalition</GovernmentLostElectionDefaultInterimGovernment>
-	<TaxationUnrestMult>1.35</TaxationUnrestMult>
-	<TaxationStartingValue>0.35</TaxationStartingValue>
-  <TaxationRateLow>0.2</TaxationRateLow>
-  <TaxationRateNormal>0.4</TaxationRateNormal>
-  <TaxationRateMedium>0.6</TaxationRateMedium>
-  <TaxationRateHigh>0.8</TaxationRateHigh>
-  <TaxationRateMax>1.0</TaxationRateMax>
+	<TaxationUnrestMult>0.75</TaxationUnrestMult>
+	<TaxationStartingValue>0.25</TaxationStartingValue>
+  <TaxationRateLow>0.25</TaxationRateLow>
+  <TaxationRateNormal>0.5</TaxationRateNormal>
+  <TaxationRateMedium>0.75</TaxationRateMedium>
+  <TaxationRateHigh>1.0</TaxationRateHigh>
+  <TaxationRateMax>1.25</TaxationRateMax>
   <GalacticNewsTurnsAfterUseMult>1</GalacticNewsTurnsAfterUseMult>
 	<GalacticNewsUnusedBonus>100</GalacticNewsUnusedBonus>
 	<GalacticNewsListSizeMetBonus>100</GalacticNewsListSizeMetBonus>
@@ -1932,7 +1932,7 @@ The Y axis is the resulting price. -->
 	<ColonyLimitWarningCooldown>30</ColonyLimitWarningCooldown>
 	<ColonyLimitPenaltyPerColony>0.125</ColonyLimitPenaltyPerColony>
 	<ColonyLimitMaxPenalty>10</ColonyLimitMaxPenalty>
-	<GalacticMarketTrickle>0.25</GalacticMarketTrickle>
+	<GalacticMarketTrickle>0.3</GalacticMarketTrickle>
 	<StatCheckMin>10</StatCheckMin> <!-- The Minimum value of a Stat Check Chance -->
 	<StatCheckMax>95</StatCheckMax> <!-- The Maximum value of a Stat Check Chance -->
 

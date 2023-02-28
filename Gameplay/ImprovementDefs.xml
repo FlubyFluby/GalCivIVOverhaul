@@ -1863,18 +1863,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <Value>150</Value>
     </Stats>
     <Stats>
-      <EffectType>ThuliumCatalystCost</EffectType>
+      <EffectType>ThuliumCost</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.3</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
@@ -1882,13 +1876,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.2</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>EleriumCost</EffectType>
@@ -1896,16 +1884,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.1</ValueParam>
-        <StringParam>PlanetClass</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Stats>
-      <EffectType>CanDetectCloak</EffectType>
+      <EffectType>ColonySponsorDecayMod</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -1914,9 +1896,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <SpecialValue>
         <Special>StatCalc</Special>
         <ValueParam>0</ValueParam>
-        <ValueParam>0.3</ValueParam>
-        <StringParam>SoldierCount</StringParam>
+        <ValueParam>0.008</ValueParam>
+        <StringParam>MaxManufacturing</StringParam>
       </SpecialValue>
+    </Stats>
+    <Stats>
+      <EffectType>Manufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.3</Value>
     </Stats>
     <Triggers>
       <OnEvent>OnConstructImprovment</OnEvent>
