@@ -6,10 +6,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Tiny</UniqueID>
-    <MinRadius>76</MinRadius>
-    <MaxRadius>120</MaxRadius>
-    <MinDistanceFromCluster>200</MinDistanceFromCluster>
-    <MaxDistanceFromCluster>300</MaxDistanceFromCluster>
+    <MinRadius>88</MinRadius>
+    <MaxRadius>104</MaxRadius>
+    <MinDistanceFromCluster>224</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>448</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>1</MaxNumBranches>
     <MaxNumConnections>1</MaxNumConnections>
@@ -22,10 +22,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Small</UniqueID>
-    <MinRadius>80</MinRadius>
-    <MaxRadius>120</MaxRadius>
-    <MinDistanceFromCluster>260</MinDistanceFromCluster>
-    <MaxDistanceFromCluster>360</MaxDistanceFromCluster>
+    <MinRadius>96</MinRadius>
+    <MaxRadius>108</MaxRadius>
+    <MinDistanceFromCluster>232</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>464</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>1</MaxNumBranches>
     <MaxNumConnections>2</MaxNumConnections>
@@ -38,10 +38,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Medium</UniqueID>
-    <MinRadius>84</MinRadius>
-    <MaxRadius>120</MaxRadius>
-    <MinDistanceFromCluster>320</MinDistanceFromCluster>
-    <MaxDistanceFromCluster>420</MaxDistanceFromCluster>
+    <MinRadius>104</MinRadius>
+    <MaxRadius>112</MaxRadius>
+    <MinDistanceFromCluster>240</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>480</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>2</MaxNumBranches>
     <MaxNumConnections>2</MaxNumConnections>
@@ -54,10 +54,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Large</UniqueID>
-    <MinRadius>100</MinRadius>
-    <MaxRadius>120</MaxRadius>
-    <MinDistanceFromCluster>360</MinDistanceFromCluster>
-    <MaxDistanceFromCluster>460</MaxDistanceFromCluster>
+    <MinRadius>112</MinRadius>
+    <MaxRadius>116</MaxRadius>
+    <MinDistanceFromCluster>248</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>496</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>2</MaxNumBranches>
     <MaxNumConnections>2</MaxNumConnections>
@@ -70,10 +70,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
 
   <StarClusterSizeDef>
     <UniqueID>Huge</UniqueID>
-    <MinRadius>112</MinRadius>
-    <MaxRadius>124</MaxRadius>
-    <MinDistanceFromCluster>400</MinDistanceFromCluster>
-    <MaxDistanceFromCluster>500</MaxDistanceFromCluster>
+    <MinRadius>120</MinRadius>
+    <MaxRadius>120</MaxRadius>
+    <MinDistanceFromCluster>256</MinDistanceFromCluster>
+    <MaxDistanceFromCluster>512</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>3</MaxNumBranches>
     <MaxNumConnections>3</MaxNumConnections>
@@ -83,6 +83,4 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MaxSpaceMonsterBases>7</MaxSpaceMonsterBases>
     <MaxSentinelBases>7</MaxSentinelBases>
   </StarClusterSizeDef>
-
-
 </StarClusterSizeDefList>
