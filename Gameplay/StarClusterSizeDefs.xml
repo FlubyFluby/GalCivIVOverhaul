@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MinNumBranches>1</MinNumBranches>
     <MaxNumBranches>1</MaxNumBranches>
     <MaxNumConnections>1</MaxNumConnections>
-    <MaxNumStartingLocations>1</MaxNumStartingLocations>
+    <MaxNumStartingLocations>0</MaxNumStartingLocations>
     <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
     <MaxPirateBases>8</MaxPirateBases>
     <MaxSpaceMonsterBases>8</MaxSpaceMonsterBases>
@@ -27,9 +27,9 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MinDistanceFromCluster>260</MinDistanceFromCluster>
     <MaxDistanceFromCluster>360</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
-    <MaxNumBranches>2</MaxNumBranches>
+    <MaxNumBranches>1</MaxNumBranches>
     <MaxNumConnections>2</MaxNumConnections>
-    <MaxNumStartingLocations>1</MaxNumStartingLocations>
+    <MaxNumStartingLocations>0</MaxNumStartingLocations>
     <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
     <MaxPirateBases>6</MaxPirateBases>
     <MaxSpaceMonsterBases>6</MaxSpaceMonsterBases>
@@ -43,8 +43,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MinDistanceFromCluster>320</MinDistanceFromCluster>
     <MaxDistanceFromCluster>420</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
-    <MaxNumBranches>3</MaxNumBranches>
-    <MaxNumConnections>3</MaxNumConnections>
+    <MaxNumBranches>2</MaxNumBranches>
+    <MaxNumConnections>2</MaxNumConnections>
     <MaxNumStartingLocations>1</MaxNumStartingLocations>
     <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
     <MaxPirateBases>4</MaxPirateBases>
@@ -59,10 +59,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MinDistanceFromCluster>360</MinDistanceFromCluster>
     <MaxDistanceFromCluster>460</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
-    <MaxNumBranches>3</MaxNumBranches>
-    <MaxNumConnections>3</MaxNumConnections>
-    <MaxNumStartingLocations>2</MaxNumStartingLocations>
-    <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
+    <MaxNumBranches>2</MaxNumBranches>
+    <MaxNumConnections>2</MaxNumConnections>
+    <MaxNumStartingLocations>1</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>1</MinPlayersStartingInCluster>
     <MaxPirateBases>5</MaxPirateBases>
     <MaxSpaceMonsterBases>5</MaxSpaceMonsterBases>
     <MaxSentinelBases>5</MaxSentinelBases>
@@ -75,10 +75,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarClusterSizeDef.xsd">
     <MinDistanceFromCluster>400</MinDistanceFromCluster>
     <MaxDistanceFromCluster>500</MaxDistanceFromCluster>
     <MinNumBranches>1</MinNumBranches>
-    <MaxNumBranches>4</MaxNumBranches>
-    <MaxNumConnections>5</MaxNumConnections>
-    <MaxNumStartingLocations>3</MaxNumStartingLocations>
-    <MinPlayersStartingInCluster>0</MinPlayersStartingInCluster>
+    <MaxNumBranches>3</MaxNumBranches>
+    <MaxNumConnections>3</MaxNumConnections>
+    <MaxNumStartingLocations>2</MaxNumStartingLocations>
+    <MinPlayersStartingInCluster>1</MinPlayersStartingInCluster>
     <MaxPirateBases>7</MaxPirateBases>
     <MaxSpaceMonsterBases>7</MaxSpaceMonsterBases>
     <MaxSentinelBases>7</MaxSentinelBases>
