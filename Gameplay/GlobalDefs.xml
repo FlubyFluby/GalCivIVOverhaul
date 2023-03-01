@@ -1,2292 +1,2292 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<GalCivGlobalList
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
-
-  <GalCivGlobal>
-    <MaxNumTurns>1000</MaxNumTurns>
-    <CreditsAndPowerCap>1000000.0</CreditsAndPowerCap>
-    <UngovernedColonyPopCap>1</UngovernedColonyPopCap>
-    <DefaultTileMoveCost>0.5</DefaultTileMoveCost>
-    <MinTileMoveCost>0.05</MinTileMoveCost>
-    <ExploreTileRandomRange>50</ExploreTileRandomRange>
-    <MinManufacturingSlider>0.01</MinManufacturingSlider>
-    <StartImprovementLevel>0</StartImprovementLevel>
-    <StarbaseModuleSalvageMultiplier>75</StarbaseModuleSalvageMultiplier>
-    <ShipyardMaxSponsorCount>5</ShipyardMaxSponsorCount>
-    <ShipyardSalvageMultiplier>50</ShipyardSalvageMultiplier>
-    <BaseStarbaseDef>BasicStarbase</BaseStarbaseDef>
-    <VigilantStarbaseDef>VigilantStarbase</VigilantStarbaseDef>
-    <BaseShipyardDef>BasicShipyard</BaseShipyardDef>
-    <GamePacingPacingDef>GamePacingOptions</GamePacingPacingDef>
-    <ResearchRatePacingDef>ResearchRateOptions</ResearchRatePacingDef>
-    <BaseMiningBaseBuildTime>8</BaseMiningBaseBuildTime>
-    <NonStackingEffects>MoveCost</NonStackingEffects>
-    <DefaultEjectTile>Northwest</DefaultEjectTile>
-    <RushCostMultiplier>4.25</RushCostMultiplier>
-    <CapitalImprovement>ColonyCapitalDummy</CapitalImprovement>
-    <CivilizationCapitalImprovement>CivilizationCapitalDummy</CivilizationCapitalImprovement>
-    <IdeologyTraitBaseCost>10</IdeologyTraitBaseCost>
-	<MinClassForArtifactImprovement>10</MinClassForArtifactImprovement>
-
-    <CoercionForgiveness>0.00</CoercionForgiveness>
-    <CoercionMaxPenalty>0.00</CoercionMaxPenalty>
-
-    <PopulationToProductionExponent>1.0</PopulationToProductionExponent>
-    <PopulationToProductionMultiplier>1.0</PopulationToProductionMultiplier>
-
-    <GlobalTriggers>
-      <OnEvent>OnPlanetRebellionComplete</OnEvent>
-      <Target>
-        <TargetType>Planet</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>GiveObjectToTileOwner</Action>
-      </PerformAction>
-    </GlobalTriggers>
-
-    <GlobalTriggers>
-      <OnEvent>OnPlanetTileOwnerChangeToForeign</OnEvent>
-      <Target>
-        <TargetType>Planet</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>StatusEffect</Action>
-        <StringParam>RebellionStatus</StringParam>
-      </PerformAction>
-    </GlobalTriggers>
-
-    <GlobalTriggers>
-      <OnEvent>OnPlanetTileOwnerChangeToSelf</OnEvent>
-      <Target>
-        <TargetType>Planet</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>RemoveStatusEffect</Action>
-        <StringParam>RebellionStatus</StringParam>
-      </PerformAction>
-    </GlobalTriggers>
-
-<!--    <GlobalTriggers>
-      <OnEvent>OnConstructStarbase</OnEvent>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>AwardModulePoints</Action>
-        <ValueParam>1</ValueParam>
-      </PerformAction>
-    </GlobalTriggers> -->
-
-<!--    <GlobalTriggers>
-      <OnEvent>OnPlayerSetup</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <Modifier>
-        <EffectType>CulturePoints</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>1</Value>
-      </Modifier>
-    </GlobalTriggers> -->
-
-    <GlobalTriggers>
-      <OnEvent>OnConversationResponse</OnEvent>
-      <CriteriaInternalName>MercFirstContact_Response_1</CriteriaInternalName>
-      <PerformAction>
-        <Action>UnhideScreen</Action>
-        <StringParam>MercenaryWnd</StringParam>
-      </PerformAction>
-    </GlobalTriggers>
-   
-    <GlobalTriggers>
-      <OnEvent>OnAssassinateDiplomat</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Target</Lifetime>
-      <Duration>50</Duration>
-      <Modifier>
-        <EffectType>Approval</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Unit</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>-0.03</Value>
-      </Modifier>
-      <SourceDisplayName>Assassination_Penalty_Label</SourceDisplayName>
-    </GlobalTriggers>
-
-    <GlobalTriggers>
-      <OnEvent>OnGovernorFired</OnEvent>
-        <Target>
-          <TargetType>Unit</TargetType>
-        </Target>
-        <Lifetime>Instant</Lifetime>
-        <PerformAction>
-          <Action>ImproveLeaderStat</Action>
-          <ValueParam>-10</ValueParam>
-          <StringParam>Loyalty</StringParam>
-          <StringParam>FiredGovernorLabel</StringParam>
-        </PerformAction>
-    </GlobalTriggers>
-
-    <GlobalTriggers>
-      <OnEvent>OnGovernorExecuted</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Target</Lifetime>
-      <Duration>30</Duration>
-      <Modifier>
-        <EffectType>Approval</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Unit</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>-0.03</Value>
-      </Modifier>
-      <SourceDisplayName>ExecutedGovernorLabel</SourceDisplayName>
-    </GlobalTriggers>
-    
-    <GlobalTriggers>
-      <OnEvent>OnGovernorExecuted</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <Modifier>
-        <EffectType>Intimidation</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>1</Value>
-      </Modifier>
-      <SourceDisplayName>ExecutedGovernorLabel</SourceDisplayName>
-    </GlobalTriggers>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<GalCivGlobalList 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd"> 
  
-    <GlobalCombatMods>
-      <EffectType>BeamAccuracy</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticAccuracy</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.7</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileAccuracy</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>BeamAccuracy</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticAccuracy</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.7</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileAccuracy</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.8</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>BeamAccuracy</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticAccuracy</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileAccuracy</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.7</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>BeamCooldown</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.95</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileCooldown</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>BeamCooldown</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.95</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileCooldown</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>BeamCooldown</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.9</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticCooldown</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.95</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileCooldown</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>BeamRange</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1000</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticRange</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1200</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>800</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>BeamRange</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1100</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticRange</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1300</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>900</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>BeamRange</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1050</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1250</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticRange</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>850</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>BeamRange</EffectType>
-      <Target>
-        <TargetType>Hypergate</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1000</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MissileRange</EffectType>
-      <Target>
-        <TargetType>Hypergate</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>800</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>KineticRange</EffectType>
-      <Target>
-        <TargetType>Hypergate</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1200</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>StrategicRepair</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>StrategicRepair</EffectType>
-      <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>StrategicRepair</EffectType>
-      <Target>
-        <TargetType>Shipyard</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>TacticalSpeed</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>75</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>Acceleration</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>20</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>Maintenance</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>IsStationed</TargetQualifier>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-0.50</Value>
-    </GlobalCombatMods>
-
-    <GlobalCombatMods>
-      <EffectType>MovesCap</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>6</Value>
-    </GlobalCombatMods>
-    <GlobalCombatMods>
-      <EffectType>MovesCap</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </GlobalCombatMods>
-
-    <GlobalFactionMods>
-      <EffectType>Research</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>Crime</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.022</Value>
-    </GlobalFactionMods>
+  <GalCivGlobal> 
+    <MaxNumTurns>1000</MaxNumTurns> 
+    <CreditsAndPowerCap>1000000.0</CreditsAndPowerCap> 
+    <UngovernedColonyPopCap>1</UngovernedColonyPopCap> 
+    <DefaultTileMoveCost>0.5</DefaultTileMoveCost> 
+    <MinTileMoveCost>0.05</MinTileMoveCost> 
+    <ExploreTileRandomRange>50</ExploreTileRandomRange> 
+    <MinManufacturingSlider>0.01</MinManufacturingSlider> 
+    <StartImprovementLevel>0</StartImprovementLevel> 
+    <StarbaseModuleSalvageMultiplier>75</StarbaseModuleSalvageMultiplier> 
+    <ShipyardMaxSponsorCount>5</ShipyardMaxSponsorCount> 
+    <ShipyardSalvageMultiplier>50</ShipyardSalvageMultiplier> 
+    <BaseStarbaseDef>BasicStarbase</BaseStarbaseDef> 
+    <VigilantStarbaseDef>VigilantStarbase</VigilantStarbaseDef> 
+    <BaseShipyardDef>BasicShipyard</BaseShipyardDef> 
+    <GamePacingPacingDef>GamePacingOptions</GamePacingPacingDef> 
+    <ResearchRatePacingDef>ResearchRateOptions</ResearchRatePacingDef> 
+    <BaseMiningBaseBuildTime>8</BaseMiningBaseBuildTime> 
+    <NonStackingEffects>MoveCost</NonStackingEffects> 
+    <DefaultEjectTile>Northwest</DefaultEjectTile> 
+    <RushCostMultiplier>4.25</RushCostMultiplier> 
+    <CapitalImprovement>ColonyCapitalDummy</CapitalImprovement> 
+    <CivilizationCapitalImprovement>CivilizationCapitalDummy</CivilizationCapitalImprovement> 
+    <IdeologyTraitBaseCost>10</IdeologyTraitBaseCost> 
+	<MinClassForArtifactImprovement>10</MinClassForArtifactImprovement> 
+ 
+    <CoercionForgiveness>0.00</CoercionForgiveness> 
+    <CoercionMaxPenalty>0.00</CoercionMaxPenalty> 
+ 
+    <PopulationToProductionExponent>1.0</PopulationToProductionExponent> 
+    <PopulationToProductionMultiplier>1.0</PopulationToProductionMultiplier> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnPlanetRebellionComplete</OnEvent> 
+      <Target> 
+        <TargetType>Planet</TargetType> 
+      </Target> 
+      <Lifetime>Instant</Lifetime> 
+      <PerformAction> 
+        <Action>GiveObjectToTileOwner</Action> 
+      </PerformAction> 
+    </GlobalTriggers> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnPlanetTileOwnerChangeToForeign</OnEvent> 
+      <Target> 
+        <TargetType>Planet</TargetType> 
+      </Target> 
+      <Lifetime>Instant</Lifetime> 
+      <PerformAction> 
+        <Action>StatusEffect</Action> 
+        <StringParam>RebellionStatus</StringParam> 
+      </PerformAction> 
+    </GlobalTriggers> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnPlanetTileOwnerChangeToSelf</OnEvent> 
+      <Target> 
+        <TargetType>Planet</TargetType> 
+      </Target> 
+      <Lifetime>Instant</Lifetime> 
+      <PerformAction> 
+        <Action>RemoveStatusEffect</Action> 
+        <StringParam>RebellionStatus</StringParam> 
+      </PerformAction> 
+    </GlobalTriggers> 
+ 
+<!--    <GlobalTriggers> 
+      <OnEvent>OnConstructStarbase</OnEvent> 
+      <Lifetime>Instant</Lifetime> 
+      <PerformAction> 
+        <Action>AwardModulePoints</Action> 
+        <ValueParam>1</ValueParam> 
+      </PerformAction> 
+    </GlobalTriggers> --> 
+ 
+<!--    <GlobalTriggers> 
+      <OnEvent>OnPlayerSetup</OnEvent> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <Lifetime>Instant</Lifetime> 
+      <Modifier> 
+        <EffectType>CulturePoints</EffectType> 
+        <Target> 
+          <TargetType>Faction</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>1</Value> 
+      </Modifier> 
+    </GlobalTriggers> --> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnConversationResponse</OnEvent> 
+      <CriteriaInternalName>MercFirstContact_Response_1</CriteriaInternalName> 
+      <PerformAction> 
+        <Action>UnhideScreen</Action> 
+        <StringParam>MercenaryWnd</StringParam> 
+      </PerformAction> 
+    </GlobalTriggers> 
     
-    <GlobalFactionMods>
-      <EffectType>RebellionPointsMax</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>50</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>LogisticsCap</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>ShipRange</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>110</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>StationLogisticsCap</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>60</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>ShieldEfficiency</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>ArmorEfficiency</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.6</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>PointEfficiency</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.4</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>SalvageRatio</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.5</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>AsteroidDecay</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.02</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>MaxEnactedPolicies</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>RandomTechSlots</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>5</Value>
-    </GlobalFactionMods>
-
-    <GlobalFactionMods>
-      <EffectType>Control</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>100</Value>
-    </GlobalFactionMods>
-    
-    <GlobalColonyMods>
-      <EffectType>InfluencePerTurn</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1.25</Value>
-    </GlobalColonyMods>
-    
-    <GlobalColonyMods>
-      <EffectType>PopulationCap</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3.0</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>SensorRange</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10.0</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>PlanetaryDefensesMaxHP</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>PlanetaryDefensesRepairAbility</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.1</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>SponsorDecay</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType> <!--change back to 0.5 maybe-->
-      <Value>0.6</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>StrategicRepair</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>BeamAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.5</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>MissileAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.6</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>KineticAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.55</Value>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>BeamAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.1</ValueParam>
-        <StringParam>ResistanceBonus</StringParam>
-      </SpecialValue>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>MissileAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.09</ValueParam>
-        <StringParam>ResistanceBonus</StringParam>
-      </SpecialValue>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>KineticAttack</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.08</ValueParam>
-        <StringParam>ResistanceBonus</StringParam>
-      </SpecialValue>
-    </GlobalColonyMods>
-
-    <GlobalColonyMods>
-      <EffectType>UpgradeSlots</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>2</Value>
-    </GlobalColonyMods>
-
-    <GlobalAsteroidMods>
-      <EffectType>ProductionPoints</EffectType>
-      <Target>
-        <TargetType>Asteroid</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>0.115</Value>
-    </GlobalAsteroidMods>
-
-    <GlobalAsteroidMods>
-      <EffectType>HitPointsCap</EffectType>
-      <Target>
-        <TargetType>Asteroid</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>10</Value>
-    </GlobalAsteroidMods>
-
-    <GlobalInvasionValues>
-      <MaxTurnsToInvadeCoreWorld>12</MaxTurnsToInvadeCoreWorld>
-      <MinTurnsToInvadeCoreWorld>6</MinTurnsToInvadeCoreWorld>
-      <MaxTurnsToInvadeColony>8</MaxTurnsToInvadeColony>
-      <MinTurnsToInvadeColony>4</MinTurnsToInvadeColony>
-    </GlobalInvasionValues>
-    
-    <TradeRouteInitiatorMods>
-      <EffectType>TradeRouteValueRaw</EffectType>
-      <Target>
-        <TargetType>TradeRoute</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.15</Value>
-    </TradeRouteInitiatorMods>
-
-    <TradeRouteInitiatorMods>
-      <EffectType>TradeLicensesUsed</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-        <TargetRelation>Self</TargetRelation>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </TradeRouteInitiatorMods>
-
-    <TradeRouteRaidMods>
-      <EffectType>TradeRouteValue</EffectType>
-      <Target>
-        <TargetType>TradeRoute</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>TradeRouteRaidBonus</Special>
-        <ValueParam>-0.10</ValueParam>
-      </SpecialValue>
-    </TradeRouteRaidMods>
-
-    <TradeRouteRaidPathMods>
-      <EffectType>RaidBonus</EffectType>
-      <Target>
-        <TargetType>TradeRoutePath</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>TradeRouteRaidBonus</Special>
-        <ValueParam>0.10</ValueParam>
-      </SpecialValue>
-    </TradeRouteRaidPathMods>
-
-    <WarWithFavoredCivMods>
-      <EffectType>Approval</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Unit</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-0.1</Value>
-    </WarWithFavoredCivMods>
-
-    <RepairDirectiveMods>
-      <EffectType>StrategicRepair</EffectType>
-      <Scope>Fleet</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>2.0</Value>
-    </RepairDirectiveMods>
-
-    <DefenseDamageWeaponMod>0.0</DefenseDamageWeaponMod>
-    <MinimumDamage>1</MinimumDamage>
-
-    <ApprovalToGrowthCurve>
-      <DataCurveDataPoint>
-        <X>1.0</X>
-        <Y>0.5</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.95</X>
-        <Y>0.45</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.85</X>
-        <Y>0.3</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.7</X>
-        <Y>0.20</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.5</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.3</X>
-        <Y>-0.10</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.15</X>
-        <Y>-0.40</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.05</X>
-        <Y>-0.60</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.0</X>
-        <Y>-0.99</Y>
-      </DataCurveDataPoint>
-    </ApprovalToGrowthCurve>
-
-    <ApprovalToProductionCurve>
-      <DataCurveDataPoint>
-        <X>1.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.95</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.85</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.60</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.40</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.30</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.15</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.05</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-    </ApprovalToProductionCurve>
-
-    <ApprovalToInfluenceCurve>
-      <DataCurveDataPoint>
-        <X>1.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.95</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.85</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.60</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.40</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.30</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.15</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.05</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-    </ApprovalToInfluenceCurve>
-
-    <ApprovalToResistanceCurve>
-      <DataCurveDataPoint>
-        <X>1.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.95</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.85</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.7</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.5</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.3</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.15</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.05</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.0</X>
-        <Y>0.0</Y>
-      </DataCurveDataPoint>
-    </ApprovalToResistanceCurve>
-
-    <LoyaltyToApprovalCurve>
-      <DataCurveDataPoint>
-        <X>100.0</X>
-        <Y>0.2</Y>
-      </DataCurveDataPoint>
-      
-      <DataCurveDataPoint>
-        <X>30.0</X>
-        <Y>-0.0</Y>
-      </DataCurveDataPoint>
-    </LoyaltyToApprovalCurve>
-
-    <ApprovalHappyThreshold>0.60</ApprovalHappyThreshold>
-    <ApprovalContentThreshold>0.35</ApprovalContentThreshold>
-    <BaseUnitApproval>0.0</BaseUnitApproval>
-
-    <LeaderAlignmentMatchesMod>10</LeaderAlignmentMatchesMod>
-    <LeaderAlignmentOpposedMod>-10</LeaderAlignmentOpposedMod>
-    <LeaderAutoUnassignmentLoyaltyThreshold>20</LeaderAutoUnassignmentLoyaltyThreshold>
-    <CommanderBecomesPirateLoyaltyThreshold>20</CommanderBecomesPirateLoyaltyThreshold>
-
-    <MinBazaarDiscount>0.5</MinBazaarDiscount>
-    
-    <InfluenceMapSizeModifier>0</InfluenceMapSizeModifier>
-    <InfluencePerTurnGrowthDivisor>5000</InfluencePerTurnGrowthDivisor>
-		<InfluenceMinToClaim>0.001</InfluenceMinToClaim>
-		<InfluenceRadiusRoot>3.0</InfluenceRadiusRoot>
-		<InfluenceBellCurveTargetDivisor>2.5</InfluenceBellCurveTargetDivisor>
-    
-    <!--This is multiplied by tile owner's influence-->
-    
-    <InfluenceFactorOnTakeover>0.9</InfluenceFactorOnTakeover>
-    
-    <!--Use to give a flat boost regardless of how much influence is on the tile -->
-    <InfluenceBoostOnTakeoverFlat>3</InfluenceBoostOnTakeoverFlat>
-    
-    <!--Set the boost duration to at least 1 or the effect will get wiped out after the first influence calculation -->
-    <InfluenceBoostOnTakeoverDuration>10</InfluenceBoostOnTakeoverDuration>
-    
-    <!-- This overrides the radius calculated by the influence system.  Seems to need to be more than 1 to have any real effect -->
-    <InfluenceBoostRadiusOverride>3</InfluenceBoostRadiusOverride>
-    <InfluenceFalloff>-1.0</InfluenceFalloff>
-    <GrowthDecay>-0.1</GrowthDecay>
-
-    <DiplomacyViewCameraMovementEasingCurve>
-      <DataCurveDataPoint>
-        <X>0</X>
-        <Y>0</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>0</LeftSideSlope>
-        <RightSideSlope>0</RightSideSlope>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.4</X>
-        <Y>0.8</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>1</LeftSideSlope>
-        <RightSideSlope>1</RightSideSlope>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>1</X>
-        <Y>1</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>0</LeftSideSlope>
-        <RightSideSlope>0</RightSideSlope>
-      </DataCurveDataPoint>
-    </DiplomacyViewCameraMovementEasingCurve>
-
-    <EngineTrailWidthCurve>
-      <!--Expand a bit at the beginning.-->
-      <DataCurveDataPoint>
-        <X>0</X>
-        <Y>0.5</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.05</X>
-        <Y>1.0</Y>
-      </DataCurveDataPoint>
-
-      <!--Taper a bit at the end.-->
-      <DataCurveDataPoint>
-        <X>0.8</X>
-        <Y>1.0</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>1.0</X>
-        <Y>0.5</Y>
-      </DataCurveDataPoint>
-    </EngineTrailWidthCurve>
-
-    <!--Starbases are being converted to have maintenance-->
-    <NumFreeStarbases>4</NumFreeStarbases>
-    <AdditionalCostPerStarbase>0</AdditionalCostPerStarbase>
-
-    <RequiredStarbaseSpacing>3</RequiredStarbaseSpacing>
-
-    <TacticalBattleArenaSize>8000</TacticalBattleArenaSize>
-
-    <TacticalBattleMinHitChance>0.2</TacticalBattleMinHitChance>
-
-    <BattleMinFireDelay>0</BattleMinFireDelay>
-    <BattleMaxFireDelay>2</BattleMaxFireDelay>
-
-    <MinShipPopulation>1.0</MinShipPopulation>
-    <DefaultShipPopulation>1.0</DefaultShipPopulation>
-    <ReservedColonyPopulation>0.0</ReservedColonyPopulation>
-    <MaxPopulationSourceDistance>20</MaxPopulationSourceDistance>
-    <LoadTransportPopupWndDisplayMultiplier>1</LoadTransportPopupWndDisplayMultiplier>
-    <LoadTransportPopupWndScrollbarNumStepsMultiplier>10</LoadTransportPopupWndScrollbarNumStepsMultiplier>
-
-    <GraphVerticalRangePadding>0.10</GraphVerticalRangePadding>
-    <GraphMaxNumFactionsToDisplay>10</GraphMaxNumFactionsToDisplay>
-    <GraphsScreenGraphLineThickness>2.5</GraphsScreenGraphLineThickness>
-
-
-    <TechTreeLineInsetDistance>24</TechTreeLineInsetDistance>
-    <TechTreeHorizontalSpacing>96</TechTreeHorizontalSpacing>
-    <TechTreeVerticalSpacing>16</TechTreeVerticalSpacing>
-
-    <TechTreeClusterSpacing>0</TechTreeClusterSpacing>
-    <TechTreeScreenCenterX>0.49</TechTreeScreenCenterX>
-    <TechTreeScreenCenterY>0.48</TechTreeScreenCenterY>
-    <TechTreeMarginX>0</TechTreeMarginX>
-    <TechTreeMarginY>0</TechTreeMarginY>
-    <TechTreeCenterViewOnSelect>true</TechTreeCenterViewOnSelect>
-    <TechTreeIsDraggable>true</TechTreeIsDraggable>
-    <TechTreeMomentum>10</TechTreeMomentum>
-    <TechTreeViewSnapRate>8</TechTreeViewSnapRate>
-    <TechTreeCameraBoundsPadding>512</TechTreeCameraBoundsPadding>
-
-    <CultureTreeLineInsetDistance>4</CultureTreeLineInsetDistance>
-    <CultureTreeHorizontalSpacing>16</CultureTreeHorizontalSpacing>
-    <CultureTreeVerticalSpacing>46</CultureTreeVerticalSpacing>
-    <CultureTreeClusterSpacing>4</CultureTreeClusterSpacing>
-    <CultureTreeScreenCenterX>0.5</CultureTreeScreenCenterX>
-    <CultureTreeScreenCenterY>0.5</CultureTreeScreenCenterY>
-    <CultureTreeCenterOffsetX>0</CultureTreeCenterOffsetX>
-    <CultureTreeCenterOffsetY>-280</CultureTreeCenterOffsetY>
-    <CultureTreeMarginX>0</CultureTreeMarginX>
-    <CultureTreeMarginY>0</CultureTreeMarginY>
-    <CultureTreeCenterViewOnSelect>false</CultureTreeCenterViewOnSelect>
-    <CultureTreeIsDraggable>false</CultureTreeIsDraggable>
-    <CultureTreeUseClosingSpanLines>true</CultureTreeUseClosingSpanLines>
-    <CultureTreeSpanWholeClusters>true</CultureTreeSpanWholeClusters>
-    <CultureTreeMomentum>10</CultureTreeMomentum>
-    <CultureTreeViewSnapRate>8</CultureTreeViewSnapRate>
-    <CultureTreeViewDefaultPyramid>Authority</CultureTreeViewDefaultPyramid>
-
-    <!-- To test this growth rate, go to http://www.google.com and draw a graph by typing:
-		
-y = CulturalAlignmentBiasSamePyramidGrowthExponentialMult * x^CulturalAlignmentBiasOtherPyramidGrowthExponent
-+ x*BasePrice*CulturalAlignmentBiasOtherPyramidGrowthMultiplier
-		
-...where you replace CulturalAlignmentBiasOtherPyramidGrowthExponent, BasePrice, and
-CulturalAlignmentBiasOtherPyramidGrowthMultiplier with your testing values.
-		
-The X axis represents the number of unlocked traits.
-The Y axis is the resulting price. -->
-    <CulturalAlignmentBiasSamePyramidGrowthExponent>1.0</CulturalAlignmentBiasSamePyramidGrowthExponent>
-    <CulturalAlignmentBiasSamePyramidGrowthExponentialMult>0.0</CulturalAlignmentBiasSamePyramidGrowthExponentialMult>
-    <CulturalAlignmentBiasSamePyramidGrowthMultiplier>1.0</CulturalAlignmentBiasSamePyramidGrowthMultiplier>
-
-    <!-- To test this growth rate, go to http://www.google.com and draw a graph by typing:
-		
-y = CulturalAlignmentBiasOtherPyramidGrowthExponentialMult * x^CulturalAlignmentBiasOtherPyramidGrowthExponent
-+ x*BasePrice*CulturalAlignmentBiasOtherPyramidGrowthMultiplier
-		
-...where you replace CulturalAlignmentBiasOtherPyramidGrowthExponent, BasePrice, and
-CulturalAlignmentBiasOtherPyramidGrowthMultiplier with your testing values.
-		
-The X axis represents the number of unlocked traits.
-The Y axis is the resulting price. -->
-    <CulturalAlignmentBiasOtherPyramidGrowthExponent>1.0</CulturalAlignmentBiasOtherPyramidGrowthExponent>
-		<CulturalAlignmentBiasOtherPyramidGrowthExponentialMult>0.0</CulturalAlignmentBiasOtherPyramidGrowthExponentialMult>
-		<CulturalAlignmentBiasOtherPyramidGrowthMultiplier>1.0</CulturalAlignmentBiasOtherPyramidGrowthMultiplier>
-
-    <DefaultPlayerFaction>FACTION_TERRAN</DefaultPlayerFaction>
-		<DefaultCustomFaction>FACTION_DEFAULT</DefaultCustomFaction>
-    <MinorFactionPlanetDef>Arb</MinorFactionPlanetDef>
-
-		<PirateFaction>FACTION_PIRATES</PirateFaction>
-    <SpaceMonsterFaction>FACTION_SPACEMONSTERS</SpaceMonsterFaction>
-    <SentinelFaction>FACTION_SENTINEL</SentinelFaction>
-    <DreadLordFaction>FACTION_DREADLORDS</DreadLordFaction>
-
-    <!--Each time you research a tech in any tree the cost of all techs are raised by this exponent-->
-		<TechInflationExponent_All>1.00</TechInflationExponent_All>
-    <!--Each time you research a tech in any tree all techs cost is increesed by this multipyer.-->
-		<TechInflationMultiplier_All>0.01</TechInflationMultiplier_All>
-    
-    <!--These values allow us to further inflate techs on a per tree basis, this is to discourage the
-    player from drilling down a single branch of the tree too quickly, and over specializing.
-    I have removed the exponent, and have only a small multiplier, since it is added to the overall inflation settings.-->
-		<TechInflationExponent_Tree>1.00</TechInflationExponent_Tree>
-		<TechInflationMultiplier_Tree>0.01</TechInflationMultiplier_Tree>
-    
-    <!--These are used to make sure specializations in same branch inflate each time once is chosen. 
-    Since we have moved to making specializations expulsive, I have flattened these values to nothing.-->
-    <TechInflationExponent_Specialization>1.5</TechInflationExponent_Specialization>
-    <TechInflationMultiplier_Specialization>0.0</TechInflationMultiplier_Specialization>
-
-    <CommonMediumHabitablePlanetCount>25</CommonMediumHabitablePlanetCount>
-
-    <ModSourceDD_Fallback>MISSING_MODIFY_STAT_DISPLAY_DEF</ModSourceDD_Fallback>
-    <ModSourceDD_DiplomaticAgreement>MODIFY_STAT_DD_DIPLOMATICAGREEMENT</ModSourceDD_DiplomaticAgreement>
-
-    <MissingDisplayString>MISSING_MODIFY_STAT_DISPLAY_DEF</MissingDisplayString>
-
-    <NumTurnsToMaxRaid>10</NumTurnsToMaxRaid>
-    <NumTurnsToKillTradeRouteConsecutiveRaid>5</NumTurnsToKillTradeRouteConsecutiveRaid>
-    <NumTurnsToKillTradeRouteNonConsecutiveRaid>10</NumTurnsToKillTradeRouteNonConsecutiveRaid>
-    <NumTurnsToTradeRouteRecoveryStart>10</NumTurnsToTradeRouteRecoveryStart>
-
-    <NumTurnsToUpgradeDesignsHuman>1</NumTurnsToUpgradeDesignsHuman>
-    <NumTurnsToUpgradeDesignsAI>8</NumTurnsToUpgradeDesignsAI>
-
-    <ElectUPChairmanResolutionDef>ElectChairmanRes</ElectUPChairmanResolutionDef>
-    <ElectUPSupremeResolutionDef>ElectSupremeLeader</ElectUPSupremeResolutionDef>
-    <NumTurnsToFirstUPMeeting>25</NumTurnsToFirstUPMeeting>
-    <NumTurnsToNextUPMeetingRare>50</NumTurnsToNextUPMeetingRare>
-    <NumTurnsToNextUPMeetingRegular>25</NumTurnsToNextUPMeetingRegular>
-    <NumTurnsToNextUPMeetingFrequent>20</NumTurnsToNextUPMeetingFrequent>
-    <UPMeetingAlertTurns>5</UPMeetingAlertTurns>
-    <UPMaxFactionOptions>6</UPMaxFactionOptions>
-    <RejectedResolutionCooldown>2</RejectedResolutionCooldown>
-    <MaxResolutionsToShow>5</MaxResolutionsToShow>
-    <VoteRatioToWin>0.66</VoteRatioToWin>
-    <VoteRatioToWin>0.61</VoteRatioToWin>
-    <VoteRatioToWin>0.56</VoteRatioToWin>
-    <VoteRatioToWin>0.51</VoteRatioToWin>
-
-    <FighterRepairTurnRate>3</FighterRepairTurnRate>
-    <FighterRepairPotency>3</FighterRepairPotency>
-
-    <ChanceColonizationEvent>0.75</ChanceColonizationEvent>
-	<MinClassColonizationEvent>12</MinClassColonizationEvent>
-    <PlanetClass_Dead>0</PlanetClass_Dead>
-    <PlanetClass_Colonizable>5</PlanetClass_Colonizable>
-    <PlanetClass_Good>14</PlanetClass_Good>
-    <PlanetClass_Great>24</PlanetClass_Great>
-    <PlanetClass_Fantastic>32</PlanetClass_Fantastic>
-		<MaxTradeResourcesByPlanetClass> <!-- trade resources are maxed at 1 for UI constraints -->
-			<Range>
-				<RangeMin>1</RangeMin>
-				<RangeMax>2</RangeMax>
-			</Range>
-			<Value>0</Value>
-		</MaxTradeResourcesByPlanetClass>
-		<MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>3</RangeMin>
-				<RangeMax>6</RangeMax>
-			</Range>
-			<Value>0.1</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>7</RangeMin>
-				<RangeMax>9</RangeMax>
-			</Range>
-			<Value>0.2</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>10</RangeMin>
-				<RangeMax>14</RangeMax>
-			</Range>
-			<Value>0.3</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>15</RangeMin>
-				<RangeMax>18</RangeMax>
-			</Range>
-			<Value>0.4</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>15</RangeMin>
-				<RangeMax>18</RangeMax>
-			</Range>
-			<Value>0.5</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>19</RangeMin>
-				<RangeMax>23</RangeMax>
-			</Range>
-			<Value>0.6</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>24</RangeMin>
-				<RangeMax>28</RangeMax>
-			</Range>
-			<Value>0.7</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>29</RangeMin>
-				<RangeMax>33</RangeMax>
-			</Range>
-			<Value>0.8</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>34</RangeMin>
-				<RangeMax>38</RangeMax>
-			</Range>
-			<Value>0.9</Value>
-		</MaxTradeResourcesByPlanetClass>
-    <MaxTradeResourcesByPlanetClass>
-			<Range>
-				<RangeMin>39</RangeMin>
-        <NoMax>true</NoMax>
-			</Range>
-			<Value>1</Value>
-		</MaxTradeResourcesByPlanetClass>
-    
-
+    <GlobalTriggers> 
+      <OnEvent>OnAssassinateDiplomat</OnEvent> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <Lifetime>Target</Lifetime> 
+      <Duration>50</Duration> 
+      <Modifier> 
+        <EffectType>Approval</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Unit</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>-0.03</Value> 
+      </Modifier> 
+      <SourceDisplayName>Assassination_Penalty_Label</SourceDisplayName> 
+    </GlobalTriggers> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnGovernorFired</OnEvent> 
+        <Target> 
+          <TargetType>Unit</TargetType> 
+        </Target> 
+        <Lifetime>Instant</Lifetime> 
+        <PerformAction> 
+          <Action>ImproveLeaderStat</Action> 
+          <ValueParam>-10</ValueParam> 
+          <StringParam>Loyalty</StringParam> 
+          <StringParam>FiredGovernorLabel</StringParam> 
+        </PerformAction> 
+    </GlobalTriggers> 
+ 
+    <GlobalTriggers> 
+      <OnEvent>OnGovernorExecuted</OnEvent> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <Lifetime>Target</Lifetime> 
+      <Duration>30</Duration> 
+      <Modifier> 
+        <EffectType>Approval</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Unit</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>-0.03</Value> 
+      </Modifier> 
+      <SourceDisplayName>ExecutedGovernorLabel</SourceDisplayName> 
+    </GlobalTriggers> 
+     
+    <GlobalTriggers> 
+      <OnEvent>OnGovernorExecuted</OnEvent> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <Lifetime>Instant</Lifetime> 
+      <Modifier> 
+        <EffectType>Intimidation</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Faction</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>1</Value> 
+      </Modifier> 
+      <SourceDisplayName>ExecutedGovernorLabel</SourceDisplayName> 
+    </GlobalTriggers> 
+  
+    <GlobalCombatMods> 
+      <EffectType>BeamAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.8</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.7</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.6</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>BeamAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.6</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.7</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.8</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>BeamAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.5</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.6</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileAccuracy</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.7</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>BeamCooldown</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.9</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticCooldown</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.95</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileCooldown</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>BeamCooldown</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.9</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticCooldown</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.95</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileCooldown</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>BeamCooldown</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.9</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticCooldown</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.95</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileCooldown</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>BeamRange</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1000</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticRange</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1200</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileRange</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>800</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>BeamRange</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1100</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticRange</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1300</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileRange</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>900</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>BeamRange</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1050</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileRange</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1250</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticRange</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>850</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>BeamRange</EffectType> 
+      <Target> 
+        <TargetType>Hypergate</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1000</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MissileRange</EffectType> 
+      <Target> 
+        <TargetType>Hypergate</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>800</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>KineticRange</EffectType> 
+      <Target> 
+        <TargetType>Hypergate</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1200</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>StrategicRepair</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>2</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>StrategicRepair</EffectType> 
+      <Target> 
+        <TargetType>Starbase</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>4</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>StrategicRepair</EffectType> 
+      <Target> 
+        <TargetType>Shipyard</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>6</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>TacticalSpeed</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>75</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>Acceleration</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>20</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>Maintenance</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+        <TargetQualifier>IsStationed</TargetQualifier> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>-0.50</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalCombatMods> 
+      <EffectType>MovesCap</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+        <TargetQualifier>InOwnersZOC</TargetQualifier> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>6</Value> 
+    </GlobalCombatMods> 
+    <GlobalCombatMods> 
+      <EffectType>MovesCap</EffectType> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>4</Value> 
+    </GlobalCombatMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>Research</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>2</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>Crime</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.022</Value> 
+    </GlobalFactionMods> 
+     
+    <GlobalFactionMods> 
+      <EffectType>RebellionPointsMax</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>50</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>LogisticsCap</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>10</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>ShipRange</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>110</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>StationLogisticsCap</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>60</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>ShieldEfficiency</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.5</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>ArmorEfficiency</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.6</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>PointEfficiency</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.4</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>SalvageRatio</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.5</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>AsteroidDecay</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.02</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>MaxEnactedPolicies</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>RandomTechSlots</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>5</Value> 
+    </GlobalFactionMods> 
+ 
+    <GlobalFactionMods> 
+      <EffectType>Control</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>100</Value> 
+    </GlobalFactionMods> 
+     
+    <GlobalColonyMods> 
+      <EffectType>InfluencePerTurn</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1.25</Value> 
+    </GlobalColonyMods> 
+     
+    <GlobalColonyMods> 
+      <EffectType>PopulationCap</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>3.0</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>SensorRange</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>10.0</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>PlanetaryDefensesMaxHP</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>10</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>PlanetaryDefensesRepairAbility</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.1</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>SponsorDecay</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> <!--change back to 0.5 maybe--> 
+      <Value>0.6</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>StrategicRepair</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>3</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>BeamAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>0.5</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>MissileAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>0.6</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>KineticAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>0.55</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>BeamAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <ValueType>Special</ValueType> 
+      <SpecialValue> 
+        <Special>StatCalc</Special> 
+        <ValueParam>0</ValueParam> 
+        <ValueParam>0.1</ValueParam> 
+        <StringParam>ResistanceBonus</StringParam> 
+      </SpecialValue> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>MissileAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <ValueType>Special</ValueType> 
+      <SpecialValue> 
+        <Special>StatCalc</Special> 
+        <ValueParam>0</ValueParam> 
+        <ValueParam>0.09</ValueParam> 
+        <StringParam>ResistanceBonus</StringParam> 
+      </SpecialValue> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>KineticAttack</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <ValueType>Special</ValueType> 
+      <SpecialValue> 
+        <Special>StatCalc</Special> 
+        <ValueParam>0</ValueParam> 
+        <ValueParam>0.08</ValueParam> 
+        <StringParam>ResistanceBonus</StringParam> 
+      </SpecialValue> 
+    </GlobalColonyMods> 
+ 
+    <GlobalColonyMods> 
+      <EffectType>UpgradeSlots</EffectType> 
+      <Target> 
+        <TargetType>Colony</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>2</Value> 
+    </GlobalColonyMods> 
+ 
+    <GlobalAsteroidMods> 
+      <EffectType>ProductionPoints</EffectType> 
+      <Target> 
+        <TargetType>Asteroid</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>0.115</Value> 
+    </GlobalAsteroidMods> 
+ 
+    <GlobalAsteroidMods> 
+      <EffectType>HitPointsCap</EffectType> 
+      <Target> 
+        <TargetType>Asteroid</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>10</Value> 
+    </GlobalAsteroidMods> 
+ 
+    <GlobalInvasionValues> 
+      <MaxTurnsToInvadeCoreWorld>12</MaxTurnsToInvadeCoreWorld> 
+      <MinTurnsToInvadeCoreWorld>6</MinTurnsToInvadeCoreWorld> 
+      <MaxTurnsToInvadeColony>8</MaxTurnsToInvadeColony> 
+      <MinTurnsToInvadeColony>4</MinTurnsToInvadeColony> 
+    </GlobalInvasionValues> 
+     
+    <TradeRouteInitiatorMods> 
+      <EffectType>TradeRouteValueRaw</EffectType> 
+      <Target> 
+        <TargetType>TradeRoute</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>0.15</Value> 
+    </TradeRouteInitiatorMods> 
+ 
+    <TradeRouteInitiatorMods> 
+      <EffectType>TradeLicensesUsed</EffectType> 
+      <Target> 
+        <TargetType>Faction</TargetType> 
+        <TargetRelation>Self</TargetRelation> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>1</Value> 
+    </TradeRouteInitiatorMods> 
+ 
+    <TradeRouteRaidMods> 
+      <EffectType>TradeRouteValue</EffectType> 
+      <Target> 
+        <TargetType>TradeRoute</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <ValueType>Special</ValueType> 
+      <SpecialValue> 
+        <Special>TradeRouteRaidBonus</Special> 
+        <ValueParam>-0.10</ValueParam> 
+      </SpecialValue> 
+    </TradeRouteRaidMods> 
+ 
+    <TradeRouteRaidPathMods> 
+      <EffectType>RaidBonus</EffectType> 
+      <Target> 
+        <TargetType>TradeRoutePath</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <ValueType>Special</ValueType> 
+      <SpecialValue> 
+        <Special>TradeRouteRaidBonus</Special> 
+        <ValueParam>0.10</ValueParam> 
+      </SpecialValue> 
+    </TradeRouteRaidPathMods> 
+ 
+    <WarWithFavoredCivMods> 
+      <EffectType>Approval</EffectType> 
+      <Scope>Global</Scope> 
+      <Target> 
+        <TargetType>Unit</TargetType> 
+      </Target> 
+      <BonusType>Flat</BonusType> 
+      <Value>-0.1</Value> 
+    </WarWithFavoredCivMods> 
+ 
+    <RepairDirectiveMods> 
+      <EffectType>StrategicRepair</EffectType> 
+      <Scope>Fleet</Scope> 
+      <Target> 
+        <TargetType>Ship</TargetType> 
+      </Target> 
+      <BonusType>Multiplier</BonusType> 
+      <Value>2.0</Value> 
+    </RepairDirectiveMods> 
+ 
+    <DefenseDamageWeaponMod>0.0</DefenseDamageWeaponMod> 
+    <MinimumDamage>1</MinimumDamage> 
+ 
+    <ApprovalToGrowthCurve> 
+      <DataCurveDataPoint> 
+        <X>1.0</X> 
+        <Y>0.5</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.95</X> 
+        <Y>0.45</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.85</X> 
+        <Y>0.3</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.7</X> 
+        <Y>0.20</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.5</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.3</X> 
+        <Y>-0.10</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.15</X> 
+        <Y>-0.40</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.05</X> 
+        <Y>-0.60</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.0</X> 
+        <Y>-0.99</Y> 
+      </DataCurveDataPoint> 
+    </ApprovalToGrowthCurve> 
+ 
+    <ApprovalToProductionCurve> 
+      <DataCurveDataPoint> 
+        <X>1.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.95</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.85</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.60</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.40</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.30</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.15</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.05</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+    </ApprovalToProductionCurve> 
+ 
+    <ApprovalToInfluenceCurve> 
+      <DataCurveDataPoint> 
+        <X>1.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.95</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.85</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.60</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.40</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.30</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.15</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.05</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+    </ApprovalToInfluenceCurve> 
+ 
+    <ApprovalToResistanceCurve> 
+      <DataCurveDataPoint> 
+        <X>1.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.95</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.85</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.7</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.5</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.3</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.15</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.05</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.0</X> 
+        <Y>0.0</Y> 
+      </DataCurveDataPoint> 
+    </ApprovalToResistanceCurve> 
+ 
+    <LoyaltyToApprovalCurve> 
+      <DataCurveDataPoint> 
+        <X>100.0</X> 
+        <Y>0.2</Y> 
+      </DataCurveDataPoint> 
+       
+      <DataCurveDataPoint> 
+        <X>30.0</X> 
+        <Y>-0.0</Y> 
+      </DataCurveDataPoint> 
+    </LoyaltyToApprovalCurve> 
+ 
+    <ApprovalHappyThreshold>0.60</ApprovalHappyThreshold> 
+    <ApprovalContentThreshold>0.35</ApprovalContentThreshold> 
+    <BaseUnitApproval>0.0</BaseUnitApproval> 
+ 
+    <LeaderAlignmentMatchesMod>10</LeaderAlignmentMatchesMod> 
+    <LeaderAlignmentOpposedMod>-10</LeaderAlignmentOpposedMod> 
+    <LeaderAutoUnassignmentLoyaltyThreshold>20</LeaderAutoUnassignmentLoyaltyThreshold> 
+    <CommanderBecomesPirateLoyaltyThreshold>20</CommanderBecomesPirateLoyaltyThreshold> 
+ 
+    <MinBazaarDiscount>0.5</MinBazaarDiscount> 
+     
+    <InfluenceMapSizeModifier>0</InfluenceMapSizeModifier> 
+    <InfluencePerTurnGrowthDivisor>5000</InfluencePerTurnGrowthDivisor> 
+		<InfluenceMinToClaim>0.001</InfluenceMinToClaim> 
+		<InfluenceRadiusRoot>3.0</InfluenceRadiusRoot> 
+		<InfluenceBellCurveTargetDivisor>2.5</InfluenceBellCurveTargetDivisor> 
+     
+    <!--This is multiplied by tile owner's influence--> 
+     
+    <InfluenceFactorOnTakeover>0.9</InfluenceFactorOnTakeover> 
+     
+    <!--Use to give a flat boost regardless of how much influence is on the tile --> 
+    <InfluenceBoostOnTakeoverFlat>3</InfluenceBoostOnTakeoverFlat> 
+     
+    <!--Set the boost duration to at least 1 or the effect will get wiped out after the first influence calculation --> 
+    <InfluenceBoostOnTakeoverDuration>10</InfluenceBoostOnTakeoverDuration> 
+     
+    <!-- This overrides the radius calculated by the influence system.  Seems to need to be more than 1 to have any real effect --> 
+    <InfluenceBoostRadiusOverride>3</InfluenceBoostRadiusOverride> 
+    <InfluenceFalloff>-1.0</InfluenceFalloff> 
+    <GrowthDecay>-0.1</GrowthDecay> 
+ 
+    <DiplomacyViewCameraMovementEasingCurve> 
+      <DataCurveDataPoint> 
+        <X>0</X> 
+        <Y>0</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>0</LeftSideSlope> 
+        <RightSideSlope>0</RightSideSlope> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.4</X> 
+        <Y>0.8</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>1</LeftSideSlope> 
+        <RightSideSlope>1</RightSideSlope> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>1</X> 
+        <Y>1</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>0</LeftSideSlope> 
+        <RightSideSlope>0</RightSideSlope> 
+      </DataCurveDataPoint> 
+    </DiplomacyViewCameraMovementEasingCurve> 
+ 
+    <EngineTrailWidthCurve> 
+      <!--Expand a bit at the beginning.--> 
+      <DataCurveDataPoint> 
+        <X>0</X> 
+        <Y>0.5</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.05</X> 
+        <Y>1.0</Y> 
+      </DataCurveDataPoint> 
+ 
+      <!--Taper a bit at the end.--> 
+      <DataCurveDataPoint> 
+        <X>0.8</X> 
+        <Y>1.0</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>1.0</X> 
+        <Y>0.5</Y> 
+      </DataCurveDataPoint> 
+    </EngineTrailWidthCurve> 
+ 
+    <!--Starbases are being converted to have maintenance--> 
+    <NumFreeStarbases>4</NumFreeStarbases> 
+    <AdditionalCostPerStarbase>0</AdditionalCostPerStarbase> 
+ 
+    <RequiredStarbaseSpacing>3</RequiredStarbaseSpacing> 
+ 
+    <TacticalBattleArenaSize>8000</TacticalBattleArenaSize> 
+ 
+    <TacticalBattleMinHitChance>0.2</TacticalBattleMinHitChance> 
+ 
+    <BattleMinFireDelay>0</BattleMinFireDelay> 
+    <BattleMaxFireDelay>2</BattleMaxFireDelay> 
+ 
+    <MinShipPopulation>1.0</MinShipPopulation> 
+    <DefaultShipPopulation>1.0</DefaultShipPopulation> 
+    <ReservedColonyPopulation>0.0</ReservedColonyPopulation> 
+    <MaxPopulationSourceDistance>20</MaxPopulationSourceDistance> 
+    <LoadTransportPopupWndDisplayMultiplier>1</LoadTransportPopupWndDisplayMultiplier> 
+    <LoadTransportPopupWndScrollbarNumStepsMultiplier>10</LoadTransportPopupWndScrollbarNumStepsMultiplier> 
+ 
+    <GraphVerticalRangePadding>0.10</GraphVerticalRangePadding> 
+    <GraphMaxNumFactionsToDisplay>10</GraphMaxNumFactionsToDisplay> 
+    <GraphsScreenGraphLineThickness>2.5</GraphsScreenGraphLineThickness> 
+ 
+ 
+    <TechTreeLineInsetDistance>24</TechTreeLineInsetDistance> 
+    <TechTreeHorizontalSpacing>96</TechTreeHorizontalSpacing> 
+    <TechTreeVerticalSpacing>16</TechTreeVerticalSpacing> 
+ 
+    <TechTreeClusterSpacing>0</TechTreeClusterSpacing> 
+    <TechTreeScreenCenterX>0.49</TechTreeScreenCenterX> 
+    <TechTreeScreenCenterY>0.48</TechTreeScreenCenterY> 
+    <TechTreeMarginX>0</TechTreeMarginX> 
+    <TechTreeMarginY>0</TechTreeMarginY> 
+    <TechTreeCenterViewOnSelect>true</TechTreeCenterViewOnSelect> 
+    <TechTreeIsDraggable>true</TechTreeIsDraggable> 
+    <TechTreeMomentum>10</TechTreeMomentum> 
+    <TechTreeViewSnapRate>8</TechTreeViewSnapRate> 
+    <TechTreeCameraBoundsPadding>512</TechTreeCameraBoundsPadding> 
+ 
+    <CultureTreeLineInsetDistance>4</CultureTreeLineInsetDistance> 
+    <CultureTreeHorizontalSpacing>16</CultureTreeHorizontalSpacing> 
+    <CultureTreeVerticalSpacing>46</CultureTreeVerticalSpacing> 
+    <CultureTreeClusterSpacing>4</CultureTreeClusterSpacing> 
+    <CultureTreeScreenCenterX>0.5</CultureTreeScreenCenterX> 
+    <CultureTreeScreenCenterY>0.5</CultureTreeScreenCenterY> 
+    <CultureTreeCenterOffsetX>0</CultureTreeCenterOffsetX> 
+    <CultureTreeCenterOffsetY>-280</CultureTreeCenterOffsetY> 
+    <CultureTreeMarginX>0</CultureTreeMarginX> 
+    <CultureTreeMarginY>0</CultureTreeMarginY> 
+    <CultureTreeCenterViewOnSelect>false</CultureTreeCenterViewOnSelect> 
+    <CultureTreeIsDraggable>false</CultureTreeIsDraggable> 
+    <CultureTreeUseClosingSpanLines>true</CultureTreeUseClosingSpanLines> 
+    <CultureTreeSpanWholeClusters>true</CultureTreeSpanWholeClusters> 
+    <CultureTreeMomentum>10</CultureTreeMomentum> 
+    <CultureTreeViewSnapRate>8</CultureTreeViewSnapRate> 
+    <CultureTreeViewDefaultPyramid>Authority</CultureTreeViewDefaultPyramid> 
+ 
+    <!-- To test this growth rate, go to http://www.google.com and draw a graph by typing: 
+		 
+y = CulturalAlignmentBiasSamePyramidGrowthExponentialMult * x^CulturalAlignmentBiasOtherPyramidGrowthExponent 
++ x*BasePrice*CulturalAlignmentBiasOtherPyramidGrowthMultiplier 
+		 
+...where you replace CulturalAlignmentBiasOtherPyramidGrowthExponent, BasePrice, and 
+CulturalAlignmentBiasOtherPyramidGrowthMultiplier with your testing values. 
+		 
+The X axis represents the number of unlocked traits. 
+The Y axis is the resulting price. --> 
+    <CulturalAlignmentBiasSamePyramidGrowthExponent>1.0</CulturalAlignmentBiasSamePyramidGrowthExponent> 
+    <CulturalAlignmentBiasSamePyramidGrowthExponentialMult>0.0</CulturalAlignmentBiasSamePyramidGrowthExponentialMult> 
+    <CulturalAlignmentBiasSamePyramidGrowthMultiplier>1.0</CulturalAlignmentBiasSamePyramidGrowthMultiplier> 
+ 
+    <!-- To test this growth rate, go to http://www.google.com and draw a graph by typing: 
+		 
+y = CulturalAlignmentBiasOtherPyramidGrowthExponentialMult * x^CulturalAlignmentBiasOtherPyramidGrowthExponent 
++ x*BasePrice*CulturalAlignmentBiasOtherPyramidGrowthMultiplier 
+		 
+...where you replace CulturalAlignmentBiasOtherPyramidGrowthExponent, BasePrice, and 
+CulturalAlignmentBiasOtherPyramidGrowthMultiplier with your testing values. 
+		 
+The X axis represents the number of unlocked traits. 
+The Y axis is the resulting price. --> 
+    <CulturalAlignmentBiasOtherPyramidGrowthExponent>1.0</CulturalAlignmentBiasOtherPyramidGrowthExponent> 
+		<CulturalAlignmentBiasOtherPyramidGrowthExponentialMult>0.0</CulturalAlignmentBiasOtherPyramidGrowthExponentialMult> 
+		<CulturalAlignmentBiasOtherPyramidGrowthMultiplier>1.0</CulturalAlignmentBiasOtherPyramidGrowthMultiplier> 
+ 
+    <DefaultPlayerFaction>FACTION_TERRAN</DefaultPlayerFaction> 
+		<DefaultCustomFaction>FACTION_DEFAULT</DefaultCustomFaction> 
+    <MinorFactionPlanetDef>Arb</MinorFactionPlanetDef> 
+ 
+		<PirateFaction>FACTION_PIRATES</PirateFaction> 
+    <SpaceMonsterFaction>FACTION_SPACEMONSTERS</SpaceMonsterFaction> 
+    <SentinelFaction>FACTION_SENTINEL</SentinelFaction> 
+    <DreadLordFaction>FACTION_DREADLORDS</DreadLordFaction> 
+ 
+    <!--Each time you research a tech in any tree the cost of all techs are raised by this exponent--> 
+		<TechInflationExponent_All>1.00</TechInflationExponent_All> 
+    <!--Each time you research a tech in any tree all techs cost is increesed by this multipyer.--> 
+		<TechInflationMultiplier_All>0.01</TechInflationMultiplier_All> 
+     
+    <!--These values allow us to further inflate techs on a per tree basis, this is to discourage the 
+    player from drilling down a single branch of the tree too quickly, and over specializing. 
+    I have removed the exponent, and have only a small multiplier, since it is added to the overall inflation settings.--> 
+		<TechInflationExponent_Tree>1.00</TechInflationExponent_Tree> 
+		<TechInflationMultiplier_Tree>0.01</TechInflationMultiplier_Tree> 
+     
+    <!--These are used to make sure specializations in same branch inflate each time once is chosen.  
+    Since we have moved to making specializations expulsive, I have flattened these values to nothing.--> 
+    <TechInflationExponent_Specialization>1.5</TechInflationExponent_Specialization> 
+    <TechInflationMultiplier_Specialization>0.0</TechInflationMultiplier_Specialization> 
+ 
+    <CommonMediumHabitablePlanetCount>25</CommonMediumHabitablePlanetCount> 
+ 
+    <ModSourceDD_Fallback>MISSING_MODIFY_STAT_DISPLAY_DEF</ModSourceDD_Fallback> 
+    <ModSourceDD_DiplomaticAgreement>MODIFY_STAT_DD_DIPLOMATICAGREEMENT</ModSourceDD_DiplomaticAgreement> 
+ 
+    <MissingDisplayString>MISSING_MODIFY_STAT_DISPLAY_DEF</MissingDisplayString> 
+ 
+    <NumTurnsToMaxRaid>10</NumTurnsToMaxRaid> 
+    <NumTurnsToKillTradeRouteConsecutiveRaid>5</NumTurnsToKillTradeRouteConsecutiveRaid> 
+    <NumTurnsToKillTradeRouteNonConsecutiveRaid>10</NumTurnsToKillTradeRouteNonConsecutiveRaid> 
+    <NumTurnsToTradeRouteRecoveryStart>10</NumTurnsToTradeRouteRecoveryStart> 
+ 
+    <NumTurnsToUpgradeDesignsHuman>1</NumTurnsToUpgradeDesignsHuman> 
+    <NumTurnsToUpgradeDesignsAI>8</NumTurnsToUpgradeDesignsAI> 
+ 
+    <ElectUPChairmanResolutionDef>ElectChairmanRes</ElectUPChairmanResolutionDef> 
+    <ElectUPSupremeResolutionDef>ElectSupremeLeader</ElectUPSupremeResolutionDef> 
+    <NumTurnsToFirstUPMeeting>25</NumTurnsToFirstUPMeeting> 
+    <NumTurnsToNextUPMeetingRare>50</NumTurnsToNextUPMeetingRare> 
+    <NumTurnsToNextUPMeetingRegular>25</NumTurnsToNextUPMeetingRegular> 
+    <NumTurnsToNextUPMeetingFrequent>20</NumTurnsToNextUPMeetingFrequent> 
+    <UPMeetingAlertTurns>5</UPMeetingAlertTurns> 
+    <UPMaxFactionOptions>6</UPMaxFactionOptions> 
+    <RejectedResolutionCooldown>2</RejectedResolutionCooldown> 
+    <MaxResolutionsToShow>5</MaxResolutionsToShow> 
+    <VoteRatioToWin>0.66</VoteRatioToWin> 
+    <VoteRatioToWin>0.61</VoteRatioToWin> 
+    <VoteRatioToWin>0.56</VoteRatioToWin> 
+    <VoteRatioToWin>0.51</VoteRatioToWin> 
+ 
+    <FighterRepairTurnRate>3</FighterRepairTurnRate> 
+    <FighterRepairPotency>3</FighterRepairPotency> 
+ 
+    <ChanceColonizationEvent>0.75</ChanceColonizationEvent> 
+	<MinClassColonizationEvent>12</MinClassColonizationEvent> 
+    <PlanetClass_Dead>0</PlanetClass_Dead> 
+    <PlanetClass_Colonizable>5</PlanetClass_Colonizable> 
+    <PlanetClass_Good>14</PlanetClass_Good> 
+    <PlanetClass_Great>24</PlanetClass_Great> 
+    <PlanetClass_Fantastic>32</PlanetClass_Fantastic> 
+		<MaxTradeResourcesByPlanetClass> <!-- trade resources are maxed at 1 for UI constraints --> 
+			<Range> 
+				<RangeMin>1</RangeMin> 
+				<RangeMax>2</RangeMax> 
+			</Range> 
+			<Value>0</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+		<MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>3</RangeMin> 
+				<RangeMax>6</RangeMax> 
+			</Range> 
+			<Value>0.1</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>7</RangeMin> 
+				<RangeMax>9</RangeMax> 
+			</Range> 
+			<Value>0.2</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>10</RangeMin> 
+				<RangeMax>14</RangeMax> 
+			</Range> 
+			<Value>0.3</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>15</RangeMin> 
+				<RangeMax>18</RangeMax> 
+			</Range> 
+			<Value>0.4</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>15</RangeMin> 
+				<RangeMax>18</RangeMax> 
+			</Range> 
+			<Value>0.5</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>19</RangeMin> 
+				<RangeMax>23</RangeMax> 
+			</Range> 
+			<Value>0.6</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>24</RangeMin> 
+				<RangeMax>28</RangeMax> 
+			</Range> 
+			<Value>0.7</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>29</RangeMin> 
+				<RangeMax>33</RangeMax> 
+			</Range> 
+			<Value>0.8</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>34</RangeMin> 
+				<RangeMax>38</RangeMax> 
+			</Range> 
+			<Value>0.9</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+    <MaxTradeResourcesByPlanetClass> 
+			<Range> 
+				<RangeMin>39</RangeMin> 
+        <NoMax>true</NoMax> 
+			</Range> 
+			<Value>1</Value> 
+		</MaxTradeResourcesByPlanetClass> 
+     
+ 
+    <MaxFeaturesByPlanetClass>  
+			<Range> 
+				<RangeMin>1</RangeMin> 
+				<RangeMax>2</RangeMax> 
+			</Range> 
+			<Value>0</Value> 
+		</MaxFeaturesByPlanetClass> 
+		<MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>3</RangeMin> 
+				<RangeMax>6</RangeMax> 
+			</Range> 
+			<Value>9</Value> 
+		</MaxFeaturesByPlanetClass> 
     <MaxFeaturesByPlanetClass> 
-			<Range>
-				<RangeMin>1</RangeMin>
-				<RangeMax>2</RangeMax>
-			</Range>
-			<Value>0</Value>
-		</MaxFeaturesByPlanetClass>
-		<MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>3</RangeMin>
-				<RangeMax>6</RangeMax>
-			</Range>
-			<Value>9</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>7</RangeMin>
-				<RangeMax>9</RangeMax>
-			</Range>
-			<Value>19</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>10</RangeMin>
-				<RangeMax>14</RangeMax>
-			</Range>
-			<Value>29</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>15</RangeMin>
-				<RangeMax>18</RangeMax>
-			</Range>
-			<Value>39</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>15</RangeMin>
-				<RangeMax>18</RangeMax>
-			</Range>
-			<Value>49</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>19</RangeMin>
-				<RangeMax>23</RangeMax>
-			</Range>
-			<Value>59</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>24</RangeMin>
-				<RangeMax>28</RangeMax>
-			</Range>
-			<Value>69</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>29</RangeMin>
-				<RangeMax>33</RangeMax>
-			</Range>
-			<Value>79</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>34</RangeMin>
-				<RangeMax>38</RangeMax>
-			</Range>
-			<Value>89</Value>
-		</MaxFeaturesByPlanetClass>
-    <MaxFeaturesByPlanetClass>
-			<Range>
-				<RangeMin>39</RangeMin>
-        <NoMax>true</NoMax>
-			</Range>
-			<Value>99</Value>
-		</MaxFeaturesByPlanetClass>
-
-    <PlanetFullPopulation>30</PlanetFullPopulation>
-
-    <PlanetClassHaloScaleCurve>
-      <DataCurveDataPoint>
-        <X>1</X>
-        <Y>1</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>50</X>
-        <Y>1.2</Y>
-      </DataCurveDataPoint>
-    </PlanetClassHaloScaleCurve>
-
-    <CrisisTurnsMin>12</CrisisTurnsMin>
-	<CrisisTurnsMax>28</CrisisTurnsMax>
-	
-	<RareEventTurnsMin>16</RareEventTurnsMin>
-	<RareEventTurnsMax>32</RareEventTurnsMax>
-	<OccasionalEventTurnsMin>8</OccasionalEventTurnsMin>
-	<OccasionalEventTurnsMax>16</OccasionalEventTurnsMax>
-	<AbundantEventTurnsMin>4</AbundantEventTurnsMin>
-	<AbundantEventTurnsMax>8</AbundantEventTurnsMax>
-	<FlaggedQuestEventMaxChance>10000</FlaggedQuestEventMaxChance>
-	<FlaggedQuestEventChance>150</FlaggedQuestEventChance>
-
-    <RareMegaEventTurnsMin>32</RareMegaEventTurnsMin>
-    <RareMegaEventTurnsMax>64</RareMegaEventTurnsMax>
-    <RegularMegaEventTurnsMin>16</RegularMegaEventTurnsMin>
-    <RegularMegaEventTurnsMax>32</RegularMegaEventTurnsMax>
-    <FrequentMegaEventTurnsMin>8</FrequentMegaEventTurnsMin>
-    <FrequentMegaEventTurnsMax>16</FrequentMegaEventTurnsMax>
-
-    <MidGameMusicTriggerTurnCount>60</MidGameMusicTriggerTurnCount>
-    <LateGameMusicTriggerTurnCount>300</LateGameMusicTriggerTurnCount>
-    <MusicWinningPercent>85</MusicWinningPercent>
-    <MusicWinningTriggerTurnCount>50</MusicWinningTriggerTurnCount>
-    <MusicLosingPercent>20</MusicLosingPercent>
-    <MusicLosingTriggerTurnCount>50</MusicLosingTriggerTurnCount>
-
-    <DefaultUISFXDef>
-      <InternalName>GalCivDefaultUISFXDef</InternalName>
-      <Sound>
-        <Type>ButtonMouseOver</Type>
-        <Event>.</Event>
-      </Sound>
-      <Sound>
-        <Type>ButtonClick</Type>
-        <Event>UI/BUTTON_ONCLICK</Event>
-      </Sound>
-      <Sound>
-        <Type>Scroll</Type>
-        <Event>UI/SCROLL</Event>
-      </Sound>
-      <Sound>
-        <Type>EntryClick</Type>
-        <Event>UI/SELECT_LIST_ENTRY</Event>
-      </Sound>
-    </DefaultUISFXDef>
-
-    <BlueprintStatBalanceRange>1</BlueprintStatBalanceRange>
-    <BlueprintStatBalanceRatioThreshold>5</BlueprintStatBalanceRatioThreshold>
-    <BlueprintStatBalanceRatio>0.20</BlueprintStatBalanceRatio>
-
-    <BattleMoveCost>1.0</BattleMoveCost>
-    <BattleMaxTurns>10</BattleMaxTurns>
-
-    
-    <NonOptimalDefenseFactor>
-      <weaponType>Kinetic</weaponType>
-      <defenseType>Kinetic</defenseType>
-      <percent>0.5</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Kinetic</defenseType>
-      <percent>0.75</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Missile</weaponType>
-      <defenseType>Kinetic</defenseType>
-      <percent>0.25</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>0.5</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Kinetic</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>0.25</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Missile</weaponType>
-      <defenseType>Beam</defenseType>
-      <percent>0.75</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Missile</weaponType>
-      <defenseType>Missile</defenseType>
-      <percent>0.5</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Beam</weaponType>
-      <defenseType>Missile</defenseType>
-      <percent>0.25</percent>
-    </NonOptimalDefenseFactor>
-    <NonOptimalDefenseFactor>
-      <weaponType>Kinetic</weaponType>
-      <defenseType>Missile</defenseType>
-      <percent>0.75</percent>
-    </NonOptimalDefenseFactor>
-    
-    
-    
-    
-    
-
-    <SuicideAttackHealthPercent>0.3</SuicideAttackHealthPercent>
-    <SuicideAttackMinTurns>5</SuicideAttackMinTurns>
-    <SuicideAttackSimSpeedBoost>3.0</SuicideAttackSimSpeedBoost>
-    <SuicideAttackSimAccelBoost>2.0</SuicideAttackSimAccelBoost>
-
-    <InitialSpeedFactor>
-      <Role>Assault</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Interceptor</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Capital</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Escort</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Guardian</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Support</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Starbase</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <InitialSpeedFactor>
-      <Role>Upgrading</Role>
-      <Value>0.0</Value>
-    </InitialSpeedFactor>
-
-    <DefaultPlanetFeaturesPerTile>1.0</DefaultPlanetFeaturesPerTile>
-    <DefaultTradeResourcesPerTile>0.15</DefaultTradeResourcesPerTile>
-
-    <MaxSponsorDistanceWithNoPenalty>8</MaxSponsorDistanceWithNoPenalty>
-    <ShipyardMilitaryFloor>1</ShipyardMilitaryFloor>
-
-    <ObjectViewGridSize>1000</ObjectViewGridSize>
-    <ObjectViewGridSpacing>50</ObjectViewGridSpacing>
-
-    <UpgradeToConstructorPenalty>0.1</UpgradeToConstructorPenalty>
-    <UpgradeToTransportPenalty>0.5</UpgradeToTransportPenalty>
-    <UpgradeToTradePenalty>0.1</UpgradeToTradePenalty>
-    <UpgradeToColonyPenalty>2.0</UpgradeToColonyPenalty>
-    <UpgradeToCarrierPenalty>0.5</UpgradeToCarrierPenalty>
-    <UpgradeDoubleAttackPenalty>0.01</UpgradeDoubleAttackPenalty>
-    <UpgradeDoubleDefensePenalty>0.01</UpgradeDoubleDefensePenalty>
-    <UpgradeDiscountFactor>0.9</UpgradeDiscountFactor>
-    <UpgradeCostFloorFactor>0.1</UpgradeCostFloorFactor>
-
-    <QuadFadeCameraDistanceBegin>10000</QuadFadeCameraDistanceBegin>
-    <QuadFadeCameraDistanceEnd>40000</QuadFadeCameraDistanceEnd>
-    <QuadFadeCameraHeightBegin>1500</QuadFadeCameraHeightBegin>
-    <QuadFadeCameraHeightEnd>2500</QuadFadeCameraHeightEnd>
-
-    <FactionPowerProductionPointMultiplier>0.5</FactionPowerProductionPointMultiplier>
-    <FactionPowerBattleRatingMultiplier>0.002</FactionPowerBattleRatingMultiplier>
-    <FactionPowerTreasuryMultiplier>0.001</FactionPowerTreasuryMultiplier>
-    <FactionPowerInfluenceMultiplier>0.25</FactionPowerInfluenceMultiplier>
-    <FactionPowerUnlockedTechsMultiplier>1.0</FactionPowerUnlockedTechsMultiplier>
-    <FactionPowerUnlockedCultureMultiplier>0.1</FactionPowerUnlockedCultureMultiplier>
-
-    <GalacticTourismSpendingMod>0.25</GalacticTourismSpendingMod>
-
-    <TurnDistanceTooltipDelay>0</TurnDistanceTooltipDelay>
-
-    <GenericTechTreeName>Master_Tree</GenericTechTreeName>
-
-    <ResearchVictoryRequiredImprovement>AscensionGate</ResearchVictoryRequiredImprovement>
-    <ResearchVictoryTechAge>AgeOfVictory</ResearchVictoryTechAge>
-    <InfluenceVictoryMajority>0.75</InfluenceVictoryMajority>
-    <InfluenceVictoryRequiredTurnsWithMajority>10</InfluenceVictoryRequiredTurnsWithMajority>
-
-    <PlanetaryProductionWheelImprovement>BureauofLabor</PlanetaryProductionWheelImprovement>
-    <PlanetGovernorEmptyPortrait>Custom.png</PlanetGovernorEmptyPortrait>
-    
-    <!-- Tuning for the victory progress readouts -->
-    <ResearchVictoryProgressResearchWeight>0.9</ResearchVictoryProgressResearchWeight>
-    <ResearchVictoryProgressImprovementWeight>0.1</ResearchVictoryProgressImprovementWeight>
-    <InfluenceVictoryProgressInfluenceWeight>0.94</InfluenceVictoryProgressInfluenceWeight>
-    <InfluenceVictoryProgressTurnsWeight>0.05</InfluenceVictoryProgressTurnsWeight>
-    <InfluenceVictoryProgressAtPeaceWeight>0.01</InfluenceVictoryProgressAtPeaceWeight>
-    <InfluenceVictoryProgressInfluenceDeadZone>0.15</InfluenceVictoryProgressInfluenceDeadZone>
-    <!-- Will read 0% until we hit this value, eg at start of game. -->
-    <AscensionVictoryProgressGateCountWeight>0.5</AscensionVictoryProgressGateCountWeight>
-    <AscensionVictoryProgressPointsWeight>0.5</AscensionVictoryProgressPointsWeight>
-    <AscensionVictoryPointsWarningPercentage>0.85</AscensionVictoryPointsWarningPercentage>
-    <PrestigeVictoryWarningAlertPercentage>0.9</PrestigeVictoryWarningAlertPercentage>
-    <PrestigeVictoryWarningConvoPercentage>0.9</PrestigeVictoryWarningConvoPercentage>
-    <PrestigeVictoryWarningBlinkPercentage>0.95</PrestigeVictoryWarningBlinkPercentage>
-
-    <WarEnduranceRecoveryRate>1</WarEnduranceRecoveryRate>
-
-    <SoundDistanceAttenuationCurve>
-      <DataCurveDataPoint>
-        <X>0</X>
-        <Y>1</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>0</LeftSideSlope>
-        <RightSideSlope>0</RightSideSlope>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>0.25</X>
-        <Y>0.25</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>-1</LeftSideSlope>
-        <RightSideSlope>-1</RightSideSlope>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>1</X>
-        <Y>0</Y>
-        <LeftSideType>HermiteSpecificSlope</LeftSideType>
-        <RightSideType>HermiteSpecificSlope</RightSideType>
-        <LeftSideSlope>0</LeftSideSlope>
-        <RightSideSlope>0</RightSideSlope>
-      </DataCurveDataPoint>
-    </SoundDistanceAttenuationCurve>
-
-    <ShipyardAmbientSFXDefine>SHIPYARD_AMBIENT</ShipyardAmbientSFXDefine>
-
-    <MinTurnDurationToPlayControlRegainedSound>0</MinTurnDurationToPlayControlRegainedSound>
-    <MinDurationToPlayActionsExhaustedSound>1</MinDurationToPlayActionsExhaustedSound>
-    <MainMapSFXHearDistanceMod>1</MainMapSFXHearDistanceMod>
-    <BattleViewerSFXHearDistanceMod>3</BattleViewerSFXHearDistanceMod>
-
-    <DefaultPlayerShipDesignStrategicIcon>Scout</DefaultPlayerShipDesignStrategicIcon>
-
-    <CustomFactionTraitPoints>3</CustomFactionTraitPoints>
-    <CustomFactionAbilityPoints>2</CustomFactionAbilityPoints>
-    <CustomFactionAIWeightHighest>20</CustomFactionAIWeightHighest>
-    <CustomFactionAIWeightDecrement>2</CustomFactionAIWeightDecrement>
-    <CustomFactionHomeStarSystemGroup>FactionStart</CustomFactionHomeStarSystemGroup>
-
-    <RequestConstructorMaxHexDistance>50</RequestConstructorMaxHexDistance>
-
-    <IdeologyMercilessCutoff>30</IdeologyMercilessCutoff>
-    <IdeologyBenevolentCutoff>60</IdeologyBenevolentCutoff>
-
-    <WaypointFOWClearRadius>2</WaypointFOWClearRadius>
-
-    <CloseToVictoryDiplomacyWeightMod>10</CloseToVictoryDiplomacyWeightMod>
-    <CloseToVictoryDiplomacyThreshold>0.5</CloseToVictoryDiplomacyThreshold>
-    <HasArtifactsDiplomacyPenalty>1</HasArtifactsDiplomacyPenalty>
-    <EasyTargetDiplomacyWeightMod>1</EasyTargetDiplomacyWeightMod>
-    <EasyTargetDiplomacyTreshold>1.5</EasyTargetDiplomacyTreshold>
-    <TransportNearMyPlanetPenalty>5</TransportNearMyPlanetPenalty>
-    <MilitaryShipNearMyPlanetPenalty>0</MilitaryShipNearMyPlanetPenalty>
-    <MilitaryShipNearMyPlanetMax>7</MilitaryShipNearMyPlanetMax>
-    <MilitaryCultureStarbaseInZOCPenalty>2</MilitaryCultureStarbaseInZOCPenalty>
-    <GenericStarbaseInZOCPenalty>1</GenericStarbaseInZOCPenalty>
-    <WarWithFriendMinRelation>5</WarWithFriendMinRelation>
-    <WarMongerWarHistoryTurnLimit>100</WarMongerWarHistoryTurnLimit>
-    <WarMongerMinPlayerCountToActivate>3</WarMongerMinPlayerCountToActivate>
-
-    <DefaultTreatyDuration>50</DefaultTreatyDuration>
-    <DefaultPeaceTreatyDuration>20</DefaultPeaceTreatyDuration>
-    <CannotSpeakToPlayerAfterDeclaringWarDuration>15</CannotSpeakToPlayerAfterDeclaringWarDuration>
-    <AITradeCooldown>6</AITradeCooldown>
-
-    <AlertDuration>1</AlertDuration>
-
-    <ExpensiveDipmodPlayerCountMax>10</ExpensiveDipmodPlayerCountMax>
-
-    <SandboxStartingYear>2307</SandboxStartingYear>
-    <AutosaveFadeInTime>100</AutosaveFadeInTime>
-    <AutosaveFadeOutTime>200</AutosaveFadeOutTime>
-    <StartTurnFadeTime>400</StartTurnFadeTime>
-    <StartTurnPauseTime>400</StartTurnPauseTime>
-    <CurrentTurnFadeTime>400</CurrentTurnFadeTime>
-    <CurrentTurnFadeInTime>200</CurrentTurnFadeInTime>
-    <CurrentTurnPauseTime>400</CurrentTurnPauseTime>
-    <DeleteNotificationFadeTime>400</DeleteNotificationFadeTime>
-    <TutorialCampaignInternalName>Tutorial</TutorialCampaignInternalName>
-
-    <MapEditorLogisticsCap>1000.0</MapEditorLogisticsCap>
-
-    <ScavengerMinFleetSize>1</ScavengerMinFleetSize>
-    <ScavengerHPRatio>0.0</ScavengerHPRatio>
-
-    <BaseCampaignInternalName>Campaign</BaseCampaignInternalName>
-    <SnathiCampaignInternalName>RevengeoftheSnathi</SnathiCampaignInternalName>
-    <MercenariesCampaignInternalName>Mercenaries</MercenariesCampaignInternalName>
-    <RiseOfTerransCampaignInternalName>RiseoftheTerrans</RiseOfTerransCampaignInternalName>
-    <AltarianProphecyCampaignInternalName>AltarianProphecy</AltarianProphecyCampaignInternalName>
-    <RetributionCampaignInternalName>Retribution</RetributionCampaignInternalName>
-
-    <ModuleRequiredTargetColony>Colony</ModuleRequiredTargetColony>
-    <ModuleRequiredTargetRelic>Relic</ModuleRequiredTargetRelic>
-    <ModuleRequiredTargetStrategicResource>StrategicResource</ModuleRequiredTargetStrategicResource>
-
-    <ColonyFocusManufacturing>ManufacturingBonusGov</ColonyFocusManufacturing>
-    <ColonyFocusResearch>ResearchBonusGov</ColonyFocusResearch>
-    <ColonyFocusWealth>WealthBonusGov</ColonyFocusWealth>
-
-    <BalancedGovernor>BalancedGovernor</BalancedGovernor>
-    <BalancedGovernorIcon>GC3_Governor_Balanced_Spending_Icon.png</BalancedGovernorIcon>
-    <ManufacturingGovernor>ManufacturingGovernor</ManufacturingGovernor>
-    <ManufacturingGovernorIcon>GC3_Governor_Manufacturing_Spending_Icon.png</ManufacturingGovernorIcon>
-    <ResearchGovernor>ResearchGovernor</ResearchGovernor>
-    <ResearchGovernorIcon>GC3_Governor_Research_Spending.png</ResearchGovernorIcon>
-    <WealthGovernor>WealthGovernor</WealthGovernor>
-    <WealthGovernorIcon>GC3_Governor_Wealth_Spending_Icon.png</WealthGovernorIcon>
-
-    <TachyonOverlaySummaryURL>archives_embed.html#/personas/%s?api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlaySummaryURL>
-    <TachyonOverlayMatchHistoryURL>archives_embed.html#/personas/%s/match-history?api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayMatchHistoryURL>
-    <TachyonOverlayLaddersURL>archives_embed.html#/ladders?personaId=%s&amp;api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayLaddersURL>
-    <TachyonOverlayGalaxyURL>archives_embed.html#/gamestats?personaId=%s&amp;api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayGalaxyURL>
-
-    <MinRelationToProclaimFriendship>-4</MinRelationToProclaimFriendship>
-    <MaxRelationEnemiesOfYourFriendWillDislikeYou>-4</MaxRelationEnemiesOfYourFriendWillDislikeYou>
-    <ProclaimFriendshipCooldown>20</ProclaimFriendshipCooldown>
-    <GetOffMyLawnCooldown>5</GetOffMyLawnCooldown>
-    <GetOffMyLawnDuration>10</GetOffMyLawnDuration>
-    <MinRelationAskForHelp>0</MinRelationAskForHelp>
-    <DemandTributePercentOfGross>0.05</DemandTributePercentOfGross>
-    <DemandTributeCooldown>10</DemandTributeCooldown>
-    <MinRelationForiegnAid>0</MinRelationForiegnAid>
-    <OfferForiegnAidCooldown>10</OfferForiegnAidCooldown>
-    <OfferForiegnAidAcceptedCooldown>50</OfferForiegnAidAcceptedCooldown>
-
-    <PassableBlockedTileWeight>30</PassableBlockedTileWeight>
-
-    <PrecursorTraitTag>Precursor</PrecursorTraitTag>
-    <VigilantAbilityName>VigilantAbility</VigilantAbilityName>
-
-    <MercenaryHireInflationRate>0.05</MercenaryHireInflationRate>
-    <MercenaryHireInflationMin>100</MercenaryHireInflationMin>
-    <MercenaryHireInflationMax>1000</MercenaryHireInflationMax>
-
-    <SensorPowerPreFormulaMod>6</SensorPowerPreFormulaMod>
-
-    <MinNumberOfQueuedModulesBeforeAutoUpgrade>2</MinNumberOfQueuedModulesBeforeAutoUpgrade>
-    <MaxNumberOfAutoUpgradeModulesToQueue>2</MaxNumberOfAutoUpgradeModulesToQueue>
-
-    <AsteroidMiningBaseBuildTime>3</AsteroidMiningBaseBuildTime>
-    <MaxAsteroidDistanceWithNoPenalty>6</MaxAsteroidDistanceWithNoPenalty>
-    <AsteroidProductionFloor>0.1</AsteroidProductionFloor>
-    <AsteroidMiningBaseCost>100</AsteroidMiningBaseCost>
-
-    <ShipBaseLevelRequirement>4</ShipBaseLevelRequirement>
-    <ShipLevelScaleMultiplier>1.5</ShipLevelScaleMultiplier>
-
-    <UnitBaseLevelRequirement>4</UnitBaseLevelRequirement>
-    <UnitLevelScaleMultiplier>1.75</UnitLevelScaleMultiplier>
-    <UnitSpecializationLevel>3</UnitSpecializationLevel>
-
-
-    <CitizenGenBaseTurns>9</CitizenGenBaseTurns>
-    <CitizenRateReductionPerUnit>.15</CitizenRateReductionPerUnit>
-
-    <StealChancePercentPerPoint>1</StealChancePercentPerPoint>
-    <ShouldAgentsFightCitizens>false</ShouldAgentsFightCitizens>
-    <BaseTurnsToTrainUnit>5</BaseTurnsToTrainUnit>
-    <EspionagePointsPerAgent>1</EspionagePointsPerAgent>
-    <SecurityBase>0</SecurityBase>
-
-    
-    <!--
-    So, this is the ship classes that we want in the game
-      You can rearrange them to get the order you want for the ship style wnd
-      IF IT DOESNT EXIST HERE, IT WONT SHOW UP IN THE GAME FOR CUSTOM FACTIONS,
-      so be careful what goes in here.
-      
-      If you want to have it exist but not customizable, do it in Ship Style Wnd to skip over the 
-      icon type
-    -->
-    <ShipClassOrder>ColonyShip</ShipClassOrder>
-    <ShipClassOrder>Constructor</ShipClassOrder>
-    <ShipClassOrder>Freighter</ShipClassOrder>
-    <ShipClassOrder>Transport</ShipClassOrder>
-    <ShipClassOrder>Scout</ShipClassOrder>
-    <ShipClassOrder>Asteroid</ShipClassOrder>
-    <ShipClassOrder>Explorer</ShipClassOrder>
-    <ShipClassOrder>SurveyShip</ShipClassOrder>
-    <ShipClassOrder>Bomber</ShipClassOrder>
-    <ShipClassOrder>Sniper</ShipClassOrder>
-    <ShipClassOrder>Guardian</ShipClassOrder>
-    <ShipClassOrder>Knight</ShipClassOrder>
-    <ShipClassOrder>Cutter</ShipClassOrder>
-    <ShipClassOrder>Defender</ShipClassOrder>
-    <ShipClassOrder>Gunboat</ShipClassOrder>
-    <ShipClassOrder>Corvette</ShipClassOrder>
-    <ShipClassOrder>Frigate</ShipClassOrder>
-    <ShipClassOrder>Ranger</ShipClassOrder>
-    <ShipClassOrder>Paladin</ShipClassOrder>
-    <ShipClassOrder>Cruiser</ShipClassOrder>
-    <ShipClassOrder>Destroyer</ShipClassOrder>
-    <ShipClassOrder>Battleship</ShipClassOrder>
-    <ShipClassOrder>Avatar</ShipClassOrder>
-    <ShipClassOrder>Fortress</ShipClassOrder>
-    <ShipClassOrder>Dreadnought</ShipClassOrder>
-    <ShipClassOrder>Titan</ShipClassOrder>
-    <ShipClassOrder>Carrier</ShipClassOrder>
-    <ShipClassOrder>AssaultCarrier</ShipClassOrder>
-    <ShipClassOrder>UnitTransport</ShipClassOrder>
-    <ShipClassOrder>MissionShip</ShipClassOrder>
-    <ShipClassOrder>Supply</ShipClassOrder>
-
-    <UniversalShipClass>Ship_Retribution</UniversalShipClass>
-    <UniversalShipClass>Ship_Ysengard</UniversalShipClass>
-    <UniversalShipClass>Ship_Stargazer</UniversalShipClass>
-    <UniversalShipClass>Ship_Nail</UniversalShipClass>
-    <UniversalShipClass>Ship_Sabre</UniversalShipClass>
-    <UniversalShipClass>Ship_Prospector</UniversalShipClass>
-    <UniversalShipClass>Ship_Praxis</UniversalShipClass>
-    <UniversalShipClass>Ship_Raptor</UniversalShipClass>
-    <UniversalShipClass>Ship_LoireagClone</UniversalShipClass>
-
-    <ImpValCalcMultiplierModifier>1.0</ImpValCalcMultiplierModifier>
-    <ImpValCalcDefaultValueMultiplier>1.0</ImpValCalcDefaultValueMultiplier>
-    <ImpValCalcColonyUniqueValueMultiplier>2.0</ImpValCalcColonyUniqueValueMultiplier>
-    <ImpValCalcPlayerUniqueValueMultiplier>3.0</ImpValCalcPlayerUniqueValueMultiplier>
-    <ImpValCalcGalaxyUniqueValueMultiplier>5.0</ImpValCalcGalaxyUniqueValueMultiplier>
-
-    <NegativeCreditsSocialManufacturingPenalty>0.5</NegativeCreditsSocialManufacturingPenalty>
-    <NegativeCreditsMilitaryManufacturingPenalty>0.5</NegativeCreditsMilitaryManufacturingPenalty>
-    <NegativeCreditsResearchPenalty>0.5</NegativeCreditsResearchPenalty>
-
-    <PrivateerHullSize>Large</PrivateerHullSize>
-
-    <MarketValueCurve>
-      <DataCurveDataPoint>
-        <X>0</X>
-        <Y>10000</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>1</X>
-        <Y>1000</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>3</X>
-        <Y>700</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>6</X>
-        <Y>500</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>10</X>
-        <Y>400</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>50</X>
-        <Y>200</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>100</X>
-        <Y>100</Y>
-      </DataCurveDataPoint>
-      <DataCurveDataPoint>
-        <X>1000</X>
-        <Y>10</Y>
-      </DataCurveDataPoint>
-    </MarketValueCurve>
-
-	<GovernmentChangeTypesCooldown>26</GovernmentChangeTypesCooldown>
-	<GovernmentApprovalVoteRatio>0.4</GovernmentApprovalVoteRatio>
-	<GovernmentTurnsBetweenElections>20</GovernmentTurnsBetweenElections>
-	<GovernmentTurnsBeforeRequiredToSet>5</GovernmentTurnsBeforeRequiredToSet>
-	<GovernmentNumColoniesBeforeAllowed>2</GovernmentNumColoniesBeforeAllowed>
-	<GovernmentLostElectionCooldown>20</GovernmentLostElectionCooldown>
-	<GovernmentLostElectionDefaultInterimGovernment>Coalition</GovernmentLostElectionDefaultInterimGovernment>
-	<TaxationUnrestMult>0.75</TaxationUnrestMult>
-	<TaxationStartingValue>0.25</TaxationStartingValue>
-  <TaxationRateLow>0.25</TaxationRateLow>
-  <TaxationRateNormal>0.5</TaxationRateNormal>
-  <TaxationRateMedium>0.75</TaxationRateMedium>
-  <TaxationRateHigh>1.0</TaxationRateHigh>
-  <TaxationRateMax>1.25</TaxationRateMax>
-  <GalacticNewsTurnsAfterUseMult>1</GalacticNewsTurnsAfterUseMult>
-	<GalacticNewsUnusedBonus>100</GalacticNewsUnusedBonus>
-	<GalacticNewsListSizeMetBonus>100</GalacticNewsListSizeMetBonus>
-	<GalacticNewsEarlierstTurn>15</GalacticNewsEarlierstTurn>
-	<GalacticNewsCooldown>20</GalacticNewsCooldown>
-	<ElectionWarningNotice>5</ElectionWarningNotice> <!-- How many turns before the election do we notify the player -->
-	<ColonyLimitWarningCooldown>30</ColonyLimitWarningCooldown>
-	<ColonyLimitPenaltyPerColony>0.125</ColonyLimitPenaltyPerColony>
-	<ColonyLimitMaxPenalty>10</ColonyLimitMaxPenalty>
-	<GalacticMarketTrickle>0.3</GalacticMarketTrickle>
-	<StatCheckMin>10</StatCheckMin> <!-- The Minimum value of a Stat Check Chance -->
-	<StatCheckMax>95</StatCheckMax> <!-- The Maximum value of a Stat Check Chance -->
-
-    <HumanPlayerGlobalModifiers>
-      <Difficulty>Beginner</Difficulty>
-      <ModifierDef>
-        <EffectType>ColonyGrossIncome</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>5</Value>
-      </ModifierDef>
-    </HumanPlayerGlobalModifiers>
-    <HumanPlayerGlobalModifiers>
-      <Difficulty>Easy</Difficulty>
-      <ModifierDef>
-        <EffectType>ColonyGrossIncome</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>3</Value>
-      </ModifierDef>
-    </HumanPlayerGlobalModifiers>
-    <HumanPlayerGlobalModifiers>
-      <Difficulty>Normal</Difficulty>
-      <ModifierDef>
-        <EffectType>ColonyGrossIncome</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <Value>1</Value>
-      </ModifierDef>
-    </HumanPlayerGlobalModifiers>
-
-	<CitizenGrowthThresholdBase>8</CitizenGrowthThresholdBase>
-	<CitizenGrowthThresholdMult>1.5</CitizenGrowthThresholdMult>
-    <CitizenCriminalChance>0</CitizenCriminalChance> <!-- % base chance a new citizen will be a criminal -->
-    <CitizenIdeologyChance>0</CitizenIdeologyChance> <!-- % chance a new citizen will have an ideology -->
-    <LeaderRosterSizeRange>
-      <RangeMin>4</RangeMin> <!-- Base amount of leaders that show up for recruitment -->
-      <RangeMax>8</RangeMax> <!-- Maximum amount of leaders that show up for recruitment regardless of player bonuses -->
-    </LeaderRosterSizeRange>
-    <LeaderRosterAddChance>50</LeaderRosterAddChance> <!-- % chance each turn a new leader shows up if there is an empty slot -->
-    <LeaderRosterTurnsAvailable> <!-- turns a leader stays in the recruit pool before expiring -->
-      <RangeMin>10</RangeMin>
-      <RangeMax>33</RangeMax>
-    </LeaderRosterTurnsAvailable>
-    
-    <LeaderRosterTypeOptions>UnassignedLeader</LeaderRosterTypeOptions>
-    <LeaderRosterBaseCreditCost>300</LeaderRosterBaseCreditCost>
-    <MaxUnitsPerMinistry>1</MaxUnitsPerMinistry>
-    <LeaderStartingStat>
-      <Stat>Intelligence</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>10</RangeMax>
-    </LeaderStartingStat>
-    <LeaderStartingStat>
-      <Stat>Social</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>10</RangeMax>
-    </LeaderStartingStat>
-    <LeaderStartingStat>
-      <Stat>Diligence</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>10</RangeMax>
-    </LeaderStartingStat>
-    <LeaderStartingStat>
-      <Stat>Resolve</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>10</RangeMax>
-    </LeaderStartingStat>
-    <LeaderStartingStat>
-      <Stat>Expectations</Stat>
-      <RangeMin>1</RangeMin>
-      <RangeMax>10</RangeMax>
-    </LeaderStartingStat>
-    <LeaderStartingStat>
-      <Stat>Loyalty</Stat>
-      <RangeMin>30</RangeMin>
-      <RangeMax>90</RangeMax>
-    </LeaderStartingStat>
-
-    <UnitStartingStat>
-      <Stat>Intelligence</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>6</RangeMax>
-    </UnitStartingStat>
-    <UnitStartingStat>
-      <Stat>Social</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>6</RangeMax>
-    </UnitStartingStat>
-    <UnitStartingStat>
-      <Stat>Diligence</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>6</RangeMax>
-    </UnitStartingStat>
-    <UnitStartingStat>
-      <Stat>Resolve</Stat>
-      <RangeMin>3</RangeMin>
-      <RangeMax>6</RangeMax>
-    </UnitStartingStat>
-    <UnitStartingStat>
-      <Stat>Expectations</Stat>
-      <RangeMin>8</RangeMin>
-      <RangeMax>20</RangeMax>
-    </UnitStartingStat>
-
-    <ThiefCreditsStolenPercentage>0.01</ThiefCreditsStolenPercentage>
-    <ThiefCreditsStolenMin>10.0</ThiefCreditsStolenMin>
-    <MaxDiplomatsAssignedToPlayer>1</MaxDiplomatsAssignedToPlayer>
-    <AIMinPlanetTilesForGovernor>15</AIMinPlanetTilesForGovernor>
-    <AIDefaultUnitWeight>30</AIDefaultUnitWeight>
-    <AssassinateDiplomatCreditsCost>100</AssassinateDiplomatCreditsCost>
-    
-    <ColonySponsoringDecayMinValue>0.125</ColonySponsoringDecayMinValue>
-
-    <MaxStarvationPenalty>-0.2</MaxStarvationPenalty>
-    <LayoutPlanetMinBonusTiles>3</LayoutPlanetMinBonusTiles>
-    <LayoutPlanetMaxBonusTiles>5</LayoutPlanetMaxBonusTiles>
-
-    <ColonySponsoringDecayDistanceStart>3</ColonySponsoringDecayDistanceStart>
-	<ColonySponsoringDecayRate>0.008</ColonySponsoringDecayRate>
-    <ColonySponsoringCrimeDecayRate>0.5</ColonySponsoringCrimeDecayRate>
-	
-    <ColonyControlResistanceMod>0.5</ColonyControlResistanceMod>
-    <ColonyControlRushCost>1</ColonyControlRushCost>
-    <ShipyardControlRushCost>1.25</ShipyardControlRushCost>
-
-    <ColonyControlActionDefs>
-      <UniqueID>EnforceLaw</UniqueID>
-      <Description>ENFORCE_LAW_DESC</Description>
-      <Costs>
-        <EffectType>Control</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>50</Value>
-      </Costs>
-      <Triggers>
-        <OnEvent>OnEnforceLaw</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <Lifetime>Target</Lifetime>
-        <Modifier>
-          <EffectType>Crime</EffectType>
-          <Scope>Local</Scope>
-          <BonusType>Flat</BonusType>
-          <ValueType>Range</ValueType>
-		  <RangeMin>-0.15</RangeMin>
-		  <RangeMax>-0.03</RangeMax>
-        </Modifier>
-        <SourceDisplayName>ENFORCE_LAW_LABEL</SourceDisplayName>
-      </Triggers>
-      <GovPreclusions>
-        <UnitTrait>
-          <Option>LeaderTrait_Corrupt</Option>
-        </UnitTrait>
-      </GovPreclusions>
-    </ColonyControlActionDefs>
-
-    <ColonyControlActionDefs>
-      <UniqueID>SeizeGoods</UniqueID>
-      <Description>SEIZE_GOODS_DESC</Description>
-      <Costs>
-        <EffectType>Control</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>4</Value>
-      </Costs>
-      <Costs>
-        <EffectType>Credits</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>-200</Value>
-      </Costs>
-      <Triggers>
-        <OnEvent>OnSeizeGoods</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <Lifetime>Target</Lifetime>
-        <RandomDurationMin>40</RandomDurationMin>
-        <RandomDurationMax>40</RandomDurationMax>
-        <Modifier>
-          <EffectType>Approval</EffectType>
-          <Target>
-            <TargetType>Unit</TargetType>
-          </Target>
-          <BonusType>Flat</BonusType>
-          <Value>-0.03</Value>
-        </Modifier>
-        <SourceDisplayName>SEIZE_GOODS_LABEL</SourceDisplayName>
-      </Triggers>
-      <GovPreclusions>
-        <UnitTrait>
-          <Option>GovernorTrait_Timid</Option>
-        </UnitTrait>
-      </GovPreclusions>
-    </ColonyControlActionDefs>
-
-    <ColonyControlActionDefs>
-      <UniqueID>QuellProtest</UniqueID>
-      <Description>QUELL_PROTEST_DESC</Description>
-      <Costs>
-        <EffectType>Control</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>10</Value>
-      </Costs>
-      <Triggers>
-        <OnEvent>OnQuellProtest</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <PerformAction>
-          <Action>RemoveTraitFromAllUnitsOnPlanet</Action>
-          <StringParam>CitizenTrait_Protesting</StringParam>
-        </PerformAction>
-      </Triggers>
-      <Triggers>
-        <OnEvent>OnQuellProtest</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <Lifetime>Target</Lifetime>
-        <RandomDurationMin>10</RandomDurationMin>
-        <RandomDurationMax>10</RandomDurationMax>
-        <Modifier>
-          <EffectType>Approval</EffectType>
-          <Target>
-            <TargetType>Unit</TargetType>
-          </Target>
-          <BonusType>Flat</BonusType>
-          <Value>0.1</Value>
-        </Modifier>
-      </Triggers>
-      <GovPreclusions>
-        <UnitTrait>
-          <Option>LeaderTrait_Kind</Option>
-        </UnitTrait>
-      </GovPreclusions>
-    </ColonyControlActionDefs>
-
-    <ColonyControlActionDefs>
-      <UniqueID>Festival</UniqueID>
-      <Description>FESTIVAL_DESC</Description>
-      <Costs>
-        <EffectType>Control</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>2</Value>
-      </Costs>
-      <Costs>
-        <EffectType>Credits</EffectType>
-        <BonusType>OneTime</BonusType>
-        <Value>400</Value>
-      </Costs>
-      <Triggers>
-        <OnEvent>OnFestival</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <Lifetime>Target</Lifetime>
-        <RandomDurationMin>20</RandomDurationMin>
-        <RandomDurationMax>20</RandomDurationMax>
-        <Modifier>
-          <EffectType>Approval</EffectType>
-          <Target>
-            <TargetType>Unit</TargetType>
-          </Target>
-          <BonusType>Flat</BonusType>
-          <Value>0.08</Value>
-        </Modifier>
-        <SourceDisplayName>FESTIVAL_LABEL</SourceDisplayName>
-      </Triggers>
-      <Triggers>
-        <OnEvent>OnFestival</OnEvent>
-        <Target>
-          <TargetType>Colony</TargetType>
-        </Target>
-        <Lifetime>Target</Lifetime>
-        <Modifier>
-          <EffectType>Crime</EffectType>
-          <Target>
-            <TargetType>Colony</TargetType>
-          </Target>
-          <BonusType>Flat</BonusType>
-          <Value>0.01</Value>
-        </Modifier>
-        <SourceDisplayName>FESTIVAL_LABEL</SourceDisplayName>
-      </Triggers>
-    </ColonyControlActionDefs>
-
-    <SovereignLoyalty>100</SovereignLoyalty>
-    <ColonyGovernorOpinionMaxResourceMod>0.2</ColonyGovernorOpinionMaxResourceMod>
-
-    <IdeologyThresholds>1</IdeologyThresholds>
-    <IdeologyThresholds>3</IdeologyThresholds>
-    <IdeologyThresholds>5</IdeologyThresholds>
-    <IdeologyThresholds>7</IdeologyThresholds>
-    <IdeologyThresholds>9</IdeologyThresholds>
-    <IdeologyThresholds>12</IdeologyThresholds>
-    <IdeologyThresholds>15</IdeologyThresholds>
-	<IdeologyTraitCost>1</IdeologyTraitCost>
-
-    <ColonyStartingPollutionRange>
-      <RangeMin>4</RangeMin>
-      <RangeMax>12</RangeMax>
-    </ColonyStartingPollutionRange>
-
-    <IncomePercentBonusPerUnitTourism>0.5</IncomePercentBonusPerUnitTourism>
-    <InfluencePerTurnPercentBonusPerUnitTourism>0.5</InfluencePerTurnPercentBonusPerUnitTourism>
-
-    <HyperlaneTravelAllowedFlag>CanTravelOnHyperlanes</HyperlaneTravelAllowedFlag>
-    <CanDetectSubspaceStreamsFlag>CanDetectSubspaceStreams</CanDetectSubspaceStreamsFlag>
-    <StealGovernorsWhenInvadingFlag>Flag_StealGovernorsWhenInvading</StealGovernorsWhenInvadingFlag>
-    <HasUnhiddenExecutiveOrdersFlag>Flag_HasUnhiddenExecutiveOrders</HasUnhiddenExecutiveOrdersFlag>
-    <HasUnhiddenLeadersScreenFlag>Flag_HasUnhiddenLeadersScreen</HasUnhiddenLeadersScreenFlag>
-	<HasUnhiddenPolicyScreenFlag>Flag_HasUnhiddenPolicyScreen</HasUnhiddenPolicyScreenFlag>
-	<HasUnhiddenIdeologyScreenFlag>Flag_HasUnhiddenIdeologyScreen</HasUnhiddenIdeologyScreenFlag>
-	<HasUnhiddenDiplomacyScreenFlag>Flag_HasUnhiddenDiplomacyScreen</HasUnhiddenDiplomacyScreenFlag>
-
-	<UniversalTranslatorFlag>Counter_ResearchTranslator</UniversalTranslatorFlag>
-	<ShipLeashDisabledFlag>Flag_ShipLeashDisabled</ShipLeashDisabledFlag>
-    <BazaarResourcesFlag>Flag_BazaarResourcesEnabled</BazaarResourcesFlag>
-    <DefeatedPlayerPrestigeAwardCounter>Counter_DefeatedPlayerPrestigeAward</DefeatedPlayerPrestigeAwardCounter>
-	  
-    <UnitSpecializationCooldownTurns>0</UnitSpecializationCooldownTurns>
-
-    <TechRerollModBase>0.1</TechRerollModBase>
-    <TechRerollModMult>2</TechRerollModMult>
-    <MaxNumTechRerolls>5</MaxNumTechRerolls>
-	<TechRerollFocusWeightMult>3</TechRerollFocusWeightMult>
-
-    <TechMinisterSlots>1</TechMinisterSlots>
-
-    <TradeNegotiationBufferValue>100</TradeNegotiationBufferValue>
-    <TradePersuadeChanceBase>0.5</TradePersuadeChanceBase>
-    <TradeThreatenChanceBase>0.5</TradeThreatenChanceBase>
-    <TradePersuadeTurnsBetweenUse>30</TradePersuadeTurnsBetweenUse>
-    <TradeThreatenTurnsBetweenUse>30</TradeThreatenTurnsBetweenUse>
-    <TradeThreatenFailPenalty>-3</TradeThreatenFailPenalty>
-    <TradeThreatenFialPenaltyDuration>30</TradeThreatenFialPenaltyDuration>
-
-	<AdviceLowTreasuryMaxCredits>100</AdviceLowTreasuryMaxCredits>
-	<AdviceLowApprovalMaxApproval>0.40</AdviceLowApprovalMaxApproval>
-	<AdviceLowFoodMaxSurplus>2</AdviceLowFoodMaxSurplus>
-
-	<AdviceGovernPlanetMinClass>12</AdviceGovernPlanetMinClass>
-
-  <ShipLeashGrowthRate>30</ShipLeashGrowthRate>
-	  
-  </GalCivGlobal>
-
-</GalCivGlobalList>
+			<Range> 
+				<RangeMin>7</RangeMin> 
+				<RangeMax>9</RangeMax> 
+			</Range> 
+			<Value>19</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>10</RangeMin> 
+				<RangeMax>14</RangeMax> 
+			</Range> 
+			<Value>29</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>15</RangeMin> 
+				<RangeMax>18</RangeMax> 
+			</Range> 
+			<Value>39</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>15</RangeMin> 
+				<RangeMax>18</RangeMax> 
+			</Range> 
+			<Value>49</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>19</RangeMin> 
+				<RangeMax>23</RangeMax> 
+			</Range> 
+			<Value>59</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>24</RangeMin> 
+				<RangeMax>28</RangeMax> 
+			</Range> 
+			<Value>69</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>29</RangeMin> 
+				<RangeMax>33</RangeMax> 
+			</Range> 
+			<Value>79</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>34</RangeMin> 
+				<RangeMax>38</RangeMax> 
+			</Range> 
+			<Value>89</Value> 
+		</MaxFeaturesByPlanetClass> 
+    <MaxFeaturesByPlanetClass> 
+			<Range> 
+				<RangeMin>39</RangeMin> 
+        <NoMax>true</NoMax> 
+			</Range> 
+			<Value>99</Value> 
+		</MaxFeaturesByPlanetClass> 
+ 
+    <PlanetFullPopulation>30</PlanetFullPopulation> 
+ 
+    <PlanetClassHaloScaleCurve> 
+      <DataCurveDataPoint> 
+        <X>1</X> 
+        <Y>1</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>50</X> 
+        <Y>1.2</Y> 
+      </DataCurveDataPoint> 
+    </PlanetClassHaloScaleCurve> 
+ 
+    <CrisisTurnsMin>12</CrisisTurnsMin> 
+	<CrisisTurnsMax>28</CrisisTurnsMax> 
+	 
+	<RareEventTurnsMin>16</RareEventTurnsMin> 
+	<RareEventTurnsMax>32</RareEventTurnsMax> 
+	<OccasionalEventTurnsMin>8</OccasionalEventTurnsMin> 
+	<OccasionalEventTurnsMax>16</OccasionalEventTurnsMax> 
+	<AbundantEventTurnsMin>4</AbundantEventTurnsMin> 
+	<AbundantEventTurnsMax>8</AbundantEventTurnsMax> 
+	<FlaggedQuestEventMaxChance>10000</FlaggedQuestEventMaxChance> 
+	<FlaggedQuestEventChance>150</FlaggedQuestEventChance> 
+ 
+    <RareMegaEventTurnsMin>32</RareMegaEventTurnsMin> 
+    <RareMegaEventTurnsMax>64</RareMegaEventTurnsMax> 
+    <RegularMegaEventTurnsMin>16</RegularMegaEventTurnsMin> 
+    <RegularMegaEventTurnsMax>32</RegularMegaEventTurnsMax> 
+    <FrequentMegaEventTurnsMin>8</FrequentMegaEventTurnsMin> 
+    <FrequentMegaEventTurnsMax>16</FrequentMegaEventTurnsMax> 
+ 
+    <MidGameMusicTriggerTurnCount>60</MidGameMusicTriggerTurnCount> 
+    <LateGameMusicTriggerTurnCount>300</LateGameMusicTriggerTurnCount> 
+    <MusicWinningPercent>85</MusicWinningPercent> 
+    <MusicWinningTriggerTurnCount>50</MusicWinningTriggerTurnCount> 
+    <MusicLosingPercent>20</MusicLosingPercent> 
+    <MusicLosingTriggerTurnCount>50</MusicLosingTriggerTurnCount> 
+ 
+    <DefaultUISFXDef> 
+      <InternalName>GalCivDefaultUISFXDef</InternalName> 
+      <Sound> 
+        <Type>ButtonMouseOver</Type> 
+        <Event>.</Event> 
+      </Sound> 
+      <Sound> 
+        <Type>ButtonClick</Type> 
+        <Event>UI/BUTTON_ONCLICK</Event> 
+      </Sound> 
+      <Sound> 
+        <Type>Scroll</Type> 
+        <Event>UI/SCROLL</Event> 
+      </Sound> 
+      <Sound> 
+        <Type>EntryClick</Type> 
+        <Event>UI/SELECT_LIST_ENTRY</Event> 
+      </Sound> 
+    </DefaultUISFXDef> 
+ 
+    <BlueprintStatBalanceRange>1</BlueprintStatBalanceRange> 
+    <BlueprintStatBalanceRatioThreshold>5</BlueprintStatBalanceRatioThreshold> 
+    <BlueprintStatBalanceRatio>0.20</BlueprintStatBalanceRatio> 
+ 
+    <BattleMoveCost>1.0</BattleMoveCost> 
+    <BattleMaxTurns>10</BattleMaxTurns> 
+ 
+     
+    <NonOptimalDefenseFactor> 
+      <weaponType>Kinetic</weaponType> 
+      <defenseType>Kinetic</defenseType> 
+      <percent>0.5</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Beam</weaponType> 
+      <defenseType>Kinetic</defenseType> 
+      <percent>0.75</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Missile</weaponType> 
+      <defenseType>Kinetic</defenseType> 
+      <percent>0.25</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Beam</weaponType> 
+      <defenseType>Beam</defenseType> 
+      <percent>0.5</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Kinetic</weaponType> 
+      <defenseType>Beam</defenseType> 
+      <percent>0.25</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Missile</weaponType> 
+      <defenseType>Beam</defenseType> 
+      <percent>0.75</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Missile</weaponType> 
+      <defenseType>Missile</defenseType> 
+      <percent>0.5</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Beam</weaponType> 
+      <defenseType>Missile</defenseType> 
+      <percent>0.25</percent> 
+    </NonOptimalDefenseFactor> 
+    <NonOptimalDefenseFactor> 
+      <weaponType>Kinetic</weaponType> 
+      <defenseType>Missile</defenseType> 
+      <percent>0.75</percent> 
+    </NonOptimalDefenseFactor> 
+     
+     
+     
+     
+     
+ 
+    <SuicideAttackHealthPercent>0.3</SuicideAttackHealthPercent> 
+    <SuicideAttackMinTurns>5</SuicideAttackMinTurns> 
+    <SuicideAttackSimSpeedBoost>3.0</SuicideAttackSimSpeedBoost> 
+    <SuicideAttackSimAccelBoost>2.0</SuicideAttackSimAccelBoost> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Assault</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Interceptor</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Capital</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Escort</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Guardian</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Support</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Starbase</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <InitialSpeedFactor> 
+      <Role>Upgrading</Role> 
+      <Value>0.0</Value> 
+    </InitialSpeedFactor> 
+ 
+    <DefaultPlanetFeaturesPerTile>1.0</DefaultPlanetFeaturesPerTile> 
+    <DefaultTradeResourcesPerTile>0.15</DefaultTradeResourcesPerTile> 
+ 
+    <MaxSponsorDistanceWithNoPenalty>8</MaxSponsorDistanceWithNoPenalty> 
+    <ShipyardMilitaryFloor>1</ShipyardMilitaryFloor> 
+ 
+    <ObjectViewGridSize>1000</ObjectViewGridSize> 
+    <ObjectViewGridSpacing>50</ObjectViewGridSpacing> 
+ 
+    <UpgradeToConstructorPenalty>0.1</UpgradeToConstructorPenalty> 
+    <UpgradeToTransportPenalty>0.5</UpgradeToTransportPenalty> 
+    <UpgradeToTradePenalty>0.1</UpgradeToTradePenalty> 
+    <UpgradeToColonyPenalty>2.0</UpgradeToColonyPenalty> 
+    <UpgradeToCarrierPenalty>0.5</UpgradeToCarrierPenalty> 
+    <UpgradeDoubleAttackPenalty>0.01</UpgradeDoubleAttackPenalty> 
+    <UpgradeDoubleDefensePenalty>0.01</UpgradeDoubleDefensePenalty> 
+    <UpgradeDiscountFactor>0.9</UpgradeDiscountFactor> 
+    <UpgradeCostFloorFactor>0.1</UpgradeCostFloorFactor> 
+ 
+    <QuadFadeCameraDistanceBegin>10000</QuadFadeCameraDistanceBegin> 
+    <QuadFadeCameraDistanceEnd>40000</QuadFadeCameraDistanceEnd> 
+    <QuadFadeCameraHeightBegin>1500</QuadFadeCameraHeightBegin> 
+    <QuadFadeCameraHeightEnd>2500</QuadFadeCameraHeightEnd> 
+ 
+    <FactionPowerProductionPointMultiplier>0.5</FactionPowerProductionPointMultiplier> 
+    <FactionPowerBattleRatingMultiplier>0.002</FactionPowerBattleRatingMultiplier> 
+    <FactionPowerTreasuryMultiplier>0.001</FactionPowerTreasuryMultiplier> 
+    <FactionPowerInfluenceMultiplier>0.25</FactionPowerInfluenceMultiplier> 
+    <FactionPowerUnlockedTechsMultiplier>1.0</FactionPowerUnlockedTechsMultiplier> 
+    <FactionPowerUnlockedCultureMultiplier>0.1</FactionPowerUnlockedCultureMultiplier> 
+ 
+    <GalacticTourismSpendingMod>0.25</GalacticTourismSpendingMod> 
+ 
+    <TurnDistanceTooltipDelay>0</TurnDistanceTooltipDelay> 
+ 
+    <GenericTechTreeName>Master_Tree</GenericTechTreeName> 
+ 
+    <ResearchVictoryRequiredImprovement>AscensionGate</ResearchVictoryRequiredImprovement> 
+    <ResearchVictoryTechAge>AgeOfVictory</ResearchVictoryTechAge> 
+    <InfluenceVictoryMajority>0.75</InfluenceVictoryMajority> 
+    <InfluenceVictoryRequiredTurnsWithMajority>10</InfluenceVictoryRequiredTurnsWithMajority> 
+ 
+    <PlanetaryProductionWheelImprovement>BureauofLabor</PlanetaryProductionWheelImprovement> 
+    <PlanetGovernorEmptyPortrait>Custom.png</PlanetGovernorEmptyPortrait> 
+     
+    <!-- Tuning for the victory progress readouts --> 
+    <ResearchVictoryProgressResearchWeight>0.9</ResearchVictoryProgressResearchWeight> 
+    <ResearchVictoryProgressImprovementWeight>0.1</ResearchVictoryProgressImprovementWeight> 
+    <InfluenceVictoryProgressInfluenceWeight>0.94</InfluenceVictoryProgressInfluenceWeight> 
+    <InfluenceVictoryProgressTurnsWeight>0.05</InfluenceVictoryProgressTurnsWeight> 
+    <InfluenceVictoryProgressAtPeaceWeight>0.01</InfluenceVictoryProgressAtPeaceWeight> 
+    <InfluenceVictoryProgressInfluenceDeadZone>0.15</InfluenceVictoryProgressInfluenceDeadZone> 
+    <!-- Will read 0% until we hit this value, eg at start of game. --> 
+    <AscensionVictoryProgressGateCountWeight>0.5</AscensionVictoryProgressGateCountWeight> 
+    <AscensionVictoryProgressPointsWeight>0.5</AscensionVictoryProgressPointsWeight> 
+    <AscensionVictoryPointsWarningPercentage>0.85</AscensionVictoryPointsWarningPercentage> 
+    <PrestigeVictoryWarningAlertPercentage>0.9</PrestigeVictoryWarningAlertPercentage> 
+    <PrestigeVictoryWarningConvoPercentage>0.9</PrestigeVictoryWarningConvoPercentage> 
+    <PrestigeVictoryWarningBlinkPercentage>0.95</PrestigeVictoryWarningBlinkPercentage> 
+ 
+    <WarEnduranceRecoveryRate>1</WarEnduranceRecoveryRate> 
+ 
+    <SoundDistanceAttenuationCurve> 
+      <DataCurveDataPoint> 
+        <X>0</X> 
+        <Y>1</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>0</LeftSideSlope> 
+        <RightSideSlope>0</RightSideSlope> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>0.25</X> 
+        <Y>0.25</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>-1</LeftSideSlope> 
+        <RightSideSlope>-1</RightSideSlope> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>1</X> 
+        <Y>0</Y> 
+        <LeftSideType>HermiteSpecificSlope</LeftSideType> 
+        <RightSideType>HermiteSpecificSlope</RightSideType> 
+        <LeftSideSlope>0</LeftSideSlope> 
+        <RightSideSlope>0</RightSideSlope> 
+      </DataCurveDataPoint> 
+    </SoundDistanceAttenuationCurve> 
+ 
+    <ShipyardAmbientSFXDefine>SHIPYARD_AMBIENT</ShipyardAmbientSFXDefine> 
+ 
+    <MinTurnDurationToPlayControlRegainedSound>0</MinTurnDurationToPlayControlRegainedSound> 
+    <MinDurationToPlayActionsExhaustedSound>1</MinDurationToPlayActionsExhaustedSound> 
+    <MainMapSFXHearDistanceMod>1</MainMapSFXHearDistanceMod> 
+    <BattleViewerSFXHearDistanceMod>3</BattleViewerSFXHearDistanceMod> 
+ 
+    <DefaultPlayerShipDesignStrategicIcon>Scout</DefaultPlayerShipDesignStrategicIcon> 
+ 
+    <CustomFactionTraitPoints>3</CustomFactionTraitPoints> 
+    <CustomFactionAbilityPoints>2</CustomFactionAbilityPoints> 
+    <CustomFactionAIWeightHighest>20</CustomFactionAIWeightHighest> 
+    <CustomFactionAIWeightDecrement>2</CustomFactionAIWeightDecrement> 
+    <CustomFactionHomeStarSystemGroup>FactionStart</CustomFactionHomeStarSystemGroup> 
+ 
+    <RequestConstructorMaxHexDistance>50</RequestConstructorMaxHexDistance> 
+ 
+    <IdeologyMercilessCutoff>30</IdeologyMercilessCutoff> 
+    <IdeologyBenevolentCutoff>60</IdeologyBenevolentCutoff> 
+ 
+    <WaypointFOWClearRadius>2</WaypointFOWClearRadius> 
+ 
+    <CloseToVictoryDiplomacyWeightMod>10</CloseToVictoryDiplomacyWeightMod> 
+    <CloseToVictoryDiplomacyThreshold>0.5</CloseToVictoryDiplomacyThreshold> 
+    <HasArtifactsDiplomacyPenalty>1</HasArtifactsDiplomacyPenalty> 
+    <EasyTargetDiplomacyWeightMod>1</EasyTargetDiplomacyWeightMod> 
+    <EasyTargetDiplomacyTreshold>1.5</EasyTargetDiplomacyTreshold> 
+    <TransportNearMyPlanetPenalty>5</TransportNearMyPlanetPenalty> 
+    <MilitaryShipNearMyPlanetPenalty>0</MilitaryShipNearMyPlanetPenalty> 
+    <MilitaryShipNearMyPlanetMax>7</MilitaryShipNearMyPlanetMax> 
+    <MilitaryCultureStarbaseInZOCPenalty>2</MilitaryCultureStarbaseInZOCPenalty> 
+    <GenericStarbaseInZOCPenalty>1</GenericStarbaseInZOCPenalty> 
+    <WarWithFriendMinRelation>5</WarWithFriendMinRelation> 
+    <WarMongerWarHistoryTurnLimit>100</WarMongerWarHistoryTurnLimit> 
+    <WarMongerMinPlayerCountToActivate>3</WarMongerMinPlayerCountToActivate> 
+ 
+    <DefaultTreatyDuration>50</DefaultTreatyDuration> 
+    <DefaultPeaceTreatyDuration>20</DefaultPeaceTreatyDuration> 
+    <CannotSpeakToPlayerAfterDeclaringWarDuration>15</CannotSpeakToPlayerAfterDeclaringWarDuration> 
+    <AITradeCooldown>6</AITradeCooldown> 
+ 
+    <AlertDuration>1</AlertDuration> 
+ 
+    <ExpensiveDipmodPlayerCountMax>10</ExpensiveDipmodPlayerCountMax> 
+ 
+    <SandboxStartingYear>2307</SandboxStartingYear> 
+    <AutosaveFadeInTime>100</AutosaveFadeInTime> 
+    <AutosaveFadeOutTime>200</AutosaveFadeOutTime> 
+    <StartTurnFadeTime>400</StartTurnFadeTime> 
+    <StartTurnPauseTime>400</StartTurnPauseTime> 
+    <CurrentTurnFadeTime>400</CurrentTurnFadeTime> 
+    <CurrentTurnFadeInTime>200</CurrentTurnFadeInTime> 
+    <CurrentTurnPauseTime>400</CurrentTurnPauseTime> 
+    <DeleteNotificationFadeTime>400</DeleteNotificationFadeTime> 
+    <TutorialCampaignInternalName>Tutorial</TutorialCampaignInternalName> 
+ 
+    <MapEditorLogisticsCap>1000.0</MapEditorLogisticsCap> 
+ 
+    <ScavengerMinFleetSize>1</ScavengerMinFleetSize> 
+    <ScavengerHPRatio>0.0</ScavengerHPRatio> 
+ 
+    <BaseCampaignInternalName>Campaign</BaseCampaignInternalName> 
+    <SnathiCampaignInternalName>RevengeoftheSnathi</SnathiCampaignInternalName> 
+    <MercenariesCampaignInternalName>Mercenaries</MercenariesCampaignInternalName> 
+    <RiseOfTerransCampaignInternalName>RiseoftheTerrans</RiseOfTerransCampaignInternalName> 
+    <AltarianProphecyCampaignInternalName>AltarianProphecy</AltarianProphecyCampaignInternalName> 
+    <RetributionCampaignInternalName>Retribution</RetributionCampaignInternalName> 
+ 
+    <ModuleRequiredTargetColony>Colony</ModuleRequiredTargetColony> 
+    <ModuleRequiredTargetRelic>Relic</ModuleRequiredTargetRelic> 
+    <ModuleRequiredTargetStrategicResource>StrategicResource</ModuleRequiredTargetStrategicResource> 
+ 
+    <ColonyFocusManufacturing>ManufacturingBonusGov</ColonyFocusManufacturing> 
+    <ColonyFocusResearch>ResearchBonusGov</ColonyFocusResearch> 
+    <ColonyFocusWealth>WealthBonusGov</ColonyFocusWealth> 
+ 
+    <BalancedGovernor>BalancedGovernor</BalancedGovernor> 
+    <BalancedGovernorIcon>GC3_Governor_Balanced_Spending_Icon.png</BalancedGovernorIcon> 
+    <ManufacturingGovernor>ManufacturingGovernor</ManufacturingGovernor> 
+    <ManufacturingGovernorIcon>GC3_Governor_Manufacturing_Spending_Icon.png</ManufacturingGovernorIcon> 
+    <ResearchGovernor>ResearchGovernor</ResearchGovernor> 
+    <ResearchGovernorIcon>GC3_Governor_Research_Spending.png</ResearchGovernorIcon> 
+    <WealthGovernor>WealthGovernor</WealthGovernor> 
+    <WealthGovernorIcon>GC3_Governor_Wealth_Spending_Icon.png</WealthGovernorIcon> 
+ 
+    <TachyonOverlaySummaryURL>archives_embed.html#/personas/%s?api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlaySummaryURL> 
+    <TachyonOverlayMatchHistoryURL>archives_embed.html#/personas/%s/match-history?api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayMatchHistoryURL> 
+    <TachyonOverlayLaddersURL>archives_embed.html#/ladders?personaId=%s&amp;api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayLaddersURL> 
+    <TachyonOverlayGalaxyURL>archives_embed.html#/gamestats?personaId=%s&amp;api=%s&amp;loggedInPersonaId=%s&amp;locale=%s</TachyonOverlayGalaxyURL> 
+ 
+    <MinRelationToProclaimFriendship>-4</MinRelationToProclaimFriendship> 
+    <MaxRelationEnemiesOfYourFriendWillDislikeYou>-4</MaxRelationEnemiesOfYourFriendWillDislikeYou> 
+    <ProclaimFriendshipCooldown>20</ProclaimFriendshipCooldown> 
+    <GetOffMyLawnCooldown>5</GetOffMyLawnCooldown> 
+    <GetOffMyLawnDuration>10</GetOffMyLawnDuration> 
+    <MinRelationAskForHelp>0</MinRelationAskForHelp> 
+    <DemandTributePercentOfGross>0.05</DemandTributePercentOfGross> 
+    <DemandTributeCooldown>10</DemandTributeCooldown> 
+    <MinRelationForiegnAid>0</MinRelationForiegnAid> 
+    <OfferForiegnAidCooldown>10</OfferForiegnAidCooldown> 
+    <OfferForiegnAidAcceptedCooldown>50</OfferForiegnAidAcceptedCooldown> 
+ 
+    <PassableBlockedTileWeight>30</PassableBlockedTileWeight> 
+ 
+    <PrecursorTraitTag>Precursor</PrecursorTraitTag> 
+    <VigilantAbilityName>VigilantAbility</VigilantAbilityName> 
+ 
+    <MercenaryHireInflationRate>0.05</MercenaryHireInflationRate> 
+    <MercenaryHireInflationMin>100</MercenaryHireInflationMin> 
+    <MercenaryHireInflationMax>1000</MercenaryHireInflationMax> 
+ 
+    <SensorPowerPreFormulaMod>6</SensorPowerPreFormulaMod> 
+ 
+    <MinNumberOfQueuedModulesBeforeAutoUpgrade>2</MinNumberOfQueuedModulesBeforeAutoUpgrade> 
+    <MaxNumberOfAutoUpgradeModulesToQueue>2</MaxNumberOfAutoUpgradeModulesToQueue> 
+ 
+    <AsteroidMiningBaseBuildTime>3</AsteroidMiningBaseBuildTime> 
+    <MaxAsteroidDistanceWithNoPenalty>6</MaxAsteroidDistanceWithNoPenalty> 
+    <AsteroidProductionFloor>0.1</AsteroidProductionFloor> 
+    <AsteroidMiningBaseCost>100</AsteroidMiningBaseCost> 
+ 
+    <ShipBaseLevelRequirement>4</ShipBaseLevelRequirement> 
+    <ShipLevelScaleMultiplier>1.5</ShipLevelScaleMultiplier> 
+ 
+    <UnitBaseLevelRequirement>4</UnitBaseLevelRequirement> 
+    <UnitLevelScaleMultiplier>1.75</UnitLevelScaleMultiplier> 
+    <UnitSpecializationLevel>3</UnitSpecializationLevel> 
+ 
+ 
+    <CitizenGenBaseTurns>9</CitizenGenBaseTurns> 
+    <CitizenRateReductionPerUnit>.15</CitizenRateReductionPerUnit> 
+ 
+    <StealChancePercentPerPoint>1</StealChancePercentPerPoint> 
+    <ShouldAgentsFightCitizens>false</ShouldAgentsFightCitizens> 
+    <BaseTurnsToTrainUnit>5</BaseTurnsToTrainUnit> 
+    <EspionagePointsPerAgent>1</EspionagePointsPerAgent> 
+    <SecurityBase>0</SecurityBase> 
+ 
+     
+    <!-- 
+    So, this is the ship classes that we want in the game 
+      You can rearrange them to get the order you want for the ship style wnd 
+      IF IT DOESNT EXIST HERE, IT WONT SHOW UP IN THE GAME FOR CUSTOM FACTIONS, 
+      so be careful what goes in here. 
+       
+      If you want to have it exist but not customizable, do it in Ship Style Wnd to skip over the  
+      icon type 
+    --> 
+    <ShipClassOrder>ColonyShip</ShipClassOrder> 
+    <ShipClassOrder>Constructor</ShipClassOrder> 
+    <ShipClassOrder>Freighter</ShipClassOrder> 
+    <ShipClassOrder>Transport</ShipClassOrder> 
+    <ShipClassOrder>Scout</ShipClassOrder> 
+    <ShipClassOrder>Asteroid</ShipClassOrder> 
+    <ShipClassOrder>Explorer</ShipClassOrder> 
+    <ShipClassOrder>SurveyShip</ShipClassOrder> 
+    <ShipClassOrder>Bomber</ShipClassOrder> 
+    <ShipClassOrder>Sniper</ShipClassOrder> 
+    <ShipClassOrder>Guardian</ShipClassOrder> 
+    <ShipClassOrder>Knight</ShipClassOrder> 
+    <ShipClassOrder>Cutter</ShipClassOrder> 
+    <ShipClassOrder>Defender</ShipClassOrder> 
+    <ShipClassOrder>Gunboat</ShipClassOrder> 
+    <ShipClassOrder>Corvette</ShipClassOrder> 
+    <ShipClassOrder>Frigate</ShipClassOrder> 
+    <ShipClassOrder>Ranger</ShipClassOrder> 
+    <ShipClassOrder>Paladin</ShipClassOrder> 
+    <ShipClassOrder>Cruiser</ShipClassOrder> 
+    <ShipClassOrder>Destroyer</ShipClassOrder> 
+    <ShipClassOrder>Battleship</ShipClassOrder> 
+    <ShipClassOrder>Avatar</ShipClassOrder> 
+    <ShipClassOrder>Fortress</ShipClassOrder> 
+    <ShipClassOrder>Dreadnought</ShipClassOrder> 
+    <ShipClassOrder>Titan</ShipClassOrder> 
+    <ShipClassOrder>Carrier</ShipClassOrder> 
+    <ShipClassOrder>AssaultCarrier</ShipClassOrder> 
+    <ShipClassOrder>UnitTransport</ShipClassOrder> 
+    <ShipClassOrder>MissionShip</ShipClassOrder> 
+    <ShipClassOrder>Supply</ShipClassOrder> 
+ 
+    <UniversalShipClass>Ship_Retribution</UniversalShipClass> 
+    <UniversalShipClass>Ship_Ysengard</UniversalShipClass> 
+    <UniversalShipClass>Ship_Stargazer</UniversalShipClass> 
+    <UniversalShipClass>Ship_Nail</UniversalShipClass> 
+    <UniversalShipClass>Ship_Sabre</UniversalShipClass> 
+    <UniversalShipClass>Ship_Prospector</UniversalShipClass> 
+    <UniversalShipClass>Ship_Praxis</UniversalShipClass> 
+    <UniversalShipClass>Ship_Raptor</UniversalShipClass> 
+    <UniversalShipClass>Ship_LoireagClone</UniversalShipClass> 
+ 
+    <ImpValCalcMultiplierModifier>1.0</ImpValCalcMultiplierModifier> 
+    <ImpValCalcDefaultValueMultiplier>1.0</ImpValCalcDefaultValueMultiplier> 
+    <ImpValCalcColonyUniqueValueMultiplier>2.0</ImpValCalcColonyUniqueValueMultiplier> 
+    <ImpValCalcPlayerUniqueValueMultiplier>3.0</ImpValCalcPlayerUniqueValueMultiplier> 
+    <ImpValCalcGalaxyUniqueValueMultiplier>5.0</ImpValCalcGalaxyUniqueValueMultiplier> 
+ 
+    <NegativeCreditsSocialManufacturingPenalty>0.5</NegativeCreditsSocialManufacturingPenalty> 
+    <NegativeCreditsMilitaryManufacturingPenalty>0.5</NegativeCreditsMilitaryManufacturingPenalty> 
+    <NegativeCreditsResearchPenalty>0.5</NegativeCreditsResearchPenalty> 
+ 
+    <PrivateerHullSize>Large</PrivateerHullSize> 
+ 
+    <MarketValueCurve> 
+      <DataCurveDataPoint> 
+        <X>0</X> 
+        <Y>10000</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>1</X> 
+        <Y>1000</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>3</X> 
+        <Y>700</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>6</X> 
+        <Y>500</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>10</X> 
+        <Y>400</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>50</X> 
+        <Y>200</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>100</X> 
+        <Y>100</Y> 
+      </DataCurveDataPoint> 
+      <DataCurveDataPoint> 
+        <X>1000</X> 
+        <Y>10</Y> 
+      </DataCurveDataPoint> 
+    </MarketValueCurve> 
+ 
+	<GovernmentChangeTypesCooldown>26</GovernmentChangeTypesCooldown> 
+	<GovernmentApprovalVoteRatio>0.4</GovernmentApprovalVoteRatio> 
+	<GovernmentTurnsBetweenElections>20</GovernmentTurnsBetweenElections> 
+	<GovernmentTurnsBeforeRequiredToSet>5</GovernmentTurnsBeforeRequiredToSet> 
+	<GovernmentNumColoniesBeforeAllowed>2</GovernmentNumColoniesBeforeAllowed> 
+	<GovernmentLostElectionCooldown>20</GovernmentLostElectionCooldown> 
+	<GovernmentLostElectionDefaultInterimGovernment>Coalition</GovernmentLostElectionDefaultInterimGovernment> 
+	<TaxationUnrestMult>0.75</TaxationUnrestMult> 
+	<TaxationStartingValue>0.25</TaxationStartingValue> 
+  <TaxationRateLow>0.25</TaxationRateLow> 
+  <TaxationRateNormal>0.5</TaxationRateNormal> 
+  <TaxationRateMedium>0.75</TaxationRateMedium> 
+  <TaxationRateHigh>1.0</TaxationRateHigh> 
+  <TaxationRateMax>1.25</TaxationRateMax> 
+  <GalacticNewsTurnsAfterUseMult>1</GalacticNewsTurnsAfterUseMult> 
+	<GalacticNewsUnusedBonus>100</GalacticNewsUnusedBonus> 
+	<GalacticNewsListSizeMetBonus>100</GalacticNewsListSizeMetBonus> 
+	<GalacticNewsEarlierstTurn>15</GalacticNewsEarlierstTurn> 
+	<GalacticNewsCooldown>20</GalacticNewsCooldown> 
+	<ElectionWarningNotice>5</ElectionWarningNotice> <!-- How many turns before the election do we notify the player --> 
+	<ColonyLimitWarningCooldown>30</ColonyLimitWarningCooldown> 
+	<ColonyLimitPenaltyPerColony>0.125</ColonyLimitPenaltyPerColony> 
+	<ColonyLimitMaxPenalty>10</ColonyLimitMaxPenalty> 
+	<GalacticMarketTrickle>0.3</GalacticMarketTrickle> 
+	<StatCheckMin>10</StatCheckMin> <!-- The Minimum value of a Stat Check Chance --> 
+	<StatCheckMax>95</StatCheckMax> <!-- The Maximum value of a Stat Check Chance --> 
+ 
+    <HumanPlayerGlobalModifiers> 
+      <Difficulty>Beginner</Difficulty> 
+      <ModifierDef> 
+        <EffectType>ColonyGrossIncome</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>5</Value> 
+      </ModifierDef> 
+    </HumanPlayerGlobalModifiers> 
+    <HumanPlayerGlobalModifiers> 
+      <Difficulty>Easy</Difficulty> 
+      <ModifierDef> 
+        <EffectType>ColonyGrossIncome</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>3</Value> 
+      </ModifierDef> 
+    </HumanPlayerGlobalModifiers> 
+    <HumanPlayerGlobalModifiers> 
+      <Difficulty>Normal</Difficulty> 
+      <ModifierDef> 
+        <EffectType>ColonyGrossIncome</EffectType> 
+        <Scope>Global</Scope> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <BonusType>Flat</BonusType> 
+        <Value>1</Value> 
+      </ModifierDef> 
+    </HumanPlayerGlobalModifiers> 
+ 
+	<CitizenGrowthThresholdBase>8</CitizenGrowthThresholdBase> 
+	<CitizenGrowthThresholdMult>1.5</CitizenGrowthThresholdMult> 
+    <CitizenCriminalChance>0</CitizenCriminalChance> <!-- % base chance a new citizen will be a criminal --> 
+    <CitizenIdeologyChance>0</CitizenIdeologyChance> <!-- % chance a new citizen will have an ideology --> 
+    <LeaderRosterSizeRange> 
+      <RangeMin>4</RangeMin> <!-- Base amount of leaders that show up for recruitment --> 
+      <RangeMax>8</RangeMax> <!-- Maximum amount of leaders that show up for recruitment regardless of player bonuses --> 
+    </LeaderRosterSizeRange> 
+    <LeaderRosterAddChance>50</LeaderRosterAddChance> <!-- % chance each turn a new leader shows up if there is an empty slot --> 
+    <LeaderRosterTurnsAvailable> <!-- turns a leader stays in the recruit pool before expiring --> 
+      <RangeMin>10</RangeMin> 
+      <RangeMax>33</RangeMax> 
+    </LeaderRosterTurnsAvailable> 
+     
+    <LeaderRosterTypeOptions>UnassignedLeader</LeaderRosterTypeOptions> 
+    <LeaderRosterBaseCreditCost>300</LeaderRosterBaseCreditCost> 
+    <MaxUnitsPerMinistry>1</MaxUnitsPerMinistry> 
+    <LeaderStartingStat> 
+      <Stat>Intelligence</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>10</RangeMax> 
+    </LeaderStartingStat> 
+    <LeaderStartingStat> 
+      <Stat>Social</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>10</RangeMax> 
+    </LeaderStartingStat> 
+    <LeaderStartingStat> 
+      <Stat>Diligence</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>10</RangeMax> 
+    </LeaderStartingStat> 
+    <LeaderStartingStat> 
+      <Stat>Resolve</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>10</RangeMax> 
+    </LeaderStartingStat> 
+    <LeaderStartingStat> 
+      <Stat>Expectations</Stat> 
+      <RangeMin>1</RangeMin> 
+      <RangeMax>10</RangeMax> 
+    </LeaderStartingStat> 
+    <LeaderStartingStat> 
+      <Stat>Loyalty</Stat> 
+      <RangeMin>30</RangeMin> 
+      <RangeMax>90</RangeMax> 
+    </LeaderStartingStat> 
+ 
+    <UnitStartingStat> 
+      <Stat>Intelligence</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>6</RangeMax> 
+    </UnitStartingStat> 
+    <UnitStartingStat> 
+      <Stat>Social</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>6</RangeMax> 
+    </UnitStartingStat> 
+    <UnitStartingStat> 
+      <Stat>Diligence</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>6</RangeMax> 
+    </UnitStartingStat> 
+    <UnitStartingStat> 
+      <Stat>Resolve</Stat> 
+      <RangeMin>3</RangeMin> 
+      <RangeMax>6</RangeMax> 
+    </UnitStartingStat> 
+    <UnitStartingStat> 
+      <Stat>Expectations</Stat> 
+      <RangeMin>8</RangeMin> 
+      <RangeMax>20</RangeMax> 
+    </UnitStartingStat> 
+ 
+    <ThiefCreditsStolenPercentage>0.01</ThiefCreditsStolenPercentage> 
+    <ThiefCreditsStolenMin>10.0</ThiefCreditsStolenMin> 
+    <MaxDiplomatsAssignedToPlayer>1</MaxDiplomatsAssignedToPlayer> 
+    <AIMinPlanetTilesForGovernor>15</AIMinPlanetTilesForGovernor> 
+    <AIDefaultUnitWeight>30</AIDefaultUnitWeight> 
+    <AssassinateDiplomatCreditsCost>100</AssassinateDiplomatCreditsCost> 
+     
+    <ColonySponsoringDecayMinValue>0.125</ColonySponsoringDecayMinValue> 
+ 
+    <MaxStarvationPenalty>-0.2</MaxStarvationPenalty> 
+    <LayoutPlanetMinBonusTiles>3</LayoutPlanetMinBonusTiles> 
+    <LayoutPlanetMaxBonusTiles>5</LayoutPlanetMaxBonusTiles> 
+ 
+    <ColonySponsoringDecayDistanceStart>3</ColonySponsoringDecayDistanceStart> 
+	<ColonySponsoringDecayRate>0.008</ColonySponsoringDecayRate> 
+    <ColonySponsoringCrimeDecayRate>0.5</ColonySponsoringCrimeDecayRate> 
+	 
+    <ColonyControlResistanceMod>0.5</ColonyControlResistanceMod> 
+    <ColonyControlRushCost>1</ColonyControlRushCost> 
+    <ShipyardControlRushCost>1.25</ShipyardControlRushCost> 
+ 
+    <ColonyControlActionDefs> 
+      <UniqueID>EnforceLaw</UniqueID> 
+      <Description>ENFORCE_LAW_DESC</Description> 
+      <Costs> 
+        <EffectType>Control</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>50</Value> 
+      </Costs> 
+      <Triggers> 
+        <OnEvent>OnEnforceLaw</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <Lifetime>Target</Lifetime> 
+        <Modifier> 
+          <EffectType>Crime</EffectType> 
+          <Scope>Local</Scope> 
+          <BonusType>Flat</BonusType> 
+          <ValueType>Range</ValueType> 
+		  <RangeMin>-0.15</RangeMin> 
+		  <RangeMax>-0.03</RangeMax> 
+        </Modifier> 
+        <SourceDisplayName>ENFORCE_LAW_LABEL</SourceDisplayName> 
+      </Triggers> 
+      <GovPreclusions> 
+        <UnitTrait> 
+          <Option>LeaderTrait_Corrupt</Option> 
+        </UnitTrait> 
+      </GovPreclusions> 
+    </ColonyControlActionDefs> 
+ 
+    <ColonyControlActionDefs> 
+      <UniqueID>SeizeGoods</UniqueID> 
+      <Description>SEIZE_GOODS_DESC</Description> 
+      <Costs> 
+        <EffectType>Control</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>4</Value> 
+      </Costs> 
+      <Costs> 
+        <EffectType>Credits</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>-200</Value> 
+      </Costs> 
+      <Triggers> 
+        <OnEvent>OnSeizeGoods</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <Lifetime>Target</Lifetime> 
+        <RandomDurationMin>40</RandomDurationMin> 
+        <RandomDurationMax>40</RandomDurationMax> 
+        <Modifier> 
+          <EffectType>Approval</EffectType> 
+          <Target> 
+            <TargetType>Unit</TargetType> 
+          </Target> 
+          <BonusType>Flat</BonusType> 
+          <Value>-0.03</Value> 
+        </Modifier> 
+        <SourceDisplayName>SEIZE_GOODS_LABEL</SourceDisplayName> 
+      </Triggers> 
+      <GovPreclusions> 
+        <UnitTrait> 
+          <Option>GovernorTrait_Timid</Option> 
+        </UnitTrait> 
+      </GovPreclusions> 
+    </ColonyControlActionDefs> 
+ 
+    <ColonyControlActionDefs> 
+      <UniqueID>QuellProtest</UniqueID> 
+      <Description>QUELL_PROTEST_DESC</Description> 
+      <Costs> 
+        <EffectType>Control</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>10</Value> 
+      </Costs> 
+      <Triggers> 
+        <OnEvent>OnQuellProtest</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <PerformAction> 
+          <Action>RemoveTraitFromAllUnitsOnPlanet</Action> 
+          <StringParam>CitizenTrait_Protesting</StringParam> 
+        </PerformAction> 
+      </Triggers> 
+      <Triggers> 
+        <OnEvent>OnQuellProtest</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <Lifetime>Target</Lifetime> 
+        <RandomDurationMin>10</RandomDurationMin> 
+        <RandomDurationMax>10</RandomDurationMax> 
+        <Modifier> 
+          <EffectType>Approval</EffectType> 
+          <Target> 
+            <TargetType>Unit</TargetType> 
+          </Target> 
+          <BonusType>Flat</BonusType> 
+          <Value>0.1</Value> 
+        </Modifier> 
+      </Triggers> 
+      <GovPreclusions> 
+        <UnitTrait> 
+          <Option>LeaderTrait_Kind</Option> 
+        </UnitTrait> 
+      </GovPreclusions> 
+    </ColonyControlActionDefs> 
+ 
+    <ColonyControlActionDefs> 
+      <UniqueID>Festival</UniqueID> 
+      <Description>FESTIVAL_DESC</Description> 
+      <Costs> 
+        <EffectType>Control</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>2</Value> 
+      </Costs> 
+      <Costs> 
+        <EffectType>Credits</EffectType> 
+        <BonusType>OneTime</BonusType> 
+        <Value>400</Value> 
+      </Costs> 
+      <Triggers> 
+        <OnEvent>OnFestival</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <Lifetime>Target</Lifetime> 
+        <RandomDurationMin>20</RandomDurationMin> 
+        <RandomDurationMax>20</RandomDurationMax> 
+        <Modifier> 
+          <EffectType>Approval</EffectType> 
+          <Target> 
+            <TargetType>Unit</TargetType> 
+          </Target> 
+          <BonusType>Flat</BonusType> 
+          <Value>0.08</Value> 
+        </Modifier> 
+        <SourceDisplayName>FESTIVAL_LABEL</SourceDisplayName> 
+      </Triggers> 
+      <Triggers> 
+        <OnEvent>OnFestival</OnEvent> 
+        <Target> 
+          <TargetType>Colony</TargetType> 
+        </Target> 
+        <Lifetime>Target</Lifetime> 
+        <Modifier> 
+          <EffectType>Crime</EffectType> 
+          <Target> 
+            <TargetType>Colony</TargetType> 
+          </Target> 
+          <BonusType>Flat</BonusType> 
+          <Value>0.01</Value> 
+        </Modifier> 
+        <SourceDisplayName>FESTIVAL_LABEL</SourceDisplayName> 
+      </Triggers> 
+    </ColonyControlActionDefs> 
+ 
+    <SovereignLoyalty>100</SovereignLoyalty> 
+    <ColonyGovernorOpinionMaxResourceMod>0.2</ColonyGovernorOpinionMaxResourceMod> 
+ 
+    <IdeologyThresholds>1</IdeologyThresholds> 
+    <IdeologyThresholds>3</IdeologyThresholds> 
+    <IdeologyThresholds>5</IdeologyThresholds> 
+    <IdeologyThresholds>7</IdeologyThresholds> 
+    <IdeologyThresholds>9</IdeologyThresholds> 
+    <IdeologyThresholds>12</IdeologyThresholds> 
+    <IdeologyThresholds>15</IdeologyThresholds> 
+	<IdeologyTraitCost>1</IdeologyTraitCost> 
+ 
+    <ColonyStartingPollutionRange> 
+      <RangeMin>4</RangeMin> 
+      <RangeMax>12</RangeMax> 
+    </ColonyStartingPollutionRange> 
+ 
+    <IncomePercentBonusPerUnitTourism>0.5</IncomePercentBonusPerUnitTourism> 
+    <InfluencePerTurnPercentBonusPerUnitTourism>0.5</InfluencePerTurnPercentBonusPerUnitTourism> 
+ 
+    <HyperlaneTravelAllowedFlag>CanTravelOnHyperlanes</HyperlaneTravelAllowedFlag> 
+    <CanDetectSubspaceStreamsFlag>CanDetectSubspaceStreams</CanDetectSubspaceStreamsFlag> 
+    <StealGovernorsWhenInvadingFlag>Flag_StealGovernorsWhenInvading</StealGovernorsWhenInvadingFlag> 
+    <HasUnhiddenExecutiveOrdersFlag>Flag_HasUnhiddenExecutiveOrders</HasUnhiddenExecutiveOrdersFlag> 
+    <HasUnhiddenLeadersScreenFlag>Flag_HasUnhiddenLeadersScreen</HasUnhiddenLeadersScreenFlag> 
+	<HasUnhiddenPolicyScreenFlag>Flag_HasUnhiddenPolicyScreen</HasUnhiddenPolicyScreenFlag> 
+	<HasUnhiddenIdeologyScreenFlag>Flag_HasUnhiddenIdeologyScreen</HasUnhiddenIdeologyScreenFlag> 
+	<HasUnhiddenDiplomacyScreenFlag>Flag_HasUnhiddenDiplomacyScreen</HasUnhiddenDiplomacyScreenFlag> 
+ 
+	<UniversalTranslatorFlag>Counter_ResearchTranslator</UniversalTranslatorFlag> 
+	<ShipLeashDisabledFlag>Flag_ShipLeashDisabled</ShipLeashDisabledFlag> 
+    <BazaarResourcesFlag>Flag_BazaarResourcesEnabled</BazaarResourcesFlag> 
+    <DefeatedPlayerPrestigeAwardCounter>Counter_DefeatedPlayerPrestigeAward</DefeatedPlayerPrestigeAwardCounter> 
+	   
+    <UnitSpecializationCooldownTurns>0</UnitSpecializationCooldownTurns> 
+ 
+    <TechRerollModBase>0.1</TechRerollModBase> 
+    <TechRerollModMult>2</TechRerollModMult> 
+    <MaxNumTechRerolls>5</MaxNumTechRerolls> 
+	<TechRerollFocusWeightMult>3</TechRerollFocusWeightMult> 
+ 
+    <TechMinisterSlots>1</TechMinisterSlots> 
+ 
+    <TradeNegotiationBufferValue>100</TradeNegotiationBufferValue> 
+    <TradePersuadeChanceBase>0.5</TradePersuadeChanceBase> 
+    <TradeThreatenChanceBase>0.5</TradeThreatenChanceBase> 
+    <TradePersuadeTurnsBetweenUse>30</TradePersuadeTurnsBetweenUse> 
+    <TradeThreatenTurnsBetweenUse>30</TradeThreatenTurnsBetweenUse> 
+    <TradeThreatenFailPenalty>-3</TradeThreatenFailPenalty> 
+    <TradeThreatenFialPenaltyDuration>30</TradeThreatenFialPenaltyDuration> 
+ 
+	<AdviceLowTreasuryMaxCredits>100</AdviceLowTreasuryMaxCredits> 
+	<AdviceLowApprovalMaxApproval>0.40</AdviceLowApprovalMaxApproval> 
+	<AdviceLowFoodMaxSurplus>2</AdviceLowFoodMaxSurplus> 
+ 
+	<AdviceGovernPlanetMinClass>12</AdviceGovernPlanetMinClass> 
+ 
+  <ShipLeashGrowthRate>30</ShipLeashGrowthRate> 
+	   
+  </GalCivGlobal> 
+ 
+</GalCivGlobalList> 

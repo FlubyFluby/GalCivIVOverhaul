@@ -2,7 +2,7 @@
 <DefaultImprovementList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                         xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <!-- Created with the GC4 editor -->
-    <!-- <Improvement>
+    <Improvement>
       <InternalName>ColonyCapitalDummy</InternalName>
       <DisplayName>ColonyCapitalDummy_Name</DisplayName>
       <ShortDescription>ColonyCapitalDummy_ShortDec</ShortDescription>
@@ -21,11 +21,11 @@
       </Techs>
     </Prerequ>
     <Preclusions>
+      <Improvement>CivilizationCapitalDummy</Improvement>
       <Improvement>ColonyCapital</Improvement>
       <Improvement>CivilizationCapital</Improvement>
     </Preclusions>
   </Improvement>
-  
   <Improvement>
       <InternalName>CivilizationCapitalDummy</InternalName>
       <DisplayName>CivilizationCapitalDummy_Name</DisplayName>
@@ -49,7 +49,7 @@
         <Improvement>ColonyCapital</Improvement>
         <Improvement>CivilizationCapital</Improvement>
       </Preclusions>
-  </Improvement> -->
+  </Improvement>
     <!-- ImprovementDefs.xml -->
     <Improvement>
         <InternalName>ColonyCapital</InternalName>
@@ -62,6 +62,15 @@
         <ImprovementType>Population</ImprovementType>
         <PlacementType>FoodHub</PlacementType>
         <IsColonyUnique>true</IsColonyUnique>
+        <Stats>
+          <EffectType>ManufacturingCost</EffectType>
+          <Scope>Queue</Scope>
+          <Target>
+            <TargetType>Improvement</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>5</Value>
+        </Stats>
         <Stats>
             <EffectType>Maintenance</EffectType>
             <Target>
@@ -77,283 +86,285 @@
             </SpecialValue>
         </Stats>
         <Stats>
-            <EffectType>Manufacturing</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.5</Value>
-        </Stats>
+          <EffectType>Manufacturing</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.5</Value>
+      </Stats>
         <Stats>
-            <EffectType>Wealth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.5</Value>
-        </Stats>
+          <EffectType>Wealth</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.5</Value>
+      </Stats>
         <Stats>
-            <EffectType>Wealth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.5</Value>
-        </Stats>
-        <Stats>
-            <EffectType>Research</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.5</Value>
-        </Stats>
-        <Stats>
-            <EffectType>Food</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>1</Value>
-        </Stats>
-        <Stats>
-            <EffectType>CreditsPerTurn</EffectType>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>1.5</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ControlPerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.005</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>Influence</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>100</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.125</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>SensorRange</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.005</ValueParam>
-                <StringParam>Influence</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>PopulationCap</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.075</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>Approval</EffectType>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>WealthNet</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>Crime</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>-0.001</ValueParam>
-                <StringParam>WealthNet</StringParam>
-            </SpecialValue>
-        </Stats>
-        <LevelEffectStats>
-            <EffectType>Manufacturing</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.25</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>Wealth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.25</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>Research</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.25</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>Food</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.25</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>CreditsPerTurn</EffectType>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.75</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>ControlPerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.004</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>Influence</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>50</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.125</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>SensorRange</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.005</ValueParam>
-                <StringParam>Influence</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>PopulationCap</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.037</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
-            <NeighborBonusValue>2</NeighborBonusValue>
-        </NeighborBonuses>
-        <Prerequ>
-            <Techs>
-                <Option>TechTree</Option>
-            </Techs>
-            <IsCapital>False</IsCapital>
-        </Prerequ>
+          <EffectType>Wealth</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.5</Value>
+      </Stats>
+      <Stats>
+          <EffectType>Research</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.5</Value>
+      </Stats>
+      <Stats>
+          <EffectType>Food</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>1</Value>
+      </Stats>
+      <Stats>
+          <EffectType>CreditsPerTurn</EffectType>
+          <Target>
+              <TargetType>Faction</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>1.5</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>ControlPerTurn</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.005</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>Influence</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>100</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>InfluencePerTurn</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.125</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>SensorRange</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.005</ValueParam>
+              <StringParam>Influence</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>PopulationCap</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.075</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>Approval</EffectType>
+          <Target>
+              <TargetType>Unit</TargetType>
+          </Target>
+          <BonusType>Multiplier</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.001</ValueParam>
+              <StringParam>WealthNet</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>Crime</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Multiplier</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>-0.001</ValueParam>
+              <StringParam>WealthNet</StringParam>
+          </SpecialValue>
+      </Stats>
+      <LevelEffectStats>
+          <EffectType>Manufacturing</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.25</Value>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>Wealth</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.25</Value>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>Research</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.25</Value>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>Food</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>0.25</Value>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>CreditsPerTurn</EffectType>
+          <Target>
+              <TargetType>Faction</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.75</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>ControlPerTurn</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.004</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>Influence</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>50</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>InfluencePerTurn</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.125</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>SensorRange</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.005</ValueParam>
+              <StringParam>Influence</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <LevelEffectStats>
+          <EffectType>PopulationCap</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>0.037</ValueParam>
+              <StringParam>PlanetClass</StringParam>
+          </SpecialValue>
+      </LevelEffectStats>
+      <NeighborBonuses>
+          <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+          <NeighborBonusValue>2</NeighborBonusValue>
+      </NeighborBonuses>
+      <Prerequ>
+        <Techs>
+          <Option>TechTree</Option>
+        </Techs>
+      </Prerequ>
+      <Preclusions>
+        <Improvement>CivilizationCapital</Improvement>
+      </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>CivilizationCapital</InternalName>
@@ -367,76 +378,36 @@
         <PlacementType>FoodHub</PlacementType>
         <IsPlayerWonder>true</IsPlayerWonder>
         <Stats>
-            <EffectType>ManufacturingCost</EffectType>
-            <Scope>Queue</Scope>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>300</Value>
+          <EffectType>ManufacturingCost</EffectType>
+          <Scope>Queue</Scope>
+          <Target>
+            <TargetType>Improvement</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>10</Value>
         </Stats>
-        <Stats>
-            <EffectType>Maintenance</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>2</ValueParam>
-                <StringParam>WealthNet</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ThuliumCost</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>10</Value>
-        </Stats>
-        <Stats>
-            <EffectType>PromethionCost</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>10</Value>
-        </Stats>
-        <Stats>
-            <EffectType>DurantiumCost</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>10</Value>
-        </Stats>
-        <Stats>
-            <EffectType>EleriumCost</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>10</Value>
-        </Stats>
-        <Stats>
-            <EffectType>AntimatterCost</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>10</Value>
-        </Stats>
-        <Stats>
-            <EffectType>Manufacturing</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>1</Value>
-        </Stats>
+      <Stats>
+          <EffectType>Maintenance</EffectType>
+          <Target>
+              <TargetType>Improvement</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <ValueType>Special</ValueType>
+          <SpecialValue>
+              <Special>StatCalc</Special>
+              <ValueParam>0</ValueParam>
+              <ValueParam>2</ValueParam>
+              <StringParam>WealthNet</StringParam>
+          </SpecialValue>
+      </Stats>
+      <Stats>
+          <EffectType>Manufacturing</EffectType>
+          <Target>
+              <TargetType>Colony</TargetType>
+          </Target>
+          <BonusType>Flat</BonusType>
+          <Value>1</Value>
+      </Stats>
         <Stats>
             <EffectType>Wealth</EffectType>
             <Target>
@@ -694,10 +665,13 @@
             <NeighborBonusValue>4</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
-            <Techs>
-                <Option>TechTree</Option>
-            </Techs>
+          <Techs>
+            <Option>TechTree</Option>
+          </Techs>
         </Prerequ>
+        <Preclusions>
+          <Improvement>ColonyCapital</Improvement>
+        </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>StripMine</InternalName>
@@ -2725,7 +2699,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.05</ValueParam>
+                <ValueParam>0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -2749,14 +2723,8 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.025</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.02</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
@@ -3175,7 +3143,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.09</ValueParam>
+                <ValueParam>1</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -3226,7 +3194,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.03</ValueParam>
+                <ValueParam>0.003</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -3556,7 +3524,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.18</ValueParam>
+                <ValueParam>1.5</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -3621,7 +3589,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.06</ValueParam>
+                <ValueParam>0.005</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -3775,7 +3743,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.36</ValueParam>
+                <ValueParam>3</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -3840,7 +3808,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.12</ValueParam>
+                <ValueParam>0.01</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -3993,7 +3961,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.25</ValueParam>
+                <ValueParam>3</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -4059,7 +4027,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.125</ValueParam>
+                <ValueParam>1</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -4213,7 +4181,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.5</ValueParam>
+                <ValueParam>2</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -4356,14 +4324,16 @@
             <Target>
                 <TargetType>Faction</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>1</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </Stats>
+        <Stats>
+            <EffectType>InfluencePerTurn</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>2</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -4394,10 +4364,10 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>0.5</Value>
+            <Value>1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
-            <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+            <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
             <NeighborBonusValue>3</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
@@ -4496,14 +4466,8 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.4</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -4527,20 +4491,6 @@
             </Target>
             <BonusType>Multiplier</BonusType>
             <Value>0.01</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.2</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
@@ -6012,18 +5962,12 @@
             <Value>3</Value>
         </Stats>
         <Stats>
-            <EffectType>DiplomaticCapitalIncome</EffectType>
+            <EffectType>InfluencePerTurn</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.05</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>1</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -6041,30 +5985,24 @@
             </Modifier>
         </Triggers>
         <LevelEffectStats>
-            <EffectType>DiplomaticCapitalIncome</EffectType>
+            <EffectType>InfluencePerTurn</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.05</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
-            <GiveBonusToNeighborType>Propaganda</GiveBonusToNeighborType>
+            <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+            <NeighborBonusValue>3</NeighborBonusValue>
+        </NeighborBonuses>
+        <NeighborBonuses>
+            <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
             <NeighborBonusValue>3</NeighborBonusValue>
         </NeighborBonuses>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
-            <NeighborBonusValue>2</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
-            <NeighborBonusValue>1</NeighborBonusValue>
+            <NeighborBonusValue>3</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
             <Techs>
@@ -6122,23 +6060,16 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.04</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.25</Value>
         </Stats>
         <Stats>
             <EffectType>InfluencePerTurn</EffectType>
-            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.04</Value>
+            <BonusType>Flat</BonusType>
+            <Value>1</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -6157,27 +6088,11 @@
         </Triggers>
         <LevelEffectStats>
             <EffectType>InfluencePerTurn</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.04</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.03</Value>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
@@ -6199,7 +6114,7 @@
         <ListIcon>CulturalBeacon_Icon.png</ListIcon>
         <ImprovementType>Influence</ImprovementType>
         <PlacementType>InfluenceUnique</PlacementType>
-        <IsColonyUnique>true</IsColonyUnique>
+        <IsGalacticWonder>true</IsGalacticWonder>
         <Stats>
             <EffectType>ManufacturingCost</EffectType>
             <Scope>Queue</Scope>
@@ -6240,7 +6155,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.001</Value>
+            <Value>0.2</Value>
         </Stats>
         <Stats>
             <EffectType>InfluencePerTurn</EffectType>
@@ -6248,14 +6163,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.5</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>1</Value>
         </Stats>
+        <Triggers>
+            <OnEvent>OnConstructImprovment</OnEvent>
+            <Target>
+                <TargetType>Faction</TargetType>
+            </Target>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>IdeologyHarmony</EffectType>
+                <Target>
+                    <TargetType>Faction</TargetType>
+                </Target>
+                <BonusType>Flat</BonusType>
+                <Value>1</Value>
+            </Modifier>
+        </Triggers>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
             <Target>
@@ -6273,26 +6197,11 @@
         </Triggers>
         <LevelEffectStats>
             <EffectType>InfluencePerTurn</EffectType>
-            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.001</Value>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.25</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
@@ -6339,13 +6248,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.002</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </Stats>
         <Stats>
             <EffectType>InfluencePerTurn</EffectType>
@@ -6353,13 +6256,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.3</ValueParam>
-                <StringParam>ColonyGrossIncome</StringParam>
-            </SpecialValue>
+            <Value>10</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -6376,21 +6273,6 @@
                 <Value>1</Value>
             </Modifier>
         </Triggers>
-        <Triggers>
-            <OnEvent>OnConstructImprovment</OnEvent>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <Lifetime>Instant</Lifetime>
-            <Modifier>
-                <EffectType>IdeologyHarmony</EffectType>
-                <Target>
-                    <TargetType>Faction</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>1</Value>
-            </Modifier>
-        </Triggers>
         <LevelEffectStats>
             <EffectType>ColonyGrossIncome</EffectType>
             <Scope>Global</Scope>
@@ -6398,27 +6280,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.15</ValueParam>
-                <StringParam>ColonyGrossIncome</StringParam>
-            </SpecialValue>
+            <Value>0.05</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -6477,13 +6339,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.004</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.2</Value>
         </Stats>
         <Stats>
             <EffectType>InfluencePerTurn</EffectType>
@@ -6491,13 +6347,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.6</ValueParam>
-                <StringParam>ColonyGrossIncome</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -6506,27 +6356,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.002</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>InfluencePerTurn</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.3</ValueParam>
-                <StringParam>ColonyGrossIncome</StringParam>
-            </SpecialValue>
+            <Value>0.05</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
@@ -6538,7 +6368,6 @@
             </Techs>
         </Prerequ>
     </Improvement>
-    <!-- Here Finish influencePerTurn rebalancing & text voorzien voor effecten die nog geen uitleg hebben) -->
     <Improvement>
         <InternalName>FinancialCapital</InternalName>
         <DisplayName>FinancialCapital_Name</DisplayName>
