@@ -1682,6 +1682,12 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <LaneType>DeadZone</LaneType>
         <MinPlanets>0</MinPlanets>
         <MaxPlanets>1</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Durantium</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
+        </Body>
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
@@ -1734,7 +1740,13 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
         <MinPlanets>0</MinPlanets>
-        <MaxPlanets>3</MaxPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Planet_Durantium</BodyDef>
+          <MinCount>0</MinCount>
+          <MaxCount>1</MaxCount>
+        </Body>
       </OrbitLane>
       <OrbitLane>
         <LaneType>DeadZone</LaneType>
