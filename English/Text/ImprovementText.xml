@@ -20,9 +20,48 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>CivilizationCapital_ShortDec</Label>
-    <String>The heart of our civilization.</String>
+    <String>The heart of our civilization. 
+      - CreditsPerTurn
+      - ControlPerTurn
+      - InfluencePerTurn 
+      - Influence(base) 
+      - PopulationCap 
+      are all based on the size of the planet(class)
+      - SensorRange 
+      is based on total influence
+      - Approval
+      - Crime 
+      are based on NetWealth  </String>
   </StringTable>
- 
+
+  <StringTable>
+    <Label>ColonyCapitalDummy_Name</Label>
+    <String>Colony Capital Dummy(Remove)</String>
+  </StringTable>
+  <StringTable>
+    <Label>ColonyCapitalDummy_ShortDec</Label>
+    <String>I reimplemented colony capitals and civilization capitals: 
+      The game allows destroying them so they can be replaced elsewhere BUT only once per world. 
+      This limitation is hard coded.
+      I can(and have) detach(ed) the actual capitals from this logic, but a dummy "capital" must be provided in the game files or the game just crashes.
+      This building does nothing but take up space, so if you managed to place one just remove it again.
+    </String>
+  </StringTable>
+  <StringTable>
+    <Label>CivilizationCapitalDummy_Name</Label>
+    <String>Civilization Capital Dummy(Remove)</String>
+  </StringTable>
+  <StringTable>
+    <Label>CivilizationCapitalDummy_ShortDec</Label>
+    <String>I reimplemented colony capitals and civilization capitals: 
+      The game allows destroying them so they can be replaced elsewhere BUT only once per world. 
+      This limitation is hard coded.
+      I can(and have) detach(ed) the actual capitals from this logic, but a dummy "capital" must be provided in the game files or the game just crashes.
+      This building does nothing but take up space, should be removed on your first turn but doesn't hurt if it remains I guess.
+      Should only spawn on your initial world. 
+    </String>
+  </StringTable>
+
   <StringTable>
     <Label>StripMine_Name</Label>
     <String>Strip Mine</String>
