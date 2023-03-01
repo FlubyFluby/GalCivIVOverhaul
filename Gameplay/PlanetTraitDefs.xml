@@ -84,6 +84,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>5</Weight>
       <PreferredDistribution>DesertWorld3</PreferredDistribution>
     </PlanetClassSelect>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_HyperSilicates</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -202,6 +209,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>30</Weight>
       <PreferredDistribution>ParadiseWorld5</PreferredDistribution>
     </PlanetClassSelect>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_SnugglerColony</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -290,6 +304,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>4</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_AurorusArboretum</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -370,6 +391,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>5</Weight>
       <PreferredDistribution>ArborealWorld12</PreferredDistribution>
     </PlanetClassSelect>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_MonsatiumDeposit</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
   <PlanetTrait>
     <InternalName>VolcanicWorld</InternalName>
@@ -457,6 +485,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>8</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_HeliosOre</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -545,6 +580,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>6</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_XanthiumDeposit</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -647,6 +689,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>2</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_ArtocarpusViriles</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -749,6 +798,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
         <StringParam>PlanetClass</StringParam>
       </SpecialValue>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_PrecursorNanites</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
  
@@ -846,6 +902,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>-2</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_UltraSpice</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -942,6 +1005,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>0.2</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_EpimetheusPollen</StringParam>
+      </PerformAction>
+    </Triggers>
   </PlanetTrait>
  
   <PlanetTrait>
@@ -1043,6 +1113,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>3</Value>
     </Modifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_HarmonyCrystals</StringParam>
+      </PerformAction>
+    </Triggers>
     </ExtremeTypeModifier>
     <ExtremeTypeModifier>
       <Prerequ>
@@ -1152,6 +1229,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>0.2</Value>
     </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_EleriumMoon</StringParam>
+      </PerformAction>
+    </Triggers>
     <ColonizationPrerequ>
       <Techs>
       <Option>Tech_ExtremeColonization</Option>
@@ -1276,6 +1360,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>3</Value>
     </Modifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_TechapodHive</StringParam>
+      </PerformAction>
+    </Triggers>
     </ExtremeTypeModifier>
     <ExtremeTypeModifier>
       <Prerequ>
@@ -1376,6 +1467,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
       <Weight>5</Weight>
       <PreferredDistribution>DeadWorld</PreferredDistribution>
     </PlanetClassSelect>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_TechapodHive</StringParam>
+      </PerformAction>
+    </Triggers>
     <ColonizationPrerequ>
       <Techs>
       <Option>Tech_ExtremeColonization</Option>
