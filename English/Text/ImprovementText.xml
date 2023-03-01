@@ -11,7 +11,17 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>ColonyCapital_ShortDec</Label>
-    <String>Provides the basic needs of a Core World. </String>
+    <String>Provides the basic needs of a Core world. Provides:
+      - CreditsPerTurn | ControlPerTurn | InfluencePerTurn | Influence(base) | PopulationCap 
+      are based on the size of the planet(class)
+      - SensorRange 
+      is based on total influence
+      - Approval | 
+      Crime are based on NetWealth  
+
+      !!!BE CAREFUL!!! Choose wisely from the start.
+      Can be removed HOWEVER due to hard coded limitations it cannot be built again on a world that previously contained either a Capital City or a Core World Capital!
+    </String>
   </StringTable>
  
   <StringTable>
@@ -20,9 +30,56 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>CivilizationCapital_ShortDec</Label>
-    <String>The heart of our civilization.</String>
+    <String>The heart of your civilization. Provides: 
+      - CreditsPerTurn | ControlPerTurn | InfluencePerTurn | Influence(base) | PopulationCap 
+      are based on the size of the planet(class) 
+      - SensorRange 
+      is based on total influence 
+      - Approval |  Crime 
+      are based on NetWealth  
+
+      !!!BE CAREFUL!!! Choose wisely from the start.
+      Can be removed HOWEVER due to hard coded limitations it cannot be built again on a world that previously contained either a Capital City or a Core World Capital!
+      
+
+
+
+
+
+      Side note: I managed to fix this bad behavior by using a dummy ColonyCapital and CivilizationCapital in GlobalDefs.xml, 
+      however then the AI doesn't actually build these anymore and is at a serious disadvantage so... 
+      Lesser of 2 evils? :)
+    </String>
   </StringTable>
- 
+
+  <StringTable>
+    <Label>ColonyCapitalDummy_Name</Label>
+    <String>Colony Capital Dummy(Remove)</String>
+  </StringTable>
+  <StringTable>
+    <Label>ColonyCapitalDummy_ShortDec</Label>
+    <String>I reimplemented colony capitals and civilization capitals: 
+      The game allows destroying them so they can be replaced elsewhere BUT only once per world. 
+      This limitation is hard coded.
+      I can(and have) detach(ed) the actual capitals from this logic, but a dummy "capital" must be provided in the game files or the game just crashes.
+      This building does nothing but take up space, so if you managed to place one just remove it again.
+    </String>
+  </StringTable>
+  <StringTable>
+    <Label>CivilizationCapitalDummy_Name</Label>
+    <String>Civilization Capital Dummy(Remove)</String>
+  </StringTable>
+  <StringTable>
+    <Label>CivilizationCapitalDummy_ShortDec</Label>
+    <String>I reimplemented colony capitals and civilization capitals: 
+      The game allows destroying them so they can be replaced elsewhere BUT only once per world. 
+      This limitation is hard coded.
+      I can(and have) detach(ed) the actual capitals from this logic, but a dummy "capital" must be provided in the game files or the game just crashes.
+      This building does nothing but take up space, should be removed on your first turn but doesn't hurt if it remains I guess.
+      Should only spawn on your initial world. 
+    </String>
+  </StringTable>
+
   <StringTable>
     <Label>StripMine_Name</Label>
     <String>Strip Mine</String>
@@ -454,7 +511,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>DiplomaticMinistry_ShortDec</Label>
-    <String>Facilitates relations with other races and helps spread Influence.</String>
+    <String>Facilitates relations with other races and helps spread Influence.
+      - Provides a trickle of DiplomaticIncome based on planetsize(class)
+    </String>
   </StringTable>
  
   <StringTable>
@@ -463,7 +522,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>AssimilationFoundation_ShortDec</Label>
-    <String>Increases the Influence of all worlds in our civilization.</String>
+    <String>- Provides a significant amount of global InfluencePerTurn increase(multiplier). 
+      - InfluencePerTurn(Global) is based on planetsize(class)</String>
   </StringTable>
  
   <StringTable>
@@ -472,7 +532,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>CulturalBeacon_ShortDec</Label>
-    <String>Increases the influence of this planet and provides a Culture Point.</String>
+    <String>
+      - Provides a small amount of global InfluencePerTurn increase(multiplier). 
+      - Influence Per turn(regular) is based on planetsize(class)</String>
   </StringTable>
  
   <StringTable>
@@ -481,7 +543,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>IridiaExchange_ShortDec</Label>
-    <String>Increases wealth and supports nearby infrastructure greatly.</String>
+    <String>Increases wealth 
+      - ColonyGrossIncome(Global) is based on planetsize(Class)
+      - InfluencePerTurn is based on ColonyGrossIncome </String>
   </StringTable>
  
   <StringTable>
@@ -490,7 +554,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>GalacticStockExchange_ShortDec</Label>
-    <String>Increases the gross Income of all our worlds.</String>
+    <String>Increases wealth
+      - ColonyGrossIncome(Global) is based on planetsize(Class)
+      - InfluencePerTurn is based on ColonyGrossIncome </String>
   </StringTable>
  
   <StringTable>

@@ -1825,6 +1825,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <StringParam>FXScan</StringParam>
       </PerformAction>
     </Triggers>
+    
+  
+  </ArtifactPower>
+<!-- Disabled cost of telescope for testing purposes
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target>
@@ -1845,10 +1849,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
-    </Triggers>
-  
-  </ArtifactPower>
-
+    </Triggers> -->
   <ArtifactPower>
     <InternalName>DraftCivilianShips</InternalName>
     <DisplayName>DraftCivilianShips_Name</DisplayName>
