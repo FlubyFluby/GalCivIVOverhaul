@@ -27,7 +27,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>DrengiName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>29</PlanetClass>
-		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetTrait>VolcanicWorldA</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>5</Minerals>
 			<Technology>3</Technology>
@@ -132,7 +132,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Abarkooh_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>30</PlanetClass>
-		<PlanetTrait>ArborealWorld</PlanetTrait>
+		<PlanetTrait>ArborealWorldA</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>3</Technology>
@@ -735,7 +735,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetKrysethAlphaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>2</PlanetClass>
-		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetTrait>VolcanicWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>2</Minerals>
 			<Technology>1</Technology>
@@ -1092,7 +1092,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Aven_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>28</PlanetClass>
-		<PlanetTrait>ArborealWorld</PlanetTrait>
+		<PlanetTrait>ArborealWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>4</Technology>
@@ -1225,7 +1225,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Twilight_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>4</PlanetClass>
-		<PlanetTrait>VolcanicWorld</PlanetTrait>
+		<PlanetTrait>VolcanicWorldC</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>2</Minerals>
 			<Technology>1</Technology>

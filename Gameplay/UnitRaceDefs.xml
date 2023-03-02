@@ -328,7 +328,31 @@ xsi:noNamespaceSchemaLocation="../Schema/CitizenRaceDefs.xsd">
       <Type>PlanetHasTrait</Type>
       <Value>0.1</Value>
       <BonusType>Flat</BonusType>
-      <Tag>ArborealWorld</Tag>
+      <Tag>ArborealWorldA</Tag>
+    </ApprovalModifiers>
+    <ApprovalModifiers>
+      <Type>PlanetHasTrait</Type>
+      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <Tag>ArborealWorldB</Tag>
+    </ApprovalModifiers>
+    <ApprovalModifiers>
+      <Type>PlanetHasTrait</Type>
+      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <Tag>ArborealWorldC</Tag>
+    </ApprovalModifiers>
+    <ApprovalModifiers>
+      <Type>PlanetHasTrait</Type>
+      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <Tag>ArborealWorldD</Tag>
+    </ApprovalModifiers>
+    <ApprovalModifiers>
+      <Type>PlanetHasTrait</Type>
+      <Value>0.1</Value>
+      <BonusType>Flat</BonusType>
+      <Tag>ArborealWorldE</Tag>
     </ApprovalModifiers>
     <ConsumedTrait>CitizenTrait_ConsumedBaratak</ConsumedTrait>
   </CitizenRace>

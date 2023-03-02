@@ -787,10 +787,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
   </ArtDefine>
  
   <ArtDefine>
-    <InternalName>ArborealWorld</InternalName>
+    <InternalName>ArborealWorldA</InternalName>
     <PlanetType>Habitable</PlanetType>
-    <PlanetTrait>ArborealWorld</PlanetTrait>
-	<MinClass>6</MinClass>
+    <PlanetTrait>ArborealWorldA</PlanetTrait>
     <ObjectGfxConfigFile>PlanetDesign_Arboreal_01.objgfxcfg</ObjectGfxConfigFile>
     <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
     <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
@@ -813,34 +812,111 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
       <Scale>55</Scale>
     </HaloEffect>
   </ArtDefine>
- 
   <ArtDefine>
-    <InternalName>ArborealWorld_Poor</InternalName>
+    <InternalName>ArborealWorldB</InternalName>
     <PlanetType>Habitable</PlanetType>
-    <PlanetTrait>ArborealWorld</PlanetTrait>
-	<MaxClass>5</MaxClass>
+    <PlanetTrait>ArborealWorldB</PlanetTrait>
     <ObjectGfxConfigFile>PlanetDesign_Arboreal_01.objgfxcfg</ObjectGfxConfigFile>
-    <ObjectGfxConfigScale>1.0</ObjectGfxConfigScale>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
     <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
     <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
     <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
     <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
     <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
     <AxisTilt>0.0</AxisTilt>
-    <ShadowRadius>10.0</ShadowRadius>
+    <ShadowRadius>30.0</ShadowRadius>
     <ShadowBuffer>0.1</ShadowBuffer>
-    <ThumbnailOverride>PlanetIcon_Arboreal_Poor_01.png</ThumbnailOverride>
+    <ThumbnailOverride>PlanetIcon_Arboreal.png</ThumbnailOverride>
     <PlanetWndBGMovie>Planet_Arboreal.bk2</PlanetWndBGMovie>
-    <HaloIntensity>0.35</HaloIntensity>
+    <HaloIntensity>0.5</HaloIntensity>
     <HaloEffect>
       <RotationSpeed>5</RotationSpeed>
       <FadeSpeed>4</FadeSpeed>
       <MinIntensity>0.7</MinIntensity>
       <MaxIntensity>1</MaxIntensity>
       <Alternating>false</Alternating>
-      <Scale>36</Scale>
+      <Scale>55</Scale>
     </HaloEffect>
   </ArtDefine>
+  <ArtDefine>
+    <InternalName>ArborealWorldC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>ArborealWorldC</PlanetTrait>
+    <ObjectGfxConfigFile>PlanetDesign_Arboreal_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Arboreal.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Arboreal.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  <ArtDefine>
+    <InternalName>ArborealWorldD</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>ArborealWorldA</PlanetTrait>
+    <ObjectGfxConfigFile>PlanetDesign_Arboreal_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Arboreal.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Arboreal.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine> 
+  <ArtDefine>
+    <InternalName>ArborealWorldE</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>ArborealWorldE</PlanetTrait>
+    <ObjectGfxConfigFile>PlanetDesign_Arboreal_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Arboreal.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Arboreal.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
  
   <ArtDefine>
     <InternalName>TropicalWorld</InternalName>
@@ -901,10 +977,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
   </ArtDefine>
  
   <ArtDefine>
-    <InternalName>VolcanicWorld</InternalName>
+    <InternalName>VolcanicWorldA</InternalName>
     <PlanetType>Habitable</PlanetType>
-    <PlanetTrait>VolcanicWorld</PlanetTrait>
-	<MinClass>6</MinClass>
+    <PlanetTrait>VolcanicWorldA</PlanetTrait>
     <ObjectGfxConfigFile>PlanetDesign_Volcanic_01.objgfxcfg</ObjectGfxConfigFile>
     <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
     <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
@@ -929,10 +1004,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
   </ArtDefine>
  
   <ArtDefine>
-    <InternalName>VolcanicWorld_Poor</InternalName>
+    <InternalName>VolcanicWorldB</InternalName>
     <PlanetType>Habitable</PlanetType>
-    <PlanetTrait>VolcanicWorld</PlanetTrait>
-	<MaxClass>5</MaxClass>
+    <PlanetTrait>VolcanicWorldB</PlanetTrait>
+	
     <ObjectGfxConfigFile>PlanetDesign_Volcanic_01.objgfxcfg</ObjectGfxConfigFile>
     <ObjectGfxConfigScale>1.0</ObjectGfxConfigScale>
     <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
@@ -955,7 +1030,58 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
       <Scale>36</Scale>
     </HaloEffect>
   </ArtDefine>
- 
+  <ArtDefine>
+    <InternalName>VolcanicWorldC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>VolcanicWorldC</PlanetTrait>
+    <ObjectGfxConfigFile>PlanetDesign_Volcanic_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.0</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>VolcanicWorld_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>10.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Volcanic_Poor_01.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Volcanic.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.35</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>36</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  <ArtDefine>
+    <InternalName>VolcanicWorldD</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>VolcanicWorldD</PlanetTrait>
+    <ObjectGfxConfigFile>PlanetDesign_Volcanic_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.0</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>VolcanicWorld_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>10.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Volcanic_Poor_01.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Volcanic.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.35</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>36</Scale>
+    </HaloEffect>
+  </ArtDefine>
   <ArtDefine>
     <InternalName>MountainousWorld</InternalName>
     <PlanetType>Habitable</PlanetType>
