@@ -132,7 +132,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Abarkooh_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>30</PlanetClass>
-		<PlanetTrait>ArborealWorldA</PlanetTrait>
+		<PlanetTrait>ArborealWorld</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>3</Technology>

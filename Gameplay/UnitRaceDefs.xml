@@ -328,7 +328,7 @@ xsi:noNamespaceSchemaLocation="../Schema/CitizenRaceDefs.xsd">
       <Type>PlanetHasTrait</Type>
       <Value>0.1</Value>
       <BonusType>Flat</BonusType>
-      <Tag>ArborealWorldA</Tag>
+      <Tag>ArborealWorld</Tag>
     </ApprovalModifiers>
     <ApprovalModifiers>
       <Type>PlanetHasTrait</Type>

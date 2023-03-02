@@ -149,11 +149,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
-    <SupportedPlanetTraits>ArborealWorldA</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -217,11 +219,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
-    <SupportedPlanetTraits>ArborealWorldA</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
     <Bonus>
@@ -539,11 +543,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
-    <SupportedPlanetTraits>ArborealWorldA</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
     <Bonus>
@@ -593,11 +599,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileImage>TerrainTile_Desert.png</TileImage>
     <Thumbnail>TerrainTile_Desert.png</Thumbnail>
     <RelativeWeight>15</RelativeWeight>
-    <BlockedPlanetTraits>ArborealWorldA</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -622,11 +630,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <Thumbnail>TerrainTile_Floodplain.png</Thumbnail>
     <TileColor>Green</TileColor>
     <RelativeWeight>15</RelativeWeight>
-    <BlockedPlanetTraits>ArborealWorldA</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -673,11 +683,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
-    <SupportedPlanetTraits>ArborealWorldA</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>ThinAtmosphereWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -929,11 +941,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
-    <BlockedPlanetTraits>ArborealWorldA</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -993,11 +1007,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileImage>TerrainTile_Wasteland.png</TileImage>
     <Thumbnail>TerrainTile_Wasteland.png</Thumbnail>
     <RelativeWeight>3</RelativeWeight>
-    <BlockedPlanetTraits>ArborealWorldA</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ArborealWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>TropicalWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldA</SupportedPlanetTraits>
