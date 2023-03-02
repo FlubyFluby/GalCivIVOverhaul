@@ -10,7 +10,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -120,7 +120,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.12</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -223,7 +223,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.14</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -326,7 +326,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -429,7 +429,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -532,7 +532,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
@@ -635,7 +635,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -738,7 +738,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>33</MinPlanetClass>
             <MaxPlanetClass>45</MaxPlanetClass>
@@ -841,7 +841,7 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>33</MinPlanetClass>
             <MaxPlanetClass>45</MaxPlanetClass>
@@ -946,7 +946,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.14</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -1041,7 +1041,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -1136,7 +1136,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -1231,7 +1231,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -1326,7 +1326,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -1421,7 +1421,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
@@ -1516,7 +1516,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -1611,7 +1611,7 @@
         <DisplayName>TerrestrialWorld_Name</DisplayName>
         <Description>TerrestrialWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>33</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -1708,7 +1708,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -1818,7 +1818,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -1928,7 +1928,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -2031,7 +2031,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.31</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -2134,7 +2134,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.34</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -2237,7 +2237,7 @@
         <DisplayName>ArborealWorld_Name</DisplayName>
         <Description>ArborealWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.37</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
@@ -2452,7 +2452,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.13</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -2562,7 +2562,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -2672,7 +2672,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.19</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -2775,7 +2775,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.21</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -2884,7 +2884,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
@@ -2987,7 +2987,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.27</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -3090,7 +3090,7 @@
         <DisplayName>MountainousWorld_Name</DisplayName>
         <Description>MountainousWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.3</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -3194,7 +3194,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.05</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -3312,7 +3312,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.07</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -3430,7 +3430,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.09</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -3541,7 +3541,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.11</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -3652,7 +3652,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.13</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -3763,7 +3763,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.15</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
@@ -3874,7 +3874,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.17</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -3985,7 +3985,7 @@
         <DisplayName>VolcanicWorld_Name</DisplayName>
         <Description>VolcanicWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.19</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
@@ -4098,7 +4098,7 @@
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.14</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -4216,7 +4216,7 @@
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -4334,7 +4334,7 @@
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -4445,7 +4445,7 @@
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.31</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -4556,7 +4556,7 @@
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.34</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -4669,7 +4669,7 @@
         <DisplayName>TropicalWorld_Name</DisplayName>
         <Description>TropicalWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.16</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -4787,7 +4787,7 @@
         <DisplayName>TropicalWorld_Name</DisplayName>
         <Description>TropicalWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -4905,7 +4905,7 @@
         <DisplayName>TropicalWorld_Name</DisplayName>
         <Description>TropicalWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -5016,7 +5016,7 @@
         <DisplayName>TropicalWorld_Name</DisplayName>
         <Description>TropicalWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.31</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -5127,7 +5127,7 @@
         <DisplayName>TropicalWorld_Name</DisplayName>
         <Description>TropicalWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.34</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -5240,7 +5240,7 @@
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -5350,7 +5350,7 @@
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
         <RelativeWeight>3</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
@@ -5460,7 +5460,7 @@
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -5563,7 +5563,7 @@
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
@@ -5666,7 +5666,7 @@
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
@@ -5771,7 +5771,7 @@
         <DisplayName>BombardedWorld_Name</DisplayName>
         <Description>BombardedWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.5</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.01</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -5882,7 +5882,7 @@
         <DisplayName>BombardedWorld_Name</DisplayName>
         <Description>BombardedWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.5</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.03</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -5993,7 +5993,7 @@
         <DisplayName>BombardedWorld_Name</DisplayName>
         <Description>BombardedWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.5</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.05</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6106,7 +6106,7 @@
         <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
         <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.07</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6217,7 +6217,7 @@
         <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
         <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.09</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6321,7 +6321,7 @@
         <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
         <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.11</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6427,7 +6427,7 @@
         <DisplayName>LowGravityWorld_Name</DisplayName>
         <Description>LowGravityWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.06</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6545,7 +6545,7 @@
         <DisplayName>LowGravityWorld_Name</DisplayName>
         <Description>LowGravityWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.08</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6656,7 +6656,7 @@
         <DisplayName>LowGravityWorld_Name</DisplayName>
         <Description>LowGravityWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
@@ -6767,7 +6767,7 @@
         <DisplayName>LowGravityWorld_Name</DisplayName>
         <Description>LowGravityWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.12</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
