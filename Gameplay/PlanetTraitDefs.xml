@@ -1415,37 +1415,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1457,31 +1457,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>7</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -1525,37 +1525,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>25</MinPlanetClass>
             <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1567,31 +1567,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>12</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -1635,37 +1635,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1677,31 +1677,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -1738,37 +1738,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>25</MinPlanetClass>
             <MaxPlanetClass>33</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1780,31 +1780,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>14</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -1841,37 +1841,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>38</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1883,31 +1883,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
             <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>12</MinPlanetClass>
             <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -1944,37 +1944,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>25</MinPlanetClass>
             <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -1986,31 +1986,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2047,37 +2047,37 @@
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>11</Weight>
             <PreferredDistribution>ArborealWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>13</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>ArborealWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>ArborealWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>10</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>ArborealWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>ArborealWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2089,31 +2089,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>ArborealWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>5</Weight>
             <PreferredDistribution>ArborealWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>ArborealWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>4</Weight>
+            <Weight>3</Weight>
             <PreferredDistribution>ArborealWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>3</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>ArborealWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2151,19 +2151,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2175,31 +2175,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
             <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2211,13 +2211,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>7</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2261,19 +2261,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>25</MinPlanetClass>
             <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2285,31 +2285,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>12</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2321,13 +2321,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2371,19 +2371,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2395,31 +2395,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2431,13 +2431,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2481,19 +2481,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>41</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>25</MinPlanetClass>
             <MaxPlanetClass>33</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2505,31 +2505,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>14</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2541,13 +2541,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2584,19 +2584,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>42</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>38</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2608,31 +2608,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
             <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>12</MinPlanetClass>
             <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2644,13 +2644,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2687,19 +2687,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>31</MinPlanetClass>
             <MaxPlanetClass>43</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>29</MinPlanetClass>
             <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
             <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2711,31 +2711,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2747,13 +2747,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -2790,19 +2790,19 @@
         <PlanetClassSelect>
             <MinPlanetClass>32</MinPlanetClass>
             <MaxPlanetClass>44</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>30</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>12</Weight>
+            <Weight>6</Weight>
             <PreferredDistribution>MountainousWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>11</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2814,31 +2814,31 @@
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>14</Weight>
             <PreferredDistribution>MountainousWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>MountainousWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>16</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>10</Weight>
             <PreferredDistribution>MountainousWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>7</Weight>
+            <Weight>8</Weight>
             <PreferredDistribution>MountainousWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
@@ -2850,13 +2850,13 @@
         <PlanetClassSelect>
             <MinPlanetClass>8</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>6</Weight>
+            <Weight>4</Weight>
             <PreferredDistribution>MountainousWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>6</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>5</Weight>
+            <Weight>2</Weight>
             <PreferredDistribution>MountainousWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
@@ -3676,202 +3676,1138 @@
             <Value>-0.4</Value>
         </EffectModifier>
     </PlanetTrait>
+
+    <!-- Jungle World -->
+    
     <PlanetTrait>
         <InternalName>JungleWorld</InternalName>
         <DisplayName>JungleWorld_Name</DisplayName>
         <Description>JungleWorld_Dec</Description>
-        <RelativeWeight>4</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>26</MinPlanetClass>
-            <MaxPlanetClass>38</MaxPlanetClass>
-            <Weight>8</Weight>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>11</Weight>
             <PreferredDistribution>JungleWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
+            <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>8</Weight>
+            <Weight>12</Weight>
             <PreferredDistribution>JungleWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
+            <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>9</Weight>
+            <Weight>13</Weight>
             <PreferredDistribution>JungleWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>9</Weight>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>14</Weight>
             <PreferredDistribution>JungleWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>14</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>10</Weight>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>JungleWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>11</Weight>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>10</Weight>
             <PreferredDistribution>JungleWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>10</Weight>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>8</Weight>
             <PreferredDistribution>JungleWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>9</Weight>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>6</Weight>
             <PreferredDistribution>JungleWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>8</Weight>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>5</Weight>
             <PreferredDistribution>JungleWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>7</Weight>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>4</Weight>
             <PreferredDistribution>JungleWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>6</Weight>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>3</Weight>
             <PreferredDistribution>JungleWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>5</Weight>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>7</MaxPlanetClass>
+            <Weight>2</Weight>
             <PreferredDistribution>JungleWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
-            <EffectType>PlanetaryDefensesMaxHP</EffectType>
+            <EffectType>Manufacturing</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <Value>8</Value>
-        </EffectModifier>
-    </PlanetTrait>
-    <!-- Tropical -->
-    <PlanetTrait>
-        <InternalName>TropicalWorld</InternalName>
-        <DisplayName>TropicalWorld_Name</DisplayName>
-        <Description>TropicalWorld_Dec</Description>
-        <RelativeWeight>5</RelativeWeight>
-        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Tourism</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.5</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.02</Value>
         </EffectModifier>
         <EffectModifier>
-            <EffectType>PlanetaryDefensesMaxHP</EffectType>
+            <EffectType>Growth</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <Value>2</Value>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.02</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.02</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
-                <StringParam>ColonyUpgrade_ArtocarpusViriles</StringParam>
+                <StringParam>ColonyUpgrade_MonsatiumDeposit</StringParam>
             </PerformAction>
         </Triggers>
     </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>JungleWorldB</InternalName>
+        <DisplayName>JungleWorld_Name</DisplayName>
+        <Description>JungleWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>JungleWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>JungleWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>JungleWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>JungleWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>JungleWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>JungleWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>JungleWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>JungleWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>JungleWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>JungleWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.04</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>JungleWorldC</InternalName>
+        <DisplayName>JungleWorld_Name</DisplayName>
+        <Description>JungleWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>JungleWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>JungleWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>JungleWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>JungleWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>JungleWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>JungleWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>JungleWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>JungleWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>JungleWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>JungleWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.10</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.06</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>JungleWorldD</InternalName>
+        <DisplayName>JungleWorld_Name</DisplayName>
+        <Description>JungleWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.31</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>29</MinPlanetClass>
+            <MaxPlanetClass>41</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>JungleWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>33</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>JungleWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>JungleWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>JungleWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>JungleWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>14</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>JungleWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>JungleWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>JungleWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>JungleWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>JungleWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.12</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.08</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>JungleWorldE</InternalName>
+        <DisplayName>JungleWorld_Name</DisplayName>
+        <Description>JungleWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.34</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>30</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>JungleWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>38</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>JungleWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>JungleWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>JungleWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>JungleWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>JungleWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>JungleWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>JungleWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>JungleWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>JungleWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>JungleWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.14</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.1</Value>
+        </EffectModifier>
+    </PlanetTrait>
+   
+    <!-- Tropical -->
+    <PlanetTrait>
+        <InternalName>TropicalWorld</InternalName>
+        <DisplayName>TropicalWorld_Name</DisplayName>
+        <Description>TropicalWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>7</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.02</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.07</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_MonsatiumDeposit</StringParam>
+            </PerformAction>
+        </Triggers>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>TropicalWorldB</InternalName>
+        <DisplayName>TropicalWorld_Name</DisplayName>
+        <Description>TropicalWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.25</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.9</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>TropicalWorldC</InternalName>
+        <DisplayName>TropicalWorld_Name</DisplayName>
+        <Description>TropicalWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.28</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.11</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>TropicalWorldD</InternalName>
+        <DisplayName>TropicalWorld_Name</DisplayName>
+        <Description>TropicalWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.31</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>29</MinPlanetClass>
+            <MaxPlanetClass>41</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>33</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>14</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.13</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>TropicalWorldE</InternalName>
+        <DisplayName>TropicalWorld_Name</DisplayName>
+        <Description>TropicalWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.34</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>30</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>TropicalWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>38</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>TropicalWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>TropicalWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>TropicalWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>TropicalWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>TropicalWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>TropicalWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>TropicalWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>TropicalWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>TropicalWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>TropicalWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.3</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.15</Value>
+        </EffectModifier>
+    </PlanetTrait>
+
+
+    <!-- Paradise --> 
     <PlanetTrait>
         <InternalName>ParadiseWorld</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>

@@ -92,7 +92,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
@@ -175,6 +183,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -210,6 +222,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>VolcanicWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -248,7 +264,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -522,6 +546,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -577,6 +605,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -617,7 +649,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>ArborealWorldF</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -688,6 +728,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldE</BlockedPlanetTraits>
     <SupportedPlanetTraits>DesertWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>DesertWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>DesertWorldC</SupportedPlanetTraits>
@@ -729,6 +773,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -806,7 +854,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>TropicalWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldC</BlockedPlanetTraits>
@@ -852,7 +908,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -924,7 +988,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -954,6 +1026,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1026,6 +1102,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1067,8 +1147,16 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>TropicalWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>JungleWorldE</BlockedPlanetTraits>
     <SupportedPlanetTraits>FrozenWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -1132,6 +1220,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>ArborealWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>TropicalWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>TropicalWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldB</SupportedPlanetTraits>
@@ -1176,8 +1268,16 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>TerrestrialWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>JungleWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1216,6 +1316,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>TropicalWorldE</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>

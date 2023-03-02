@@ -2344,7 +2344,7 @@
         </StatWeight>
     </PlanetClassDistributionWeightsDef>
 
-
+<!-- here -->
     <PlanetClassDistributionWeightsDef>
         <InternalName>JungleWorld1</InternalName>
         <Weight>6</Weight>
@@ -2810,45 +2810,6 @@
             <Value>
                 <RangeMin>0</RangeMin>
                 <RangeMax>0</RangeMax>
-            </Value>
-        </StatWeight>
-    </PlanetClassDistributionWeightsDef>
-    <PlanetClassDistributionWeightsDef>
-        <InternalName>ParadiseWorld1</InternalName>
-        <Weight>14</Weight>
-        <StatWeight>
-            <Stat>BaseTechnology</Stat>
-            <Value>
-                <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
-            </Value>
-        </StatWeight>
-        <StatWeight>
-            <Stat>BaseMinerals</Stat>
-            <Value>
-                <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
-            </Value>
-        </StatWeight>
-        <StatWeight>
-            <Stat>BaseWealth</Stat>
-            <Value>
-                <RangeMin>0</RangeMin>
-                <RangeMax>10</RangeMax>
-            </Value>
-        </StatWeight>
-        <StatWeight>
-            <Stat>BaseFertility</Stat>
-            <Value>
-                <RangeMin>4</RangeMin>
-                <RangeMax>22</RangeMax>
-            </Value>
-        </StatWeight>
-        <StatWeight>
-            <Stat>BasePlanetInfluence</Stat>
-            <Value>
-                <RangeMin>4</RangeMin>
-                <RangeMax>8</RangeMax>
             </Value>
         </StatWeight>
     </PlanetClassDistributionWeightsDef>
@@ -3321,6 +3282,45 @@
         </StatWeight>
     </PlanetClassDistributionWeightsDef>
     
+    <PlanetClassDistributionWeightsDef>
+        <InternalName>ParadiseWorld1</InternalName>
+        <Weight>14</Weight>
+        <StatWeight>
+            <Stat>BaseTechnology</Stat>
+            <Value>
+                <RangeMin>0</RangeMin>
+                <RangeMax>7</RangeMax>
+            </Value>
+        </StatWeight>
+        <StatWeight>
+            <Stat>BaseMinerals</Stat>
+            <Value>
+                <RangeMin>0</RangeMin>
+                <RangeMax>9</RangeMax>
+            </Value>
+        </StatWeight>
+        <StatWeight>
+            <Stat>BaseWealth</Stat>
+            <Value>
+                <RangeMin>0</RangeMin>
+                <RangeMax>10</RangeMax>
+            </Value>
+        </StatWeight>
+        <StatWeight>
+            <Stat>BaseFertility</Stat>
+            <Value>
+                <RangeMin>4</RangeMin>
+                <RangeMax>22</RangeMax>
+            </Value>
+        </StatWeight>
+        <StatWeight>
+            <Stat>BasePlanetInfluence</Stat>
+            <Value>
+                <RangeMin>4</RangeMin>
+                <RangeMax>8</RangeMax>
+            </Value>
+        </StatWeight>
+    </PlanetClassDistributionWeightsDef>
     <PlanetClassDistributionWeightsDef>
         <InternalName>ParadiseWorld2</InternalName>
         <Weight>13</Weight>

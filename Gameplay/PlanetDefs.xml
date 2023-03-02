@@ -42,7 +42,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>AltariaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>30</PlanetClass>
-		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetTrait>TropicalWorldD</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>4</Technology>
@@ -238,7 +238,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetFenName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>24</PlanetClass>
-		<PlanetTrait>TropicalWorld</PlanetTrait>
+		<PlanetTrait>TropicalWorldE</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>5</Minerals>
 			<Technology>2</Technology>
@@ -253,7 +253,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Dratha_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>28</PlanetClass>
-		<PlanetTrait>JungleWorld</PlanetTrait>
+		<PlanetTrait>JungleWorldE</PlanetTrait>
 		<ArtDefine>DrathWorldArt</ArtDefine>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
@@ -269,7 +269,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Refuge_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>28</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldD</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>5</Technology>
