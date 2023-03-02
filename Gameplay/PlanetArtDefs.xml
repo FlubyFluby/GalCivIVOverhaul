@@ -563,6 +563,90 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
   </ArtDefine>
   
   <ArtDefine>
+    <InternalName>DesertWorldB</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>DesertWorldB</PlanetTrait>
+    <MinClass>6</MinClass>
+    <ObjectGfxConfigFile>PlanetDesign_Desert_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Desert.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Desert.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <ArtDefine>
+    <InternalName>DesertWorldC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>DesertWorldC</PlanetTrait>
+    <MinClass>6</MinClass>
+    <ObjectGfxConfigFile>PlanetDesign_Desert_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Desert.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Desert.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <ArtDefine>
+    <InternalName>DesertWorldD</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>DesertWorldD</PlanetTrait>
+    <MinClass>6</MinClass>
+    <ObjectGfxConfigFile>PlanetDesign_Desert_01.objgfxcfg</ObjectGfxConfigFile>
+    <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+    <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+    <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+    <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+    <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+    <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+    <AxisTilt>0.0</AxisTilt>
+    <ShadowRadius>30.0</ShadowRadius>
+    <ShadowBuffer>0.1</ShadowBuffer>
+    <ThumbnailOverride>PlanetIcon_Desert.png</ThumbnailOverride>
+    <PlanetWndBGMovie>Planet_Desert.bk2</PlanetWndBGMovie>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>55</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <ArtDefine>
     <InternalName>DesertWorld_Poor</InternalName>
     <PlanetType>Habitable</PlanetType>
     <PlanetTrait>DesertWorld</PlanetTrait>
