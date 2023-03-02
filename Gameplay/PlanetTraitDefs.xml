@@ -813,13 +813,19 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
             <Value>-0.03</Value>
         </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+              <Action>AddUpgradeToPlanet</Action>
+              <StringParam>ColonyUpgrade_EpimetheusPollen</StringParam>
+            </PerformAction>
+          </Triggers>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>TerrestrialWorldB</InternalName>
@@ -909,13 +915,19 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
             <Value>-0.05</Value>
         </EffectModifier>
+    <Triggers>
+      <OnEvent>OnCreatePlanet</OnEvent>
+      <PerformAction>
+        <Action>AddUpgradeToPlanet</Action>
+        <StringParam>ColonyUpgrade_HyperSilicates</StringParam>
+      </PerformAction>
+    </Triggers>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>TerrestrialWorldC</InternalName>
@@ -1005,7 +1017,6 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
@@ -1101,7 +1112,6 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
@@ -1197,7 +1207,6 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
@@ -1293,7 +1302,6 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
@@ -1389,7 +1397,6 @@
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
-            <!-- <Scope>Global</Scope> -->
             <Target>
                 <TargetType>Unit</TargetType>
             </Target>
@@ -1397,171 +1404,8 @@
             <Value>-0.15</Value>
         </EffectModifier>
     </PlanetTrait>
-    <!-- <PlanetTrait>
-    <InternalName>DesertWorldB</InternalName>
-    <DisplayName>DesertWorld_Name</DisplayName>
-    <Description>DesertWorld_Dec</Description>
-    <RelativeWeight>2</RelativeWeight>
-    <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
-    <PlanetClassSelect>
-      <MinPlanetClass>21</MinPlanetClass>
-      <MaxPlanetClass>35</MaxPlanetClass>
-      <Weight>10</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>19</MinPlanetClass>
-      <MaxPlanetClass>32</MaxPlanetClass>
-      <Weight>20</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>17</MinPlanetClass>
-      <MaxPlanetClass>29</MaxPlanetClass>
-      <Weight>30</Weight>
-      <PreferredDistribution>DesertWorld1</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>15</MinPlanetClass>
-      <MaxPlanetClass>26</MaxPlanetClass>
-      <Weight>40</Weight>
-      <PreferredDistribution>DesertWorld2</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>13</MinPlanetClass>
-      <MaxPlanetClass>23</MaxPlanetClass>
-      <Weight>50</Weight>
-      <PreferredDistribution>DesertWorld2</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>11</MinPlanetClass>
-      <MaxPlanetClass>20</MaxPlanetClass>
-      <Weight>60</Weight>
-      <PreferredDistribution>DesertWorld2</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>9</MinPlanetClass>
-      <MaxPlanetClass>17</MaxPlanetClass>
-      <Weight>50</Weight>
-      <PreferredDistribution>DesertWorld2</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>7</MinPlanetClass>
-      <MaxPlanetClass>14</MaxPlanetClass>
-      <Weight>40</Weight>
-      <PreferredDistribution>DesertWorld2</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>5</MinPlanetClass>
-      <MaxPlanetClass>11</MaxPlanetClass>
-      <Weight>30</Weight>
-      <PreferredDistribution>DesertWorld3</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>3</MinPlanetClass>
-      <MaxPlanetClass>8</MaxPlanetClass>
-      <Weight>20</Weight>
-      <PreferredDistribution>DesertWorld3</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>1</MinPlanetClass>
-      <MaxPlanetClass>5</MaxPlanetClass>
-      <Weight>10</Weight>
-      <PreferredDistribution>DesertWorld3</PreferredDistribution>
-    </PlanetClassSelect>
-    <PlanetClassSelect>
-      <MinPlanetClass>0</MinPlanetClass>
-      <MaxPlanetClass>1</MaxPlanetClass>
-      <Weight>5</Weight>
-      <PreferredDistribution>DesertWorld3</PreferredDistribution>
-    </PlanetClassSelect>
-    <Triggers>
-      <OnEvent>OnCreatePlanet</OnEvent>
-      <PerformAction>
-        <Action>AddUpgradeToPlanet</Action>
-        <StringParam>ColonyUpgrade_HyperSilicates</StringParam>
-      </PerformAction>
-    </Triggers>
-  </PlanetTrait> -->
-    <PlanetTrait>
-        <InternalName>TerrestrialWorld</InternalName>
-        <DisplayName>TerrestrialWorld_Name</DisplayName>
-        <Description>TerrestrialWorld_Dec</Description>
-        <RelativeWeight>7</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>TerrestrialWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>TerrestrialWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>TerrestrialWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>TerrestrialWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>TerrestrialWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>60</Weight>
-            <PreferredDistribution>TerrestrialWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>TerrestrialWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>TerrestrialWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>TerrestrialWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>TerrestrialWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>1</MinPlanetClass>
-            <MaxPlanetClass>5</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>TerrestrialWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>1</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>TerrestrialWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-    </PlanetTrait>
+    
+    
     <PlanetTrait>
         <InternalName>ParadiseWorld</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
