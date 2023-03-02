@@ -94,6 +94,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>TropicalWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -124,6 +130,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>TerrestrialWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>LowGravityWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -258,6 +270,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Yellow</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -365,6 +383,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Orange</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -491,6 +515,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Yellow</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -513,6 +543,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Blue</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -534,6 +570,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Yellow</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -604,6 +646,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>TerrestrialWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>BombardedWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -898,6 +946,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <RelativeWeight>15</RelativeWeight>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
@@ -920,6 +974,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Orange</TileColor>
     <RelativeWeight>30</RelativeWeight>
     <BlockedPlanetTraits>MountainousWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>MountainousWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
@@ -958,6 +1018,12 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>TerrestrialWorldF</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
