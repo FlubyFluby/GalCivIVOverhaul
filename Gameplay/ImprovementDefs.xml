@@ -20891,6 +20891,14 @@
         <ImprovementType>Food</ImprovementType>
         <PlacementType>Special</PlacementType>
         <SupportedPlanetTraits>DesertWorld</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldB</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldC</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldD</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldE</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldF</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldG</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldH</SupportedPlanetTraits>
+        <SupportedPlanetTraits>DesertWorldI</SupportedPlanetTraits>
         <IsColonialUpgrade>true</IsColonialUpgrade>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>

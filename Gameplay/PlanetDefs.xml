@@ -9,7 +9,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>EarthName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>28</PlanetClass>		
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldB</PlanetTrait>
 		<ArtDefine>EarthArt</ArtDefine>
 		<LayoutAtlas>EARTH_ATLAS</LayoutAtlas>
 		<LayoutAtlasIndex>0</LayoutAtlasIndex>
@@ -57,7 +57,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>IridiaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>29</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldA</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>3</Technology>
@@ -87,7 +87,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>KrysethName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>26</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldF</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>4</Technology>
@@ -102,7 +102,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>NewIconiaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>25</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldF</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>3</Technology>
@@ -117,7 +117,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Arcea_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>28</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldD</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>6</Minerals>
 			<Technology>2</Technology>
@@ -223,7 +223,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Arnor_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>32</PlanetClass>
-		<PlanetTrait>BombardedWorld</PlanetTrait>
+		<PlanetTrait>BombardedWorldC</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>3</Technology>
@@ -361,7 +361,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>MarsName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>3</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldB</PlanetTrait>
 		<ColonizationEventOverride>Event_ColonizeMars</ColonizationEventOverride>
 		<ArtDefine>MarsArt</ArtDefine>
 		<PlanetClassDistribution>
@@ -425,7 +425,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
     <DisplayName>Kona_Name</DisplayName>
     <PlanetType>Habitable</PlanetType>
     <PlanetClass>4</PlanetClass>
-	<PlanetTrait>TerrestrialWorld</PlanetTrait>
+	<PlanetTrait>TerrestrialWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>1</Minerals>
 			<Technology>0</Technology>
@@ -485,7 +485,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
     <DisplayName>Wisp_Name</DisplayName>
     <PlanetType>Habitable</PlanetType>
     <PlanetClass>4</PlanetClass>
-	<PlanetTrait>TerrestrialWorld</PlanetTrait>
+	<PlanetTrait>TerrestrialWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>2</Minerals>
 			<Technology>1</Technology>
@@ -587,7 +587,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 			<DisplayName>NewIconiaName2</DisplayName>
 			<PlanetType>Habitable</PlanetType>
 			<PlanetClass>3</PlanetClass>
-			<PlanetTrait>DesertWorld</PlanetTrait>
+			<PlanetTrait>DesertWorldB</PlanetTrait>
 			<PlanetClassDistribution>
 				<Minerals>3</Minerals>
 				<Technology>1</Technology>
@@ -633,7 +633,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>ThalaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>19</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldG</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>5</Minerals>
 			<Technology>5</Technology>
@@ -692,7 +692,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
     <DisplayName>Vallus_Name</DisplayName>
     <PlanetType>Habitable</PlanetType>
     <PlanetClass>3</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>2</Minerals>
 			<Technology>2</Technology>
@@ -750,7 +750,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetKrysethBetaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>2</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldC</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>1</Technology>
@@ -795,7 +795,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetErineName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>5</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>1</Minerals>
 			<Technology>0</Technology>
@@ -825,7 +825,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetArbName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>14</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldF</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>4</Technology>
@@ -870,7 +870,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>PlanetDustName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>4</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldC</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>3</Minerals>
 			<Technology>2</Technology>
@@ -1047,7 +1047,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_AlphaCentauri_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>4</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>6</Minerals>
 			<Technology>0</Technology>
@@ -1077,7 +1077,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Haven_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>31</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldH</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>5</Minerals>
 			<Technology>4</Technology>
@@ -1210,7 +1210,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Cole_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>4</PlanetClass>
-		<PlanetTrait>DesertWorld</PlanetTrait>
+		<PlanetTrait>DesertWorldD</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>1</Minerals>
 			<Technology>0</Technology>
@@ -1298,7 +1298,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Dratha3_Name</DisplayName>
     <PlanetType>Habitable</PlanetType>
     <PlanetClass>2</PlanetClass>
-    <PlanetTrait>TerrestrialWorld</PlanetTrait>
+    <PlanetTrait>TerrestrialWorldB</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>2</Minerals>
 			<Technology>1</Technology>
@@ -1313,7 +1313,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Planet_Dratha4_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>3</PlanetClass>
-		<PlanetTrait>TerrestrialWorld</PlanetTrait>
+		<PlanetTrait>TerrestrialWorldC</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>0</Minerals>
 			<Technology>2</Technology>
