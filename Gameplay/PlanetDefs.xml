@@ -27,7 +27,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>DrengiName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>29</PlanetClass>
-		<PlanetTrait>VolcanicWorldA</PlanetTrait>
+		<PlanetTrait>VolcanicWorld</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>5</Minerals>
 			<Technology>3</Technology>
