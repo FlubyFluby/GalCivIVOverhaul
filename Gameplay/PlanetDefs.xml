@@ -284,7 +284,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>Savvot_Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>25</PlanetClass>
-		<PlanetTrait>DesertWorldD</PlanetTrait>
+		<PlanetTrait>DesertWorldE</PlanetTrait>
 		<PlanetClassDistribution>
 			<Minerals>4</Minerals>
 			<Technology>3</Technology>

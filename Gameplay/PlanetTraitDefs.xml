@@ -8,78 +8,490 @@
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>60</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>30</Weight>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>7</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.03</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.02</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>DesertWorldB</InternalName>
+        <DisplayName>DesertWorld_Name</DisplayName>
+        <Description>DesertWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>20</Weight>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.06</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.05</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.04</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>DesertWorldC</InternalName>
+        <DisplayName>DesertWorld_Name</DisplayName>
+        <Description>DesertWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>1</MinPlanetClass>
-            <MaxPlanetClass>5</MaxPlanetClass>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
             <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.07</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.06</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>DesertWorldD</InternalName>
+        <DisplayName>DesertWorld_Name</DisplayName>
+        <Description>DesertWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>29</MinPlanetClass>
+            <MaxPlanetClass>41</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>33</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>1</MaxPlanetClass>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>14</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
             <Weight>5</Weight>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.09</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.08</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>DesertWorldE</InternalName>
+        <DisplayName>DesertWorld_Name</DisplayName>
+        <Description>DesertWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>30</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>38</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -95,7 +507,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.1</Value>
+            <Value>-0.14</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Growth</EffectType>
@@ -103,86 +515,86 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.05</Value>
+            <Value>-0.13</Value>
         </EffectModifier>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>DesertWorldB</InternalName>
+        <InternalName>DesertWorldF</InternalName>
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>10</Weight>
+            <MinPlanetClass>31</MinPlanetClass>
+            <MaxPlanetClass>43</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>40</Weight>
+            <MinPlanetClass>29</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>13</Weight>
             <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>60</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
+            <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>1</MinPlanetClass>
-            <MaxPlanetClass>5</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>1</MaxPlanetClass>
             <Weight>5</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -198,7 +610,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
+            <Value>-0.19</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Growth</EffectType>
@@ -206,86 +618,86 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.1</Value>
+            <Value>-0.18</Value>
         </EffectModifier>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>DesertWorldC</InternalName>
+        <InternalName>DesertWorldG</InternalName>
         <DisplayName>DesertWorld_Name</DisplayName>
         <Description>DesertWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>10</Weight>
+            <MinPlanetClass>32</MinPlanetClass>
+            <MaxPlanetClass>44</MaxPlanetClass>
+            <Weight>12</Weight>
             <PreferredDistribution>DesertWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>40</Weight>
+            <MinPlanetClass>30</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>13</Weight>
             <PreferredDistribution>DesertWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>DesertWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>DesertWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>DesertWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>DesertWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>DesertWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>DesertWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>60</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>DesertWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
+            <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>1</MinPlanetClass>
-            <MaxPlanetClass>5</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>1</MaxPlanetClass>
             <Weight>5</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
+            <PreferredDistribution>DesertWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>DesertWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>DesertWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -301,7 +713,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
+            <Value>-0.24</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Growth</EffectType>
@@ -309,110 +721,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
-        </EffectModifier>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>DesertWorldD</InternalName>
-        <DisplayName>DesertWorld_Name</DisplayName>
-        <Description>DesertWorld_Dec</Description>
-        <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>60</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>50</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>40</Weight>
-            <PreferredDistribution>DesertWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>30</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>20</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>1</MinPlanetClass>
-            <MaxPlanetClass>5</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>1</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>DesertWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.3</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
+            <Value>-0.23</Value>
         </EffectModifier>
     </PlanetTrait>
     <!-- <PlanetTrait>

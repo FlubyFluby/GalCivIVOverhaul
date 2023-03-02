@@ -80,6 +80,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
@@ -170,6 +173,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldA</SupportedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldC</SupportedPlanetTraits>
@@ -200,6 +206,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldA</SupportedPlanetTraits>
@@ -588,6 +597,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>DesertWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>DesertWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>DesertWorldD</SupportedPlanetTraits>
+    <SupportedPlanetTraits>DesertWorldE</SupportedPlanetTraits>
+    <SupportedPlanetTraits>DesertWorldF</SupportedPlanetTraits>
+    <SupportedPlanetTraits>DesertWorldG</SupportedPlanetTraits>
   </PlanetFeature>
  
   <PlanetFeature>
@@ -612,6 +624,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <Bonus>
@@ -637,6 +652,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -672,6 +690,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -704,6 +725,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -735,6 +759,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -764,6 +791,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -872,6 +902,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>ArborealWorldC</BlockedPlanetTraits>
@@ -957,6 +990,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -991,6 +1027,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldD</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldE</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldF</BlockedPlanetTraits>
+    <BlockedPlanetTraits>DesertWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldA</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
