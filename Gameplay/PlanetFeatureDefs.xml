@@ -355,6 +355,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
@@ -418,6 +419,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
@@ -501,6 +503,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
@@ -536,6 +539,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
@@ -690,6 +694,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>

@@ -14,7 +14,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>DesertWorld_Dec</Label>
-    <String>Lots of room, but few natural resources.</String>
+    <String>Lots of room, but few natural resources and barely any arable land. </String>
   </StringTable>
  
   <StringTable>
@@ -44,7 +44,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>JungleWorld_Dec</Label>
-    <String>A world full of valuable and rare resources.</String>
+    <String>A world benefitting strong growth and strong defenses. It's not hard to hide in a giant forest, is it? More effort required to clear land for farming does hamper food production and is also costly.</String>
   </StringTable>
  
   <StringTable>
@@ -64,7 +64,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>VolcanicWorld_Dec</Label>
-    <String>Abundant power is nice, but boy do the earthquakes get old.</String>
+    <String>Abundant power is nice, but boy do the earthquakes get old. 
+      Terrible for anything food or growth related but a strong contender for an economy and|or manufacturing focused planet.</String>
   </StringTable>
  
   <StringTable>
@@ -74,7 +75,8 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>MountainousWorld_Dec</Label>
-    <String>Tall mountains and deep ravines cover this planets surface.</String>
+    <String>Tall mountains and deep ravines cover this planets surface. 
+      Reduced space for farming impacts food production and growth, but an abundance in minerals significantly aids manufacturing and income.</String>
   </StringTable>
  
   <StringTable>
@@ -84,7 +86,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>TropicalWorld_Dec</Label>
-    <String>All other planets are ugly by comparison.</String>
+    <String>All other planets are ugly by comparison. High humidity, aggresive fauna and lots of aggressive ivy make maintenance of infrastructure and manufacturing a pain. Great for farming though!</String>
   </StringTable>
  
   <StringTable>
@@ -134,7 +136,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>CorrosiveWorld_Dec</Label>
-    <String>Acidic lakes and storms makes this world unsuitable for standard colonization.</String>
+    <String>Acidic lakes and storms makes this world unsuitable for standard colonization but a great source of Elerium!</String>
   </StringTable>
  
   <StringTable>
