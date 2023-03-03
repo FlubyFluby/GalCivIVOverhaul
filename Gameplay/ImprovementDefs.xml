@@ -8838,6 +8838,11 @@
             </RaceTrait>
             <PlanetTrait>
                 <Option>AquaticWorld</Option>
+                <Option>AquaticWorldB</Option>
+                <Option>AquaticWorldC</Option>
+                <Option>AquaticWorldD</Option>
+                <Option>AquaticWorldE</Option>
+                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -8898,6 +8903,11 @@
             </RaceTrait>
             <PlanetTrait>
                 <Option>AquaticWorld</Option>
+                <Option>AquaticWorldB</Option>
+                <Option>AquaticWorldC</Option>
+                <Option>AquaticWorldD</Option>
+                <Option>AquaticWorldE</Option>
+                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -8950,6 +8960,11 @@
             </RaceTrait>
             <PlanetTrait>
                 <Option>AquaticWorld</Option>
+                <Option>AquaticWorldB</Option>
+                <Option>AquaticWorldC</Option>
+                <Option>AquaticWorldD</Option>
+                <Option>AquaticWorldE</Option>
+                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -21015,6 +21030,11 @@
         <ImprovementType>Approval</ImprovementType>
         <PlacementType>Special</PlacementType>
         <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
+        <SupportedPlanetTraits>AquaticWorldB</SupportedPlanetTraits>
+        <SupportedPlanetTraits>AquaticWorldC</SupportedPlanetTraits>
+        <SupportedPlanetTraits>AquaticWorldD</SupportedPlanetTraits>
+        <SupportedPlanetTraits>AquaticWorldE</SupportedPlanetTraits>
+        <SupportedPlanetTraits>AquaticWorldF</SupportedPlanetTraits>
         <IsColonialUpgrade>true</IsColonialUpgrade>
         <Stats>
             <EffectType>Maintenance</EffectType>
