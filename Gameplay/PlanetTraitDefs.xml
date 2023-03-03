@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<PlanetTraitList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
-    <!-- Created with the GC4 editor -->
-    <!-- PlanetTraitDefs.xml -->
-    <!-- Desert 9 -->
+<PlanetTraitList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd"><!-- Created with the GC4 editor --><!-- PlanetTraitDefs.xml --><!-- Desert 9 -->
     <PlanetTrait>
         <InternalName>DesertWorld</InternalName>
         <DisplayName>DesertWorld_Name</DisplayName>
@@ -937,8 +933,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.3</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Terrestrial 8 -->
+    </PlanetTrait><!-- Terrestrial 8 -->
     <PlanetTrait>
         <InternalName>TerrestrialWorld</InternalName>
         <DisplayName>TerrestrialWorld_Name</DisplayName>
@@ -1698,8 +1693,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.18</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Arboreal 6 -->
+    </PlanetTrait><!-- Arboreal 6 -->
     <PlanetTrait>
         <InternalName>ArborealWorld</InternalName>
         <DisplayName>ArborealWorld_Name</DisplayName>
@@ -2331,8 +2325,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>0.2</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Mountainous 8 -->
+    </PlanetTrait><!-- Mountainous 8 -->
     <PlanetTrait>
         <InternalName>MountainousWorld</InternalName>
         <DisplayName>MountainousWorld_Name</DisplayName>
@@ -3183,8 +3176,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.15</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Volcanic 8 -->
+    </PlanetTrait><!-- Volcanic 8 -->
     <PlanetTrait>
         <InternalName>VolcanicWorld</InternalName>
         <DisplayName>VolcanicWorld_Name</DisplayName>
@@ -4086,8 +4078,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.5</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Jungle World 5 -->
+    </PlanetTrait><!-- Jungle World 5 -->
     <PlanetTrait>
         <InternalName>JungleWorld</InternalName>
         <DisplayName>JungleWorld_Name</DisplayName>
@@ -4656,8 +4647,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.1</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Tropical 5 -->
+    </PlanetTrait><!-- Tropical 5 -->
     <PlanetTrait>
         <InternalName>TropicalWorld</InternalName>
         <DisplayName>TropicalWorld_Name</DisplayName>
@@ -5226,8 +5216,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.15</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Paradise 5 -->
+    </PlanetTrait><!-- Paradise 5 -->
     <PlanetTrait>
         <InternalName>ParadiseWorld</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
@@ -5756,8 +5745,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.30</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Aquatic  5 -->
+    </PlanetTrait><!-- Aquatic  5 -->
     <PlanetTrait>
         <InternalName>AquaticWorld</InternalName>
         <DisplayName>AquaticWorld_Name</DisplayName>
@@ -6246,8 +6234,7 @@
                 <Value>-0.6</Value>
             </Modifier>
         </Triggers>
-    </PlanetTrait>
-    <!-- Low Gravity 4 -->
+    </PlanetTrait><!-- Low Gravity 4 -->
     <PlanetTrait>
         <InternalName>LowGravityWorld</InternalName>
         <DisplayName>LowGravityWorld_Name</DisplayName>
@@ -6698,8 +6685,7 @@
             <BonusType>Flat</BonusType>
             <Value>0.25</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Thin Atmosphere 3 -->
+    </PlanetTrait><!-- Thin Atmosphere 3 -->
     <PlanetTrait>
         <InternalName>ThinAtmosphereWorld</InternalName>
         <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
@@ -7018,8 +7004,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>0.005</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Bombarded World 3 -->
+    </PlanetTrait><!-- Bombarded World 3 -->
     <PlanetTrait>
         <InternalName>BombardedWorld</InternalName>
         <DisplayName>BombardedWorld_Name</DisplayName>
@@ -7114,8 +7099,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.15</Value>
         </EffectModifier>
-        <EffectModifier>
-            <!-- Why does it work here but not elsewhere wth -->
+        <EffectModifier><!-- Why does it work here but not elsewhere wth -->
             <EffectType>PlanetaryDefensesMaxHP</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
@@ -7226,8 +7210,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.2</Value>
         </EffectModifier>
-        <EffectModifier>
-            <!-- Why does it work here but not elsewhere wth -->
+        <EffectModifier><!-- Why does it work here but not elsewhere wth -->
             <EffectType>PlanetaryDefensesMaxHP</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
@@ -7338,8 +7321,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.25</Value>
         </EffectModifier>
-        <EffectModifier>
-            <!-- Why does it work here but not elsewhere wth -->
+        <EffectModifier><!-- Why does it work here but not elsewhere wth -->
             <EffectType>PlanetaryDefensesMaxHP</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
@@ -7355,8 +7337,7 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.25</Value>
         </EffectModifier>
-    </PlanetTrait>
-    <!-- Corrosive 3 -->
+    </PlanetTrait><!-- Corrosive 3 -->
     <PlanetTrait>
         <InternalName>CorrosiveWorld</InternalName>
         <DisplayName>CorrosiveWorld_Name</DisplayName>
@@ -7475,8 +7456,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Frozen 2 -->
+    </PlanetTrait><!-- Frozen 2 -->
     <PlanetTrait>
         <InternalName>FrozenWorld</InternalName>
         <DisplayName>FrozenWorld_Name</DisplayName>
@@ -7602,8 +7582,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Barren 4 -->
+    </PlanetTrait><!-- Barren 4 -->
     <PlanetTrait>
         <InternalName>BarrenWorld</InternalName>
         <DisplayName>BarrenWorld_Name</DisplayName>
@@ -7713,8 +7692,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Toxic 2 -->
+    </PlanetTrait><!-- Toxic 2 -->
     <PlanetTrait>
         <InternalName>ToxicWorld</InternalName>
         <DisplayName>ToxicWorld_Name</DisplayName>
@@ -7826,8 +7804,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Radioactive 3 -->
+    </PlanetTrait><!-- Radioactive 3 -->
     <PlanetTrait>
         <InternalName>RadioactiveWorld</InternalName>
         <DisplayName>RadioactiveWorld_Name</DisplayName>
@@ -7954,8 +7931,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Thulium 2 -->
+    </PlanetTrait><!-- Thulium 2 -->
     <PlanetTrait>
         <InternalName>ThuliumMoon</InternalName>
         <DisplayName>ThuliumMoon_Name</DisplayName>
@@ -8038,8 +8014,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Durantium 2 -->
+    </PlanetTrait><!-- Durantium 2 -->
     <PlanetTrait>
         <InternalName>DurantiumCloud</InternalName>
         <DisplayName>DurantiumCloud_Name</DisplayName>
@@ -8122,8 +8097,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Promethion 2 -->
+    </PlanetTrait><!-- Promethion 2 -->
     <PlanetTrait>
         <InternalName>PromethionRefinery</InternalName>
         <DisplayName>PromethionRefinery_Name</DisplayName>
@@ -8198,8 +8172,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorAccelerator 2 -->
+    </PlanetTrait><!-- PrecursorAccelerator 2 -->
     <PlanetTrait>
         <InternalName>PrecursorAccelerator</InternalName>
         <DisplayName>PrecursorAccelerator_Name</DisplayName>
@@ -8288,8 +8261,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorSatellites 2 -->
+    </PlanetTrait><!-- PrecursorSatellites 2 -->
     <PlanetTrait>
         <InternalName>PrecursorSatellites</InternalName>
         <DisplayName>PrecursorSatellites_Name</DisplayName>
@@ -8396,8 +8368,7 @@
                 <Value>12</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorElevator 1 -->
+    </PlanetTrait><!-- PrecursorElevator 1 -->
     <PlanetTrait>
         <InternalName>PrecursorElevator</InternalName>
         <DisplayName>PrecursorElevator_Name</DisplayName>
@@ -8480,8 +8451,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorFactoryWorld 1 -->
+    </PlanetTrait><!-- PrecursorFactoryWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorFactoryWorld</InternalName>
         <DisplayName>PrecursorFactoryWorld_Name</DisplayName>
@@ -8572,8 +8542,7 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorResearchWorld 1 -->
+    </PlanetTrait><!-- PrecursorResearchWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorResearchWorld</InternalName>
         <DisplayName>PrecursorResearchWorld_Name</DisplayName>
@@ -8664,8 +8633,7 @@
                 <Value>0.3</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorTreasury 2 -->
+    </PlanetTrait><!-- PrecursorTreasury 2 -->
     <PlanetTrait>
         <InternalName>PrecursorTreasury</InternalName>
         <DisplayName>PrecursorTreasury_Name</DisplayName>
@@ -8756,8 +8724,7 @@
                 <Value>0.3</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorQuarantine 1 -->
+    </PlanetTrait><!-- PrecursorQuarantine 1 -->
     <PlanetTrait>
         <InternalName>PrecursorQuarantine</InternalName>
         <DisplayName>PrecursorQuarantine_Name</DisplayName>
@@ -8835,8 +8802,7 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorExperimentalWorld 1 -->
+    </PlanetTrait><!-- PrecursorExperimentalWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorExperimentalWorld</InternalName>
         <DisplayName>PrecursorExperimentalWorld_Name</DisplayName>
@@ -8921,8 +8887,7 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- PrecursorPrison 1 -->
+    </PlanetTrait><!-- PrecursorPrison 1 -->
     <PlanetTrait>
         <InternalName>PrecursorPrison</InternalName>
         <DisplayName>PrecursorPrison_Name</DisplayName>
@@ -9007,8 +8972,7 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait>
-    <!-- Ignore 0 -->
+    </PlanetTrait><!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>ShardOfTheMithrilar</InternalName>
         <DisplayName>ShardOfTheMithrilar_Name</DisplayName>
@@ -9021,8 +8985,7 @@
             <Weight>1</Weight>
             <PreferredDistribution>ShardOfTheMithrilar1</PreferredDistribution>
         </PlanetClassSelect>
-    </PlanetTrait>
-    <!-- Ignore 0 -->
+    </PlanetTrait><!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>MakerWorld</InternalName>
         <DisplayName>MakerWorld_Name</DisplayName>
