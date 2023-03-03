@@ -2397,6 +2397,84 @@
         </HaloEffect>
     </ArtDefine>
     <ArtDefine>
+        <InternalName>BarrenWorldB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>BarrenWorldB</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Barren_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>WhiteCloudsAtmosphere_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Barren.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Barren.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>BarrenWorldC</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>BarrenWorldC</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Barren_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>WhiteCloudsAtmosphere_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Barren.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Barren.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>BarrenWorldD</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>BarrenWorldD</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Barren_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>WhiteCloudsAtmosphere_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Barren.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Barren.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
         <InternalName>BarrenWorld_Poor</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>BarrenWorld</PlanetTrait>
@@ -2585,6 +2663,32 @@
         <InternalName>FrozenWorld</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>FrozenWorld</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Frozen_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>WhiteCloudsAtmosphere_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Frozen.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Frozen.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>FrozenWorldB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>FrozenWorldB</PlanetTrait>  
         <ObjectGfxConfigFile>PlanetDesign_Frozen_01.objgfxcfg</ObjectGfxConfigFile>
         <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
         <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>

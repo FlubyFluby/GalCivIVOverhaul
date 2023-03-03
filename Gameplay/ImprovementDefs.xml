@@ -20969,6 +20969,7 @@
         <ImprovementType>Population</ImprovementType>
         <PlacementType>Special</PlacementType>
         <SupportedPlanetTraits>FrozenWorld</SupportedPlanetTraits>
+        <SupportedPlanetTraits>FrozenWorldB</SupportedPlanetTraits>
         <IsColonialUpgrade>true</IsColonialUpgrade>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>

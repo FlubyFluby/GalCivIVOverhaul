@@ -56,6 +56,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <TileColor>Purple</TileColor>
     <OnePerPlanet>true</OnePerPlanet>
     <SupportedPlanetTraits>FrozenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>FrozenWorldB</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -86,6 +87,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldI</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldC</BlockedPlanetTraits>
@@ -185,6 +187,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldC</BlockedPlanetTraits>
@@ -278,7 +283,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>DesertWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldI</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
@@ -357,6 +366,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
     <Bonus>
@@ -421,6 +433,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
     <Bonus>
@@ -505,6 +520,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
     <Bonus>
@@ -541,6 +559,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
@@ -696,6 +717,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>CorrosiveWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>CorrosiveWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
@@ -795,6 +819,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>AquaticWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorldC</BlockedPlanetTraits>
@@ -834,6 +859,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>DesertWorldC</BlockedPlanetTraits>
@@ -890,6 +916,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldC</BlockedPlanetTraits>
@@ -964,6 +993,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>AquaticWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldE</SupportedPlanetTraits>
     <SupportedPlanetTraits>FrozenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>FrozenWorldB</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1001,7 +1031,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
@@ -1049,6 +1083,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldC</BlockedPlanetTraits>
@@ -1091,6 +1128,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldC</SupportedPlanetTraits>
@@ -1139,6 +1179,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldH</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
@@ -1172,6 +1215,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>MountainousWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>MountainousWorldH</BlockedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldD</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1222,6 +1268,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>MountainousWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>MountainousWorldH</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>JungleWorldC</SupportedPlanetTraits>
@@ -1285,6 +1334,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>JungleWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>JungleWorldE</BlockedPlanetTraits>
     <SupportedPlanetTraits>FrozenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>FrozenWorldB</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -1310,6 +1360,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>AquaticWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>AquaticWorldE</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldC</BlockedPlanetTraits>
@@ -1372,6 +1423,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>VolcanicWorldG</SupportedPlanetTraits>
     <SupportedPlanetTraits>VolcanicWorldH</SupportedPlanetTraits>
     <SupportedPlanetTraits>BarrenWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldC</SupportedPlanetTraits>
+    <SupportedPlanetTraits>BarrenWorldD</SupportedPlanetTraits>
     <SupportedPlanetTraits>BombardedWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>BombardedWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>BombardedWorldC</SupportedPlanetTraits>
@@ -1403,7 +1457,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorld</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>TerrestrialWorldC</BlockedPlanetTraits>
@@ -1465,7 +1523,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>VolcanicWorldG</BlockedPlanetTraits>
     <BlockedPlanetTraits>VolcanicWorldH</BlockedPlanetTraits>
     <BlockedPlanetTraits>FrozenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>FrozenWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
+    <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldC</SupportedPlanetTraits>
