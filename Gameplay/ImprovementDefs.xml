@@ -8842,7 +8842,6 @@
                 <Option>AquaticWorldC</Option>
                 <Option>AquaticWorldD</Option>
                 <Option>AquaticWorldE</Option>
-                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -8907,7 +8906,6 @@
                 <Option>AquaticWorldC</Option>
                 <Option>AquaticWorldD</Option>
                 <Option>AquaticWorldE</Option>
-                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -8964,7 +8962,6 @@
                 <Option>AquaticWorldC</Option>
                 <Option>AquaticWorldD</Option>
                 <Option>AquaticWorldE</Option>
-                <Option>AquaticWorldF</Option>
             </PlanetTrait>
         </Prerequ>
     </Improvement>
@@ -21034,7 +21031,6 @@
         <SupportedPlanetTraits>AquaticWorldC</SupportedPlanetTraits>
         <SupportedPlanetTraits>AquaticWorldD</SupportedPlanetTraits>
         <SupportedPlanetTraits>AquaticWorldE</SupportedPlanetTraits>
-        <SupportedPlanetTraits>AquaticWorldF</SupportedPlanetTraits>
         <IsColonialUpgrade>true</IsColonialUpgrade>
         <Stats>
             <EffectType>Maintenance</EffectType>
@@ -21965,12 +21961,12 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
+            <BonusType>Multiplier</BonusType>
             <ValueType>Special</ValueType>
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.2</ValueParam>
+                <ValueParam>0.075</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>

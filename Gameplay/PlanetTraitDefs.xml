@@ -3,8 +3,7 @@
                  xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
     <!-- Created with the GC4 editor -->
     <!-- PlanetTraitDefs.xml -->
-
-    <!-- Desert -->
+    <!-- Desert 9 -->
     <PlanetTrait>
         <InternalName>DesertWorld</InternalName>
         <DisplayName>DesertWorld_Name</DisplayName>
@@ -939,8 +938,7 @@
             <Value>-0.3</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Terrestrial -->
+    <!-- Terrestrial 8 -->
     <PlanetTrait>
         <InternalName>TerrestrialWorld</InternalName>
         <DisplayName>TerrestrialWorld_Name</DisplayName>
@@ -1701,8 +1699,7 @@
             <Value>-0.18</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Arboreal -->
+    <!-- Arboreal 6 -->
     <PlanetTrait>
         <InternalName>ArborealWorld</InternalName>
         <DisplayName>ArborealWorld_Name</DisplayName>
@@ -2335,8 +2332,7 @@
             <Value>0.2</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Mountainous -->
+    <!-- Mountainous 8 -->
     <PlanetTrait>
         <InternalName>MountainousWorld</InternalName>
         <DisplayName>MountainousWorld_Name</DisplayName>
@@ -3188,7 +3184,7 @@
             <Value>-0.15</Value>
         </EffectModifier>
     </PlanetTrait>
-    <!-- Volcanic -->
+    <!-- Volcanic 8 -->
     <PlanetTrait>
         <InternalName>VolcanicWorld</InternalName>
         <DisplayName>VolcanicWorld_Name</DisplayName>
@@ -4091,8 +4087,7 @@
             <Value>-0.5</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Jungle World -->
+    <!-- Jungle World 5 -->
     <PlanetTrait>
         <InternalName>JungleWorld</InternalName>
         <DisplayName>JungleWorld_Name</DisplayName>
@@ -4662,8 +4657,7 @@
             <Value>-0.1</Value>
         </EffectModifier>
     </PlanetTrait>
-   
-    <!-- Tropical -->
+    <!-- Tropical 5 -->
     <PlanetTrait>
         <InternalName>TropicalWorld</InternalName>
         <DisplayName>TropicalWorld_Name</DisplayName>
@@ -5233,8 +5227,7 @@
             <Value>-0.15</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Paradise --> 
+    <!-- Paradise 5 -->
     <PlanetTrait>
         <InternalName>ParadiseWorld</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
@@ -5349,7 +5342,7 @@
         <InternalName>ParadiseWorldB</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
         <Description>ParadiseWorld_Dec</Description>
-        <RelativeWeight>3</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>27</MinPlanetClass>
@@ -5764,664 +5757,497 @@
             <Value>-0.30</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!-- Bombarded World -->
+    <!-- Aquatic  5 -->
     <PlanetTrait>
-        <InternalName>BombardedWorld</InternalName>
-        <DisplayName>BombardedWorld_Name</DisplayName>
-        <Description>BombardedWorld_Dec</Description>
+        <InternalName>AquaticWorld</InternalName>
+        <DisplayName>AquaticWorld_Name</DisplayName>
+        <Description>AquaticWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.01</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>16</Weight>
-            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
             <Weight>14</Weight>
-            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>1</Weight>
-            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.15</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>SensorRange</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
-        </EffectModifier>
-        <EffectModifier> <!-- Why does it work here but not elsewhere wth -->
-            <EffectType>PlanetaryDefensesMaxHP</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
-        </EffectModifier>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>BombardedWorldB</InternalName>
-        <DisplayName>BombardedWorld_Name</DisplayName>
-        <Description>BombardedWorld_Dec</Description>
-        <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.03</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>16</Weight>
-            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>1</Weight>
-            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.2</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>SensorRange</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
-        </EffectModifier>
-        <EffectModifier> <!-- Why does it work here but not elsewhere wth -->
-            <EffectType>PlanetaryDefensesMaxHP</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
-        </EffectModifier>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>BombardedWorldC</InternalName>
-        <DisplayName>BombardedWorld_Name</DisplayName>
-        <Description>BombardedWorld_Dec</Description>
-        <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.05</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>16</Weight>
-            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>1</Weight>
-            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.25</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>SensorRange</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
-        </EffectModifier>
-        <EffectModifier> <!-- Why does it work here but not elsewhere wth -->
-            <EffectType>PlanetaryDefensesMaxHP</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
-        </EffectModifier>
-    </PlanetTrait>
-
-    <!-- Thin Atmosphere -->
-    <PlanetTrait>
-        <InternalName>ThinAtmosphereWorld</InternalName>
-        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
-        <Description>ThinAtmosphereWorld_Dec</Description>
-        <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.07</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>26</MinPlanetClass>
-            <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>12</MaxPlanetClass>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
             <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
+            <Weight>4</Weight>
+            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
-            <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
         </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>7</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Planet</TargetType>
             </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.01</Value>
-        </EffectModifier>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>PlanetTilesAvailable</EffectType>
+                <Target>
+                    <TargetType>Planet</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </Triggers>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
-                <StringParam>TechapodHiveL1</StringParam>
+                <StringParam>EpimetheusPollenL1</StringParam>
             </PerformAction>
         </Triggers>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>ThinAtmosphereWorldB</InternalName>
-        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
-        <Description>ThinAtmosphereWorld_Dec</Description>
+        <InternalName>AquaticWorldB</InternalName>
+        <DisplayName>AquaticWorld_Name</DisplayName>
+        <Description>AquaticWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.09</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>39</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>26</MinPlanetClass>
-            <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>18</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>12</MaxPlanetClass>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
             <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
+            <Weight>3</Weight>
+            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
         </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Planet</TargetType>
             </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.4</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.4</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.008</Value>
-        </EffectModifier>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>PlanetTilesAvailable</EffectType>
+                <Target>
+                    <TargetType>Planet</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>HarmonyCrystalsL1</StringParam>
+            </PerformAction>
+        </Triggers>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>ThinAtmosphereWorldC</InternalName>
-        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
-        <Description>ThinAtmosphereWorld_Dec</Description>
+        <InternalName>AquaticWorldC</InternalName>
+        <DisplayName>AquaticWorld_Name</DisplayName>
+        <Description>AquaticWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.11</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
+            <Weight>14</Weight>
+            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
+            <Weight>13</Weight>
+            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
+            <Weight>11</Weight>
+            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
+            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
+            <Weight>8</Weight>
+            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>9</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
+            <Weight>5</Weight>
+            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
+            <Weight>4</Weight>
+            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
+            <Weight>3</Weight>
+            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
+            <Weight>2</Weight>
+            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
         </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Planet</TargetType>
             </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.3</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.3</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.005</Value>
-        </EffectModifier>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>PlanetTilesAvailable</EffectType>
+                <Target>
+                    <TargetType>Planet</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.3</Value>
+            </Modifier>
+        </Triggers>
     </PlanetTrait>
-
-    <!-- Low Gravity -->
+    <PlanetTrait>
+        <InternalName>AquaticWorldD</InternalName>
+        <DisplayName>AquaticWorld_Name</DisplayName>
+        <Description>AquaticWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>29</MinPlanetClass>
+            <MaxPlanetClass>41</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>27</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>33</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>23</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>14</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>8</MinPlanetClass>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>PlanetTilesAvailable</EffectType>
+                <Target>
+                    <TargetType>Planet</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.4</Value>
+            </Modifier>
+        </Triggers>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>AquaticWorldE</InternalName>
+        <DisplayName>AquaticWorld_Name</DisplayName>
+        <Description>AquaticWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>30</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>38</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>24</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>19</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>12</MinPlanetClass>
+            <MaxPlanetClass>16</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>13</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>9</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>AquaticWorld112</PreferredDistribution>
+        </PlanetClassSelect>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>PlanetTilesAvailable</EffectType>
+                <Target>
+                    <TargetType>Planet</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.6</Value>
+            </Modifier>
+        </Triggers>
+    </PlanetTrait>
+    <!-- Low Gravity 4 -->
     <PlanetTrait>
         <InternalName>LowGravityWorld</InternalName>
         <DisplayName>LowGravityWorld_Name</DisplayName>
@@ -6873,552 +6699,664 @@
             <Value>0.25</Value>
         </EffectModifier>
     </PlanetTrait>
-
-    <!--Aquatic  -->
+    <!-- Thin Atmosphere 3 -->
     <PlanetTrait>
-        <InternalName>AquaticWorld</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
+        <InternalName>ThinAtmosphereWorld</InternalName>
+        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
+        <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.18</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>27</MinPlanetClass>
-            <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>18</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
-            <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>8</MinPlanetClass>
-            <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>4</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>7</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.4</Value>
-        </EffectModifier>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>EpimetheusPollenL1</StringParam>
-            </PerformAction>
-        </Triggers>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>AquaticWorldB</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
-        <RelativeWeight>3</RelativeWeight>
-        <TradeResourcesPerTile>0.2</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>27</MinPlanetClass>
-            <MaxPlanetClass>39</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>35</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>17</MinPlanetClass>
-            <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>20</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>12</MinPlanetClass>
-            <MaxPlanetClass>17</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>14</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>6</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>4</MinPlanetClass>
-            <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.3</Value>
-        </EffectModifier>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>HarmonyCrystalsL1</StringParam>
-            </PerformAction>
-        </Triggers>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>AquaticWorldC</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
-        <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.22</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.07</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
             <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
             <MaxPlanetClass>36</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
             <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>21</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
+            <EffectType>Growth</EffectType>
             <Target>
-                <TargetType>Planet</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.35</Value>
+            <Value>-0.5</Value>
         </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyApproval</EffectType>
+            <Scope>Global</Scope>
+            <Target>
+                <TargetType>Unit</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.01</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>TechapodHiveL1</StringParam>
+            </PerformAction>
+        </Triggers>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>AquaticWorldD</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Water_32.png</HUDIcon>
+        <InternalName>ThinAtmosphereWorldB</InternalName>
+        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
+        <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.24</TradeResourcesPerTile>
+        <TradeResourcesPerTile>0.09</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>29</MinPlanetClass>
-            <MaxPlanetClass>41</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>27</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+            <MinPlanetClass>26</MinPlanetClass>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>33</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
+            <MinPlanetClass>24</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>21</MinPlanetClass>
-            <MaxPlanetClass>26</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>14</MinPlanetClass>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>11</MinPlanetClass>
+            <MinPlanetClass>10</MinPlanetClass>
             <MaxPlanetClass>15</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>8</MinPlanetClass>
+            <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>12</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>6</MinPlanetClass>
+            <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>10</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
+            <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld12</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
+            <EffectType>Growth</EffectType>
             <Target>
-                <TargetType>Planet</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.45</Value>
+            <Value>-0.4</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.4</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyApproval</EffectType>
+            <Scope>Global</Scope>
+            <Target>
+                <TargetType>Unit</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.008</Value>
         </EffectModifier>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>AquaticWorldE</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
+        <InternalName>ThinAtmosphereWorldC</InternalName>
+        <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
+        <Description>ThinAtmosphereWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>30</MinPlanetClass>
-            <MaxPlanetClass>42</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
-        </PlanetClassSelect>
+        <TradeResourcesPerTile>0.11</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>38</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>26</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
+            <MaxPlanetClass>36</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>24</MaxPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+            <PreferredDistribution>ThinAtmosphereWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+            <MinPlanetClass>18</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>21</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>12</MinPlanetClass>
-            <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>15</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+            <MaxPlanetClass>12</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>10</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>4</MinPlanetClass>
             <MaxPlanetClass>9</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld112</PreferredDistribution>
+            <Weight>6</Weight>
+            <PreferredDistribution>ThinAtmosphereWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.3</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.3</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyApproval</EffectType>
+            <Scope>Global</Scope>
+            <Target>
+                <TargetType>Unit</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.005</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <!-- Bombarded World 3 -->
+    <PlanetTrait>
+        <InternalName>BombardedWorld</InternalName>
+        <DisplayName>BombardedWorld_Name</DisplayName>
+        <Description>BombardedWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.01</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>16</Weight>
+            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>6</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>2</MinPlanetClass>
+            <MaxPlanetClass>4</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>2</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
             </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>SensorRange</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.55</Value>
+            <Value>-0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <!-- Why does it work here but not elsewhere wth -->
+            <EffectType>PlanetaryDefensesMaxHP</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.15</Value>
         </EffectModifier>
     </PlanetTrait>
     <PlanetTrait>
-        <InternalName>AquaticWorldF</InternalName>
-        <DisplayName>AquaticWorld_Name</DisplayName>
-        <Description>AquaticWorld_Dec</Description>
+        <InternalName>BombardedWorldB</InternalName>
+        <DisplayName>BombardedWorld_Name</DisplayName>
+        <Description>BombardedWorld_Dec</Description>
         <RelativeWeight>1</RelativeWeight>
-        <TradeResourcesPerTile>0.26</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>30</MinPlanetClass>
-            <MaxPlanetClass>42</MaxPlanetClass>
-            <Weight>14</Weight>
-            <PreferredDistribution>AquaticWorld1</PreferredDistribution>
-        </PlanetClassSelect>
+        <TradeResourcesPerTile>0.03</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>38</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>AquaticWorld2</PreferredDistribution>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>26</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>12</Weight>
-            <PreferredDistribution>AquaticWorld4</PreferredDistribution>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>AquaticWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>24</MaxPlanetClass>
-            <Weight>10</Weight>
-            <PreferredDistribution>AquaticWorld6</PreferredDistribution>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>23</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>AquaticWorld7</PreferredDistribution>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>15</MinPlanetClass>
-            <MaxPlanetClass>19</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>AquaticWorld8</PreferredDistribution>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>12</MinPlanetClass>
-            <MaxPlanetClass>16</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>AquaticWorld9</PreferredDistribution>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>16</Weight>
+            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
-            <MinPlanetClass>9</MinPlanetClass>
-            <MaxPlanetClass>13</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>AquaticWorld10</PreferredDistribution>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>11</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>AquaticWorld11</PreferredDistribution>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>9</MaxPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>6</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>2</MinPlanetClass>
+            <MaxPlanetClass>4</MaxPlanetClass>
             <Weight>2</Weight>
-            <PreferredDistribution>AquaticWorld112</PreferredDistribution>
+            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>2</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
-            <EffectType>PlanetTilesAvailable</EffectType>
+            <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
             </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>SensorRange</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.65</Value>
+            <Value>-0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <!-- Why does it work here but not elsewhere wth -->
+            <EffectType>PlanetaryDefensesMaxHP</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.2</Value>
         </EffectModifier>
     </PlanetTrait>
-
-
- <!-- -->
-   
+    <PlanetTrait>
+        <InternalName>BombardedWorldC</InternalName>
+        <DisplayName>BombardedWorld_Name</DisplayName>
+        <Description>BombardedWorld_Dec</Description>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.05</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>BombardedWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>BombardedWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>BombardedWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>16</Weight>
+            <PreferredDistribution>BombardedWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>BombardedWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>BombardedWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>BombardedWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>6</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>BombardedWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>2</MinPlanetClass>
+            <MaxPlanetClass>4</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>BombardedWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>2</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>BombardedWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>SensorRange</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <!-- Why does it work here but not elsewhere wth -->
+            <EffectType>PlanetaryDefensesMaxHP</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.25</Value>
+        </EffectModifier>
+    </PlanetTrait>
+    <!-- Corrosive 3 -->
     <PlanetTrait>
         <InternalName>CorrosiveWorld</InternalName>
         <DisplayName>CorrosiveWorld_Name</DisplayName>
@@ -7426,7 +7364,7 @@
         <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>3</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
@@ -7538,6 +7476,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Frozen 2 -->
     <PlanetTrait>
         <InternalName>FrozenWorld</InternalName>
         <DisplayName>FrozenWorld_Name</DisplayName>
@@ -7545,7 +7484,7 @@
         <HUDIcon>GC3_Extreme_Frozen_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>1</RelativeWeight>
+        <RelativeWeight>2</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
@@ -7664,13 +7603,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Barren 4 -->
     <PlanetTrait>
         <InternalName>BarrenWorld</InternalName>
         <DisplayName>BarrenWorld_Name</DisplayName>
         <Description>BarrenWorld_Dec</Description>
         <HUDIcon>GC3_Extreme_Barren_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
-        <RelativeWeight>3</RelativeWeight>
+        <RelativeWeight>4</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
@@ -7774,6 +7714,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Toxic 2 -->
     <PlanetTrait>
         <InternalName>ToxicWorld</InternalName>
         <DisplayName>ToxicWorld_Name</DisplayName>
@@ -7781,7 +7722,7 @@
         <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>3</RelativeWeight>
+        <RelativeWeight>2</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
@@ -7886,6 +7827,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Radioactive 3 -->
     <PlanetTrait>
         <InternalName>RadioactiveWorld</InternalName>
         <DisplayName>RadioactiveWorld_Name</DisplayName>
@@ -8013,13 +7955,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Thulium 2 -->
     <PlanetTrait>
         <InternalName>ThuliumMoon</InternalName>
         <DisplayName>ThuliumMoon_Name</DisplayName>
         <Description>ThuliumMoon_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>4</RelativeWeight>
+        <RelativeWeight>2</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
@@ -8096,13 +8039,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Durantium 2 -->
     <PlanetTrait>
         <InternalName>DurantiumCloud</InternalName>
         <DisplayName>DurantiumCloud_Name</DisplayName>
         <Description>DurantiumCloud_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>4</RelativeWeight>
+        <RelativeWeight>2</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
@@ -8179,6 +8123,83 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Promethion 2 -->
+    <PlanetTrait>
+        <InternalName>PromethionRefinery</InternalName>
+        <DisplayName>PromethionRefinery_Name</DisplayName>
+        <Description>PromethionRefinery_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>2</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>100</Weight>
+            <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.3</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_Refinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Flat</BonusType>
+                <Value>3</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Flat</BonusType>
+                <Value>-2</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <!-- PrecursorAccelerator 2 -->
     <PlanetTrait>
         <InternalName>PrecursorAccelerator</InternalName>
         <DisplayName>PrecursorAccelerator_Name</DisplayName>
@@ -8268,6 +8289,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorSatellites 2 -->
     <PlanetTrait>
         <InternalName>PrecursorSatellites</InternalName>
         <DisplayName>PrecursorSatellites_Name</DisplayName>
@@ -8375,13 +8397,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorElevator 1 -->
     <PlanetTrait>
         <InternalName>PrecursorElevator</InternalName>
         <DisplayName>PrecursorElevator_Name</DisplayName>
         <Description>PrecursorElevator_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>25</MaxPlanetClass>
@@ -8458,88 +8481,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>PromethionRefinery</InternalName>
-        <DisplayName>PromethionRefinery_Name</DisplayName>
-        <Description>PromethionRefinery_Dec</Description>
-        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <Tags>Precursor</Tags>
-        <RelativeWeight>4</RelativeWeight>
-        <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>100</Weight>
-            <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
-        </PlanetClassSelect>
-        <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.3</Value>
-        </EffectModifier>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>ColonyUpgrade_Refinery</StringParam>
-            </PerformAction>
-        </Triggers>
-        <ColonizationPrerequ>
-            <Techs>
-                <Option>TechTree</Option>
-            </Techs>
-        </ColonizationPrerequ>
-        <ExtremeTypeModifier>
-            <Prerequ>
-                <Techs>
-                    <Option>Tech_PrecursorStudies</Option>
-                </Techs>
-            </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Prerequ>
-                <Techs>
-                    <Option>Tech_PrecursorArcheology</Option>
-                </Techs>
-            </Prerequ>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-    </PlanetTrait>
+    <!-- PrecursorFactoryWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorFactoryWorld</InternalName>
         <DisplayName>PrecursorFactoryWorld_Name</DisplayName>
         <Description>PrecursorFactoryWorld_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>3</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>23</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
@@ -8624,13 +8573,14 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorResearchWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorResearchWorld</InternalName>
         <DisplayName>PrecursorResearchWorld_Name</DisplayName>
         <Description>PrecursorResearchWorld_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>24</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
@@ -8715,6 +8665,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorTreasury 2 -->
     <PlanetTrait>
         <InternalName>PrecursorTreasury</InternalName>
         <DisplayName>PrecursorTreasury_Name</DisplayName>
@@ -8806,6 +8757,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorQuarantine 1 -->
     <PlanetTrait>
         <InternalName>PrecursorQuarantine</InternalName>
         <DisplayName>PrecursorQuarantine_Name</DisplayName>
@@ -8884,6 +8836,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorExperimentalWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorExperimentalWorld</InternalName>
         <DisplayName>PrecursorExperimentalWorld_Name</DisplayName>
@@ -8892,7 +8845,7 @@
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>18</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
@@ -8969,6 +8922,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- PrecursorPrison 1 -->
     <PlanetTrait>
         <InternalName>PrecursorPrison</InternalName>
         <DisplayName>PrecursorPrison_Name</DisplayName>
@@ -9054,6 +9008,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>ShardOfTheMithrilar</InternalName>
         <DisplayName>ShardOfTheMithrilar_Name</DisplayName>
@@ -9067,6 +9022,7 @@
             <PreferredDistribution>ShardOfTheMithrilar1</PreferredDistribution>
         </PlanetClassSelect>
     </PlanetTrait>
+    <!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>MakerWorld</InternalName>
         <DisplayName>MakerWorld_Name</DisplayName>
