@@ -1355,6 +1355,51 @@ Can only be built on Lake terrain.</String>
     <Label>ColonyUpgrade_CrystallizedElerium_ShortDec</Label>
     <String>Can be used to mine rare deposits of Crystallized Elerium and increase wealth.</String>
   </StringTable>
+
+  <StringTable>
+    <Label>AntimatterRefinery_Name</Label>
+    <String>Small Antimatter Refinery</String>
+  </StringTable>
+  <StringTable>
+    <Label>AntimatterRefinery_ShortDec</Label>
+    <String>Rare planetary deposit that can be mined for Antimatter which is used in Missile weapons.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AntimatterRefineryL1_Name</Label>
+    <String>Antimatter Refinery</String>
+  </StringTable>
+  <StringTable>
+    <Label>AntimatterRefineryL1_ShortDec</Label>
+    <String>Increase the yields of the Antimatter Refinery.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AntimatterRefineryL2_Name</Label>
+    <String>Large Antimatter Refinery</String>
+  </StringTable>
+  <StringTable>
+    <Label>AntimatterRefineryL2_ShortDec</Label>
+    <String>Increase the yields of the Antimatter Refinery.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AntimatterRefineryL3_Name</Label>
+    <String>Huge Antimatter Refinery</String>
+  </StringTable>
+  <StringTable>
+    <Label>AntimatterRefineryL3_ShortDec</Label>
+    <String>Increase the yields of the Antimatter Refinery.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>ColonyUpgrade_AntimatterRefinery_Name</Label>
+    <String>Orbital Antimatter Refinery</String>
+  </StringTable>
+  <StringTable>
+    <Label>ColonyUpgrade_AntimatterRefinery_ShortDec</Label>
+    <String>Can be used process a small amount of antimatter.</String>
+  </StringTable>
  
   <StringTable>
     <Label>PrometheusStone_Name</Label>

@@ -7385,299 +7385,6 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.25</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Corrosive 2 -->
-    <PlanetTrait>
-        <InternalName>CorrosiveWorld</InternalName>
-        <DisplayName>CorrosiveWorld_Name</DisplayName>
-        <Description>CorrosiveWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
-        <IsExtreme>true</IsExtreme>
-        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>3</RelativeWeight>
-        <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>21</Weight>
-            <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>19</Weight>
-            <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>CorrosiveWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>CorrosiveWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>CorrosiveWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>CorrosiveWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>CorrosiveWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>CorrosiveWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>CorrosiveWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>CorrosiveWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>1</Weight>
-            <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.55</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.45</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.45</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>PopulationCap</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>-2</Value>
-        </EffectModifier>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>CrystallizedElerium</StringParam>
-            </PerformAction>
-        </Triggers>
-        <ColonizationPrerequ>
-            <Techs>
-                <Option>Tech_ExtremeColonization</Option>
-            </Techs>
-        </ColonizationPrerequ>
-        <ExtremeTypeModifier>
-            <Prerequ>
-                <Techs>
-                    <Option>Tech_ExtremeColonization</Option>
-                </Techs>
-            </Prerequ>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.25</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-    </PlanetTrait>
-    <PlanetTrait>
-        <InternalName>CorrosiveWorldB</InternalName>
-        <DisplayName>CorrosiveWorld_Name</DisplayName>
-        <Description>CorrosiveWorld_Dec</Description>
-        <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
-        <IsExtreme>true</IsExtreme>
-        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>3</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
-        <PlanetClassSelect>
-            <MinPlanetClass>28</MinPlanetClass>
-            <MaxPlanetClass>40</MaxPlanetClass>
-            <Weight>21</Weight>
-            <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>25</MinPlanetClass>
-            <MaxPlanetClass>37</MaxPlanetClass>
-            <Weight>19</Weight>
-            <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>34</MaxPlanetClass>
-            <Weight>13</Weight>
-            <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>19</MinPlanetClass>
-            <MaxPlanetClass>31</MaxPlanetClass>
-            <Weight>11</Weight>
-            <PreferredDistribution>CorrosiveWorld4</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>8</Weight>
-            <PreferredDistribution>CorrosiveWorld5</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>13</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
-            <Weight>7</Weight>
-            <PreferredDistribution>CorrosiveWorld6</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>10</MinPlanetClass>
-            <MaxPlanetClass>22</MaxPlanetClass>
-            <Weight>6</Weight>
-            <PreferredDistribution>CorrosiveWorld7</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>7</MinPlanetClass>
-            <MaxPlanetClass>18</MaxPlanetClass>
-            <Weight>5</Weight>
-            <PreferredDistribution>CorrosiveWorld8</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>5</MinPlanetClass>
-            <MaxPlanetClass>8</MaxPlanetClass>
-            <Weight>4</Weight>
-            <PreferredDistribution>CorrosiveWorld9</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>3</MinPlanetClass>
-            <MaxPlanetClass>6</MaxPlanetClass>
-            <Weight>3</Weight>
-            <PreferredDistribution>CorrosiveWorld10</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>2</MinPlanetClass>
-            <MaxPlanetClass>4</MaxPlanetClass>
-            <Weight>2</Weight>
-            <PreferredDistribution>CorrosiveWorld11</PreferredDistribution>
-        </PlanetClassSelect>
-        <PlanetClassSelect>
-            <MinPlanetClass>0</MinPlanetClass>
-            <MaxPlanetClass>2</MaxPlanetClass>
-            <Weight>1</Weight>
-            <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
-        </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Planet</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.7</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.6</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.6</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>PopulationCap</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>-3</Value>
-        </EffectModifier>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>CrystallizedElerium</StringParam>
-            </PerformAction>
-        </Triggers>
-        <Triggers>
-            <OnEvent>OnCreatePlanet</OnEvent>
-            <PerformAction>
-                <Action>AddUpgradeToPlanet</Action>
-                <StringParam>CrystallizedElerium</StringParam>
-            </PerformAction>
-        </Triggers>
-        <ColonizationPrerequ>
-            <Techs>
-                <Option>Tech_ExtremeColonization</Option>
-            </Techs>
-        </ColonizationPrerequ>
-        <ExtremeTypeModifier>
-            <Prerequ>
-                <Techs>
-                    <Option>Tech_ExtremeColonization</Option>
-                </Techs>
-            </Prerequ>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.4</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
     </PlanetTrait><!-- Frozen 2 -->
     <PlanetTrait>
         <InternalName>FrozenWorld</InternalName>
@@ -8461,7 +8168,7 @@
                 <Value>-0.75</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Done till here Toxic 2 todo GIVE EFFECTS -->
+    </PlanetTrait><!-- Toxic 2 -->
     <PlanetTrait>
         <InternalName>ToxicWorld</InternalName>
         <DisplayName>ToxicWorld_Name</DisplayName>
@@ -8469,7 +8176,7 @@
         <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
@@ -8481,75 +8188,92 @@
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
             <Weight>2</Weight>
-            <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
             <Weight>3</Weight>
-            <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
             <Weight>4</Weight>
-            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
             <Weight>5</Weight>
-            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
             <Weight>6</Weight>
-            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
             <Weight>9</Weight>
-            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>11</MaxPlanetClass>
             <Weight>12</Weight>
-            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
             <Weight>14</Weight>
-            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>1</MinPlanetClass>
             <MaxPlanetClass>5</MaxPlanetClass>
             <Weight>16</Weight>
-            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>0</MinPlanetClass>
             <MaxPlanetClass>1</MaxPlanetClass>
             <Weight>18</Weight>
-            <PreferredDistribution>DeadWorld</PreferredDistribution>
+            <PreferredDistribution>ToxicWorld12</PreferredDistribution>
         </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>StarbaseRange</EffectType>
+            <Scope>Local</Scope>
+            <Target>
+                <TargetType>Starbase</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Tourism</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
         <EffectModifier>
             <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>0.3</Value>
+            <Value>0.6</Value>
         </EffectModifier>
         <ColonizationPrerequ>
             <Techs>
@@ -8569,11 +8293,527 @@
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.4</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Radioactive todo GIVE EFFECTS 3 -->
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>ResistanceToPlanetCapture</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.75</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>ToxicWorldB</InternalName>
+        <DisplayName>ToxicWorld_Name</DisplayName>
+        <Description>ToxicWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
+        <IsExtreme>true</IsExtreme>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.001</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>ToxicWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>ToxicWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>ToxicWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>ToxicWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>ToxicWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>ToxicWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>ToxicWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>ToxicWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>ToxicWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>14</Weight>
+            <PreferredDistribution>ToxicWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>1</MinPlanetClass>
+            <MaxPlanetClass>5</MaxPlanetClass>
+            <Weight>16</Weight>
+            <PreferredDistribution>ToxicWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>1</MaxPlanetClass>
+            <Weight>18</Weight>
+            <PreferredDistribution>ToxicWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>StarbaseRange</EffectType>
+            <Scope>Local</Scope>
+            <Target>
+                <TargetType>Starbase</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Tourism</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.9</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.6</Value>
+        </EffectModifier>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>Tech_ExtremeColonization</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_ExtremeColonization</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.6</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>ResistanceToPlanetCapture</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.65</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <!-- Corrosive 2  Beam attack & manufacturing-->
+    <PlanetTrait>
+        <InternalName>CorrosiveWorld</InternalName>
+        <DisplayName>CorrosiveWorld_Name</DisplayName>
+        <Description>CorrosiveWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
+        <IsExtreme>true</IsExtreme>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <RelativeWeight>3</RelativeWeight>
+        <TradeResourcesPerTile>0.1</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>21</Weight>
+            <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>19</Weight>
+            <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>CorrosiveWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>CorrosiveWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>CorrosiveWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>CorrosiveWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>CorrosiveWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>CorrosiveWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>6</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>CorrosiveWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>2</MinPlanetClass>
+            <MaxPlanetClass>4</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>CorrosiveWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>2</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.55</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamAttack</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>CrystallizedElerium</StringParam>
+            </PerformAction>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>Tech_ExtremeColonization</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_ExtremeColonization</Option>
+                </Techs>
+            </Prerequ>
+            <Modifier>
+                <EffectType>Growth</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>MaxManufacturing</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.25</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>FoodIncome</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.4</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.4</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>CorrosiveWorldB</InternalName>
+        <DisplayName>CorrosiveWorld_Name</DisplayName>
+        <Description>CorrosiveWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
+        <IsExtreme>true</IsExtreme>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <RelativeWeight>3</RelativeWeight>
+        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>28</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>21</Weight>
+            <PreferredDistribution>CorrosiveWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>25</MinPlanetClass>
+            <MaxPlanetClass>37</MaxPlanetClass>
+            <Weight>19</Weight>
+            <PreferredDistribution>CorrosiveWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>22</MinPlanetClass>
+            <MaxPlanetClass>34</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>CorrosiveWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>31</MaxPlanetClass>
+            <Weight>11</Weight>
+            <PreferredDistribution>CorrosiveWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>16</MinPlanetClass>
+            <MaxPlanetClass>28</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>CorrosiveWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>25</MaxPlanetClass>
+            <Weight>7</Weight>
+            <PreferredDistribution>CorrosiveWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>10</MinPlanetClass>
+            <MaxPlanetClass>22</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>CorrosiveWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>18</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>CorrosiveWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>CorrosiveWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>6</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>CorrosiveWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>2</MinPlanetClass>
+            <MaxPlanetClass>4</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>CorrosiveWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>2</MaxPlanetClass>
+            <Weight>1</Weight>
+            <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.65</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamAttack</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>CrystallizedElerium</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_CrystallizedElerium</StringParam>
+            </PerformAction>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>Tech_ExtremeColonization</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_ExtremeColonization</Option>
+                </Techs>
+            </Prerequ>
+            <Modifier>
+                <EffectType>Growth</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.6</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>MaxManufacturing</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.35</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>FoodIncome</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.6</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <!-- Radioactive 3 Missile attack & manufacturing -->
     <PlanetTrait>
         <InternalName>RadioactiveWorld</InternalName>
         <DisplayName>RadioactiveWorld_Name</DisplayName>
@@ -8581,8 +8821,8 @@
         <HUDIcon>GC3_Extreme_Radioactive_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <RelativeWeight>3</RelativeWeight>
-        <TradeResourcesPerTile>0.4</TradeResourcesPerTile>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.005</TradeResourcesPerTile>
         <PlanetClassSelect>
             <MinPlanetClass>21</MinPlanetClass>
             <MaxPlanetClass>35</MaxPlanetClass>
@@ -8593,76 +8833,107 @@
             <MinPlanetClass>19</MinPlanetClass>
             <MaxPlanetClass>32</MaxPlanetClass>
             <Weight>3</Weight>
-            <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>17</MinPlanetClass>
             <MaxPlanetClass>29</MaxPlanetClass>
             <Weight>4</Weight>
-            <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>15</MinPlanetClass>
             <MaxPlanetClass>26</MaxPlanetClass>
             <Weight>5</Weight>
-            <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld4</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>13</MinPlanetClass>
             <MaxPlanetClass>23</MaxPlanetClass>
             <Weight>6</Weight>
-            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld5</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>11</MinPlanetClass>
             <MaxPlanetClass>20</MaxPlanetClass>
             <Weight>8</Weight>
-            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld6</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>9</MinPlanetClass>
             <MaxPlanetClass>17</MaxPlanetClass>
             <Weight>9</Weight>
-            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld7</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>7</MinPlanetClass>
             <MaxPlanetClass>14</MaxPlanetClass>
             <Weight>10</Weight>
-            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld8</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>5</MinPlanetClass>
             <MaxPlanetClass>11</MaxPlanetClass>
             <Weight>12</Weight>
-            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld9</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>3</MinPlanetClass>
             <MaxPlanetClass>8</MaxPlanetClass>
             <Weight>13</Weight>
-            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld10</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>1</MinPlanetClass>
             <MaxPlanetClass>5</MaxPlanetClass>
             <Weight>15</Weight>
-            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld11</PreferredDistribution>
         </PlanetClassSelect>
         <PlanetClassSelect>
             <MinPlanetClass>0</MinPlanetClass>
             <MaxPlanetClass>1</MaxPlanetClass>
             <Weight>13</Weight>
-            <PreferredDistribution>DeadWorld</PreferredDistribution>
+            <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
-        <EffectModifier>
-            <EffectType>Pollution</EffectType>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_AntimatterRefinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
             <Target>
-                <TargetType>Planet</TargetType>
+                <TargetType>Ship</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.1</Value>
-        </EffectModifier>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileAttack</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.075</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.075</Value>
+            </Modifier>
+        </Triggers>
         <ColonizationPrerequ>
             <Techs>
                 <Option>Tech_ExtremeColonization</Option>
@@ -8671,18 +8942,160 @@
         <ExtremeTypeModifier>
             <Prerequ>
                 <Techs>
+                    <Option>Tech_ExtremeColonization</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
                     <Option>Tech_RadioactiveWorldMastery</Option>
                 </Techs>
             </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
             <Modifier>
-                <EffectType>PopulationCap</EffectType>
+                <EffectType>ResistanceToPlanetCapture</EffectType>
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>RadioactiveWorldB</InternalName>
+        <DisplayName>RadioactiveWorld_Name</DisplayName>
+        <Description>RadioactiveWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Radioactive_32.png</HUDIcon>
+        <IsExtreme>true</IsExtreme>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.005</TradeResourcesPerTile>
+        <PlanetClassSelect>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>RadioactiveWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>RadioactiveWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>RadioactiveWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>RadioactiveWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>RadioactiveWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>RadioactiveWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>RadioactiveWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>1</MinPlanetClass>
+            <MaxPlanetClass>5</MaxPlanetClass>
+            <Weight>15</Weight>
+            <PreferredDistribution>RadioactiveWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>1</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
+        </PlanetClassSelect>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>AntimatterRefinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_AntimatterRefinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileAttack</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.15</Value>
+            </Modifier>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>Tech_ExtremeColonization</Option>
+            </Techs>
+        </ColonizationPrerequ>
         <ExtremeTypeModifier>
             <Prerequ>
                 <Techs>
@@ -8691,106 +9104,195 @@
             </Prerequ>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_RadioactiveWorldMastery</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
             <Modifier>
-                <EffectType>PopulationCap</EffectType>
+                <EffectType>ResistanceToPlanetCapture</EffectType>
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Thulium 2 -->
+    </PlanetTrait>
     <PlanetTrait>
-        <InternalName>ThuliumMoon</InternalName>
-        <DisplayName>ThuliumMoon_Name</DisplayName>
-        <Description>ThuliumMoon_Dec</Description>
+        <InternalName>RadioactiveWorldC</InternalName>
+        <DisplayName>RadioactiveWorld_Name</DisplayName>
+        <Description>RadioactiveWorld_Dec</Description>
+        <HUDIcon>GC3_Extreme_Radioactive_32.png</HUDIcon>
+        <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
-        <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
+        <TradeResourcesPerTile>0.005</TradeResourcesPerTile>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
-            <Weight>100</Weight>
-            <PreferredDistribution>ThuliumMoon1</PreferredDistribution>
+            <MinPlanetClass>21</MinPlanetClass>
+            <MaxPlanetClass>35</MaxPlanetClass>
+            <Weight>2</Weight>
+            <PreferredDistribution>RadioactiveWorld1</PreferredDistribution>
         </PlanetClassSelect>
-        <ColonizeEvent>ThuliumMoonEvent</ColonizeEvent>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
+        <PlanetClassSelect>
+            <MinPlanetClass>19</MinPlanetClass>
+            <MaxPlanetClass>32</MaxPlanetClass>
+            <Weight>3</Weight>
+            <PreferredDistribution>RadioactiveWorld2</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>17</MinPlanetClass>
+            <MaxPlanetClass>29</MaxPlanetClass>
+            <Weight>4</Weight>
+            <PreferredDistribution>RadioactiveWorld3</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>15</MinPlanetClass>
+            <MaxPlanetClass>26</MaxPlanetClass>
+            <Weight>5</Weight>
+            <PreferredDistribution>RadioactiveWorld4</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>13</MinPlanetClass>
+            <MaxPlanetClass>23</MaxPlanetClass>
+            <Weight>6</Weight>
+            <PreferredDistribution>RadioactiveWorld5</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>11</MinPlanetClass>
+            <MaxPlanetClass>20</MaxPlanetClass>
+            <Weight>8</Weight>
+            <PreferredDistribution>RadioactiveWorld6</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>9</MinPlanetClass>
+            <MaxPlanetClass>17</MaxPlanetClass>
+            <Weight>9</Weight>
+            <PreferredDistribution>RadioactiveWorld7</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>7</MinPlanetClass>
+            <MaxPlanetClass>14</MaxPlanetClass>
+            <Weight>10</Weight>
+            <PreferredDistribution>RadioactiveWorld8</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>5</MinPlanetClass>
+            <MaxPlanetClass>11</MaxPlanetClass>
+            <Weight>12</Weight>
+            <PreferredDistribution>RadioactiveWorld9</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>3</MinPlanetClass>
+            <MaxPlanetClass>8</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>RadioactiveWorld10</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>1</MinPlanetClass>
+            <MaxPlanetClass>5</MaxPlanetClass>
+            <Weight>15</Weight>
+            <PreferredDistribution>RadioactiveWorld11</PreferredDistribution>
+        </PlanetClassSelect>
+        <PlanetClassSelect>
+            <MinPlanetClass>0</MinPlanetClass>
+            <MaxPlanetClass>1</MaxPlanetClass>
+            <Weight>13</Weight>
+            <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
+        </PlanetClassSelect>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
-                <StringParam>ColonyUpgrade_ThuliumMoon</StringParam>
+                <StringParam>AntimatterRefinery</StringParam>
             </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>AntimatterRefineryL1</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_AntimatterRefinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileAttack</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.3</Value>
+            </Modifier>
         </Triggers>
         <ColonizationPrerequ>
             <Techs>
-                <Option>TechTree</Option>
+                <Option>Tech_ExtremeColonization</Option>
             </Techs>
         </ColonizationPrerequ>
         <ExtremeTypeModifier>
             <Prerequ>
                 <Techs>
-                    <Option>Tech_PrecursorStudies</Option>
+                    <Option>Tech_ExtremeColonization</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Prerequ>
                 <Techs>
-                    <Option>Tech_PrecursorArcheology</Option>
+                    <Option>Tech_RadioactiveWorldMastery</Option>
                 </Techs>
             </Prerequ>
-            <Triggers>
-                <OnEvent>OnConstructShip</OnEvent>
-                <Scope>Queue</Scope>
-                <Target>
-                    <TargetType>Ship</TargetType>
-                </Target>
-                <Lifetime>Target</Lifetime>
-                <Modifier>
-                    <EffectType>HitPointsCap</EffectType>
-                    <Target>
-                        <TargetType>Ship</TargetType>
-                    </Target>
-                    <BonusType>Flat</BonusType>
-                    <Value>10</Value>
-                </Modifier>
-            </Triggers>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Modifier>
-                <EffectType>PopulationCap</EffectType>
+                <EffectType>ResistanceToPlanetCapture</EffectType>
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.6</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Durantium 2 -->
+    </PlanetTrait>
+    <!-- Durantium 2 Kinetic attack & manufacturing -->
     <PlanetTrait>
         <InternalName>DurantiumCloud</InternalName>
         <DisplayName>DurantiumCloud_Name</DisplayName>
         <Description>DurantiumCloud_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
             <MinPlanetClass>20</MinPlanetClass>
             <MaxPlanetClass>30</MaxPlanetClass>
@@ -8824,14 +9326,78 @@
                     <Option>Tech_PrecursorStudies</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ><Triggers>
+                <OnEvent>OnConstructShip</OnEvent>
+                <Scope>Queue</Scope>
                 <Target>
-                    <TargetType>Colony</TargetType>
+                    <TargetType>Ship</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
+                <Lifetime>Target</Lifetime>
+                <Modifier>
+                    <EffectType>KineticAttack</EffectType>
+                    <Target>
+                        <TargetType>Ship</TargetType>
+                    </Target>
+                    <BonusType>Multiplier</BonusType>
+                    <Value>0.15</Value>
+                </Modifier>
+            </Triggers>
+            <Triggers>
+                <OnEvent>OnConstructShip</OnEvent>
+                <Scope>Queue</Scope>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <Lifetime>Target</Lifetime>
+                <Modifier>
+                    <EffectType>KineticManufacturingCost</EffectType>
+                    <Target>
+                        <TargetType>Ship</TargetType>
+                    </Target>
+                    <BonusType>Multiplier</BonusType>
+                    <Value>-0.15</Value>
+                </Modifier>
+            </Triggers>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>DurantiumCloudB</InternalName>
+        <DisplayName>DurantiumCloud_Name</DisplayName>
+        <Description>DurantiumCloud_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>1</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>100</Weight>
+            <PreferredDistribution>DurantiumCloud1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>DurantiumCloudEvent</ColonizeEvent>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_DurantiumCloud</StringParam>
+            </PerformAction>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Prerequ>
@@ -8852,9 +9418,148 @@
                         <TargetType>Ship</TargetType>
                     </Target>
                     <BonusType>Multiplier</BonusType>
-                    <Value>0.2</Value>
+                    <Value>0.3</Value>
                 </Modifier>
             </Triggers>
+            <Triggers>
+                <OnEvent>OnConstructShip</OnEvent>
+                <Scope>Queue</Scope>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <Lifetime>Target</Lifetime>
+                <Modifier>
+                    <EffectType>KineticManufacturingCost</EffectType>
+                    <Target>
+                        <TargetType>Ship</TargetType>
+                    </Target>
+                    <BonusType>Multiplier</BonusType>
+                    <Value>-0.3</Value>
+                </Modifier>
+            </Triggers>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    
+    <!-- Thulium 2 + Range -Accuracy -->
+    <PlanetTrait>
+        <InternalName>ThuliumMoon</InternalName>
+        <DisplayName>ThuliumMoon_Name</DisplayName>
+        <Description>ThuliumMoon_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>1</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>100</Weight>
+            <PreferredDistribution>ThuliumMoon1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>ThuliumMoonEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_ThuliumMoon</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>KineticRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>Accuracy</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.075</Value>
+            </Modifier>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.25</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Modifier>
@@ -8862,11 +9567,144 @@
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.25</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Promethion 2 -->
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>ThuliumMoonB</InternalName>
+        <DisplayName>ThuliumMoon_Name</DisplayName>
+        <Description>ThuliumMoon_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>1</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>30</MaxPlanetClass>
+            <Weight>100</Weight>
+            <PreferredDistribution>ThuliumMoon1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>ThuliumMoonEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_ThuliumMoon</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>BeamRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MissileRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>KineticRange</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>Accuracy</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.15</Value>
+            </Modifier>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Modifier>
+                <EffectType>PopulationCap</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.5</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    
+    <!-- Promethion 2 Movescap -->
     <PlanetTrait>
         <InternalName>PromethionRefinery</InternalName>
         <DisplayName>PromethionRefinery_Name</DisplayName>
@@ -8904,6 +9742,38 @@
                 <StringParam>ColonyUpgrade_Refinery</StringParam>
             </PerformAction>
         </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MovesCap</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MovesCapManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.15</Value>
+            </Modifier>
+        </Triggers>
         <ColonizationPrerequ>
             <Techs>
                 <Option>TechTree</Option>
@@ -8915,14 +9785,6 @@
                     <Option>Tech_PrecursorStudies</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Prerequ>
@@ -8931,15 +9793,86 @@
                 </Techs>
             </Prerequ>
         </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>PromethionRefineryB</InternalName>
+        <DisplayName>PromethionRefinery_Name</DisplayName>
+        <Description>PromethionRefinery_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>2</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>20</MinPlanetClass>
+            <MaxPlanetClass>27</MaxPlanetClass>
+            <Weight>100</Weight>
+            <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.6</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_Refinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
             <Modifier>
-                <EffectType>PopulationCap</EffectType>
+                <EffectType>MovesCap</EffectType>
                 <Target>
-                    <TargetType>Colony</TargetType>
+                    <TargetType>Ship</TargetType>
                 </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.3</Value>
             </Modifier>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>MovesCapManufacturingCost</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.3</Value>
+            </Modifier>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
+        </ExtremeTypeModifier>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
     </PlanetTrait><!-- PrecursorAccelerator 2 -->
     <PlanetTrait>

@@ -370,7 +370,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ToxicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldC</BlockedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -437,7 +440,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ToxicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldC</BlockedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -524,7 +530,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ToxicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldC</BlockedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>
@@ -563,7 +572,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ToxicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldC</BlockedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>AquaticWorldC</SupportedPlanetTraits>
@@ -721,7 +733,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <BlockedPlanetTraits>BarrenWorldC</BlockedPlanetTraits>
     <BlockedPlanetTraits>BarrenWorldD</BlockedPlanetTraits>
     <BlockedPlanetTraits>ToxicWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>ToxicWorldB</BlockedPlanetTraits>
     <BlockedPlanetTraits>RadioactiveWorld</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldB</BlockedPlanetTraits>
+    <BlockedPlanetTraits>RadioactiveWorldC</BlockedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorld</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>ArborealWorldC</SupportedPlanetTraits>
@@ -1587,6 +1602,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetFeatureDefs.xsd">
     <SupportedPlanetTraits>BombardedWorldB</SupportedPlanetTraits>
     <SupportedPlanetTraits>BombardedWorldC</SupportedPlanetTraits>
     <SupportedPlanetTraits>RadioactiveWorld</SupportedPlanetTraits>
+    <SupportedPlanetTraits>RadioactiveWorldB</SupportedPlanetTraits>
+    <SupportedPlanetTraits>RadioactiveWorldC</SupportedPlanetTraits>
     <Bonus>
       <EffectType>Level</EffectType>
       <Target>

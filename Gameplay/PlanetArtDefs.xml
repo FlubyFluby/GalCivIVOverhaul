@@ -2821,7 +2821,34 @@
         <InternalName>ToxicWorld</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>ToxicWorld</PlanetTrait>
-        <MinClass>8</MinClass>
+        <ObjectGfxConfigFile>PlanetDesign_Toxic_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>WhiteCloudsAtmosphere_Appearance_R</ObjectGfxConfigAppearanceID>
+        <!-- EarthLike_Appearance_R    ToxicAtmospherePlanet_Appearance_R -->
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Toxic.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Toxic.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    
+    <ArtDefine>
+        <InternalName>ToxicWorldB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>ToxicWorldB</PlanetTrait>
         <ObjectGfxConfigFile>PlanetDesign_Toxic_01.objgfxcfg</ObjectGfxConfigFile>
         <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
         <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
@@ -2899,6 +2926,59 @@
             <Scale>55</Scale>
         </HaloEffect>
     </ArtDefine>
+    <ArtDefine>
+        <InternalName>RadioactiveWorldB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>RadioactiveWorldB</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Radioactive_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>RadioactiveWorld_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Radioactive.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Radioactive.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>RadioactiveWorldC</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>RadioactiveWorldC</PlanetTrait>  
+        <ObjectGfxConfigFile>PlanetDesign_Radioactive_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>RadioactiveWorld_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_Radioactive.png</ThumbnailOverride>
+        <PlanetWndBGMovie>Planet_Radioactive.bk2</PlanetWndBGMovie>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+
     <ArtDefine>
         <InternalName>RadioactiveWorld_Poor</InternalName>
         <PlanetType>Habitable</PlanetType>
@@ -3027,9 +3107,60 @@
         </HaloEffect>
     </ArtDefine>
     <ArtDefine>
+        <InternalName>ThuliumMoonB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>ThuliumMoonB</PlanetTrait>
+        <ObjectGfxConfigFile>Thulium_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Resource_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Resource_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <LoResParticleEffectScript>ThuliumParticleEffect</LoResParticleEffectScript>
+        <ThumbnailOverride>PlanetIcon_ShardOfTheMithrilar.png</ThumbnailOverride>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>40</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
         <InternalName>DurantiumCloud</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>DurantiumCloud</PlanetTrait>
+        <ObjectGfxConfigFile>PlanetDesign_Mountain_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_PrecursorWorld_Red.png</ThumbnailOverride>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>DurantiumCloudB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>DurantiumCloudB</PlanetTrait>
         <ObjectGfxConfigFile>PlanetDesign_Mountain_01.objgfxcfg</ObjectGfxConfigFile>
         <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
         <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
@@ -3105,6 +3236,30 @@
         <InternalName>PromethionRefinery</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>PromethionRefinery</PlanetTrait>
+        <ObjectGfxConfigFile>PlanetDesign_PrecursorBrown_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    <ArtDefine>
+        <InternalName>PromethionRefineryB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>PromethionRefineryB</PlanetTrait>
         <ObjectGfxConfigFile>PlanetDesign_PrecursorBrown_01.objgfxcfg</ObjectGfxConfigFile>
         <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
         <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
