@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<PlanetTraitList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd"><!-- PlanetTraitDefs.xml 
+<PlanetTraitList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
+    <!-- PlanetTraitDefs.xml 
         Desert 9 -->
     <PlanetTrait>
         <InternalName>DesertWorld</InternalName>
@@ -940,7 +941,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.6</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Terrestrial 8 -->
+    </PlanetTrait>
+    
+    <!-- Terrestrial 8 -->
     <PlanetTrait>
         <InternalName>TerrestrialWorld</InternalName>
         <DisplayName>TerrestrialWorld_Name</DisplayName>
@@ -1700,7 +1703,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.18</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Arboreal 6 -->
+    </PlanetTrait>
+
+    <!-- Arboreal 6 -->
     <PlanetTrait>
         <InternalName>ArborealWorld</InternalName>
         <DisplayName>ArborealWorld_Name</DisplayName>
@@ -2332,7 +2337,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>0.2</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Mountainous 8 -->
+    </PlanetTrait>
+
+    <!-- Mountainous 8 -->
     <PlanetTrait>
         <InternalName>MountainousWorld</InternalName>
         <DisplayName>MountainousWorld_Name</DisplayName>
@@ -3240,7 +3247,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.2</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Volcanic 8 -->
+    </PlanetTrait>
+
+    <!-- Volcanic 8 -->
     <PlanetTrait>
         <InternalName>VolcanicWorld</InternalName>
         <DisplayName>VolcanicWorld_Name</DisplayName>
@@ -4142,7 +4151,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.5</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Jungle World 5 -->
+    </PlanetTrait>
+
+    <!-- Jungle World 5 -->
     <PlanetTrait>
         <InternalName>JungleWorld</InternalName>
         <DisplayName>JungleWorld_Name</DisplayName>
@@ -4711,7 +4722,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.16</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Tropical 5 -->
+    </PlanetTrait>
+
+    <!-- Tropical 5 -->
     <PlanetTrait>
         <InternalName>TropicalWorld</InternalName>
         <DisplayName>TropicalWorld_Name</DisplayName>
@@ -5272,7 +5285,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.15</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Paradise 5 -->
+    </PlanetTrait>
+
+    <!-- Paradise 5 -->
     <PlanetTrait>
         <InternalName>ParadiseWorld</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
@@ -5357,7 +5372,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.1</Value>
+            <Value>0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.04</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.04</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
@@ -5365,15 +5396,7 @@
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.1</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.1</Value>
+            <Value>0.04</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -5382,6 +5405,16 @@
                 <StringParam>ColonyUpgrade_SnugglerColony</StringParam>
             </PerformAction>
         </Triggers>
+        <ExtremeTypeModifier>
+            <Modifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.04</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>ParadiseWorldB</InternalName>
@@ -5467,7 +5500,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.15</Value>
+            <Value>0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.08</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.08</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
@@ -5475,15 +5524,7 @@
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.15</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
+            <Value>0.08</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -5492,6 +5533,16 @@
                 <StringParam>MonsatiumDepositL1</StringParam>
             </PerformAction>
         </Triggers>
+        <ExtremeTypeModifier>
+            <Modifier>
+            <EffectType>Manufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.08</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>ParadiseWorldC</InternalName>
@@ -5577,7 +5628,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.2</Value>
+            <Value>0.12</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.12</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.12</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
@@ -5585,16 +5652,18 @@
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.2</Value>
+            <Value>0.12</Value>
         </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
+        <ExtremeTypeModifier>
+            <Modifier>
+            <EffectType>Manufacturing</EffectType>
             <Target>
-                <TargetType>Unit</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.2</Value>
-        </EffectModifier>
+            <Value>-0.12</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>ParadiseWorldD</InternalName>
@@ -5680,7 +5749,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.25</Value>
+            <Value>0.16</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.16</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.16</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
@@ -5688,17 +5773,22 @@
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.25</Value>
+            <Value>0.16</Value>
         </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
+        <ExtremeTypeModifier>
+            <Modifier>
+            <EffectType>Manufacturing</EffectType>
             <Target>
-                <TargetType>Unit</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
-        </EffectModifier>
+            <Value>-0.16</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
     </PlanetTrait>
+    <!-- 
+
+
     <PlanetTrait>
         <InternalName>ParadiseWorldE</InternalName>
         <DisplayName>ParadiseWorld_Name</DisplayName>
@@ -5783,7 +5873,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.30</Value>
+            <Value>0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.2</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.2</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyApproval</EffectType>
@@ -5791,17 +5897,22 @@
                 <TargetType>Unit</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.30</Value>
+            <Value>0.2</Value>
         </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyGrossIncome</EffectType>
+        <ExtremeTypeModifier>
+            <Modifier>
+            <EffectType>Manufacturing</EffectType>
             <Target>
-                <TargetType>Unit</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.30</Value>
-        </EffectModifier>
-    </PlanetTrait><!-- Aquatic  5 -->
+            <Value>-0.2</Value>
+            </Modifier>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    -->
+
+    <!-- Aquatic  5 -->
     <PlanetTrait>
         <InternalName>AquaticWorld</InternalName>
         <DisplayName>AquaticWorld_Name</DisplayName>
@@ -6290,7 +6401,9 @@
                 <Value>-0.6</Value>
             </Modifier>
         </Triggers>
-    </PlanetTrait><!-- Low Gravity 4 -->
+    </PlanetTrait>
+
+    <!-- Low Gravity 4 -->
     <PlanetTrait>
         <InternalName>LowGravityWorld</InternalName>
         <DisplayName>LowGravityWorld_Name</DisplayName>
@@ -6741,7 +6854,9 @@
             <BonusType>Flat</BonusType>
             <Value>0.25</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Thin Atmosphere 3 -->
+    </PlanetTrait>
+
+    <!-- Thin Atmosphere 3 -->
     <PlanetTrait>
         <InternalName>ThinAtmosphereWorld</InternalName>
         <DisplayName>ThinAtmosphereWorld_Name</DisplayName>
@@ -6826,7 +6941,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.2</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>FoodIncome</EffectType>
@@ -6834,16 +6949,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.01</Value>
+            <Value>0.2</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -6937,7 +7043,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.4</Value>
+            <Value>-0.3</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>FoodIncome</EffectType>
@@ -6945,16 +7051,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.4</Value>
-        </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.008</Value>
+            <Value>0.3</Value>
         </EffectModifier>
     </PlanetTrait>
     <PlanetTrait>
@@ -7041,7 +7138,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.3</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>FoodIncome</EffectType>
@@ -7049,18 +7146,11 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.3</Value>
+            <Value>0.4</Value>
         </EffectModifier>
-        <EffectModifier>
-            <EffectType>ColonyApproval</EffectType>
-            <Scope>Global</Scope>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.005</Value>
-        </EffectModifier>
-    </PlanetTrait><!-- Bombarded World 3 -->
+    </PlanetTrait>
+
+    <!-- Bombarded World 3 -->
     <PlanetTrait>
         <InternalName>BombardedWorld</InternalName>
         <DisplayName>BombardedWorld_Name</DisplayName>
@@ -7258,7 +7348,8 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.2</Value>
         </EffectModifier>
-        <EffectModifier><!-- Why does it work here but not elsewhere wth -->
+        <EffectModifier>
+    <!-- Why does it work here but not elsewhere wth -->
             <EffectType>PlanetaryDefensesMaxHP</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
@@ -7369,7 +7460,8 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.25</Value>
         </EffectModifier>
-        <EffectModifier><!-- Why does it work here but not elsewhere wth -->
+        <EffectModifier>
+    <!-- Why does it work here but not elsewhere wth -->
             <EffectType>PlanetaryDefensesMaxHP</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
@@ -7385,7 +7477,9 @@
             <BonusType>Multiplier</BonusType>
             <Value>-0.25</Value>
         </EffectModifier>
-    </PlanetTrait><!-- Frozen 2 -->
+    </PlanetTrait>
+
+    <!-- Frozen 2 -->
     <PlanetTrait>
         <InternalName>FrozenWorld</InternalName>
         <DisplayName>FrozenWorld_Name</DisplayName>
@@ -7637,7 +7731,9 @@
                 <Value>0.25</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Barren 4 -->
+    </PlanetTrait>
+
+    <!-- Barren 4 -->
     <PlanetTrait>
         <InternalName>BarrenWorld</InternalName>
         <DisplayName>BarrenWorld_Name</DisplayName>
@@ -8168,7 +8264,9 @@
                 <Value>-0.75</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Toxic 2 -->
+    </PlanetTrait>
+
+    <!-- Toxic 2 -->
     <PlanetTrait>
         <InternalName>ToxicWorld</InternalName>
         <DisplayName>ToxicWorld_Name</DisplayName>
@@ -8447,6 +8545,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    
     <!-- Corrosive 2  Beam attack & manufacturing-->
     <PlanetTrait>
         <InternalName>CorrosiveWorld</InternalName>
@@ -8530,6 +8629,30 @@
             <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.4</Value>
+        </EffectModifier>
+        <EffectModifier>
+                <EffectType>MaxManufacturing</EffectType>
+                <Target>
+                    <TargetType>Colony</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>-0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
             <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
@@ -8587,50 +8710,12 @@
                     <Option>Tech_ExtremeColonization</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>Growth</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.5</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.25</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>FoodIncome</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.4</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.4</Value>
-            </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>CorrosiveWorldB</InternalName>
-        <DisplayName>CorrosiveWorld_Name</DisplayName>
-        <Description>CorrosiveWorld_Dec</Description>
+        <DisplayName>CorrosiveWorldB_Name</DisplayName>
+        <Description>CorrosiveWorldB_Dec</Description>
         <HUDIcon>GC3_Extreme_Toxic_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
@@ -8709,6 +8794,30 @@
             <PreferredDistribution>CorrosiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
         <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.6</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>FoodIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.6</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>MaxManufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.35</Value>
+        </EffectModifier>
+        <EffectModifier>
             <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
@@ -8782,37 +8891,8 @@
                 <Value>-0.6</Value>
             </Modifier>
         </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.35</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>FoodIncome</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.6</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
-        <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.5</Value>
-            </Modifier>
-        </ExtremeTypeModifier>
     </PlanetTrait>
+    
     <!-- Radioactive 3 Missile attack & manufacturing -->
     <PlanetTrait>
         <InternalName>RadioactiveWorld</InternalName>
@@ -8966,8 +9046,8 @@
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>RadioactiveWorldB</InternalName>
-        <DisplayName>RadioactiveWorld_Name</DisplayName>
-        <Description>RadioactiveWorld_Dec</Description>
+        <DisplayName>RadioactiveWorldB_Name</DisplayName>
+        <Description>RadioactiveWorldB_Dec</Description>
         <HUDIcon>GC3_Extreme_Radioactive_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
@@ -9123,8 +9203,8 @@
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>RadioactiveWorldC</InternalName>
-        <DisplayName>RadioactiveWorld_Name</DisplayName>
-        <Description>RadioactiveWorld_Dec</Description>
+        <DisplayName>RadioactiveWorldC_Name</DisplayName>
+        <Description>RadioactiveWorldC_Dec</Description>
         <HUDIcon>GC3_Extreme_Radioactive_32.png</HUDIcon>
         <IsExtreme>true</IsExtreme>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
@@ -9285,6 +9365,7 @@
             </Modifier>
         </ExtremeTypeModifier>
     </PlanetTrait>
+    
     <!-- Durantium 2 Kinetic attack & manufacturing -->
     <PlanetTrait>
         <InternalName>DurantiumCloud</InternalName>
@@ -9294,8 +9375,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>DurantiumCloud1</PreferredDistribution>
         </PlanetClassSelect>
@@ -9306,13 +9387,36 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.6</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.6</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.6</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
                 <StringParam>ColonyUpgrade_DurantiumCloud</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>RawResourceProcessor</StringParam>
             </PerformAction>
         </Triggers>
         <ColonizationPrerequ>
@@ -9368,18 +9472,42 @@
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>DurantiumCloudB</InternalName>
-        <DisplayName>DurantiumCloud_Name</DisplayName>
-        <Description>DurantiumCloud_Dec</Description>
+        <DisplayName>DurantiumCloudB_Name</DisplayName>
+        <Description>DurantiumCloudB_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>DurantiumCloud1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>DurantiumCloudEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
@@ -9449,8 +9577,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>ThuliumMoon1</PreferredDistribution>
         </PlanetClassSelect>
@@ -9461,13 +9589,36 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.65</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.65</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.65</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
                 <StringParam>ColonyUpgrade_ThuliumMoon</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>RawResourceProcessor</StringParam>
             </PerformAction>
         </Triggers>
         <Triggers>
@@ -9574,14 +9725,14 @@
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>ThuliumMoonB</InternalName>
-        <DisplayName>ThuliumMoon_Name</DisplayName>
-        <Description>ThuliumMoon_Dec</Description>
+        <DisplayName>ThuliumMoonB_Name</DisplayName>
+        <Description>ThuliumMoonB_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>ThuliumMoon1</PreferredDistribution>
         </PlanetClassSelect>
@@ -9592,7 +9743,23 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.75</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9704,18 +9871,18 @@
         </ExtremeTypeModifier>
     </PlanetTrait>
     
-    <!-- Promethion 2 Movescap -->
+    <!-- Promethion 2 Move cap(Multiplier), manufacturing time -->
     <PlanetTrait>
         <InternalName>PromethionRefinery</InternalName>
         <DisplayName>PromethionRefinery_Name</DisplayName>
         <Description>PromethionRefinery_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>100</Weight>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>50</Weight>
             <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
@@ -9725,21 +9892,36 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.075</Value>
         </EffectModifier>
         <EffectModifier>
-            <EffectType>Pollution</EffectType>
+            <EffectType>ColonyGrossIncome</EffectType>
             <Target>
-                <TargetType>Planet</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.3</Value>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.05</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.02</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
                 <Action>AddUpgradeToPlanet</Action>
                 <StringParam>ColonyUpgrade_Refinery</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>RawResourceProcessor</StringParam>
             </PerformAction>
         </Triggers>
         <Triggers>
@@ -9766,7 +9948,7 @@
             </Target>
             <Lifetime>Target</Lifetime>
             <Modifier>
-                <EffectType>MovesCapManufacturingCost</EffectType>
+                <EffectType>ManufacturingCost</EffectType>
                 <Target>
                     <TargetType>Ship</TargetType>
                 </Target>
@@ -9796,25 +9978,41 @@
     </PlanetTrait>
     <PlanetTrait>
         <InternalName>PromethionRefineryB</InternalName>
-        <DisplayName>PromethionRefinery_Name</DisplayName>
-        <Description>PromethionRefinery_Dec</Description>
+        <DisplayName>PromethionRefineryB_Name</DisplayName>
+        <Description>PromethionRefineryB_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>20</MinPlanetClass>
-            <MaxPlanetClass>27</MaxPlanetClass>
-            <Weight>100</Weight>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>50</Weight>
             <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
         <EffectModifier>
-            <EffectType>Pollution</EffectType>
+            <EffectType>Growth</EffectType>
             <Target>
-                <TargetType>Planet</TargetType>
+                <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <Value>0.6</Value>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.15</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>ColonyGrossIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.1</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.25</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9847,7 +10045,7 @@
             </Target>
             <Lifetime>Target</Lifetime>
             <Modifier>
-                <EffectType>MovesCapManufacturingCost</EffectType>
+                <EffectType>ManufacturingCost</EffectType>
                 <Target>
                     <TargetType>Ship</TargetType>
                 </Target>
@@ -9874,29 +10072,23 @@
                 </Techs>
             </Prerequ>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorAccelerator 2 -->
+    </PlanetTrait>
+
+    <!-- PrecursorAccelerator move cap(flat) 2 -->
     <PlanetTrait>
         <InternalName>PrecursorAccelerator</InternalName>
         <DisplayName>PrecursorAccelerator_Name</DisplayName>
         <Description>PrecursorAccelerator_Dec</Description>
         <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
         <Tags>Precursor</Tags>
-        <RelativeWeight>2</RelativeWeight>
+        <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
-            <MaxPlanetClass>28</MaxPlanetClass>
-            <Weight>100</Weight>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>50</Weight>
             <PreferredDistribution>PrecursorAccelerator1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>PrecursorAcceleratorEvent</ColonizeEvent>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
@@ -9915,14 +10107,6 @@
                     <Option>Tech_PrecursorStudies</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Prerequ>
@@ -9947,23 +10131,78 @@
                     <SpecialValue>
                         <Special>StatCalc</Special>
                         <ValueParam>0</ValueParam>
-                        <ValueParam>0.1</ValueParam>
+                        <ValueParam>0.125</ValueParam>
                         <StringParam>PlanetClass</StringParam>
                     </SpecialValue>
                 </Modifier>
             </Triggers>
         </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>PrecursorAcceleratorB</InternalName>
+        <DisplayName>PrecursorAcceleratorB_Name</DisplayName>
+        <Description>PrecursorAcceleratorB_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>1</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
+            <Weight>50</Weight>
+            <PreferredDistribution>PrecursorAccelerator1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>PrecursorAcceleratorEvent</ColonizeEvent>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_Accelerator</StringParam>
+            </PerformAction>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
         <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
-            </Modifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorSatellites 2 -->
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
+            <Triggers>
+                <OnEvent>OnConstructShip</OnEvent>
+                <Scope>Queue</Scope>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <Lifetime>Target</Lifetime>
+                <Modifier>
+                    <EffectType>MovesCap</EffectType>
+                    <Target>
+                        <TargetType>Ship</TargetType>
+                    </Target>
+                    <BonusType>Flat</BonusType>
+                    <ValueType>Special</ValueType>
+                    <SpecialValue>
+                        <Special>StatCalc</Special>
+                        <ValueParam>0</ValueParam>
+                        <ValueParam>0.25</ValueParam>
+                        <StringParam>PlanetClass</StringParam>
+                    </SpecialValue>
+                </Modifier>
+            </Triggers>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+
+    <!-- PrecursorSatellites 2 -->
     <PlanetTrait>
         <InternalName>PrecursorSatellites</InternalName>
         <DisplayName>PrecursorSatellites_Name</DisplayName>
@@ -9972,8 +10211,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>2</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>22</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorSatellites1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10070,7 +10309,9 @@
                 <Value>12</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorElevator 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorElevator 1 -->
     <PlanetTrait>
         <InternalName>PrecursorElevator</InternalName>
         <DisplayName>PrecursorElevator_Name</DisplayName>
@@ -10079,8 +10320,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
-            <MaxPlanetClass>25</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorElevator1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10153,7 +10394,9 @@
                 <Value>-2</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorFactoryWorld 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorFactoryWorld 2 -->
     <PlanetTrait>
         <InternalName>PrecursorFactoryWorld</InternalName>
         <DisplayName>PrecursorFactoryWorld_Name</DisplayName>
@@ -10162,27 +10405,19 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>23</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
-            <Weight>100</Weight>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>50</Weight>
             <PreferredDistribution>PrecursorFactoryWorld1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>PrecursorFactoryWorldEvent</ColonizeEvent>
-        <EffectModifier>
-            <EffectType>Growth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
-        </EffectModifier>
         <EffectModifier>
             <EffectType>Pollution</EffectType>
             <Target>
                 <TargetType>Planet</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>0.2</Value>
+            <Value>0.15</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -10190,6 +10425,22 @@
                 <Action>AddUpgradeToPlanet</Action>
                 <StringParam>ColonyUpgrade_OrbitalFactory</StringParam>
             </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
+            <Modifier>
+                <EffectType>ArmorRating</EffectType>
+                <Target>
+                    <TargetType>Ship</TargetType>
+                </Target>
+                <BonusType>Multiplier</BonusType>
+                <Value>0.15</Value>
+            </Modifier>
         </Triggers>
         <ColonizationPrerequ>
             <Techs>
@@ -10202,22 +10453,6 @@
                     <Option>Tech_PrecursorStudies</Option>
                 </Techs>
             </Prerequ>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>3</Value>
-            </Modifier>
-            <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>0.5</Value>
-            </Modifier>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
             <Prerequ>
@@ -10225,26 +10460,75 @@
                     <Option>Tech_PrecursorArcheology</Option>
                 </Techs>
             </Prerequ>
+        </ExtremeTypeModifier>
+    </PlanetTrait>
+    <PlanetTrait>
+        <InternalName>PrecursorFactoryWorldB</InternalName>
+        <DisplayName>PrecursorFactoryWorldB_Name</DisplayName>
+        <Description>PrecursorFactoryWorldB_Dec</Description>
+        <HiddenFromCustomFactions>true</HiddenFromCustomFactions>
+        <Tags>Precursor</Tags>
+        <RelativeWeight>1</RelativeWeight>
+        <PlanetClassSelect>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>40</MaxPlanetClass>
+            <Weight>50</Weight>
+            <PreferredDistribution>PrecursorFactoryWorld1</PreferredDistribution>
+        </PlanetClassSelect>
+        <ColonizeEvent>PrecursorFactoryWorldEvent</ColonizeEvent>
+        <EffectModifier>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Planet</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.3</Value>
+        </EffectModifier>
+        <Triggers>
+            <OnEvent>OnCreatePlanet</OnEvent>
+            <PerformAction>
+                <Action>AddUpgradeToPlanet</Action>
+                <StringParam>ColonyUpgrade_OrbitalFactory</StringParam>
+            </PerformAction>
+        </Triggers>
+        <Triggers>
+            <OnEvent>OnConstructShip</OnEvent>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <Lifetime>Target</Lifetime>
             <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
+                <EffectType>ArmorRating</EffectType>
                 <Target>
-                    <TargetType>Colony</TargetType>
+                    <TargetType>Ship</TargetType>
                 </Target>
                 <BonusType>Multiplier</BonusType>
                 <Value>0.3</Value>
             </Modifier>
+        </Triggers>
+        <ColonizationPrerequ>
+            <Techs>
+                <Option>TechTree</Option>
+            </Techs>
+        </ColonizationPrerequ>
+        <ExtremeTypeModifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorStudies</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
         <ExtremeTypeModifier>
-            <Modifier>
-                <EffectType>PopulationCap</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>-2</Value>
-            </Modifier>
+            <Prerequ>
+                <Techs>
+                    <Option>Tech_PrecursorArcheology</Option>
+                </Techs>
+            </Prerequ>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorResearchWorld 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorResearchWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorResearchWorld</InternalName>
         <DisplayName>PrecursorResearchWorld_Name</DisplayName>
@@ -10253,8 +10537,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>24</MinPlanetClass>
-            <MaxPlanetClass>29</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorResearchWorld1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10335,7 +10619,9 @@
                 <Value>0.3</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorTreasury 2 -->
+    </PlanetTrait>
+
+    <!-- PrecursorTreasury 2 -->
     <PlanetTrait>
         <InternalName>PrecursorTreasury</InternalName>
         <DisplayName>PrecursorTreasury_Name</DisplayName>
@@ -10344,8 +10630,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>2</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>36</MinPlanetClass>
-            <MaxPlanetClass>36</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorTreasury1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10426,7 +10712,9 @@
                 <Value>0.3</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorQuarantine 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorQuarantine 1 -->
     <PlanetTrait>
         <InternalName>PrecursorQuarantine</InternalName>
         <DisplayName>PrecursorQuarantine_Name</DisplayName>
@@ -10437,8 +10725,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>16</MinPlanetClass>
-            <MaxPlanetClass>36</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorQuarantine1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10504,7 +10792,9 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorExperimentalWorld 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorExperimentalWorld 1 -->
     <PlanetTrait>
         <InternalName>PrecursorExperimentalWorld</InternalName>
         <DisplayName>PrecursorExperimentalWorld_Name</DisplayName>
@@ -10515,8 +10805,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>18</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorExperimentalWorld1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10589,7 +10879,9 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- PrecursorPrison 1 -->
+    </PlanetTrait>
+
+    <!-- PrecursorPrison 1 -->
     <PlanetTrait>
         <InternalName>PrecursorPrison</InternalName>
         <DisplayName>PrecursorPrison_Name</DisplayName>
@@ -10600,8 +10892,8 @@
         <Tags>Precursor</Tags>
         <RelativeWeight>1</RelativeWeight>
         <PlanetClassSelect>
-            <MinPlanetClass>30</MinPlanetClass>
-            <MaxPlanetClass>30</MaxPlanetClass>
+            <MinPlanetClass>6</MinPlanetClass>
+            <MaxPlanetClass>42</MaxPlanetClass>
             <Weight>100</Weight>
             <PreferredDistribution>PrecursorPrison1</PreferredDistribution>
         </PlanetClassSelect>
@@ -10674,7 +10966,9 @@
                 <Value>0.5</Value>
             </Modifier>
         </ExtremeTypeModifier>
-    </PlanetTrait><!-- Ignore 0 -->
+    </PlanetTrait>
+
+    <!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>ShardOfTheMithrilar</InternalName>
         <DisplayName>ShardOfTheMithrilar_Name</DisplayName>
@@ -10687,7 +10981,8 @@
             <Weight>1</Weight>
             <PreferredDistribution>ShardOfTheMithrilar1</PreferredDistribution>
         </PlanetClassSelect>
-    </PlanetTrait><!-- Ignore 0 -->
+    </PlanetTrait>
+    <!-- Ignore 0 -->
     <PlanetTrait>
         <InternalName>MakerWorld</InternalName>
         <DisplayName>MakerWorld_Name</DisplayName>

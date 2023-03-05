@@ -1776,7 +1776,9 @@
             <Scale>55</Scale>
         </HaloEffect>
     </ArtDefine>
-    <ArtDefine>
+    <!--
+
+        <ArtDefine>
         <InternalName>ParadiseWorldE</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>ParadiseWorldE</PlanetTrait>  
@@ -1802,6 +1804,7 @@
             <Scale>55</Scale>
         </HaloEffect>
     </ArtDefine>
+     -->
     <ArtDefine>
         <InternalName>JungleWorld</InternalName>
         <PlanetType>Habitable</PlanetType>
@@ -3207,6 +3210,32 @@
             <Scale>55</Scale>
         </HaloEffect>
     </ArtDefine>
+    
+    <ArtDefine>
+        <InternalName>PrecursorAcceleratorB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>PrecursorAcceleratorB</PlanetTrait>
+        <ObjectGfxConfigFile>PlanetDesign_PrecursorPurple_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.2</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_PrecursorWorld_Accelerator.png</ThumbnailOverride>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
     <ArtDefine>
         <InternalName>PrecursorElevator</InternalName>
         <PlanetType>Habitable</PlanetType>
@@ -3334,6 +3363,32 @@
         <InternalName>PrecursorFactoryWorld</InternalName>
         <PlanetType>Habitable</PlanetType>
         <PlanetTrait>PrecursorFactoryWorld</PlanetTrait>
+        <ObjectGfxConfigFile>PlanetDesign_PrecursorBrown_01.objgfxcfg</ObjectGfxConfigFile>
+        <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
+        <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>
+        <ObjectGfxConfigMaterialID2>Ship_Material_01</ObjectGfxConfigMaterialID2>
+        <ObjectGfxConfigSubMaterialID1>Default_Surface_01</ObjectGfxConfigSubMaterialID1>
+        <ObjectGfxConfigSubMaterialID2>Default_Surface_04</ObjectGfxConfigSubMaterialID2>
+        <ObjectGfxConfigAppearanceID>EarthLike_Appearance_R</ObjectGfxConfigAppearanceID>
+        <AxisTilt>0.0</AxisTilt>
+        <ShadowRadius>30.0</ShadowRadius>
+        <ShadowBuffer>0.1</ShadowBuffer>
+        <ThumbnailOverride>PlanetIcon_PrecursorWorld_Factory.png</ThumbnailOverride>
+        <HaloIntensity>0.5</HaloIntensity>
+        <HaloEffect>
+            <RotationSpeed>5</RotationSpeed>
+            <FadeSpeed>4</FadeSpeed>
+            <MinIntensity>0.7</MinIntensity>
+            <MaxIntensity>1</MaxIntensity>
+            <Alternating>false</Alternating>
+            <Scale>55</Scale>
+        </HaloEffect>
+    </ArtDefine>
+    
+    <ArtDefine>
+        <InternalName>PrecursorFactoryWorldB</InternalName>
+        <PlanetType>Habitable</PlanetType>
+        <PlanetTrait>PrecursorFactoryWorldB</PlanetTrait>
         <ObjectGfxConfigFile>PlanetDesign_PrecursorBrown_01.objgfxcfg</ObjectGfxConfigFile>
         <ObjectGfxConfigScale>1.7</ObjectGfxConfigScale>
         <ObjectGfxConfigMaterialID1>Ship_Material_01</ObjectGfxConfigMaterialID1>

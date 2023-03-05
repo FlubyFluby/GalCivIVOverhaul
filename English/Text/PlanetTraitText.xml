@@ -133,10 +133,24 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <Label>CorrosiveWorld_Name</Label>
     <String>[ICON=ToxicWorldIcon] Corrosive</String>
   </StringTable>
+  <StringTable>
+    <Label>CorrosiveWorldB_Name</Label>
+    <String>[ICON=ToxicWorldIcon] Corrosive</String>
+  </StringTable>
  
   <StringTable>
     <Label>CorrosiveWorld_Dec</Label>
-    <String>Acidic lakes and storms makes this world unsuitable for standard colonization but a great source of Elerium!</String>
+    <String>Acidic lakes and storms makes this world unsuitable for standard colonization but a great source of Elerium!
+      Constructed beam ships take 15% less manufacturing to construct.
+      Constructed beam ships do 15% more damage.
+    </String>
+  </StringTable>
+  <StringTable>
+    <Label>CorrosiveWorldB_Dec</Label>
+    <String>Acidic lakes and storms makes this world unsuitable for standard colonization but a great source of Elerium!
+      Constructed Beam ships take 30% less manufacturing to construct.
+      Constructed Beam ships do 30% more damage.
+    </String>
   </StringTable>
  
   <StringTable>
@@ -166,7 +180,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>ToxicWorld_Dec</Label>
-    <String>Atmosphere is too toxic to support standard colonization.</String>
+    <String>Atmosphere is too toxic to support standard colonization. Tourism isn't it's strong suit because well... only an true buffoon vacations on a toxic world, no?</String>
   </StringTable>
  
   <StringTable>
@@ -176,7 +190,33 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>RadioactiveWorld_Dec</Label>
-    <String>Radiation Levels are too high for standard colonization.</String>
+    <String>Radiation Levels are too high for standard colonization. Source of antimatter.
+      Constructed Missile ships take 7.5% less manufacturing to construct.
+      Constructed Missile ships do 7.5% more damage. </String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>RadioactiveWorldB_Name</Label>
+    <String>[ICON=RadioactiveWorldIcon] Radioactive</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>RadioactiveWorldB_Dec</Label>
+    <String>Radiation Levels are too high for standard colonization. Source of antimatter.
+      Constructed Missile ships take 15% less manufacturing to construct.
+      Constructed Missile ships do 15% more damage. </String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>RadioactiveWorldC_Name</Label>
+    <String>[ICON=RadioactiveWorldIcon] Radioactive</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>RadioactiveWorldC_Dec</Label>
+    <String>Radiation Levels are too high for standard colonization. Source of antimatter.
+      Constructed Missile ships take 30% less manufacturing to construct.
+      Constructed Missile ships do 30% more damage.</String>
   </StringTable>
  
   <StringTable>
@@ -186,17 +226,42 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>ThuliumMoon_Dec</Label>
-    <String>A Precursor world carved from a the fragment of a Thulium world.</String>
+    <String>A Precursor world carved from a the fragment of a Thulium world.
+      Constructed ships have 15% more range - Any type.
+      Constructed ships have 7.5% worse accuracy.</String>
+  </StringTable>
+  <StringTable>
+    <Label>ThuliumMoonB_Name</Label>
+    <String>[ICON=PrecursorMoonIcon] Thulium Moon</String>
   </StringTable>
  
   <StringTable>
+    <Label>ThuliumMoonB_Dec</Label>
+    <String>A Precursor world carved from a the fragment of a Thulium world.
+      Constructed ships have 30% more range - Any type.
+      Constructed ships have 15% worse accuracy.</String>
+  </StringTable>
+ 
+  <StringTable> 
     <Label>DurantiumCloud_Name</Label>
     <String>[ICON=PrecursorCloudIcon] Durantium Cloud</String>
   </StringTable>
  
   <StringTable>
     <Label>DurantiumCloud_Dec</Label>
-    <String>A Precursor world constructed through collected Durantium asteroids</String>
+    <String>A Precursor world constructed through collected Durantium asteroids
+      Constructed Kinetic ships take 15% less manufacturing to construct.
+      Constructed Kinetic ships do 15% more damage. </String>
+  </StringTable>
+  <StringTable>
+    <Label>DurantiumCloudB_Name</Label>
+    <String>[ICON=PrecursorCloudIcon] Durantium Cloud</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>DurantiumCloudB_Dec</Label><String>A Precursor world constructed through collected Durantium asteroids
+      Constructed Kinetic ships take 30% less manufacturing to construct.
+      Constructed Kinetic ships do 30% more damage. </String>
   </StringTable>
  
   <StringTable>
@@ -206,7 +271,20 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>PrecursorAccelerator_Dec</Label>
-    <String>A Precursor world built from a crystalized Promethium.</String>
+    <String>A Precursor world built from a crystalized Promethium.
+      Boost movement speed by 0.125 * the class of the planet. E.G: class 42 planet = 10.5 extra moves.
+    </String>
+  </StringTable>
+  <StringTable>
+    <Label>PrecursorAcceleratorB_Name</Label>
+    <String>[ICON=PrecursorAcceleratorIcon] Precursor Accelerator</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>PrecursorAcceleratorB_Dec</Label>
+    <String>A Precursor world built from a crystalized Promethium.
+      Boost movement speed by 0.25 * the class of the planet. E.G: class 42 planet = 10.5 extra moves.
+    </String>
   </StringTable>
  
   <StringTable>
@@ -236,7 +314,20 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>PromethionRefinery_Dec</Label>
-    <String>A Precursor world that has been completely converted to be a refinery.</String>
+    <String>A Precursor world that has been completely converted to be a refinery
+      Constructed ships take 15% less manufacturing to construct
+      Constructed ships have 15% more moves.</String>
+  </StringTable>
+  <StringTable>
+    <Label>PromethionRefineryB_Name</Label>
+    <String>[ICON=PrecursorRefineryIcon] Promethion Refinery World</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>PromethionRefineryB_Dec</Label>
+    <String>A Precursor world that has been completely converted to be a refinery
+      Constructed ships take 30% less manufacturing to construct
+      Constructed ships have 30% more moves.</String>
   </StringTable>
  
   <StringTable>
@@ -246,7 +337,18 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>PrecursorFactoryWorld_Dec</Label>
-    <String>A Precursor World, with 3 vast orbital factory rings. That greatly increases all manufacturing potential of the world.</String>
+    <String>A Precursor World, with 3 vast orbital factory rings. That greatly increases all manufacturing potential of the world.
+      Constructed ships have 15% better armor.</String>
+  </StringTable>
+  <StringTable>
+    <Label>PrecursorFactoryWorldB_Name</Label>
+    <String>[ICON=PrecursorFactoryIcon] Precursor Factory</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>PrecursorFactoryWorldB_Dec</Label>
+    <String>A Precursor World, with 3 vast orbital factory rings. That greatly increases all manufacturing potential of the world.
+      Constructed ships have 30% better armor.</String>
   </StringTable>
  
   <StringTable>
