@@ -134,7 +134,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_Draft1Colonists</InternalName>
     <ArtifactPowerDef>Draft1Colonists</ArtifactPowerDef>
-    <ControlCost>0</ControlCost>
+    <ControlCost>1</ControlCost>
     <CreditsCost>500</CreditsCost>
     <CooldownTurns>5</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
@@ -146,7 +146,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_Draft2Colonists</InternalName>
     <ArtifactPowerDef>Draft2Colonists</ArtifactPowerDef>
-    <ControlCost>0</ControlCost>
+    <ControlCost>2</ControlCost>
     <CreditsCost>1250</CreditsCost>
     <CooldownTurns>7</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
@@ -158,7 +158,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_Draft3Colonists</InternalName>
     <ArtifactPowerDef>Draft3Colonists</ArtifactPowerDef>
-    <ControlCost>0</ControlCost>
+    <ControlCost>3</ControlCost>
     <CreditsCost>2500</CreditsCost>
     <CooldownTurns>9</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
@@ -186,7 +186,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_ColonialSupplies</InternalName>
     <ArtifactPowerDef>ColonialSupplies</ArtifactPowerDef>
-    <ControlCost>5</ControlCost>
+    <ControlCost>1</ControlCost>
     <CreditsCost>750</CreditsCost>
     <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_ColonialSupplies_CooldownMod</CooldownModCounterName>
@@ -216,9 +216,9 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_TelescopeTakeover</InternalName>
     <ArtifactPowerDef>TelescopeTakeover</ArtifactPowerDef>
-    <ControlCost>0</ControlCost>
+    <ControlCost>1</ControlCost>
     <CreditsCost>0</CreditsCost>
-    <CooldownTurns>0</CooldownTurns>
+    <CooldownTurns>1</CooldownTurns>
     <CooldownModCounterName>EO_TelescopeTakeover_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
   </ExecutiveOrder>

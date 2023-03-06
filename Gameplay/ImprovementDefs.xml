@@ -22363,7 +22363,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.25</ValueParam>
+                <ValueParam>0.15</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -22373,7 +22373,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>2</Value>
+            <Value>1</Value>
         </Stats>
         <Stats>
             <EffectType>Crime</EffectType>
@@ -22381,13 +22381,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>-0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>-0.035</Value>
         </Stats>
         <Stats>
             <EffectType>Approval</EffectType>

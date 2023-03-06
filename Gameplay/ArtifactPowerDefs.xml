@@ -1819,14 +1819,25 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target> 
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier><EffectType>Credits</EffectType>
+        <Scope>Global</Scope><Target>
+          <TargetType>Faction</TargetType></Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.15</Value>
+    </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
       <PerformAction>
         <Action>PlayEffectOnTile</Action>
         <ValueParam>1</ValueParam>
         <StringParam>FXScan</StringParam>
       </PerformAction>
     </Triggers>
-    
-  
   </ArtifactPower>
 <!-- Disabled cost of telescope for testing purposes
     <Triggers>
