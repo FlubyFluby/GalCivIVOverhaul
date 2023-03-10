@@ -508,7 +508,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>0.022</Value> 
+      <Value>0.015</Value> 
     </GlobalFactionMods> 
      
     <GlobalFactionMods> 
@@ -535,7 +535,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>110</Value> 
+      <Value>115</Value> 
     </GlobalFactionMods> 
  
     <GlobalFactionMods> 
@@ -589,7 +589,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>0.02</Value> 
+      <Value>0.05</Value> 
     </GlobalFactionMods> 
  
     <GlobalFactionMods> 
@@ -625,7 +625,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>1.25</Value> 
+      <Value>1.35</Value> 
     </GlobalColonyMods> 
      
     <GlobalColonyMods> 
@@ -634,7 +634,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>3.0</Value> 
+      <Value>4.0</Value> 
     </GlobalColonyMods> 
  
     <GlobalColonyMods> 
@@ -670,7 +670,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> <!--change back to 0.5 maybe--> 
-      <Value>0.5</Value> 
+      <Value>0.75</Value> 
     </GlobalColonyMods> 
  
     <GlobalColonyMods> 

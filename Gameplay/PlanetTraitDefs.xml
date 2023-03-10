@@ -8634,7 +8634,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.5</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>FoodIncome</EffectType>
@@ -8645,12 +8645,12 @@
             <Value>-0.4</Value>
         </EffectModifier>
         <EffectModifier>
-                <EffectType>MaxManufacturing</EffectType>
-                <Target>
-                    <TargetType>Colony</TargetType>
-                </Target>
-                <BonusType>Multiplier</BonusType>
-                <Value>-0.25</Value>
+            <EffectType>MaxManufacturing</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.15</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Pollution</EffectType>
@@ -8815,7 +8815,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.35</Value>
+            <Value>0.3</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Pollution</EffectType>
@@ -8975,6 +8975,30 @@
             <Weight>13</Weight>
             <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.25</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.475</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Crime</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.3</Value>
+        </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
@@ -9125,6 +9149,30 @@
             <Weight>13</Weight>
             <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.325</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.6</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Crime</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.4</Value>
+        </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
@@ -9282,6 +9330,30 @@
             <Weight>13</Weight>
             <PreferredDistribution>RadioactiveWorld12</PreferredDistribution>
         </PlanetClassSelect>
+        <EffectModifier>
+            <EffectType>Growth</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.4</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Food</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.75</Value>
+        </EffectModifier>
+        <EffectModifier>
+            <EffectType>Crime</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>-0.5</Value>
+        </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
             <PerformAction>
@@ -9387,7 +9459,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.6</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -9395,7 +9467,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.6</Value>
+            <Value>0.15</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -9403,7 +9475,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.6</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9490,7 +9562,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>-0.3</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -9498,7 +9570,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>0.075</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -9506,7 +9578,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>-0.3</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9589,7 +9661,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.65</Value>
+            <Value>-0.5</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -9597,7 +9669,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.65</Value>
+            <Value>0.125</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -9605,7 +9677,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.65</Value>
+            <Value>-0.5</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9743,7 +9815,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>-0.6</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -9751,7 +9823,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>0.25</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -9759,7 +9831,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.75</Value>
+            <Value>-0.6</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9892,7 +9964,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.075</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -9900,7 +9972,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.05</Value>
+            <Value>0.1</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -9908,7 +9980,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.02</Value>
+            <Value>-0.4</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>
@@ -9990,13 +10062,14 @@
             <PreferredDistribution>PromethionRefinery1</PreferredDistribution>
         </PlanetClassSelect>
         <ColonizeEvent>PromethionRefineryEvent</ColonizeEvent>
+        
         <EffectModifier>
             <EffectType>Growth</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.15</Value>
+            <Value>-0.5</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>ColonyGrossIncome</EffectType>
@@ -10004,7 +10077,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.1</Value>
+            <Value>0.2</Value>
         </EffectModifier>
         <EffectModifier>
             <EffectType>Food</EffectType>
@@ -10012,7 +10085,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>-0.25</Value>
+            <Value>-0.5</Value>
         </EffectModifier>
         <Triggers>
             <OnEvent>OnCreatePlanet</OnEvent>

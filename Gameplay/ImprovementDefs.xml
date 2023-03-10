@@ -397,7 +397,7 @@
               <Special>StatCalc</Special>
               <ValueParam>0</ValueParam>
               <ValueParam>2</ValueParam>
-              <StringParam>WealthNet</StringParam>
+              <StringParam>Wealth</StringParam>
           </SpecialValue>
       </Stats>
       <Stats>
