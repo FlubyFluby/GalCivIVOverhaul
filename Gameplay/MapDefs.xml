@@ -46,7 +46,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
     <MapObjectFrequency>
       <ObjectType>Stars</ObjectType>
       <Exponent>1</Exponent>
-      <FrequencyMultiplier>5</FrequencyMultiplier>
+      <FrequencyMultiplier>4</FrequencyMultiplier>
       <FrequencyConst>0</FrequencyConst>
       <FrequencyExponent>1</FrequencyExponent>
       <MaxCount>2000</MaxCount>
@@ -55,21 +55,21 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
 
     <MapObjectFrequency>
       <ObjectType>Planets</ObjectType>
-      <FrequencyMultiplier>1.2</FrequencyMultiplier>
+      <FrequencyMultiplier>1.45</FrequencyMultiplier>
       <MaxCount>5000</MaxCount>
       <MinCount>60</MinCount>
     </MapObjectFrequency>
 
     <MapObjectFrequency>
       <ObjectType>Asteroids</ObjectType>
-      <FrequencyMultiplier>0.7</FrequencyMultiplier>
+      <FrequencyMultiplier>0.6</FrequencyMultiplier>
       <MaxCount>2000</MaxCount>
       <MinCount>32</MinCount>
     </MapObjectFrequency>
 
     <MapObjectFrequency>
       <ObjectType>Anomalies</ObjectType>
-      <FrequencyMultiplier>18</FrequencyMultiplier>
+      <FrequencyMultiplier>5</FrequencyMultiplier>
       <MaxCount>2000</MaxCount>
       <MinCount>32</MinCount>
     </MapObjectFrequency>
@@ -83,28 +83,28 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
 
     <MapObjectFrequency>
       <ObjectType>Relics</ObjectType>
-      <FrequencyMultiplier>0.4</FrequencyMultiplier>
+      <FrequencyMultiplier>1.5</FrequencyMultiplier>
       <MaxCount>200</MaxCount>
       <MinCount>5</MinCount>
     </MapObjectFrequency>
 
     <MapObjectFrequency>
       <ObjectType>Nebulas</ObjectType>
-      <FrequencyMultiplier>0.2</FrequencyMultiplier>
+      <FrequencyMultiplier>0.225</FrequencyMultiplier>
       <MaxCount>200</MaxCount>
       <MinCount>5</MinCount>
     </MapObjectFrequency>
 
     <MapObjectFrequency>
       <ObjectType>BlackHoles</ObjectType>
-      <FrequencyMultiplier>0.2</FrequencyMultiplier>
+      <FrequencyMultiplier>0.215</FrequencyMultiplier>
       <MaxCount>200</MaxCount>
       <MinCount>5</MinCount>
     </MapObjectFrequency>
 
     <MinStarSystemOrbitRadius>4</MinStarSystemOrbitRadius>
-    <MinDistanceBetweenStarSystems>3</MinDistanceBetweenStarSystems>
-    <MinDistanceBetweenStarClusters>50</MinDistanceBetweenStarClusters>
+    <MinDistanceBetweenStarSystems>5</MinDistanceBetweenStarSystems>
+    <MinDistanceBetweenStarClusters>42</MinDistanceBetweenStarClusters>
     <GoodNeighborPlanetClass>20</GoodNeighborPlanetClass>
     <NumAnomaliesToSpawnNearStartingLocations>6</NumAnomaliesToSpawnNearStartingLocations>
     <MapBorderSize>0</MapBorderSize>
@@ -122,11 +122,11 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivMapDefs.xsd">
     <DefaultNebulaGroup>NebulaGroup</DefaultNebulaGroup>
     <DefaultStormGroup>StormGroup</DefaultStormGroup>
 
-    <PlayerStartSpacingWideMod>0.3</PlayerStartSpacingWideMod>
-    <PlayerStartSpacingNarrowMod>0.1</PlayerStartSpacingNarrowMod>
+    <PlayerStartSpacingWideMod>0.8</PlayerStartSpacingWideMod>
+    <PlayerStartSpacingNarrowMod>0.3</PlayerStartSpacingNarrowMod>
     <BlackholeSpacingMod>0.20</BlackholeSpacingMod>
     <AscensionGateSpacingMod>0.40</AscensionGateSpacingMod>
-    <RelicSpacingMod>0.40</RelicSpacingMod>
+    <RelicSpacingMod>0.45</RelicSpacingMod>
     <PirateBaseSpacingMod>0.35</PirateBaseSpacingMod>
     <PlayerStartToPirateMinRadiusMod>0.6</PlayerStartToPirateMinRadiusMod>
     <ReduceStarSystemBoundarySize>0</ReduceStarSystemBoundarySize>

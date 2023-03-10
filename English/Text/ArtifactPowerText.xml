@@ -292,7 +292,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PrintMoney_Dec</Label>
-    <String>Grants 4 credits for every 1 credit in net income per turn. Reduces global approval for between 6 months and a year based on net income per turn as well. Costs 0.002 control for every 1 credit net income per turn(E.G: For 5000 net income, that would equal 5 control cost and 20000 money printed). </String>
+    <String>Grants 5 credits for every 1 credit in net income per turn. Reduces global approval for between 6 months and a year based on net income per turn as well. Costs 0.018 control for every 1 credit net income per turn(E.G: For 500 net income, that would equal 9 control cost and 2500 money printed). </String>
   </StringTable>
  
   <StringTable>
@@ -301,7 +301,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>ExploitNature_Dec</Label>
-    <String>In times of need we can exploit government land of all their resources. This will create a significant pollution problem for a full year. Grants 2 credits for every 1 credit in net income per turn. Costs 0.002 control for every 1 credit net income per turn(E.G: For 5000 net income, that would equal 5 control cost and 10000 credits).</String>
+    <String>In times of need we can exploit government land of all their resources. This will create a significant pollution problem for a full year. Grants 2 credits for every 1 credit in net income per turn. Costs 0.002 control for every 1 credit net income per turn(E.G: For 500 net income, that would equal 4.5 control cost and 1000 credits).</String>
   </StringTable>
  
   <StringTable>
@@ -311,7 +311,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>ExhortGovernors_Dec</Label>
     <String>Our governors will donate to our cause. But they won't like it.
-[COLOR=UIDefaultHighlight]Provides 100 Credits per Governor[/COLOR] and .1 credit for every credit in the treasury. Costs 10% of all your current control. Significantly reduces loyalty for a period of 6 months to a year. The more control you have, the less reduction of loyalty. </String>
+    Cash in your control by extorting your governors. Provides 30 credits for every point of control you have. E.G: E.G You have 150 control. You use the ability, so now you lose 10% = 135 control, you lose access to half more for 10 turns so you end up with 67-68 remaining control. You gain 4500 credits. </String>
   </StringTable>
  
   <StringTable>

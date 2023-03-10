@@ -1399,7 +1399,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.002</ValueParam>
+          <ValueParam>-0.018</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1420,7 +1420,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>4</ValueParam>
+          <ValueParam>5</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1476,7 +1476,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-0.001</ValueParam>
+          <ValueParam>-0.009</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1530,47 +1530,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
           <TargetType>Unit</TargetType>
           <TargetQualifier>GovernorOnlyNotSovereign</TargetQualifier>
         </Target>
-        <BonusType>Flat</BonusType>
-        <Value>-20</Value>
-      </Modifier>
-      <Modifier>
-        <EffectType>Loyalty</EffectType>
-        <Scope>Global</Scope>
-        <Target>
-          <TargetType>Unit</TargetType>
-          <TargetQualifier>GovernorOnlyNotSovereign</TargetQualifier>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>0.075</ValueParam>
-          <StringParam>Control</StringParam>
-        </SpecialValue>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.025</Value>
       </Modifier>
       <SourceDisplayName>ExhortGovernors_Name</SourceDisplayName>
-    </Triggers>
-    <Triggers>
-      <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <Lifetime>Target</Lifetime>
-      <Modifier>
-        <EffectType>Control</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>-0.1</ValueParam>
-          <StringParam>Control</StringParam>
-        </SpecialValue>
-      </Modifier>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1588,13 +1551,42 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>0.1</ValueParam>
-          <StringParam>Credits</StringParam>
+          <ValueParam>30</ValueParam>
+          <StringParam>Control</StringParam>
         </SpecialValue>
       </Modifier>
-      <PerformAction>
-        <Action>GiveExhortGovernorCreditReward</Action>
-      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.1</Value>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <RandomDurationMin>6</RandomDurationMin>
+      <RandomDurationMax>12</RandomDurationMax>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>-0.5</Value>
+      </Modifier>
     </Triggers>
   </ArtifactPower>
 
@@ -1823,11 +1815,18 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
-      <Modifier><EffectType>Credits</EffectType>
+      <Modifier>
+        <EffectType>Credits</EffectType>
         <Scope>Global</Scope><Target>
           <TargetType>Faction</TargetType></Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-0.15</Value>
+      <BonusType>Flat</BonusType>
+      <ValueType>Special</ValueType>
+      <SpecialValue>
+        <Special>StatCalc</Special>
+        <ValueParam>0</ValueParam>
+        <ValueParam>-0.5</ValueParam>
+        <StringParam>CreditsPerTurn</StringParam>
+      </SpecialValue>
     </Modifier>
     </Triggers>
     <Triggers>

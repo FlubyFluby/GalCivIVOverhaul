@@ -2552,7 +2552,7 @@ Harmony Crystals can be gifted to your [HS=HS_Leaders]Leaders[/HS] to improve th
   </StringTable>
   <StringTable>
     <Label>ColonyUpgrade_DefenseSentinels_ShortDec</Label>
-    <String>Provides three defensive fighters for a colony.</String>
+    <String>Provides three defensive fighters for a colony. Costs 0.5 * the planet's class in maintenance. E.G a class 40 planet would cost 20 credits/turn</String>
   </StringTable>
  
   <StringTable>
@@ -2561,7 +2561,10 @@ Harmony Crystals can be gifted to your [HS=HS_Leaders]Leaders[/HS] to improve th
   </StringTable>
   <StringTable>
     <Label>ColonyUpgrade_OrbOfDraginol_ShortDec</Label>
-    <String>And ancient relic from a phase of existence outside this one. Slowly builds the might of whoever holds it.</String>
+    <String>And ancient relic from a phase of existence outside this one. Slowly builds the might of whoever holds it.
+      Costs 1 credit for every point of control you have stored. Reduces crime and pollution globally by a 0.001% multiplier for every control you gain per turn. 
+      E.G if you get 10 control per turn, that's 1% of crime and pollution being subtracted each turn. 
+      Costs 4 credits for every point of control you get per turn. </String>
   </StringTable>
   <StringTable>
     <Label>ColonyUpgrade_OrbOfDraginol_ForeignWonderWarning</Label>
@@ -2574,7 +2577,7 @@ Harmony Crystals can be gifted to your [HS=HS_Leaders]Leaders[/HS] to improve th
   </StringTable>
   <StringTable>
     <Label>ColonyUpgrade_MakerWorld_ShortDec</Label>
-    <String>And ancient relic from a phase of existence outside this one. Slowly builds the might of whoever holds it.</String>
+    <String>And ancient relic from a phase of existence outside this one. Slowly builds the might of whoever holds it. Boosts global manufacturing by 0.001 X planet class, E.G a class 42 planet would be a 12.6% boost globally.</String>
   </StringTable>
  
   <StringTable>

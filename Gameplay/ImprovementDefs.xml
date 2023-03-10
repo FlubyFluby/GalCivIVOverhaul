@@ -22425,17 +22425,9 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.4</ValueParam>
+                <ValueParam>0.5</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>DurantiumCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>3</Value>
         </Stats>
         <Stats>
             <EffectType>ThuliumCost</EffectType>
@@ -22443,7 +22435,23 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>3</Value>
+            <Value>2</Value>
+        </Stats>
+        <Stats>
+            <EffectType>PromethionCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>2</Value>
+        </Stats>
+        <Stats>
+            <EffectType>AntimatterCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>2</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -22482,8 +22490,61 @@
         <GFXArtDefine>PlanetUpgrade_OrbOfDraginol</GFXArtDefine>
         <ImprovementType>Artifact</ImprovementType>
         <PlacementType>Special</PlacementType>
-        <IsGalacticWonder>true</IsGalacticWonder>
+        <IsPlayerWonder>true</IsPlayerWonder>
         <CapitalOnly>false</CapitalOnly>
+        <Stats>
+            <EffectType>Maintenance</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>4</ValueParam>
+                <StringParam>ControlPerTurn</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>ArtocarpusVirilesCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>10</Value>
+        </Stats>
+        <Stats>
+            <EffectType>MonsatiumDepositCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>5</Value>
+        </Stats>
+        <Stats>
+            <EffectType>HeliosOreCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>12</Value>
+        </Stats>
+        <Stats> 
+            <EffectType>Crime</EffectType>
+            <Scope>Global</Scope>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>-0.001</ValueParam>
+                <StringParam>ControlPerTurn</StringParam>
+            </SpecialValue>
+        </Stats>
         <Triggers>
             <OnEvent>OnStartTurn</OnEvent>
             <Scope>Global</Scope>
@@ -22492,7 +22553,7 @@
             </Target>
             <Lifetime>Target</Lifetime>
             <Modifier>
-                <EffectType>MaxManufacturing</EffectType>
+                <EffectType>Pollution</EffectType>
                 <Target>
                     <TargetType>Colony</TargetType>
                 </Target>
@@ -22501,17 +22562,19 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>0.02</ValueParam>
-                    <StringParam>EngineerCount</StringParam>
+                    <ValueParam>-0.001</ValueParam>
+                    <StringParam>ControlPerTurn</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
         <NeighborBonuses>
-            <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
-            <NeighborBonusValue>5</NeighborBonusValue>
+            <GiveBonusToNeighborType>AllImprovements</GiveBonusToNeighborType>
+            <NeighborBonusValue>3</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
-            <Unavailable>true</Unavailable>
+            <Techs>
+                <Option>MasterTech_SoilEnhancement</Option>
+            </Techs>
         </Prerequ>
     </Improvement>
     <Improvement>
@@ -22525,7 +22588,7 @@
         <GFXArtDefine>PlanetUpgrade_OrbitalFactory</GFXArtDefine>
         <ImprovementType>Artifact</ImprovementType>
         <PlacementType>Special</PlacementType>
-        <IsGalacticWonder>true</IsGalacticWonder>
+        <IsPlayerWonder>true</IsPlayerWonder>
         <CapitalOnly>false</CapitalOnly>
         <Stats>
             <EffectType>Maintenance</EffectType>
@@ -22537,20 +22600,70 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>1</ValueParam>
-                <StringParam>PlanetClass</StringParam>
+                <ValueParam>2</ValueParam>
+                <StringParam>ControlPerTurn</StringParam>
             </SpecialValue>
         </Stats>
         <Stats>
+            <EffectType>HeliosOreCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>10</Value>
+        </Stats>
+        <Stats>
+            <EffectType>XanthiumDepositCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>5</Value>
+        </Stats>
+        <Stats>
+            <EffectType>PromethionCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>12</Value>
+        </Stats>
+        <Stats>
+            <EffectType>ThuliumCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>12</Value>
+        </Stats>
+        <Stats>
+            <EffectType>DurantiumCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>12</Value>
+        </Stats>
+        <Stats>
+            <EffectType>AntimatterCost</EffectType>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>OneTime</BonusType>
+            <Value>12</Value>
+        </Stats>
+        <Stats>
             <EffectType>InfluencePerTurn</EffectType>
+            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>750</Value>
+            <Value>1</Value>
         </Stats>
         <Stats>
             <EffectType>Manufacturing</EffectType>
+            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
@@ -22559,16 +22672,18 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.005</ValueParam>
-                <StringParam>EngineerCount</StringParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
-            <NeighborBonusValue>3</NeighborBonusValue>
+            <NeighborBonusValue>5</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
-            <Unavailable>true</Unavailable>
+            <Techs>
+                <Option>Tech_ManufacturingCapitals</Option>
+            </Techs>
         </Prerequ>
     </Improvement>
     <Improvement>
