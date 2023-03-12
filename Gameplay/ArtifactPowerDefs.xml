@@ -1074,7 +1074,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Image>EO_Watermark_Colonists.png</Image>
     <TintColor>ArtifactMilitaryRed</TintColor>
     <UseSFX>UI/EO_DRAFTCOLONISTS</UseSFX>
-    <ValidTarget>Faction</ValidTarget>
+    <ValidTarget>Planet</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1082,6 +1082,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>Control</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-0.5</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
     </Triggers>
     <Triggers>
@@ -1107,7 +1121,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Image>EO_Watermark_Colonists.png</Image>
     <TintColor>ArtifactMilitaryRed</TintColor>
     <UseSFX>UI/EO_DRAFTCOLONISTS</UseSFX>
-    <ValidTarget>Faction</ValidTarget>
+    <ValidTarget>Planet</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1125,7 +1139,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-1.25</ValueParam>
+          <ValueParam>-0.75</ValueParam>
           <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1134,7 +1148,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target> 
-        <TargetType>Faction</TargetType>
+        <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>
@@ -1159,7 +1173,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Image>EO_Watermark_Colonists.png</Image>
     <TintColor>ArtifactMilitaryRed</TintColor>
     <UseSFX>UI/EO_DRAFTCOLONISTS</UseSFX>
-    <ValidTarget>Faction</ValidTarget>
+    <ValidTarget>Planet</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1177,7 +1191,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>-2.5</ValueParam>
+          <ValueParam>-1.0</ValueParam>
           <StringParam>ControlPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
@@ -1186,7 +1200,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target> 
-        <TargetType>Faction</TargetType>
+        <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>
@@ -1282,35 +1296,31 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Image>EO_Watermark_IllicitDeals.png</Image>
     <TintColor>ArtifactMilitaryRed</TintColor>
     <UseSFX>UI/EO_ILLICITDEALS</UseSFX>
-    <ValidTarget>Faction</ValidTarget>
+    <ValidTarget>Planet</ValidTarget>
     <ValidRelation>Any</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Scope>Local</Scope>
       <Target>
-        <TargetType>Faction</TargetType>
+        <TargetType>Colony</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
+      <RandomDurationMin>6</RandomDurationMin>
+      <RandomDurationMax>10</RandomDurationMax>
       <Modifier>
         <EffectType>Crime</EffectType>
         <Target>
           <TargetType>Colony</TargetType>
         </Target>
-        <BonusType>Flat</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>0.005</ValueParam>
-          <StringParam>ControlPerTurn</StringParam>
-        </SpecialValue>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.15</Value>
       </Modifier>
       <SourceDisplayName>IllicitDeals_Name</SourceDisplayName>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target>
-        <TargetType>Faction</TargetType>
+        <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <Modifier>
