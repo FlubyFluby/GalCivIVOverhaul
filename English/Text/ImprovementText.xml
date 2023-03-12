@@ -332,7 +332,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>FarmingGuild_ShortDec</Label>
-    <String>N/A</String>
+    <String>A guild... for farmers.</String>
   </StringTable>
   <StringTable>
     <Label>ColonialClinic_Name</Label>

@@ -3033,9 +3033,8 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>
-        <Action>GiveArtifactPower</Action>
-        <ValueParam>3</ValueParam>
-        <StringParam>FOWReveal</StringParam>
+        <Action>GrantRandomTechToAll</Action>
+        <ValueParam>1</ValueParam>
       </PerformAction>
     </Triggers>
   </RaceTrait>

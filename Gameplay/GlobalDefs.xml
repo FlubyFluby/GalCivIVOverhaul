@@ -670,7 +670,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> <!--change back to 0.5 maybe--> 
-      <Value>0.75</Value> 
+      <Value>0.55</Value> 
     </GlobalColonyMods> 
  
     <GlobalColonyMods> 
@@ -2054,15 +2054,15 @@ The Y axis is the resulting price. -->
     <AIDefaultUnitWeight>30</AIDefaultUnitWeight> 
     <AssassinateDiplomatCreditsCost>100</AssassinateDiplomatCreditsCost> 
      
-    <ColonySponsoringDecayMinValue>0.125</ColonySponsoringDecayMinValue> 
+    <ColonySponsoringDecayMinValue>0.1</ColonySponsoringDecayMinValue> 
  
     <MaxStarvationPenalty>-0.2</MaxStarvationPenalty> 
     <LayoutPlanetMinBonusTiles>3</LayoutPlanetMinBonusTiles> 
     <LayoutPlanetMaxBonusTiles>5</LayoutPlanetMaxBonusTiles> 
  
-    <ColonySponsoringDecayDistanceStart>3</ColonySponsoringDecayDistanceStart> 
-	<ColonySponsoringDecayRate>0.008</ColonySponsoringDecayRate> 
-    <ColonySponsoringCrimeDecayRate>0.5</ColonySponsoringCrimeDecayRate> 
+    <ColonySponsoringDecayDistanceStart>4</ColonySponsoringDecayDistanceStart> 
+	<ColonySponsoringDecayRate>0.009</ColonySponsoringDecayRate> 
+    <ColonySponsoringCrimeDecayRate>0.35</ColonySponsoringCrimeDecayRate> 
 	 
     <ColonyControlResistanceMod>0.5</ColonyControlResistanceMod> 
     <ColonyControlRushCost>1</ColonyControlRushCost> 

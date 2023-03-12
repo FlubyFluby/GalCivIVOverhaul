@@ -1082,26 +1082,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Target</Lifetime>
-      <Modifier>
-        <EffectType>Control</EffectType>
-        <Target>
-          <TargetType>Faction</TargetType>
-        </Target>
-        <BonusType>Flat</BonusType>
-        <ValueType>Special</ValueType>
-        <SpecialValue>
-          <Special>StatCalc</Special>
-          <ValueParam>0</ValueParam>
-          <ValueParam>-0.5</ValueParam>
-          <StringParam>ControlPerTurn</StringParam>
-        </SpecialValue>
-      </Modifier>
       <SourceDisplayName>DraftColonists_Name</SourceDisplayName>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target> 
-        <TargetType>Faction</TargetType>
+        <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>

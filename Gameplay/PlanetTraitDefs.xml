@@ -6485,7 +6485,7 @@
         <EffectModifier>
             <EffectType>CreditsPerTurn</EffectType>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Faction</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
             <Value>20</Value>
@@ -6603,7 +6603,7 @@
         <EffectModifier>
             <EffectType>CreditsPerTurn</EffectType>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Faction</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
             <Value>40</Value>
@@ -6714,7 +6714,7 @@
         <EffectModifier>
             <EffectType>CreditsPerTurn</EffectType>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Faction</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
             <Value>60</Value>
@@ -6825,7 +6825,7 @@
         <EffectModifier>
             <EffectType>CreditsPerTurn</EffectType>
             <Target>
-                <TargetType>Colony</TargetType>
+                <TargetType>Faction</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
             <Value>80</Value>
