@@ -81,8 +81,8 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.5</ValueParam>
-                <StringParam>ColonyNetIncome</StringParam>
+                <ValueParam>1</ValueParam>
+                <StringParam>WealthNet</StringParam>
             </SpecialValue>
         </Stats>
         <Stats>
@@ -363,6 +363,7 @@
         </Techs>
       </Prerequ>
       <Preclusions>
+        <Improvement>CivilizationCapital</Improvement>
       </Preclusions>
     </Improvement>
     <Improvement>
@@ -395,8 +396,8 @@
           <SpecialValue>
               <Special>StatCalc</Special>
               <ValueParam>0</ValueParam>
-              <ValueParam>0.25</ValueParam>
-              <StringParam>ColonyNetIncome</StringParam>
+              <ValueParam>2</ValueParam>
+              <StringParam>Wealth</StringParam>
           </SpecialValue>
       </Stats>
       <Stats>
@@ -2944,7 +2945,7 @@
             </SpecialValue>
         </LevelEffectStats>
         <LevelEffectStats>
-            <EffectType>ColonyGrossIncome</EffectType>
+            <EffectType>CreditsPerTurn</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
@@ -4743,21 +4744,6 @@
                 <Value>1</Value>
             </Modifier>
         </Triggers>
-        <Triggers>
-            <OnEvent>OnConstructImprovment</OnEvent>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <Lifetime>Instant</Lifetime>
-            <Modifier>
-                <EffectType>IdeologyCompassion</EffectType>
-                <Target>
-                    <TargetType>Faction</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>1</Value>
-            </Modifier>
-        </Triggers>
         <LevelEffectStats>
             <EffectType>FoodIncome</EffectType>
             <Scope>Global</Scope>
@@ -4811,37 +4797,15 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>150</Value>
+            <Value>75</Value>
         </Stats>
         <Stats>
-            <EffectType>Maintenance</EffectType>
+            <EffectType>Credits</EffectType>
             <Target>
                 <TargetType>Faction</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.85</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
             <BonusType>OneTime</BonusType>
-            <Value>1</Value>
-        </Stats>
-        <Stats>
-            <EffectType>MonsatiumDepositCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>2</Value>
+            <Value>-500</Value>
         </Stats>
         <Stats>
             <EffectType>FoodIncome</EffectType>
@@ -4849,59 +4813,51 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.185</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>3</Value>
         </Stats>
         <Stats>
-            <EffectType>FoodIncome</EffectType>
+            <EffectType>Growth</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.002</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.05</Value>
         </Stats>
+        <Triggers>
+            <OnEvent>OnConstructImprovment</OnEvent>
+            <Target>
+                <TargetType>Faction</TargetType>
+            </Target>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>IdeologyCompassion</EffectType>
+                <Target>
+                    <TargetType>Faction</TargetType>
+                </Target>
+                <BonusType>Flat</BonusType>
+                <Value>1</Value>
+            </Modifier>
+        </Triggers>
         <LevelEffectStats>
             <EffectType>FoodIncome</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.09</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.34</Value>
         </LevelEffectStats>
         <LevelEffectStats>
-            <EffectType>FoodIncome</EffectType>
+            <EffectType>Growth</EffectType>
+            <Scope>Global</Scope>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.005</Value>
         </LevelEffectStats>
         <NeighborBonuses>
-            <GiveBonusToNeighborType>Food</GiveBonusToNeighborType>
-            <NeighborBonusValue>4</NeighborBonusValue>
+            <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+            <NeighborBonusValue>1</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
             <Techs>
@@ -4934,40 +4890,26 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>90</Value>
+            <Value>87</Value>
         </Stats>
         <Stats>
-            <EffectType>Maintenance</EffectType>
+            <EffectType>Credits</EffectType>
             <Target>
                 <TargetType>Faction</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.75</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>-500</Value>
         </Stats>
         <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
+            <EffectType>Maintenance</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
-            <BonusType>OneTime</BonusType>
+            <BonusType>Flat</BonusType>
             <Value>1</Value>
         </Stats>
         <Stats>
-            <EffectType>MonsatiumDepositCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>1</Value>
-        </Stats>
-        <Stats>
-            <EffectType>EpimetheusPollenCost</EffectType>
+            <EffectType>DurantiumCost</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
@@ -4980,35 +4922,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ColonyApproval</EffectType>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.05</Value>
+            <Value>0.2</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>Growth</EffectType>
@@ -5016,36 +4930,12 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>FoodIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>ColonyApproval</EffectType>
-            <Target>
-                <TargetType>Unit</TargetType>
-            </Target>
-            <BonusType>Multiplier</BonusType>
-            <Value>0.025</Value>
-        </LevelEffectStats>
+        <NeighborBonuses>
+            <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+            <NeighborBonusValue>2</NeighborBonusValue>
+        </NeighborBonuses>
         <Preclusions>
             <RaceTrait>
                 <Option>SyntheticLife</Option>
@@ -5071,37 +4961,23 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>75</Value>
+            <Value>97</Value>
         </Stats>
         <Stats>
             <EffectType>Maintenance</EffectType>
             <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.6</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
-            <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
-            <BonusType>OneTime</BonusType>
+            <BonusType>Flat</BonusType>
             <Value>1</Value>
         </Stats>
         <Stats>
-            <EffectType>EpimetheusPollenCost</EffectType>
+            <EffectType>DurantiumCost</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>2</Value>
+            <Value>5</Value>
         </Stats>
         <Stats>
             <EffectType>Growth</EffectType>
@@ -5109,13 +4985,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.3</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>Growth</EffectType>
@@ -5123,14 +4993,12 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
+        <NeighborBonuses>
+            <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+            <NeighborBonusValue>2</NeighborBonusValue>
+        </NeighborBonuses>
         <Prerequ>
             <Techs>
                 <Option>Tech_XenoMedicine</Option>
@@ -5160,45 +5028,23 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>150</Value>
+            <Value>120</Value>
         </Stats>
         <Stats>
             <EffectType>Maintenance</EffectType>
             <Target>
-                <TargetType>Faction</TargetType>
+                <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>1.15</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>2</Value>
-        </Stats>
-        <Stats>
-            <EffectType>MonsatiumDepositCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
             <Value>1</Value>
         </Stats>
         <Stats>
-            <EffectType>EpimetheusPollenCost</EffectType>
+            <EffectType>DurantiumCost</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>4</Value>
+            <Value>5</Value>
         </Stats>
         <Stats>
             <EffectType>Growth</EffectType>
@@ -5206,13 +5052,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.004</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.4</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>Growth</EffectType>
@@ -5220,24 +5060,10 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.002</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-            <NeighborBonusValue>4</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Terraforming</GiveBonusToNeighborType>
-            <NeighborBonusValue>3</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Food</GiveBonusToNeighborType>
             <NeighborBonusValue>2</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
@@ -5269,45 +5095,23 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>225</Value>
+            <Value>150</Value>
         </Stats>
         <Stats>
             <EffectType>Maintenance</EffectType>
             <Target>
-                <TargetType>Faction</TargetType>
+                <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>1.75</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>1</Value>
         </Stats>
         <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
+            <EffectType>DurantiumCost</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>4</Value>
-        </Stats>
-        <Stats>
-            <EffectType>MonsatiumDepositCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>2</Value>
-        </Stats>
-        <Stats>
-            <EffectType>EpimetheusPollenCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>6</Value>
+            <Value>5</Value>
         </Stats>
         <Stats>
             <EffectType>Growth</EffectType>
@@ -5315,13 +5119,15 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.005</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.5</Value>
+        </Stats>
+        <Stats>
+            <EffectType>Approval</EffectType>
+            <Target>
+                <TargetType>Unit</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.02</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>Growth</EffectType>
@@ -5329,25 +5135,11 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-            <NeighborBonusValue>5</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Terraforming</GiveBonusToNeighborType>
-            <NeighborBonusValue>4</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Food</GiveBonusToNeighborType>
-            <NeighborBonusValue>3</NeighborBonusValue>
+            <NeighborBonusValue>2</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
             <Techs>
@@ -5378,45 +5170,23 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>300</Value>
+            <Value>200</Value>
         </Stats>
         <Stats>
             <EffectType>Maintenance</EffectType>
             <Target>
-                <TargetType>Faction</TargetType>
+                <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>2.5</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>1</Value>
         </Stats>
         <Stats>
-            <EffectType>ArtocarpusVirilesCost</EffectType>
+            <EffectType>DurantiumCost</EffectType>
             <Target>
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>OneTime</BonusType>
-            <Value>6</Value>
-        </Stats>
-        <Stats>
-            <EffectType>MonsatiumDepositCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>3</Value>
-        </Stats>
-        <Stats>
-            <EffectType>EpimetheusPollenCost</EffectType>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>OneTime</BonusType>
-            <Value>8</Value>
+            <Value>5</Value>
         </Stats>
         <Stats>
             <EffectType>Growth</EffectType>
@@ -5424,13 +5194,15 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.006</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>1</Value>
+        </Stats>
+        <Stats>
+            <EffectType>Approval</EffectType>
+            <Target>
+                <TargetType>Unit</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.04</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>Growth</EffectType>
@@ -5438,25 +5210,11 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.004</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.1</Value>
         </LevelEffectStats>
         <NeighborBonuses>
             <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-            <NeighborBonusValue>6</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Terraforming</GiveBonusToNeighborType>
-            <NeighborBonusValue>5</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Food</GiveBonusToNeighborType>
-            <NeighborBonusValue>4</NeighborBonusValue>
+            <NeighborBonusValue>2</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
             <Techs>
@@ -5558,7 +5316,7 @@
     <Improvement>
         <InternalName>PlanetaryConversion</InternalName>
         <DisplayName>PlanetaryConversion_Name</DisplayName>
-        <ShortDescription>PlanetaryConversion_ShortDec</ShortDescription> 
+        <ShortDescription>PlanetaryConversion_ShortDec</ShortDescription>
         <Description>PlanetaryConversion_Dec</Description>
         <Icon>SoilEnhancement.png</Icon>
         <BuildIcon>SoilEnhancement_Build.png</BuildIcon>
@@ -8165,13 +7923,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.006</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.3</Value>
         </Stats>
         <LevelEffectStats>
             <EffectType>MaxManufacturing</EffectType>
@@ -8179,13 +7931,7 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>-0.002</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.01</Value>
         </LevelEffectStats>
         <LevelEffectStats>
             <EffectType>ResistanceBonus</EffectType>
@@ -8193,24 +7939,10 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
+            <Value>0.01</Value>
         </LevelEffectStats>
         <NeighborBonuses>
-            <GiveBonusToNeighborType>Resistance</GiveBonusToNeighborType>
-            <NeighborBonusValue>3</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
             <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
-            <NeighborBonusValue>2</NeighborBonusValue>
-        </NeighborBonuses>
-        <NeighborBonuses>
-            <GiveBonusToNeighborType>Propaganda</GiveBonusToNeighborType>
             <NeighborBonusValue>1</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
