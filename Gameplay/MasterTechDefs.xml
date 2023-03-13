@@ -7814,17 +7814,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>LogisticsCap</EffectType>
@@ -7879,16 +7869,6 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>2</Value>
     </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-1</Value>
-    </Stats>
     <Prerequ>
       <Techs>
         <Option>Tech_ArtificialGravity</Option>
@@ -7932,17 +7912,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-3</Value>
+      <Value>2</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -7987,17 +7957,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>4</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-4</Value>
+      <Value>2</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -9873,16 +9833,6 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>2</Value>
-    </Stats>
-    <Stats>
-      <EffectType>MovesCap</EffectType>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Ship</TargetType>
-        <TargetQualifier>InOwnersZOC</TargetQualifier>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-2</Value>
     </Stats>
     <Prerequ>
       <Techs>

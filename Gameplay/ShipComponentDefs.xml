@@ -168,6 +168,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <Value>-0.75</Value>
     </Stats>
     <Stats>
+      <EffectType>CanSurvey</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
       <EffectType>CanUpgrade</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
@@ -204,6 +212,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>CanSurvey</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>Maintenance</EffectType>
@@ -261,6 +277,14 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     </Stats>
     <Stats>
       <EffectType>ExpBonus</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>CanSurvey</EffectType>
       <Target>
         <TargetType>Ship</TargetType>
       </Target>
@@ -9504,13 +9528,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.03</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>PromethionCost</EffectType>
@@ -9518,13 +9536,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.04</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
@@ -9532,13 +9544,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.05</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>3</Value>
     </Stats>
   </ShipComponent>
  
@@ -9564,13 +9570,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.05</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Stats>
       <EffectType>PromethionCost</EffectType>
@@ -9578,13 +9578,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.04</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>3</Value>
     </Stats>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
@@ -9592,13 +9586,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.03</ValueParam>
-        <StringParam>MovesCap</StringParam>
-      </SpecialValue>
+      <Value>1</Value>
     </Stats>
   </ShipComponent>
  
@@ -9624,13 +9612,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.008</ValueParam>
-        <StringParam>SensorRange</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
   </ShipComponent>
  
@@ -9656,13 +9638,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.08</ValueParam>
-        <StringParam>BeamAttack</StringParam>
-      </SpecialValue>
+      <Value>4</Value>
     </Stats>
     <Prerequ>
       <Stat>
@@ -9697,13 +9673,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.08</ValueParam>
-        <StringParam>MissileAttack</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Prerequ>
       <Stat>
@@ -9738,13 +9708,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.08</ValueParam>
-        <StringParam>KineticAttack</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
     <Prerequ>
       <Stat>
@@ -9981,7 +9945,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>1</Value>
+      <Value>0.075</Value>
     </Stats>
     <Stats>
       <EffectType>PromethionCost</EffectType>
@@ -9989,7 +9953,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <Value>3</Value>
+      <Value>4</Value>
     </Stats>
     <Stats>
       <EffectType>DurantiumCost</EffectType>
@@ -9997,13 +9961,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>OneTime</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>0.08</ValueParam>
-        <StringParam>KineticAttack</StringParam>
-      </SpecialValue>
+      <Value>2</Value>
     </Stats>
   </ShipComponent>
  
@@ -10023,7 +9981,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
+      <Value>0.075</Value>
     </Stats>
     <Stats>
       <EffectType>PromethionCost</EffectType>

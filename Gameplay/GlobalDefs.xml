@@ -589,7 +589,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Faction</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> 
-      <Value>0.05</Value> 
+      <Value>0.025</Value> 
     </GlobalFactionMods> 
  
     <GlobalFactionMods> 
@@ -670,7 +670,7 @@ xsi:noNamespaceSchemaLocation="../Schema/GalCivGlobalDefs.xsd">
         <TargetType>Colony</TargetType> 
       </Target> 
       <BonusType>Flat</BonusType> <!--change back to 0.5 maybe--> 
-      <Value>0.55</Value> 
+      <Value>0.5</Value> 
     </GlobalColonyMods> 
  
     <GlobalColonyMods> 
@@ -2060,8 +2060,8 @@ The Y axis is the resulting price. -->
     <LayoutPlanetMinBonusTiles>3</LayoutPlanetMinBonusTiles> 
     <LayoutPlanetMaxBonusTiles>5</LayoutPlanetMaxBonusTiles> 
  
-    <ColonySponsoringDecayDistanceStart>4</ColonySponsoringDecayDistanceStart> 
-	<ColonySponsoringDecayRate>0.009</ColonySponsoringDecayRate> 
+    <ColonySponsoringDecayDistanceStart>4</ColonySponsoringDecayDistanceStart>  <!-- -3 -->
+	<ColonySponsoringDecayRate>0.01</ColonySponsoringDecayRate> <!--0.008 -->
     <ColonySponsoringCrimeDecayRate>0.35</ColonySponsoringCrimeDecayRate> 
 	 
     <ColonyControlResistanceMod>0.5</ColonyControlResistanceMod> 

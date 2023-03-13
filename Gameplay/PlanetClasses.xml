@@ -18,7 +18,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -57,7 +57,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -96,7 +96,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -135,7 +135,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -174,7 +174,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -330,7 +330,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -487,7 +487,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -526,7 +526,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -565,7 +565,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -604,7 +604,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -643,7 +643,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -682,7 +682,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -721,7 +721,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -760,7 +760,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -799,7 +799,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>5</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -838,7 +838,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -877,7 +877,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -956,7 +956,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -995,7 +995,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1034,7 +1034,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1073,7 +1073,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1112,7 +1112,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1190,7 +1190,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>5</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1268,7 +1268,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1346,7 +1346,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>2</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1385,7 +1385,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>1</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1425,7 +1425,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>14</RangeMax>
+                <RangeMax>12</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1464,7 +1464,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>13</RangeMax>
+                <RangeMax>11</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1503,7 +1503,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>12</RangeMax>
+                <RangeMax>10</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1542,7 +1542,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>12</RangeMax>
+                <RangeMax>9</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1581,7 +1581,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>11</RangeMax>
+                <RangeMax>8</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1620,7 +1620,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>10</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1659,7 +1659,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1698,7 +1698,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1737,7 +1737,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1776,7 +1776,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1815,7 +1815,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>5</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1854,7 +1854,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -1972,7 +1972,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>10</RangeMax>
+                <RangeMax>9</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2011,7 +2011,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>8</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2050,7 +2050,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2089,7 +2089,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2128,7 +2128,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2167,7 +2167,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2206,7 +2206,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>5</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2245,7 +2245,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2284,7 +2284,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2323,7 +2323,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>2</RangeMax>
+                <RangeMax>0</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2441,7 +2441,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2519,7 +2519,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2558,7 +2558,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2597,7 +2597,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>2</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2636,7 +2636,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>2</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2675,7 +2675,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>1</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2714,7 +2714,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>0</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2753,7 +2753,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>0</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2792,7 +2792,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>0</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -2949,7 +2949,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3027,7 +3027,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>3</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3105,7 +3105,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>2</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3183,7 +3183,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>1</RangeMax>
+                <RangeMax>2</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3222,7 +3222,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>0</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3261,7 +3261,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>0</RangeMax>
+                <RangeMax>1</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3301,7 +3301,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>12</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3340,7 +3340,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>11</RangeMax>
+                <RangeMax>7</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3379,7 +3379,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>10</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3418,7 +3418,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>9</RangeMax>
+                <RangeMax>6</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3457,7 +3457,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>8</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3496,7 +3496,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>7</RangeMax>
+                <RangeMax>5</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3535,7 +3535,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>6</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3574,7 +3574,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>5</RangeMax>
+                <RangeMax>4</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>
@@ -3613,7 +3613,7 @@
             <Stat>BaseMinerals</Stat>
             <Value>
                 <RangeMin>0</RangeMin>
-                <RangeMax>4</RangeMax>
+                <RangeMax>3</RangeMax>
             </Value>
         </StatWeight>
         <StatWeight>

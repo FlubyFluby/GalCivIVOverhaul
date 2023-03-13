@@ -362,6 +362,9 @@
           <Option>TechTree</Option>
         </Techs>
       </Prerequ>
+      <Preclusions>
+        <PlanetHasImprovement><Option>CivilizationCapital</Option></PlanetHasImprovement>
+    </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>CivilizationCapital</InternalName>
@@ -666,6 +669,9 @@
             <Option>TechTree</Option>
           </Techs>
         </Prerequ>
+        <Preclusions>
+          <PlanetHasImprovement><Option>ColonyCapital</Option></PlanetHasImprovement>
+      </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>StripMine</InternalName>
@@ -894,8 +900,8 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
-        </Preclusions>
+          <PlanetHasImprovement><Option>CivilizationCapital</Option></PlanetHasImprovement>
+      </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>WorldheartBorehole</InternalName>
@@ -1083,8 +1089,10 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
-        </Preclusions>
+          <PlanetHasImprovement>
+            <Option>CivilizationCapital</Option>
+        </PlanetHasImprovement>
+      </Preclusions>
     </Improvement>
     <Improvement>
         <InternalName>InfiniteGarden</InternalName>
@@ -1235,7 +1243,9 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
+            <PlanetHasImprovement>
+              <Option>CivilizationCapital</Option>
+          </PlanetHasImprovement>
         </Preclusions>
         <BlockedPlanetFeature>Terrain_Desert</BlockedPlanetFeature>
         <BlockedPlanetFeature>Terrain_Mountains</BlockedPlanetFeature>
@@ -1763,7 +1773,9 @@
             <RaceTrait>
                 <Option>WealthyAbility</Option>
             </RaceTrait>
-            <Improvement>CivilizationCapital</Improvement>
+             <PlanetHasImprovement>
+                  <Option>CivilizationCapital</Option>
+              </PlanetHasImprovement>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -2734,7 +2746,9 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
+            <PlanetHasImprovement>
+              <Option>CivilizationCapital</Option>
+          </PlanetHasImprovement>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -2795,7 +2809,9 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
+            <PlanetHasImprovement>
+              <Option>CivilizationCapital</Option>
+          </PlanetHasImprovement>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -3407,7 +3423,9 @@
             </Techs>
         </Prerequ>
         <Preclusions>
-            <Improvement>CivilizationCapital</Improvement>
+            <PlanetHasImprovement>
+              <Option>CivilizationCapital</Option>
+          </PlanetHasImprovement>
         </Preclusions>
     </Improvement>
     <!-- Untouched -->
@@ -5041,7 +5059,9 @@
             <RaceTrait>
                 <Option>SyntheticLife</Option>
             </RaceTrait>
-            <Improvement>CivilizationCapital</Improvement>
+                <PlanetHasImprovement>
+                  <Option>CivilizationCapital</Option>
+              </PlanetHasImprovement>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -8318,7 +8338,13 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>0.3</Value>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.006</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
         </Stats>
         <LevelEffectStats>
             <EffectType>MaxManufacturing</EffectType>
@@ -8326,7 +8352,13 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.01</Value>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>-0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
         </LevelEffectStats>
         <LevelEffectStats>
             <EffectType>ResistanceBonus</EffectType>
@@ -8334,10 +8366,24 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>0.01</Value>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
         </LevelEffectStats>
         <NeighborBonuses>
+            <GiveBonusToNeighborType>Resistance</GiveBonusToNeighborType>
+            <NeighborBonusValue>3</NeighborBonusValue>
+        </NeighborBonuses>
+        <NeighborBonuses>
             <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+            <NeighborBonusValue>2</NeighborBonusValue>
+        </NeighborBonuses>
+        <NeighborBonuses>
+            <GiveBonusToNeighborType>Propaganda</GiveBonusToNeighborType>
             <NeighborBonusValue>1</NeighborBonusValue>
         </NeighborBonuses>
         <Prerequ>
