@@ -1337,12 +1337,12 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
+            <BonusType>Multiplier</BonusType>
             <ValueType>Special</ValueType>
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.5</ValueParam>
+                <ValueParam>0.025</ValueParam>
                 <StringParam>ScientistCount</StringParam>
             </SpecialValue>
         </Stats>
@@ -1351,63 +1351,26 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
+            <BonusType>Multiplier</BonusType>
             <ValueType>Special</ValueType>
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>-0.15</ValueParam>
+                <ValueParam>-0.025</ValueParam>
                 <StringParam>ScientistCount</StringParam>
             </SpecialValue>
         </Stats>
-        <Stats>
-            <EffectType>Wealth</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>-0.15</ValueParam>
-                <StringParam>ScientistCount</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>Pollution</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>-0.01</Value>
-        </Stats>
-        <Triggers>
-            <OnEvent>OnConstructImprovment</OnEvent>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <Lifetime>Instant</Lifetime>
-            <Modifier>
-                <EffectType>IdeologyOpportunity</EffectType>
-                <Target>
-                    <TargetType>Faction</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <Value>1</Value>
-            </Modifier>
-        </Triggers>
         <LevelEffectStats>
             <EffectType>Research</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
+            <BonusType>Multiplier</BonusType>
             <ValueType>Special</ValueType>
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.25</ValueParam>
+                <ValueParam>0.025</ValueParam>
                 <StringParam>ScientistCount</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -1416,12 +1379,12 @@
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
-            <BonusType>Flat</BonusType>
+            <BonusType>Multiplier</BonusType>
             <ValueType>Special</ValueType>
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>-0.1</ValueParam>
+                <ValueParam>-0.025</ValueParam>
                 <StringParam>ScientistCount</StringParam>
             </SpecialValue>
         </LevelEffectStats>

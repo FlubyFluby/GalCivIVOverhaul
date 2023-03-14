@@ -140,8 +140,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_Draft1Colonists</InternalName>
     <ArtifactPowerDef>Draft1Colonists</ArtifactPowerDef>
-    <ControlCost>1</ControlCost>
-    <CreditsCost>400</CreditsCost>
+    <ControlCost>0</ControlCost>
+    <CreditsCost>0</CreditsCost>
     <CooldownTurns>4</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
@@ -152,25 +152,25 @@ xsi:noNamespaceSchemaLocation="../Schema/ExecutiveOrderDefs.xsd">
   <ExecutiveOrder>
     <InternalName>EO_Draft2Colonists</InternalName>
     <ArtifactPowerDef>Draft2Colonists</ArtifactPowerDef>
-    <ControlCost>2</ControlCost>
-    <CreditsCost>1000</CreditsCost>
+    <ControlCost>0</ControlCost>
+    <CreditsCost>0</CreditsCost>
     <CooldownTurns>6</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
-      <HasNumCoreColonies>10</HasNumCoreColonies>
+      <HasNumCoreColonies>15</HasNumCoreColonies>
     </Prerequ>
   </ExecutiveOrder>
   <ExecutiveOrder>
     <InternalName>EO_Draft3Colonists</InternalName>
     <ArtifactPowerDef>Draft3Colonists</ArtifactPowerDef>
-    <ControlCost>3</ControlCost>
-    <CreditsCost>2000</CreditsCost>
+    <ControlCost>0</ControlCost>
+    <CreditsCost>0</CreditsCost>
     <CooldownTurns>8</CooldownTurns>
     <CooldownModCounterName>EO_DraftColonists_CooldownMod</CooldownModCounterName>
     <Target>Player</Target>
     <Prerequ>
-      <HasNumCoreColonies>20</HasNumCoreColonies>
+      <HasNumCoreColonies>30</HasNumCoreColonies>
     </Prerequ>
   </ExecutiveOrder>
 
