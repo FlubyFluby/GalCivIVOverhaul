@@ -1042,7 +1042,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy1_ShortDec</Label>
-    <String>Provides 7 credits for every 1 wealth in the colony</String>
+    <String>Provides 400 percent of your gross colony income</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy2_Name</Label>
@@ -1050,7 +1050,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy2_ShortDec</Label>
-    <String>Provides 6 credits for every 1 wealth in the colony</String>
+    <String>Provides 325 percent of your gross colony income</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy3_Name</Label>
@@ -1058,7 +1058,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy3_ShortDec</Label>
-    <String>Provides 5 credits for every 1 wealth in the colony</String>
+    <String>Provides 250 percent of your gross colony income</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy4_Name</Label>
@@ -1066,7 +1066,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy4_ShortDec</Label>
-    <String>Provides 4 credits for every 1 wealth in the colony</String>
+    <String>Provides 200 percent of your gross colony income</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy5_Name</Label>
@@ -1074,7 +1074,7 @@ Can only be built on Lake terrain.</String>
   </StringTable>
   <StringTable>
     <Label>AidEconomy5_ShortDec</Label>
-    <String>Provides 3 credits for every 1 wealth in the colony</String>
+    <String>Provides 150 percent of your gross colony income</String>
   </StringTable>
  
   <StringTable>

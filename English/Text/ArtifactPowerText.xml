@@ -249,7 +249,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft1Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide a free Colony ship, costs 50% of your control per turn.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide a free Colony ship, costs 25% of your "control per turn" for 1 turn. Costs 30X your "Control per turn" in credits E.G: 15 control per turn x 30 = 450 cost in credits.</String>
   </StringTable>
   <StringTable>
     <Label>Draft2Colonists_Name</Label>
@@ -257,7 +257,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft2Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide 2 free Colony ships, costs 125% of your control per turn. Isn't available until you have 15 core worlds.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 2 free Colony ships, This will provide a free Colony ship, costs 50% of your "control per turn" for 1 turn. Costs 70X your "Control per turn" in credits E.G: 15 control per turn x 70 = 1050 cost in credits. Isn't available until you have 15 core worlds.</String>
   </StringTable>
   <StringTable>
     <Label>Draft3Colonists_Name</Label>
@@ -265,7 +265,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>Draft3Colonists_Dec</Label>
-    <String>Sometimes we can't afford to wait for volunteers. This will provide 3 free Colony ships, costs 250% of your control per turn. Isn't available until you have 30 core worlds.</String>
+    <String>Sometimes we can't afford to wait for volunteers. This will provide 3 free Colony ships,  costs 75% control of your "control per turn" for 1 turn. Costs 120X your "Control per turn" in credits E.G: 15 control per turn x 120 = 1800 cost in credits. Isn't available until you have 30 core worlds.</String>
   </StringTable>
  
   <StringTable>
@@ -292,7 +292,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>PrintMoney_Dec</Label>
-    <String>Grants 5 credits for every 1 credit in net income per turn. Reduces global approval for between 6 months and a year based on net income per turn as well. Costs 0.018 control for every 1 credit net income per turn(E.G: For 500 net income, that would equal 9 control cost and 2500 money printed). </String>
+    <String>Grants 4 credits for every 1 credit in net income per turn. Reduces global approval for between 6 months and a year based on net income per turn as well. Costs 0.018 control for every 1 credit net income per turn(E.G: For 500 net income, that would equal 9 control cost and 2500 money printed). </String>
   </StringTable>
  
   <StringTable>
@@ -311,7 +311,7 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>ExhortGovernors_Dec</Label>
     <String>Our governors will donate to our cause. But they won't like it.
-    Cash in your control by extorting your governors. Provides 30 credits for every point of control you have. E.G: E.G You have 150 control. You use the ability, so now you lose 10% = 135 control, you lose access to half more for 10 turns so you end up with 67-68 remaining control. You gain 4500 credits. </String>
+    Cash in your control by extorting your governors. Provides 25 credits for every point of control you have. E.G: E.G You have 150 control. You use the ability, so now you lose 10% = 135 control, you lose access to half more for 10 turns so you end up with 67-68 remaining control. You gain 3750 credits. </String>
   </StringTable>
  
   <StringTable>
@@ -372,7 +372,8 @@ xsi:noNamespaceSchemaLocation="../../../Data/Schema/Lib/StringTable.xsd">
   </StringTable>
   <StringTable>
     <Label>TelescopeTakeover_Dec</Label>
-    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs a quarter of your credits per turn. E.G if you earn 400 credits net per turn it costs 100 [COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
+    <String>Private corporations have advanced survey equipment which we can put to immediate use. Costs 50X your control per turn in credits E.G if you gain 15 control per turn  X 50 = 750 cost in credits.
+      [COLOR=UIDefaultHighlight]Reveals an area of the map[/COLOR]</String>
   </StringTable>
  
   <StringTable>

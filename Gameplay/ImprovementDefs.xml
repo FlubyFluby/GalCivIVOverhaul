@@ -220,7 +220,7 @@
               <Special>StatCalc</Special>
               <ValueParam>0</ValueParam>
               <ValueParam>0.001</ValueParam>
-              <StringParam>WealthNet</StringParam>
+              <StringParam>PlanetClass</StringParam>
           </SpecialValue>
       </Stats>
       <Stats>
@@ -234,7 +234,7 @@
               <Special>StatCalc</Special>
               <ValueParam>0</ValueParam>
               <ValueParam>-0.001</ValueParam>
-              <StringParam>WealthNet</StringParam>
+              <StringParam>PlanetClass</StringParam>
           </SpecialValue>
       </Stats>
       <LevelEffectStats>
@@ -526,8 +526,8 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.001</ValueParam>
-                <StringParam>WealthNet</StringParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
         <Stats>
@@ -540,8 +540,8 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>-0.001</ValueParam>
-                <StringParam>WealthNet</StringParam>
+                <ValueParam>-0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
         <LevelEffectStats>
@@ -12092,8 +12092,8 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>8</ValueParam>
-                    <StringParam>WealthNet</StringParam>
+                    <ValueParam>4.0</ValueParam>
+                    <StringParam>ColonyGrossIncome</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
@@ -12139,8 +12139,8 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>6</ValueParam>
-                    <StringParam>WealthNet</StringParam>
+                    <ValueParam>3.25</ValueParam>
+                    <StringParam>ColonyGrossIncome</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
@@ -12154,7 +12154,7 @@
     <Improvement>
         <InternalName>AidEconomy3</InternalName>
         <DisplayName>AidEconomy3_Name</DisplayName>
-        <ShortDescription>AidEconomy2_ShortDec</ShortDescription>
+        <ShortDescription>AidEconomy3_ShortDec</ShortDescription>
         <Description>AidEconomy3_Dec</Description>
         <Icon>Economy_Build.png</Icon>
         <BuildIcon>Economy_Build_Build.png</BuildIcon>
@@ -12186,8 +12186,8 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>4</ValueParam>
-                    <StringParam>WealthNet</StringParam>
+                    <ValueParam>2.5</ValueParam>
+                    <StringParam>ColonyGrossIncome</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
@@ -12233,8 +12233,8 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>4</ValueParam>
-                    <StringParam>WealthNet</StringParam>
+                    <ValueParam>2.0</ValueParam>
+                    <StringParam>ColonyGrossIncome</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
@@ -12280,8 +12280,8 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>2</ValueParam>
-                    <StringParam>WealthNet</StringParam>
+                    <ValueParam>1.5</ValueParam>
+                    <StringParam>ColonyGrossIncome</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>

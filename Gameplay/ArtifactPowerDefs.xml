@@ -2,9 +2,8 @@
 <ArtifactPowerList
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
-<!-- Created with the GC4 editor -->
-<!-- ArtifactPowerDefs.xml -->
- 
+  <!-- Created with the GC4 editor -->
+  <!-- ArtifactPowerDefs.xml -->
   <ArtifactPower>
     <InternalName>ResearchCharge</InternalName>
     <DisplayName>ResearchCharge_Name</DisplayName>
@@ -24,7 +23,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Restrictions>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -33,7 +32,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>SocialConstruction</InternalName>
     <DisplayName>SocialConstruction_Name</DisplayName>
@@ -77,7 +75,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>MilitaryConstruction</InternalName>
     <DisplayName>MilitaryConstruction_Name</DisplayName>
@@ -121,7 +118,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetInfluence</InternalName>
     <DisplayName>PlanetInfluence_Name</DisplayName>
@@ -164,7 +160,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetClass</InternalName>
     <DisplayName>PlanetClass_Name</DisplayName>
@@ -200,7 +195,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -219,7 +214,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetRepair</InternalName>
     <DisplayName>FleetRepair_Name</DisplayName>
@@ -239,7 +233,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>AllShipsInFleet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -256,7 +250,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetResetMoves</InternalName>
     <DisplayName>FleetResetMoves_Name</DisplayName>
@@ -276,7 +269,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>AllShipsInFleet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -293,7 +286,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetAttack</InternalName>
     <DisplayName>FleetAttack_Name</DisplayName>
@@ -368,7 +360,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetExp</InternalName>
     <DisplayName>FleetExp_Name</DisplayName>
@@ -410,7 +401,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetDefense</InternalName>
     <DisplayName>FleetDefense_Name</DisplayName>
@@ -485,7 +475,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetHitpoints</InternalName>
     <DisplayName>FleetHitpoints_Name</DisplayName>
@@ -528,7 +517,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>Wormhole</InternalName>
     <DisplayName>Wormhole_Name</DisplayName>
@@ -548,7 +536,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>AllShipsInFleet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -565,7 +553,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FOWReveal</InternalName>
     <DisplayName>FOWReveal_Name</DisplayName>
@@ -584,7 +571,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -603,7 +590,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>FleetDamage</InternalName>
     <DisplayName>FleetDamage_Name</DisplayName>
@@ -648,7 +634,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>SpawnOverlord</InternalName>
     <DisplayName>SpawnOverlord_Name</DisplayName>
@@ -667,7 +652,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -685,7 +670,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>CagedMonster</InternalName>
     <DisplayName>CagedMonster_Name</DisplayName>
@@ -704,7 +688,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -723,7 +707,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>SpaceMonster</InternalName>
     <DisplayName>SpaceMonster_Name</DisplayName>
@@ -742,7 +725,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -760,7 +743,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetPopulation</InternalName>
     <DisplayName>PlanetPopulation_Name</DisplayName>
@@ -781,7 +763,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -800,7 +782,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>GlobalApproval</InternalName>
     <DisplayName>GlobalApproval_Name</DisplayName>
@@ -839,7 +820,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <SourceDisplayName>GlobalApproval_Name</SourceDisplayName>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetResistance</InternalName>
     <DisplayName>PlanetResistance_Name</DisplayName>
@@ -883,7 +863,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ConvertDeadWorld</InternalName>
     <DisplayName>ConvertDeadWorld_Name</DisplayName>
@@ -903,7 +882,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Planet</TargetType>
         <TargetRelation>Any</TargetRelation>
       </Target>
@@ -923,7 +902,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetCrime</InternalName>
     <DisplayName>PlanetCrime_Name</DisplayName>
@@ -987,7 +965,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PlanetPollution</InternalName>
     <DisplayName>PlanetPollution_Name</DisplayName>
@@ -1032,7 +1009,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>GalacticFestival</InternalName>
     <DisplayName>GalacticFestival_Name</DisplayName>
@@ -1064,7 +1040,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <SourceDisplayName>GalacticFestival_Name</SourceDisplayName>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>Draft1Colonists</InternalName>
     <DisplayName>Draft1Colonists_Name</DisplayName>
@@ -1081,9 +1056,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <Lifetime>Target</Lifetime>
+      <Lifetime>Instant</Lifetime>
       <Modifier>
-        <EffectType>Control</EffectType>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
         <Target>
           <TargetType>Faction</TargetType>
         </Target>
@@ -1100,7 +1076,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-30</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
         <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1111,7 +1109,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>Draft2Colonists</InternalName>
     <DisplayName>Draft2Colonists_Name</DisplayName>
@@ -1128,9 +1125,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <Lifetime>Target</Lifetime>
+      <Lifetime>Instant</Lifetime>
       <Modifier>
-        <EffectType>Control</EffectType>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
         <Target>
           <TargetType>Faction</TargetType>
         </Target>
@@ -1147,7 +1145,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-70</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
         <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1163,7 +1183,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>Draft3Colonists</InternalName>
     <DisplayName>Draft3Colonists_Name</DisplayName>
@@ -1180,9 +1199,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <Target>
         <TargetType>Faction</TargetType>
       </Target>
-      <Lifetime>Target</Lifetime>
+      <Lifetime>Instant</Lifetime>
       <Modifier>
-        <EffectType>Control</EffectType>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
         <Target>
           <TargetType>Faction</TargetType>
         </Target>
@@ -1199,7 +1219,29 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>Credits</EffectType>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-120</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnArtifactPowerUsed</OnEvent>
+      <Target>
         <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1220,7 +1262,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>MartialLaw</InternalName>
     <DisplayName>MartialLaw_Name</DisplayName>
@@ -1286,7 +1327,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <SourceDisplayName>MartialLaw_Name</SourceDisplayName>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>IllicitDeals</InternalName>
     <DisplayName>IllicitDeals_Name</DisplayName>
@@ -1339,7 +1379,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Modifier>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PrintMoney</InternalName>
     <DisplayName>PrintMoney_Name</DisplayName>
@@ -1416,13 +1455,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
         <SpecialValue>
           <Special>StatCalc</Special>
           <ValueParam>0</ValueParam>
-          <ValueParam>5</ValueParam>
+          <ValueParam>4</ValueParam>
           <StringParam>CreditsPerTurn</StringParam>
         </SpecialValue>
       </Modifier>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ExploitNature</InternalName>
     <DisplayName>ExploitNature_Name</DisplayName>
@@ -1499,7 +1537,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Modifier>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ExhortGovernors</InternalName>
     <DisplayName>ExhortGovernors_Name</DisplayName>
@@ -1533,7 +1570,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1585,7 +1622,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Modifier>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>InviteLeaders</InternalName>
     <DisplayName>InviteLeaders_Name</DisplayName>
@@ -1624,7 +1660,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>InviteLeadersLavishFeast</InternalName>
     <DisplayName>InviteLeadersLavishFeast_Name</DisplayName>
@@ -1658,7 +1693,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Scope>Local</Scope>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <PerformAction>
@@ -1674,7 +1709,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ColonialSupplies</InternalName>
     <DisplayName>ColonialSupplies_Name</DisplayName>
@@ -1726,7 +1760,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       <SourceDisplayName>ColonialSupplies_Name</SourceDisplayName>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>PressureScientists</InternalName>
     <DisplayName>PressureScientists_Name</DisplayName>
@@ -1776,7 +1809,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </Modifier>
     </Triggers>
   </ArtifactPower>
-<!-- broken-->
+  <!-- broken-->
   <ArtifactPower>
     <InternalName>TelescopeTakeover</InternalName>
     <DisplayName>TelescopeTakeover_Name</DisplayName>
@@ -1795,7 +1828,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </AIPreference>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1807,23 +1840,25 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <Modifier>
         <EffectType>Credits</EffectType>
-        <Scope>Global</Scope><Target>
-          <TargetType>Faction</TargetType></Target>
-      <BonusType>Flat</BonusType>
-      <ValueType>Special</ValueType>
-      <SpecialValue>
-        <Special>StatCalc</Special>
-        <ValueParam>0</ValueParam>
-        <ValueParam>-0.5</ValueParam>
-        <StringParam>CreditsPerTurn</StringParam>
-      </SpecialValue>
-    </Modifier>
+        <Scope>Global</Scope>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <ValueType>Special</ValueType>
+        <SpecialValue>
+          <Special>StatCalc</Special>
+          <ValueParam>0</ValueParam>
+          <ValueParam>-50</ValueParam>
+          <StringParam>ControlPerTurn</StringParam>
+        </SpecialValue>
+      </Modifier>
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
@@ -1834,7 +1869,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-<!-- Disabled cost of telescope for testing purposes
+  <!-- Disabled cost of telescope for testing purposes
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
       <Target>
@@ -1888,7 +1923,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1899,7 +1934,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1910,7 +1945,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -1920,7 +1955,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>GoodWillTour</InternalName>
     <DisplayName>GoodWillTour_Name</DisplayName>
@@ -1943,7 +1977,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ForcedOvertime</InternalName>
     <DisplayName>ForcedOvertime_Name</DisplayName>
@@ -2009,7 +2042,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>DefenseSentinels_Artifact</InternalName>
     <DisplayName>DefenseSentinels_Artifact_Name</DisplayName>
@@ -2023,7 +2055,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     <ValidRelation>Self</ValidRelation>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Planet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
@@ -2044,7 +2076,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>QuestArtifact_OrbOfDraginol_Artifact</InternalName>
     <DisplayName>QuestArtifact_OrbOfDraginol_Artifact_Name</DisplayName>
@@ -2074,7 +2105,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
       </Target>
       <PerformAction>
@@ -2099,7 +2130,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>ImpressForeignFleet</InternalName>
     <DisplayName>ImpressForeignFleet_Name</DisplayName>
@@ -2122,7 +2152,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Restrictions>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Fleet</TargetType>
         <TargetRelation>Foreign</TargetRelation>
       </Target>
@@ -2133,7 +2163,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Triggers>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Faction</TargetType>
         <TargetRelation>Foreign</TargetRelation>
       </Target>
@@ -2154,7 +2184,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>EnlistPirateFleet</InternalName>
     <DisplayName>EnlistPirateFleet_Name</DisplayName>
@@ -2177,7 +2206,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Restrictions>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Fleet</TargetType>
         <TargetRelation>Any</TargetRelation>
       </Target>
@@ -2195,7 +2224,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
   <ArtifactPower>
     <InternalName>EnlistPirateWorld</InternalName>
     <DisplayName>EnlistPirateWorld_Name</DisplayName>
@@ -2218,7 +2246,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
     </Restrictions>
     <Triggers>
       <OnEvent>OnArtifactPowerUsed</OnEvent>
-      <Target> 
+      <Target>
         <TargetType>Planet</TargetType>
         <TargetRelation>Any</TargetRelation>
       </Target>
@@ -2236,5 +2264,4 @@ xsi:noNamespaceSchemaLocation="../Schema/ArtifactPowerDefs.xsd">
       </PerformAction>
     </Triggers>
   </ArtifactPower>
-
 </ArtifactPowerList>

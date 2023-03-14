@@ -1916,13 +1916,13 @@ The Y axis is the resulting price. -->
 	<GovernmentNumColoniesBeforeAllowed>2</GovernmentNumColoniesBeforeAllowed> 
 	<GovernmentLostElectionCooldown>20</GovernmentLostElectionCooldown> 
 	<GovernmentLostElectionDefaultInterimGovernment>Coalition</GovernmentLostElectionDefaultInterimGovernment> 
-	<TaxationUnrestMult>0.75</TaxationUnrestMult> 
-	<TaxationStartingValue>0.25</TaxationStartingValue> 
-  <TaxationRateLow>0.25</TaxationRateLow> 
-  <TaxationRateNormal>0.5</TaxationRateNormal> 
-  <TaxationRateMedium>0.75</TaxationRateMedium> 
-  <TaxationRateHigh>1.0</TaxationRateHigh> 
-  <TaxationRateMax>1.25</TaxationRateMax> 
+	<TaxationUnrestMult>0.35</TaxationUnrestMult> 
+	<TaxationStartingValue>0.35</TaxationStartingValue> 
+  <TaxationRateLow>0.5</TaxationRateLow> 
+  <TaxationRateNormal>0.75</TaxationRateNormal> 
+  <TaxationRateMedium>1.0</TaxationRateMedium> 
+  <TaxationRateHigh>1.5</TaxationRateHigh> 
+  <TaxationRateMax>2</TaxationRateMax> 
   <GalacticNewsTurnsAfterUseMult>1</GalacticNewsTurnsAfterUseMult> 
 	<GalacticNewsUnusedBonus>100</GalacticNewsUnusedBonus> 
 	<GalacticNewsListSizeMetBonus>100</GalacticNewsListSizeMetBonus> 
