@@ -2832,7 +2832,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>125</Value>
+            <Value>150</Value>
         </Stats>
         <Stats>
             <EffectType>MaxManufacturing</EffectType>
@@ -2859,76 +2859,6 @@
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
                 <ValueParam>-0.003</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>PromethionIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.006</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>DurantiumIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.006</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>ThuliumIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.006</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>EleriumIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.004</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </Stats>
-        <Stats>
-            <EffectType>AntimatterIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </Stats>
@@ -2938,7 +2868,273 @@
                 <TargetType>Colony</TargetType>
             </Target>
             <BonusType>Multiplier</BonusType>
-            <Value>0.1</Value>
+            <Value>0.05</Value>
+        </Stats>
+        <Stats>
+            <EffectType>DurantiumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>PromethionIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>ThuliumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>EleriumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>AntimatterIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.003</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>XanthiumDepositIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>HeliosOreIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>HyperSilicatesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>PrecursorNanitesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>NanobotsIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>HarmonyCrystalsIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>SnugglerColonyIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>UltraSpiceIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>AurorusArboretumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>MonsatiumDepositIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>EpimetheusPollenIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>ArtocarpusVirilesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>TechapodHiveIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>ArtocarpusVirilesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
         </Stats>
         <LevelEffectStats>
             <EffectType>MaxManufacturing</EffectType>
@@ -2950,7 +3146,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>-0.001</ValueParam>
+                <ValueParam>-0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -2964,7 +3160,29 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>-0.001</ValueParam>
+                <ValueParam>-0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>Pollution</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Multiplier</BonusType>
+            <Value>0.05</Value>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>DurantiumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -2978,21 +3196,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
-                <StringParam>PlanetClass</StringParam>
-            </SpecialValue>
-        </LevelEffectStats>
-        <LevelEffectStats>
-            <EffectType>DurantiumIncome</EffectType>
-            <Target>
-                <TargetType>Colony</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <ValueType>Special</ValueType>
-            <SpecialValue>
-                <Special>StatCalc</Special>
-                <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
+                <ValueParam>0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -3006,7 +3210,7 @@
             <SpecialValue>
                 <Special>StatCalc</Special>
                 <ValueParam>0</ValueParam>
-                <ValueParam>0.003</ValueParam>
+                <ValueParam>0.002</ValueParam>
                 <StringParam>PlanetClass</StringParam>
             </SpecialValue>
         </LevelEffectStats>
@@ -3026,6 +3230,202 @@
         </LevelEffectStats>
         <LevelEffectStats>
             <EffectType>AntimatterIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.002</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>XanthiumDepositIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>HeliosOreIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>HyperSilicatesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>PrecursorNanitesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>NanobotsIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>HarmonyCrystalsIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>SnugglerColonyIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>UltraSpiceIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>AurorusArboretumIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>MonsatiumDepositIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>EpimetheusPollenIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>ArtocarpusVirilesIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>TechapodHiveIncome</EffectType>
+            <Target>
+                <TargetType>Colony</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>StatCalc</Special>
+                <ValueParam>0</ValueParam>
+                <ValueParam>0.001</ValueParam>
+                <StringParam>PlanetClass</StringParam>
+            </SpecialValue>
+        </LevelEffectStats>
+        <LevelEffectStats>
+            <EffectType>ArtocarpusVirilesIncome</EffectType>
             <Target>
                 <TargetType>Colony</TargetType>
             </Target>
@@ -11711,7 +12111,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>45</Value>
+            <Value>40</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -11729,7 +12129,7 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>7</ValueParam>
+                    <ValueParam>8</ValueParam>
                     <StringParam>WealthNet</StringParam>
                 </SpecialValue>
             </Modifier>
@@ -11738,7 +12138,7 @@
             <HasNumCoreColonies>1</HasNumCoreColonies>
         </Prerequ>
         <Preclusions>
-            <HasNumCoreColonies>3</HasNumCoreColonies>
+            <HasNumCoreColonies>5</HasNumCoreColonies>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -11758,7 +12158,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>75</Value>
+            <Value>55</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -11782,10 +12182,10 @@
             </Modifier>
         </Triggers>
         <Prerequ>
-            <HasNumCoreColonies>3</HasNumCoreColonies>
+            <HasNumCoreColonies>5</HasNumCoreColonies>
         </Prerequ>
         <Preclusions>
-            <HasNumCoreColonies>7</HasNumCoreColonies>
+            <HasNumCoreColonies>12</HasNumCoreColonies>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -11805,54 +12205,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>90</Value>
-        </Stats>
-        <Triggers>
-            <OnEvent>OnConstructImprovment</OnEvent>
-            <Target>
-                <TargetType>Faction</TargetType>
-            </Target>
-            <Lifetime>Instant</Lifetime>
-            <Modifier>
-                <EffectType>Credits</EffectType>
-                <Target>
-                    <TargetType>Faction</TargetType>
-                </Target>
-                <BonusType>Flat</BonusType>
-                <ValueType>Special</ValueType>
-                <SpecialValue>
-                    <Special>StatCalc</Special>
-                    <ValueParam>0</ValueParam>
-                    <ValueParam>5</ValueParam>
-                    <StringParam>WealthNet</StringParam>
-                </SpecialValue>
-            </Modifier>
-        </Triggers>
-        <Prerequ>
-            <HasNumCoreColonies>7</HasNumCoreColonies>
-        </Prerequ>
-        <Preclusions>
-            <HasNumCoreColonies>14</HasNumCoreColonies>
-        </Preclusions>
-    </Improvement>
-    <Improvement>
-        <InternalName>AidEconomy4</InternalName>
-        <DisplayName>AidEconomy4_Name</DisplayName>
-        <ShortDescription>AidEconomy4_ShortDec</ShortDescription>
-        <Description>AidEconomy4_Dec</Description>
-        <Icon>Economy_Build.png</Icon>
-        <BuildIcon>Economy_Build_Build.png</BuildIcon>
-        <ListIcon>Economy_Build_Icon.png</ListIcon>
-        <ImprovementType>DurationalProject</ImprovementType>
-        <PlacementType>Special</PlacementType>
-        <Stats>
-            <EffectType>ManufacturingCost</EffectType>
-            <Scope>Queue</Scope>
-            <Target>
-                <TargetType>Improvement</TargetType>
-            </Target>
-            <BonusType>Flat</BonusType>
-            <Value>125</Value>
+            <Value>70</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -11876,10 +12229,57 @@
             </Modifier>
         </Triggers>
         <Prerequ>
-            <HasNumCoreColonies>14</HasNumCoreColonies>
+            <HasNumCoreColonies>12</HasNumCoreColonies>
         </Prerequ>
         <Preclusions>
-            <HasNumCoreColonies>29</HasNumCoreColonies>
+            <HasNumCoreColonies>20</HasNumCoreColonies>
+        </Preclusions>
+    </Improvement>
+    <Improvement>
+        <InternalName>AidEconomy4</InternalName>
+        <DisplayName>AidEconomy4_Name</DisplayName>
+        <ShortDescription>AidEconomy4_ShortDec</ShortDescription>
+        <Description>AidEconomy4_Dec</Description>
+        <Icon>Economy_Build.png</Icon>
+        <BuildIcon>Economy_Build_Build.png</BuildIcon>
+        <ListIcon>Economy_Build_Icon.png</ListIcon>
+        <ImprovementType>DurationalProject</ImprovementType>
+        <PlacementType>Special</PlacementType>
+        <Stats>
+            <EffectType>ManufacturingCost</EffectType>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Improvement</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>85</Value>
+        </Stats>
+        <Triggers>
+            <OnEvent>OnConstructImprovment</OnEvent>
+            <Target>
+                <TargetType>Faction</TargetType>
+            </Target>
+            <Lifetime>Instant</Lifetime>
+            <Modifier>
+                <EffectType>Credits</EffectType>
+                <Target>
+                    <TargetType>Faction</TargetType>
+                </Target>
+                <BonusType>Flat</BonusType>
+                <ValueType>Special</ValueType>
+                <SpecialValue>
+                    <Special>StatCalc</Special>
+                    <ValueParam>0</ValueParam>
+                    <ValueParam>4</ValueParam>
+                    <StringParam>WealthNet</StringParam>
+                </SpecialValue>
+            </Modifier>
+        </Triggers>
+        <Prerequ>
+            <HasNumCoreColonies>20</HasNumCoreColonies>
+        </Prerequ>
+        <Preclusions>
+            <HasNumCoreColonies>40</HasNumCoreColonies>
         </Preclusions>
     </Improvement>
     <Improvement>
@@ -11899,7 +12299,7 @@
                 <TargetType>Improvement</TargetType>
             </Target>
             <BonusType>Flat</BonusType>
-            <Value>150</Value>
+            <Value>100</Value>
         </Stats>
         <Triggers>
             <OnEvent>OnConstructImprovment</OnEvent>
@@ -11917,13 +12317,13 @@
                 <SpecialValue>
                     <Special>StatCalc</Special>
                     <ValueParam>0</ValueParam>
-                    <ValueParam>3</ValueParam>
+                    <ValueParam>2</ValueParam>
                     <StringParam>WealthNet</StringParam>
                 </SpecialValue>
             </Modifier>
         </Triggers>
         <Prerequ>
-            <HasNumCoreColonies>29</HasNumCoreColonies>
+            <HasNumCoreColonies>40</HasNumCoreColonies>
         </Prerequ>
     </Improvement>
     <Improvement>
